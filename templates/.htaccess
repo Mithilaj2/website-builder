@@ -1,0 +1,7 @@
+# Normally the project-root .htaccess routes every request into public/, so this folder is never
+# served (and /templates is a builder page). If mod_rewrite is unavailable, deny direct access.
+<IfModule !mod_rewrite.c>
+    Require all denied
+</IfModule>
+Options -Indexes
+DirectorySlash Off

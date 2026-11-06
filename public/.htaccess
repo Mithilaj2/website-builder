@@ -1,0 +1,14 @@
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Serve existing files (assets, uploads) directly; everything else goes to the front controller.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L,QSA]
+</IfModule>
+
+<FilesMatch "\.(env|log|sql|ini|lock|md)$">
+    Require all denied
+</FilesMatch>
