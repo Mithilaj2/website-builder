@@ -108,7 +108,7 @@ Every layout, partial and section file receives:
 | `url('slug')` / `href($link)` / `hasLink($link)` / `linkAttrs($link)` | page URLs and link fields (`page:slug`, https, #anchor, mailto:, tel:) |
 | `site('key', $default)` / `setting('group', 'key')` / `social()` / `logo()` | site details |
 | `icon('bi-briefcase')` | a Bootstrap icon |
-| `formAction('contact')` / `formGuard()` / `formsEnabled()` | public forms. In the builder preview forms are shown but disabled; they work on the published site (Phase 4) |
+| `formAction('contact')` / `formGuard()` / `formsEnabled()` / `formStatus('contact')` | public forms. A form posts to `formAction()`, must print `formGuard()` (signed token, honeypot, return page), and should show `formStatus()` (`['status' => 'sent'\|'error', 'message' => …]`) after the redirect. Give the form heading `id="contact-form"` so the redirect lands on it. In the builder preview, forms are shown but disabled |
 
 ## Section types
 

@@ -19,11 +19,20 @@ $(function () {
   $('#btnNewSite').on('click', function () {
     $form[0].reset();
     WB.clearErrors($form);
+    $form.find('.new-client').addClass('d-none');
+    $form.find('[name=client_mode]').val('existing');
     $form.find('[name=template_id]').val('');
     $('#templateChoices').html('<div class="col-12 text-muted small">Choose a category to see its templates.</div>');
     bootstrap.Modal.getOrCreateInstance($modal[0]).show();
   });
   if (new URLSearchParams(location.search).get('new') === '1') $('#btnNewSite').trigger('click');
+
+  $form.find('[name=client_id]').on('change', function () {
+    const isNew = this.value === '__new';
+    $form.find('.new-client').toggleClass('d-none', !isNew);
+    $form.find('[name=client_mode]').val(isNew ? 'new' : 'existing');
+    if (isNew) $form.find('[name=new_business_name]').trigger('focus');
+  });
 
   $('#newSiteCategory').on('change', function () {
     const cat = $(this).val();

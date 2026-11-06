@@ -48,6 +48,18 @@ These must be writable by PHP (755 for folders is usually enough on cPanel):
 2. Go to **Templates → Scan folders** and click **Register** for each bundled template (e.g. *Meridian Corporate*).
 3. Open each template, check its live preview, and click **Activate**.
 
+## 6. QA access to generated websites
+
+Generated websites are real, standalone sites in `generated_websites/`. On the builder server they are password-protected for the team.
+
+1. Open **Settings** (Super Admin). The QA username is `qa`; the password is shown there and can be regenerated.
+2. **Layout B** (project inside `public_html`): nothing else to do. Generated sites open at `https://your-builder-address/generated_websites/site_…/`.
+3. **Layout A** (document root = `public/`): create a subdomain (e.g. `qa.builder.yourdomain.com`) whose document root is the `generated_websites` folder, then enter its address under **Settings → Generated websites URL**.
+
+The generator's website checks use this address and password. If the address cannot be reached, generation still completes: the pages are checked by rendering instead, and the log says so.
+
+**PHP code cache:** if your PHP is configured with `opcache.validate_timestamps=0`, restart PHP (cPanel → MultiPHP Manager / PHP-FPM) after regenerating a website, or set the value to 1.
+
 ## Troubleshooting
 
 | Symptom | Fix |
@@ -61,5 +73,8 @@ These must be writable by PHP (755 for folders is usually enough on cPanel):
 
 ```bash
 php -S 127.0.0.1:8080 -t public tools/dev-router.php
+php -S 127.0.0.1:8082 -t generated_websites tools/dev-sites-router.php   # serves generated websites
 php tests/phase1_http_test.php http://127.0.0.1:8080 info@channelsoftech.com 'YourPassword'
+php tests/phase2_http_test.php http://127.0.0.1:8080 info@channelsoftech.com 'YourPassword'
+php tests/phase3_http_test.php http://127.0.0.1:8080 info@channelsoftech.com 'YourPassword' http://127.0.0.1:8082 "$(pwd)"
 ```

@@ -38,7 +38,7 @@ final class PreviewController extends SiteController
         $demo = is_file("$dir/demo.json") ? (json_decode((string) file_get_contents("$dir/demo.json"), true) ?: []) : [];
         $seed = Seeder::build($manifest, new SectionTypes(RUNTIME_PATH . '/section-types', $dir, $manifest), $demo);
         $id = (int) $tpl['id'];
-        $renderer = new Renderer(ArraySource::fromSeed($seed), $dir, $manifest, SiteService::previewUrls("templates/$id/preview", $id, "templates/$id/preview-media"), RUNTIME_PATH . '/fonts', true);
+        $renderer = new Renderer(ArraySource::fromSeed($seed), $dir, $manifest, SiteService::previewUrls("templates/$id/preview", $id, "templates/$id/preview-media"), ['fonts' => RUNTIME_PATH . '/fonts', 'lib' => RUNTIME_PATH . '/assets/lib'], true);
         $this->output($renderer->render($request->str('page')));
     }
 

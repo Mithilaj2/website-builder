@@ -4,12 +4,76 @@
 |---|---|---|
 | 0 Architecture | ✅ Approved | `docs/ARCHITECTURE.md` |
 | 1 Core platform | ✅ Complete | PR #1 |
-| 2 Template engine | ✅ Complete, awaiting review | See below |
-| 3 Website generator | ⏳ Next | 8-step wizard around the Phase 2 workspace, folder generation, configuration files, staged generation with retry |
-| 4 Generated site CMS | ⏳ Not started | |
+| 2 Template engine | ✅ Complete | PR #2 |
+| 3 Website generator | ✅ Complete, awaiting review | See below |
+| 4 Generated site CMS | ⏳ Next | Website's own /admin: login, pages, sections, media, menus, SEO, enquiries + email (SMTP), settings |
 | 5 Payment integration | ⏳ Not started | No sandbox account yet. Razorpay test-mode keys are free on signup. No gateway is marked complete until a sandbox payment is verified on the server |
 | 6 Export & deployment | ⏳ Not started | Independence test on a second cPanel account to be run by Channel Softech |
 | 7 Template library | ⏳ Not started | Order: Business, Education, Hospital, E-commerce, then the rest |
+
+## Phase 3: Website generator
+
+### Delivered
+- **8-step creation wizard** (spec §5), on the website page with a stepper, Back/Next buttons and progress saved per website:
+  1. **Client & website:** pick a client or create one inline (atomic: no orphan client if validation fails); name, domain, description, category.
+  2. **Template:** cards with live preview. Switching template re-seeds pages and sections from the new template, keeps media, site details, logo and favicon, and takes a full backup first.
+  3. **Pages**, 4. **Sections**, 5. **Media**, 6. **Theme & site details:** the Phase 2 workspace, split into separate steps.
+  7. **Payments:**
+     - choose online payment yes/no, then the gateway (Razorpay, PhonePe, PayU, Cashfree, Stripe) with the credentials each needs, and test or live mode
+     - credentials are never stored by the builder or exported (decision 22); they're entered in the website's own admin
+     - the payment flow itself is built in Phase 5
+  8. **Review & generate:**
+     - checklist: errors block generation, warnings don't; each item has a "Fix" link to its step
+     - preview at three widths
+     - Generate/Regenerate button with live step-by-step progress
+     - generation history; QA link and login
+     - status actions
+- **Staged generator** (spec §6/§17), with no cron: the browser runs one step per request, and every step is logged.
+  - **Steps:** validate → staging folder → copy engine → copy template → copy fonts/libraries → check tables → write config → verify files (checksums + `php -l` where `exec()` is allowed) → publish → website checks over HTTP → finish.
+  - **Safe failure:** any failure before "publish" removes the staging folder and leaves the existing website untouched. If the checks after publishing fail, the previous version is restored automatically (or, on a first generation, the broken code is removed). The website is marked *Generation Failed* with the exact step and error, and **Retry** resumes.
+  - **Concurrency:** a second generation of the same website is refused while one is running.
+  - **Uploads** are never touched. Each regeneration keeps the previous code in `storage/backups/sites/` (the 3 most recent are kept).
+- **Standalone website** (`generated_websites/site_NNNNNN_<slug>/`):
+  - front controller and clean URLs with `.htaccess`, plus a fallback `index.php?page=` when mod_rewrite is missing
+  - works at a domain root or in any subfolder
+  - its own `core/`, `theme/`, `assets/` (fonts and Bootstrap), `uploads/`, `config/` (app, database, payment), `storage/`, `VERSION` and `generation.json` (file checksums)
+  - `.htaccess` protection for `config/`, `core/`, `storage/` and template source files; PHP disabled in `uploads/`, and SVGs sandboxed
+- **Contact forms work** on generated sites. Submissions are stored in the site's own database, with these protections (no session cookie on public pages):
+  - signed timestamp token: rejects forged posts and posts sent less than 3 seconds after page load
+  - honeypot field
+  - per-IP rate limit
+  - server-side validation
+
+  Visitors see a thank-you or error message. Email notifications come with the site admin in Phase 4.
+- **Statuses** (spec §14): Draft → Configuration Pending (reaching the review step) → Generating → Generated / Generation Failed. Then manually Testing → Ready for Deployment → Deployed (content locked in the builder; no regeneration or deletion) → Archived / restore.
+- **Settings** (Super Admin): the QA address for generated websites and a generated QA password. On the builder server, generated sites are protected with HTTP Basic Auth (`generated_websites/.htaccess` + `storage/qa/.htpasswd`). The generator's website checks log in with it.
+
+### Tests run
+- `tests/phase3_http_test.php`, **79 end-to-end checks**, covering:
+  - QA settings; website + new client in one step
+  - all 8 steps rendering; payment validation; the checklist blocking generation
+  - full generation (all 11 steps); the standalone site serving every page by clean URL, 404 for unknown pages, assets loading, 6 private paths blocked
+  - contact form: bot-speed post rejected, valid enquiry stored, invalid email rejected
+  - regeneration keeping uploads
+  - **deliberately broken template:** generation fails at the website checks, the previous version is restored and keeps serving, the website is marked failed, and retry succeeds after the fix
+  - concurrent generation refused; viewer permissions
+  - every status transition, with locks while deployed
+  - template switch keeping media and details
+  - delete removing the generated site
+- **Independence check:** a generated site was copied to an unrelated folder (no builder files) and run on its own. Every page returned 200, assets loaded, the contact form stored submissions, and no builder paths are referenced anywhere in its code.
+- **Apache** (cPanel-style subfolder install): Phase 3 78/78, Phase 1 80/80, Phase 2 99/99. Also verified there:
+  - the QA site returns 401 without the password and 401 with a wrong one
+  - PHP placed in a generated site's `uploads/` returns 403
+  - builder routes are unaffected
+- Headless Chrome: all wizard steps and the live generation progress, with no JavaScript errors.
+
+### Bugs found and fixed during testing
+- **PHP code cache (OPcache) can serve the previously compiled template files for a few seconds after regeneration.** The checks were passing against old code, so a broken template went undetected in testing. The generator now discards PHP's cached copies of the published files and waits out the cache's recheck interval before checking. Note for hosting: on servers that never recheck files (`opcache.validate_timestamps=0`), a PHP restart is needed after regeneration. Documented in `INSTALL.md`.
+- Two stray closing tags in the wizard view pushed steps 7–8 out of the tab container. Caught by the browser check.
+- Starting a generation while one was running returned a generic 422; it now returns a clear 409 "already in progress".
+
+### Notes
+- On the builder server, a generated site's `config/database.php` points at the builder database with its own table prefix (so the QA copy works). The Phase 6 export replaces this with the installer, so builder credentials never leave the server.
 
 ## Phase 2: Template engine
 
@@ -124,6 +188,9 @@
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-06 (Phase 3)
+- Wizard, staged generator, standalone generated websites, QA access and statuses built and tested (see above).
 
 ### 2026-11-06 (Phase 2)
 - Template engine, site runtime, website workspace and Business Template 01 built and tested (see above).

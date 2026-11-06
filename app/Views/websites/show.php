@@ -13,6 +13,8 @@ $config = [
     'themeDefaults' => $themeDefaults,
     'pageTypes' => $pageTypes,
     'siteCode' => $w['site_code'],
+    'step' => $currentStep,
+    'status' => $w['status'],
 ];
 ?>
 <span id="workspaceConfig" hidden data-config='<?= e(json_encode($config, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)) ?>'></span>
@@ -25,7 +27,6 @@ $config = [
   <div class="ms-auto d-flex gap-2">
     <a class="btn btn-outline-primary btn-sm" href="<?= e(url('websites/' . $w['id'] . '/preview')) ?>" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>Open preview</a>
     <?php if ($editable): ?>
-      <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#siteInfoModal"><i class="bi bi-pencil me-1"></i>Details</button>
       <button class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteSiteModal"><i class="bi bi-trash me-1"></i>Delete</button>
     <?php endif; ?>
   </div>
@@ -34,19 +35,82 @@ $config = [
   <div class="alert alert-info small">This website is <?= e(str_replace('_', ' ', $w['status'])) ?>. Its content is managed from the website's own admin panel and can no longer be changed here.</div>
 <?php endif; ?>
 
-<ul class="nav nav-tabs mb-3" role="tablist">
-  <li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tabContent" type="button" role="tab"><i class="bi bi-layout-text-sidebar me-1"></i>Pages &amp; sections</button></li>
-  <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabMedia" type="button" role="tab" id="mediaTabBtn"><i class="bi bi-images me-1"></i>Media</button></li>
-  <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabTheme" type="button" role="tab"><i class="bi bi-palette me-1"></i>Theme</button></li>
-  <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabDetails" type="button" role="tab"><i class="bi bi-card-text me-1"></i>Site details</button></li>
-  <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tabPreview" type="button" role="tab" id="previewTabBtn"><i class="bi bi-display me-1"></i>Preview</button></li>
-</ul>
+<?php
+$steps = [1 => ['Client & website', 'bi-person-vcard'], 2 => ['Template', 'bi-layout-text-window-reverse'], 3 => ['Pages', 'bi-files'], 4 => ['Sections', 'bi-layout-text-sidebar'],
+    5 => ['Media', 'bi-images'], 6 => ['Theme & details', 'bi-palette'], 7 => ['Payments', 'bi-credit-card'], 8 => ['Review & generate', 'bi-rocket-takeoff']];
+?>
+<ol class="wb-stepper mb-3" role="tablist">
+  <?php foreach ($steps as $n => [$label, $icon]): ?>
+    <li class="<?= $n <= (int) $w['wizard_step'] ? 'visited' : '' ?>">
+      <button type="button" data-bs-toggle="tab" data-bs-target="#step<?= $n ?>" data-step="<?= $n ?>" role="tab" aria-controls="step<?= $n ?>">
+        <span class="num"><?= $n ?></span><span class="lbl"><?= e($label) ?></span>
+      </button>
+    </li>
+  <?php endforeach; ?>
+</ol>
 
 <div class="tab-content">
-  <!-- ============================== PAGES & SECTIONS -->
-  <div class="tab-pane fade show active" id="tabContent" role="tabpanel">
+  <!-- ============================== 1 CLIENT & WEBSITE -->
+  <div class="tab-pane fade" id="step1" role="tabpanel">
     <div class="row g-3">
-      <div class="col-lg-4">
+      <div class="col-lg-5">
+        <div class="card h-100"><div class="card-header d-flex align-items-center">Client<?php if (can('clients.manage')): ?><a class="btn btn-sm btn-light ms-auto" href="<?= e(url('clients/' . $w['client_id'])) ?>"><i class="bi bi-pencil"></i> Edit client</a><?php endif; ?></div>
+          <div class="card-body"><dl class="mb-0">
+            <dt class="small text-muted">Business name</dt><dd><?= e($client['business_name']) ?></dd>
+            <dt class="small text-muted">Contact person</dt><dd><?= e($client['contact_person'] ?: '—') ?></dd>
+            <dt class="small text-muted">Email</dt><dd><?= e($client['email'] ?: '—') ?></dd>
+            <dt class="small text-muted">Phone</dt><dd><?= e($client['phone'] ?: '—') ?></dd>
+            <dt class="small text-muted">Address</dt><dd class="mb-0" style="white-space:pre-line"><?= e($client['address'] ?: '—') ?></dd>
+          </dl></div></div>
+      </div>
+      <div class="col-lg-7">
+        <div class="card h-100"><div class="card-header">Website</div><div class="card-body">
+          <form data-ajax action="<?= e(url('websites/' . $w['id'])) ?>" novalidate>
+            <?= csrf_field() ?>
+            <div class="alert alert-danger form-alert d-none py-2 small"></div>
+            <div class="row g-3">
+              <div class="col-md-6"><label class="form-label">Website name *</label><input class="form-control" name="name" value="<?= e($w['name']) ?>" maxlength="190" required <?= $editable ? '' : 'disabled' ?>></div>
+              <div class="col-md-6"><label class="form-label">Domain (optional)</label><input class="form-control" name="domain" value="<?= e($w['domain']) ?>" maxlength="190" placeholder="example.com" <?= $editable ? '' : 'disabled' ?>></div>
+              <div class="col-12"><label class="form-label">Description</label><textarea class="form-control" name="description" rows="3" maxlength="1000" <?= $editable ? '' : 'disabled' ?>><?= e($w['description']) ?></textarea></div>
+              <div class="col-md-6"><label class="form-label">Category</label><input class="form-control" value="<?= e($w['category_name']) ?>" disabled></div>
+              <div class="col-md-6"><label class="form-label">Website code</label><input class="form-control" value="<?= e($w['site_code']) ?>" disabled></div>
+            </div>
+            <?php if ($editable): ?><button class="btn btn-primary mt-3" type="submit">Save</button><?php endif; ?>
+          </form>
+          <dl class="row small text-muted mt-3 mb-0">
+            <dt class="col-sm-3">Folder</dt><dd class="col-sm-9"><code><?= e($w['folder_path']) ?></code></dd>
+            <dt class="col-sm-3">Database tables</dt><dd class="col-sm-9"><code><?= e($w['table_prefix']) ?>*</code> in the builder database (a separate database on the client's hosting)</dd>
+          </dl>
+        </div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================== 2 TEMPLATE -->
+  <div class="tab-pane fade" id="step2" role="tabpanel">
+    <div class="row g-3" id="templateStep">
+      <?php foreach ($templates as $t): $current = (int) $t['id'] === (int) $w['template_id']; ?>
+        <div class="col-md-6 col-xl-4">
+          <div class="card h-100 <?= $current ? 'border-primary border-2' : '' ?>">
+            <?php if ($t['preview_image']): ?><img src="<?= e(asset($t['preview_image'])) ?>" class="template-preview" alt=""><?php else: ?><div class="template-preview d-grid" style="place-items:center"><i class="bi bi-image fs-2 text-muted"></i></div><?php endif; ?>
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex align-items-center gap-2 mb-1"><span class="fw-semibold"><?= e($t['name']) ?></span><?= $current ? '<span class="badge text-bg-primary">Current</span>' : '' ?></div>
+              <small class="text-muted mb-3"><?= e(mb_substr((string) $t['description'], 0, 160)) ?></small>
+              <div class="mt-auto d-flex gap-2">
+                <a class="btn btn-sm btn-light" href="<?= e(url('templates/' . $t['id'] . '/preview')) ?>" target="_blank" rel="noopener"><i class="bi bi-eye"></i> Live preview</a>
+                <?php if (!$current && $editable): ?><button class="btn btn-sm btn-outline-primary ms-auto" data-switch-template="<?= (int) $t['id'] ?>" data-name="<?= e($t['name']) ?>">Switch to this template</button><?php endif; ?>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php endforeach; ?>
+      <?php if (count($templates) < 2): ?><div class="col-12 small text-muted">This category has one active template so far. More are added in the template-library phase.</div><?php endif; ?>
+    </div>
+  </div>
+
+  <!-- ============================== 3 PAGES -->
+  <div class="tab-pane fade" id="step3" role="tabpanel">
+    <div class="row g-3"><div class="col-xl-8">
         <div class="card">
           <div class="card-header d-flex align-items-center">Pages
             <?php if ($editable): ?><button class="btn btn-primary btn-sm ms-auto" id="btnAddPage"><i class="bi bi-plus-lg"></i> Add page</button><?php endif; ?>
@@ -54,8 +118,17 @@ $config = [
           <ul class="list-group list-group-flush" id="pageList"><li class="list-group-item text-center py-4"><div class="spinner-border spinner-border-sm text-primary"></div></li></ul>
           <?php if ($editable): ?><div class="card-footer bg-white small text-muted"><i class="bi bi-grip-vertical"></i> Drag pages to change the menu order.</div><?php endif; ?>
         </div>
-      </div>
-      <div class="col-lg-8">
+    </div><div class="col-xl-4">
+      <div class="card"><div class="card-body small text-muted">
+        <p><strong>The template's default pages are already here.</strong> Add or remove pages, rename them, change their URL, choose which appear in the menu, set the homepage and drag to reorder: the menu follows this order.</p>
+        <p class="mb-0">Use <em>Edit page &amp; SEO</em> for each page's search-engine title, description and keywords. Inactive pages are not published.</p>
+      </div></div>
+    </div></div>
+  </div>
+
+  <!-- ============================== 4 SECTIONS -->
+  <div class="tab-pane fade" id="step4" role="tabpanel">
+    <div class="d-flex align-items-center gap-2 mb-3"><label class="form-label m-0" for="sectionsPageSelect">Page</label><select class="form-select w-auto" id="sectionsPageSelect"></select></div>
         <div class="card">
           <div class="card-header d-flex flex-wrap align-items-center gap-2">
             <span id="sectionsTitle">Sections</span>
@@ -75,18 +148,18 @@ $config = [
           </div>
           <ul class="list-group list-group-flush" id="sectionList"><li class="list-group-item text-muted small py-4 text-center">Select a page.</li></ul>
         </div>
-      </div>
-    </div>
   </div>
 
-  <!-- ============================== MEDIA -->
-  <div class="tab-pane fade" id="tabMedia" role="tabpanel">
+  <!-- ============================== 5 MEDIA -->
+  <div class="tab-pane fade" id="step5" role="tabpanel">
     <div class="card"><div class="card-body" id="mediaManager"></div></div>
   </div>
 
-  <!-- ============================== THEME -->
-  <div class="tab-pane fade" id="tabTheme" role="tabpanel">
-    <form id="themeForm" action="<?= e(url('websites/' . $w['id'] . '/settings/theme')) ?>" novalidate>
+  <!-- ============================== 6 THEME & DETAILS -->
+  <div class="tab-pane fade" id="step6" role="tabpanel">
+    <ul class="nav nav-pills mb-3 gap-1"><li class="nav-item"><button class="nav-link active py-1" data-bs-toggle="pill" data-bs-target="#subTheme" type="button">Theme</button></li><li class="nav-item"><button class="nav-link py-1" data-bs-toggle="pill" data-bs-target="#subDetails" type="button">Site details</button></li></ul>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="subTheme"><form id="themeForm" action="<?= e(url('websites/' . $w['id'] . '/settings/theme')) ?>" novalidate>
       <?= csrf_field() ?>
       <div class="row g-3">
         <div class="col-xl-7">
@@ -119,12 +192,8 @@ $config = [
           </div></div>
         </div>
       </div>
-    </form>
-  </div>
-
-  <!-- ============================== SITE DETAILS -->
-  <div class="tab-pane fade" id="tabDetails" role="tabpanel">
-    <form id="detailsForm" data-ajax action="<?= e(url('websites/' . $w['id'] . '/settings/details')) ?>" novalidate>
+    </form></div>
+      <div class="tab-pane fade" id="subDetails"><form id="detailsForm" data-ajax action="<?= e(url('websites/' . $w['id'] . '/settings/details')) ?>" novalidate>
       <?= csrf_field() ?>
       <div class="alert alert-danger form-alert d-none py-2 small"></div>
       <div class="row g-3">
@@ -160,25 +229,121 @@ $config = [
           <?php if ($editable): ?><button class="btn btn-primary" type="submit">Save site details</button><?php endif; ?>
         </div>
       </div>
-    </form>
-  </div>
-
-  <!-- ============================== PREVIEW -->
-  <div class="tab-pane fade" id="tabPreview" role="tabpanel">
-    <div class="card">
-      <div class="card-header d-flex flex-wrap align-items-center gap-2">
-        <select class="form-select form-select-sm w-auto" id="previewPage" aria-label="Page to preview"></select>
-        <div class="btn-group btn-group-sm" role="group" aria-label="Device">
-          <button class="btn btn-outline-secondary active" data-device="100%" title="Desktop"><i class="bi bi-display"></i></button>
-          <button class="btn btn-outline-secondary" data-device="820px" title="Tablet"><i class="bi bi-tablet"></i></button>
-          <button class="btn btn-outline-secondary" data-device="390px" title="Mobile"><i class="bi bi-phone"></i></button>
-        </div>
-        <button class="btn btn-light btn-sm" id="previewReload"><i class="bi bi-arrow-clockwise"></i> Reload</button>
-        <a class="btn btn-light btn-sm ms-auto" id="previewOpen" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Open in new tab</a>
-      </div>
-      <div class="preview-stage"><iframe id="previewFrame" title="Website preview" loading="lazy"></iframe></div>
+    </form></div>
     </div>
   </div>
+
+  <!-- ============================== 7 PAYMENTS -->
+  <div class="tab-pane fade" id="step7" role="tabpanel">
+    <div class="row g-3"><div class="col-xl-7">
+      <div class="card"><div class="card-header">Online payment</div><div class="card-body">
+        <form id="paymentForm" data-ajax action="<?= e(url('websites/' . $w['id'] . '/payments')) ?>" novalidate>
+          <?= csrf_field() ?>
+          <div class="alert alert-danger form-alert d-none py-2 small"></div>
+          <label class="form-label d-block">Enable online payment?</label>
+          <div class="btn-group mb-3" role="group">
+            <input type="radio" class="btn-check" name="enabled" id="payNo" value="0" <?= empty($payments['enabled']) ? 'checked' : '' ?> <?= $editable ? '' : 'disabled' ?>><label class="btn btn-outline-primary" for="payNo">No</label>
+            <input type="radio" class="btn-check" name="enabled" id="payYes" value="1" <?= !empty($payments['enabled']) ? 'checked' : '' ?> <?= $editable ? '' : 'disabled' ?>><label class="btn btn-outline-primary" for="payYes">Yes</label>
+          </div>
+          <div id="payFields" class="<?= empty($payments['enabled']) ? 'd-none' : '' ?>">
+            <div class="row g-3">
+              <?php foreach ($gateways as $k => $g): ?>
+                <div class="col-sm-6"><input type="radio" class="btn-check" name="gateway" id="gw_<?= e($k) ?>" value="<?= e($k) ?>" <?= ($payments['gateway'] ?? '') === $k ? 'checked' : '' ?> <?= $editable ? '' : 'disabled' ?>>
+                  <label class="btn btn-outline-secondary w-100 text-start gateway-choice" for="gw_<?= e($k) ?>"><span class="fw-semibold d-block"><?= e($g['name']) ?></span><small class="d-block">Needs: <?= e(implode(', ', $g['fields'])) ?></small><?php if ($g['note']): ?><small class="d-block opacity-75 mt-1"><?= e($g['note']) ?></small><?php endif; ?></label></div>
+              <?php endforeach; ?>
+            </div>
+            <label class="form-label mt-3">Mode</label>
+            <select class="form-select w-auto" name="mode" <?= $editable ? '' : 'disabled' ?>><option value="test" <?= ($payments['mode'] ?? 'test') === 'test' ? 'selected' : '' ?>>Test mode</option><option value="live" <?= ($payments['mode'] ?? '') === 'live' ? 'selected' : '' ?>>Live mode</option></select>
+          </div>
+          <?php if ($editable): ?><div class="mt-3"><button class="btn btn-primary" type="submit">Save payment settings</button></div><?php endif; ?>
+        </form>
+      </div></div>
+    </div><div class="col-xl-5">
+      <div class="card"><div class="card-body small">
+        <p class="fw-semibold mb-2"><i class="bi bi-shield-lock me-1"></i>How gateway credentials are handled</p>
+        <ul class="mb-0 text-muted">
+          <li>The builder records the gateway and mode only. API keys and secrets are <strong>never</strong> written into website files or exports.</li>
+          <li>After deployment, the website owner enters the keys in the website's own admin panel, where they are stored encrypted with that website's key.</li>
+          <li>The payment flow itself (checkout, server-side verification, webhooks, success and failure pages) is built in <strong>Phase 5</strong>, starting with Razorpay. No gateway is marked as working until a real test payment has been verified.</li>
+        </ul>
+      </div></div>
+    </div></div>
+  </div>
+
+  <!-- ============================== 8 REVIEW & GENERATE -->
+  <div class="tab-pane fade" id="step8" role="tabpanel">
+    <div class="row g-3">
+      <div class="col-xl-5">
+        <div class="card mb-3" id="generateCard">
+          <div class="card-header d-flex align-items-center">Generate website <span class="ms-auto"><?= status_badge($w['status']) ?></span></div>
+          <div class="card-body">
+            <p class="small text-muted">Builds the complete, independent website in <code><?= e($w['folder_path']) ?></code>: website engine, template, fonts, configuration, then checks every page over HTTP. Uploads are never touched; on regeneration the previous version is kept as a backup and restored automatically if the checks fail.</p>
+            <?php if (can('websites.manage') && in_array($w['status'], ['draft', 'config_pending', 'generated', 'testing', 'ready', 'failed'], true)): ?>
+              <button class="btn btn-primary" id="btnGenerate" data-busy-text="Starting…"><i class="bi bi-rocket-takeoff me-1"></i><?= in_array($w['status'], ['generated', 'testing', 'ready'], true) ? 'Regenerate website' : 'Generate website' ?></button>
+            <?php elseif ($w['status'] === 'deployed'): ?>
+              <div class="alert alert-info small mb-0">This website is deployed. Code updates are delivered as update packages (Phase 6).</div>
+            <?php endif; ?>
+            <div id="genProgress" class="mt-3 d-none">
+              <div class="progress mb-2" role="progressbar" aria-label="Generation progress"><div class="progress-bar progress-bar-striped progress-bar-animated" style="width:0%"></div></div>
+              <ol class="gen-steps list-unstyled small mb-0"></ol>
+              <div class="gen-actions mt-2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header d-flex align-items-center">Checklist <button class="btn btn-sm btn-light ms-auto" id="checklistReload" title="Re-check"><i class="bi bi-arrow-clockwise"></i></button></div>
+          <ul class="list-group list-group-flush" id="checklist"><li class="list-group-item text-center py-3"><div class="spinner-border spinner-border-sm text-primary"></div></li></ul>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header">Status</div>
+          <div class="card-body">
+            <div class="small text-muted mb-2">After generation: test the website, mark it ready, then deployed. A deployed website's content is managed from its own admin panel.</div>
+            <div class="d-flex flex-wrap gap-2">
+              <?php
+              $actions = [
+                  'testing' => ['Mark as Testing', ['generated', 'ready'], 'outline-primary'],
+                  'ready' => ['Ready for deployment', ['generated', 'testing'], 'outline-primary'],
+                  'deployed' => ['Mark as Deployed', ['ready'], 'success'],
+                  'archived' => ['Archive', ['draft', 'config_pending', 'generated', 'testing', 'ready', 'deployed', 'failed'], 'outline-secondary'],
+                  'restore' => ['Restore from archive', ['archived'], 'outline-primary'],
+              ];
+              $shown = 0;
+              foreach ($actions as $to => [$label, $from, $cls]):
+                  if (!in_array($w['status'], $from, true) || !can('websites.manage')) { continue; } $shown++; ?>
+                <button class="btn btn-sm btn-<?= $cls ?>" data-post="<?= e(url('websites/' . $w['id'] . '/status?status=' . $to)) ?>" data-confirm="<?= e($to === 'deployed' ? 'Mark this website as deployed? Its content will be locked in the builder.' : 'Change the status to “' . $label . '”?') ?>" data-danger="false" data-confirm-text="<?= e($label) ?>"><?= e($label) ?></button>
+              <?php endforeach; ?>
+              <?php if (!$shown): ?><span class="small text-muted">Generate the website first.</span><?php endif; ?>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Generation history</div>
+          <div id="genHistory" class="small"></div>
+        </div>
+      </div>
+      <div class="col-xl-7">
+        <div class="card">
+          <div class="card-header d-flex flex-wrap align-items-center gap-2">
+            <select class="form-select form-select-sm w-auto" id="previewPage" aria-label="Page to preview"></select>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Device">
+              <button class="btn btn-outline-secondary active" data-device="100%" title="Desktop"><i class="bi bi-display"></i></button>
+              <button class="btn btn-outline-secondary" data-device="820px" title="Tablet"><i class="bi bi-tablet"></i></button>
+              <button class="btn btn-outline-secondary" data-device="390px" title="Mobile"><i class="bi bi-phone"></i></button>
+            </div>
+            <button class="btn btn-light btn-sm" id="previewReload" title="Reload"><i class="bi bi-arrow-clockwise"></i></button>
+            <a class="btn btn-light btn-sm ms-auto" id="previewOpen" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Open</a>
+          </div>
+          <div class="preview-stage"><iframe id="previewFrame" title="Website preview" loading="lazy"></iframe></div>
+          <div class="card-footer bg-white small" id="qaInfo"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex justify-content-between mt-3 wizard-nav">
+  <button class="btn btn-light" id="wizPrev"><i class="bi bi-arrow-left me-1"></i>Back</button>
+  <button class="btn btn-primary" id="wizNext">Next<i class="bi bi-arrow-right ms-1"></i></button>
 </div>
 
 <datalist id="pageLinkList"></datalist>
@@ -262,24 +427,6 @@ $config = [
 </div></div></div>
 
 <?php if ($editable): ?>
-<div class="modal fade" id="siteInfoModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog"><div class="modal-content">
-  <form data-ajax action="<?= e(url('websites/' . $w['id'])) ?>" novalidate>
-    <?= csrf_field() ?>
-    <div class="modal-header"><h5 class="modal-title">Website details</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
-    <div class="modal-body">
-      <div class="alert alert-danger form-alert d-none py-2 small"></div>
-      <div class="mb-3"><label class="form-label">Website name *</label><input class="form-control" name="name" value="<?= e($w['name']) ?>" maxlength="190" required></div>
-      <div class="mb-3"><label class="form-label">Domain</label><input class="form-control" name="domain" value="<?= e($w['domain']) ?>" maxlength="190"></div>
-      <div class="mb-3"><label class="form-label">Description</label><textarea class="form-control" name="description" rows="3" maxlength="1000"><?= e($w['description']) ?></textarea></div>
-      <dl class="row small mb-0 text-muted">
-        <dt class="col-4">Folder</dt><dd class="col-8"><code><?= e($w['folder_path']) ?></code></dd>
-        <dt class="col-4">Table prefix</dt><dd class="col-8"><code><?= e($w['table_prefix']) ?></code></dd>
-      </dl>
-    </div>
-    <div class="modal-footer"><button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button><button type="submit" class="btn btn-primary">Save</button></div>
-  </form>
-</div></div></div>
-
 <div class="modal fade" id="deleteSiteModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog"><div class="modal-content">
   <form data-ajax action="<?= e(url('websites/' . $w['id'] . '/delete')) ?>" novalidate>
     <?= csrf_field() ?>

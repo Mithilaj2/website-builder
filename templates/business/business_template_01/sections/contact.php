@@ -25,8 +25,11 @@ $map = (string) ($data['map_url'] ?? '');
       <?php if (!empty($data['show_form'])): ?>
       <div class="<?= !empty($data['show_details']) ? 'col-lg-7' : 'col-lg-8 mx-auto' ?>">
         <div class="mrd-card mrd-form-card">
-          <h3 class="mrd-card-title mb-4"><?= $view->e($data['form_heading'] ?? 'Send us a message') ?></h3>
-          <form class="mrd-form" method="post" action="<?= $view->formAction('contact') ?>" novalidate>
+          <h3 class="mrd-card-title mb-4" id="contact-form"><?= $view->e($data['form_heading'] ?? 'Send us a message') ?></h3>
+          <?php if ($st = $view->formStatus('contact')): ?>
+            <div class="mrd-form-alert is-<?= $view->e($st['status']) ?>" role="<?= $st['status'] === 'sent' ? 'status' : 'alert' ?>"><i class="bi <?= $st['status'] === 'sent' ? 'bi-check-circle-fill' : 'bi-exclamation-circle-fill' ?>"></i><?= $view->e($st['message']) ?></div>
+          <?php endif; ?>
+          <form class="mrd-form" method="post" action="<?= $view->formAction('contact') ?>">
             <?= $view->formGuard() ?>
             <fieldset<?= $view->formsEnabled() ? '' : ' disabled' ?>>
             <div class="row g-3">

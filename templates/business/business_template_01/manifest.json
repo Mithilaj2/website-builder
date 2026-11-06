@@ -2,11 +2,18 @@
   "id": "business_template_01",
   "name": "Meridian Corporate",
   "category": "business",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A confident, classic-modern corporate design: split hero with layered imagery and floating stat card, deep navy and amber palette, structured service cards, a numbers band and a dark four-column footer. Suits consultancies, firms, manufacturers and B2B companies.",
-  "libraries": ["bootstrap", "bootstrap-icons"],
-  "features": ["contact"],
-  "optional_features": ["blog"],
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "blog"
+  ],
   "theme": {
     "defaults": {
       "primary": "#12355B",
@@ -20,26 +27,134 @@
       "header_style": "sticky-light",
       "footer_style": "dark"
     },
-    "header_styles": { "sticky-light": "Sticky, white with top info bar", "minimal": "Minimal, no info bar" },
-    "footer_styles": { "dark": "Dark, four columns", "light": "Light, four columns" }
+    "header_styles": {
+      "sticky-light": "Sticky, white with top info bar",
+      "minimal": "Minimal, no info bar"
+    },
+    "footer_styles": {
+      "dark": "Dark, four columns",
+      "light": "Light, four columns"
+    }
   },
-  "section_types": ["hero", "page_banner", "about", "services", "features", "stats", "testimonials", "gallery", "team", "faq", "cta", "contact", "logos", "rich_text", "process", "pricing"],
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "pricing"
+  ],
   "page_types": {
-    "home": { "default_sections": ["hero", "logos", "about", "services", "stats", "features", "process", "testimonials", "cta"] },
-    "about": { "default_sections": ["page_banner", "about", "stats", "team", "cta"] },
-    "services": { "default_sections": ["page_banner", "services", "process", "pricing", "faq", "cta"] },
-    "gallery": { "default_sections": ["page_banner", "gallery", "cta"] },
-    "contact": { "default_sections": ["page_banner", "contact", "faq"] },
-    "legal": { "default_sections": ["page_banner", "rich_text"] },
-    "generic": { "default_sections": ["page_banner", "rich_text", "cta"] }
+    "home": {
+      "default_sections": [
+        "hero",
+        "logos",
+        "about",
+        "services",
+        "stats",
+        "features",
+        "process",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "team",
+        "cta"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "pricing",
+        "faq",
+        "cta"
+      ]
+    },
+    "gallery": {
+      "default_sections": [
+        "page_banner",
+        "gallery",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact",
+        "faq"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
   },
   "default_pages": [
-    { "title": "Home", "slug": "", "type": "home", "is_home": true },
-    { "title": "About Us", "slug": "about", "type": "about" },
-    { "title": "Services", "slug": "services", "type": "services" },
-    { "title": "Gallery", "slug": "gallery", "type": "gallery" },
-    { "title": "Contact Us", "slug": "contact", "type": "contact" },
-    { "title": "Privacy Policy", "slug": "privacy-policy", "type": "legal", "in_menu": false, "in_footer": true },
-    { "title": "Terms and Conditions", "slug": "terms-and-conditions", "type": "legal", "in_menu": false, "in_footer": true }
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About Us",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Gallery",
+      "slug": "gallery",
+      "type": "gallery"
+    },
+    {
+      "title": "Contact Us",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
   ]
 }
