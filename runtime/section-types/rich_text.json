@@ -1,0 +1,31 @@
+{
+  "type": "rich_text",
+  "label": "Text Block",
+  "icon": "bi-text-paragraph",
+  "description": "Free text: policies, articles, terms.",
+  "fields": [
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "max": 160,
+      "default": ""
+    },
+    {
+      "key": "content",
+      "label": "Content",
+      "type": "richtext",
+      "default": "<p>Write your content here.</p>"
+    },
+    {
+      "key": "width",
+      "label": "Width",
+      "type": "select",
+      "options": {
+        "narrow": "Narrow (easy reading)",
+        "wide": "Wide"
+      },
+      "default": "narrow"
+    }
+  ]
+}

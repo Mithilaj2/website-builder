@@ -32,16 +32,17 @@
   </div>
   <div class="col-lg-8">
     <div class="card mb-3">
-      <div class="card-header">Websites (<?= count($websites) ?>)</div>
+      <div class="card-header d-flex align-items-center">Websites (<?= count($websites) ?>)
+        <?php if (can('websites.manage') && $client['status'] === 'active'): ?><a class="btn btn-sm btn-primary ms-auto" href="<?= e(url('websites?new=1&client=' . $client['id'])) ?>"><i class="bi bi-plus-lg"></i> New website</a><?php endif; ?></div>
       <?php if (!$websites): ?>
-        <div class="empty-state"><i class="bi bi-globe2"></i>No websites for this client yet. The creation wizard arrives in Phase 3.</div>
+        <div class="empty-state"><i class="bi bi-globe2"></i>No websites for this client yet.</div>
       <?php else: ?>
         <div class="table-responsive"><table class="table mb-0">
           <thead><tr><th>Website</th><th>Category / Template</th><th>Folder &amp; tables</th><th>Status</th><th>Created</th></tr></thead>
           <tbody>
           <?php foreach ($websites as $w): ?>
             <tr>
-              <td><div class="fw-semibold"><?= e($w['name']) ?></div><small class="text-muted"><?= e($w['domain'] ?: '') ?></small></td>
+              <td><a class="fw-semibold" href="<?= e(url('websites/' . $w['id'])) ?>"><?= e($w['name']) ?></a><br><small class="text-muted"><?= e($w['domain'] ?: '') ?></small></td>
               <td><?= e($w['category']) ?><br><small class="text-muted"><?= e($w['template'] ?: 'Not selected') ?></small></td>
               <td><small><code><?= e($w['folder_path'] ?: '—') ?></code><br>prefix <code><?= e($w['table_prefix'] ?: '—') ?></code></small></td>
               <td><?= status_badge($w['status']) ?></td>

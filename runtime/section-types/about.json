@@ -1,0 +1,88 @@
+{
+  "type": "about",
+  "label": "About",
+  "icon": "bi-info-circle",
+  "description": "Introduce the business with text, images and key points.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "About us",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "We help businesses grow with confidence",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "richtext",
+      "default": "<p>Tell visitors who you are, what you do and what makes you different.</p>"
+    },
+    {
+      "key": "image",
+      "label": "Main image",
+      "type": "image"
+    },
+    {
+      "key": "image_2",
+      "label": "Second image",
+      "type": "image"
+    },
+    {
+      "key": "experience_number",
+      "label": "Experience number",
+      "type": "text",
+      "default": "15+",
+      "max": 10
+    },
+    {
+      "key": "experience_label",
+      "label": "Experience label",
+      "type": "text",
+      "default": "Years of experience",
+      "max": 60
+    },
+    {
+      "key": "points",
+      "label": "Key points",
+      "type": "repeater",
+      "max_items": 8,
+      "item_label": "text",
+      "fields": [
+        {
+          "key": "text",
+          "label": "Point",
+          "type": "text",
+          "max": 120
+        }
+      ],
+      "default": [
+        {
+          "text": "Experienced, certified team"
+        },
+        {
+          "text": "Transparent pricing"
+        },
+        {
+          "text": "On-time delivery"
+        }
+      ]
+    },
+    {
+      "key": "button",
+      "label": "Button",
+      "type": "link",
+      "default": {
+        "text": "Learn more",
+        "url": "page:about"
+      }
+    }
+  ]
+}

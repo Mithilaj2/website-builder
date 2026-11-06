@@ -201,6 +201,13 @@ final class ManifestValidator
                 }
             }
         }
+        $knownLibs = array_keys(json_decode((string) @file_get_contents(dirname(__DIR__, 3) . '/runtime/assets/lib/libraries.json'), true) ?: []);
+        if (isset($m['libraries']) && (!is_array($m['libraries']) || array_diff($m['libraries'], $knownLibs))) {
+            $this->errors[] = 'manifest.json: "libraries" may only contain ' . implode(', ', $knownLibs) . '.';
+        }
+        if (is_file("$dir/demo.json") && !is_array(json_decode((string) file_get_contents("$dir/demo.json"), true))) {
+            $this->errors[] = 'demo.json is not valid JSON: ' . json_last_error_msg();
+        }
         foreach (['features', 'optional_features'] as $f) {
             if (isset($m[$f]) && (!is_array($m[$f]) || array_diff($m[$f], ['contact', 'blog', 'listings', 'payments', 'ecommerce']))) {
                 $this->errors[] = "manifest.json: \"$f\" may only contain contact, blog, listings, payments, ecommerce.";

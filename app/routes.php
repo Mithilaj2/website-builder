@@ -10,6 +10,12 @@ use App\Modules\Dashboard\DashboardController;
 use App\Modules\Templates\TemplateController;
 use App\Modules\Users\ProfileController;
 use App\Modules\Users\UserController;
+use App\Modules\Websites\MediaController;
+use App\Modules\Websites\PageController;
+use App\Modules\Websites\PreviewController;
+use App\Modules\Websites\SectionController;
+use App\Modules\Websites\SettingsController;
+use App\Modules\Websites\WebsiteController;
 
 return static function (Router $r): void {
     // Authentication (public)
@@ -49,6 +55,52 @@ return static function (Router $r): void {
     $r->post('templates/{id}/screens', [TemplateController::class, 'addScreens'], 'templates.manage');
     $r->post('templates/{id}/screens/{sid}/delete', [TemplateController::class, 'deleteScreen'], 'templates.manage');
     $r->post('templates/{id}/delete', [TemplateController::class, 'destroy'], 'templates.manage');
+
+    // Template live preview (demo content rendered by the site runtime)
+    $r->get('templates/{id}/preview', [PreviewController::class, 'template'], 'templates.view');
+
+    // Websites (workspace: pages, sections, media, theme, details, preview)
+    $r->get('websites', [WebsiteController::class, 'index'], 'websites.view');
+    $r->get('websites/list', [WebsiteController::class, 'list'], 'websites.view');
+    $r->get('websites/templates', [WebsiteController::class, 'templatesFor'], 'websites.view');
+    $r->post('websites', [WebsiteController::class, 'store'], 'websites.manage');
+    $r->get('websites/{id}', [WebsiteController::class, 'show'], 'websites.view');
+    $r->post('websites/{id}', [WebsiteController::class, 'update'], 'websites.manage');
+    $r->post('websites/{id}/delete', [WebsiteController::class, 'destroy'], 'websites.manage');
+    $r->get('websites/{id}/preview', [PreviewController::class, 'website'], 'websites.view');
+    $r->get('websites/{id}/media/{path*}', [MediaController::class, 'serve'], 'websites.view');
+
+    $r->get('websites/{id}/pages', [PageController::class, 'list'], 'websites.view');
+    $r->post('websites/{id}/pages', [PageController::class, 'store'], 'websites.manage');
+    $r->post('websites/{id}/pages/reorder', [PageController::class, 'reorder'], 'websites.manage');
+    $r->post('websites/{id}/pages/{pid}', [PageController::class, 'update'], 'websites.manage');
+    $r->post('websites/{id}/pages/{pid}/home', [PageController::class, 'setHome'], 'websites.manage');
+    $r->post('websites/{id}/pages/{pid}/toggle', [PageController::class, 'toggle'], 'websites.manage');
+    $r->post('websites/{id}/pages/{pid}/delete', [PageController::class, 'destroy'], 'websites.manage');
+
+    $r->get('websites/{id}/pages/{pid}/sections', [SectionController::class, 'list'], 'websites.view');
+    $r->post('websites/{id}/pages/{pid}/sections', [SectionController::class, 'store'], 'websites.manage');
+    $r->post('websites/{id}/pages/{pid}/sections/reorder', [SectionController::class, 'reorder'], 'websites.manage');
+    $r->get('websites/{id}/sections/{sid}', [SectionController::class, 'show'], 'websites.view');
+    $r->post('websites/{id}/sections/{sid}', [SectionController::class, 'update'], 'websites.manage');
+    $r->post('websites/{id}/sections/{sid}/toggle', [SectionController::class, 'toggle'], 'websites.manage');
+    $r->post('websites/{id}/sections/{sid}/duplicate', [SectionController::class, 'duplicate'], 'websites.manage');
+    $r->post('websites/{id}/sections/{sid}/delete', [SectionController::class, 'destroy'], 'websites.manage');
+
+    $r->get('websites/{id}/media', [MediaController::class, 'list'], 'websites.view');
+    $r->post('websites/{id}/media', [MediaController::class, 'upload'], 'websites.manage');
+    $r->post('websites/{id}/media/{mid}', [MediaController::class, 'update'], 'websites.manage');
+    $r->post('websites/{id}/media/{mid}/replace', [MediaController::class, 'replace'], 'websites.manage');
+    $r->post('websites/{id}/media/{mid}/delete', [MediaController::class, 'destroy'], 'websites.manage');
+
+    $r->get('websites/{id}/settings', [SettingsController::class, 'show'], 'websites.view');
+    $r->post('websites/{id}/settings/theme', [SettingsController::class, 'theme'], 'websites.manage');
+    $r->post('websites/{id}/settings/details', [SettingsController::class, 'details'], 'websites.manage');
+
+    // Preview assets (logged-in users only)
+    $r->get('preview-assets/template/{id}/{path*}', [PreviewController::class, 'templateAsset']);
+    $r->get('preview-assets/runtime/fonts/{path*}', [PreviewController::class, 'runtimeFont']);
+    $r->get('preview-assets/runtime/lib/{path*}', [PreviewController::class, 'runtimeLib']);
 
     // Clients
     $r->get('clients', [ClientController::class, 'index'], 'clients.view');

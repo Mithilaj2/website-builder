@@ -1,0 +1,43 @@
+{
+  "type": "logos",
+  "label": "Client Logos",
+  "icon": "bi-buildings",
+  "description": "Logos of clients or partners.",
+  "fields": [
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Trusted by leading organisations",
+      "max": 160
+    },
+    {
+      "key": "items",
+      "label": "Logos",
+      "type": "repeater",
+      "max_items": 24,
+      "item_label": "name",
+      "fields": [
+        {
+          "key": "image",
+          "label": "Logo",
+          "type": "image",
+          "required": true
+        },
+        {
+          "key": "name",
+          "label": "Name",
+          "type": "text",
+          "max": 80
+        },
+        {
+          "key": "url",
+          "label": "Website",
+          "type": "text",
+          "max": 200
+        }
+      ],
+      "default": []
+    }
+  ]
+}

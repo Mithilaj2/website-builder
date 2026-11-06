@@ -1,0 +1,88 @@
+{
+  "type": "pricing",
+  "label": "Pricing",
+  "icon": "bi-tags",
+  "description": "Pricing plans or packages.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Pricing",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Simple, transparent pricing",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "",
+      "max": 800
+    },
+    {
+      "key": "plans",
+      "label": "Plans",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 6,
+      "item_label": "name",
+      "fields": [
+        {
+          "key": "name",
+          "label": "Plan name",
+          "type": "text",
+          "required": true,
+          "max": 60
+        },
+        {
+          "key": "price",
+          "label": "Price",
+          "type": "text",
+          "max": 30
+        },
+        {
+          "key": "period",
+          "label": "Period",
+          "type": "text",
+          "max": 30
+        },
+        {
+          "key": "features",
+          "label": "Features (one per line)",
+          "type": "textarea",
+          "max": 1000
+        },
+        {
+          "key": "button",
+          "label": "Button",
+          "type": "link"
+        },
+        {
+          "key": "featured",
+          "label": "Highlight this plan",
+          "type": "toggle"
+        }
+      ],
+      "default": [
+        {
+          "name": "Basic",
+          "price": "₹9,999",
+          "period": "one-time",
+          "features": "Feature one\nFeature two",
+          "button": {
+            "text": "Choose",
+            "url": "page:contact"
+          },
+          "featured": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "type": "process",
+  "label": "Process / Steps",
+  "icon": "bi-list-ol",
+  "description": "How you work, step by step.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "How we work",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Our process",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "",
+      "max": 800
+    },
+    {
+      "key": "steps",
+      "label": "Steps",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 8,
+      "item_label": "title",
+      "fields": [
+        {
+          "key": "icon",
+          "label": "Icon",
+          "type": "icon"
+        },
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true,
+          "max": 100
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "textarea",
+          "max": 300
+        }
+      ],
+      "default": [
+        {
+          "title": "Discover",
+          "description": "We listen and understand your needs."
+        },
+        {
+          "title": "Plan",
+          "description": "We agree a clear plan and budget."
+        },
+        {
+          "title": "Deliver",
+          "description": "We do the work and keep you informed."
+        }
+      ]
+    }
+  ]
+}

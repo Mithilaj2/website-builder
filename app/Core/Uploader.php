@@ -11,7 +11,7 @@ use RuntimeException;
  * - size and dimension limits
  * - raster images are re-encoded with GD, which strips any embedded payload
  * - random file names; target directory must be inside public/uploads
- * SVG is not accepted here (sanitized SVG support arrives with the media manager in Phase 2).
+ * SVG is accepted only where explicitly allowed (site media library) and is sanitised first.
  */
 final class Uploader
 {
@@ -19,6 +19,7 @@ final class Uploader
         'image/jpeg' => 'jpg',
         'image/png' => 'png',
         'image/webp' => 'webp',
+        'image/gif' => 'gif',
     ];
 
     public const UPLOAD_ROOT = PUBLIC_PATH . '/uploads';
@@ -31,6 +32,18 @@ final class Uploader
         if (!preg_match('#^[a-z0-9_\-/]+$#', $folder) || str_contains($folder, '..')) {
             throw new RuntimeException('Invalid upload folder.');
         }
+        $stored = self::storeImage($file, self::UPLOAD_ROOT . '/' . trim($folder, '/'), $maxBytes, $maxDim, $localFile);
+        return 'uploads/' . trim($folder, '/') . '/' . $stored['name'];
+    }
+
+    /**
+     * Validate and store an image in $absDir under a random name.
+     * Raster images (JPG/PNG/WEBP/GIF) are re-encoded with GD; SVG (only if $allowSvg) is sanitised.
+     *
+     * @return array{name:string, mime:string, size:int, width:?int, height:?int}
+     */
+    public static function storeImage(array $file, string $absDir, int $maxBytes = 5_242_880, int $maxDim = 5000, bool $localFile = false, bool $allowSvg = false): array
+    {
         if (($file['error'] ?? UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_OK) {
             throw new UploadException(self::uploadErrorMessage((int) ($file['error'] ?? UPLOAD_ERR_NO_FILE)));
         }
@@ -39,15 +52,34 @@ final class Uploader
             throw new UploadException('Invalid upload.');
         }
         if ($file['size'] > $maxBytes) {
-            throw new UploadException('Image is too large. Maximum size is ' . round($maxBytes / 1048576, 1) . ' MB.');
+            throw new UploadException('File is too large. Maximum size is ' . round($maxBytes / 1048576, 1) . ' MB.');
         }
         $ext = strtolower(pathinfo((string) $file['name'], PATHINFO_EXTENSION));
-        if (!in_array($ext, ['jpg', 'jpeg', 'png', 'webp'], true)) {
-            throw new UploadException('Only JPG, PNG and WEBP images are allowed.');
+        $allowedExt = $allowSvg ? ['jpg', 'jpeg', 'png', 'webp', 'gif', 'svg'] : ['jpg', 'jpeg', 'png', 'webp', 'gif'];
+        if (!in_array($ext, $allowedExt, true)) {
+            throw new UploadException('Only ' . strtoupper(implode(', ', $allowedExt)) . ' images are allowed.');
         }
-        $mime = (new \finfo(FILEINFO_MIME_TYPE))->file($file['tmp_name']);
+        if (!is_dir($absDir) && !mkdir($absDir, 0755, true) && !is_dir($absDir)) {
+            throw new RuntimeException('Could not create upload folder.');
+        }
+        $mime = (string) (new \finfo(FILEINFO_MIME_TYPE))->file($file['tmp_name']);
+
+        if ($ext === 'svg') {
+            if (!in_array($mime, ['image/svg+xml', 'text/xml', 'application/xml', 'text/plain', 'text/html'], true)) {
+                throw new UploadException('The file content is not a valid SVG image.');
+            }
+            $clean = \SiteRuntime\SvgSanitizer::sanitize((string) file_get_contents($file['tmp_name']));
+            if ($clean === null) {
+                throw new UploadException('The SVG could not be made safe and was rejected.');
+            }
+            $name = bin2hex(random_bytes(12)) . '.svg';
+            file_put_contents($absDir . '/' . $name, $clean);
+            @chmod($absDir . '/' . $name, 0644);
+            return ['name' => $name, 'mime' => 'image/svg+xml', 'size' => strlen($clean), 'width' => null, 'height' => null];
+        }
+
         if (!isset(self::TYPES[$mime])) {
-            throw new UploadException('The file content is not a valid JPG, PNG or WEBP image.');
+            throw new UploadException('The file content is not a valid ' . strtoupper(implode(', ', array_diff($allowedExt, ['svg']))) . ' image.');
         }
         $info = @getimagesize($file['tmp_name']);
         if (!$info || $info[0] < 1 || $info[1] < 1) {
@@ -56,18 +88,11 @@ final class Uploader
         if ($info[0] > $maxDim || $info[1] > $maxDim) {
             throw new UploadException("Image dimensions may not exceed {$maxDim}×{$maxDim} pixels.");
         }
-
-        $dir = self::UPLOAD_ROOT . '/' . trim($folder, '/');
-        if (!is_dir($dir) && !mkdir($dir, 0755, true) && !is_dir($dir)) {
-            throw new RuntimeException('Could not create upload folder.');
-        }
-        $outExt = self::TYPES[$mime];
-        $name = bin2hex(random_bytes(12)) . '.' . $outExt;
-        $target = $dir . '/' . $name;
-
+        $name = bin2hex(random_bytes(12)) . '.' . self::TYPES[$mime];
+        $target = $absDir . '/' . $name;
         self::reencode($file['tmp_name'], $mime, $target);
         @chmod($target, 0644);
-        return 'uploads/' . trim($folder, '/') . '/' . $name;
+        return ['name' => $name, 'mime' => $mime, 'size' => (int) filesize($target), 'width' => (int) $info[0], 'height' => (int) $info[1]];
     }
 
     private static function reencode(string $src, string $mime, string $target): void
@@ -93,6 +118,7 @@ final class Uploader
                 imagesavealpha($img, true);
                 return imagewebp($img, $target, 85);
             })(),
+            'image/gif' => imagegif($img, $target),
         };
         imagedestroy($img);
         if (!$ok) {

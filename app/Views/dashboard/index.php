@@ -10,6 +10,8 @@ $cards = [
     ['label' => 'Website Generations', 'value' => $stats['generations'], 'icon' => 'gear-wide-connected', 'cls' => ''],
 ];
 $actions = array_filter([
+    can('websites.manage') ? ['url' => 'websites?new=1', 'icon' => 'plus-circle', 'label' => 'Create New Website'] : null,
+    can('websites.view') ? ['url' => 'websites', 'icon' => 'globe2', 'label' => 'Manage Websites'] : null,
     can('templates.view') ? ['url' => 'templates', 'icon' => 'layout-text-window-reverse', 'label' => 'Manage Templates'] : null,
     can('categories.view') ? ['url' => 'categories', 'icon' => 'grid-3x3-gap', 'label' => 'Manage Categories'] : null,
     can('clients.view') ? ['url' => 'clients', 'icon' => 'people', 'label' => 'Manage Clients'] : null,
@@ -53,7 +55,7 @@ $actions = array_filter([
           <a class="quick-action" href="<?= e(url($a['url'])) ?>"><i class="bi bi-<?= e($a['icon']) ?>"></i><?= e($a['label']) ?><i class="bi bi-chevron-right ms-auto small text-muted"></i></a>
         <?php endforeach; ?>
       </div>
-      <div class="card-footer bg-white small text-muted">The website creation wizard and export screens arrive in Phases 3 and 6.</div>
+      <div class="card-footer bg-white small text-muted">The full creation wizard with generation arrives in Phase 3, export in Phase 6.</div>
     </div>
     <div class="card">
       <div class="card-header">Templates by category</div>

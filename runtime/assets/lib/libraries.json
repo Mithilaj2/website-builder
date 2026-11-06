@@ -1,0 +1,4 @@
+{
+  "bootstrap": { "name": "Bootstrap", "version": "5.3.8", "license": "MIT", "css": ["bootstrap/css/bootstrap.min.css"], "js": ["bootstrap/js/bootstrap.bundle.min.js"] },
+  "bootstrap-icons": { "name": "Bootstrap Icons", "version": "1.13", "license": "MIT", "css": ["bootstrap-icons/bootstrap-icons.min.css"], "js": [] }
+}
