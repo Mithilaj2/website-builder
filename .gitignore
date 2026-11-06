@@ -1,0 +1,15 @@
+/config/*.local.php
+/config/database.php
+/storage/logs/*
+/storage/temporary/*
+/storage/backups/*
+/storage/staging/*
+/storage/exports/*
+/generated_websites/*
+!**/.gitkeep
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
