@@ -1,9 +1,8 @@
 /* Website admin: small additions on top of the builder's app.css */
-.site-admin .site-brand { display: flex; align-items: center; gap: .6rem; color: #fff; text-decoration: none; font-weight: 600; min-width: 0; }
+.site-admin .site-brand { display: flex; align-items: center; gap: .6rem; color: #111827; text-decoration: none; font-weight: 600; min-width: 0; }
 .site-brand-mark { flex: 0 0 auto; width: 34px; height: 34px; border-radius: 9px; display: inline-flex; align-items: center; justify-content: center;
   background: linear-gradient(135deg, #3b82f6, #6366f1); color: #fff; font-weight: 700; font-size: 1rem; }
 .site-brand-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.site-admin .wb-sidebar .brand small { display: block; opacity: .6; margin-top: .25rem; font-size: .75rem; letter-spacing: .03em; text-transform: uppercase; }
 .site-admin .wb-nav a .badge { font-size: .7rem; }
 .auth-page { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #f1f5f9; padding: 1.5rem; }
 .auth-card { width: 100%; max-width: 420px; }

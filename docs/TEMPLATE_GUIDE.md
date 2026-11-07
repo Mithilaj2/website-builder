@@ -104,7 +104,7 @@ Every layout, partial and section file receives:
 | `alt($ref, $default)` | alt text from the media library |
 | `partial('header', [...])` | render `partials/header.php` |
 | `attrs($section, 'extra-class')` | `id`, classes and background/spacing styles for a section's root element. Every section must use it |
-| `menu('header' \| 'footer')` | menu items `[title, url, active]` built from the pages |
+| `menu('header' \| 'footer')` | menu items `[title, url, active, external]`: the client's custom menu from the website admin (Navigation) if set, otherwise built from the pages. Add `target="_blank" rel="noopener"` when `external` is true |
 | `url('slug')` / `href($link)` / `hasLink($link)` / `linkAttrs($link)` | page URLs and link fields (`page:slug`, https, #anchor, mailto:, tel:) |
 | `site('key', $default)` / `setting('group', 'key')` / `social()` / `logo()` | site details |
 | `icon('bi-briefcase')` | a Bootstrap icon |

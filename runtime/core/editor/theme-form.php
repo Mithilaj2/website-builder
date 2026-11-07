@@ -33,7 +33,7 @@
               <button type="submit" class="btn btn-primary">Save theme</button>
               <button type="button" class="btn btn-light" id="btnThemeDefaults">Reset to template defaults</button>
             <?php endif; ?>
-            <div class="w-100 small text-muted mt-1">Changes appear in the Preview tab after saving.</div>
+            <div class="w-100 small text-muted mt-1">Changes appear on the website (and in the preview) as soon as you save.</div>
           </div></div>
         </div>
       </div>

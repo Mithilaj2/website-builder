@@ -70,7 +70,8 @@ final class Auth
         $since = date('Y-m-d H:i:s', time() - self::WINDOW);
         $t = $this->db->t('login_attempts');
         $pair = (int) $this->db->value("SELECT COUNT(*) FROM $t WHERE email = ? AND ip = ? AND success = 0 AND attempted_at >= ?", [$email, $ip, $since]);
-        $byIp = (int) $this->db->value("SELECT COUNT(*) FROM $t WHERE ip = ? AND success = 0 AND attempted_at >= ?", [$ip, $since]);
+        // Password-reset requests are logged in the same table as "reset:<email>"; they are rate-limited separately.
+        $byIp = (int) $this->db->value("SELECT COUNT(*) FROM $t WHERE ip = ? AND success = 0 AND email NOT LIKE 'reset:%' AND attempted_at >= ?", [$ip, $since]);
         return $pair >= self::MAX_ATTEMPTS || $byIp >= self::MAX_ATTEMPTS * 4;
     }
 
