@@ -20,7 +20,7 @@ use SiteRuntime\Seeder;
  */
 final class SiteService
 {
-    public const MEDIA_FOLDERS = ['logo' => 'Logo & favicon', 'banners' => 'Banners', 'gallery' => 'Gallery', 'pages' => 'Page images', 'team' => 'Team & people', 'general' => 'General'];
+    public const MEDIA_FOLDERS = \SiteRuntime\MediaService::FOLDERS;
 
     private array $cache = [];
 
@@ -54,7 +54,16 @@ final class SiteService
         if (empty($this->website['table_prefix'])) {
             throw new RuntimeException('This website has no tables yet.');
         }
-        return $this->cache['db'] ??= new Db(Database::pdo(), (string) $this->website['table_prefix']);
+        if (!isset($this->cache['db'])) {
+            $db = new Db(Database::pdo(), (string) $this->website['table_prefix']);
+            // Bring older websites up to the current schema (new tables/columns) the first time they are opened.
+            $m = new \SiteRuntime\Migrator($db, RUNTIME_PATH . '/schema');
+            if ($db->tables() && $m->pending()) {
+                $m->migrate();
+            }
+            $this->cache['db'] = $db;
+        }
+        return $this->cache['db'];
     }
 
     public function folder(): string
@@ -94,6 +103,28 @@ final class SiteService
     public function schemas(): array
     {
         return $this->sectionTypes()->only((array) ($this->manifest()['section_types'] ?? []));
+    }
+
+    public function content(): \SiteRuntime\ContentService
+    {
+        return $this->cache['content'] ??= new \SiteRuntime\ContentService($this->db(), $this->sectionTypes(), $this->manifest(), $this->richtext(), $this->imageValidator());
+    }
+
+    public function media(): \SiteRuntime\MediaService
+    {
+        $id = $this->id();
+        $schemas = fn () => $this->schemas();
+        return $this->cache['media'] ??= new \SiteRuntime\MediaService(
+            $this->db(),
+            $this->folder(),
+            static fn (string $path): string => url('websites/' . $id . '/media/' . substr($path, 8)),
+            static fn (string $type): string => $schemas()[$type]['label'] ?? $type
+        );
+    }
+
+    public function settingsService(): \SiteRuntime\SettingsService
+    {
+        return $this->cache['settings'] ??= new \SiteRuntime\SettingsService($this->db(), $this->manifest(), RUNTIME_PATH . '/fonts', $this->imageValidator());
     }
 
     public function source(): DbSource
@@ -143,36 +174,12 @@ final class SiteService
     /** Callback for SectionTypes::sanitize: image references must belong to this site or its template. */
     public function imageValidator(): callable
     {
-        return function (string $ref): bool {
-            if (str_starts_with($ref, 'theme:')) {
-                $rel = substr($ref, 6);
-                return !str_contains($rel, '..') && is_file($this->themeDir() . '/assets/' . $rel);
-            }
-            if (str_starts_with($ref, 'uploads/')) {
-                return (int) $this->db()->value('SELECT COUNT(*) FROM ' . $this->db()->t('media') . ' WHERE path = ?', [$ref]) > 0;
-            }
-            return false;
-        };
+        return $this->cache['imageOk'] ??= \SiteRuntime\MediaService::imageValidator($this->db(), $this->themeDir());
     }
 
     public function richtext(): callable
     {
         return static fn (string $html): string => Html::purify($html);
-    }
-
-    /** Where an uploaded file is used (sections and settings), as human-readable labels. */
-    public function mediaUsage(string $path): array
-    {
-        $db = $this->db();
-        $like = '%' . addcslashes(json_encode($path, JSON_UNESCAPED_SLASHES), '%_\\') . '%';
-        $out = [];
-        foreach ($db->fetchAll('SELECT s.section_type, p.title FROM ' . $db->t('sections') . ' s JOIN ' . $db->t('pages') . ' p ON p.id = s.page_id WHERE s.data LIKE ? OR s.style LIKE ?', [$like, $like]) as $r) {
-            $out[] = $r['title'] . ' → ' . (($this->schemas()[$r['section_type']]['label'] ?? $r['section_type']));
-        }
-        foreach ($db->fetchAll('SELECT setting_key FROM ' . $db->t('settings') . ' WHERE setting_value LIKE ?', [$like]) as $r) {
-            $out[] = 'Settings → ' . $r['setting_key'];
-        }
-        return $out;
     }
 
     // ------------------------------------------------------------------ lifecycle
@@ -204,7 +211,7 @@ final class SiteService
                     throw new RuntimeException('Could not create the website folder.');
                 }
             }
-            $db->runSchema(RUNTIME_PATH . '/schema/core.sql');
+            (new \SiteRuntime\Migrator($db, RUNTIME_PATH . '/schema'))->migrate();
             $demoFile = $svc->themeDir() . '/demo.json';
             $demo = is_file($demoFile) ? (json_decode((string) file_get_contents($demoFile), true) ?: []) : [];
             $client = Database::fetch('SELECT * FROM wb_clients WHERE id = ?', [$w['client_id']]) ?? [];

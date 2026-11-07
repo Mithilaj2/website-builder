@@ -5,11 +5,72 @@
 | 0 Architecture | ✅ Approved | `docs/ARCHITECTURE.md` |
 | 1 Core platform | ✅ Complete | PR #1 |
 | 2 Template engine | ✅ Complete | PR #2 |
-| 3 Website generator | ✅ Complete, awaiting review | See below |
-| 4 Generated site CMS | ⏳ Next | Website's own /admin: login, pages, sections, media, menus, SEO, enquiries + email (SMTP), settings |
+| 3 Website generator | ✅ Complete | PR #3 |
+| 4 Generated site CMS | ✅ Complete, awaiting review | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ⏳ Not started | No sandbox account yet. Razorpay test-mode keys are free on signup. No gateway is marked complete until a sandbox payment is verified on the server |
 | 6 Export & deployment | ⏳ Not started | Independence test on a second cPanel account to be run by Channel Softech |
 | 7 Template library | ⏳ Not started | Order: Business, Education, Hospital, E-commerce, then the rest |
+
+## Phase 4: The generated website's own admin panel
+
+Every generated website now has its own admin panel at **`/admin`** (for example `https://clientdomain.com/admin`). It runs entirely from the website's own files and database; it never contacts the builder.
+
+### Delivered
+- **Sign-in and security:**
+  - email + password (bcrypt); sign-in is per website (own session cookie, scoped to `/admin`, HttpOnly, SameSite=Strict); session ID regenerated at sign-in; 30-minute idle timeout
+  - lockout after 5 failed attempts per email+IP, or 20 per IP, within 15 minutes; the same "Invalid email or password" for unknown emails
+  - CSRF token on every change; strict Content-Security-Policy (no inline scripts), `X-Frame-Options`, `no-store`, `noindex`
+  - **Forgotten password** by email: the link holds a random token (only its hash is stored), is valid for one hour and works once. The answer is the same whether or not the email exists, and requests are rate-limited
+- **Roles:** **Owner** (everything) and **Editor** (pages, sections, media, menus, appearance, enquiries; no settings or administrators).
+- **Dashboard:** new enquiries, active pages, visible sections and images; latest enquiries; quick actions.
+- **Pages & sections, Media library, Appearance (theme + site details + SEO):** the same editor as the builder. The editing logic now lives in the website runtime (`ContentService`, `MediaService`, `SettingsService`), and the builder and every website use that one shared code, so they cannot drift apart. Rich text, the media picker, the link and icon pickers and drag-and-drop ordering all work the same in both.
+- **Navigation:** header menu and footer links, set to **Automatic** (built from the pages, as before) or **Custom**:
+  - choose pages and custom links (https, `#anchor`, `tel:`, `mailto:`), rename labels, drag to reorder, open in a new tab (`rel="noopener"`)
+  - `javascript:` and other unsafe links are refused
+  - links to a hidden page drop out of the menu; deleting a page removes its links
+- **Enquiries:** every contact form submission is listed with search and a status filter (New, Read, Replied, Spam):
+  - opening one shows the full message and marks it read; "Reply by email" opens the mail app and marks it replied
+  - delete; CSV export (opens in Excel with the right characters; cells starting with `=`, `+`, `-` or `@` are neutralised so a visitor cannot plant a spreadsheet formula)
+  - a badge in the menu shows the number of new enquiries
+- **Email:** the visitor's enquiry is emailed to the notification address(es), with Reply-To set to the visitor:
+  - by default through PHP `mail()`; an **SMTP** server can be configured (host, port, TLS/SSL, username, password)
+  - the SMTP password is stored encrypted with the website's own key and never shown back
+  - "Send test email"
+  - the enquiry is always saved first; if email fails, it is logged in `storage/logs` and the list marks it with an icon
+- **Settings (owner):** email settings and administrators (add, edit, deactivate, delete). Owners cannot demote, deactivate or delete themselves. Deactivating a user ends their session immediately.
+- **My profile:** name, email and password (current password required).
+- **Builder, review step: "Website admin" card.** It shows the admin address and existing logins, and creates the owner login (by default with the client's email) or sets a new password for an existing one:
+  - the password is generated (16 characters, easy to read), shown **once** and never stored by the builder
+  - setting a new password also clears a lockout
+- **Generator:** copies the admin, the shared editor and the PHP libraries (`vendor/`: HTML Purifier, PHPMailer) into each website, plus its admin scripts (`assets/admin/`). `vendor/` is blocked from the web. The website checks now also open `/admin/login` and confirm `vendor/` is private.
+- **Database updates for existing websites:** a migration system (`runtime/schema/migrations/NNN_*.sql`, version in the `settings` table) brings older websites up to date automatically: on regeneration, when the builder opens them, and when their admin is first opened. New in this phase: `menu_items`, and password-reset columns on `admin_users`.
+- **Runtime version 1.1.0.**
+
+### Tests run
+- `tests/phase4_http_test.php`: **105 end-to-end checks** against a generated website, using a local SMTP server (`tools/mailsink.py`) to receive and inspect the emails. Covers:
+  - builder card: owner login created, password format, nothing stored
+  - guest redirects and 401s; security headers and cookie flags; CSRF; wrong and unknown logins; session regeneration
+  - every admin page; admin scripts served from the website itself; 6 private paths blocked (`vendor/`, `core/Admin`, `core/editor`, `config/`)
+  - pages and sections (live on the website immediately), media (including a fake image with PHP inside), theme, details validation
+  - navigation: custom header and footer menus, order, labels, new-tab links, unsafe links refused, hidden and deleted pages, back to automatic
+  - email: SMTP settings, encrypted password, test email received
+  - enquiries: visitor submission → notification email received with Reply-To; listing, read/replied/spam, filters, CSV with formula neutralising, delete
+  - administrators and roles: editor can edit content, but gets 403 on settings and administrators; deactivation ends the session; self-demotion refused
+  - profile and password change; forgotten-password email → link → new password → link works only once
+  - lockout after 5 failures (even the right password is refused); the builder's "set new password" unlocks
+  - logout
+- Regression: Phase 1 80/80, Phase 2 99/99, Phase 3 79/79.
+- **Apache** (cPanel-style subfolder install, QA password in front of the website): Phase 4 105/105, Phase 1 80/80, Phase 2 99/99, Phase 3 79/79.
+- Headless Chrome: builder card and every admin page (desktop and mobile) with no JavaScript or Content-Security-Policy errors.
+
+### Bugs found and fixed during testing
+- Password-reset requests were counted as failed logins, so a few reset requests could lock everyone on that IP out. They are now rate-limited separately.
+- The admin sidebar showed the website name in white on a white background. Caught in the screenshots.
+
+### Notes
+- **Who edits what:** until a website is marked Deployed, both the builder and the website admin can edit it (they share one code path, so either sees the other's changes). After deployment, the builder no longer edits content (decision 7).
+- **Blog, listings, payment keys:** these screens arrive with the modules that need them: the payment keys screen in Phase 5, blog and listings with the templates that use them in Phase 7. The admin is built so modules add their own menu entries.
+- Shared hosting: for reliable delivery, set up SMTP with an address on the client's own domain (cPanel → Email Accounts). PHP `mail()` works but often lands in spam.
 
 ## Phase 3: Website generator
 
@@ -44,7 +105,7 @@
   - per-IP rate limit
   - server-side validation
 
-  Visitors see a thank-you or error message. Email notifications come with the site admin in Phase 4.
+  Visitors see a thank-you or error message. Email notifications arrived in Phase 4.
 - **Statuses** (spec §14): Draft → Configuration Pending (reaching the review step) → Generating → Generated / Generation Failed. Then manually Testing → Ready for Deployment → Deployed (content locked in the builder; no regeneration or deletion) → Archived / restore.
 - **Settings** (Super Admin): the QA address for generated websites and a generated QA password. On the builder server, generated sites are protected with HTTP Basic Auth (`generated_websites/.htaccess` + `storage/qa/.htpasswd`). The generator's website checks log in with it.
 

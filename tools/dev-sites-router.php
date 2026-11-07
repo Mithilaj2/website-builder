@@ -8,7 +8,7 @@ if (!preg_match('#^/(site_[a-z0-9_-]+)(/.*)?$#', $path, $m) || !is_file(__DIR__ 
     return true;
 }
 $rest = $m[2] ?? '/';
-if (preg_match('#^/(config|core|storage|database)(/|$)|^/theme/(layouts|partials|sections)/|^/theme/[^/]+\.(json|php)$|\.\.|\.(sql|log|md|ini)$#i', $rest)) {
+if (preg_match('#^/(config|core|vendor|storage|database)(/|$)|^/theme/(layouts|partials|sections)/|^/theme/[^/]+\.(json|php)$|\.\.|\.(sql|log|md|ini)$#i', $rest)) {
     http_response_code(403);
     echo 'Forbidden';
     return true;

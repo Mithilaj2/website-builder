@@ -69,4 +69,9 @@ final class ArraySource implements DataSource
     {
         return [];
     }
+
+    public function menuItems(string $location): array
+    {
+        return [];
+    }
 }

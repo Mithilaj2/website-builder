@@ -44,7 +44,7 @@ This document covers the ten items required by the specification (Section 21) be
 **Decisions made during Phase 2** (explained in `docs/PROGRESS.md`):
 - **Shared front-end libraries:** Bootstrap 5 and Bootstrap Icons are provided once by the runtime (`runtime/assets/lib`) and copied into each generated site, instead of being duplicated inside all 100 template folders (about 180 MB saved). Templates still never depend on another template.
 - **SVG sanitiser:** SVG uploads are cleaned by an in-house allow-list sanitiser (`runtime/core/SvgSanitizer.php`). The popular `enshrined/svg-sanitize` library is GPL-2.0 and would have imposed GPL terms on client websites.
-- **Bundled libraries:** HTML Purifier (LGPL-2.1) is committed in `vendor/`. Packagist is unreachable from the build environment, and cPanel installs need no Composer anyway.
+- **Bundled libraries:** HTML Purifier (LGPL-2.1) and PHPMailer (LGPL-2.1) are committed in `vendor/` and copied into every website's `vendor/`. Packagist is unreachable from the build environment, and cPanel installs need no Composer anyway.
 - **TinyMCE 6:** used instead of 7. Version 6 is MIT-licensed; version 7 changed to GPL.
 - **Simple website creation:** Phase 2 adds a basic "New website" form (client, name, category, template) because pages and sections need a website to exist. Phase 3 turns this into the full 8-step wizard and adds generation.
 
@@ -121,8 +121,8 @@ pages             id, title, slug, page_type, is_home, status, sort_order,
 sections          id, page_id, section_type, variant, title_internal, data LONGTEXT (field values),
                   style LONGTEXT (bg image/colour, spacing), is_enabled, sort_order, created_at, updated_at
 global_sections   id, section_type, data, style          -- header and footer, shared by all pages
-menus             id, location (header, footer), name
-menu_items        id, menu_id, parent_id, label, page_id NULL, url NULL, target, sort_order
+menu_items        id, location ENUM(header, footer), label, page_id NULL, url NULL, new_tab, sort_order
+                  (as built in Phase 4: one flat list per location; no rows = automatic menu from pages)
 media             id, folder (logo, banners, gallery, pages, products), file_name, path,
                   mime, size, width, height, alt_text, created_at
 contact_submissions id, form_key, name, email, phone, subject, message, ip, status(new,read,replied),
@@ -182,7 +182,8 @@ website-builder/
 ├── runtime/                    ← THE SITE CMS (copied into every site)
 │   ├── VERSION
 │   ├── core/                   ← bootstrap, router, DB, auth, csrf, renderer, mailer, crypto
-│   ├── admin/                  ← client admin panel (pages, sections, media, menus, settings, SEO, ...)
+│   ├── core/Admin/             ← client admin panel (App router, Auth, views); core/editor/ = editor partials shared with the builder
+│   ├── admin-assets/           ← admin-only CSS/JS (copied with the builder's editor JS into each site's assets/admin/)
 │   ├── modules/
 │   │   ├── contact/  blog/  listings/  payments/  ecommerce/
 │   │   └── <module>/{module.json, schema.sql, controllers, admin views, public handlers}
@@ -214,7 +215,7 @@ site_000001_acme/
 ├── .htaccess                  ← clean URLs, deny config/, database/, storage/, core/
 ├── core/                      ← runtime core (copied, versioned)
 ├── modules/                   ← ONLY the enabled modules
-├── admin/                     ← client admin panel
+├── core/Admin/                ← client admin panel, served at /admin by the front controller (as built)
 ├── theme/                     ← the selected template (layouts, sections, partials)
 │   ├── manifest.json
 │   ├── layouts/  sections/  partials/

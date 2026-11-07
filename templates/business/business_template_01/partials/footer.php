@@ -24,13 +24,13 @@ $about = (string) $view->site('footer_about', $view->site('tagline'));
       <div class="col-6 col-lg-2">
         <h2 class="mrd-footer-title">Company</h2>
         <ul class="mrd-footer-links">
-          <?php foreach ($menu as $item): ?><li><a href="<?= $view->e($item['url']) ?>"><?= $view->e($item['title']) ?></a></li><?php endforeach; ?>
+          <?php foreach ($menu as $item): ?><li><a href="<?= $view->e($item['url']) ?>"<?= !empty($item['external']) ? ' target="_blank" rel="noopener"' : '' ?>><?= $view->e($item['title']) ?></a></li><?php endforeach; ?>
         </ul>
       </div>
       <div class="col-6 col-lg-2">
         <h2 class="mrd-footer-title">Information</h2>
         <ul class="mrd-footer-links">
-          <?php foreach ($legal as $item): ?><li><a href="<?= $view->e($item['url']) ?>"><?= $view->e($item['title']) ?></a></li><?php endforeach; ?>
+          <?php foreach ($legal as $item): ?><li><a href="<?= $view->e($item['url']) ?>"<?= !empty($item['external']) ? ' target="_blank" rel="noopener"' : '' ?>><?= $view->e($item['title']) ?></a></li><?php endforeach; ?>
         </ul>
       </div>
       <div class="col-lg-4">

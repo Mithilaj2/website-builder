@@ -7,6 +7,8 @@ final class Client
 {
     public string $jar;
     public string $csrf = '';
+    /** Optional HTTP Basic credentials ("user:pass"), e.g. the QA password in front of generated websites. */
+    public ?string $basic = null;
     public function __construct(private string $base)
     {
         $this->jar = tempnam(sys_get_temp_dir(), 'jar');
@@ -26,6 +28,17 @@ final class Client
             CURLOPT_RETURNTRANSFER => true, CURLOPT_COOKIEJAR => $this->jar, CURLOPT_COOKIEFILE => $this->jar,
             CURLOPT_HTTPHEADER => $headers, CURLOPT_FOLLOWLOCATION => false, CURLOPT_USERAGENT => 'phase1-test',
         ]);
+        if ($this->basic !== null) {
+            curl_setopt($ch, CURLOPT_USERPWD, $this->basic);
+        }
+        $respHeaders = [];
+        curl_setopt($ch, CURLOPT_HEADERFUNCTION, static function ($ch, string $line) use (&$respHeaders): int {
+            if (str_contains($line, ':')) {
+                [$k, $v] = explode(':', $line, 2);
+                $respHeaders[strtolower(trim($k))][] = trim($v);
+            }
+            return strlen($line);
+        });
         if ($method === 'POST') {
             curl_setopt($ch, CURLOPT_POST, true);
             $hasFile = (bool) array_filter($data, static fn ($v) => $v instanceof CURLFile);
@@ -36,11 +49,12 @@ final class Client
         }
         $body = (string) curl_exec($ch);
         $code = (int) curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+        $location = (string) curl_getinfo($ch, CURLINFO_REDIRECT_URL);
         curl_close($ch);
         if (preg_match('/name="csrf-token" content="([a-f0-9]{64})"/', $body, $m)) {
             $this->csrf = $m[1];
         }
-        return ['code' => $code, 'body' => $body, 'json' => json_decode($body, true)];
+        return ['code' => $code, 'body' => $body, 'json' => json_decode($body, true), 'headers' => $respHeaders, 'location' => $location];
     }
     public function login(string $email, string $password): array
     {

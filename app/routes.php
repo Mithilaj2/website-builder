@@ -12,6 +12,7 @@ use App\Modules\Settings\SettingsController as PlatformSettingsController;
 use App\Modules\Templates\TemplateController;
 use App\Modules\Users\ProfileController;
 use App\Modules\Users\UserController;
+use App\Modules\Websites\AdminAccountController;
 use App\Modules\Websites\MediaController;
 use App\Modules\Websites\PageController;
 use App\Modules\Websites\PreviewController;
@@ -82,6 +83,8 @@ return static function (Router $r): void {
     $r->post('websites/{id}/generations/{run}/step', [GeneratorController::class, 'step'], 'websites.manage');
     $r->post('websites/{id}/generations/{run}/retry', [GeneratorController::class, 'retry'], 'websites.manage');
     $r->get('websites/{id}/preview', [PreviewController::class, 'website'], 'websites.view');
+    $r->get('websites/{id}/admin-account', [AdminAccountController::class, 'show'], 'websites.view');
+    $r->post('websites/{id}/admin-account', [AdminAccountController::class, 'store'], 'websites.manage');
     $r->get('websites/{id}/media/{path*}', [MediaController::class, 'serve'], 'websites.view');
 
     $r->get('websites/{id}/pages', [PageController::class, 'list'], 'websites.view');

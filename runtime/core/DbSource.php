@@ -75,4 +75,13 @@ final class DbSource implements DataSource
         }
         return $this->alts;
     }
+
+    public function menuItems(string $location): array
+    {
+        try {
+            return $this->db->fetchAll('SELECT * FROM ' . $this->db->t('menu_items') . ' WHERE location = ? ORDER BY sort_order, id', [$location]);
+        } catch (\PDOException) {
+            return []; // table not migrated yet
+        }
+    }
 }
