@@ -14,8 +14,9 @@ final class Renderer
         private string $themeDir,
         private array $manifest,
         private array $urls,
-        private string $fontsDir,
+        private array $dirs,
         private bool $preview = false,
+        private array $flash = [],
     ) {
     }
 
@@ -56,8 +57,9 @@ final class Renderer
 
     public function view(array $page): View
     {
-        $view = new View($this->source, $this->themeDir, $this->manifest, $this->urls, $this->fontsDir, $this->preview);
+        $view = new View($this->source, $this->themeDir, $this->manifest, $this->urls, $this->dirs, $this->preview);
         $view->page = $page;
+        $view->flash = $this->flash;
         return $view;
     }
 

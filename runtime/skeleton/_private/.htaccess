@@ -1,0 +1,2 @@
+# Never served (second layer behind the site .htaccess).
+Require all denied

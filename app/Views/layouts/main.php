@@ -19,6 +19,7 @@ $nav = [
     ['heading' => 'Administration'],
     ['key' => 'users', 'label' => 'Users & Roles', 'icon' => 'person-gear', 'url' => 'users', 'perm' => 'users.manage'],
     ['key' => 'activity', 'label' => 'Activity Log', 'icon' => 'clock-history', 'url' => 'activity', 'perm' => 'activity.view'],
+    ['key' => 'settings', 'label' => 'Settings', 'icon' => 'sliders', 'url' => 'settings', 'perm' => 'settings.manage'],
 ];
 // Drop headings with no visible items beneath them.
 $visible = [];

@@ -268,6 +268,10 @@ body.mrd {
 .mrd-form .form-control { border-radius: var(--mrd-radius); padding: .8rem 1rem; border-color: var(--mrd-line); background: var(--mrd-surface); }
 .mrd-form .form-control:focus { border-color: var(--wb-primary); box-shadow: 0 0 0 .2rem rgba(var(--wb-primary-rgb), .12); background: #fff; }
 .mrd-form fieldset[disabled] .form-control { opacity: .75; }
+.mrd-form-alert { display: flex; gap: .6rem; align-items: flex-start; padding: .9rem 1.1rem; border-radius: var(--mrd-radius); margin-bottom: 1.25rem; font-weight: 600; font-size: .95rem; }
+.mrd-form-alert.is-sent { background: #E8F6EE; color: #146C43; }
+.mrd-form-alert.is-error { background: #FDECEC; color: #B02A37; }
+#contact-form { scroll-margin-top: 110px; }
 .mrd-form-note { margin: 1rem 0 0; font-size: .85rem; color: var(--mrd-muted); }
 
 /* ---------- Logos ---------- */

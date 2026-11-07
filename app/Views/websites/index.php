@@ -20,16 +20,22 @@
   <div class="modal-dialog modal-xl modal-dialog-scrollable"><div class="modal-content">
     <form data-ajax action="<?= e(url('websites')) ?>" novalidate>
       <?= csrf_field() ?>
-      <div class="modal-header"><h5 class="modal-title">New website</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+      <div class="modal-header"><h5 class="modal-title">New website <small class="text-muted fs-6 fw-normal">· steps 1–2 of 8: client, website and template</small></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
       <div class="modal-body">
         <div class="alert alert-danger form-alert d-none py-2 small"></div>
-        <?php if (!$clients): ?>
-          <div class="alert alert-warning">Add a client first. <a href="<?= e(url('clients')) ?>">Go to Clients</a></div>
-        <?php endif; ?>
+        <input type="hidden" name="client_mode" value="existing">
         <div class="row g-3">
           <div class="col-md-6"><label class="form-label">Client *</label><select class="form-select" name="client_id" required>
             <option value="">Choose a client…</option>
+            <option value="__new">+ New client…</option>
             <?php foreach ($clients as $c): ?><option value="<?= (int) $c['id'] ?>" <?= $preselectClient === (int) $c['id'] ? 'selected' : '' ?>><?= e($c['business_name']) ?></option><?php endforeach; ?></select></div>
+          <div class="col-12 new-client d-none"><div class="border rounded p-3 bg-light"><div class="row g-3">
+            <div class="col-md-6"><label class="form-label">Client / business name *</label><input class="form-control" name="new_business_name" maxlength="190"></div>
+            <div class="col-md-6"><label class="form-label">Contact person</label><input class="form-control" name="new_contact_person" maxlength="120"></div>
+            <div class="col-md-6"><label class="form-label">Email</label><input class="form-control" type="email" name="new_email" maxlength="190"></div>
+            <div class="col-md-6"><label class="form-label">Phone</label><input class="form-control" name="new_phone" maxlength="20"></div>
+            <div class="col-12"><label class="form-label">Business address</label><textarea class="form-control" name="new_address" rows="2" maxlength="1000"></textarea></div>
+          </div></div></div>
           <div class="col-md-6"><label class="form-label">Website name *</label><input class="form-control" name="name" maxlength="190" required placeholder="e.g. Acme Industries"></div>
           <div class="col-md-6"><label class="form-label">Domain (optional)</label><input class="form-control" name="domain" maxlength="190" placeholder="acme.com"></div>
           <div class="col-md-6"><label class="form-label">Category *</label><select class="form-select" name="category_id" id="newSiteCategory" required>

@@ -8,6 +8,8 @@ DirectoryIndex index.php
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteRule ^(\.git|composer\.(json|lock)$|README\.md$) - [F,L]
+    # QA copies of generated websites are served as real sites (password-protected by generated_websites/.htaccess).
+    RewriteRule ^generated_websites/ - [L]
     RewriteCond %{REQUEST_URI} !/public/
     RewriteRule ^(.*)$ public/$1 [L]
 </IfModule>

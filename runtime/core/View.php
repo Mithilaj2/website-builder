@@ -12,20 +12,23 @@ final class View
 {
     public array $page = [];
     public array $theme = [];
+    /** Result of the last form submission, keyed by form name: ['status' => 'sent'|'error', 'message' => '…'] */
+    public array $flash = [];
 
     /**
-     * @param array{page:string,home:string,theme_asset:string,upload:string,font:string} $urls URL patterns
+     * @param array{page:string,home:string,theme_asset:string,upload:string,font:string,lib:string} $urls URL patterns
+     * @param array{fonts:string,lib:string} $dirs runtime folders (bundled fonts, front-end libraries)
      */
     public function __construct(
         private DataSource $source,
         private string $themeDir,
         private array $manifest,
         private array $urls,
-        private string $fontsDir,
+        private array $dirs,
         private bool $preview = false,
     ) {
         $settings = $source->settings();
-        $this->theme = Theme::resolve((array) ($manifest['theme']['defaults'] ?? []), (array) ($settings['theme'] ?? []), Theme::fonts($fontsDir));
+        $this->theme = Theme::resolve((array) ($manifest['theme']['defaults'] ?? []), (array) ($settings['theme'] ?? []), Theme::fonts($dirs['fonts']));
     }
 
     // ---------------------------------------------------------------- output helpers
@@ -192,7 +195,7 @@ final class View
 
     private function libDir(): string
     {
-        return dirname($this->fontsDir) . '/assets/lib';
+        return $this->dirs['lib'];
     }
 
     /** False in the builder preview: forms are shown but submissions only work on the published site. */
@@ -206,10 +209,27 @@ final class View
         return $this->e(str_replace('{form}', rawurlencode($form), (string) ($this->urls['form'] ?? '')));
     }
 
-    /** Hidden fields every public form must include (CSRF token, spam traps). Filled by the site runtime in Phase 4. */
+    /**
+     * Hidden fields every public form must include: a signed timestamp token (stateless CSRF +
+     * "submitted too fast" trap), a honeypot field, and the page to return to.
+     */
     public function formGuard(): string
     {
-        return (string) ($this->urls['form_guard'] ?? '');
+        $key = (string) ($this->urls['form_key'] ?? '');
+        if ($key === '' || !$this->formsEnabled()) {
+            return '';
+        }
+        $ts = (string) time();
+        $token = $ts . '.' . hash_hmac('sha256', 'form|' . $ts, $key);
+        return '<input type="hidden" name="_t" value="' . $this->e($token) . '">'
+            . '<input type="hidden" name="_back" value="' . $this->e($this->page['slug'] ?? '') . '">'
+            . '<div style="position:absolute;left:-9999px" aria-hidden="true"><label>Leave this empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>';
+    }
+
+    /** Status of the last submission of a form (after the redirect), or null. */
+    public function formStatus(string $form = 'contact'): ?array
+    {
+        return $this->flash[$form] ?? null;
     }
 
     /**
@@ -324,7 +344,7 @@ final class View
         if ($fav !== '') {
             $out .= '<link rel="icon" href="' . $fav . '">';
         }
-        $out .= '<style id="wb-theme">' . Theme::css($this->theme, Theme::fonts($this->fontsDir), $this->urls['font']) . '</style>';
+        $out .= '<style id="wb-theme">' . Theme::css($this->theme, Theme::fonts($this->dirs['fonts']), $this->urls['font']) . '</style>';
         return $out;
     }
 

@@ -105,7 +105,7 @@ final class SiteService
     {
         $id = $this->id();
         $tid = (int) $this->website['template_id'];
-        return new Renderer($this->source(), $this->themeDir(), $this->manifest(), self::previewUrls("websites/$id/preview", $tid, "websites/$id/media"), RUNTIME_PATH . '/fonts', true);
+        return new Renderer($this->source(), $this->themeDir(), $this->manifest(), self::previewUrls("websites/$id/preview", $tid, "websites/$id/media"), ['fonts' => RUNTIME_PATH . '/fonts', 'lib' => RUNTIME_PATH . '/assets/lib'], true);
     }
 
     /** URL patterns used when the builder renders a site or template preview. */
@@ -181,7 +181,7 @@ final class SiteService
      * Create the site's tables (prefix sNNNNNN_), its folder, and seed it from the template.
      * Rolls back (drops tables, removes folder) if anything fails.
      */
-    public static function provision(int $websiteId): void
+    public static function provision(int $websiteId, bool $keepFolder = false): void
     {
         $w = Database::fetch('SELECT w.*, t.folder_path AS template_folder FROM wb_websites w JOIN wb_templates t ON t.id = w.template_id WHERE w.id = ?', [$websiteId]);
         if (!$w) {
@@ -189,7 +189,7 @@ final class SiteService
         }
         $code = str_pad((string) $websiteId, 6, '0', STR_PAD_LEFT);
         $prefix = 's' . $code . '_';
-        $folderRel = 'generated_websites/site_' . $code . '_' . (slugify((string) $w['slug'], '-') ?: 'site');
+        $folderRel = $w['folder_path'] ?: 'generated_websites/site_' . $code . '_' . (slugify((string) $w['slug'], '-') ?: 'site');
         Database::update('wb_websites', ['site_code' => $code, 'table_prefix' => $prefix, 'folder_path' => $folderRel, 'updated_at' => now()], $websiteId);
 
         $svc = self::load($websiteId);
@@ -220,11 +220,46 @@ final class SiteService
         } catch (\Throwable $e) {
             Logger::error('Provisioning failed', ['website' => $websiteId, 'error' => $e->getMessage()]);
             $svc->dropTables();
-            if (is_dir($folder)) {
+            if (!$keepFolder && is_dir($folder)) {
                 FileSystem::deleteDir($folder);
             }
             throw $e;
         }
+    }
+
+    /**
+     * Switch to another template: the website is re-seeded from the new template's pages and demo content.
+     * Kept: uploaded media (files + library), site details, SEO defaults, logo and favicon. A full backup is taken first.
+     */
+    public function changeTemplate(int $templateId): string
+    {
+        $backup = $this->backup('template-change');
+        $db = $this->db();
+        $media = $db->fetchAll('SELECT * FROM ' . $db->t('media'));
+        $settings = $this->settings();
+        $this->dropTables();
+        Database::update('wb_websites', ['template_id' => $templateId, 'updated_at' => now()], $this->id());
+        self::provision($this->id(), true);
+        $fresh = self::load($this->id());
+        $fdb = $fresh->db();
+        foreach ($media as $m) {
+            unset($m['id']);
+            $fdb->insert('media', $m);
+        }
+        if (isset($settings['site'])) {
+            $fresh->saveSetting('site', (array) $settings['site']);
+        }
+        if (isset($settings['seo'])) {
+            $fresh->saveSetting('seo', (array) $settings['seo']);
+        }
+        $theme = (array) ($fresh->settings()['theme'] ?? []);
+        foreach (['logo', 'favicon'] as $k) {
+            if (!empty($settings['theme'][$k])) {
+                $theme[$k] = $settings['theme'][$k];
+            }
+        }
+        $fresh->saveSetting('theme', $theme);
+        return $backup;
     }
 
     public function dropTables(): void

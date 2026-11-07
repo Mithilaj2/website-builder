@@ -7,6 +7,8 @@ use App\Modules\Auth\AuthController;
 use App\Modules\Categories\CategoryController;
 use App\Modules\Clients\ClientController;
 use App\Modules\Dashboard\DashboardController;
+use App\Modules\Generator\GeneratorController;
+use App\Modules\Settings\SettingsController as PlatformSettingsController;
 use App\Modules\Templates\TemplateController;
 use App\Modules\Users\ProfileController;
 use App\Modules\Users\UserController;
@@ -67,6 +69,18 @@ return static function (Router $r): void {
     $r->get('websites/{id}', [WebsiteController::class, 'show'], 'websites.view');
     $r->post('websites/{id}', [WebsiteController::class, 'update'], 'websites.manage');
     $r->post('websites/{id}/delete', [WebsiteController::class, 'destroy'], 'websites.manage');
+    $r->post('websites/{id}/wizard-step', [WebsiteController::class, 'wizardStep'], 'websites.view');
+    $r->post('websites/{id}/payments', [WebsiteController::class, 'payments'], 'websites.manage');
+    $r->post('websites/{id}/status', [WebsiteController::class, 'status'], 'websites.manage');
+    $r->post('websites/{id}/template', [WebsiteController::class, 'changeTemplate'], 'websites.manage');
+
+    // Generation (staged; the browser drives one step per request)
+    $r->get('websites/{id}/checklist', [GeneratorController::class, 'checklist'], 'websites.view');
+    $r->get('websites/{id}/generations', [GeneratorController::class, 'history'], 'websites.view');
+    $r->post('websites/{id}/generate', [GeneratorController::class, 'start'], 'websites.manage');
+    $r->get('websites/{id}/generations/{run}', [GeneratorController::class, 'state'], 'websites.view');
+    $r->post('websites/{id}/generations/{run}/step', [GeneratorController::class, 'step'], 'websites.manage');
+    $r->post('websites/{id}/generations/{run}/retry', [GeneratorController::class, 'retry'], 'websites.manage');
     $r->get('websites/{id}/preview', [PreviewController::class, 'website'], 'websites.view');
     $r->get('websites/{id}/media/{path*}', [MediaController::class, 'serve'], 'websites.view');
 
@@ -121,6 +135,11 @@ return static function (Router $r): void {
     $r->get('profile', [ProfileController::class, 'index']);
     $r->post('profile', [ProfileController::class, 'update']);
     $r->post('profile/password', [ProfileController::class, 'password']);
+
+    // Platform settings (Super Admin)
+    $r->get('settings', [PlatformSettingsController::class, 'index'], 'settings.manage');
+    $r->post('settings', [PlatformSettingsController::class, 'update'], 'settings.manage');
+    $r->post('settings/qa-password', [PlatformSettingsController::class, 'regeneratePassword'], 'settings.manage');
 
     // Activity log
     $r->get('activity', [ActivityController::class, 'index'], 'activity.view');

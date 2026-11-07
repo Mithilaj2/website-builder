@@ -107,3 +107,13 @@ function makeTemplateZip(string $id, string $category, string $version, ?callabl
     return $zipPath;
 }
 
+
+/** Write a small PNG/JPEG and return its path. */
+function makeImageFile(string $path, int $w = 400, int $h = 160): string
+{
+    $im = imagecreatetruecolor($w, $h);
+    imagefill($im, 0, 0, imagecolorallocate($im, 120, 30, 60));
+    str_ends_with($path, '.png') ? imagepng($im, $path) : imagejpeg($im, $path, 85);
+    imagedestroy($im);
+    return $path;
+}

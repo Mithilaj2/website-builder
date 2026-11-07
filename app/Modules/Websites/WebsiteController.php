@@ -77,6 +77,23 @@ final class WebsiteController extends SiteController
 
     public function store(Request $request): void
     {
+        // Step 1 may create the client inline.
+        if ($request->str('client_mode') === 'new') {
+            $cv = Validator::make($request->all(), [
+                'new_business_name' => 'required|max:190', 'new_contact_person' => 'max:120', 'new_email' => 'email|max:190',
+                'new_phone' => 'phone', 'new_address' => 'max:1000',
+            ], ['new_business_name' => 'Client / business name', 'new_contact_person' => 'Contact person', 'new_email' => 'Email', 'new_phone' => 'Phone', 'new_address' => 'Address']);
+            if ($cv->fails()) {
+                Response::fail('Please correct the highlighted fields.', $cv->errors());
+            }
+            $_POST['client_id'] = (string) Database::insert('wb_clients', [
+                'business_name' => $request->str('new_business_name'), 'contact_person' => $request->str('new_contact_person') ?: null,
+                'email' => strtolower($request->str('new_email')) ?: null, 'phone' => $request->str('new_phone') ?: null,
+                'address' => $request->str('new_address') ?: null, 'status' => 'active', 'created_by' => Auth::id(), 'created_at' => now(), 'updated_at' => now(),
+            ]);
+            $newClientId = (int) $_POST['client_id'];
+            Activity::log('client.created', 'client', $newClientId, $request->str('new_business_name') . ' (from website wizard)');
+        }
         $v = Validator::make($request->all(), [
             'client_id' => 'required|integer|exists:wb_clients,id',
             'name' => 'required|max:190',
@@ -91,6 +108,9 @@ final class WebsiteController extends SiteController
             $errors['template_id'] = 'Choose an active template from the selected category.';
         }
         if ($errors) {
+            if (!empty($newClientId)) {
+                Database::delete('wb_clients', $newClientId); // keep step 1 atomic: no orphan client on validation errors
+            }
             Response::fail('Please correct the highlighted fields.', $errors);
         }
 
@@ -116,8 +136,9 @@ final class WebsiteController extends SiteController
             Response::fail('The website could not be set up: ' . $e->getMessage(), [], 500);
         }
         Activity::log('website.created', 'website', $id, $request->str('name') . ' (' . $tpl['code'] . ')');
+        Database::update('wb_websites', ['wizard_step' => 3], $id);
         Activity::log('website.created', 'client', $request->int('client_id'), $request->str('name'));
-        Response::ok('Website created with the template\'s default pages and content.', ['redirect' => url('websites/' . $id)]);
+        Response::ok('Website created with the template\'s default pages and content.', ['redirect' => url('websites/' . $id . '?step=3')]);
     }
 
     /** The website workspace: pages & sections, media, theme, site details, preview. */
@@ -126,10 +147,20 @@ final class WebsiteController extends SiteController
         $svc = $this->site($request->params['id']);
         $manifest = $svc->manifest();
         $fonts = Theme::fonts(RUNTIME_PATH . '/fonts');
+        $w = $svc->website();
+        $step = $request->int('step', 0);
+        if ($step < 1 || $step > 8) {
+            $step = in_array($w['status'], ['draft'], true) ? max(1, min(8, (int) $w['wizard_step'])) : 8;
+        }
         View::render('websites/show', [
-            'title' => $svc->website()['name'],
+            'title' => $w['name'],
             'active' => 'websites',
-            'w' => $svc->website(),
+            'w' => $w,
+            'currentStep' => $step,
+            'client' => Database::fetch('SELECT * FROM wb_clients WHERE id = ?', [$w['client_id']]) ?? [],
+            'templates' => Database::fetchAll("SELECT * FROM wb_templates WHERE category_id = ? AND (status = 'active' OR id = ?) ORDER BY name", [$w['category_id'], $w['template_id']]),
+            'payments' => (array) (json_decode((string) $w['features'], true)['payments'] ?? []),
+            'gateways' => PaymentGateways::all(),
             'editable' => in_array($svc->website()['status'], self::EDITABLE, true) && can('websites.manage'),
             'schemas' => $svc->schemas(),
             'mediaFolders' => SiteService::MEDIA_FOLDERS,
@@ -153,6 +184,97 @@ final class WebsiteController extends SiteController
         Database::update('wb_websites', ['name' => $request->str('name'), 'domain' => strtolower($request->str('domain')) ?: null, 'description' => $request->str('description') ?: null, 'updated_at' => now()], $svc->id());
         Activity::log('website.updated', 'website', $svc->id(), $request->str('name'));
         Response::ok('Website details saved.');
+    }
+
+    /** Remember how far the wizard got; reaching the review step marks the configuration as complete. */
+    public function wizardStep(Request $request): void
+    {
+        $svc = $this->site($request->params['id']);
+        $step = max(1, min(8, $request->int('step')));
+        $w = $svc->website();
+        $data = ['wizard_step' => max((int) $w['wizard_step'], $step)];
+        if ($step === 8 && $w['status'] === 'draft') {
+            $data['status'] = 'config_pending';
+        }
+        Database::update('wb_websites', $data, $svc->id());
+        Response::ok('', ['status' => $data['status'] ?? $w['status']]);
+    }
+
+    /** Step 7: online payment choice. Credentials are entered by the client in the website's own admin (decision 22). */
+    public function payments(Request $request): void
+    {
+        $svc = $this->site($request->params['id'], true);
+        $enabled = $request->str('enabled') === '1';
+        $gateway = $request->str('gateway');
+        $mode = $request->str('mode') === 'live' ? 'live' : 'test';
+        if ($enabled && !array_key_exists($gateway, \App\Modules\Websites\PaymentGateways::all())) {
+            Response::fail('Choose a payment gateway.', ['gateway' => 'Choose a payment gateway.']);
+        }
+        $features = json_decode((string) $svc->website()['features'], true) ?: [];
+        $features['payments'] = ['enabled' => $enabled, 'gateway' => $enabled ? $gateway : null, 'mode' => $mode];
+        Database::update('wb_websites', [
+            'features' => json_encode($features), 'payment_gateway' => $enabled ? $gateway : null, 'payment_mode' => $enabled ? $mode : null, 'updated_at' => now(),
+        ], $svc->id());
+        Activity::log('website.payments_saved', 'website', $svc->id(), $enabled ? "$gateway ($mode)" : 'disabled');
+        Response::ok('Payment settings saved.');
+    }
+
+    /** Manual status changes after generation: Testing → Ready for deployment → Deployed, Archive / restore. */
+    public function status(Request $request): void
+    {
+        $svc = SiteService::load($request->params['id']) ?? Response::abort(404, 'Website not found.');
+        $w = $svc->website();
+        $to = $request->str('status');
+        $allowed = [
+            'testing' => ['generated', 'ready'],
+            'ready' => ['generated', 'testing'],
+            'deployed' => ['ready'],
+            'generated' => ['testing', 'ready'],
+            'archived' => ['draft', 'config_pending', 'generated', 'testing', 'ready', 'deployed', 'failed'],
+            'restore' => ['archived'],
+        ];
+        if (!isset($allowed[$to]) || !in_array($w['status'], $allowed[$to], true)) {
+            Response::fail('That status change is not allowed from “' . str_replace('_', ' ', $w['status']) . '”.');
+        }
+        if ($to === 'restore') {
+            $to = is_file(BASE_PATH . '/' . $w['folder_path'] . '/generation.json') ? 'generated' : 'draft';
+        }
+        $data = ['status' => $to, 'updated_at' => now()];
+        if ($to === 'deployed') {
+            $data['deployed_at'] = now();
+            $data['hosting_info'] = mb_substr($request->str('hosting_info'), 0, 2000) ?: null;
+        }
+        Database::update('wb_websites', $data, $svc->id());
+        Activity::log('website.status_' . $to, 'website', $svc->id(), $w['name']);
+        $labels = ['testing' => 'Testing', 'ready' => 'Ready for deployment', 'deployed' => 'Deployed', 'generated' => 'Generated', 'archived' => 'Archived', 'draft' => 'Draft'];
+        Response::ok('Status changed to ' . $labels[$to] . '.', ['redirect' => url('websites/' . $svc->id() . '?step=8')]);
+    }
+
+    /** Step 2: switch template (re-seeds content; keeps media and site details; backup first). */
+    public function changeTemplate(Request $request): void
+    {
+        $svc = $this->site($request->params['id'], true);
+        $w = $svc->website();
+        if (!in_array($w['status'], ['draft', 'config_pending', 'failed', 'generated', 'testing'], true)) {
+            Response::fail('The template cannot be changed once a website is ready for deployment.');
+        }
+        $tpl = Database::fetch("SELECT * FROM wb_templates WHERE id = ? AND category_id = ? AND status = 'active'", [$request->int('template_id'), (int) $w['category_id']]);
+        if (!$tpl) {
+            Response::fail('Choose an active template from this website\'s category.', ['template_id' => 'Choose a template.']);
+        }
+        if ((int) $tpl['id'] === (int) $w['template_id']) {
+            Response::fail('This website already uses that template.');
+        }
+        if ($request->str('confirm') !== '1') {
+            Response::fail('Please confirm the template change.');
+        }
+        try {
+            $backup = $svc->changeTemplate((int) $tpl['id']);
+        } catch (\Throwable $e) {
+            Response::fail('The template could not be changed: ' . $e->getMessage() . ' A backup is in storage/backups/websites.', [], 500);
+        }
+        Activity::log('website.template_changed', 'website', $svc->id(), $w['template_code'] . ' → ' . $tpl['code'] . ' (backup: ' . basename($backup) . ')');
+        Response::ok('Template changed. Pages and content were reset from the new template; media and site details were kept.', ['redirect' => url('websites/' . $svc->id() . '?step=3')]);
     }
 
     /** Delete a website after taking a full backup (folder + data). Deployed sites must be archived instead. */

@@ -58,6 +58,9 @@ $(function () {
         }
       }));
     }
+    const $sp = $('#sectionsPageSelect').empty();
+    state.pages.forEach(p => $sp.append('<option value="' + p.id + '">' + WB.esc(p.title) + (p.status !== 'active' ? ' (inactive)' : '') + '</option>'));
+    if (state.pageId) $sp.val(String(state.pageId));
     // preview page dropdown
     const $sel = $('#previewPage').empty();
     state.pages.filter(p => p.status === 'active').forEach(p => $sel.append('<option value="' + WB.esc(Number(p.is_home) ? '' : p.slug) + '">' + WB.esc(p.title) + '</option>'));
@@ -71,10 +74,13 @@ $(function () {
   function selectPage(id) {
     state.pageId = id;
     $('#pageList .page-item').removeClass('active-page').filter('[data-id="' + id + '"]').addClass('active-page');
+    $('#sectionsPageSelect').val(String(id));
     loadSections();
   }
 
-  $('#pageList').on('click', '[data-page-select]', function (e) { e.preventDefault(); selectPage($(this).data('page-select')); });
+  // Step 3: clicking a page opens its sections in step 4
+  $('#pageList').on('click', '[data-page-select]', function (e) { e.preventDefault(); selectPage($(this).data('page-select')); goStep(4); });
+  $('#sectionsPageSelect').on('change', function () { selectPage(Number(this.value)); });
 
   $('#btnAddPage').on('click', function () {
     WB.openForm('#pageModal', { page_type: cfg.pageTypes.indexOf('generic') >= 0 ? 'generic' : cfg.pageTypes[0], show_in_menu: 1, show_in_footer: 0 }, { action: U('pages'), title: 'Add page' });
@@ -175,8 +181,7 @@ $(function () {
   $('#btnPreviewPage').on('click', function () {
     const p = currentPage();
     if (!p) return;
-    $('#previewPage').val(Number(p.is_home) ? '' : p.slug);
-    bootstrap.Tab.getOrCreateInstance($('#previewTabBtn')[0]).show();
+    window.open(previewUrl(Number(p.is_home) ? '' : p.slug), '_blank', 'noopener');
   });
 
   /* ------------------------------------------------------------------ section editor (dynamic fields) */
@@ -521,7 +526,7 @@ $(function () {
     }
   };
   let mediaManager = null;
-  $('#mediaTabBtn').on('shown.bs.tab', function () { if (!mediaManager) mediaManager = new MediaBrowser($('#mediaManager'), { mode: 'manage' }); else mediaManager.load(); });
+  $('[data-step="5"]').on('shown.bs.tab', function () { if (!mediaManager) mediaManager = new MediaBrowser($('#mediaManager'), { mode: 'manage' }); else mediaManager.load(); });
 
   /* ================================================================== THEME + DETAILS */
   function loadSettings() {
@@ -574,7 +579,7 @@ $(function () {
     $('#previewFrame').attr('src', url + (url.indexOf('?') >= 0 ? '&' : '?') + 't=' + Date.now());
     $('#previewOpen').attr('href', url);
   }
-  $('#previewTabBtn').on('shown.bs.tab', loadPreview);
+  $('[data-step="8"]').on('shown.bs.tab', function () { loadPreview(); loadChecklist(); loadHistory(); });
   $('#previewPage').on('change', loadPreview);
   $('#previewReload').on('click', loadPreview);
   $('[data-device]').on('click', function () {
@@ -582,7 +587,127 @@ $(function () {
     $('#previewFrame').css('width', $(this).data('device'));
   });
 
+  /* ================================================================== WIZARD NAVIGATION */
+  const $stepBtns = $('.wb-stepper [data-step]');
+  function goStep(n) {
+    const $b = $stepBtns.filter('[data-step="' + n + '"]');
+    if ($b.length) bootstrap.Tab.getOrCreateInstance($b[0]).show();
+  }
+  $stepBtns.on('shown.bs.tab', function () {
+    const n = Number($(this).data('step'));
+    state.step = n;
+    $(this).closest('li').addClass('visited');
+    $('#wizPrev').prop('disabled', n === 1);
+    $('#wizNext').toggleClass('d-none', n === 8);
+    const url = new URL(window.location.href);
+    url.searchParams.set('step', n);
+    history.replaceState(null, '', url);
+    WB.post(U('wizard-step'), { step: n });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  $('#wizPrev').on('click', () => goStep(Math.max(1, state.step - 1)));
+  $('#wizNext').on('click', () => goStep(Math.min(8, state.step + 1)));
+
+  /* ================================================================== STEP 2: TEMPLATE */
+  $('[data-switch-template]').on('click', async function () {
+    const id = $(this).data('switch-template');
+    const ok = await WB.confirm({
+      title: 'Switch template',
+      message: 'Switch to “' + $(this).data('name') + '”? Pages and sections are replaced by the new template\'s defaults. Uploaded media, site details, logo and favicon are kept. A full backup is taken first.',
+      confirmText: 'Switch template'
+    });
+    if (!ok) return;
+    const $b = $(this);
+    WB.busy($b, true);
+    WB.post(U('template'), { template_id: id, confirm: 1 }).done(r => { WB.toast(r.message); if (r.redirect) setTimeout(() => location.href = r.redirect, 600); })
+      .fail(x => x.responseJSON && WB.toast(x.responseJSON.message, 'danger')).always(() => WB.busy($b, false));
+  });
+
+  /* ================================================================== STEP 7: PAYMENTS */
+  $('#paymentForm').on('change', '[name=enabled]', function () { $('#payFields').toggleClass('d-none', this.value !== '1'); });
+
+  /* ================================================================== STEP 8: REVIEW & GENERATE */
+  function loadChecklist() {
+    $.getJSON(U('checklist')).done(function (res) {
+      const icons = { ok: 'check-circle-fill', warn: 'exclamation-triangle-fill', error: 'x-octagon-fill' };
+      const $ul = $('#checklist').empty();
+      res.items.sort((a, b) => ({ error: 0, warn: 1, ok: 2 })[a.status] - ({ error: 0, warn: 1, ok: 2 })[b.status]).forEach(function (i) {
+        $ul.append('<li class="list-group-item d-flex gap-2 check-' + i.status + '"><i class="bi bi-' + icons[i.status] + '"></i><div class="flex-grow-1"><div class="fw-semibold small">' + WB.esc(i.label) + '</div>' +
+          (i.detail ? '<div class="small text-muted">' + WB.esc(i.detail) + '</div>' : '') + '</div>' + (i.step && i.status !== 'ok' ? '<a href="#" class="small text-nowrap" data-goto="' + i.step + '">Fix</a>' : '') + '</li>');
+      });
+      $('#btnGenerate').prop('disabled', res.errors.length > 0).attr('title', res.errors.length ? 'Fix the errors in the checklist first' : '');
+    });
+  }
+  $('#checklist').on('click', '[data-goto]', function (e) { e.preventDefault(); goStep($(this).data('goto')); });
+  $('#checklistReload').on('click', loadChecklist);
+
+  function loadHistory() {
+    $.getJSON(U('generations')).done(function (res) {
+      const $h = $('#genHistory').empty();
+      if (!res.runs.length) { $h.html('<div class="p-3 text-muted">Not generated yet.</div>'); }
+      else {
+        const rows = res.runs.map(r => '<tr><td>#' + r.id + '</td><td>' + WB.esc(r.type) + '</td><td>' + WB.badge(r.status === 'success' ? 'generated' : (r.status === 'running' ? 'generating' : r.status), r.status) + '</td><td>' + WB.datetime(r.started_at) + '<br><span class="text-muted">' + WB.esc(r.user || '') + '</span></td><td class="text-danger">' + WB.esc(r.error_message || '') + '</td></tr>').join('');
+        $h.html('<div class="table-responsive"><table class="table table-sm mb-0"><thead><tr><th>Run</th><th>Type</th><th>Result</th><th>Started</th><th>Error</th></tr></thead><tbody>' + rows + '</tbody></table></div>');
+        const running = res.runs.find(r => r.status === 'running');
+        const failed = res.runs[0] && res.runs[0].status === 'failed' ? res.runs[0] : null;
+        if (running && !state.genRunning) follow(running.id);
+        else if (failed && !state.genRunning) $.getJSON(U('generations/' + failed.id)).done(r => renderRun(r.state));
+      }
+      const generated = ['generated', 'testing', 'ready', 'deployed'].indexOf(cfg.status) >= 0 || res.runs.some(r => r.status === 'success');
+      $('#qaInfo').html(generated
+        ? '<i class="bi bi-globe2 me-1"></i>Generated website: <a href="' + WB.esc(res.site_url) + '" target="_blank" rel="noopener">' + WB.esc(res.site_url) + '</a>' +
+          (res.qa_password ? '<span class="text-muted ms-2">(QA login: <code>' + WB.esc(res.qa_user) + '</code> / <code>' + WB.esc(res.qa_password) + '</code>)</span>' : '')
+        : '<span class="text-muted">The preview above is rendered by the builder. After generation, the standalone website address appears here.</span>');
+    });
+  }
+
+  function renderRun(st) {
+    const icons = { pending: 'circle text-muted', running: 'arrow-repeat text-primary', success: 'check-circle-fill text-success', skipped: 'dash-circle text-warning', failed: 'x-circle-fill text-danger' };
+    $('#genProgress').removeClass('d-none');
+    $('#genProgress .progress-bar').css('width', st.progress + '%').toggleClass('bg-danger', st.status === 'failed').toggleClass('bg-success', st.status === 'success')
+      .toggleClass('progress-bar-animated', st.status === 'running');
+    $('#genProgress .gen-steps').html(st.steps.map(s => '<li><i class="bi bi-' + icons[s.status] + '"></i><div><div>' + WB.esc(s.label) + '</div>' +
+      (s.log && (s.status === 'failed' || s.status === 'skipped' || st.status !== 'running') ? '<div class="log">' + WB.esc(s.log) + '</div>' : '') + '</div></li>').join(''));
+    const $a = $('#genProgress .gen-actions').empty();
+    if (st.status === 'failed') {
+      $a.html('<div class="alert alert-danger small py-2 mb-2">' + WB.esc(st.error || 'Generation failed.') + ' Any existing website was left unchanged.</div>' +
+        (WB.can.indexOf('websites.manage') >= 0 ? '<button class="btn btn-sm btn-outline-danger" data-retry="' + st.run_id + '"><i class="bi bi-arrow-repeat me-1"></i>Retry from the failed step</button>' : ''));
+    } else if (st.status === 'success') {
+      $a.html('<div class="alert alert-success small py-2 mb-0"><i class="bi bi-check-circle-fill me-1"></i>Website generated. <a href="' + WB.esc(st.site_url) + '" target="_blank" rel="noopener">Open the generated website</a></div>');
+    }
+  }
+
+  function follow(runId) {
+    state.genRunning = true;
+    $('#btnGenerate').prop('disabled', true);
+    const tick = function () {
+      WB.post(U('generations/' + runId + '/step')).done(function (r) {
+        renderRun(r.state);
+        if (r.state.status === 'running') setTimeout(tick, 150);
+        else {
+          state.genRunning = false;
+          WB.toast(r.state.status === 'success' ? 'Website generated.' : 'Generation failed: ' + (r.state.error || ''), r.state.status === 'success' ? 'success' : 'danger');
+          setTimeout(() => location.href = U('') + '?step=8', r.state.status === 'success' ? 1500 : 4000);
+        }
+      }).fail(function () { state.genRunning = false; WB.toast('Lost contact with the server. Reload the page to continue the generation.', 'danger'); });
+    };
+    tick();
+  }
+
+  $('#btnGenerate').on('click', function () {
+    const $b = $(this);
+    WB.busy($b, true);
+    WB.post(U('generate')).done(function (r) { renderRun(r.state); follow(r.state.run_id); })
+      .fail(function (x) { const r = x.responseJSON || {}; WB.toast(r.message || 'Could not start.', 'danger'); if (r.checklist) loadChecklist(); WB.busy($b, false); });
+  });
+  $('#generateCard').on('click', '[data-retry]', function () {
+    const id = $(this).data('retry');
+    WB.post(U('generations/' + id + '/retry')).done(r => { WB.toast(r.message); renderRun(r.state); follow(id); })
+      .fail(x => x.responseJSON && WB.toast(x.responseJSON.message, 'danger'));
+  });
+
   /* ================================================================== start */
   loadPages();
   loadSettings();
+  goStep(cfg.step || 1);
 });
