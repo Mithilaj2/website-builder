@@ -9,6 +9,9 @@ $nav = [
     ['appearance', 'appearance', 'palette', 'Appearance'],
     ['enquiries', 'enquiries', 'envelope', 'Enquiries'],
 ];
+if ($isOwner || !empty($paymentsOn)) {
+    $nav[] = ['payments', 'payments', 'credit-card', 'Payments'];
+}
 if ($isOwner) {
     $nav[] = ['settings', 'settings', 'sliders', 'Settings'];
 }

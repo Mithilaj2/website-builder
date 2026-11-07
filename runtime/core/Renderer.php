@@ -41,6 +41,12 @@ final class Renderer
         return ['status' => 200, 'html' => $view->capture($layout, ['content' => $content])];
     }
 
+    /** Render runtime-provided content (e.g. the "Pay online" pages) inside the template's default layout. */
+    public function renderContent(array $page, string $content, int $status = 200): array
+    {
+        return ['status' => $status, 'html' => $this->view($page)->capture($this->themeDir . '/layouts/default.php', ['content' => $content])];
+    }
+
     /** Render one section on its own (used for the section editor's live preview). */
     public function section(View $view, array $section): string
     {

@@ -1,7 +1,7 @@
 <?php $sid = 'faq' . (int) ($section['id'] ?? 0); ?>
 <section <?= $view->attrs($section, 'mrd-faq') ?>>
   <div class="container">
-    <div class="row g-5">
+    <div class="row g-4 g-lg-5">
       <div class="col-lg-4"><?= $view->partial('section-head', ['data' => $data, 'align' => 'start']) ?></div>
       <div class="col-lg-8">
         <div class="accordion mrd-accordion" id="<?= $sid ?>">

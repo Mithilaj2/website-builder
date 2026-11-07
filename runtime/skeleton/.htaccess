@@ -4,6 +4,8 @@ DirectoryIndex index.php
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    # Pass the Authorization header to PHP (PHP-FPM/CGI drop it); PhonePe signs webhooks with it.
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
     # Private folders and template source files are never served.
     RewriteRule ^(config|core|vendor|storage|database)(/|$) - [F,L]
     RewriteRule ^theme/(layouts|partials|sections)(/|$) - [F,L]

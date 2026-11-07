@@ -7,7 +7,7 @@ $about = (string) $view->site('footer_about', $view->site('tagline'));
 ?>
 <footer class="mrd-footer">
   <div class="container">
-    <div class="row g-5">
+    <div class="row g-4 g-lg-5">
       <div class="col-lg-4">
         <a class="mrd-brand mrd-brand-footer" href="<?= $view->e($view->url('')) ?>">
           <?php if ($logo !== ''): ?><img src="<?= $logo ?>" alt="<?= $view->e($view->site('name')) ?>"><?php else: ?>

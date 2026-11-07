@@ -205,7 +205,8 @@ $steps = [1 => ['Client & website', 'bi-person-vcard'], 2 => ['Template', 'bi-la
         <ul class="mb-0 text-muted">
           <li>The builder records the gateway and mode only. API keys and secrets are <strong>never</strong> written into website files or exports.</li>
           <li>After deployment, the website owner enters the keys in the website's own admin panel, where they are stored encrypted with that website's key.</li>
-          <li>The payment flow itself (checkout, server-side verification, webhooks, success and failure pages) is built in <strong>Phase 5</strong>, starting with Razorpay. No gateway is marked as working until a real test payment has been verified.</li>
+          <li>The website gets a <strong>“Pay online”</strong> page at <code>/pay</code> (link to it with <code>page:pay</code>). The customer pays on the gateway's own page; every payment is confirmed server-side with the gateway before it is marked paid.</li>
+          <li>For QA, create the website admin login (step 8), open the admin → Payments → Settings and enter the gateway's <strong>test</strong> keys.</li>
         </ul>
       </div></div>
     </div></div>

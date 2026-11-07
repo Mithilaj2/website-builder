@@ -66,6 +66,12 @@ Each website has its own admin at `<website address>/admin`. In the builder, ope
 
 For enquiry emails, the client (or you) should set **Settings → Email → SMTP** in the website admin, with a mailbox on the client's domain (cPanel → Email Accounts → Connect Devices shows the SMTP server and port).
 
+## Online payments (each generated website)
+
+The website owner sets payments up in the website admin → **Payments → Settings**. See `docs/PROGRESS.md` → "Sandbox verification checklist". Requirements:
+- **HTTPS** before live payments (cPanel → SSL/TLS Status → Run AutoSSL)
+- the PHP **curl** and **sodium** extensions (both standard on cPanel)
+
 ## Troubleshooting
 
 | Symptom | Fix |
@@ -75,6 +81,7 @@ For enquiry emails, the client (or you) should set **Settings → Email → SMTP
 | Upload errors for large ZIPs | Raise `upload_max_filesize` and `post_max_size` in **MultiPHP INI Editor** (e.g. 128M) |
 | Website admin shows "Too many failed attempts" | Wait 15 minutes, or in the builder use **Website admin → set new password** for that email, which also clears the lock |
 | Enquiry emails not arriving | Website admin → Settings → Email: set up SMTP and use **Send test email**. Failures are logged in the website's `storage/logs/` |
+| A payment shows "Pending" | The bank or UPI app has not confirmed yet. The receipt page re-checks by itself; in the admin use **Payments → View → Re-check with gateway**. Setting up the gateway's webhook confirms such payments automatically |
 | Errors after setup | Check `storage/logs/app-YYYY-MM-DD.log`. For temporary debugging only, set `'debug' => true` in `config/config.php` |
 
 ## Local development
@@ -92,3 +99,10 @@ php tests/phase4_http_test.php http://127.0.0.1:8080 info@channelsoftech.com 'Yo
 ```
 
 The last argument is optional. It lets the test clear its own login attempts and test accounts, so it can be re-run within the 15-minute lockout window.
+
+Phase 5 (payments) runs against a local imitation of the gateways. Add `'payment_emulator' => 'http://127.0.0.1:8090'` to `config/config.php` (developers only, never on the live builder), regenerate the website, then:
+
+```bash
+php -S 127.0.0.1:8090 tools/payment-emulator.php &
+php tests/phase5_http_test.php http://127.0.0.1:8080 info@channelsoftech.com 'YourPassword' 2 http://127.0.0.1:8090 /tmp/mailsink "mysql:host=127.0.0.1;dbname=DBNAME|DBUSER|DBPASS"
+```

@@ -62,6 +62,10 @@ final class Mailer
         if (!filter_var($from, FILTER_VALIDATE_EMAIL)) {
             $host = preg_replace('/^www\./', '', strtolower(explode(':', $this->host)[0])) ?: 'localhost';
             $from = 'no-reply@' . $host;
+            // An IP address or "localhost" is not a valid sender domain: fall back to the website's own address.
+            if (filter_var($host, FILTER_VALIDATE_IP) || !str_contains($host, '.') || !filter_var($from, FILTER_VALIDATE_EMAIL)) {
+                $from = $this->notifyTo()[0] ?? (filter_var($this->site['email'] ?? '', FILTER_VALIDATE_EMAIL) ? $this->site['email'] : 'no-reply@localhost.localdomain');
+            }
         }
         $m->setFrom($from, (string) (($this->mail['from_name'] ?? '') ?: ($this->site['name'] ?? 'Website')));
         foreach ($to as $addr) {

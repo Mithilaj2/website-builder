@@ -49,6 +49,10 @@ final class Site
                 (new Admin\App($this->root, $this->db(), $app, $this->baseUrl()))->handle(substr($path, 6), $this);
                 return;
             }
+            if ($path === 'pay' || str_starts_with($path, 'pay/') || ($path === '' && ($_GET['page'] ?? '') === 'pay')) {
+                $this->payments(substr($path, 4));
+                return;
+            }
             if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
                 if (preg_match('#^form/([a-z0-9_-]{1,40})$#', $path, $m)) {
                     (new FormHandler($this->db(), (string) $app['key'], $this->baseUrl(), !empty($app['clean_urls']), fn (array $row) => $this->notify($row)))->handle($m[1]);
@@ -81,15 +85,7 @@ final class Site
                 'message' => $sent ? 'Thank you! Your message has been sent. We will get back to you soon.' : ($reasons[$_GET['reason'] ?? ''] ?? 'Your message could not be sent. Please try again.'),
             ];
         }
-        $renderer = new Renderer(
-            new DbSource($this->db()),
-            $this->root . '/theme',
-            $manifest,
-            $this->urls(),
-            ['fonts' => $this->root . '/assets/fonts', 'lib' => $this->root . '/assets/lib'],
-            false,
-            $flash
-        );
+        $renderer = $this->renderer($manifest, $flash);
         $slug = $path;
         if ($path === '' && isset($_GET['page']) && is_string($_GET['page'])) {
             $slug = trim($_GET['page'], '/'); // works without mod_rewrite
@@ -98,6 +94,94 @@ final class Site
         http_response_code($out['status']);
         header('Content-Type: text/html; charset=utf-8');
         echo $out['html'];
+    }
+
+    private function renderer(array $manifest, array $flash = []): Renderer
+    {
+        return new Renderer(
+            new DbSource($this->db()),
+            $this->root . '/theme',
+            $manifest,
+            $this->urls(),
+            ['fonts' => $this->root . '/assets/fonts', 'lib' => $this->root . '/assets/lib'],
+            false,
+            $flash
+        );
+    }
+
+    /** The "Pay online" pages and gateway callbacks (/pay…). */
+    private function payments(string $sub): void
+    {
+        $manifest = json_decode((string) file_get_contents($this->root . '/theme/manifest.json'), true) ?: [];
+        $settings = (new DbSource($this->db()))->settings();
+        $base = $this->baseUrl();
+        $clean = !empty($this->app['clean_urls']);
+        $crypto = new Crypto((string) $this->app['key']);
+        // A local imitation of the gateways for automated tests; only ever used in test mode.
+        $emulator = isset($this->app['payment_emulator']) && is_string($this->app['payment_emulator']) && $this->app['payment_emulator'] !== '' ? $this->app['payment_emulator'] : null;
+        $svc = new Payments\PaymentService($this->db(), $crypto, $this->config('payment') ?? [], $emulator);
+        $version = is_file($this->root . '/VERSION') ? substr(md5((string) file_get_contents($this->root . '/VERSION')), 0, 8) : '1';
+        $theme = array_replace((array) ($manifest['theme']['defaults'] ?? []), (array) ($settings['theme'] ?? []));
+        $page = new Payments\PaymentPage($svc, $this->renderer($manifest), [
+            'site_name' => (string) ($settings['site']['name'] ?? $this->app['name'] ?? 'Website'),
+            'color' => preg_match('/^#[0-9a-f]{6}$/i', (string) ($theme['primary'] ?? '')) ? $theme['primary'] : '#2E3192',
+            'key' => (string) $this->app['key'],
+            'abs_base' => $this->origin(),
+            'url' => static fn (string $s): string => $base . ($clean ? '/pay' : '/index.php/pay') . ($s !== '' ? '/' . $s : ''),
+            'asset' => static fn (string $p): string => $base . '/assets/' . $p . '?v=' . rawurlencode($version),
+        ], fn (array $tx) => $this->paymentEmails($tx, $svc, $settings, $crypto), fn (string $level, string $msg) => $this->log($level, $msg));
+        $page->handle($sub, (string) ($_SERVER['REQUEST_METHOD'] ?? 'GET'));
+    }
+
+    /** Scheme and host of the current request, e.g. https://example.com (for addresses given to gateways). */
+    private function origin(): string
+    {
+        $https = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || ($_SERVER['SERVER_PORT'] ?? '') === '443'
+            || strtolower((string) ($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '')) === 'https';
+        $host = (string) ($_SERVER['HTTP_HOST'] ?? 'localhost');
+        if (!preg_match('/^[a-z0-9.\-]+(:\d{1,5})?$/i', $host)) {
+            $host = 'localhost';
+        }
+        return ($https ? 'https' : 'http') . '://' . $host;
+    }
+
+    /** Receipt to the payer and a notification to the owner, once per payment. Never throws. */
+    private function paymentEmails(array $tx, Payments\PaymentService $svc, array $settings, Crypto $crypto): void
+    {
+        if ((int) ($tx['emails_sent'] ?? 0) === 1) {
+            return;
+        }
+        try {
+            $mailer = Mailer::fromSettings($settings, $crypto, (string) ($_SERVER['HTTP_HOST'] ?? ''));
+            $e = static fn ($v) => htmlspecialchars((string) $v, ENT_QUOTES, 'UTF-8');
+            $amount = '₹' . Payments\PaymentService::inr((int) $tx['amount']);
+            $site = (string) ($settings['site']['name'] ?? 'our website');
+            $test = $tx['mode'] === 'test' ? '<p style="background:#fef3c7;padding:8px 12px;border-radius:6px">Test mode: no real money was charged.</p>' : '';
+            $rows = '';
+            foreach (['Amount' => $amount, 'For' => $tx['purpose'], 'Reference' => $tx['reference'], 'Payment ID' => $tx['gateway_payment_id'], 'Paid on' => date('d M Y, h:i A', strtotime((string) $tx['paid_at']))] as $k => $v) {
+                if ((string) $v !== '') {
+                    $rows .= '<tr><td style="padding:6px 16px 6px 0;color:#6b7280">' . $k . '</td><td style="padding:6px 0"><strong>' . $e($v) . '</strong></td></tr>';
+                }
+            }
+            $sent = false;
+            {
+                $mailer->send([$tx['customer_email']], 'Payment receipt ' . $tx['reference'] . ' — ' . $site,
+                    $mailer->wrap('Payment received', '<p>Dear ' . $e($tx['customer_name']) . ',</p><p>Thank you. We have received your payment.</p><table role="presentation">' . $rows . '</table>' . $test . '<p style="color:#6b7280;font-size:13px">Please keep this email for your records. Reply to it if you have any questions.</p>'),
+                    "Payment received\n\nAmount: $amount\nFor: {$tx['purpose']}\nReference: {$tx['reference']}\nPayment ID: {$tx['gateway_payment_id']}", $mailer->notifyTo()[0] ?? null);
+                $sent = true;
+                if ($mailer->notifyTo()) {
+                    $mailer->send($mailer->notifyTo(), 'Payment received: ' . $amount . ' from ' . $tx['customer_name'] . ($tx['mode'] === 'test' ? ' (test)' : ''),
+                        $mailer->wrap('New payment: ' . $amount, '<table role="presentation">' . $rows . '<tr><td style="padding:6px 16px 6px 0;color:#6b7280">From</td><td><strong>' . $e($tx['customer_name']) . '</strong><br>' . $e($tx['customer_email']) . ' · ' . $e($tx['customer_phone']) . '</td></tr></table>'
+                            . ($tx['note'] ? '<p style="background:#f4f6fb;padding:12px;border-radius:6px">' . $e($tx['note']) . '</p>' : '') . $test . '<p style="color:#6b7280;font-size:13px">All payments are listed in your website admin under Payments.</p>'),
+                        "New payment: $amount\nFrom: {$tx['customer_name']} ({$tx['customer_email']}, {$tx['customer_phone']})\nFor: {$tx['purpose']}\nReference: {$tx['reference']}", $tx['customer_email']);
+                }
+            }
+            if ($sent) {
+                $svc->markEmailed((int) $tx['id']);
+            }
+        } catch (\Throwable $ex) {
+            $this->log('WARNING', 'Payment ' . $tx['reference'] . ' received, but an email failed: ' . $ex->getMessage());
+        }
     }
 
     /** URL patterns for this site, based on where it is installed. */

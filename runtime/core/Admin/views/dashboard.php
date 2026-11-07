@@ -2,9 +2,23 @@
   <div class="alert alert-warning d-flex gap-2 align-items-start"><i class="bi bi-envelope-exclamation fs-5"></i><div>No email address is set for enquiry notifications. Enquiries are still saved here.
   <?php if (($user['role'] ?? '') === 'owner'): ?><a href="<?= e($admin->url('settings')) ?>">Set up email</a><?php endif; ?></div></div>
 <?php endif; ?>
+<?php if ($payments !== null): ?>
+  <?php if (!$payments['ready']): ?>
+    <div class="alert alert-warning d-flex gap-2 align-items-start"><i class="bi bi-credit-card fs-5"></i><div>Online payments are switched on, but the gateway keys are missing, so the “Pay online” page is not accepting payments.
+    <?php if (($user['role'] ?? '') === 'owner'): ?><a href="<?= e($admin->url('payments/settings')) ?>">Enter the keys</a><?php endif; ?></div></div>
+  <?php elseif ($payments['mode'] === 'test'): ?>
+    <div class="alert alert-info d-flex gap-2 align-items-start"><i class="bi bi-cone-striped fs-5"></i><div>Payments are in <strong>test mode</strong>: customers cannot pay real money yet.
+    <?php if (($user['role'] ?? '') === 'owner'): ?><a href="<?= e($admin->url('payments/settings')) ?>">Switch to live</a> when you have tested a payment.<?php endif; ?></div></div>
+  <?php endif; ?>
+<?php endif; ?>
 <div class="row g-3 mb-4">
-  <?php foreach ([['New enquiries', $stats['new'], 'envelope-open', 'cyan', 'enquiries'], ['Active pages', $stats['pages'], 'files', '', 'content'], ['Visible sections', $stats['sections'], 'layout-text-sidebar', 'green', 'content'], ['Images', $stats['media'], 'images', 'amber', 'media']] as [$label, $value, $icon, $cls, $link]): ?>
-    <div class="col-6 col-xl-3"><a class="card h-100 text-reset text-decoration-none" href="<?= e($admin->url($link)) ?>"><div class="stat-card"><div class="icon <?= $cls ?>"><i class="bi bi-<?= $icon ?>"></i></div><div><div class="value"><?= (int) $value ?></div><div class="label"><?= e($label) ?></div></div></div></a></div>
+  <?php
+  $tiles = [['New enquiries', (string) (int) $stats['new'], 'envelope-open', 'cyan', 'enquiries'], ['Active pages', (string) (int) $stats['pages'], 'files', '', 'content'], ['Visible sections', (string) (int) $stats['sections'], 'layout-text-sidebar', 'green', 'content'], ['Images', (string) (int) $stats['media'], 'images', 'amber', 'media']];
+  if ($payments !== null) {
+      $tiles[2] = ['Received this month (' . (int) $payments['month_count'] . ')', '₹' . \SiteRuntime\Payments\PaymentService::inr((int) $payments['month_total'], false), 'currency-rupee', 'green', 'payments'];
+  }
+  foreach ($tiles as [$label, $value, $icon, $cls, $link]): ?>
+    <div class="col-6 col-xl-3"><a class="card h-100 text-reset text-decoration-none" href="<?= e($admin->url($link)) ?>"><div class="stat-card"><div class="icon <?= $cls ?>"><i class="bi bi-<?= $icon ?>"></i></div><div><div class="value"><?= e($value) ?></div><div class="label"><?= e($label) ?></div></div></div></a></div>
   <?php endforeach; ?>
 </div>
 <div class="row g-3">
