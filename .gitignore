@@ -1,12 +1,21 @@
+# Local configuration and install state
+/config/config.php
 /config/*.local.php
-/config/database.php
+/storage/setup.lock
+
+# Runtime data
 /storage/logs/*
 /storage/temporary/*
 /storage/backups/*
 /storage/staging/*
 /storage/exports/*
 /generated_websites/*
+/public/uploads/*/*
+!/public/uploads/.htaccess
 !**/.gitkeep
+!/generated_websites/.htaccess
+
+# Tooling
 .env
 .DS_Store
 Thumbs.db
