@@ -8,6 +8,7 @@ use App\Core\Response;
 use App\Core\Router;
 use App\Core\Session;
 
+App\Core\Migrations::run();
 Session::start();
 Response::securityHeaders();
 
