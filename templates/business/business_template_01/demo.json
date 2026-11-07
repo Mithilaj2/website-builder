@@ -1,0 +1,710 @@
+{
+  "settings": {
+    "site": {
+      "name": "Meridian Consulting",
+      "tagline": "Strategy, operations and growth advisory",
+      "phone": "+91 484 400 1234",
+      "email": "hello@meridian.example",
+      "address": "4th Floor, Marine Drive Business Centre\nKochi, Kerala 682031",
+      "hours": "Mon–Sat: 9:30 am – 6:30 pm",
+      "footer_about": "We help growing companies make better decisions, run leaner operations and expand with confidence.",
+      "footer_text": "All rights reserved.",
+      "rating": "4.9/5 client rating",
+      "rating_label": "from 120+ companies across India",
+      "header_button": {
+        "text": "Book a consultation",
+        "url": "page:contact"
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "seo": {
+      "description": "Meridian Consulting helps growing companies with strategy, operations and finance advisory.",
+      "keywords": "business consulting, strategy, operations, Kochi"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Business advisory since 2009",
+            "heading": "Clear strategy. Stronger operations. Lasting growth.",
+            "subheading": "We partner with founders and leadership teams to solve their toughest business challenges — from market entry to process redesign.",
+            "image": "theme:images/hero.svg",
+            "primary_button": {
+              "text": "Book a consultation",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:services"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Senior consultants"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Fixed-fee projects"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Measurable results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Trusted by growing companies",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Aster",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Vantage",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Corvio",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Pillar",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Lumen",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Meridian",
+            "heading": "A partner that understands how business really works",
+            "description": "<p>For over fifteen years we have helped manufacturers, retailers and service firms turn ambition into a clear plan — and the plan into results. Our consultants have run businesses themselves, so our advice is practical, specific and built to be implemented.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "15+",
+            "experience_label": "Years of advisory experience",
+            "points": [
+              {
+                "text": "Senior-led engagements"
+              },
+              {
+                "text": "Industry-specific expertise"
+              },
+              {
+                "text": "Transparent, fixed pricing"
+              },
+              {
+                "text": "Hands-on implementation"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Advisory services built around your goals",
+            "description": "Focused engagements that deliver clear recommendations and the support to act on them.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-compass",
+                "title": "Business Strategy",
+                "description": "Market analysis, growth plans and competitive positioning that give your team a clear direction.",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-gear-wide-connected",
+                "title": "Operations Improvement",
+                "description": "Streamlined processes, lower costs and better quality through lean, practical change.",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-graph-up-arrow",
+                "title": "Financial Advisory",
+                "description": "Budgeting, cash-flow planning and investment readiness for companies preparing to scale.",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-people",
+                "title": "Organisation & People",
+                "description": "Structures, roles and performance systems that help your people do their best work.",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "Market Expansion",
+                "description": "Entry strategy, partner search and launch support for new cities, states and countries.",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Digital Transformation",
+                "description": "Choosing and rolling out the right systems — from ERP to analytics — without the disruption.",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "340",
+                "suffix": "+",
+                "label": "Projects delivered"
+              },
+              {
+                "number": "120",
+                "suffix": "+",
+                "label": "Client companies"
+              },
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Years in business"
+              },
+              {
+                "number": "96",
+                "suffix": "%",
+                "label": "Clients who return"
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Meridian",
+            "heading": "Advice you can act on from day one",
+            "description": "We measure our success by the results our clients achieve, not the size of our reports.",
+            "items": [
+              {
+                "icon": "bi-person-workspace",
+                "title": "Senior consultants only",
+                "description": "Every project is led by a consultant with at least ten years of industry experience."
+              },
+              {
+                "icon": "bi-receipt",
+                "title": "Fixed, transparent fees",
+                "description": "You know the full cost before we start. No surprises, no open-ended billing."
+              },
+              {
+                "icon": "bi-bullseye",
+                "title": "Outcome-focused",
+                "description": "We agree measurable goals up front and track them throughout the engagement."
+              },
+              {
+                "icon": "bi-shield-lock",
+                "title": "Strict confidentiality",
+                "description": "Your data and plans stay protected under formal confidentiality agreements."
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Implementation support",
+                "description": "We stay with you after the recommendations to help make them real."
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Local understanding",
+                "description": "Deep knowledge of Indian markets, regulations and ways of doing business."
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How we work",
+            "heading": "A clear, proven process",
+            "description": "",
+            "steps": [
+              {
+                "title": "Discover",
+                "description": "We listen, gather data and understand what success looks like for you."
+              },
+              {
+                "title": "Diagnose",
+                "description": "We identify the root causes and the biggest opportunities."
+              },
+              {
+                "title": "Design",
+                "description": "We build a practical plan with priorities, owners and timelines."
+              },
+              {
+                "title": "Deliver",
+                "description": "We support your team through implementation and measure results."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "What our clients say",
+            "items": [
+              {
+                "quote": "Meridian helped us restructure our production planning. Within six months our delivery times improved by 30% and our margins followed.",
+                "name": "Anand Menon",
+                "role": "Managing Director, manufacturing company",
+                "rating": "5"
+              },
+              {
+                "quote": "Practical, honest and genuinely invested in our success. Their market-entry plan made our expansion into Bengaluru far smoother than we expected.",
+                "name": "Priya Raghavan",
+                "role": "Founder, retail chain",
+                "rating": "5"
+              },
+              {
+                "quote": "The financial model they built became the backbone of our funding round. Clear thinking and excellent communication throughout.",
+                "name": "Rahul Iyer",
+                "role": "CEO, logistics start-up",
+                "rating": "5"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to take the next step?",
+            "description": "Book a free 30-minute consultation and get a clear view of where to focus first.",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914844001234"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Meridian",
+            "subheading": "Fifteen years of helping ambitious companies grow with clarity and confidence."
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Founded by operators, built for growing companies",
+            "description": "<p>Meridian was founded in 2009 by a group of former operations and finance leaders who saw that growing companies needed advice that was senior, practical and affordable.</p><p>Today our team of consultants works with businesses across manufacturing, retail, healthcare and services — always with the same promise: clear thinking, honest advice and real results.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2009",
+            "experience_label": "Advising businesses since",
+            "points": [
+              {
+                "text": "Offices in Kochi and Bengaluru"
+              },
+              {
+                "text": "Consultants across 6 industries"
+              }
+            ],
+            "button": {
+              "text": "Work with us",
+              "url": "page:contact"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "items": [
+              {
+                "number": "340",
+                "suffix": "+",
+                "label": "Projects delivered"
+              },
+              {
+                "number": "120",
+                "suffix": "+",
+                "label": "Client companies"
+              },
+              {
+                "number": "18",
+                "suffix": "",
+                "label": "Consultants"
+              },
+              {
+                "number": "6",
+                "suffix": "",
+                "label": "Industries served"
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our work",
+            "description": "",
+            "members": [
+              {
+                "name": "Meera Krishnan",
+                "role": "Managing Partner",
+                "bio": "Former COO with 20 years in manufacturing and supply chain."
+              },
+              {
+                "name": "Arjun Nair",
+                "role": "Partner, Strategy",
+                "bio": "Leads growth and market-entry engagements across South India."
+              },
+              {
+                "name": "Fatima Sheikh",
+                "role": "Partner, Finance",
+                "bio": "Chartered accountant specialising in planning and fundraising."
+              },
+              {
+                "name": "Daniel Thomas",
+                "role": "Director, Operations",
+                "bio": "Lean and process-improvement specialist."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Let's talk about your business",
+            "description": "Tell us where you want to go. We'll show you how to get there.",
+            "button": {
+              "text": "Contact us",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Services",
+            "subheading": "Focused advisory engagements with clear deliverables and fixed fees."
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Services",
+            "heading": "How we can help",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-compass",
+                "title": "Business Strategy",
+                "description": "Market analysis, growth plans and competitive positioning."
+              },
+              {
+                "icon": "bi-gear-wide-connected",
+                "title": "Operations Improvement",
+                "description": "Lean processes, cost reduction and quality improvement."
+              },
+              {
+                "icon": "bi-graph-up-arrow",
+                "title": "Financial Advisory",
+                "description": "Budgeting, cash-flow planning and investment readiness."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Organisation & People",
+                "description": "Structures, roles and performance management."
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "Market Expansion",
+                "description": "Entry strategy, partner search and launch support."
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Digital Transformation",
+                "description": "System selection, rollout and adoption."
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "Our approach",
+            "heading": "From first conversation to measurable results",
+            "steps": [
+              {
+                "title": "Discover",
+                "description": "Understand goals and constraints."
+              },
+              {
+                "title": "Diagnose",
+                "description": "Find root causes and opportunities."
+              },
+              {
+                "title": "Design",
+                "description": "Build a practical, prioritised plan."
+              },
+              {
+                "title": "Deliver",
+                "description": "Implement and measure results."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Engagements",
+            "heading": "Simple ways to work with us",
+            "description": "Every engagement has a fixed fee agreed before we start.",
+            "plans": [
+              {
+                "name": "Diagnostic",
+                "price": "₹75,000",
+                "period": "2 weeks",
+                "features": "Business health check\nTop-5 opportunity report\nLeadership workshop",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              },
+              {
+                "name": "Project",
+                "price": "₹3,50,000",
+                "period": "from",
+                "features": "Full strategy or operations project\nSenior consultant team\nImplementation plan\n90-day follow-up",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": true
+              },
+              {
+                "name": "Retainer",
+                "price": "₹1,20,000",
+                "period": "month",
+                "features": "Ongoing advisory support\nMonthly board-level review\nPriority access to specialists",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we hear often",
+            "description": "Can't find what you're looking for? Get in touch and we'll be happy to help.",
+            "items": [
+              {
+                "question": "What size of company do you work with?",
+                "answer": "Most of our clients have between 20 and 2,000 employees, but we tailor every engagement to the business in front of us."
+              },
+              {
+                "question": "How long does a typical project take?",
+                "answer": "Diagnostics take about two weeks. Full projects usually run between six and sixteen weeks, depending on scope."
+              },
+              {
+                "question": "Do you help with implementation?",
+                "answer": "Yes. We stay involved after recommendations are agreed and support your team until the changes are working."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Not sure which service you need?",
+            "description": "Start with a free consultation and we'll recommend the right next step.",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "A look at our workshops, offices and client events."
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/about-1.svg",
+                "caption": "Our Kochi office"
+              },
+              {
+                "image": "theme:images/about-2.svg",
+                "caption": "Strategy workshop"
+              },
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Client offsite"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Want to see what we could do for you?",
+            "description": "",
+            "button": {
+              "text": "Get in touch",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Tell us about your business and we will get back to you within one working day."
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We'd love to hear from you",
+            "description": "Visit our office, call us, or send a message using the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you get in touch",
+            "items": [
+              {
+                "question": "Is the first consultation free?",
+                "answer": "Yes. The first 30-minute conversation is free and without obligation."
+              },
+              {
+                "question": "Do you work outside Kerala?",
+                "answer": "Yes, we work with clients across India and with Indian companies expanding abroad."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how we collect, use and protect the personal information you share with us through this website.</p><h3>Information we collect</h3><p>When you submit an enquiry we collect your name, email address, phone number and the details of your message.</p><h3>How we use it</h3><p>We use this information only to respond to your enquiry and to provide the services you request. We do not sell or share your information with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on our Contact page.</p><p><em>Replace this sample text with your own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Use of this website</h3><p>The content on this website is for general information only and may change without notice.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

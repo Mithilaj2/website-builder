@@ -1,0 +1,63 @@
+{
+  "type": "gallery",
+  "label": "Gallery",
+  "icon": "bi-images",
+  "description": "Image gallery.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Gallery",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Our work",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "",
+      "max": 800
+    },
+    {
+      "key": "columns",
+      "label": "Columns on desktop",
+      "type": "select",
+      "options": {
+        "2": "2 columns",
+        "3": "3 columns",
+        "4": "4 columns"
+      },
+      "default": "3"
+    },
+    {
+      "key": "images",
+      "label": "Images",
+      "type": "repeater",
+      "max_items": 40,
+      "item_label": "caption",
+      "fields": [
+        {
+          "key": "image",
+          "label": "Image",
+          "type": "image",
+          "required": true
+        },
+        {
+          "key": "caption",
+          "label": "Caption",
+          "type": "text",
+          "max": 120
+        }
+      ],
+      "default": []
+    }
+  ]
+}

@@ -41,6 +41,13 @@ This document covers the ten items required by the specification (Section 21) be
 | 29 | SVG | Allowed only after sanitization with `enshrined/svg-sanitize` |
 | 30 | Branding | "Channel Softech Website Builder" with the company logo |
 
+**Decisions made during Phase 2** (explained in `docs/PROGRESS.md`):
+- **Shared front-end libraries:** Bootstrap 5 and Bootstrap Icons are provided once by the runtime (`runtime/assets/lib`) and copied into each generated site, instead of being duplicated inside all 100 template folders (about 180 MB saved). Templates still never depend on another template.
+- **SVG sanitiser:** SVG uploads are cleaned by an in-house allow-list sanitiser (`runtime/core/SvgSanitizer.php`). The popular `enshrined/svg-sanitize` library is GPL-2.0 and would have imposed GPL terms on client websites.
+- **Bundled libraries:** HTML Purifier (LGPL-2.1) is committed in `vendor/`. Packagist is unreachable from the build environment, and cPanel installs need no Composer anyway.
+- **TinyMCE 6:** used instead of 7. Version 6 is MIT-licensed; version 7 changed to GPL.
+- **Simple website creation:** Phase 2 adds a basic "New website" form (client, name, category, template) because pages and sections need a website to exist. Phase 3 turns this into the full 8-step wizard and adds generation.
+
 ---
 
 ## 1. Requirements analysis — what we are really building

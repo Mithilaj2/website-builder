@@ -1,0 +1,97 @@
+{
+  "type": "services",
+  "label": "Services",
+  "icon": "bi-grid",
+  "description": "Grid of services with icons or images.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "What we do",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Our services",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "Short introduction to the services you offer.",
+      "max": 800
+    },
+    {
+      "key": "columns",
+      "label": "Columns on desktop",
+      "type": "select",
+      "options": {
+        "2": "2 columns",
+        "3": "3 columns",
+        "4": "4 columns"
+      },
+      "default": "3"
+    },
+    {
+      "key": "items",
+      "label": "Services",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 12,
+      "item_label": "title",
+      "fields": [
+        {
+          "key": "icon",
+          "label": "Icon",
+          "type": "icon",
+          "default": "bi-briefcase"
+        },
+        {
+          "key": "image",
+          "label": "Image",
+          "type": "image"
+        },
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true,
+          "max": 100
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "textarea",
+          "max": 400
+        },
+        {
+          "key": "link",
+          "label": "Link",
+          "type": "link"
+        }
+      ],
+      "default": [
+        {
+          "icon": "bi-briefcase",
+          "title": "Consulting",
+          "description": "Expert advice tailored to your goals."
+        },
+        {
+          "icon": "bi-graph-up-arrow",
+          "title": "Strategy",
+          "description": "Clear plans that turn ideas into results."
+        },
+        {
+          "icon": "bi-people",
+          "title": "Support",
+          "description": "A dedicated team that is always on hand."
+        }
+      ]
+    }
+  ]
+}

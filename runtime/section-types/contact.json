@@ -1,0 +1,56 @@
+{
+  "type": "contact",
+  "label": "Contact",
+  "icon": "bi-envelope",
+  "description": "Contact details and enquiry form. Details come from Site settings.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Contact",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Get in touch",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "Have a question or a project in mind? Send us a message and we will reply within one working day.",
+      "max": 800
+    },
+    {
+      "key": "form_heading",
+      "label": "Form heading",
+      "type": "text",
+      "default": "Send us a message",
+      "max": 120
+    },
+    {
+      "key": "show_form",
+      "label": "Show enquiry form",
+      "type": "toggle",
+      "default": true
+    },
+    {
+      "key": "show_details",
+      "label": "Show contact details",
+      "type": "toggle",
+      "default": true
+    },
+    {
+      "key": "map_url",
+      "label": "Google Maps link",
+      "type": "text",
+      "max": 500,
+      "help": "Optional: a share link to your location; shown as a 'View on map' button."
+    }
+  ]
+}

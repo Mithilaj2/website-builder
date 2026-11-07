@@ -1,0 +1,72 @@
+{
+  "type": "stats",
+  "label": "Statistics",
+  "icon": "bi-bar-chart",
+  "description": "Key numbers that build trust.",
+  "fields": [
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "max": 160,
+      "default": ""
+    },
+    {
+      "key": "items",
+      "label": "Numbers",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 6,
+      "item_label": "label",
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "type": "text",
+          "required": true,
+          "max": 12
+        },
+        {
+          "key": "suffix",
+          "label": "Suffix",
+          "type": "text",
+          "max": 6
+        },
+        {
+          "key": "label",
+          "label": "Label",
+          "type": "text",
+          "required": true,
+          "max": 60
+        },
+        {
+          "key": "icon",
+          "label": "Icon",
+          "type": "icon"
+        }
+      ],
+      "default": [
+        {
+          "number": "250",
+          "suffix": "+",
+          "label": "Projects completed"
+        },
+        {
+          "number": "120",
+          "suffix": "+",
+          "label": "Happy clients"
+        },
+        {
+          "number": "15",
+          "suffix": "",
+          "label": "Years in business"
+        },
+        {
+          "number": "24",
+          "suffix": "/7",
+          "label": "Support"
+        }
+      ]
+    }
+  ]
+}

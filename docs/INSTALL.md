@@ -42,9 +42,11 @@ These must be writable by PHP (755 for folders is usually enough on cPanel):
 4. Click **Install**. Setup creates the tables, adds the 10 categories, creates the Super Admin, and writes `config/config.php`.
 5. **Delete `public/setup.php`** from the server. (It also locks itself, but removing it is safer.)
 
-## 5. Sign in
+## 5. Sign in and register the bundled templates
 
-Open the builder address and sign in. Use **Users & Roles** to add team members.
+1. Open the builder address and sign in. Use **Users & Roles** to add team members.
+2. Go to **Templates → Scan folders** and click **Register** for each bundled template (e.g. *Meridian Corporate*).
+3. Open each template, check its live preview, and click **Activate**.
 
 ## Troubleshooting
 

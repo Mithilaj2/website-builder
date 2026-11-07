@@ -22,3 +22,4 @@ Thumbs.db
 .idea/
 .vscode/
 node_modules/
+!/generated_websites/.gitkeep

@@ -1,0 +1,78 @@
+{
+  "type": "testimonials",
+  "label": "Testimonials",
+  "icon": "bi-chat-quote",
+  "description": "What customers say about you.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Testimonials",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "What our clients say",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "items",
+      "label": "Testimonials",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 12,
+      "item_label": "name",
+      "fields": [
+        {
+          "key": "quote",
+          "label": "Quote",
+          "type": "textarea",
+          "required": true,
+          "max": 600
+        },
+        {
+          "key": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "max": 80
+        },
+        {
+          "key": "role",
+          "label": "Role / company",
+          "type": "text",
+          "max": 100
+        },
+        {
+          "key": "photo",
+          "label": "Photo",
+          "type": "image"
+        },
+        {
+          "key": "rating",
+          "label": "Rating",
+          "type": "select",
+          "options": {
+            "5": "5 stars",
+            "4": "4 stars",
+            "3": "3 stars",
+            "0": "No rating"
+          },
+          "default": "5"
+        }
+      ],
+      "default": [
+        {
+          "quote": "Professional, responsive and genuinely invested in our success.",
+          "name": "Client name",
+          "role": "Managing Director",
+          "rating": "5"
+        }
+      ]
+    }
+  ]
+}

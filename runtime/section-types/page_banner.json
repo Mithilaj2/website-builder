@@ -1,0 +1,28 @@
+{
+  "type": "page_banner",
+  "label": "Page Banner",
+  "icon": "bi-card-heading",
+  "description": "Title banner for inner pages.",
+  "fields": [
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Page title",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "subheading",
+      "label": "Subheading",
+      "type": "textarea",
+      "max": 300,
+      "default": ""
+    },
+    {
+      "key": "background_image",
+      "label": "Background image",
+      "type": "image"
+    }
+  ]
+}

@@ -9,4 +9,4 @@ An internal tool for Channel Softech (P) Ltd. that generates complete, independe
 
 **Stack:** PHP 8.1+, MySQL 5.7+ / MariaDB 10.3+, Bootstrap 5, jQuery, AJAX. All front-end libraries are bundled locally.
 
-*Status: Phase 1 (core platform) complete. Phase 2 (template engine) is next.*
+*Status: Phases 1–2 complete (core platform, template engine with Business Template 01). Phase 3 (website generator) is next.*

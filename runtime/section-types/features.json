@@ -1,0 +1,81 @@
+{
+  "type": "features",
+  "label": "Why Choose Us",
+  "icon": "bi-stars",
+  "description": "Reasons to choose you, with icons and an optional image.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Why choose us",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "What makes us different",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "",
+      "max": 800
+    },
+    {
+      "key": "image",
+      "label": "Image",
+      "type": "image"
+    },
+    {
+      "key": "items",
+      "label": "Reasons",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 8,
+      "item_label": "title",
+      "fields": [
+        {
+          "key": "icon",
+          "label": "Icon",
+          "type": "icon",
+          "default": "bi-award"
+        },
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true,
+          "max": 100
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "textarea",
+          "max": 300
+        }
+      ],
+      "default": [
+        {
+          "icon": "bi-award",
+          "title": "Proven quality",
+          "description": "Work that meets the highest standards."
+        },
+        {
+          "icon": "bi-clock-history",
+          "title": "Always on time",
+          "description": "We respect your deadlines."
+        },
+        {
+          "icon": "bi-shield-check",
+          "title": "Trusted partner",
+          "description": "Long-term relationships built on trust."
+        }
+      ]
+    }
+  ]
+}

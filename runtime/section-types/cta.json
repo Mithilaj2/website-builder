@@ -1,0 +1,42 @@
+{
+  "type": "cta",
+  "label": "Call to Action",
+  "icon": "bi-megaphone",
+  "description": "Banner prompting visitors to act.",
+  "fields": [
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Ready to start your project?",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "Talk to our team today and get a free consultation.",
+      "max": 800
+    },
+    {
+      "key": "background_image",
+      "label": "Background image",
+      "type": "image"
+    },
+    {
+      "key": "button",
+      "label": "Main button",
+      "type": "link",
+      "default": {
+        "text": "Contact us",
+        "url": "page:contact"
+      }
+    },
+    {
+      "key": "secondary_button",
+      "label": "Secondary button",
+      "type": "link"
+    }
+  ]
+}

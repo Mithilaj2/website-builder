@@ -1,0 +1,81 @@
+{
+  "type": "hero",
+  "label": "Hero Banner",
+  "icon": "bi-window-fullscreen",
+  "description": "Large opening banner with headline and call-to-action buttons.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Welcome",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Your business headline goes here",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "subheading",
+      "label": "Subheading",
+      "type": "textarea",
+      "default": "A short sentence that explains what you do and why customers should choose you.",
+      "max": 400
+    },
+    {
+      "key": "image",
+      "label": "Main image",
+      "type": "image",
+      "help": "Shown beside or behind the text, depending on the template."
+    },
+    {
+      "key": "background_image",
+      "label": "Background image",
+      "type": "image"
+    },
+    {
+      "key": "primary_button",
+      "label": "Main button",
+      "type": "link",
+      "default": {
+        "text": "Get in touch",
+        "url": "page:contact"
+      }
+    },
+    {
+      "key": "secondary_button",
+      "label": "Secondary button",
+      "type": "link",
+      "default": {
+        "text": "Our services",
+        "url": "page:services"
+      }
+    },
+    {
+      "key": "highlights",
+      "label": "Highlights",
+      "type": "repeater",
+      "max_items": 4,
+      "item_label": "text",
+      "fields": [
+        {
+          "key": "icon",
+          "label": "Icon",
+          "type": "icon",
+          "default": "bi-check2-circle"
+        },
+        {
+          "key": "text",
+          "label": "Text",
+          "type": "text",
+          "max": 80
+        }
+      ],
+      "default": []
+    }
+  ]
+}

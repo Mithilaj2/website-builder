@@ -11,6 +11,8 @@ define('STORAGE_PATH', BASE_PATH . '/storage');
 define('PUBLIC_PATH', BASE_PATH . '/public');
 define('TEMPLATES_PATH', BASE_PATH . '/templates');
 define('CONFIG_FILE', BASE_PATH . '/config/config.php');
+define('RUNTIME_PATH', BASE_PATH . '/runtime');
+define('SITES_PATH', BASE_PATH . '/generated_websites');
 
 spl_autoload_register(static function (string $class): void {
     if (strncmp($class, 'App\\', 4) !== 0) {
@@ -26,6 +28,7 @@ if (is_file(BASE_PATH . '/vendor/autoload.php')) {
     require BASE_PATH . '/vendor/autoload.php';
 }
 
+require BASE_PATH . '/runtime/core/autoload.php';
 require APP_PATH . '/helpers.php';
 
 use App\Core\Config;

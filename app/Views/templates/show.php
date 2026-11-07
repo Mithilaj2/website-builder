@@ -49,8 +49,15 @@ $manage = can('templates.manage');
     </div>
 
     <div class="card">
-      <div class="card-header">Live preview</div>
-      <div class="card-body small text-muted">Live rendering of the template with its demo content becomes available with the template engine in Phase 2. Until then, use the preview image and screenshots.</div>
+      <div class="card-header d-flex align-items-center">Live preview
+        <?php if ($report['ok'] ?? false): ?><a class="btn btn-sm btn-primary ms-auto" href="<?= e(url('templates/' . $tpl['id'] . '/preview')) ?>" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>Open live preview</a><?php endif; ?>
+      </div>
+      <?php if ($report['ok'] ?? false): ?>
+        <div class="tpl-live"><iframe src="<?= e(url('templates/' . $tpl['id'] . '/preview')) ?>" title="Live preview of <?= e($tpl['name']) ?>" loading="lazy"></iframe></div>
+        <div class="card-footer bg-white small text-muted">Rendered by the site runtime with the template's demo content.</div>
+      <?php else: ?>
+        <div class="card-body small text-muted">Fix the validation errors to see the live preview.</div>
+      <?php endif; ?>
     </div>
   </div>
 

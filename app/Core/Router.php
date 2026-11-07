@@ -26,7 +26,9 @@ final class Router
 
     private function add(string $method, string $path, array $handler, ?string $permission, bool $public): void
     {
-        $regex = '#^' . preg_replace('#\{([a-z_]+)\}#', '(?P<$1>\d+)', trim($path, '/')) . '$#';
+        // {id} matches digits; {path*} matches the rest of the URL (used for asset paths).
+        $pattern = preg_replace('#\{([a-z_]+)\*\}#', '(?P<$1>.+)', trim($path, '/'));
+        $regex = '#^' . preg_replace('#\{([a-z_]+)\}#', '(?P<$1>\d+)', (string) $pattern) . '$#';
         $this->routes[] = compact('method', 'regex', 'handler', 'permission', 'public');
     }
 
@@ -62,7 +64,10 @@ final class Router
                 }
             }
 
-            $request->params = array_map('intval', array_filter($m, 'is_string', ARRAY_FILTER_USE_KEY));
+            $request->params = array_map(
+                static fn ($v) => ctype_digit((string) $v) ? (int) $v : (string) $v,
+                array_filter($m, 'is_string', ARRAY_FILTER_USE_KEY)
+            );
             [$class, $action] = $route['handler'];
             (new $class())->$action($request);
             return;
