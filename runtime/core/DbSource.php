@@ -84,4 +84,30 @@ final class DbSource implements DataSource
             return []; // table not migrated yet
         }
     }
+
+    public function products(array $f): array
+    {
+        try {
+            $shop = new Shop\ShopService($this->db);
+            if (!empty($f['category'])) {
+                $cat = $shop->categoryBySlug((string) $f['category']);
+                if (!$cat) {
+                    return [];
+                }
+                $f['category'] = (int) $cat['id'];
+            }
+            return $shop->products($f)['rows'];
+        } catch (\PDOException) {
+            return []; // shop tables not migrated yet
+        }
+    }
+
+    public function productCategories(): array
+    {
+        try {
+            return (new Shop\ShopService($this->db))->categories();
+        } catch (\PDOException) {
+            return [];
+        }
+    }
 }

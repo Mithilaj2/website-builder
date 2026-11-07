@@ -9,7 +9,7 @@ namespace SiteRuntime;
  */
 final class ContentService
 {
-    public const RESERVED_SLUGS = ['admin', 'core', 'config', 'uploads', 'theme', 'assets', 'storage', 'database', 'vendor', 'install', 'index', 'api', 'form', 'forms', 'pay'];
+    public const RESERVED_SLUGS = ['admin', 'core', 'config', 'uploads', 'theme', 'assets', 'storage', 'database', 'vendor', 'install', 'index', 'api', 'form', 'forms', 'pay', 'shop'];
 
     /**
      * @param callable(string):string $richtext  sanitises rich-text HTML

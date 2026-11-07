@@ -1,0 +1,13 @@
+{
+  "type": "product_categories",
+  "label": "Shop categories",
+  "icon": "bi-grid-3x3-gap",
+  "description": "Tiles linking to each product category of the shop (managed in Admin → Shop → Categories).",
+  "fields": [
+    { "key": "eyebrow", "label": "Small heading above title", "type": "text", "default": "Browse", "max": 80 },
+    { "key": "heading", "label": "Heading", "type": "text", "default": "Shop by category", "max": 160 },
+    { "key": "description", "label": "Description", "type": "textarea", "default": "", "max": 600 },
+    { "key": "limit", "label": "Show up to", "type": "number", "default": 6, "min": 2, "max": 12 },
+    { "key": "show_counts", "label": "Show the number of products", "type": "toggle", "default": true }
+  ]
+}
