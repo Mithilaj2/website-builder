@@ -1,0 +1,43 @@
+{
+  "id": "education_template_01",
+  "name": "Lyceum Classic",
+  "category": "education",
+  "version": "1.0.0",
+  "description": "A warm, scholarly design for schools and colleges: forest green and saffron on a paper-toned background, Fraunces serif headings and an arch motif (arched hero frame, faculty portraits and banners). Includes a notice board, course cards, an events list with date blocks, an admission process timeline and an admission enquiry form.",
+  "libraries": ["bootstrap", "bootstrap-icons"],
+  "features": ["contact"],
+  "optional_features": ["payments"],
+  "theme": {
+    "defaults": {
+      "primary": "#1F4D3A", "secondary": "#E3A33B", "bg": "#FBF8F1", "text": "#1D2B24",
+      "heading_font": "fraunces", "body_font": "dm-sans", "radius": "14px",
+      "button_style": "pill", "header_style": "classic", "footer_style": "green"
+    },
+    "header_styles": { "classic": "Classic, with top contact bar", "minimal": "Minimal, no top bar" },
+    "footer_styles": { "green": "Deep green, four columns", "light": "Light, four columns" }
+  },
+  "section_types": ["hero", "page_banner", "about", "services", "features", "stats", "testimonials", "gallery", "team", "faq", "cta", "contact", "logos", "rich_text", "process", "pricing", "courses", "events", "notices", "booking_form"],
+  "page_types": {
+    "home": { "default_sections": ["hero", "notices", "about", "courses", "stats", "features", "events", "testimonials", "cta"] },
+    "about": { "default_sections": ["page_banner", "about", "stats", "team", "features"] },
+    "courses": { "default_sections": ["page_banner", "courses", "faq", "cta"] },
+    "admissions": { "default_sections": ["page_banner", "process", "pricing", "booking_form", "faq"] },
+    "events": { "default_sections": ["page_banner", "events", "notices", "gallery"] },
+    "gallery": { "default_sections": ["page_banner", "gallery", "cta"] },
+    "contact": { "default_sections": ["page_banner", "contact"] },
+    "legal": { "default_sections": ["page_banner", "rich_text"] },
+    "generic": { "default_sections": ["page_banner", "rich_text", "cta"] }
+  },
+  "default_pages": [
+    { "title": "Home", "slug": "", "type": "home", "is_home": true },
+    { "title": "About Us", "slug": "about", "type": "about" },
+    { "title": "Courses", "slug": "courses", "type": "courses" },
+    { "title": "Admissions", "slug": "admissions", "type": "admissions" },
+    { "title": "Events", "slug": "events", "type": "events" },
+    { "title": "Gallery", "slug": "gallery", "type": "gallery" },
+    { "title": "Contact Us", "slug": "contact", "type": "contact" },
+    { "title": "Privacy Policy", "slug": "privacy-policy", "type": "legal", "in_menu": false, "in_footer": true },
+    { "title": "Terms and Conditions", "slug": "terms-and-conditions", "type": "legal", "in_menu": false, "in_footer": true }
+  ],
+  "demo_content": "demo.json"
+}

@@ -1,0 +1,1105 @@
+{
+ "settings": {
+  "site": {
+   "name": "Evergreen Valley Academy",
+   "tagline": "School & College · Thrissur",
+   "phone": "+91 487 245 6789",
+   "email": "admissions@evergreen.example",
+   "address": "Evergreen Valley Road, Ollur\nThrissur, Kerala 680306",
+   "hours": "Mon–Sat: 9:00 am – 4:00 pm",
+   "footer_about": "A CBSE school and arts & science college nurturing curious, confident and caring learners since 1981.",
+   "footer_text": "All rights reserved.",
+   "rating": "Accredited A+",
+   "rating_label": "Rated among the top schools in the district",
+   "header_button": {
+    "text": "Apply now",
+    "url": "page:admissions"
+   },
+   "social": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/"
+   }
+  },
+  "seo": {
+   "description": "Evergreen Valley Academy, Thrissur — CBSE school (LKG–XII) and arts & science college. Admissions open for 2026–27.",
+   "keywords": "school in Thrissur, CBSE school, arts and science college, admissions 2026"
+  }
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "Admissions open · 2026–27",
+      "heading": "Where curious minds grow into confident leaders",
+      "subheading": "A CBSE school and arts & science college on a 22-acre green campus — with small classes, caring teachers and every opportunity to discover what you love.",
+      "image": "theme:images/hero-campus.svg",
+      "background_image": "",
+      "primary_button": {
+       "text": "Apply for admission",
+       "url": "page:admissions"
+      },
+      "secondary_button": {
+       "text": "Explore courses",
+       "url": "page:courses"
+      },
+      "highlights": [
+       {
+        "icon": "bi-people",
+        "text": "1 : 18 teacher ratio"
+       },
+       {
+        "icon": "bi-tree",
+        "text": "22-acre green campus"
+       },
+       {
+        "icon": "bi-bus-front",
+        "text": "Transport across Thrissur"
+       }
+      ]
+     }
+    },
+    {
+     "type": "notices",
+     "data": {
+      "eyebrow": "Notice board",
+      "heading": "Latest announcements",
+      "description": "Circulars, results and important dates for students and parents.",
+      "items": [
+       {
+        "date": "2026-11-03",
+        "title": "Admissions open for LKG to Class XI and all degree programmes (2026–27)",
+        "link": {
+         "text": "Read more",
+         "url": "page:admissions"
+        },
+        "is_new": true
+       },
+       {
+        "date": "2026-10-28",
+        "title": "Half-yearly examination results published — collect report cards on 8 November",
+        "link": {
+         "text": "Read more",
+         "url": ""
+        },
+        "is_new": true
+       },
+       {
+        "date": "2026-10-20",
+        "title": "Parent–teacher meeting for Classes VI to X on Saturday, 15 November",
+        "link": {
+         "text": "",
+         "url": ""
+        },
+        "is_new": false
+       },
+       {
+        "date": "2026-10-12",
+        "title": "Inter-school science exhibition: registrations close on 25 November",
+        "link": {
+         "text": "",
+         "url": "page:events"
+        },
+        "is_new": false
+       },
+       {
+        "date": "2026-10-05",
+        "title": "Revised school bus timings from 1 November (route 4 and 7)",
+        "link": {
+         "text": "",
+         "url": ""
+        },
+        "is_new": false
+       },
+       {
+        "date": "2026-09-30",
+        "title": "Scholarship applications for meritorious students now open",
+        "link": {
+         "text": "",
+         "url": "page:admissions"
+        },
+        "is_new": false
+       }
+      ],
+      "button": {
+       "text": "View all notices",
+       "url": "page:events"
+      }
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "About the academy",
+      "heading": "Forty-five years of learning that lasts a lifetime",
+      "description": "<p>Founded in 1981 by a group of teachers and parents, Evergreen Valley Academy has grown from a single classroom into a school and college of over 2,400 students — without losing the warmth of a small community.</p><p>We believe in learning by doing: labs, libraries, sports and the arts are part of every student's week, not extras.</p>",
+      "image": "theme:images/library.svg",
+      "image_2": "theme:images/classroom.svg",
+      "experience_number": "45",
+      "experience_label": "years of excellence",
+      "points": [
+       {
+        "text": "Experienced, caring faculty"
+       },
+       {
+        "text": "Smart classrooms and modern labs"
+       },
+       {
+        "text": "Strong values and life skills"
+       },
+       {
+        "text": "Safe, green, CCTV-monitored campus"
+       }
+      ],
+      "button": {
+       "text": "Our story",
+       "url": "page:about"
+      }
+     }
+    },
+    {
+     "type": "courses",
+     "data": {
+      "eyebrow": "Programmes",
+      "heading": "Courses for every ambition",
+      "description": "From kindergarten to degree, our programmes build strong foundations and real-world skills.",
+      "items": [
+       {
+        "image": "theme:images/science-lab.svg",
+        "title": "B.Sc. Physics & Chemistry",
+        "level": "Undergraduate",
+        "duration": "3 years",
+        "fee": "₹38,000 / year",
+        "description": "Laboratory-led science degree with research projects in the final year.",
+        "link": {
+         "text": "View details",
+         "url": "page:courses"
+        }
+       },
+       {
+        "image": "theme:images/computer-lab.svg",
+        "title": "BCA — Computer Applications",
+        "level": "Undergraduate",
+        "duration": "3 years",
+        "fee": "₹45,000 / year",
+        "description": "Programming, databases and web development with an industry internship.",
+        "link": {
+         "text": "View details",
+         "url": "page:courses"
+        }
+       },
+       {
+        "image": "theme:images/commerce.svg",
+        "title": "B.Com Finance & Taxation",
+        "level": "Undergraduate",
+        "duration": "3 years",
+        "fee": "₹32,000 / year",
+        "description": "Accounting, GST and finance, taught with practical case studies.",
+        "link": {
+         "text": "View details",
+         "url": "page:courses"
+        }
+       }
+      ],
+      "button": {
+       "text": "View all courses",
+       "url": "page:courses"
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "2400",
+        "suffix": "+",
+        "label": "Students",
+        "icon": "bi-people"
+       },
+       {
+        "number": "140",
+        "suffix": "",
+        "label": "Expert teachers",
+        "icon": "bi-person-video3"
+       },
+       {
+        "number": "98",
+        "suffix": "%",
+        "label": "Board results",
+        "icon": "bi-award"
+       },
+       {
+        "number": "45",
+        "suffix": "",
+        "label": "Years of teaching",
+        "icon": "bi-hourglass-split"
+       }
+      ]
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "Why Evergreen",
+      "heading": "An education that looks after the whole child",
+      "description": "",
+      "image": "theme:images/graduation.svg",
+      "items": [
+       {
+        "icon": "bi-mortarboard",
+        "title": "Proven academics",
+        "description": "Consistent board results and university ranks every year."
+       },
+       {
+        "icon": "bi-heart",
+        "title": "Personal attention",
+        "description": "Mentors for every student and small class sizes."
+       },
+       {
+        "icon": "bi-trophy",
+        "title": "Sports & arts",
+        "description": "Football, athletics, music, dance and fine arts on campus."
+       },
+       {
+        "icon": "bi-lightbulb",
+        "title": "Future skills",
+        "description": "Coding, robotics, public speaking and career guidance."
+       }
+      ]
+     }
+    },
+    {
+     "type": "events",
+     "data": {
+      "eyebrow": "Campus life",
+      "heading": "Upcoming events",
+      "description": "",
+      "items": [
+       {
+        "date": "2026-11-21",
+        "time": "9:30 am – 4:00 pm",
+        "title": "Annual Science Exhibition",
+        "location": "Main block & labs",
+        "description": "Students from Class VI to degree present projects in physics, chemistry, biology and robotics.",
+        "image": "theme:images/science-lab.svg",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "date": "2026-12-05",
+        "time": "8:00 am onwards",
+        "title": "Sports Day 2026",
+        "location": "Academy grounds",
+        "description": "Track and field events, house relays and the inter-house football final.",
+        "image": "theme:images/sports.svg",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "date": "2026-12-19",
+        "time": "5:30 pm",
+        "title": "Annual Day & Prize Distribution",
+        "location": "Open-air auditorium",
+        "description": "An evening of music, dance and drama, with awards for academic and sports achievers.",
+        "image": "theme:images/arts.svg",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       }
+      ],
+      "hide_past": true
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Voices",
+      "heading": "What parents and alumni say",
+      "items": [
+       {
+        "quote": "Our daughter joined in Class III and is now in college here. The teachers know every child by name — that care has made all the difference.",
+        "name": "Lakshmi Menon",
+        "role": "Parent",
+        "photo": "theme:images/student-2.svg",
+        "rating": "5"
+       },
+       {
+        "quote": "The BCA internship programme got me my first job before I even graduated. The faculty push you to build real projects.",
+        "name": "Arjun Das",
+        "role": "BCA alumnus, 2024",
+        "photo": "theme:images/student-1.svg",
+        "rating": "5"
+       },
+       {
+        "quote": "A lovely, green campus with great facilities. The sports coaching and science labs are excellent.",
+        "name": "Rahul Varghese",
+        "role": "Parent",
+        "photo": "theme:images/student-3.svg",
+        "rating": "5"
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Admissions for 2026–27 are open",
+      "description": "Visit the campus, meet our teachers and find the right programme for your child.",
+      "background_image": "",
+      "button": {
+       "text": "Apply now",
+       "url": "page:admissions"
+      },
+      "secondary_button": {
+       "text": "Book a campus visit",
+       "url": "page:contact"
+      }
+     }
+    }
+   ]
+  },
+  "about": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "About Evergreen Valley Academy",
+      "subheading": "A community of learners since 1981.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Our story",
+      "heading": "Built by teachers, shaped by our students",
+      "description": "<p>What began as a small primary school with 60 children is today a CBSE senior secondary school and an arts & science college affiliated to the state university.</p><p>Our mission has never changed: to give every student a rigorous education, a strong sense of values and the confidence to make a difference.</p>",
+      "image": "theme:images/hero-campus.svg",
+      "image_2": "theme:images/library.svg",
+      "experience_number": "45",
+      "experience_label": "years of excellence",
+      "points": [
+       {
+        "text": "CBSE affiliated school (LKG – XII)"
+       },
+       {
+        "text": "Arts & science college affiliated to the state university"
+       },
+       {
+        "text": "Hostel facilities for boys and girls"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "2400",
+        "suffix": "+",
+        "label": "Students",
+        "icon": ""
+       },
+       {
+        "number": "140",
+        "suffix": "",
+        "label": "Teachers",
+        "icon": ""
+       },
+       {
+        "number": "22",
+        "suffix": "",
+        "label": "Acre campus",
+        "icon": ""
+       },
+       {
+        "number": "18",
+        "suffix": "",
+        "label": "Programmes",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "Leadership & faculty",
+      "heading": "Meet our educators",
+      "description": "Experienced teachers and mentors who guide every student.",
+      "members": [
+       {
+        "photo": "theme:images/faculty-1.svg",
+        "name": "Dr. Thomas Mathew",
+        "role": "Principal",
+        "bio": "Ph.D. in Physics, 28 years in teaching and school leadership.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/faculty-2.svg",
+        "name": "Prof. Anjali Nair",
+        "role": "Head, Computer Science",
+        "bio": "M.Tech, leads the coding club and industry internships.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/faculty-3.svg",
+        "name": "Mr. Faisal Rahman",
+        "role": "Head, Commerce",
+        "bio": "Chartered accountant who brings real business into the classroom.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/faculty-4.svg",
+        "name": "Dr. Meera Krishnan",
+        "role": "Head, Sciences",
+        "bio": "Researcher in chemistry; mentors the science exhibition team.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "Facilities",
+      "heading": "Everything students need, on one campus",
+      "description": "",
+      "image": "",
+      "items": [
+       {
+        "icon": "bi-book",
+        "title": "Central library",
+        "description": "35,000 books, journals and a digital reading room."
+       },
+       {
+        "icon": "bi-cpu",
+        "title": "Computer & robotics labs",
+        "description": "120 systems, 3D printers and robotics kits."
+       },
+       {
+        "icon": "bi-flask",
+        "title": "Science labs",
+        "description": "Fully equipped physics, chemistry and biology labs."
+       },
+       {
+        "icon": "bi-dribbble",
+        "title": "Sports complex",
+        "description": "Football ground, athletics track and indoor courts."
+       },
+       {
+        "icon": "bi-house-heart",
+        "title": "Hostels",
+        "description": "Separate, supervised hostels with nutritious meals."
+       },
+       {
+        "icon": "bi-bus-front",
+        "title": "Transport",
+        "description": "GPS-tracked buses covering 14 routes across Thrissur."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "courses": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Courses & programmes",
+      "subheading": "School, undergraduate and skill programmes designed for real-world success.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "courses",
+     "data": {
+      "eyebrow": "",
+      "heading": "Find the right programme",
+      "description": "",
+      "items": [
+       {
+        "image": "theme:images/classroom.svg",
+        "title": "School — LKG to Class X",
+        "level": "School",
+        "duration": "LKG – X",
+        "fee": "",
+        "description": "CBSE curriculum with activity-based learning, languages, arts and sports.",
+        "link": {
+         "text": "Admission details",
+         "url": "page:admissions"
+        }
+       },
+       {
+        "image": "theme:images/science-lab.svg",
+        "title": "Higher Secondary — Science",
+        "level": "Class XI – XII",
+        "duration": "2 years",
+        "fee": "",
+        "description": "Physics, chemistry, biology / computer science with entrance coaching.",
+        "link": {
+         "text": "Admission details",
+         "url": "page:admissions"
+        }
+       },
+       {
+        "image": "theme:images/commerce.svg",
+        "title": "Higher Secondary — Commerce",
+        "level": "Class XI – XII",
+        "duration": "2 years",
+        "fee": "",
+        "description": "Accountancy, business studies and economics with applied maths.",
+        "link": {
+         "text": "Admission details",
+         "url": "page:admissions"
+        }
+       },
+       {
+        "image": "theme:images/science-lab.svg",
+        "title": "B.Sc. Physics & Chemistry",
+        "level": "Undergraduate",
+        "duration": "3 years",
+        "fee": "₹38,000 / year",
+        "description": "Laboratory-led science degree with research projects.",
+        "link": {
+         "text": "Apply",
+         "url": "page:admissions"
+        }
+       },
+       {
+        "image": "theme:images/computer-lab.svg",
+        "title": "BCA — Computer Applications",
+        "level": "Undergraduate",
+        "duration": "3 years",
+        "fee": "₹45,000 / year",
+        "description": "Programming, databases, cloud and web development.",
+        "link": {
+         "text": "Apply",
+         "url": "page:admissions"
+        }
+       },
+       {
+        "image": "theme:images/arts.svg",
+        "title": "BA English & Communication",
+        "level": "Undergraduate",
+        "duration": "3 years",
+        "fee": "₹28,000 / year",
+        "description": "Literature, media and communication skills.",
+        "link": {
+         "text": "Apply",
+         "url": "page:admissions"
+        }
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "Questions",
+      "heading": "Course FAQs",
+      "description": "Can't find an answer? Call the admissions office.",
+      "items": [
+       {
+        "question": "What is the eligibility for degree programmes?",
+        "answer": "A pass in Class XII (or equivalent) from a recognised board. Some programmes require specific subjects — for example, mathematics for BCA."
+       },
+       {
+        "question": "Are scholarships available?",
+        "answer": "Yes. Merit scholarships cover up to 50% of tuition, and need-based support is available. Apply along with the admission form."
+       },
+       {
+        "question": "Do you provide hostel accommodation?",
+        "answer": "Yes, separate hostels for boys and girls with supervised study hours and meals."
+       },
+       {
+        "question": "Is there an entrance test?",
+        "answer": "School admissions include a simple interaction. Degree admissions are based on Class XII marks and a short interview."
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Not sure which course is right?",
+      "description": "Talk to our counsellors — we'll help you choose.",
+      "background_image": "",
+      "button": {
+       "text": "Talk to a counsellor",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    }
+   ]
+  },
+  "admissions": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Admissions 2026–27",
+      "subheading": "A simple, transparent admission process. We're here to help at every step.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "process",
+     "data": {
+      "eyebrow": "How to apply",
+      "heading": "Four simple steps",
+      "description": "",
+      "steps": [
+       {
+        "icon": "bi-pencil-square",
+        "title": "Enquire",
+        "description": "Fill in the enquiry form below or visit the admissions office."
+       },
+       {
+        "icon": "bi-building",
+        "title": "Campus visit",
+        "description": "Tour the campus and meet our teachers and counsellors."
+       },
+       {
+        "icon": "bi-chat-dots",
+        "title": "Interaction",
+        "description": "A friendly interaction or interview, depending on the class."
+       },
+       {
+        "icon": "bi-check2-circle",
+        "title": "Confirm admission",
+        "description": "Submit documents and pay the first-term fee."
+       }
+      ]
+     }
+    },
+    {
+     "type": "pricing",
+     "data": {
+      "eyebrow": "Fee structure",
+      "heading": "Transparent annual fees",
+      "description": "Fees include tuition, library and lab charges. Transport and hostel are optional.",
+      "plans": [
+       {
+        "name": "Primary (LKG – V)",
+        "price": "₹42,000",
+        "period": "per year",
+        "features": "Activity-based learning\nArt, music & sports\nSmart classrooms\nTwo parent meetings per term",
+        "button": {
+         "text": "Enquire",
+         "url": "#admission-form"
+        },
+        "featured": false
+       },
+       {
+        "name": "Secondary (VI – XII)",
+        "price": "₹58,000",
+        "period": "per year",
+        "features": "Science & computer labs\nEntrance coaching (XI – XII)\nClubs and competitions\nCareer guidance",
+        "button": {
+         "text": "Enquire",
+         "url": "#admission-form"
+        },
+        "featured": true
+       },
+       {
+        "name": "Degree programmes",
+        "price": "₹28,000+",
+        "period": "per year",
+        "features": "University-affiliated degrees\nInternships and projects\nPlacement support\nScholarships available",
+        "button": {
+         "text": "Enquire",
+         "url": "#admission-form"
+        },
+        "featured": false
+       }
+      ]
+     }
+    },
+    {
+     "type": "booking_form",
+     "data": {
+      "eyebrow": "Admission enquiry",
+      "heading": "Start your application",
+      "description": "Share a few details and our admissions team will call you within one working day.",
+      "form_type": "admission",
+      "form_heading": "Admission enquiry",
+      "select1_label": "Programme",
+      "select1_options": "School (LKG – X)\nHigher Secondary — Science\nHigher Secondary — Commerce\nB.Sc. Physics & Chemistry\nBCA\nB.Com\nBA English",
+      "select2_label": "Academic year",
+      "select2_options": "2026–27\n2027–28",
+      "date_label": "",
+      "message_label": "Student's current class / questions",
+      "email_required": false,
+      "button_text": "Send enquiry",
+      "success_message": "Thank you! Our admissions team will call you within one working day.",
+      "image": "",
+      "points": [
+       {
+        "icon": "bi-telephone",
+        "title": "We call you back",
+        "text": "Within one working day"
+       },
+       {
+        "icon": "bi-geo-alt",
+        "title": "Visit the campus",
+        "text": "Mon–Sat, 9 am – 4 pm"
+       },
+       {
+        "icon": "bi-award",
+        "title": "Scholarships",
+        "text": "Up to 50% for merit students"
+       }
+      ]
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "FAQ",
+      "heading": "Admission questions",
+      "description": "",
+      "items": [
+       {
+        "question": "Which documents are needed?",
+        "answer": "Birth certificate, previous report card, transfer certificate (for Class II and above), Aadhaar and two passport-size photographs."
+       },
+       {
+        "question": "Can fees be paid in instalments?",
+        "answer": "Yes, fees can be paid in three term instalments."
+       },
+       {
+        "question": "When does the academic year begin?",
+        "answer": "School classes begin in June; degree programmes begin in July."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "events": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Events & news",
+      "subheading": "What's happening on campus.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "events",
+     "data": {
+      "eyebrow": "",
+      "heading": "Upcoming events",
+      "description": "",
+      "items": [
+       {
+        "date": "2026-11-21",
+        "time": "9:30 am – 4:00 pm",
+        "title": "Annual Science Exhibition",
+        "location": "Main block & labs",
+        "description": "Students from Class VI to degree present projects in physics, chemistry, biology and robotics.",
+        "image": "theme:images/science-lab.svg",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "date": "2026-12-05",
+        "time": "8:00 am onwards",
+        "title": "Sports Day 2026",
+        "location": "Academy grounds",
+        "description": "Track and field events, house relays and the inter-house football final.",
+        "image": "theme:images/sports.svg",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "date": "2026-12-19",
+        "time": "5:30 pm",
+        "title": "Annual Day & Prize Distribution",
+        "location": "Open-air auditorium",
+        "description": "An evening of music, dance and drama, with awards for academic and sports achievers.",
+        "image": "theme:images/arts.svg",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "date": "2027-01-10",
+        "time": "10:00 am",
+        "title": "Alumni Meet 2027",
+        "location": "College seminar hall",
+        "description": "Reconnect with classmates and teachers; career talks by alumni.",
+        "image": "theme:images/graduation.svg",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       }
+      ],
+      "hide_past": true
+     }
+    },
+    {
+     "type": "notices",
+     "data": {
+      "eyebrow": "Notice board",
+      "heading": "Latest announcements",
+      "description": "Circulars, results and important dates for students and parents.",
+      "items": [
+       {
+        "date": "2026-11-03",
+        "title": "Admissions open for LKG to Class XI and all degree programmes (2026–27)",
+        "link": {
+         "text": "Read more",
+         "url": "page:admissions"
+        },
+        "is_new": true
+       },
+       {
+        "date": "2026-10-28",
+        "title": "Half-yearly examination results published — collect report cards on 8 November",
+        "link": {
+         "text": "Read more",
+         "url": ""
+        },
+        "is_new": true
+       },
+       {
+        "date": "2026-10-20",
+        "title": "Parent–teacher meeting for Classes VI to X on Saturday, 15 November",
+        "link": {
+         "text": "",
+         "url": ""
+        },
+        "is_new": false
+       },
+       {
+        "date": "2026-10-12",
+        "title": "Inter-school science exhibition: registrations close on 25 November",
+        "link": {
+         "text": "",
+         "url": "page:events"
+        },
+        "is_new": false
+       },
+       {
+        "date": "2026-10-05",
+        "title": "Revised school bus timings from 1 November (route 4 and 7)",
+        "link": {
+         "text": "",
+         "url": ""
+        },
+        "is_new": false
+       },
+       {
+        "date": "2026-09-30",
+        "title": "Scholarship applications for meritorious students now open",
+        "link": {
+         "text": "",
+         "url": "page:admissions"
+        },
+        "is_new": false
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "gallery",
+     "data": {
+      "eyebrow": "Gallery",
+      "heading": "Moments from campus",
+      "description": "",
+      "columns": "3",
+      "images": [
+       {
+        "image": "theme:images/graduation.svg",
+        "caption": "Graduation day"
+       },
+       {
+        "image": "theme:images/sports.svg",
+        "caption": "Sports day"
+       },
+       {
+        "image": "theme:images/arts.svg",
+        "caption": "Art studio"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "gallery": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Campus gallery",
+      "subheading": "A glimpse of life at Evergreen Valley Academy.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "gallery",
+     "data": {
+      "eyebrow": "",
+      "heading": "",
+      "description": "",
+      "columns": "3",
+      "images": [
+       {
+        "image": "theme:images/hero-campus.svg",
+        "caption": "Main block"
+       },
+       {
+        "image": "theme:images/library.svg",
+        "caption": "Central library"
+       },
+       {
+        "image": "theme:images/science-lab.svg",
+        "caption": "Chemistry lab"
+       },
+       {
+        "image": "theme:images/computer-lab.svg",
+        "caption": "Computer lab"
+       },
+       {
+        "image": "theme:images/sports.svg",
+        "caption": "Football ground"
+       },
+       {
+        "image": "theme:images/arts.svg",
+        "caption": "Art studio"
+       },
+       {
+        "image": "theme:images/classroom.svg",
+        "caption": "Smart classroom"
+       },
+       {
+        "image": "theme:images/graduation.svg",
+        "caption": "Graduation day"
+       },
+       {
+        "image": "theme:images/commerce.svg",
+        "caption": "Commerce lab"
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "See it for yourself",
+      "description": "Campus visits are welcome Monday to Saturday.",
+      "background_image": "",
+      "button": {
+       "text": "Book a campus visit",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    }
+   ]
+  },
+  "contact": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Contact us",
+      "subheading": "We'd love to welcome you to the campus.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Get in touch",
+      "heading": "Visit, call or write to us",
+      "description": "The admissions office is open Monday to Saturday. For transport and hostel queries, please mention it in your message.",
+      "form_heading": "Send us a message",
+      "show_form": true,
+      "show_details": true,
+      "map_url": ""
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": ""
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>This policy explains how Evergreen Valley Academy collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+     }
+    }
+   ]
+  },
+  "terms-and-conditions": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Terms and Conditions",
+      "subheading": ""
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+     }
+    }
+   ]
+  }
+ }
+}

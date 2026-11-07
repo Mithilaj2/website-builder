@@ -291,7 +291,8 @@ A template contains **no** business logic and **no** database code. It only rece
 
 ### 4.3 Section types and dynamic editing fields
 
-- **Core library** (`runtime/section-types/*.json`) defines common types: `hero, page_banner, about, services, why_us, stats, testimonials, gallery, team, faq, pricing, cta, contact, clients_logos, blog_latest, rich_text, video, map`, plus category types such as `doctors_list, rooms_list, properties_list, packages_list, courses_list, menu_list, products_featured, product_grid`.
+- **Core library** (`runtime/section-types/*.json`) defines common types. Built so far: `hero, page_banner, about, services, features, stats, testimonials, gallery, team, faq, pricing, process, cta, contact, logos, rich_text`, and category types `courses, events, notices, doctors, opening_hours, booking_form` (Phase 7a). Planned with later templates: `rooms_list, properties_list, packages_list, menu_list, products_featured, product_grid, blog_latest, video, map`.
+- **Booking-style forms** (`booking_form`) post to `form/{appointment|admission|booking|enquiry}`. The runtime stores answers to the form's own questions (`extra[Label]`) as JSON in `contact_submissions.extra_json` (site migration 005) and shows them in the admin, the CSV export and the notification email.
 - **Template-specific types** can add their own schema (e.g. `meridian_timeline`).
 - **Each schema** lists fields. Field types are `text, textarea, richtext, image, images, color, link (text+url), number, select, toggle, icon, repeater (with sub-fields)`. Example `hero.json`: heading, subheading, description, background_image, primary_button {text,url}, secondary_button {text,url}.
 - **The section editor** reads the schema and builds the form dynamically (Spec §5 Step 4). Saving validates against the same schema on the server.

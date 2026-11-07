@@ -628,7 +628,7 @@ final class App
         $total = (int) $this->db->value("SELECT COUNT(*) FROM $t WHERE " . implode(' AND ', $where), $params);
         $pages = max(1, (int) ceil($total / $perPage));
         $page = min(max(1, (int) ($_GET['page'] ?? 1)), $pages);
-        $rows = $this->db->fetchAll("SELECT id, name, email, phone, subject, LEFT(message, 140) AS excerpt, status, email_sent, page_slug, created_at FROM $t WHERE " . implode(' AND ', $where) . " ORDER BY id DESC LIMIT $perPage OFFSET " . (($page - 1) * $perPage), $params);
+        $rows = $this->db->fetchAll("SELECT id, form_key, name, email, phone, subject, LEFT(message, 140) AS excerpt, extra_json, status, email_sent, page_slug, created_at FROM $t WHERE " . implode(' AND ', $where) . " ORDER BY id DESC LIMIT $perPage OFFSET " . (($page - 1) * $perPage), $params);
         $this->json(['rows' => $rows, 'total' => $total, 'page' => $page, 'pages' => $pages, 'per_page' => $perPage]);
     }
 
@@ -666,13 +666,18 @@ final class App
     /** CSV download of enquiries (spreadsheet-safe: formula characters are escaped). */
     private function apiEnquiriesExport(): void
     {
-        $rows = $this->db->fetchAll('SELECT id, created_at, name, email, phone, subject, message, status, page_slug FROM ' . $this->db->t('contact_submissions') . " WHERE status <> 'spam' ORDER BY id DESC");
+        $rows = $this->db->fetchAll('SELECT id, created_at, form_key, name, email, phone, subject, message, extra_json, status, page_slug FROM ' . $this->db->t('contact_submissions') . " WHERE status <> 'spam' ORDER BY id DESC");
         header('Content-Type: text/csv; charset=utf-8');
         header('Content-Disposition: attachment; filename="enquiries-' . date('Y-m-d') . '.csv"');
         $out = fopen('php://output', 'w');
         fwrite($out, "\xEF\xBB\xBF");
-        fputcsv($out, ['ID', 'Date', 'Name', 'Email', 'Phone', 'Subject', 'Message', 'Status', 'Page']);
+        fputcsv($out, ['ID', 'Date', 'Form', 'Name', 'Email', 'Phone', 'Subject', 'Message', 'Details', 'Status', 'Page']);
         foreach ($rows as $r) {
+            $details = [];
+            foreach (json_decode((string) $r['extra_json'], true) ?: [] as $k => $v) {
+                $details[] = "$k: $v";
+            }
+            $r['extra_json'] = implode('; ', $details);
             fputcsv($out, array_map(static fn ($v) => preg_match('/^[=+\-@\t\r]/', (string) $v) ? "'" . $v : (string) $v, array_values($r)));
         }
         fclose($out);

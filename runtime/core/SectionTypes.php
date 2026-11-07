@@ -117,6 +117,9 @@ final class SectionTypes
                     if (mb_strlen($v) > $limit) {
                         $errors[$p] = "$label may not exceed $limit characters.";
                     }
+                    if ($f['type'] === 'text' && $v !== '' && !empty($f['pattern']) && !preg_match('/' . str_replace('/', '\/', (string) $f['pattern']) . '/u', $v)) {
+                        $errors[$p] = "$label is not in the expected format" . (str_contains($label, 'YYYY') ? '.' : ' (' . $label . ').');
+                    }
                     if ($f['type'] === 'icon' && $v !== '' && !preg_match('/^bi-[a-z0-9-]+$/', $v)) {
                         $errors[$p] = "$label must be a Bootstrap icon name such as bi-briefcase.";
                     }

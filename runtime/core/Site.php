@@ -76,12 +76,13 @@ final class Site
         if (preg_match('/^[a-z0-9_-]{1,40}$/', $form) && in_array($_GET['status'] ?? '', ['sent', 'error'], true)) {
             $sent = $_GET['status'] === 'sent';
             $reasons = [
-                'invalid' => 'Please fill in your name, a valid email address and your message.',
+                'invalid' => $form === 'contact' ? 'Please fill in your name, a valid email address and your message.' : 'Please fill in your name and a valid mobile number or email address (and check the date).',
                 'expired' => 'The form expired. Please send your message again.',
                 'limit' => 'Too many messages were sent from your connection. Please try again later.',
             ];
             $flash[$form] = [
                 'status' => $sent ? 'sent' : 'error',
+                'reason' => $sent ? '' : (string) ($_GET['reason'] ?? ''),
                 'message' => $sent ? 'Thank you! Your message has been sent. We will get back to you soon.' : ($reasons[$_GET['reason'] ?? ''] ?? 'Your message could not be sent. Please try again.'),
             ];
         }
@@ -291,15 +292,21 @@ final class Site
             }
             $e = static fn ($v) => htmlspecialchars((string) $v, ENT_QUOTES, 'UTF-8');
             $rows = '';
-            foreach (['Name' => $row['name'], 'Email' => $row['email'], 'Phone' => $row['phone'], 'Subject' => $row['subject'], 'Page' => $row['page_slug'] ? '/' . $row['page_slug'] : 'Home'] as $k => $v) {
+            $extra = json_decode((string) ($row['extra_json'] ?? ''), true) ?: [];
+            foreach (['Name' => $row['name'], 'Email' => $row['email'], 'Phone' => $row['phone'], 'Subject' => $row['subject']] + $extra + ['Page' => $row['page_slug'] ? '/' . $row['page_slug'] : 'Home'] as $k => $v) {
                 if ((string) $v !== '') {
-                    $rows .= '<tr><td style="padding:6px 12px 6px 0;color:#6b7280">' . $k . '</td><td style="padding:6px 0"><strong>' . $e($v) . '</strong></td></tr>';
+                    $rows .= '<tr><td style="padding:6px 12px 6px 0;color:#6b7280">' . $e($k) . '</td><td style="padding:6px 0"><strong>' . $e($v) . '</strong></td></tr>';
                 }
             }
-            $html = $mailer->wrap('New enquiry from ' . $row['name'], '<table role="presentation">' . $rows . '</table><p style="white-space:pre-line;background:#f4f6fb;padding:12px;border-radius:6px">' . $e($row['message']) . '</p>'
+            $kind = ['appointment' => 'appointment request', 'admission' => 'admission enquiry', 'booking' => 'booking request'][$row['form_key']] ?? 'enquiry';
+            $html = $mailer->wrap('New ' . $kind . ' from ' . $row['name'], '<table role="presentation">' . $rows . '</table><p style="white-space:pre-line;background:#f4f6fb;padding:12px;border-radius:6px">' . $e($row['message']) . '</p>'
                 . '<p style="color:#6b7280;font-size:13px">Reply to this email to answer the visitor. All enquiries are also saved in your website admin under Enquiries.</p>');
-            $text = "New enquiry\n\nName: {$row['name']}\nEmail: {$row['email']}\nPhone: {$row['phone']}\nSubject: {$row['subject']}\n\n{$row['message']}";
-            $mailer->send($mailer->notifyTo(), 'New enquiry: ' . ($row['subject'] ?: $row['name']), $html, $text, $row['email']);
+            $text = "New $kind\n\nName: {$row['name']}\nEmail: {$row['email']}\nPhone: {$row['phone']}\nSubject: {$row['subject']}\n";
+            foreach ($extra as $k => $v) {
+                $text .= "$k: $v\n";
+            }
+            $text .= "\n" . $row['message'];
+            $mailer->send($mailer->notifyTo(), 'New ' . $kind . ': ' . ($row['subject'] ?: $row['name']), $html, $text, $row['email'] ?: null);
             $this->db()->update('contact_submissions', ['email_sent' => 1], (int) $row['id']);
         } catch (\Throwable $ex) {
             $this->log('WARNING', 'Enquiry #' . $row['id'] . ' saved, but the notification email failed: ' . $ex->getMessage());
