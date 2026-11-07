@@ -184,7 +184,7 @@ check('install.php cannot be run again', $c->req('GET', 'install.php', [], false
 
 $contact = $c->req('GET', 'contact', [], false)['body'];
 preg_match('/name="_t" value="([^"]+)"/', $contact, $t);
-preg_match('/<form class="mrd-form" method="post" action="([^"]+)"/', $contact, $act);
+preg_match('/<form class="[a-z]+-form" method="post" action="([^"]+)"/', $contact, $act);
 sleep(3);
 $f = $hostClient->req('POST', html_entity_decode($act[1] ?? ''), ['_t' => $t[1] ?? '', '_back' => 'contact', 'name' => "Visitor $sfx", 'email' => 'v@example.com', 'message' => "Hello from the new host $sfx"], false);
 check('Contact form works (signed with the new key)', $f['code'] === 303 && str_contains($f['location'], 'status=sent'), $f['code'] . ' ' . $f['location']);

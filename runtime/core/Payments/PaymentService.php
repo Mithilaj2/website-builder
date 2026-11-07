@@ -274,6 +274,30 @@ final class PaymentService
         return $this->find($id);
     }
 
+    /** A payment for a shop order: amount and customer come from the order (already validated). */
+    public function createForOrder(array $order, string $ip): array
+    {
+        $s = $this->settings();
+        $recent = (int) $this->db->value('SELECT COUNT(*) FROM ' . $this->db->t('payment_transactions') . ' WHERE ip = ? AND created_at >= ?', [$ip, date('Y-m-d H:i:s', time() - self::START_WINDOW)]);
+        if ($recent >= self::START_LIMIT) {
+            throw new ValidationError('Too many payment attempts from your connection. Please try again in a few minutes.');
+        }
+        $now = date('Y-m-d H:i:s');
+        $id = $this->db->insert('payment_transactions', [
+            'reference' => 'P' . date('ymd') . strtoupper(bin2hex(random_bytes(5))), 'gateway' => $s['gateway'], 'mode' => $s['mode'],
+            'purpose' => 'Order ' . $order['order_no'], 'amount' => (int) $order['total'], 'currency' => 'INR',
+            'customer_name' => $order['customer_name'], 'customer_email' => $order['customer_email'], 'customer_phone' => $order['customer_phone'],
+            'note' => null, 'order_id' => (int) $order['id'], 'status' => 'created', 'ip' => $ip, 'created_at' => $now, 'updated_at' => $now,
+        ]);
+        return $this->find($id);
+    }
+
+    /** The most recent payment attempt for a shop order. */
+    public function latestForOrder(int $orderId): ?array
+    {
+        return $this->db->fetch('SELECT * FROM ' . $this->db->t('payment_transactions') . ' WHERE order_id = ? ORDER BY id DESC LIMIT 1', [$orderId]);
+    }
+
     /** Create the order at the gateway; returns the browser action. Marks the transaction failed if the gateway refuses. */
     public function start(array $tx, array $ctx): array
     {

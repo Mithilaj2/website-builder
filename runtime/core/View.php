@@ -216,6 +216,72 @@ final class View
         return $this->dirs['lib'];
     }
 
+    // ---------------------------------------------------------------- shop
+
+    /** True when this website's shop is switched on (and the shop pages exist here, i.e. not in a builder preview). */
+    public function shopEnabled(): bool
+    {
+        return !empty($this->source->settings()['shop']['enabled']);
+    }
+
+    /** URL of a shop page: '' (all products), 'cart', 'checkout', 'product/{slug}'; optional query (e.g. ['c' => 'lamps']). Not escaped. */
+    public function shopUrl(string $sub = '', array $query = []): string
+    {
+        $base = (string) ($this->urls['shop'] ?? '');
+        if ($base === '') {
+            return '#';
+        }
+        return $base . ($sub !== '' ? '/' . ltrim($sub, '/') : '') . ($query ? '?' . http_build_query($query) : '');
+    }
+
+    public function productUrl(array $product): string
+    {
+        return $this->shopUrl('product/' . rawurlencode((string) ($product['slug'] ?? '')));
+    }
+
+    public function categoryUrl(array $category): string
+    {
+        return $this->shopUrl('', ['c' => (string) ($category['slug'] ?? '')]);
+    }
+
+    /** ₹ amount from paise, Indian digit grouping: ₹1,299 or ₹1,299.50 */
+    public function money(mixed $paise): string
+    {
+        return '₹' . Shop\ShopService::money((int) $paise);
+    }
+
+    /** Hidden-field value for forms that post to the cart (add to cart buttons). Empty in previews. */
+    public function shopToken(): string
+    {
+        $key = (string) ($this->urls['form_key'] ?? '');
+        if ($key === '' || $this->preview) {
+            return '';
+        }
+        $ts = (string) time();
+        return $ts . '.' . hash_hmac('sha256', 'shop|' . $ts, $key);
+    }
+
+    /** Number of items in the visitor's cart (0 in previews). */
+    public function cartCount(): int
+    {
+        return (int) ($this->urls['cart_count'] ?? 0);
+    }
+
+    /**
+     * Products for a section. Options: category (slug), featured (bool), sort (featured|new|price_asc|price_desc), limit (1–60).
+     * Each product: id, name, slug, image, gallery, price, compare_price, display_price, price_from, discount_pct, in_stock, badge, category_name …
+     */
+    public function products(array $opts = []): array
+    {
+        return $this->source->products(array_intersect_key($opts, array_flip(['category', 'featured', 'sort', 'limit'])));
+    }
+
+    /** Active product categories (id, name, slug, description, image, product_count). */
+    public function productCategories(): array
+    {
+        return $this->source->productCategories();
+    }
+
     /** False in the builder preview: forms are shown but submissions only work on the published site. */
     public function formsEnabled(): bool
     {

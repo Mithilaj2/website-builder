@@ -1,0 +1,831 @@
+{
+ "settings": {
+  "site": {
+   "name": "Terra Market",
+   "tagline": "Handmade homeware from Indian studios",
+   "phone": "+91 484 400 2211",
+   "email": "hello@terramarket.example",
+   "address": "Studio 4, Jew Town Road, Mattancherry\nKochi, Kerala 682002",
+   "hours": "Mon–Sat, 10 am – 6 pm",
+   "footer_about": "Small-batch ceramics, textiles and decor, made by hand in studios across India and shipped carefully to your door.",
+   "footer_text": "All rights reserved.",
+   "header_button": {
+    "text": "",
+    "url": ""
+   },
+   "social": {
+    "instagram": "https://www.instagram.com/",
+    "facebook": "https://www.facebook.com/",
+    "youtube": "https://www.youtube.com/"
+   }
+  },
+  "seo": {
+   "description": "Terra Market: handmade ceramics, cushions, throws, lamps and decor from Indian artisans. Free delivery above ₹999, cash on delivery available.",
+   "keywords": "handmade homeware, ceramic vase, cotton cushion cover, home decor online India"
+  }
+ },
+ "shop": {
+  "settings": {
+   "enabled": true,
+   "legal_name": "Terra Market Crafts",
+   "gstin": "",
+   "store_state": "Kerala",
+   "invoice_address": "Studio 4, Jew Town Road, Mattancherry, Kochi, Kerala 682002",
+   "prices_include_tax": true,
+   "order_prefix": "TM",
+   "invoice_prefix": "TM/",
+   "shipping_flat": 9900,
+   "free_shipping_above": 99900,
+   "shipping_note": "Ships in 2–3 days; delivered in 3–7 working days.",
+   "cod_enabled": true,
+   "cod_fee": 4900,
+   "cod_max": 1000000,
+   "min_order": 0,
+   "low_stock": 5,
+   "return_policy": "Easy returns within 7 days on unused items in original packaging.",
+   "checkout_note": "Every piece is handmade, so small variations are part of its charm."
+  },
+  "categories": [
+   {
+    "name": "Ceramics",
+    "slug": "ceramics",
+    "description": "Vases, mugs, plates and bowls, thrown and glazed by hand.",
+    "image": "theme:images/cat-ceramics.svg"
+   },
+   {
+    "name": "Textiles",
+    "slug": "textiles",
+    "description": "Handloom cushion covers, throws and rugs in natural cotton and jute.",
+    "image": "theme:images/cat-textiles.svg"
+   },
+   {
+    "name": "Lighting",
+    "slug": "lighting",
+    "description": "Lamps that make every corner feel warm.",
+    "image": "theme:images/cat-lighting.svg"
+   },
+   {
+    "name": "Decor",
+    "slug": "decor",
+    "description": "Baskets, brass, planters and candles.",
+    "image": "theme:images/cat-decor.svg"
+   }
+  ],
+  "products": [
+   {
+    "name": "Terracotta Bud Vase",
+    "slug": "terracotta-bud-vase",
+    "category": "ceramics",
+    "price": 145000,
+    "image": "theme:images/vase-terracotta.svg",
+    "gallery": [
+     "theme:images/vase-terracotta-2.svg"
+    ],
+    "gst_rate": "12",
+    "hsn": "6913",
+    "stock": 14,
+    "featured": true,
+    "short_description": "A hand-thrown stoneware vase with a speckled terracotta glaze. Perfect for a single stem or dried grasses.",
+    "description": "<p>Each piece is thrown, glazed and fired by hand, so small variations in colour and shape are part of its character.</p><h3>Details</h3><ul><li>Glazed stoneware, food safe</li><li>Hand wash recommended</li><li>Made in Khurja, Uttar Pradesh</li></ul>",
+    "sku": "TM-CER-001",
+    "compare_price": 180000,
+    "badge": "Bestseller"
+   },
+   {
+    "name": "Sage Ripple Vase",
+    "slug": "sage-ripple-vase",
+    "category": "ceramics",
+    "price": 165000,
+    "image": "theme:images/vase-sage.svg",
+    "gallery": [
+     "theme:images/vase-sage-2.svg"
+    ],
+    "gst_rate": "12",
+    "hsn": "6913",
+    "stock": 9,
+    "featured": true,
+    "short_description": "Soft sage glaze over a rippled body: a calm centrepiece for your table or shelf.",
+    "description": "<p>Each piece is thrown, glazed and fired by hand, so small variations in colour and shape are part of its character.</p><h3>Details</h3><ul><li>Glazed stoneware, food safe</li><li>Hand wash recommended</li><li>Made in Khurja, Uttar Pradesh</li></ul>",
+    "sku": "TM-CER-002",
+    "option_name": "Size",
+    "variants": [
+     {
+      "label": "Small (18 cm)",
+      "price": 165000,
+      "stock": 6,
+      "sku": "TM-CER-002-S"
+     },
+     {
+      "label": "Large (26 cm)",
+      "price": 215000,
+      "stock": 3,
+      "sku": "TM-CER-002-L"
+     }
+    ]
+   },
+   {
+    "name": "Morning Mug Set of 2",
+    "slug": "morning-mug-set",
+    "category": "ceramics",
+    "price": 89900,
+    "image": "theme:images/mug-set.svg",
+    "gallery": [
+     "theme:images/mug-set-2.svg"
+    ],
+    "gst_rate": "12",
+    "hsn": "6912",
+    "stock": 25,
+    "featured": true,
+    "short_description": "Two 300 ml stoneware mugs in terracotta and sage, with comfortable chunky handles.",
+    "description": "<p>Each piece is thrown, glazed and fired by hand, so small variations in colour and shape are part of its character.</p><h3>Details</h3><ul><li>Glazed stoneware, food safe</li><li>Hand wash recommended</li><li>Made in Khurja, Uttar Pradesh</li></ul>",
+    "sku": "TM-CER-003",
+    "compare_price": 109900,
+    "badge": "New"
+   },
+   {
+    "name": "Indigo Dinner Plate",
+    "slug": "indigo-dinner-plate",
+    "category": "ceramics",
+    "price": 69900,
+    "image": "theme:images/plate.svg",
+    "gallery": [],
+    "gst_rate": "12",
+    "hsn": "6912",
+    "stock": 30,
+    "featured": false,
+    "short_description": "A 26 cm hand-painted plate with a block-print inspired rosette.",
+    "description": "<p>Each piece is thrown, glazed and fired by hand, so small variations in colour and shape are part of its character.</p><h3>Details</h3><ul><li>Glazed stoneware, food safe</li><li>Hand wash recommended</li><li>Made in Khurja, Uttar Pradesh</li></ul>",
+    "sku": "TM-CER-004"
+   },
+   {
+    "name": "Clay Serving Bowl",
+    "slug": "clay-serving-bowl",
+    "category": "ceramics",
+    "price": 109900,
+    "image": "theme:images/bowl.svg",
+    "gallery": [],
+    "gst_rate": "12",
+    "hsn": "6912",
+    "stock": 12,
+    "featured": false,
+    "short_description": "A generous 24 cm bowl for salads, fruit or a one-pot dinner.",
+    "description": "<p>Each piece is thrown, glazed and fired by hand, so small variations in colour and shape are part of its character.</p><h3>Details</h3><ul><li>Glazed stoneware, food safe</li><li>Hand wash recommended</li><li>Made in Khurja, Uttar Pradesh</li></ul>",
+    "sku": "TM-CER-005"
+   },
+   {
+    "name": "Handwoven Stripe Cushion Cover",
+    "slug": "stripe-cushion-cover",
+    "category": "textiles",
+    "price": 74900,
+    "image": "theme:images/cushion-stripe.svg",
+    "gallery": [
+     "theme:images/cushion-stripe-2.svg"
+    ],
+    "gst_rate": "12",
+    "hsn": "6304",
+    "stock": 0,
+    "featured": true,
+    "short_description": "A 45 × 45 cm cotton cushion cover with hand-loomed stripes and a hidden zip.",
+    "description": "<p>Woven on handlooms by a weavers' cooperative in Kannur, Kerala, using pre-washed cotton that softens with every wash.</p><h3>Details</h3><ul><li>100% cotton, natural dyes</li><li>Machine wash cold, gentle</li><li>Insert not included unless stated</li></ul>",
+    "sku": "TM-TEX-001",
+    "option_name": "Colour",
+    "variants": [
+     {
+      "label": "Mustard",
+      "stock": 11,
+      "sku": "TM-TEX-001-M"
+     },
+     {
+      "label": "Terracotta",
+      "stock": 7,
+      "sku": "TM-TEX-001-T"
+     }
+    ]
+   },
+   {
+    "name": "Diamond Weave Cushion Cover",
+    "slug": "diamond-cushion-cover",
+    "category": "textiles",
+    "price": 84900,
+    "image": "theme:images/cushion-diamond.svg",
+    "gallery": [],
+    "gst_rate": "12",
+    "hsn": "6304",
+    "stock": 15,
+    "featured": false,
+    "short_description": "Deep blue cotton with a woven diamond pattern, 45 × 45 cm.",
+    "description": "<p>Woven on handlooms by a weavers' cooperative in Kannur, Kerala, using pre-washed cotton that softens with every wash.</p><h3>Details</h3><ul><li>100% cotton, natural dyes</li><li>Machine wash cold, gentle</li><li>Insert not included unless stated</li></ul>",
+    "sku": "TM-TEX-002"
+   },
+   {
+    "name": "Kerala Cotton Throw",
+    "slug": "kerala-cotton-throw",
+    "category": "textiles",
+    "price": 249900,
+    "image": "theme:images/throw.svg",
+    "gallery": [
+     "theme:images/throw-2.svg"
+    ],
+    "gst_rate": "12",
+    "hsn": "6301",
+    "stock": 0,
+    "featured": true,
+    "short_description": "A soft checked throw, 130 × 170 cm, with hand-knotted tassels.",
+    "description": "<p>Woven on handlooms by a weavers' cooperative in Kannur, Kerala, using pre-washed cotton that softens with every wash.</p><h3>Details</h3><ul><li>100% cotton, natural dyes</li><li>Machine wash cold, gentle</li><li>Insert not included unless stated</li></ul>",
+    "sku": "TM-TEX-003",
+    "compare_price": 299900,
+    "option_name": "Colour",
+    "variants": [
+     {
+      "label": "Terracotta check",
+      "stock": 5,
+      "sku": "TM-TEX-003-T"
+     },
+     {
+      "label": "Sage check",
+      "stock": 4,
+      "sku": "TM-TEX-003-S"
+     }
+    ]
+   },
+   {
+    "name": "Round Jute Rug",
+    "slug": "round-jute-rug",
+    "category": "textiles",
+    "price": 399900,
+    "image": "theme:images/rug.svg",
+    "gallery": [],
+    "gst_rate": "12",
+    "hsn": "5702",
+    "stock": 0,
+    "featured": false,
+    "short_description": "A 120 cm round rug braided from natural jute and cotton.",
+    "description": "<p>Woven on handlooms by a weavers' cooperative in Kannur, Kerala, using pre-washed cotton that softens with every wash.</p><h3>Details</h3><ul><li>100% cotton, natural dyes</li><li>Machine wash cold, gentle</li><li>Insert not included unless stated</li></ul>",
+    "sku": "TM-TEX-004"
+   },
+   {
+    "name": "Pebble Table Lamp",
+    "slug": "pebble-table-lamp",
+    "category": "lighting",
+    "price": 349900,
+    "image": "theme:images/lamp.svg",
+    "gallery": [
+     "theme:images/lamp-2.svg"
+    ],
+    "gst_rate": "18",
+    "hsn": "9405",
+    "stock": 0,
+    "featured": true,
+    "short_description": "A speckled ceramic base with a pleated linen shade that throws a warm, soft light.",
+    "description": "<p>The base is hand-thrown in our studio; the shade is pleated by hand from natural linen.</p><h3>Details</h3><ul><li>Height 48 cm, shade 30 cm</li><li>E27 holder, 2 m fabric cable with switch</li><li>Bulb not included (LED up to 9 W recommended)</li></ul>",
+    "sku": "TM-LIG-001",
+    "compare_price": 399900,
+    "badge": "Limited",
+    "option_name": "Base",
+    "variants": [
+     {
+      "label": "Terracotta base",
+      "stock": 4,
+      "sku": "TM-LIG-001-T"
+     },
+     {
+      "label": "Sage base",
+      "stock": 2,
+      "sku": "TM-LIG-001-S"
+     }
+    ]
+   },
+   {
+    "name": "Brass Candle Stands, Set of 3",
+    "slug": "brass-candle-stands",
+    "category": "decor",
+    "price": 225000,
+    "image": "theme:images/candle-holders.svg",
+    "gallery": [],
+    "gst_rate": "12",
+    "hsn": "7418",
+    "stock": 8,
+    "featured": false,
+    "short_description": "Three solid brass stands in graduated heights, cast by artisans in Moradabad.",
+    "description": "<p>Polish with a soft cloth; brass develops a gentle patina over time.</p>",
+    "sku": "TM-DEC-001"
+   },
+   {
+    "name": "Seagrass Storage Basket",
+    "slug": "seagrass-storage-basket",
+    "category": "decor",
+    "price": 129900,
+    "image": "theme:images/basket.svg",
+    "gallery": [],
+    "gst_rate": "12",
+    "hsn": "4602",
+    "stock": 18,
+    "featured": true,
+    "short_description": "A sturdy hand-woven basket for throws, plants or toys. 38 cm wide.",
+    "description": "<p>Woven by a women's self-help group in Assam.</p>",
+    "sku": "TM-DEC-002"
+   },
+   {
+    "name": "Sandstone Planter",
+    "slug": "sandstone-planter",
+    "category": "decor",
+    "price": 99900,
+    "image": "theme:images/planter.svg",
+    "gallery": [
+     "theme:images/planter-2.svg"
+    ],
+    "gst_rate": "12",
+    "hsn": "6913",
+    "stock": 0,
+    "featured": true,
+    "short_description": "A matte ceramic planter with a drainage hole and saucer.",
+    "description": "<p>Each piece is thrown, glazed and fired by hand, so small variations in colour and shape are part of its character.</p><h3>Details</h3><ul><li>Glazed stoneware, food safe</li><li>Hand wash recommended</li><li>Made in Khurja, Uttar Pradesh</li></ul>",
+    "sku": "TM-DEC-003",
+    "option_name": "Size",
+    "variants": [
+     {
+      "label": "Small, 12 cm",
+      "price": 99900,
+      "stock": 10,
+      "sku": null
+     },
+     {
+      "label": "Medium, 18 cm",
+      "price": 129900,
+      "stock": 6,
+      "sku": null
+     },
+     {
+      "label": "Large, 24 cm",
+      "price": 169900,
+      "stock": 3,
+      "sku": null
+     }
+    ]
+   },
+   {
+    "name": "Soy Wax Jar Candle",
+    "slug": "soy-jar-candle",
+    "category": "decor",
+    "price": 64900,
+    "image": "theme:images/candle.svg",
+    "gallery": [
+     "theme:images/candle-2.svg"
+    ],
+    "gst_rate": "18",
+    "hsn": "3406",
+    "stock": 0,
+    "featured": false,
+    "short_description": "Hand-poured soy wax in a reusable glass jar. Around 40 hours of burn time.",
+    "description": "<p>Cotton wick, phthalate-free fragrance oils.</p>",
+    "sku": "TM-DEC-004",
+    "badge": "New",
+    "option_name": "Scent",
+    "variants": [
+     {
+      "label": "Sandalwood & rose",
+      "stock": 20,
+      "sku": null
+     },
+     {
+      "label": "Vetiver & lime",
+      "stock": 14,
+      "sku": null
+     }
+    ]
+   }
+  ],
+  "coupons": [
+   {
+    "code": "WELCOME10",
+    "description": "10% off your first order (up to ₹300)",
+    "type": "percent",
+    "value": 10,
+    "min_order": 99900,
+    "max_discount": 30000
+   },
+   {
+    "code": "FREESHIP",
+    "description": "Free delivery on any order",
+    "type": "free_shipping",
+    "value": 0,
+    "min_order": 49900
+   }
+  ]
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "New: the monsoon collection",
+      "heading": "Made by hand, made for home",
+      "subheading": "Small-batch ceramics, handloom textiles and lighting from independent Indian studios, chosen to be lived with for years.",
+      "image": "theme:images/hero-room.svg",
+      "background_image": "",
+      "primary_button": {
+       "text": "Shop the collection",
+       "url": "page:shop"
+      },
+      "secondary_button": {
+       "text": "Our story",
+       "url": "page:about"
+      },
+      "highlights": [
+       {
+        "icon": "bi-truck",
+        "text": "Free delivery above ₹999"
+       },
+       {
+        "icon": "bi-cash-coin",
+        "text": "Cash on delivery"
+       },
+       {
+        "icon": "bi-hand-thumbs-up",
+        "text": "4.8★ from 2,000+ customers"
+       }
+      ]
+     }
+    },
+    {
+     "type": "product_categories",
+     "data": {
+      "eyebrow": "Browse",
+      "heading": "Shop by category",
+      "description": "",
+      "limit": 4,
+      "show_counts": true
+     }
+    },
+    {
+     "type": "products",
+     "data": {
+      "eyebrow": "Customer favourites",
+      "heading": "Bestsellers",
+      "description": "",
+      "source": "featured",
+      "category": "",
+      "limit": 8,
+      "columns": "4",
+      "button": {
+       "text": "View all products",
+       "url": "page:shop"
+      }
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "",
+      "heading": "",
+      "description": "",
+      "image": "",
+      "items": [
+       {
+        "icon": "bi-flower1",
+        "title": "Handmade in India",
+        "description": "Every piece is made by artisans we know by name."
+       },
+       {
+        "icon": "bi-truck",
+        "title": "Free delivery over ₹999",
+        "description": "Carefully packed, shipped in 2–3 days."
+       },
+       {
+        "icon": "bi-cash-coin",
+        "title": "Cash on delivery",
+        "description": "Or pay securely with UPI and cards."
+       },
+       {
+        "icon": "bi-arrow-repeat",
+        "title": "7-day easy returns",
+        "description": "Not quite right? Send it back."
+       }
+      ]
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Our story",
+      "heading": "Slow craft, for homes that tell a story",
+      "description": "<p>Terra Market began in a small studio in Mattancherry, where we started selling pots made by our neighbours. Today we work with more than 40 independent makers across India: potters in Khurja, weavers in Kannur, brass-casters in Moradabad.</p><p>We pay fairly, order in small batches and never use plastic in our packaging.</p>",
+      "image": "theme:images/about-workshop.svg",
+      "image_2": "theme:images/hero-detail.svg",
+      "experience_number": "40+",
+      "experience_label": "artisan studios we work with",
+      "points": [
+       {
+        "text": "Fair prices for makers"
+       },
+       {
+        "text": "Plastic-free packaging"
+       },
+       {
+        "text": "Small batches, no mass production"
+       },
+       {
+        "text": "GST invoice with every order"
+       }
+      ],
+      "button": {
+       "text": "Read our story",
+       "url": "page:about"
+      }
+     }
+    },
+    {
+     "type": "products",
+     "data": {
+      "eyebrow": "Just in",
+      "heading": "New arrivals",
+      "description": "",
+      "source": "new",
+      "category": "",
+      "limit": 4,
+      "columns": "4",
+      "button": {
+       "text": "Shop new arrivals",
+       "url": "page:shop"
+      }
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Reviews",
+      "heading": "Loved in homes across India",
+      "items": [
+       {
+        "quote": "The bud vase is even more beautiful in person, and it arrived wrapped in so much care. Already ordered two more as gifts.",
+        "name": "Ananya R.",
+        "role": "Verified buyer · Bengaluru",
+        "photo": "theme:images/customer-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "Paid cash on delivery, the lamp came in four days and the light it gives is gorgeous. Great to support real craftspeople.",
+        "name": "Rohit M.",
+        "role": "Verified buyer · Pune",
+        "photo": "theme:images/customer-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "Soft, thick cushion covers with lovely colours. The GST invoice made it easy to buy for our café too.",
+        "name": "Fatima K.",
+        "role": "Verified buyer · Kochi",
+        "photo": "theme:images/customer-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Get 10% off your first order",
+      "description": "Use the code WELCOME10 at checkout on orders above ₹999.",
+      "background_image": "theme:images/promo-bg.svg",
+      "button": {
+       "text": "Start shopping",
+       "url": "page:shop"
+      },
+      "secondary_button": {
+       "text": "Read the FAQ",
+       "url": "page:help"
+      }
+     }
+    }
+   ]
+  },
+  "about": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Our story",
+      "subheading": "A small shop with a simple idea: beautiful everyday things, made by hand and sold fairly.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Since 2016",
+      "heading": "From one studio to forty makers",
+      "description": "<p>We started with a single shelf of pots in a Mattancherry courtyard. Visitors kept asking where they could buy more, so we began working with the potters, then the weavers down the road, then makers further afield.</p><p>Everything we sell is made in small batches. We visit our studios, agree prices together, and share the stories behind each piece.</p>",
+      "image": "theme:images/about-workshop.svg",
+      "image_2": "",
+      "experience_number": "2016",
+      "experience_label": "the year we opened",
+      "points": [],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "40",
+        "suffix": "+",
+        "label": "Artisan studios",
+        "icon": ""
+       },
+       {
+        "number": "12000",
+        "suffix": "+",
+        "label": "Orders delivered",
+        "icon": ""
+       },
+       {
+        "number": "4.8",
+        "suffix": "★",
+        "label": "Average rating",
+        "icon": ""
+       },
+       {
+        "number": "0",
+        "suffix": "",
+        "label": "Plastic in our packaging",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "gallery",
+     "data": {
+      "eyebrow": "In the studio",
+      "heading": "Where our pieces come from",
+      "description": "",
+      "columns": "3",
+      "images": [
+       {
+        "image": "theme:images/about-workshop.svg",
+        "caption": "Khurja pottery"
+       },
+       {
+        "image": "theme:images/lifestyle-table.svg",
+        "caption": "Everyday tableware"
+       },
+       {
+        "image": "theme:images/hero-room.svg",
+        "caption": "At home"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "help": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Help & FAQ",
+      "subheading": "Orders, delivery, payments and returns.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "Questions",
+      "heading": "How can we help?",
+      "description": "Still stuck? Write to us and we will reply within a working day.",
+      "items": [
+       {
+        "question": "How long does delivery take?",
+        "answer": "Orders ship in 2–3 working days and usually arrive within 3–7 working days. You will receive a tracking number by email once your order ships."
+       },
+       {
+        "question": "Do you offer cash on delivery?",
+        "answer": "Yes. Cash on delivery is available across India for orders up to ₹10,000, with a small ₹49 handling fee. You can also pay online by UPI, card or net banking."
+       },
+       {
+        "question": "How much is delivery?",
+        "answer": "Delivery is free on orders above ₹999. Below that, a flat ₹99 applies."
+       },
+       {
+        "question": "Can I return an item?",
+        "answer": "Yes, within 7 days of delivery for unused items in their original packaging. Write to us with your order number and we will arrange a pickup."
+       },
+       {
+        "question": "Will I get a GST invoice?",
+        "answer": "Yes. A GST invoice is available on your order page as soon as the order is placed. Add your GSTIN at checkout for business purchases."
+       },
+       {
+        "question": "Why does my vase look slightly different from the photo?",
+        "answer": "Every piece is handmade, so glaze and shape vary a little. We think that is what makes each one special."
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Need something else?",
+      "description": "Our team is here Monday to Saturday, 10 am to 6 pm.",
+      "background_image": "",
+      "button": {
+       "text": "Contact us",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    }
+   ]
+  },
+  "contact": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Contact us",
+      "subheading": "Questions about an order, a wholesale enquiry or just want to say hello?",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Get in touch",
+      "heading": "We would love to hear from you",
+      "description": "Please include your order number if your message is about an order.",
+      "form_heading": "Send us a message",
+      "show_form": true,
+      "show_details": true,
+      "map_url": ""
+     }
+    }
+   ]
+  },
+  "shipping-returns": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Shipping & Returns",
+      "subheading": ""
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<h3>Shipping</h3><p>We ship across India. Orders are packed by hand and dispatched within 2–3 working days. Delivery takes 3–7 working days depending on your PIN code. Delivery is free on orders above ₹999; otherwise a flat ₹99 applies.</p><h3>Cash on delivery</h3><p>Available for orders up to ₹10,000 with a ₹49 handling fee.</p><h3>Returns</h3><p>You can return unused items in their original packaging within 7 days of delivery. Write to us with your order number; once we receive the item, we refund you within 5 working days to the original payment method (or by bank transfer for cash on delivery orders).</p><h3>Damaged in transit</h3><p>If anything arrives broken, send us a photo within 48 hours and we will replace it at no cost.</p>"
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": ""
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>This policy explains how Terra Market collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+     }
+    }
+   ]
+  },
+  "terms-and-conditions": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Terms and Conditions",
+      "subheading": ""
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+     }
+    }
+   ]
+  }
+ }
+}

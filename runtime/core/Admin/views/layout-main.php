@@ -9,6 +9,9 @@ $nav = [
     ['appearance', 'appearance', 'palette', 'Appearance'],
     ['enquiries', 'enquiries', 'envelope', 'Enquiries'],
 ];
+if (!empty($shopOn)) {
+    array_splice($nav, 1, 0, [['orders', 'orders', 'receipt', 'Orders'], ['products', 'products', 'bag', 'Products'], ['coupons', 'coupons', 'ticket-perforated', 'Coupons']]);
+}
 if ($isOwner || !empty($paymentsOn)) {
     $nav[] = ['payments', 'payments', 'credit-card', 'Payments'];
 }
@@ -38,7 +41,8 @@ if ($isOwner) {
   <nav class="wb-nav">
     <?php foreach ($nav as [$key, $path, $icon, $label]): ?>
       <a href="<?= e($admin->url($path)) ?>" class="<?= $active === $key ? 'active' : '' ?>"<?= $active === $key ? ' aria-current="page"' : '' ?>><i class="bi bi-<?= $icon ?>"></i><span><?= e($label) ?></span>
-        <?php if ($key === 'enquiries' && $newEnquiries > 0): ?><span class="badge text-bg-danger ms-auto"><?= (int) $newEnquiries ?></span><?php endif; ?></a>
+        <?php if ($key === 'enquiries' && $newEnquiries > 0): ?><span class="badge text-bg-danger ms-auto"><?= (int) $newEnquiries ?></span><?php endif; ?>
+        <?php if ($key === 'orders' && !empty($openOrders)): ?><span class="badge text-bg-primary ms-auto"><?= (int) $openOrders ?></span><?php endif; ?></a>
     <?php endforeach; ?>
     <div class="nav-heading">Website</div>
     <a href="<?= e($base) ?>/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i><span>View website</span></a>

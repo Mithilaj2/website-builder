@@ -172,12 +172,30 @@ When a website is created, the client's name, email, phone and address replace t
 - **Lazy images and full-page screenshots:** headless full-page captures do not load `loading="lazy"` images below the fold. Scroll through the page before capturing, and check `naturalWidth` of every image.
 - **Long words on phones:** emails and URLs in footers and contact lists need `overflow-wrap: anywhere`.
 
+## Shop templates (e-commerce)
+
+Declare `"ecommerce"` in the manifest's `features`: the website admin then shows Orders, Products and Coupons, and the shop can be switched on. Put the shop in `demo.json` under `"shop"`: `settings` (same keys as Shop settings, money in paise, `"enabled": true`), `categories` (`name`, `slug`, `description`, `image`), `products` (`name`, `slug`, `category` slug, `price` in paise, `compare_price`, `gst_rate`, `hsn`, `stock`, `featured`, `badge`, `image`, `gallery`, `short_description`, `description`, `sku`, and optionally `option_name` + `variants`: `label`, `price`, `stock`, `sku`) and `coupons`.
+
+The runtime renders `/shop`, product, cart, checkout and order pages inside your `layouts/default.php`, styled by `assets/shop/shop.css` with the `--wb-*` variables:
+- restyle any `.wbshop-*` class in your stylesheet, scoped with your prefix (`.trm .wbshop-title`);
+- add `partials/product-card.php` and the shop grids use your tile (it receives `$product`);
+- or replace a whole page with `theme/shop/{list|product|cart|checkout|order}.php`.
+
+`$view` helpers for headers, footers and sections:
+- `shopEnabled()`, `shopUrl($sub, $query)`, `productUrl($p)`, `categoryUrl($c)`;
+- `products(['featured' => true, 'category' => 'slug', 'sort' => 'new', 'limit' => 8])` and `productCategories()`;
+- `money($paise)` gives `₹1,299`; `cartCount()`;
+- `shopToken()`, the hidden `_t` value for an "Add to cart" form posting `action=add`, `product_id`, `qty` (and `variant_id`) to `shopUrl('cart')`.
+
+Never link to the shop with a page called "shop": `page:shop` already points to it, and `shop` is a reserved address.
+
 ## Design directions (so templates in a category do not look alike)
 
 | Template | Prefix | Palette | Type | Signature motif |
 |---|---|---|---|---|
 | Business 01 Meridian Corporate | `mrd` | Navy + amber | Manrope + Inter | Corporate grid, numbered process |
 | Education 01 Lyceum Classic | `lyc` | Forest green + saffron on paper | Fraunces + DM Sans | Arch frames, school crest, notice board, dark hero |
+| E-commerce 01 Terra Market | `trm` | Terracotta + sage on cream, ink footer | Playfair Display + Inter | Capsule (pill) frames, scrolling announcement bar, round category tiles, hover second image, rotating stamp |
 | Hospital 01 CareLine Health | `crl` | Teal + coral on mint, navy footer | Plus Jakarta Sans + DM Sans | Leaf frames (two opposite corners rounded), heartbeat line, 24×7 emergency strip, quick-access bar, light hero |
 
 Later templates in the same category should change at least the palette family, the heading typeface, the frame/shape motif and the hero layout (light vs dark, image side, full-bleed vs boxed).

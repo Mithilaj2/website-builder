@@ -1,0 +1,16 @@
+{
+  "type": "products",
+  "label": "Products",
+  "icon": "bi-bag",
+  "description": "A grid of products from the shop: featured, newest, or one category.",
+  "fields": [
+    { "key": "eyebrow", "label": "Small heading above title", "type": "text", "default": "Shop", "max": 80 },
+    { "key": "heading", "label": "Heading", "type": "text", "default": "Featured products", "max": 160 },
+    { "key": "description", "label": "Description", "type": "textarea", "default": "", "max": 600 },
+    { "key": "source", "label": "Show", "type": "select", "options": { "featured": "Featured products", "new": "Newest products", "category": "Products from one category", "price_asc": "Lowest price first" }, "default": "featured" },
+    { "key": "category", "label": "Category (its web address name, e.g. lamps)", "type": "text", "default": "", "max": 90, "pattern": "^[a-z0-9-]*$", "help": "Used when “Show” is set to one category." },
+    { "key": "limit", "label": "How many", "type": "number", "default": 8, "min": 2, "max": 24 },
+    { "key": "columns", "label": "Columns on desktop", "type": "select", "options": { "3": "3 columns", "4": "4 columns" }, "default": "4" },
+    { "key": "button", "label": "Button below the grid", "type": "link", "default": { "text": "View all products", "url": "page:shop" } }
+  ]
+}
