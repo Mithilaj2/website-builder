@@ -1,0 +1,101 @@
+{
+  "type": "events",
+  "label": "Events",
+  "icon": "bi-calendar-event",
+  "description": "Upcoming events with date, time and place.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Campus life",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Upcoming events",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "",
+      "max": 800
+    },
+    {
+      "key": "items",
+      "label": "Events",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 20,
+      "item_label": "title",
+      "fields": [
+        {
+          "key": "date",
+          "label": "Date (YYYY-MM-DD)",
+          "type": "text",
+          "required": true,
+          "max": 10,
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        {
+          "key": "time",
+          "label": "Time",
+          "type": "text",
+          "max": 40
+        },
+        {
+          "key": "title",
+          "label": "Event",
+          "type": "text",
+          "required": true,
+          "max": 120
+        },
+        {
+          "key": "location",
+          "label": "Place",
+          "type": "text",
+          "max": 80
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "textarea",
+          "max": 300
+        },
+        {
+          "key": "image",
+          "label": "Image",
+          "type": "image"
+        },
+        {
+          "key": "link",
+          "label": "Link",
+          "type": "link",
+          "default": {
+            "text": "Details",
+            "url": ""
+          }
+        }
+      ],
+      "default": [
+        {
+          "date": "2026-12-05",
+          "time": "10:00 am",
+          "title": "Event name",
+          "location": "Main auditorium"
+        }
+      ]
+    },
+    {
+      "key": "hide_past",
+      "label": "Hide events whose date has passed",
+      "type": "toggle",
+      "default": true
+    }
+  ]
+}

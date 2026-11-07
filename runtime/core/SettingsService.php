@@ -80,7 +80,7 @@ final class SettingsService
     {
         $s = static fn ($k) => trim(strip_tags((string) ($in[$k] ?? '')));
         $errors = [];
-        foreach (['name' => 120, 'tagline' => 150, 'address' => 400, 'hours' => 120, 'footer_about' => 400, 'footer_text' => 200, 'seo_description' => 320, 'seo_keywords' => 255] as $k => $max) {
+        foreach (['name' => 120, 'tagline' => 150, 'address' => 400, 'hours' => 120, 'footer_about' => 400, 'footer_text' => 200, 'rating' => 40, 'rating_label' => 90, 'seo_description' => 320, 'seo_keywords' => 255] as $k => $max) {
             if (mb_strlen($s($k)) > $max) {
                 $errors[$k] = "May not be longer than $max characters.";
             }
@@ -91,7 +91,7 @@ final class SettingsService
         if ($s('email') !== '' && !filter_var($s('email'), FILTER_VALIDATE_EMAIL)) {
             $errors['email'] = 'Email must be a valid email address.';
         }
-        foreach (['phone', 'whatsapp'] as $p) {
+        foreach (['phone', 'whatsapp', 'emergency_phone'] as $p) {
             if ($s($p) !== '' && !preg_match('/^\+?[0-9 ()\-]{7,20}$/', $s($p))) {
                 $errors[$p] = 'Enter a valid phone number.';
             }
@@ -113,7 +113,7 @@ final class SettingsService
         $site = array_merge((array) ($this->all()['site'] ?? []), [
             'name' => $s('name'), 'tagline' => $s('tagline'), 'email' => strtolower($s('email')), 'phone' => $s('phone'),
             'whatsapp' => $s('whatsapp'), 'address' => $s('address'), 'hours' => $s('hours'), 'footer_about' => $s('footer_about'),
-            'footer_text' => $s('footer_text'), 'social' => $social, 'header_button' => $btn,
+            'footer_text' => $s('footer_text'), 'emergency_phone' => $s('emergency_phone'), 'rating' => $s('rating'), 'rating_label' => $s('rating_label'), 'social' => $social, 'header_button' => $btn,
         ]);
         if ($site['whatsapp'] !== '') {
             $site['social']['whatsapp'] = 'https://wa.me/' . preg_replace('/\D/', '', $site['whatsapp']);

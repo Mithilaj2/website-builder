@@ -1,0 +1,1138 @@
+{
+ "settings": {
+  "site": {
+   "name": "CareLine Hospital",
+   "tagline": "Multi-speciality care · Kochi",
+   "phone": "+91 484 234 5678",
+   "emergency_phone": "+91 484 234 5000",
+   "email": "care@careline.example",
+   "address": "NH 66, Edappally\nKochi, Kerala 682024",
+   "hours": "OPD: Mon–Sat 8 am – 8 pm",
+   "footer_about": "A 220-bed multi-speciality hospital caring for families across Kochi since 1998: compassionate doctors, modern technology and honest pricing.",
+   "footer_text": "All rights reserved.",
+   "rating": "NABH accredited",
+   "rating_label": "National quality standards for patient safety",
+   "header_button": {
+    "text": "Book appointment",
+    "url": "page:appointment"
+   },
+   "social": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/"
+   }
+  },
+  "seo": {
+   "description": "CareLine Hospital, Kochi: 220-bed multi-speciality hospital with 24×7 emergency, cardiology, gynaecology, orthopaedics and paediatrics. Book an appointment online.",
+   "keywords": "hospital in Kochi, multi speciality hospital, 24x7 emergency, book doctor appointment"
+  }
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "Trusted care since 1998",
+      "heading": "Expert care for every member of your family",
+      "subheading": "Specialist doctors, round-the-clock emergency care and modern diagnostics, all under one roof in the heart of Kochi.",
+      "image": "theme:images/hero-doctor.svg",
+      "background_image": "",
+      "primary_button": {
+       "text": "Book an appointment",
+       "url": "page:appointment"
+      },
+      "secondary_button": {
+       "text": "Find a doctor",
+       "url": "page:doctors"
+      },
+      "highlights": [
+       {
+        "icon": "bi-calendar2-check",
+        "text": "Online appointments"
+       },
+       {
+        "icon": "bi-truck-front",
+        "text": "24×7 ambulance"
+       },
+       {
+        "icon": "bi-clipboard2-pulse",
+        "text": "Lab reports by SMS"
+       },
+       {
+        "icon": "bi-shield-check",
+        "text": "Cashless insurance"
+       }
+      ]
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "Departments",
+      "heading": "Specialities we are known for",
+      "description": "More than 30 departments led by experienced consultants, supported by modern equipment and caring nurses.",
+      "columns": "4",
+      "items": [
+       {
+        "icon": "bi-heart-pulse",
+        "image": "",
+        "title": "Cardiology",
+        "description": "ECG, echo, TMT, angiography and a 24-hour cardiac care unit.",
+        "link": {
+         "text": "Learn more",
+         "url": "page:departments"
+        }
+       },
+       {
+        "icon": "bi-gender-female",
+        "image": "",
+        "title": "Obstetrics & Gynaecology",
+        "description": "Antenatal care, normal and caesarean deliveries, and a level II NICU.",
+        "link": {
+         "text": "Learn more",
+         "url": "page:departments"
+        }
+       },
+       {
+        "icon": "bi-person-walking",
+        "image": "",
+        "title": "Orthopaedics",
+        "description": "Fracture care, joint replacement, arthroscopy and physiotherapy.",
+        "link": {
+         "text": "Learn more",
+         "url": "page:departments"
+        }
+       },
+       {
+        "icon": "bi-emoji-smile",
+        "image": "",
+        "title": "Paediatrics",
+        "description": "Child health, vaccinations and newborn care by specialist paediatricians.",
+        "link": {
+         "text": "Learn more",
+         "url": "page:departments"
+        }
+       },
+       {
+        "icon": "bi-lungs",
+        "image": "",
+        "title": "Pulmonology",
+        "description": "Asthma, COPD and sleep studies, with a pulmonary function lab.",
+        "link": {
+         "text": "Learn more",
+         "url": "page:departments"
+        }
+       },
+       {
+        "icon": "bi-activity",
+        "image": "",
+        "title": "Neurology",
+        "description": "Stroke care, epilepsy, headache and nerve conduction studies.",
+        "link": {
+         "text": "Learn more",
+         "url": "page:departments"
+        }
+       },
+       {
+        "icon": "bi-droplet-half",
+        "image": "",
+        "title": "Nephrology & Dialysis",
+        "description": "Kidney care with a 12-bed dialysis unit open seven days a week.",
+        "link": {
+         "text": "Learn more",
+         "url": "page:departments"
+        }
+       },
+       {
+        "icon": "bi-clipboard2-pulse",
+        "image": "",
+        "title": "Diagnostics & Lab",
+        "description": "NABL-standard lab, digital X-ray, CT and ultrasound under one roof.",
+        "link": {
+         "text": "Learn more",
+         "url": "page:departments"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "About CareLine",
+      "heading": "Hospital care that feels personal",
+      "description": "<p>For more than 25 years, CareLine has combined clinical excellence with the warmth of a family hospital. Our doctors take time to listen, explain and plan treatment with you.</p><p>Every department follows national quality and infection-control standards, so you can focus on getting better.</p>",
+      "image": "theme:images/hospital-building.svg",
+      "image_2": "theme:images/patient-room.svg",
+      "experience_number": "25+",
+      "experience_label": "years of caring for Kochi",
+      "points": [
+       {
+        "text": "220 beds, 40 ICU beds"
+       },
+       {
+        "text": "Modular operation theatres"
+       },
+       {
+        "text": "24×7 pharmacy and lab"
+       },
+       {
+        "text": "Transparent package pricing"
+       }
+      ],
+      "button": {
+       "text": "More about us",
+       "url": "page:about"
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "120",
+        "suffix": "+",
+        "label": "Specialist doctors",
+        "icon": "bi-person-badge"
+       },
+       {
+        "number": "220",
+        "suffix": "",
+        "label": "Hospital beds",
+        "icon": "bi-hospital"
+       },
+       {
+        "number": "35",
+        "suffix": "+",
+        "label": "Departments",
+        "icon": "bi-grid"
+       },
+       {
+        "number": "2",
+        "suffix": " lakh+",
+        "label": "Patients treated",
+        "icon": "bi-people"
+       }
+      ]
+     }
+    },
+    {
+     "type": "doctors",
+     "data": {
+      "eyebrow": "Our specialists",
+      "heading": "Meet our doctors",
+      "description": "Experienced consultants who put patients first.",
+      "items": [
+       {
+        "photo": "theme:images/doctor-1.svg",
+        "name": "Dr. Arun Nair",
+        "qualification": "MBBS, MD, DM (Cardiology)",
+        "specialty": "Cardiology",
+        "experience": "18 years",
+        "timings": "Mon – Sat, 9:30 am – 1:30 pm",
+        "link": {
+         "text": "Book appointment",
+         "url": "page:appointment"
+        }
+       },
+       {
+        "photo": "theme:images/doctor-2.svg",
+        "name": "Dr. Meera Pillai",
+        "qualification": "MBBS, DGO, DNB (Obs & Gynae)",
+        "specialty": "Gynaecology",
+        "experience": "14 years",
+        "timings": "Mon – Fri, 10:00 am – 2:00 pm",
+        "link": {
+         "text": "Book appointment",
+         "url": "page:appointment"
+        }
+       },
+       {
+        "photo": "theme:images/doctor-3.svg",
+        "name": "Dr. Thomas Mathew",
+        "qualification": "MBBS, MS (Ortho), FRCS",
+        "specialty": "Orthopaedics",
+        "experience": "22 years",
+        "timings": "Tue, Thu, Sat · 4:00 – 7:00 pm",
+        "link": {
+         "text": "Book appointment",
+         "url": "page:appointment"
+        }
+       },
+       {
+        "photo": "theme:images/doctor-4.svg",
+        "name": "Dr. Fathima Rasheed",
+        "qualification": "MBBS, MD (Paediatrics)",
+        "specialty": "Paediatrics",
+        "experience": "11 years",
+        "timings": "Mon – Sat, 9:00 am – 12:30 pm",
+        "link": {
+         "text": "Book appointment",
+         "url": "page:appointment"
+        }
+       }
+      ],
+      "button": {
+       "text": "View all doctors",
+       "url": "page:doctors"
+      }
+     }
+    },
+    {
+     "type": "opening_hours",
+     "data": {
+      "eyebrow": "Timings",
+      "heading": "OPD & visiting hours",
+      "description": "Consultations are by appointment or token. Emergency and pharmacy services never close.",
+      "rows": [
+       {
+        "label": "Outpatient (OPD), Mon – Sat",
+        "hours": "8:00 am – 8:00 pm"
+       },
+       {
+        "label": "Outpatient (OPD), Sunday",
+        "hours": "9:00 am – 1:00 pm"
+       },
+       {
+        "label": "Laboratory & imaging",
+        "hours": "7:00 am – 9:00 pm"
+       },
+       {
+        "label": "Patient visiting hours",
+        "hours": "4:00 pm – 7:00 pm"
+       },
+       {
+        "label": "Pharmacy",
+        "hours": "Open 24 hours"
+       }
+      ],
+      "highlight_label": "Emergency & ambulance",
+      "highlight_value": "Open 24 × 7",
+      "note": "Fasting blood tests are collected from 7:00 am. Please bring previous reports to your consultation."
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Patient stories",
+      "heading": "What our patients say",
+      "items": [
+       {
+        "quote": "The cardiology team explained every step of my father's angioplasty. He was home in three days and the nurses still call to check on him.",
+        "name": "Sreeja Krishnan",
+        "role": "Daughter of a cardiac patient",
+        "photo": "theme:images/patient-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "Booked an appointment online in the morning and saw the orthopaedic surgeon the same evening. Clean, efficient and very professional.",
+        "name": "Joseph Varghese",
+        "role": "Orthopaedics patient",
+        "photo": "theme:images/patient-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "Our baby was delivered here. From the antenatal classes to the NICU, we felt cared for at every stage.",
+        "name": "Anil Kumar",
+        "role": "New parent",
+        "photo": "theme:images/patient-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "Cashless treatment with leading insurers & TPAs",
+      "items": [
+       {
+        "image": "theme:images/partner-1.svg",
+        "name": "SecureLife",
+        "url": ""
+       },
+       {
+        "image": "theme:images/partner-2.svg",
+        "name": "MediAssure",
+        "url": ""
+       },
+       {
+        "image": "theme:images/partner-3.svg",
+        "name": "CareShield",
+        "url": ""
+       },
+       {
+        "image": "theme:images/partner-4.svg",
+        "name": "HealthFirst",
+        "url": ""
+       },
+       {
+        "image": "theme:images/partner-5.svg",
+        "name": "Vita TPA",
+        "url": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Need to see a specialist?",
+      "description": "Book an appointment online in under a minute. Our team will call you to confirm the time.",
+      "background_image": "",
+      "button": {
+       "text": "Book appointment",
+       "url": "page:appointment"
+      },
+      "secondary_button": {
+       "text": "Call the help desk",
+       "url": "tel:+914842345678"
+      }
+     }
+    }
+   ]
+  },
+  "about": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "About CareLine Hospital",
+      "subheading": "Twenty-five years of compassionate, affordable and ethical healthcare.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Our story",
+      "heading": "From a 30-bed clinic to a multi-speciality hospital",
+      "description": "<p>CareLine began in 1998 as a small clinic founded by three doctors who wanted honest, high-quality care to be within reach of every family. Today we are a 220-bed hospital with more than 120 specialists, but our promise is the same.</p><p>We invest in technology and training so that treatments once available only in big cities are available close to home.</p>",
+      "image": "theme:images/reception.svg",
+      "image_2": "",
+      "experience_number": "1998",
+      "experience_label": "serving families since",
+      "points": [
+       {
+        "text": "NABH accredited"
+       },
+       {
+        "text": "NABL-standard laboratory"
+       },
+       {
+        "text": "Green building, solar powered"
+       },
+       {
+        "text": "Charity care programme"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "120",
+        "suffix": "+",
+        "label": "Specialist doctors",
+        "icon": "bi-person-badge"
+       },
+       {
+        "number": "450",
+        "suffix": "",
+        "label": "Nurses & staff",
+        "icon": "bi-people"
+       },
+       {
+        "number": "12",
+        "suffix": "",
+        "label": "Operation theatres",
+        "icon": "bi-hospital"
+       },
+       {
+        "number": "98",
+        "suffix": "%",
+        "label": "Patient satisfaction",
+        "icon": "bi-emoji-smile"
+       }
+      ]
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "Why CareLine",
+      "heading": "What makes us different",
+      "description": "",
+      "image": "theme:images/consultation.svg",
+      "items": [
+       {
+        "icon": "bi-chat-heart",
+        "title": "Time to listen",
+        "description": "Unhurried consultations and clear explanations."
+       },
+       {
+        "icon": "bi-receipt",
+        "title": "Honest pricing",
+        "description": "Fixed-price packages and written estimates before admission."
+       },
+       {
+        "icon": "bi-shield-plus",
+        "title": "Safety first",
+        "description": "Strict infection control and audited clinical protocols."
+       },
+       {
+        "icon": "bi-cpu",
+        "title": "Modern technology",
+        "description": "Cath lab, 128-slice CT and modular theatres."
+       }
+      ]
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "Leadership",
+      "heading": "The people behind CareLine",
+      "description": "",
+      "members": [
+       {
+        "photo": "theme:images/doctor-3.svg",
+        "name": "Dr. Thomas Mathew",
+        "role": "Medical Director",
+        "bio": "Orthopaedic surgeon and co-founder of CareLine.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/doctor-2.svg",
+        "name": "Dr. Meera Pillai",
+        "role": "Head of Clinical Quality",
+        "bio": "Leads patient safety and accreditation.",
+        "linkedin": ""
+       },
+       {
+        "photo": "",
+        "name": "Rajesh Menon",
+        "role": "Chief Executive Officer",
+        "bio": "Twenty years in hospital management.",
+        "linkedin": ""
+       },
+       {
+        "photo": "",
+        "name": "Sister Annie Joseph",
+        "role": "Chief Nursing Officer",
+        "bio": "Heads a team of 300 nurses.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "gallery",
+     "data": {
+      "eyebrow": "Facilities",
+      "heading": "A look inside the hospital",
+      "description": "",
+      "columns": "3",
+      "images": [
+       {
+        "image": "theme:images/hospital-building.svg",
+        "caption": "Main block, Edappally"
+       },
+       {
+        "image": "theme:images/reception.svg",
+        "caption": "Patient help desk"
+       },
+       {
+        "image": "theme:images/patient-room.svg",
+        "caption": "Private rooms"
+       },
+       {
+        "image": "theme:images/operation-theatre.svg",
+        "caption": "Modular operation theatre"
+       },
+       {
+        "image": "theme:images/laboratory.svg",
+        "caption": "Central laboratory"
+       },
+       {
+        "image": "theme:images/pharmacy.svg",
+        "caption": "24-hour pharmacy"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "departments": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Departments & specialities",
+      "subheading": "Comprehensive care across more than 30 specialities, with consultants available every day.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "",
+      "heading": "",
+      "description": "",
+      "columns": "4",
+      "items": [
+       {
+        "icon": "bi-heart-pulse",
+        "image": "",
+        "title": "Cardiology",
+        "description": "ECG, echo, TMT, angiography and a 24-hour cardiac care unit.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-gender-female",
+        "image": "",
+        "title": "Obstetrics & Gynaecology",
+        "description": "Antenatal care, normal and caesarean deliveries, and a level II NICU.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-person-walking",
+        "image": "",
+        "title": "Orthopaedics",
+        "description": "Fracture care, joint replacement, arthroscopy and physiotherapy.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-emoji-smile",
+        "image": "",
+        "title": "Paediatrics",
+        "description": "Child health, vaccinations and newborn care by specialist paediatricians.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-lungs",
+        "image": "",
+        "title": "Pulmonology",
+        "description": "Asthma, COPD and sleep studies, with a pulmonary function lab.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-activity",
+        "image": "",
+        "title": "Neurology",
+        "description": "Stroke care, epilepsy, headache and nerve conduction studies.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-droplet-half",
+        "image": "",
+        "title": "Nephrology & Dialysis",
+        "description": "Kidney care with a 12-bed dialysis unit open seven days a week.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-clipboard2-pulse",
+        "image": "",
+        "title": "Diagnostics & Lab",
+        "description": "NABL-standard lab, digital X-ray, CT and ultrasound under one roof.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "process",
+     "data": {
+      "eyebrow": "Your visit",
+      "heading": "How your consultation works",
+      "description": "",
+      "steps": [
+       {
+        "icon": "bi-calendar2-plus",
+        "title": "Book",
+        "description": "Choose a department and preferred date online or by phone."
+       },
+       {
+        "icon": "bi-telephone",
+        "title": "Confirm",
+        "description": "Our help desk calls you to confirm the doctor and time."
+       },
+       {
+        "icon": "bi-person-check",
+        "title": "Register",
+        "description": "Check in at the help desk 15 minutes before your slot."
+       },
+       {
+        "icon": "bi-heart-pulse",
+        "title": "Consult",
+        "description": "Meet your doctor and get a clear treatment plan."
+       }
+      ]
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "Help desk",
+      "heading": "Frequently asked questions",
+      "description": "Can't find your answer? Call the help desk and we'll be glad to help.",
+      "items": [
+       {
+        "question": "Do I need an appointment to see a doctor?",
+        "answer": "Appointments are recommended so you can skip the queue, but walk-in patients are seen on a token basis during OPD hours."
+       },
+       {
+        "question": "Which insurance and cashless schemes do you accept?",
+        "answer": "We are empanelled with most major insurers and TPAs for cashless treatment. Please bring your policy card and a photo ID to the insurance desk."
+       },
+       {
+        "question": "How do I collect my lab reports?",
+        "answer": "Reports are sent by SMS and email once ready, and printed copies can be collected from the lab reception."
+       },
+       {
+        "question": "Is parking available at the hospital?",
+        "answer": "Yes, free parking for patients and visitors is available in the basement and behind the main block."
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Need to see a specialist?",
+      "description": "Book an appointment online in under a minute. Our team will call you to confirm the time.",
+      "background_image": "",
+      "button": {
+       "text": "Book appointment",
+       "url": "page:appointment"
+      },
+      "secondary_button": {
+       "text": "Call the help desk",
+       "url": "tel:+914842345678"
+      }
+     }
+    }
+   ]
+  },
+  "doctors": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Our doctors",
+      "subheading": "Experienced consultants with the time and expertise to care for you properly.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "doctors",
+     "data": {
+      "eyebrow": "",
+      "heading": "Find your specialist",
+      "description": "Consultation timings may change on public holidays. Please book in advance.",
+      "items": [
+       {
+        "photo": "theme:images/doctor-1.svg",
+        "name": "Dr. Arun Nair",
+        "qualification": "MBBS, MD, DM (Cardiology)",
+        "specialty": "Cardiology",
+        "experience": "18 years",
+        "timings": "Mon – Sat, 9:30 am – 1:30 pm",
+        "link": {
+         "text": "Book appointment",
+         "url": "page:appointment"
+        }
+       },
+       {
+        "photo": "theme:images/doctor-2.svg",
+        "name": "Dr. Meera Pillai",
+        "qualification": "MBBS, DGO, DNB (Obs & Gynae)",
+        "specialty": "Gynaecology",
+        "experience": "14 years",
+        "timings": "Mon – Fri, 10:00 am – 2:00 pm",
+        "link": {
+         "text": "Book appointment",
+         "url": "page:appointment"
+        }
+       },
+       {
+        "photo": "theme:images/doctor-3.svg",
+        "name": "Dr. Thomas Mathew",
+        "qualification": "MBBS, MS (Ortho), FRCS",
+        "specialty": "Orthopaedics",
+        "experience": "22 years",
+        "timings": "Tue, Thu, Sat · 4:00 – 7:00 pm",
+        "link": {
+         "text": "Book appointment",
+         "url": "page:appointment"
+        }
+       },
+       {
+        "photo": "theme:images/doctor-4.svg",
+        "name": "Dr. Fathima Rasheed",
+        "qualification": "MBBS, MD (Paediatrics)",
+        "specialty": "Paediatrics",
+        "experience": "11 years",
+        "timings": "Mon – Sat, 9:00 am – 12:30 pm",
+        "link": {
+         "text": "Book appointment",
+         "url": "page:appointment"
+        }
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Need to see a specialist?",
+      "description": "Book an appointment online in under a minute. Our team will call you to confirm the time.",
+      "background_image": "",
+      "button": {
+       "text": "Book appointment",
+       "url": "page:appointment"
+      },
+      "secondary_button": {
+       "text": "Call the help desk",
+       "url": "tel:+914842345678"
+      }
+     }
+    }
+   ]
+  },
+  "health-packages": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Health check-up packages",
+      "subheading": "Preventive health checks with same-day reports and a doctor consultation.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "pricing",
+     "data": {
+      "eyebrow": "Preventive care",
+      "heading": "Choose a health check",
+      "description": "All packages include a doctor consultation and a report review.",
+      "plans": [
+       {
+        "name": "Basic Health Check",
+        "price": "₹1,499",
+        "period": "/ person",
+        "features": "Complete blood count\nBlood sugar (fasting)\nLipid profile\nUrine routine\nPhysician consultation",
+        "button": {
+         "text": "Book this package",
+         "url": "page:appointment"
+        },
+        "featured": false
+       },
+       {
+        "name": "Executive Health Check",
+        "price": "₹3,999",
+        "period": "/ person",
+        "features": "Everything in Basic\nLiver & kidney function\nThyroid profile\nECG and chest X-ray\nDiet consultation",
+        "button": {
+         "text": "Book this package",
+         "url": "page:appointment"
+        },
+        "featured": true
+       },
+       {
+        "name": "Cardiac Check",
+        "price": "₹5,499",
+        "period": "/ person",
+        "features": "Everything in Executive\nEchocardiogram\nTreadmill test (TMT)\nCardiologist consultation",
+        "button": {
+         "text": "Book this package",
+         "url": "page:appointment"
+        },
+        "featured": false
+       }
+      ]
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "Good to know",
+      "heading": "Before your health check",
+      "description": "",
+      "items": [
+       {
+        "question": "Do I need to fast?",
+        "answer": "Yes, please fast for 10–12 hours before your check-up. Water is allowed."
+       },
+       {
+        "question": "How long does it take?",
+        "answer": "Most packages take 3 to 4 hours, including the doctor consultation."
+       },
+       {
+        "question": "When will I get the reports?",
+        "answer": "Most reports are ready the same day and are also sent to you by email."
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Need to see a specialist?",
+      "description": "Book an appointment online in under a minute. Our team will call you to confirm the time.",
+      "background_image": "",
+      "button": {
+       "text": "Book appointment",
+       "url": "page:appointment"
+      },
+      "secondary_button": {
+       "text": "Call the help desk",
+       "url": "tel:+914842345678"
+      }
+     }
+    }
+   ]
+  },
+  "appointment": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Book an appointment",
+      "subheading": "Tell us when you would like to visit and our help desk will confirm your slot.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "booking_form",
+     "data": {
+      "eyebrow": "Appointments",
+      "heading": "Request a consultation",
+      "description": "Fill in the form and we will call you within two hours (8 am – 8 pm) to confirm the doctor and time.",
+      "form_type": "appointment",
+      "form_heading": "Appointment request",
+      "select1_label": "Department",
+      "select1_options": "Cardiology\nObstetrics & Gynaecology\nOrthopaedics\nPaediatrics\nPulmonology\nNeurology\nNephrology & Dialysis\nDiagnostics & Lab\nGeneral Medicine\nHealth check-up package",
+      "select2_label": "Preferred time",
+      "select2_options": "Morning (8 am – 12 pm)\nAfternoon (12 pm – 4 pm)\nEvening (4 pm – 8 pm)",
+      "date_label": "Preferred date",
+      "message_label": "Symptoms or reason for visit (optional)",
+      "email_required": false,
+      "button_text": "Request appointment",
+      "success_message": "Thank you! Our help desk will call you shortly to confirm your appointment.",
+      "image": "",
+      "points": [
+       {
+        "icon": "bi-telephone",
+        "title": "We call to confirm",
+        "text": "Within two hours, 8 am – 8 pm"
+       },
+       {
+        "icon": "bi-clock-history",
+        "title": "Skip the queue",
+        "text": "Booked patients are seen first"
+       },
+       {
+        "icon": "bi-exclamation-octagon",
+        "title": "In an emergency?",
+        "text": "Call our 24×7 line instead of booking"
+       }
+      ]
+     }
+    },
+    {
+     "type": "process",
+     "data": {
+      "eyebrow": "What happens next",
+      "heading": "From booking to consultation",
+      "description": "",
+      "steps": [
+       {
+        "icon": "bi-send",
+        "title": "Send request",
+        "description": "Submit the form with your preferred date and time."
+       },
+       {
+        "icon": "bi-telephone-inbound",
+        "title": "Confirmation call",
+        "description": "We confirm the doctor, date and slot with you."
+       },
+       {
+        "icon": "bi-person-vcard",
+        "title": "Arrive & register",
+        "description": "Bring a photo ID and previous medical records."
+       }
+      ]
+     }
+    },
+    {
+     "type": "opening_hours",
+     "data": {
+      "eyebrow": "Timings",
+      "heading": "OPD & visiting hours",
+      "description": "Consultations are by appointment or token. Emergency and pharmacy services never close.",
+      "rows": [
+       {
+        "label": "Outpatient (OPD), Mon – Sat",
+        "hours": "8:00 am – 8:00 pm"
+       },
+       {
+        "label": "Outpatient (OPD), Sunday",
+        "hours": "9:00 am – 1:00 pm"
+       },
+       {
+        "label": "Laboratory & imaging",
+        "hours": "7:00 am – 9:00 pm"
+       },
+       {
+        "label": "Patient visiting hours",
+        "hours": "4:00 pm – 7:00 pm"
+       },
+       {
+        "label": "Pharmacy",
+        "hours": "Open 24 hours"
+       }
+      ],
+      "highlight_label": "Emergency & ambulance",
+      "highlight_value": "Open 24 × 7",
+      "note": "Fasting blood tests are collected from 7:00 am. Please bring previous reports to your consultation."
+     }
+    }
+   ]
+  },
+  "contact": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Contact us",
+      "subheading": "We are here to help, round the clock.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Get in touch",
+      "heading": "Visit, call or write to us",
+      "description": "For appointments, please use the booking page. For medical emergencies, call our 24×7 emergency line.",
+      "form_heading": "Send us a message",
+      "show_form": true,
+      "show_details": true,
+      "map_url": ""
+     }
+    },
+    {
+     "type": "opening_hours",
+     "data": {
+      "eyebrow": "Timings",
+      "heading": "OPD & visiting hours",
+      "description": "Consultations are by appointment or token. Emergency and pharmacy services never close.",
+      "rows": [
+       {
+        "label": "Outpatient (OPD), Mon – Sat",
+        "hours": "8:00 am – 8:00 pm"
+       },
+       {
+        "label": "Outpatient (OPD), Sunday",
+        "hours": "9:00 am – 1:00 pm"
+       },
+       {
+        "label": "Laboratory & imaging",
+        "hours": "7:00 am – 9:00 pm"
+       },
+       {
+        "label": "Patient visiting hours",
+        "hours": "4:00 pm – 7:00 pm"
+       },
+       {
+        "label": "Pharmacy",
+        "hours": "Open 24 hours"
+       }
+      ],
+      "highlight_label": "Emergency & ambulance",
+      "highlight_value": "Open 24 × 7",
+      "note": "Fasting blood tests are collected from 7:00 am. Please bring previous reports to your consultation."
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": ""
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>This policy explains how CareLine Hospital collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+     }
+    }
+   ]
+  },
+  "terms-and-conditions": {
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Terms and Conditions",
+      "subheading": ""
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+     }
+    }
+   ]
+  }
+ }
+}

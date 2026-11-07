@@ -1,0 +1,102 @@
+{
+  "type": "doctors",
+  "label": "Doctors",
+  "icon": "bi-heart-pulse",
+  "description": "Doctor profiles with qualification, specialty and consultation timings.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Our specialists",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Meet our doctors",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "",
+      "max": 800
+    },
+    {
+      "key": "items",
+      "label": "Doctors",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 40,
+      "item_label": "name",
+      "fields": [
+        {
+          "key": "photo",
+          "label": "Photo",
+          "type": "image"
+        },
+        {
+          "key": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "max": 80
+        },
+        {
+          "key": "qualification",
+          "label": "Qualification",
+          "type": "text",
+          "max": 120
+        },
+        {
+          "key": "specialty",
+          "label": "Specialty / department",
+          "type": "text",
+          "max": 80
+        },
+        {
+          "key": "experience",
+          "label": "Experience",
+          "type": "text",
+          "max": 40
+        },
+        {
+          "key": "timings",
+          "label": "Consultation timings",
+          "type": "text",
+          "max": 120
+        },
+        {
+          "key": "link",
+          "label": "Button",
+          "type": "link",
+          "default": {
+            "text": "Book appointment",
+            "url": ""
+          }
+        }
+      ],
+      "default": [
+        {
+          "name": "Dr. Name",
+          "qualification": "MBBS, MD",
+          "specialty": "Department",
+          "experience": "10 years"
+        }
+      ]
+    },
+    {
+      "key": "button",
+      "label": "Button below the list",
+      "type": "link",
+      "default": {
+        "text": "View all doctors",
+        "url": ""
+      }
+    }
+  ]
+}

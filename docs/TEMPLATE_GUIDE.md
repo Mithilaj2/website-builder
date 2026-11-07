@@ -114,6 +114,25 @@ Every layout, partial and section file receives:
 
 Core section types (fields defined in `runtime/section-types/*.json`): `hero`, `page_banner`, `about`, `services`, `features`, `stats`, `testimonials`, `gallery`, `team`, `faq`, `cta`, `contact`, `logos`, `rich_text`, `process`, `pricing`.
 
+Category section types (Phase 7a), available to any template that lists them:
+
+| Type | For | Notes |
+|---|---|---|
+| `courses` | Education | Cards with image, level, duration, fee and link |
+| `events` | Education, any | `date` must be `YYYY-MM-DD` (text field with a `pattern`). With `hide_past` on, past events are hidden on the live site but still shown in the builder preview (`$view->isPreview()`). Sort by date in the view |
+| `notices` | Education, any | Dated announcements with an optional link and a "New" flag |
+| `doctors` | Hospital | Photo, name, qualification, specialty, experience, consultation timings, button |
+| `opening_hours` | Hospital, any | Timing rows plus one highlighted line (e.g. Emergency · 24 × 7) and a note |
+| `booking_form` | Any | Appointment / admission / booking / enquiry form, see below |
+
+**`booking_form`.** Post it to `$view->formAction($form)` where `$form` is the section's `form_type` (`appointment`, `admission`, `booking` or `enquiry`), include `$view->formGuard()`, and read the result with `$view->formStatus($form)`. Give the form card `id="<form>-form"`: the redirect after posting jumps to that anchor, and buttons elsewhere can link to it (`#admission-form`). Field rules, enforced by the runtime:
+- `name` is required, plus a valid mobile number **or** email. If `email_required` is on, post `_email_required=1` and mark the email input `required`. `message` is optional.
+- Up to two dropdowns and a date, posted as `extra[Label]=value` (max 10 extras, labels up to 40 characters). A label containing "date" must be a real `YYYY-MM-DD` date; use `<input type="date" min="today">`.
+- Extras are stored in `contact_submissions.extra_json`, listed in the admin's Enquiries screen and CSV (Form, Details columns) and included in the notification email, whose subject names the kind ("New appointment request: …").
+- The contact form (`contact`) keeps its own rule: email and message required.
+
+**Site details used by templates (Phase 7a).** Besides name, tagline, phone, email, WhatsApp, address and hours, the client can now edit `emergency_phone` (shown by templates with an emergency strip) and a highlight badge: `rating` (title, max 40) and `rating_label` (text, max 90). Hide each element when its value is empty.
+
 Field types: `text`, `textarea`, `richtext`, `image`, `color`, `link`, `number`, `select`, `toggle`, `icon`, `repeater` (with sub-fields). The builder generates the editing form from the schema and validates every save against it on the server.
 
 A template supports any subset of these, plus its own custom types (`custom_section_types`, using the same JSON format).
@@ -148,4 +167,18 @@ When a website is created, the client's name, email, phone and address replace t
 - **Gutters on phones:** a Bootstrap `.row.g-5` overhangs a `.container` by 12 px on small screens, so the whole page scrolls sideways. Use `g-4 g-lg-5` (or smaller) inside containers. Check every page at 360 px for `document.documentElement.scrollWidth > innerWidth`.
 - **Runtime pages:** the website runtime renders some pages itself inside your `layouts/default.php` (the "Pay online" pages at `/pay`, styled by `assets/pay/pay.css` with your `--wb-*` colours). Your layout must not assume a page from the database: it must work when `$view->page['id']` is 0.
 - **Link to payments:** buttons and menus can use `page:pay`.
+- **Button colours vs link colours (found on Education 01):** a rule like `.lyc a { color: … }` is more specific than a single-class `.lyc-btn-primary { color: … }`, so button text took the link colour and disappeared on dark buttons. Prefix every button colour rule with the template class (`.lyc .lyc-btn-primary`, including `:hover` and `:focus-visible`). The screenshot check now flags any `.btn` whose text colour equals its background.
+- **No closures or variable functions in views.** The validator rejects `$fn(...)`; precompute values (e.g. `$telPhone = 'tel:' . preg_replace(...)`) or arrays instead.
+- **Lazy images and full-page screenshots:** headless full-page captures do not load `loading="lazy"` images below the fold. Scroll through the page before capturing, and check `naturalWidth` of every image.
+- **Long words on phones:** emails and URLs in footers and contact lists need `overflow-wrap: anywhere`.
+
+## Design directions (so templates in a category do not look alike)
+
+| Template | Prefix | Palette | Type | Signature motif |
+|---|---|---|---|---|
+| Business 01 Meridian Corporate | `mrd` | Navy + amber | Manrope + Inter | Corporate grid, numbered process |
+| Education 01 Lyceum Classic | `lyc` | Forest green + saffron on paper | Fraunces + DM Sans | Arch frames, school crest, notice board, dark hero |
+| Hospital 01 CareLine Health | `crl` | Teal + coral on mint, navy footer | Plus Jakarta Sans + DM Sans | Leaf frames (two opposite corners rounded), heartbeat line, 24×7 emergency strip, quick-access bar, light hero |
+
+Later templates in the same category should change at least the palette family, the heading typeface, the frame/shape motif and the hero layout (light vs dark, image side, full-bleed vs boxed).
 

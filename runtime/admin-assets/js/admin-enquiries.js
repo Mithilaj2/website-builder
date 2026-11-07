@@ -11,8 +11,16 @@
     empty: 'No enquiries yet. Messages sent through your website forms appear here.',
     columns: [
       { title: 'Received', render: r => '<span class="text-nowrap">' + WB.esc(WB.datetime(r.created_at)) + '</span>' },
-      { title: 'From', render: r => WB.esc(r.name || '—') + '<div class="small text-muted">' + WB.esc(r.email || r.phone || '') + '</div>' },
-      { title: 'Message', render: r => (r.subject ? '<div class="fw-semibold">' + WB.esc(r.subject) + '</div>' : '') + '<div class="small text-muted text-truncate" style="max-width:420px">' + WB.esc(r.excerpt || '') + '</div>' },
+      { title: 'From', render: r => WB.esc(r.name || '—') + '<div class="small text-muted">' + WB.esc([r.email, r.phone].filter(Boolean).join(' · ')) + '</div>' },
+      { title: 'Message', render: r => {
+          const kinds = { appointment: 'Appointment', admission: 'Admission', booking: 'Booking' };
+          let extra = {};
+          try { extra = r.extra_json ? JSON.parse(r.extra_json) : {}; } catch (e) { extra = {}; }
+          const details = Object.keys(extra).map(k => k + ': ' + extra[k]).join(' · ');
+          return (kinds[r.form_key] ? '<span class="badge text-bg-primary-subtle text-primary-emphasis border me-1">' + kinds[r.form_key] + '</span>' : '') +
+            (r.subject ? '<span class="fw-semibold">' + WB.esc(r.subject) + '</span>' : '') +
+            '<div class="small text-muted text-truncate" style="max-width:420px">' + WB.esc(details || r.excerpt || '') + '</div>';
+        } },
       { title: 'Status', render: r => badge(r.status) + (Number(r.email_sent) ? '' : ' <i class="bi bi-envelope-slash text-muted" title="Email notification was not sent"></i>') },
       { title: '', cls: 'text-end', render: r => '<button class="btn btn-sm btn-light" data-view="' + r.id + '"><i class="bi bi-eye"></i> View</button>' }
     ]

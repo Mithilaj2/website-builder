@@ -1,0 +1,102 @@
+{
+  "type": "courses",
+  "label": "Courses / programmes",
+  "icon": "bi-mortarboard",
+  "description": "Courses or programmes with level, duration, fee and a link.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Programmes",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Courses we offer",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "Choose from programmes designed with industry and taught by experienced faculty.",
+      "max": 800
+    },
+    {
+      "key": "items",
+      "label": "Courses",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 24,
+      "item_label": "title",
+      "fields": [
+        {
+          "key": "image",
+          "label": "Image",
+          "type": "image"
+        },
+        {
+          "key": "title",
+          "label": "Course name",
+          "type": "text",
+          "required": true,
+          "max": 120
+        },
+        {
+          "key": "level",
+          "label": "Level / category",
+          "type": "text",
+          "max": 60
+        },
+        {
+          "key": "duration",
+          "label": "Duration",
+          "type": "text",
+          "max": 40
+        },
+        {
+          "key": "fee",
+          "label": "Fee (optional)",
+          "type": "text",
+          "max": 40
+        },
+        {
+          "key": "description",
+          "label": "Short description",
+          "type": "textarea",
+          "max": 300
+        },
+        {
+          "key": "link",
+          "label": "Button",
+          "type": "link",
+          "default": {
+            "text": "View details",
+            "url": ""
+          }
+        }
+      ],
+      "default": [
+        {
+          "title": "Course name",
+          "level": "Undergraduate",
+          "duration": "3 years",
+          "description": "A short description of the course."
+        }
+      ]
+    },
+    {
+      "key": "button",
+      "label": "Button below the list",
+      "type": "link",
+      "default": {
+        "text": "View all courses",
+        "url": ""
+      }
+    }
+  ]
+}
