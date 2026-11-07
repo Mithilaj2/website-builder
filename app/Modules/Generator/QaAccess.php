@@ -63,7 +63,12 @@ final class QaAccess
             . "AuthType Basic\n"
             . "AuthName \"Channel Softech QA\"\n"
             . 'AuthUserFile "' . str_replace('"', '', $htpasswd) . "\"\n"
-            . "Require valid-user\n";
+            // Payment gateway webhooks must reach QA websites without the password; they carry their own signatures.
+            . "<RequireAny>\n"
+            // THE_REQUEST (the original request line), because the website's front controller rewrites the URI to index.php.
+            . "    Require expr \"%{THE_REQUEST} =~ m#^POST /[^ ?]*/pay/webhook/[a-z]+(\\\\?[^ ]*)? HTTP/#\"\n"
+            . "    Require valid-user\n"
+            . "</RequireAny>\n";
         file_put_contents(SITES_PATH . '/.htaccess', $ht, LOCK_EX);
     }
 }

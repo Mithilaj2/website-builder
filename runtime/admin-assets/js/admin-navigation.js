@@ -45,6 +45,7 @@
         const items = res[loc] || [];
         const $sel = $c.find('.page-select').empty();
         pages.forEach(p => $sel.append($('<option>').val(p.id).text(p.title + (p.status !== 'active' ? ' (hidden)' : ''))));
+        if (res.payments) $sel.append($('<option>').val('pay').text('Pay online (payment page)'));
         render($c, items.length ? items : automaticItems(loc), !items.length);
         if (window.Sortable && !$c.data('sortable')) {
           $c.data('sortable', Sortable.create($c.find('.nav-items')[0], { handle: '.drag', animation: 150, filter: '.empty' }));
@@ -55,6 +56,11 @@
 
   $(document).on('click', '.nav-editor [data-add-page]', function () {
     const $c = $(this).closest('.nav-editor');
+    if ($c.find('.page-select').val() === 'pay') {
+      $c.find('.nav-items .empty').remove();
+      $c.find('.nav-items').append(itemHtml({ url: 'page:pay', label: 'Pay online' }));
+      return;
+    }
     const id = Number($c.find('.page-select').val());
     const p = pages.find(x => x.id === id);
     if (!p) return;

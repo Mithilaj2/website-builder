@@ -228,6 +228,7 @@ final class Generator
         $this->fresh("$st/assets");
         FileSystem::copyDir(RUNTIME_PATH . '/fonts', "$st/assets/fonts");
         FileSystem::copyDir(RUNTIME_PATH . '/assets/lib', "$st/assets/lib");
+        FileSystem::copyDir(RUNTIME_PATH . '/assets/pay', "$st/assets/pay");
         // Website admin scripts and styles (the same editor scripts the builder uses).
         $adm = "$st/assets/admin";
         FileSystem::copyDir(RUNTIME_PATH . '/admin-assets', $adm);
@@ -247,7 +248,7 @@ final class Generator
         if ($applied) {
             $this->log[] = 'Applied migrations: ' . implode(', ', $applied) . '.';
         }
-        $expected = ['settings', 'pages', 'sections', 'media', 'admin_users', 'login_attempts', 'contact_submissions', 'menu_items'];
+        $expected = ['settings', 'pages', 'sections', 'media', 'admin_users', 'login_attempts', 'contact_submissions', 'menu_items', 'payment_transactions', 'payment_events'];
         $have = array_map(fn ($t) => substr($t, strlen($db->prefix())), $db->tables());
         $missing = array_diff($expected, $have);
         if ($missing) {
@@ -289,6 +290,10 @@ final class Generator
             'features' => $features,
             'generated_at' => date('c'),
         ];
+        // Developer setting only (config/config.php "payment_emulator"): points test-mode payments at a local gateway imitation.
+        if (is_string($emu = \App\Core\Config::get('payment_emulator')) && $emu !== '') {
+            $app['payment_emulator'] = $emu;
+        }
         $cfg = (array) \App\Core\Config::get('db', []);
         $database = [
             'host' => $cfg['host'] ?? 'localhost', 'port' => (int) ($cfg['port'] ?? 3306), 'name' => $cfg['name'] ?? '',
@@ -319,7 +324,7 @@ final class Generator
             'theme/manifest.json', 'theme/layouts/default.php', 'theme/partials/header.php', 'theme/partials/footer.php',
             'assets/fonts/fonts.json', 'assets/lib/libraries.json', 'config/app.php', 'config/database.php', 'config/.htaccess', 'core/.htaccess',
             'core/Admin/App.php', 'core/Admin/Auth.php', 'core/Admin/views/layout-main.php', 'core/editor/editor-modals.php', 'vendor/autoload.php', 'vendor/.htaccess',
-            'assets/admin/js/app.js', 'assets/admin/js/website-workspace.js', 'assets/admin/vendor/jquery/jquery.min.js', 'assets/admin/vendor/tinymce/tinymce.min.js'];
+            'assets/admin/js/app.js', 'assets/admin/js/website-workspace.js', 'assets/pay/pay.js', 'core/Payments/PaymentPage.php', 'assets/admin/vendor/jquery/jquery.min.js', 'assets/admin/vendor/tinymce/tinymce.min.js'];
         $manifest = json_decode((string) file_get_contents("$st/theme/manifest.json"), true) ?: [];
         foreach ((array) ($manifest['section_types'] ?? []) as $t) {
             $required[] = "theme/sections/$t.php";

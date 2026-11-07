@@ -15,4 +15,7 @@ return [
         'charset' => 'utf8mb4',
     ],
     'session' => ['name' => 'CSWBSESSID', 'idle_timeout' => 1800],
+    // Developers only: local imitation of the payment gateways (tools/payment-emulator.php) used by
+    // generated websites in TEST mode. Never set this on a production builder.
+    // 'payment_emulator' => 'http://127.0.0.1:8090',
 ];

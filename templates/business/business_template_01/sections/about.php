@@ -5,7 +5,7 @@ $points = array_filter((array) ($data['points'] ?? []), static fn ($p) => ($p['t
 ?>
 <section <?= $view->attrs($section, 'mrd-about') ?>>
   <div class="container">
-    <div class="row align-items-center g-5">
+    <div class="row align-items-center g-4 g-lg-5">
       <div class="col-lg-6">
         <div class="mrd-about-media">
           <img class="mrd-about-img-1" src="<?= $img1 ?>" alt="<?= $view->alt($data['image'] ?? '', 'About us') ?>">

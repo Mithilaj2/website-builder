@@ -142,3 +142,10 @@ Templates should style those classes.
 Keys under `pages` are page slugs (`""` is the homepage). A page without demo sections gets its page type's `default_sections` filled with schema defaults.
 
 When a website is created, the client's name, email, phone and address replace the demo values. Demo images must be the template's own files (`theme:` references). Never use stock photos without a licence.
+
+## Lessons from testing
+
+- **Gutters on phones:** a Bootstrap `.row.g-5` overhangs a `.container` by 12 px on small screens, so the whole page scrolls sideways. Use `g-4 g-lg-5` (or smaller) inside containers. Check every page at 360 px for `document.documentElement.scrollWidth > innerWidth`.
+- **Runtime pages:** the website runtime renders some pages itself inside your `layouts/default.php` (the "Pay online" pages at `/pay`, styled by `assets/pay/pay.css` with your `--wb-*` colours). Your layout must not assume a page from the database: it must work when `$view->page['id']` is 0.
+- **Link to payments:** buttons and menus can use `page:pay`.
+

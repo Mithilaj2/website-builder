@@ -9,7 +9,7 @@ $map = (string) ($data['map_url'] ?? '');
 ?>
 <section <?= $view->attrs($section, 'mrd-contact') ?>>
   <div class="container">
-    <div class="row g-5">
+    <div class="row g-4 g-lg-5">
       <?php if (!empty($data['show_details'])): ?>
       <div class="<?= !empty($data['show_form']) ? 'col-lg-5' : 'col-12' ?>">
         <?= $view->partial('section-head', ['data' => $data, 'align' => 'start']) ?>

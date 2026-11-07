@@ -215,6 +215,14 @@ final class WebsiteController extends SiteController
         Database::update('wb_websites', [
             'features' => json_encode($features), 'payment_gateway' => $enabled ? $gateway : null, 'payment_mode' => $enabled ? $mode : null, 'updated_at' => now(),
         ], $svc->id());
+        // Keep the website's own payment settings in step (gateway keys entered in the website admin are kept).
+        $db = $svc->db();
+        $raw = $db->value('SELECT setting_value FROM ' . $db->t('settings') . " WHERE setting_key = 'payments'");
+        $site = array_replace(\SiteRuntime\Payments\PaymentService::defaults(), is_string($raw) ? (json_decode($raw, true) ?: []) : []);
+        $site['enabled'] = $enabled;
+        $site['gateway'] = $enabled ? $gateway : ($site['gateway'] ?? '');
+        $site['mode'] = $mode;
+        $db->query('REPLACE INTO ' . $db->t('settings') . ' (setting_key, setting_value, updated_at) VALUES (?, ?, ?)', ['payments', json_encode($site, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), now()]);
         Activity::log('website.payments_saved', 'website', $svc->id(), $enabled ? "$gateway ($mode)" : 'disabled');
         Response::ok('Payment settings saved.');
     }

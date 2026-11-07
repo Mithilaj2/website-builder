@@ -1,7 +1,7 @@
 <?php $img = $view->img($data['image'] ?? ''); ?>
 <section <?= $view->attrs($section, 'mrd-features') ?>>
   <div class="container">
-    <div class="row g-5 align-items-center">
+    <div class="row g-4 g-lg-5 align-items-center">
       <div class="<?= $img !== '' ? 'col-lg-5' : 'col-12' ?>">
         <?= $view->partial('section-head', ['data' => $data, 'align' => $img !== '' ? 'start' : 'center']) ?>
         <?php if ($img !== ''): ?><div class="mrd-features-img"><img src="<?= $img ?>" alt="<?= $view->alt($data['image'] ?? '', '') ?>" loading="lazy"></div><?php endif; ?>

@@ -1,0 +1,49 @@
+/* "Pay online" pages. Uses the website's theme colours (--wb-*) with safe fallbacks. */
+/* "body .wb-section.wbpay" outranks template rules such as ".mrd .wb-section { padding: 6rem 0 }". */
+body .wb-section.wbpay { padding: 3.5rem 1rem 4.5rem; background: color-mix(in srgb, var(--wb-primary, #2E3192) 4%, var(--wb-bg, #fff)); }
+.wbpay-wrap { max-width: 620px; margin: 0 auto; }
+.wbpay-card, .wbpay-card * { box-sizing: border-box; min-width: 0; }
+.wbpay-card { background: #fff; border: 1px solid rgba(15, 23, 42, .08); border-radius: calc(var(--wb-radius, 10px) + 4px); box-shadow: 0 10px 30px rgba(15, 23, 42, .06); padding: 2rem; color: var(--wb-text, #1f2937); }
+.wbpay-center { text-align: center; }
+.wbpay-title { font-family: var(--wb-font-heading, inherit); font-size: 1.65rem; line-height: 1.25; margin: 0 0 .75rem; color: var(--wb-text, #111827); }
+.wbpay-intro, .wbpay-lead { color: color-mix(in srgb, var(--wb-text, #1f2937) 75%, #fff); margin: 0 0 1.25rem; }
+.wbpay-form { display: grid; gap: 1rem; }
+.wbpay-row { display: grid; gap: 1rem; grid-template-columns: 1fr 1fr; }
+@media (max-width: 560px) { .wbpay-row { grid-template-columns: 1fr; } .wbpay-card { padding: 1.4rem 1.1rem; } body .wb-section.wbpay { padding: 2rem .75rem 3rem; } }
+.wbpay-field label { display: block; font-weight: 600; font-size: .92rem; margin-bottom: .35rem; }
+.wbpay-optional { font-weight: 400; opacity: .65; }
+.wbpay-input { width: 100%; box-sizing: border-box; font: inherit; color: inherit; background: #fff; border: 1px solid #cbd5e1; border-radius: var(--wb-radius, 8px); padding: .65rem .8rem; min-height: 44px; }
+.wbpay-input:focus { outline: none; border-color: var(--wb-primary, #2E3192); box-shadow: 0 0 0 3px color-mix(in srgb, var(--wb-primary, #2E3192) 20%, transparent); }
+.wbpay-input.is-invalid { border-color: #dc2626; }
+.wbpay-amount { position: relative; }
+.wbpay-amount span { position: absolute; left: .85rem; top: 50%; transform: translateY(-50%); font-weight: 600; opacity: .7; }
+.wbpay-amount .wbpay-input { padding-left: 2rem; font-size: 1.15rem; font-weight: 600; }
+.is-fixed .wbpay-input { background: #f1f5f9; }
+.wbpay-hint { font-size: .82rem; opacity: .7; margin-top: .3rem; }
+.wbpay-error { color: #b91c1c; font-size: .85rem; margin-top: .3rem; }
+.wbpay-btn { display: inline-flex; justify-content: center; align-items: center; gap: .5rem; width: 100%; box-sizing: border-box; border: 0; cursor: pointer; text-decoration: none;
+  background: var(--wb-primary, #2E3192); color: #fff; font: inherit; font-weight: 600; font-size: 1.05rem; padding: .85rem 1.2rem; border-radius: var(--wb-radius, 8px); min-height: 48px; }
+.wbpay-btn:hover { filter: brightness(1.08); color: #fff; }
+.wbpay-btn:disabled { opacity: .7; cursor: wait; }
+.wbpay-btn-light { background: #f1f5f9; color: #0f172a; }
+.wbpay-btn-light:hover { color: #0f172a; }
+.wbpay-actions { margin: 1.25rem 0 0; }
+.wbpay-secure { display: flex; gap: .45rem; align-items: flex-start; font-size: .82rem; opacity: .75; margin: 0; }
+.wbpay-secure svg { flex: 0 0 auto; margin-top: .15rem; }
+.wbpay-alert { border-radius: var(--wb-radius, 8px); padding: .75rem 1rem; margin: 0 0 1rem; font-size: .93rem; }
+.wbpay-alert-warn { background: #fef3c7; color: #78350f; }
+.wbpay-alert-error { background: #fee2e2; color: #7f1d1d; }
+.wbpay-alert-info { background: #e0f2fe; color: #0c4a6e; }
+.wbpay-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.wbpay-amount-big { font-size: 2.2rem; font-weight: 700; margin: .25rem 0; color: var(--wb-primary, #2E3192); }
+.wbpay-muted { opacity: .7; font-size: .93rem; }
+.wbpay-cancel { margin: 1rem 0 0; font-size: .9rem; }
+.wbpay-receipt { text-align: center; }
+.wbpay-icon { width: 64px; height: 64px; border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: 700; color: #fff; }
+.wbpay-icon-ok { background: #16a34a; }
+.wbpay-icon-wait { background: #d97706; }
+.wbpay-icon-fail { background: #dc2626; }
+.wbpay-details { display: grid; grid-template-columns: auto 1fr; gap: .45rem 1rem; text-align: left; background: #f8fafc; border-radius: var(--wb-radius, 8px); padding: 1rem 1.2rem; margin: 1.25rem 0; }
+.wbpay-details dt { font-weight: 600; opacity: .7; }
+.wbpay-details dd { margin: 0; word-break: break-word; }
+@media print { header, footer, nav, .wbpay-actions, .wbpay-btn { display: none !important; } body .wb-section.wbpay { background: #fff; padding: 0; } .wbpay-card { box-shadow: none; border: 0; } }

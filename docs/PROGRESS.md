@@ -6,10 +6,108 @@
 | 1 Core platform | ✅ Complete | PR #1 |
 | 2 Template engine | ✅ Complete | PR #2 |
 | 3 Website generator | ✅ Complete | PR #3 |
-| 4 Generated site CMS | ✅ Complete, awaiting review | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
-| 5 Payment integration | ⏳ Not started | No sandbox account yet. Razorpay test-mode keys are free on signup. No gateway is marked complete until a sandbox payment is verified on the server |
+| 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
+| 5 Payment integration | ✅ Built, awaiting review · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ⏳ Not started | Independence test on a second cPanel account to be run by Channel Softech |
 | 7 Template library | ⏳ Not started | Order: Business, Education, Hospital, E-commerce, then the rest |
+
+## Phase 5: Online payments
+
+### Gateway status
+
+| Gateway | API used | Built | Emulator tests | Real sandbox payment |
+|---|---|---|---|---|
+| Razorpay | Orders API + Standard Checkout (redirect mode), signature check, capture, webhooks | ✅ | ✅ | ⏳ Not yet verified |
+| Stripe | Checkout Sessions (hosted page), webhooks (signed, 5-minute replay window) | ✅ | ✅ | ⏳ Not yet verified |
+| Cashfree | PG API version 2025-01-01, JS checkout v3, webhooks | ✅ | ✅ | ⏳ Not yet verified |
+| PhonePe | Standard Checkout **v2** (OAuth client credentials, `/checkout/v2/pay`, order status), webhooks | ✅ | ✅ | ⏳ Not yet verified |
+| PayU | Hosted checkout (SHA-512 hash), reverse-hash check, `verify_payment` API, webhooks | ✅ | ✅ | ⏳ Not yet verified |
+
+The build environment cannot reach any gateway's servers, so the flows were tested against `tools/payment-emulator.php`. It imitates each gateway's published API, hosted payment page and signatures. A gateway moves to **Verified** only after one real sandbox payment succeeds on the cPanel server (see "Sandbox verification checklist" below).
+
+### Delivered
+- **"Pay online" page** on every website at `/pay`, shown inside the website's own template, header and footer:
+  - payment options set by the owner, each with a fixed price (e.g. "Consultation fee | 500") or a free amount within a minimum and maximum
+  - the customer enters name, mobile and email (for the receipt), plus an optional note; a "Test mode" banner shows in test mode
+  - buttons and menus link to it with `page:pay` (offered in the link picker and the Navigation editor); links can preselect an option (`/pay?option=1`) or suggest an amount (`/pay?amount=1500&purpose=Advance`)
+  - protected by a signed form token, a honeypot field and a limit of 20 attempts per IP per 10 minutes
+- **Payment flow:** the server creates the order at the gateway; the customer pays on the gateway's own page (the website never sees card or bank details); on return, the website:
+  1. verifies what the gateway sent (signature or hash)
+  2. **confirms with the gateway's API** (the API is the source of truth)
+  3. checks that **the amount paid equals the amount asked**; a mismatch is never marked paid
+  4. shows the receipt
+- **Payment states:** paid, pending (for example a UPI approval still waiting; the receipt page re-checks by itself), failed, cancelled.
+- **Safe status updates:**
+  - a paid payment never changes again
+  - forged or unverifiable messages are logged and ignored
+  - repeated returns or webhooks change nothing and never send a second email
+- **Webhooks** at `/pay/webhook/<gateway>`, checked with each gateway's own method, and then confirmed with the gateway's API. They catch payments where the customer closed the browser before returning to the website.
+- **Emails:** a receipt to the customer and a notification to the owner, sent once per payment.
+- **Receipt page:** reached through a link with an unguessable token; includes a print button.
+- **Website admin → Payments:**
+  - **Settings (owner):** turn payments on/off, choose the gateway, test or live mode, and separate test and live keys:
+    - secrets are encrypted with the website's own key and never shown again; a blank field keeps the saved value
+    - "Save and test keys" checks the keys with the gateway
+    - each gateway's webhook address and setup steps are shown
+    - a warning appears when the website is not on HTTPS
+  - **Transactions (owner and editor):**
+    - search, filter by status, mode and dates; total paid
+    - details for each payment, with its full history (start, return, webhook, re-check)
+    - "Re-check with gateway" (for when a customer says money was deducted); link to the customer's receipt
+    - CSV export (spreadsheet-safe)
+  - **Dashboard:** "Received this month" tile (live mode), with a reminder while in test mode or when keys are missing.
+- **Builder:**
+  - wizard step 7 reads the same gateway list as the websites, and choosing a gateway there switches the website's own settings over immediately (keys entered in the website admin are kept)
+  - generated websites get the payment tables (migration 004)
+  - the QA password no longer blocks the signature-checked webhook addresses, so gateway webhooks can reach QA websites
+- **Runtime version 1.2.0.**
+- **Hosting:** the website's `.htaccess` passes the `Authorization` header to PHP, which cPanel's PHP-FPM otherwise drops. PhonePe signs its webhooks with that header.
+
+### Tests run
+- `tests/phase5_http_test.php`: **68 end-to-end checks**, against the gateway emulator and a local mail server:
+  - **settings:** keys required and checked against the mode; secrets never shown again; connection tests for all 5 gateways; wrong keys reported; **live mode never uses the emulator**
+  - **pay page:** template, fixed-price options, validation, forged token
+  - **Razorpay:**
+    - success, with the option price used (the amount posted by the browser is ignored)
+    - receipt and owner emails, sent once
+    - payment history; replayed return; receipt token
+    - failure; exact free amount; manual-capture account (captured automatically)
+    - **amount tampering**, a **forged signature**, cancel
+    - a "paid but never returned" payment confirmed by webhook (wrong signature rejected, repeated webhook harmless)
+  - **Stripe:** success, cancel, webhook signature and replay window
+  - **Cashfree:** success (mobile reduced to 10 digits), customer drop, webhook signature
+  - **PhonePe:** success; pending UPI approval later confirmed by webhook; wrong webhook authorization rejected
+  - **PayU:** hash accepted by the gateway; success; tampered response ignored; failure
+  - **admin:** filters, search, CSV, dashboard, editor permissions, `page:pay` in menus, builder wizard list
+- Results: dev server 68/68; **Apache 68/68**.
+- Regression on both servers: Phase 1 80/80, Phase 2 99/99, Phase 3 79/79, Phase 4 105/105.
+- Headless Chrome, desktop and mobile, with no JavaScript errors:
+  - the real browser flow through Razorpay's and Cashfree's checkout scripts (fixed-price option locks the amount, "something else" unlocks it) → gateway page → back to the receipt
+  - the admin screens, and "Save and test keys" from the browser
+
+### Bugs found and fixed during testing
+- **Mobile layout (from your screenshot):** every page of Business Template 01 scrolled sideways by 12 px on phones. Rows with `g-5` gutters overhang their container; they now use `g-4 g-lg-5`. A template rule also removed the payment page's side padding. Every page was checked at 360, 390 and 768 px with no overflow. Template version **1.1.1**.
+- Emails from a website reached by IP address (QA) had an invalid sender (`no-reply@127.0.0.1`). The sender now falls back to the website's own address.
+- On Apache, the QA password blocked gateway webhooks, and PHP-FPM dropped the `Authorization` header (both fixed, see above).
+- A first version marked a pending payment as failed when someone posted a forged return to it. Unverifiable messages are now ignored.
+
+### Sandbox verification checklist (to do on cPanel, one gateway at a time)
+1. Generate the website, create its admin login (step 8), and make sure the QA address is on HTTPS.
+2. Website admin → Payments → Settings: turn payments on, choose the gateway, keep **Test** mode, enter the gateway's **test** keys, then press **Save and test test keys**.
+3. Add the webhook address shown there to the gateway's dashboard (with the same secret or username/password).
+4. Open `/pay`, pay with the gateway's test card or UPI ID, and check:
+   - the receipt shows "Payment successful"
+   - Payments shows it as paid with a payment ID, and its history includes a webhook entry
+   - the receipt and owner emails arrive
+5. Pay once more and close the gateway window → the payment shows as cancelled.
+6. Send me the results (or a screenshot of the payment's history). I then mark that gateway **Verified** here.
+
+Test credentials: Razorpay test keys appear right after signup. Stripe test keys are in every account. Cashfree, PayU and PhonePe sandbox keys come from their dashboards; PhonePe sets up sandbox webhooks through their integration team.
+
+### Notes
+- Currency is INR. Refunds are made from the gateway's dashboard (the admin shows the payment ID to search for).
+- E-commerce checkout (cart and orders) arrives with the e-commerce templates in Phase 7, on this same payment framework.
+- `payment_emulator` in `config/config.php` is a developer-only setting. The Phase 6 export must never include it (noted for Phase 6).
 
 ## Phase 4: The generated website's own admin panel
 

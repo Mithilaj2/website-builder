@@ -8,6 +8,9 @@ use SiteRuntime\Crypto;
 use SiteRuntime\Db;
 use SiteRuntime\DbSource;
 use SiteRuntime\Mailer;
+use SiteRuntime\Payments\GatewayError;
+use SiteRuntime\Payments\Gateways;
+use SiteRuntime\Payments\PaymentService;
 use SiteRuntime\MediaService;
 use SiteRuntime\NotFound;
 use SiteRuntime\SectionTypes;
@@ -119,6 +122,10 @@ final class App
             ['GET', 'api/enquiries', 'apiEnquiries', 'auth'], ['GET', 'api/enquiries/export', 'apiEnquiriesExport', 'auth'],
             ['GET', 'api/enquiries/{eid}', 'apiEnquiry', 'auth'], ['POST', 'api/enquiries/{eid}/status', 'apiEnquiryStatus', 'auth'],
             ['POST', 'api/enquiries/{eid}/delete', 'apiEnquiryDelete', 'auth'],
+            ['GET', 'payments', 'paymentsPage', 'auth'], ['GET', 'payments/settings', 'paymentSettingsPage', 'owner'],
+            ['POST', 'payments/settings', 'savePaymentSettings', 'owner'], ['POST', 'payments/test', 'testPaymentConnection', 'owner'],
+            ['GET', 'api/payments', 'apiPayments', 'auth'], ['GET', 'api/payments/export', 'apiPaymentsExport', 'auth'],
+            ['GET', 'api/payments/{tid}', 'apiPayment', 'auth'], ['POST', 'api/payments/{tid}/recheck', 'apiPaymentRecheck', 'auth'],
             ['GET', 'api/users', 'apiUsers', 'owner'], ['POST', 'api/users', 'apiUserSave', 'owner'], ['POST', 'api/users/{uid}', 'apiUserSave', 'owner'],
             ['POST', 'api/users/{uid}/delete', 'apiUserDelete', 'owner'],
         ];
@@ -226,7 +233,9 @@ final class App
             'enquiries' => (int) $this->db->value('SELECT COUNT(*) FROM ' . $t('contact_submissions') . " WHERE status <> 'spam'"),
         ];
         $recent = $this->db->fetchAll('SELECT id, name, email, subject, status, created_at FROM ' . $t('contact_submissions') . " WHERE status <> 'spam' ORDER BY id DESC LIMIT 6");
-        $this->render('dashboard', ['title' => 'Dashboard', 'active' => 'dashboard', 'stats' => $stats, 'recent' => $recent, 'mailReady' => $this->mailer()->configured()]);
+        $pay = $this->payments();
+        $this->render('dashboard', ['title' => 'Dashboard', 'active' => 'dashboard', 'stats' => $stats, 'recent' => $recent, 'mailReady' => $this->mailer()->configured(),
+            'payments' => $pay->settings()['enabled'] ? $pay->summary() + ['mode' => $pay->settings()['mode'], 'ready' => $pay->ready()] : null]);
     }
 
     private function contentPage(): void
@@ -583,7 +592,7 @@ final class App
     {
         $c = $this->content();
         $pages = array_map(static fn ($p) => ['id' => (int) $p['id'], 'title' => $p['title'], 'slug' => $p['slug'], 'status' => $p['status'], 'show_in_menu' => (int) $p['show_in_menu'], 'show_in_footer' => (int) $p['show_in_footer']], $c->pages());
-        $this->json(['ok' => true, 'header' => $c->menu('header'), 'footer' => $c->menu('footer'), 'pages' => $pages]);
+        $this->json(['ok' => true, 'header' => $c->menu('header'), 'footer' => $c->menu('footer'), 'pages' => $pages, 'payments' => $this->payments()->settings()['enabled']]);
     }
 
     private function apiNavigationSave(): void
@@ -668,6 +677,129 @@ final class App
         }
         fclose($out);
         exit;
+    }
+
+    // ================================================================== payments
+
+    private function paymentsPage(): void
+    {
+        $svc = $this->payments();
+        $s = $svc->settings();
+        $this->render('payments', ['title' => 'Payments', 'active' => 'payments', 'settings' => $s, 'ready' => $svc->ready(),
+            'gatewayName' => $s['gateway'] !== '' ? Gateways::ALL[$s['gateway']]::name() : '', 'payUrl' => $this->payUrl(), 'scripts' => ['js/admin-payments.js']]);
+    }
+
+    private function paymentSettingsPage(): void
+    {
+        $svc = $this->payments();
+        $webhooks = [];
+        foreach (array_keys(Gateways::ALL) as $g) {
+            $webhooks[$g] = $this->origin() . $this->payUrl('webhook/' . $g);
+        }
+        $this->render('payment-settings', ['title' => 'Payment settings', 'active' => 'payments', 'settings' => $svc->publicSettings(), 'ready' => $svc->ready(),
+            'gateways' => Gateways::definitions(), 'webhooks' => $webhooks, 'payUrl' => $this->payUrl(), 'https' => str_starts_with($this->origin(), 'https://'),
+            'scripts' => ['js/admin-payments.js']]);
+    }
+
+    private function savePaymentSettings(): void
+    {
+        $svc = $this->payments();
+        $svc->saveSettings($_POST);
+        $s = $svc->settings();
+        $msg = !$s['enabled'] ? 'Payment settings saved. Online payments are switched off.'
+            : 'Payment settings saved. ' . Gateways::ALL[$s['gateway']]::name() . ' is accepting ' . ($s['mode'] === 'live' ? 'LIVE payments.' : 'test payments (no real money).');
+        $this->ok($msg);
+    }
+
+    /** Check the saved credentials of the chosen gateway and mode against the gateway. */
+    private function testPaymentConnection(): void
+    {
+        $gateway = (string) ($_POST['gateway'] ?? '');
+        $mode = ($_POST['mode'] ?? 'test') === 'live' ? 'live' : 'test';
+        if (!isset(Gateways::ALL[$gateway])) {
+            $this->fail('Choose a payment gateway.');
+        }
+        try {
+            $msg = $this->payments()->gateway($gateway, $mode)->testConnection();
+        } catch (GatewayError $e) {
+            $this->fail($e->getMessage());
+        }
+        $this->ok($msg);
+    }
+
+    private function apiPayments(): void
+    {
+        $r = $this->payments()->list($_GET, (int) ($_GET['page'] ?? 1), (int) ($_GET['per_page'] ?? 20));
+        foreach ($r['rows'] as &$row) {
+            $row['amount_text'] = '₹' . PaymentService::inr((int) $row['amount']);
+        }
+        $r['paid_total_text'] = '₹' . PaymentService::inr((int) $r['paid_total']);
+        $this->json($r);
+    }
+
+    private function apiPayment(array $p): void
+    {
+        $svc = $this->payments();
+        $tx = $svc->find($p['tid']) ?? throw new NotFound('Payment not found.');
+        unset($tx['ip']);
+        $tx['amount_text'] = '₹' . PaymentService::inr((int) $tx['amount']);
+        $tx['gateway_name'] = isset(Gateways::ALL[$tx['gateway']]) ? Gateways::ALL[$tx['gateway']]::name() : $tx['gateway'];
+        $tx['receipt_url'] = $this->payUrl('receipt/' . $tx['reference']) . '?t=' . $svc->receiptToken($tx['reference'], (string) $this->app['key']);
+        $this->json(['ok' => true, 'payment' => $tx, 'events' => $svc->events((int) $tx['id'])]);
+    }
+
+    /** Ask the gateway for the current state of a payment (e.g. when a customer says money was deducted). */
+    private function apiPaymentRecheck(array $p): void
+    {
+        $svc = $this->payments();
+        $tx = $svc->find($p['tid']) ?? throw new NotFound('Payment not found.');
+        if ($tx['status'] === 'paid') {
+            $this->ok('This payment is already confirmed as paid.');
+        }
+        try {
+            [$tx] = $svc->apply($tx, $svc->gateway($tx['gateway'], $tx['mode'])->status($tx), 'recheck');
+        } catch (GatewayError $e) {
+            $this->fail($e->getMessage());
+        }
+        $labels = ['paid' => 'Paid ✓ — the gateway confirms the payment.', 'pending' => 'Still pending at the gateway.', 'failed' => 'Not paid: the gateway reports the payment failed.', 'cancelled' => 'Not paid (cancelled).', 'created' => 'Not paid: the customer did not reach the gateway.'];
+        $this->ok($labels[$tx['status']] ?? 'Status updated.', ['status' => $tx['status']]);
+    }
+
+    private function apiPaymentsExport(): void
+    {
+        $rows = $this->payments()->export($_GET);
+        header('Content-Type: text/csv; charset=utf-8');
+        header('Content-Disposition: attachment; filename="payments-' . date('Y-m-d') . '.csv"');
+        $out = fopen('php://output', 'w');
+        fwrite($out, "\xEF\xBB\xBF");
+        fputcsv($out, ['Reference', 'Created', 'Paid at', 'Status', 'Mode', 'Gateway', 'For', 'Amount (INR)', 'Name', 'Email', 'Phone', 'Note', 'Gateway order', 'Gateway payment ID', 'Method', 'Message']);
+        foreach ($rows as $r) {
+            $r['amount'] = PaymentService::inr((int) $r['amount']);
+            $r['amount'] = str_replace(',', '', $r['amount']);
+            fputcsv($out, array_map(static fn ($v) => preg_match('/^[=+\-@\t\r]/', (string) $v) ? "'" . $v : (string) $v, array_values($r)));
+        }
+        fclose($out);
+        exit;
+    }
+
+    private function payments(): PaymentService
+    {
+        $cfgFile = $this->root . '/config/payment.php';
+        $seed = is_file($cfgFile) ? (array) (require $cfgFile) : [];
+        $emu = is_string($this->app['payment_emulator'] ?? null) && $this->app['payment_emulator'] !== '' ? $this->app['payment_emulator'] : null;
+        return $this->cache['payments'] ??= new PaymentService($this->db, $this->crypto(), $seed, $emu);
+    }
+
+    public function payUrl(string $sub = ''): string
+    {
+        return $this->base . (!empty($this->app['clean_urls']) ? '/pay' : '/index.php/pay') . ($sub !== '' ? '/' . $sub : '');
+    }
+
+    private function origin(): string
+    {
+        $https = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || ($_SERVER['SERVER_PORT'] ?? '') === '443' || strtolower((string) ($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '')) === 'https';
+        $host = (string) ($_SERVER['HTTP_HOST'] ?? 'localhost');
+        return ($https ? 'https' : 'http') . '://' . (preg_match('/^[a-z0-9.\-]+(:\d{1,5})?$/i', $host) ? $host : 'localhost');
     }
 
     // ================================================================== services
@@ -779,6 +911,7 @@ final class App
         $user = $this->auth->user();
         $data += ['admin' => $this, 'user' => $user, 'siteName' => (string) ($this->settings()->all()['site']['name'] ?? $this->app['name'] ?? 'Website'),
             'base' => $this->base, 'csrf' => $this->auth->csrf(), 'scripts' => [], 'active' => '',
+            'paymentsOn' => $user ? $this->payments()->settings()['enabled'] : false,
             'newEnquiries' => $user ? (int) $this->db->value('SELECT COUNT(*) FROM ' . $this->db->t('contact_submissions') . " WHERE status = 'new'") : 0];
         $content = $this->capture(__DIR__ . '/views/' . $view . '.php', $data);
         header('Content-Type: text/html; charset=utf-8');

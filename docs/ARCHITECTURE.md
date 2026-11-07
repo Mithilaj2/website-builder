@@ -137,7 +137,9 @@ listings          listing_types (doctor, room, property, package, course, menu_i
                   listing_items (title, slug, summary, body, image, price, location, category,
                                  attributes LONGTEXT, status, sort_order),
                   listing_enquiries
-payments          payment_settings (gateway, mode, encrypted credentials),
+payments          (as built in Phase 5: settings key "payments" holds gateway, mode, page options and test/live keys,
+                  secrets encrypted; tables payment_transactions + payment_events)
+                  payment_settings (gateway, mode, encrypted credentials),
                   payment_transactions (gateway, gateway_order_id, gateway_payment_id, amount,
                                         currency, status ENUM(created,pending,success,failed,refunded),
                                         raw_response, verified_at, purpose, reference_id),

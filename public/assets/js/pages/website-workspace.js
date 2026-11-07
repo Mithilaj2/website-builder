@@ -71,6 +71,7 @@ $(function () {
   function refreshPageLinks() {
     const $dl = $('#pageLinkList').empty();
     state.pages.forEach(p => $dl.append('<option value="page:' + WB.esc(Number(p.is_home) ? '' : p.slug) + '">' + WB.esc(p.title) + '</option>'));
+    $dl.append('<option value="page:pay">Pay online (payment page)</option>');
   }
 
   function selectPage(id) {

@@ -2,7 +2,7 @@
   "id": "business_template_01",
   "name": "Meridian Corporate",
   "category": "business",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A confident, classic-modern corporate design: split hero with layered imagery and floating stat card, deep navy and amber palette, structured service cards, a numbers band and a dark four-column footer. Suits consultancies, firms, manufacturers and B2B companies.",
   "libraries": [
     "bootstrap",
