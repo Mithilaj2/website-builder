@@ -137,3 +137,7 @@ body { background: var(--cs-bg); font-size: .925rem; }
 .gen-steps li i { margin-top: .1rem; }
 .gen-steps .log { color: #6B7280; font-size: .78rem; white-space: pre-line; }
 .check-ok i { color: #198754; } .check-warn i { color: #B58100; } .check-error i { color: #DC3545; }
+
+/* Export & deploy: packages table */
+.export-history th, .export-history td:nth-child(3), .export-history td:nth-child(4), .export-history td:last-child { white-space: nowrap; }
+.export-history td:first-child { min-width: 120px; }

@@ -10,7 +10,7 @@ use App\Modules\Websites\SiteService;
 
 final class GeneratorController
 {
-    /** Statuses from which a (re)generation may start. Deployed sites get update packages instead (Phase 6). */
+    /** Statuses from which a (re)generation may start. Deployed sites get update packages instead (Export & deploy). */
     private const CAN_GENERATE = ['draft', 'config_pending', 'generated', 'testing', 'ready', 'failed'];
 
     public function checklist(Request $request): void

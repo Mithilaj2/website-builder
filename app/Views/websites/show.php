@@ -36,6 +36,9 @@ $detailsAction = url('websites/' . $w['id'] . '/settings/details');
   <span class="small text-muted"><?= e($w['client_name']) ?> · <?= e($w['category_name']) ?> · <?= e($w['template_name']) ?> v<?= e($w['template_version']) ?></span>
   <div class="ms-auto d-flex gap-2">
     <a class="btn btn-outline-primary btn-sm" href="<?= e(url('websites/' . $w['id'] . '/preview')) ?>" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>Open preview</a>
+    <?php if (in_array($w['status'], ['generated', 'testing', 'ready', 'deployed'], true)): ?>
+      <a class="btn btn-primary btn-sm" href="<?= e(url('websites/' . $w['id'] . '/export')) ?>"><i class="bi bi-box-seam me-1"></i>Export &amp; deploy</a>
+    <?php endif; ?>
     <?php if ($editable): ?>
       <button class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteSiteModal"><i class="bi bi-trash me-1"></i>Delete</button>
     <?php endif; ?>
@@ -223,7 +226,7 @@ $steps = [1 => ['Client & website', 'bi-person-vcard'], 2 => ['Template', 'bi-la
             <?php if (can('websites.manage') && in_array($w['status'], ['draft', 'config_pending', 'generated', 'testing', 'ready', 'failed'], true)): ?>
               <button class="btn btn-primary" id="btnGenerate" data-busy-text="Starting…"><i class="bi bi-rocket-takeoff me-1"></i><?= in_array($w['status'], ['generated', 'testing', 'ready'], true) ? 'Regenerate website' : 'Generate website' ?></button>
             <?php elseif ($w['status'] === 'deployed'): ?>
-              <div class="alert alert-info small mb-0">This website is deployed. Code updates are delivered as update packages (Phase 6).</div>
+              <div class="alert alert-info small mb-0">This website is deployed. Code updates are delivered as <a href="<?= e(url('websites/' . $w['id'] . '/export')) ?>">update packages</a>.</div>
             <?php endif; ?>
             <div id="genProgress" class="mt-3 d-none">
               <div class="progress mb-2" role="progressbar" aria-label="Generation progress"><div class="progress-bar progress-bar-striped progress-bar-animated" style="width:0%"></div></div>

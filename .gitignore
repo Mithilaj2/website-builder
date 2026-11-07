@@ -24,3 +24,4 @@ Thumbs.db
 node_modules/
 !/generated_websites/.gitkeep
 /storage/qa/
+storage/migrations.lock

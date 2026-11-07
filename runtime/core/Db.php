@@ -116,8 +116,7 @@ final class Db
     public function runSchema(string $file): void
     {
         $sql = str_replace('{{prefix}}', $this->prefix, (string) file_get_contents($file));
-        $sql = (string) preg_replace('/^\s*--.*$/m', '', $sql);
-        foreach (array_filter(array_map('trim', explode(';', $sql))) as $stmt) {
+        foreach (SqlSplitter::split($sql) as $stmt) {
             $this->pdo->exec($stmt);
         }
     }
