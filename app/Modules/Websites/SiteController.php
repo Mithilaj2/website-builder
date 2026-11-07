@@ -40,6 +40,21 @@ abstract class SiteController
         return $v;
     }
 
+    /** Run a shared-service call, turning its exceptions into the builder's JSON/HTTP responses. */
+    protected function call(callable $fn): mixed
+    {
+        try {
+            return $fn();
+        } catch (\SiteRuntime\ValidationError $e) {
+            if ($e->extra) {
+                Response::json(['ok' => false, 'message' => $e->getMessage(), 'errors' => (object) $e->errors] + $e->extra, 409);
+            }
+            Response::fail($e->getMessage(), $e->errors);
+        } catch (\SiteRuntime\NotFound $e) {
+            Response::abort(404, $e->getMessage());
+        }
+    }
+
     protected function touch(SiteService $svc): void
     {
         \App\Core\Database::update('wb_websites', ['updated_at' => now()], $svc->id());

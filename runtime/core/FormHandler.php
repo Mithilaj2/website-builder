@@ -8,7 +8,8 @@ namespace SiteRuntime;
  *  - signed timestamp token (HMAC with the site key): rejects forged/old posts and posts sent < 3 s after page load
  *  - honeypot field
  *  - rate limit per IP (5 per 10 minutes)
- * Submissions are always stored in the site's database. Email notifications are added with the site admin (Phase 4).
+ * Submissions are always stored in the site's database first; the email notification is best-effort
+ * (a mail failure is logged and never loses the enquiry).
  */
 final class FormHandler
 {
@@ -17,7 +18,7 @@ final class FormHandler
     private const LIMIT = 5;
     private const WINDOW = 600;
 
-    public function __construct(private Db $db, private string $key, private string $base, private bool $clean)
+    public function __construct(private Db $db, private string $key, private string $base, private bool $clean, private ?\Closure $onStored = null)
     {
     }
 
@@ -53,11 +54,15 @@ final class FormHandler
             $this->redirect($back, $form, 'error', 'invalid');
         }
 
-        $this->db->insert('contact_submissions', [
+        $row = [
             'form_key' => $form, 'name' => $name, 'email' => $email, 'phone' => $phone ?: null,
             'subject' => $subject ?: null, 'message' => $message, 'page_slug' => $back ?: null,
             'ip' => $ip, 'status' => 'new', 'email_sent' => 0, 'created_at' => date('Y-m-d H:i:s'),
-        ]);
+        ];
+        $row['id'] = $this->db->insert('contact_submissions', $row);
+        if ($this->onStored) {
+            ($this->onStored)($row);
+        }
         $this->redirect($back, $form, 'sent');
     }
 

@@ -41,10 +41,17 @@ final class Site
             date_default_timezone_set((string) ($app['timezone'] ?? 'Asia/Kolkata'));
             ini_set('display_errors', !empty($app['debug']) ? '1' : '0');
 
+            if (is_file($this->root . '/vendor/autoload.php')) {
+                require_once $this->root . '/vendor/autoload.php';
+            }
             $path = $this->path();
+            if ($path === 'admin' || str_starts_with($path, 'admin/')) {
+                (new Admin\App($this->root, $this->db(), $app, $this->baseUrl()))->handle(substr($path, 6), $this);
+                return;
+            }
             if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
                 if (preg_match('#^form/([a-z0-9_-]{1,40})$#', $path, $m)) {
-                    (new FormHandler($this->db(), (string) $app['key'], $this->baseUrl(), !empty($app['clean_urls'])))->handle($m[1]);
+                    (new FormHandler($this->db(), (string) $app['key'], $this->baseUrl(), !empty($app['clean_urls']), fn (array $row) => $this->notify($row)))->handle($m[1]);
                     return;
                 }
                 $this->status(405, 'Method not allowed');
@@ -173,7 +180,7 @@ final class Site
         $this->status(503, 'This website has not been configured yet.');
     }
 
-    private function status(int $code, string $message): void
+    public function status(int $code, string $message): void
     {
         http_response_code($code);
         header('Content-Type: text/html; charset=utf-8');
@@ -189,7 +196,33 @@ final class Site
         header('Referrer-Policy: strict-origin-when-cross-origin');
     }
 
-    private function log(string $level, string $message): void
+    /** Email the website owner about a new enquiry. Never throws: the enquiry is already stored. */
+    private function notify(array $row): void
+    {
+        try {
+            $settings = (new DbSource($this->db()))->settings();
+            $mailer = Mailer::fromSettings($settings, new Crypto((string) $this->app['key']), (string) ($_SERVER['HTTP_HOST'] ?? ''));
+            if (!$mailer->configured()) {
+                return;
+            }
+            $e = static fn ($v) => htmlspecialchars((string) $v, ENT_QUOTES, 'UTF-8');
+            $rows = '';
+            foreach (['Name' => $row['name'], 'Email' => $row['email'], 'Phone' => $row['phone'], 'Subject' => $row['subject'], 'Page' => $row['page_slug'] ? '/' . $row['page_slug'] : 'Home'] as $k => $v) {
+                if ((string) $v !== '') {
+                    $rows .= '<tr><td style="padding:6px 12px 6px 0;color:#6b7280">' . $k . '</td><td style="padding:6px 0"><strong>' . $e($v) . '</strong></td></tr>';
+                }
+            }
+            $html = $mailer->wrap('New enquiry from ' . $row['name'], '<table role="presentation">' . $rows . '</table><p style="white-space:pre-line;background:#f4f6fb;padding:12px;border-radius:6px">' . $e($row['message']) . '</p>'
+                . '<p style="color:#6b7280;font-size:13px">Reply to this email to answer the visitor. All enquiries are also saved in your website admin under Enquiries.</p>');
+            $text = "New enquiry\n\nName: {$row['name']}\nEmail: {$row['email']}\nPhone: {$row['phone']}\nSubject: {$row['subject']}\n\n{$row['message']}";
+            $mailer->send($mailer->notifyTo(), 'New enquiry: ' . ($row['subject'] ?: $row['name']), $html, $text, $row['email']);
+            $this->db()->update('contact_submissions', ['email_sent' => 1], (int) $row['id']);
+        } catch (\Throwable $ex) {
+            $this->log('WARNING', 'Enquiry #' . $row['id'] . ' saved, but the notification email failed: ' . $ex->getMessage());
+        }
+    }
+
+    public function log(string $level, string $message): void
     {
         $dir = $this->root . '/storage/logs';
         if (!is_dir($dir)) {

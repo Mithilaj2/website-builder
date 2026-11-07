@@ -19,6 +19,9 @@ interface DataSource
     /** @return list<array> sections of a page ordered by sort_order, with data/style decoded */
     public function sections(int $pageId): array;
 
+    /** @return list<array> custom menu items for 'header' or 'footer' (empty = automatic from pages) */
+    public function menuItems(string $location): array;
+
     /** @return array<string, string> media path => alt text */
     public function mediaAlt(): array;
 }

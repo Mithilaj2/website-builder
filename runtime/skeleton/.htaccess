@@ -5,7 +5,7 @@ DirectoryIndex index.php
 <IfModule mod_rewrite.c>
     RewriteEngine On
     # Private folders and template source files are never served.
-    RewriteRule ^(config|core|storage|database)(/|$) - [F,L]
+    RewriteRule ^(config|core|vendor|storage|database)(/|$) - [F,L]
     RewriteRule ^theme/(layouts|partials|sections)(/|$) - [F,L]
     RewriteRule ^theme/[^/]+\.(json|php)$ - [F,L]
     # Everything that is not a real file goes to the front controller (clean URLs).

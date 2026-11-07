@@ -36,7 +36,7 @@ final class Generator
     ];
 
     /** Top-level entries in the site folder that belong to the generated code (everything except uploads/ and storage/). */
-    private const CODE_ENTRIES = ['index.php', '.htaccess', 'robots.txt', 'core', 'theme', 'assets', 'config', 'VERSION', 'generation.json'];
+    private const CODE_ENTRIES = ['index.php', '.htaccess', 'robots.txt', 'core', 'vendor', 'theme', 'assets', 'config', 'VERSION', 'generation.json'];
 
     private array $run;
     private SiteService $site;
@@ -189,16 +189,23 @@ final class Generator
     {
         $st = $this->staging();
         $this->fresh("$st/core");
-        foreach (glob(RUNTIME_PATH . '/core/*.php') ?: [] as $f) {
-            copy($f, "$st/core/" . basename($f));
-        }
+        // Runtime classes, the website admin (core/Admin) and the shared editor partials (core/editor).
+        FileSystem::copyDir(RUNTIME_PATH . '/core', "$st/core");
         FileSystem::copyDir(RUNTIME_PATH . '/section-types', "$st/core/section-types");
         FileSystem::copyDir(RUNTIME_PATH . '/schema', "$st/core/schema");
         copy(RUNTIME_PATH . '/skeleton/_private/.htaccess', "$st/core/.htaccess");
+        // Bundled PHP libraries (HTML Purifier, PHPMailer): no Composer needed on the hosting.
+        $this->fresh("$st/vendor");
+        copy(BASE_PATH . '/vendor/autoload.php', "$st/vendor/autoload.php");
+        foreach (['ezyang', 'phpmailer'] as $lib) {
+            FileSystem::copyDir(BASE_PATH . "/vendor/$lib", "$st/vendor/$lib");
+        }
+        copy(RUNTIME_PATH . '/skeleton/_private/.htaccess', "$st/vendor/.htaccess");
         foreach (['index.php', '.htaccess', 'robots.txt'] as $f) {
             copy(RUNTIME_PATH . '/skeleton/' . $f, "$st/$f");
         }
-        $this->log[] = 'Copied ' . count(glob("$st/core/*.php") ?: []) . ' runtime files, section types and schema (runtime v' . $this->runtimeVersion() . ').';
+        $count = iterator_count(new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator("$st/core", \FilesystemIterator::SKIP_DOTS)));
+        $this->log[] = "Copied the runtime and website admin ($count files), section types, schema and PHP libraries (runtime v" . $this->runtimeVersion() . ').';
     }
 
     private function stepCopyTheme(): void
@@ -221,14 +228,26 @@ final class Generator
         $this->fresh("$st/assets");
         FileSystem::copyDir(RUNTIME_PATH . '/fonts', "$st/assets/fonts");
         FileSystem::copyDir(RUNTIME_PATH . '/assets/lib', "$st/assets/lib");
-        $this->log[] = 'Copied bundled fonts and front-end libraries (no external CDNs).';
+        // Website admin scripts and styles (the same editor scripts the builder uses).
+        $adm = "$st/assets/admin";
+        FileSystem::copyDir(RUNTIME_PATH . '/admin-assets', $adm);
+        foreach (['jquery', 'sortablejs', 'tinymce'] as $lib) {
+            FileSystem::copyDir(PUBLIC_PATH . "/assets/vendor/$lib", "$adm/vendor/$lib");
+        }
+        copy(PUBLIC_PATH . '/assets/css/app.css', "$adm/css/app.css");
+        copy(PUBLIC_PATH . '/assets/js/app.js', "$adm/js/app.js");
+        copy(PUBLIC_PATH . '/assets/js/pages/website-workspace.js', "$adm/js/website-workspace.js");
+        $this->log[] = 'Copied bundled fonts, front-end libraries and website admin assets (no external CDNs).';
     }
 
     private function stepMigrateDb(): void
     {
         $db = $this->site->db();
-        $db->runSchema(RUNTIME_PATH . '/schema/core.sql'); // CREATE TABLE IF NOT EXISTS: safe to re-run
-        $expected = ['settings', 'pages', 'sections', 'media', 'admin_users', 'login_attempts', 'contact_submissions'];
+        $applied = (new \SiteRuntime\Migrator($db, RUNTIME_PATH . '/schema'))->migrate(); // idempotent
+        if ($applied) {
+            $this->log[] = 'Applied migrations: ' . implode(', ', $applied) . '.';
+        }
+        $expected = ['settings', 'pages', 'sections', 'media', 'admin_users', 'login_attempts', 'contact_submissions', 'menu_items'];
         $have = array_map(fn ($t) => substr($t, strlen($db->prefix())), $db->tables());
         $missing = array_diff($expected, $have);
         if ($missing) {
@@ -298,7 +317,9 @@ final class Generator
         $st = $this->staging();
         $required = ['index.php', '.htaccess', 'core/autoload.php', 'core/Site.php', 'core/Renderer.php', 'core/View.php', 'core/Db.php', 'core/FormHandler.php',
             'theme/manifest.json', 'theme/layouts/default.php', 'theme/partials/header.php', 'theme/partials/footer.php',
-            'assets/fonts/fonts.json', 'assets/lib/libraries.json', 'config/app.php', 'config/database.php', 'config/.htaccess', 'core/.htaccess'];
+            'assets/fonts/fonts.json', 'assets/lib/libraries.json', 'config/app.php', 'config/database.php', 'config/.htaccess', 'core/.htaccess',
+            'core/Admin/App.php', 'core/Admin/Auth.php', 'core/Admin/views/layout-main.php', 'core/editor/editor-modals.php', 'vendor/autoload.php', 'vendor/.htaccess',
+            'assets/admin/js/app.js', 'assets/admin/js/website-workspace.js', 'assets/admin/vendor/jquery/jquery.min.js', 'assets/admin/vendor/tinymce/tinymce.min.js'];
         $manifest = json_decode((string) file_get_contents("$st/theme/manifest.json"), true) ?: [];
         foreach ((array) ($manifest['section_types'] ?? []) as $t) {
             $required[] = "theme/sections/$t.php";
@@ -409,6 +430,14 @@ final class Generator
         if ($cfg['code'] === 200 && $cfg['body'] !== '') {
             $this->failSmoke('config/ is readable from the web. Check that .htaccess files are supported.');
         }
+        $adm = $this->http($url . 'admin/login');
+        if ($adm['code'] !== 200 || !str_contains($adm['body'], 'name="password"')) {
+            $this->failSmoke("The website admin login (admin/login) returned HTTP {$adm['code']}.");
+        }
+        $vendor = $this->http($url . 'vendor/autoload.php');
+        if ($vendor['code'] === 200 && $vendor['body'] !== '') {
+            $this->failSmoke('vendor/ is readable from the web.');
+        }
         preg_match('#href="([^"]+/theme/assets/css/[^"?]+)#', $probe['body'], $m);
         if (!empty($m[1])) {
             $css = $this->http($this->absolute($m[1], $url));
@@ -416,7 +445,7 @@ final class Generator
                 $this->failSmoke("Template stylesheet returned HTTP {$css['code']}.");
             }
         }
-        $this->log[] = "$checked page(s) returned 200 with no PHP errors; unknown URL returned 404; config/ is protected; assets load. ($url)";
+        $this->log[] = "$checked page(s) returned 200 with no PHP errors; unknown URL returned 404; config/ and vendor/ are protected; admin login loads; assets load. ($url)";
         return 'success';
     }
 

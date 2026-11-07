@@ -1,19 +1,21 @@
-/* Website workspace: pages, sections (dynamic editor), media library, theme, site details, preview. */
+/* Website workspace: pages, sections (dynamic editor), media library, theme, site details, preview.
+ * Shared by the builder wizard and every website's own admin panel: all URLs come from cfg.urls. */
 $(function () {
   'use strict';
   const cfg = $('#workspaceConfig').data('config');
-  const base = 'websites/' + cfg.id;
-  const U = p => WB.url(base + (p ? '/' + p : ''));
+  const urls = cfg.urls; // api, media, theme, preview_home, preview_page ({slug}), tinymce
+  const U = p => urls.api.replace(/\/$/, '') + (p ? '/' + p : '');
+  const withQuery = (u, q) => u + (u.indexOf('?') >= 0 ? '&' : '?') + q;
   const state = { pages: [], pageId: null, section: null };
 
   /* ------------------------------------------------------------------ helpers */
   WB.refUrl = function (ref) {
     if (!ref) return '';
-    if (ref.indexOf('uploads/') === 0) return U('media/' + ref.slice(8));
-    if (ref.indexOf('theme:') === 0) return WB.url('preview-assets/template/' + cfg.templateId + '/' + ref.slice(6));
+    if (ref.indexOf('uploads/') === 0) return urls.media + ref.slice(8);
+    if (ref.indexOf('theme:') === 0) return urls.theme + ref.slice(6);
     return '';
   };
-  const previewUrl = (slug, hash) => U('preview') + (slug ? '?page=' + encodeURIComponent(slug) : '') + (hash ? '#' + hash : '');
+  const previewUrl = (slug, hash) => (slug ? urls.preview_page.replace('{slug}', encodeURIComponent(slug)) : urls.preview_home) + (hash ? '#' + hash : '');
   const errorList = function (errors) {
     return Object.keys(errors || {}).map(k => errors[k]);
   };
@@ -214,7 +216,7 @@ $(function () {
   function refreshSectionPreview() {
     const page = currentPage();
     const slug = page && !Number(page.is_home) ? page.slug : '';
-    $('#sectionPreview').attr('src', U('preview') + '?' + (slug ? 'page=' + encodeURIComponent(slug) + '&' : '') + 't=' + Date.now() + '#' + sectionAnchor());
+    $('#sectionPreview').attr('src', withQuery(previewUrl(slug), 't=' + Date.now()) + '#' + sectionAnchor());
   }
   $secModal.on('click', '[data-sec-device]', function () {
     $(this).addClass('active').siblings().removeClass('active');
@@ -356,7 +358,7 @@ $(function () {
     $('#secFields textarea.wb-richtext').each(function () {
       if (tinymce.get(this.id)) return;
       tinymce.init({
-        target: this, base_url: WB.url('assets/vendor/tinymce'), suffix: '.min', menubar: false, branding: false, promotion: false,
+        target: this, base_url: urls.tinymce, suffix: '.min', menubar: false, branding: false, promotion: false,
         plugins: 'lists link autolink code table', height: 260, convert_urls: false, readonly: !cfg.editable,
         toolbar: 'blocks | bold italic underline | bullist numlist | link table | removeformat code',
         block_formats: 'Paragraph=p; Heading 2=h2; Heading 3=h3; Heading 4=h4',
@@ -526,7 +528,7 @@ $(function () {
     }
   };
   let mediaManager = null;
-  $('[data-step="5"]').on('shown.bs.tab', function () { if (!mediaManager) mediaManager = new MediaBrowser($('#mediaManager'), { mode: 'manage' }); else mediaManager.load(); });
+  $('[data-panel="media"]').on('shown.bs.tab', function () { if (!mediaManager) mediaManager = new MediaBrowser($('#mediaManager'), { mode: 'manage' }); else mediaManager.load(); });
 
   /* ================================================================== THEME + DETAILS */
   function loadSettings() {
@@ -576,10 +578,11 @@ $(function () {
   function loadPreview() {
     const slug = $('#previewPage').val() || '';
     const url = previewUrl(slug);
-    $('#previewFrame').attr('src', url + (url.indexOf('?') >= 0 ? '&' : '?') + 't=' + Date.now());
+    $('#previewFrame').attr('src', withQuery(url, 't=' + Date.now()));
     $('#previewOpen').attr('href', url);
   }
-  $('[data-step="8"]').on('shown.bs.tab', function () { loadPreview(); loadChecklist(); loadHistory(); });
+  $('[data-panel="review"]').on('shown.bs.tab', function () { loadPreview(); loadChecklist(); loadHistory(); loadAdminAccount(); });
+  $('[data-panel="preview"]').on('shown.bs.tab', loadPreview);
   $('#previewPage').on('change', loadPreview);
   $('#previewReload').on('click', loadPreview);
   $('[data-device]').on('click', function () {
@@ -706,8 +709,45 @@ $(function () {
       .fail(x => x.responseJSON && WB.toast(x.responseJSON.message, 'danger'));
   });
 
+  /* ================================================================== WEBSITE ADMIN LOGIN (review step) */
+  function adminAccountUrl() { return U('admin-account'); }
+  function loadAdminAccount() {
+    if (!$('#adminAccountCard').length) return;
+    $.getJSON(adminAccountUrl()).done(function (res) {
+      $('#adminUrl').html(res.generated
+        ? 'Admin panel: <a href="' + WB.esc(res.url) + '" target="_blank" rel="noopener">' + WB.esc(res.url) + '</a>'
+        : '<span class="text-muted">The admin panel becomes available at <code>' + WB.esc(res.url) + '</code> once the website is generated.</span>');
+      $('#adminUsers').html((res.users || []).map(u => '<li><i class="bi bi-person me-1"></i>' + WB.esc(u.email) + ' <span class="badge text-bg-' + (u.role === 'owner' ? 'primary' : 'info') + '">' + (u.role === 'owner' ? 'Owner' : 'Editor') + '</span>' +
+        (u.status !== 'active' ? ' <span class="badge text-bg-secondary">Inactive</span>' : '') + (u.last_login_at ? ' <span class="text-muted">· last sign-in ' + WB.esc(WB.datetime(u.last_login_at)) + '</span>' : ' <span class="text-muted">· never signed in</span>') + '</li>').join('') ||
+        '<li class="text-muted">No admin login yet.</li>');
+      const $e = $('#adminAccountForm [name=email]');
+      if (!$e.val()) $e.val((res.users && res.users[0] && res.users[0].email) || res.default_email || '');
+    });
+  }
+  $('#adminAccountForm').on('submit', async function (e) {
+    e.preventDefault();
+    const $f = $(this), $b = $f.find('[type=submit]');
+    const email = $f.find('[name=email]').val().trim();
+    if (!await WB.confirm({ title: 'Set the admin password?', message: 'A new password will be generated for ' + (email || 'this email') + '. Any previous password for this login stops working.', confirmText: 'Generate password', danger: false })) return;
+    WB.clearErrors($f); WB.busy($b, true);
+    WB.post($f.attr('action'), $f.serialize()).done(function (res) {
+      WB.toast(res.message);
+      $('#adminCredentials').removeClass('d-none').html('<div class="fw-semibold mb-1"><i class="bi bi-shield-lock me-1"></i>Share these details with the client securely. The password is shown only once.</div>' +
+        '<div>Admin: <a href="' + WB.esc(res.url) + '" target="_blank" rel="noopener">' + WB.esc(res.url) + '</a></div><div>Email: <code>' + WB.esc(res.email) + '</code></div>' +
+        '<div>Password: <code class="user-select-all" id="adminPw">' + WB.esc(res.password) + '</code> <button class="btn btn-sm btn-link p-0 ms-1" type="button" id="copyAdminPw">Copy</button></div>');
+      loadAdminAccount();
+    }).fail(function (x) { const r = x.responseJSON; if (r) { WB.showErrors($f, r.errors, r.message); WB.toast(r.message, 'danger'); } })
+      .always(() => WB.busy($b, false));
+  });
+  $(document).on('click', '#copyAdminPw', function () {
+    const t = $('#adminPw').text();
+    if (navigator.clipboard) navigator.clipboard.writeText(t).then(() => WB.toast('Password copied.'));
+  });
+
   /* ================================================================== start */
-  loadPages();
-  loadSettings();
-  goStep(cfg.step || 1);
+  if ($('#pageList, #sectionList').length) loadPages();
+  if ($('#themeForm, #detailsForm').length) loadSettings();
+  if ($('#mediaManager').length && !$('[data-panel="media"]').length) mediaManager = new MediaBrowser($('#mediaManager'), { mode: 'manage' });
+  if ($('#previewFrame').length && !$('[data-panel]').length) loadPreview();
+  if (cfg.step) goStep(cfg.step);
 });

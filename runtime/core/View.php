@@ -88,21 +88,39 @@ final class View
         return $out;
     }
 
-    /** Pages for the header (or footer) menu. */
+    /**
+     * Menu links for 'header' or 'footer': the custom menu if one was built in the admin,
+     * otherwise automatic (active pages marked "show in menu" / "show in footer", in page order).
+     * Each item: title, url, active, slug, external.
+     */
     public function menu(string $location = 'header'): array
     {
-        $col = $location === 'footer' ? 'show_in_footer' : 'show_in_menu';
-        $items = [];
+        $pages = [];
         foreach ($this->source->pages() as $p) {
+            $pages[(int) $p['id']] = $p;
+        }
+        $custom = $this->source->menuItems($location);
+        $items = [];
+        if ($custom) {
+            foreach ($custom as $m) {
+                if ($m['page_id']) {
+                    $p = $pages[(int) $m['page_id']] ?? null;
+                    if (!$p || ($p['status'] ?? 'active') !== 'active') {
+                        continue;
+                    }
+                    $items[] = ['title' => $m['label'], 'url' => $this->url((string) $p['slug']), 'active' => ($this->page['id'] ?? null) == $p['id'], 'slug' => $p['slug'], 'external' => false];
+                } elseif (SectionTypes::validUrl((string) $m['url'])) {
+                    $items[] = ['title' => $m['label'], 'url' => str_starts_with((string) $m['url'], 'page:') ? $this->url(substr((string) $m['url'], 5)) : (string) $m['url'], 'active' => false, 'slug' => null, 'external' => (bool) $m['new_tab']];
+                }
+            }
+            return $items;
+        }
+        $col = $location === 'footer' ? 'show_in_footer' : 'show_in_menu';
+        foreach ($pages as $p) {
             if (($p['status'] ?? 'active') !== 'active' || empty($p[$col])) {
                 continue;
             }
-            $items[] = [
-                'title' => $p['title'],
-                'url' => $this->url((string) $p['slug']),
-                'active' => ($this->page['id'] ?? null) == $p['id'],
-                'slug' => $p['slug'],
-            ];
+            $items[] = ['title' => $p['title'], 'url' => $this->url((string) $p['slug']), 'active' => ($this->page['id'] ?? null) == $p['id'], 'slug' => $p['slug'], 'external' => false];
         }
         return $items;
     }
