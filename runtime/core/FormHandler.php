@@ -25,7 +25,7 @@ final class FormHandler
     public function handle(string $form): void
     {
         $back = (string) ($_POST['_back'] ?? '');
-        if (!preg_match('/^[a-z0-9-]{0,120}$/', $back)) {
+        if (!preg_match('/^[a-z0-9-]{0,120}(\/[a-z0-9-]{1,160})?$/', $back)) {
             $back = '';
         }
         $ip = filter_var($_SERVER['REMOTE_ADDR'] ?? '', FILTER_VALIDATE_IP) ?: '0.0.0.0';
@@ -125,7 +125,8 @@ final class FormHandler
 
     private function redirect(string $back, string $form, string $status, string $reason = ''): never
     {
-        $page = $back === '' ? $this->base . '/' : ($this->clean ? $this->base . '/' . $back : $this->base . '/index.php?page=' . rawurlencode($back));
+        $page = $back === '' ? $this->base . '/' : ($this->clean ? $this->base . '/' . $back
+            : (str_contains($back, '/') ? $this->base . '/index.php/' . $back : $this->base . '/index.php?page=' . rawurlencode($back)));
         $q = 'form=' . rawurlencode($form) . '&status=' . $status . ($reason !== '' ? '&reason=' . $reason : '');
         header('Location: ' . $page . (str_contains($page, '?') ? '&' : '?') . $q . '#' . $form . '-form', true, 303);
         exit;

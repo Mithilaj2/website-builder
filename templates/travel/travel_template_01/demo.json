@@ -1,0 +1,1140 @@
+{
+ "settings": {
+  "site": {
+   "name": "Horizon Trails",
+   "tagline": "Tours & holidays · Kochi",
+   "phone": "+91 484 240 4555",
+   "email": "trips@horizontrails.example",
+   "address": "2nd floor, Marine Plaza, MG Road\nKochi, Kerala 682016",
+   "hours": "Mon–Sat, 9:30 am – 7 pm",
+   "footer_about": "Handcrafted holidays across India and abroad, planned by people who have travelled every route. Ministry of Tourism–approved tour operator.",
+   "footer_text": "All rights reserved.",
+   "header_button": {
+    "text": "Plan my trip",
+    "url": "page:contact"
+   },
+   "social": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/"
+   }
+  },
+  "seo": {
+   "description": "Horizon Trails, Kochi: Kerala, Kashmir, Ladakh, Rajasthan, Andaman, Bali and Dubai holiday packages with hotels, transfers and sightseeing. Custom itineraries within 24 hours.",
+   "keywords": "Kerala tour packages, Kashmir honeymoon package, Ladakh bike trip, Bali package from India, travel agency Kochi"
+  }
+ },
+ "listings": {
+  "categories": [
+   {
+    "name": "Kerala",
+    "slug": "kerala",
+    "description": "Backwaters, tea hills and beaches.",
+    "image": "theme:images/kerala-backwaters.svg"
+   },
+   {
+    "name": "Himalayas",
+    "slug": "himachal",
+    "description": "Himachal and Ladakh mountain trips.",
+    "image": "theme:images/himachal-mountains.svg"
+   },
+   {
+    "name": "Rajasthan",
+    "slug": "rajasthan",
+    "description": "Forts, palaces and the Thar desert.",
+    "image": "theme:images/rajasthan-desert.svg"
+   },
+   {
+    "name": "Kashmir",
+    "slug": "kashmir",
+    "description": "Lakes, meadows and snow peaks.",
+    "image": "theme:images/kashmir-lake.svg"
+   },
+   {
+    "name": "International",
+    "slug": "international",
+    "description": "Bali, Dubai, the Maldives and more.",
+    "image": "theme:images/bali-terraces.svg"
+   },
+   {
+    "name": "Andaman",
+    "slug": "andaman",
+    "description": "Island beaches and coral reefs.",
+    "image": "theme:images/andaman-island.svg"
+   },
+   {
+    "name": "Goa",
+    "slug": "goa",
+    "description": "Beach holidays and long weekends.",
+    "image": "theme:images/goa-beach.svg"
+   }
+  ],
+  "items": [
+   {
+    "title": "Kerala Backwaters & Hills",
+    "slug": "kerala-backwaters-hills",
+    "category": "kerala",
+    "location": "Kochi → Munnar → Thekkady → Alleppey",
+    "price": 2499900,
+    "price_note": "per person",
+    "image": "theme:images/kerala-backwaters.svg",
+    "gallery": [
+     "theme:images/himachal-mountains.svg",
+     "theme:images/goa-beach.svg"
+    ],
+    "attributes": {
+     "duration": 6,
+     "nights": 5,
+     "trip_type": "Family",
+     "region": "India",
+     "group_size": "Private",
+     "best_time": "Sep – Mar",
+     "start_city": "Kochi",
+     "flights": false,
+     "highlights": [
+      "Overnight on a private houseboat",
+      "Tea gardens and Eravikulam National Park",
+      "Spice plantation walk in Thekkady",
+      "Kathakali performance in Kochi"
+     ],
+     "inclusions": [
+      "Hotel stays on twin-sharing basis",
+      "Daily breakfast and dinner",
+      "Private AC vehicle for transfers and sightseeing",
+      "Driver allowance, tolls and parking",
+      "24×7 on-trip support",
+      "One night on a deluxe houseboat with all meals"
+     ],
+     "exclusions": [
+      "Flights or train tickets unless mentioned",
+      "Lunch, entry tickets and activities not listed",
+      "Personal expenses and tips",
+      "5% GST"
+     ]
+    },
+    "short_description": "Misty tea hills, spice gardens and a night on a private houseboat — Kerala’s classics at an easy pace.",
+    "description": "<p>Our best-selling Kerala holiday covers the hills of Munnar, the forests of Thekkady and the backwaters of Alleppey, with comfortable drives and handpicked hotels.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Kochi</h4><p>Pick-up from the airport, Fort Kochi walk and an evening Kathakali show.</p><h4>Day 2: Kochi to Munnar</h4><p>Drive past waterfalls and spice gardens into the tea hills.</p><h4>Day 3: Munnar</h4><p>Eravikulam National Park, tea museum and Mattupetty dam.</p><h4>Day 4: Munnar to Thekkady</h4><p>Spice plantation walk and an optional boat ride on Periyar lake.</p><h4>Day 5: Thekkady to Alleppey</h4><p>Board your private houseboat and cruise the backwaters with lunch and dinner on board.</p><h4>Day 6: Departure</h4><p>Disembark after breakfast and drive to Kochi airport.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "Bestseller"
+   },
+   {
+    "title": "Manali & Kasol Mountain Escape",
+    "slug": "manali-kasol-escape",
+    "category": "himachal",
+    "location": "Delhi → Manali → Solang → Kasol",
+    "price": 1849900,
+    "price_note": "per person",
+    "image": "theme:images/himachal-mountains.svg",
+    "gallery": [
+     "theme:images/paragliding.svg",
+     "theme:images/campfire.svg"
+    ],
+    "attributes": {
+     "duration": 5,
+     "nights": 4,
+     "trip_type": "Adventure",
+     "region": "India",
+     "group_size": "Max 14",
+     "best_time": "Mar – Jun, Oct – Dec",
+     "start_city": "Delhi",
+     "highlights": [
+      "Paragliding at Solang valley",
+      "Riverside camp in Kasol",
+      "Old Manali cafés and Hadimba temple"
+     ],
+     "inclusions": [
+      "Volvo coach Delhi – Manali – Delhi",
+      "Hotel and camp stays",
+      "Breakfast and dinner",
+      "Local sightseeing by cab",
+      "Trip captain"
+     ],
+     "exclusions": [
+      "Flights or train tickets unless mentioned",
+      "Lunch, entry tickets and activities not listed",
+      "Personal expenses and tips",
+      "5% GST",
+      "Paragliding (₹2,500 approx.)"
+     ]
+    },
+    "short_description": "Snow points, river camps and a paragliding flight — a small-group mountain trip for friends.",
+    "description": "<p>Leave Delhi on Friday night, come back Wednesday morning with a camera full of mountains.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Overnight Volvo from Delhi</h4><p>Board the evening coach to Manali.</p><h4>Day 2: Manali</h4><p>Check in, visit Hadimba temple and Old Manali.</p><h4>Day 3: Solang valley</h4><p>Snow point and an optional paragliding flight.</p><h4>Day 4: Kasol</h4><p>Drive along the Parvati river; bonfire night at the riverside camp.</p><h4>Day 5: Return</h4><p>Overnight coach back to Delhi.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "Weekend"
+   },
+   {
+    "title": "Royal Rajasthan Circuit",
+    "slug": "royal-rajasthan",
+    "category": "rajasthan",
+    "location": "Jaipur → Jodhpur → Jaisalmer → Udaipur",
+    "price": 3899900,
+    "price_note": "per person",
+    "image": "theme:images/rajasthan-desert.svg",
+    "gallery": [
+     "theme:images/dubai-skyline.svg",
+     "theme:images/campfire.svg"
+    ],
+    "attributes": {
+     "duration": 8,
+     "nights": 7,
+     "trip_type": "Family",
+     "region": "India",
+     "group_size": "Private",
+     "best_time": "Oct – Mar",
+     "start_city": "Jaipur",
+     "highlights": [
+      "Amber Fort and City Palace, Jaipur",
+      "Mehrangarh Fort at sunset",
+      "Desert camp with camel safari in Sam dunes",
+      "Boat ride on Lake Pichola"
+     ],
+     "inclusions": [
+      "Hotel stays on twin-sharing basis",
+      "Daily breakfast and dinner",
+      "Private AC vehicle for transfers and sightseeing",
+      "Driver allowance, tolls and parking",
+      "24×7 on-trip support",
+      "Desert camp with folk music and dinner"
+     ],
+     "exclusions": [
+      "Flights or train tickets unless mentioned",
+      "Lunch, entry tickets and activities not listed",
+      "Personal expenses and tips",
+      "5% GST"
+     ]
+    },
+    "short_description": "Forts, palaces and a night under the stars in the Thar desert — Rajasthan in eight unhurried days.",
+    "description": "<p>A private tour with heritage hotels in each city and an experienced driver who doubles as your guide.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Jaipur</h4><p>Arrive and explore the Pink City bazaars.</p><h4>Day 2: Jaipur</h4><p>Amber Fort, City Palace and Hawa Mahal.</p><h4>Day 3: Jodhpur</h4><p>Drive to the Blue City; Mehrangarh Fort.</p><h4>Day 4: Jaisalmer</h4><p>The golden fort and havelis.</p><h4>Day 5: Sam dunes</h4><p>Camel safari and desert camp.</p><h4>Day 6: Udaipur</h4><p>Long drive to the City of Lakes.</p><h4>Day 7: Udaipur</h4><p>City Palace and a sunset boat ride.</p><h4>Day 8: Departure</h4><p>Transfer to Udaipur airport.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Goa Beach Holiday",
+    "slug": "goa-beach-holiday",
+    "category": "goa",
+    "location": "North Goa → South Goa",
+    "price": 1399900,
+    "price_note": "per person",
+    "image": "theme:images/goa-beach.svg",
+    "gallery": [
+     "theme:images/andaman-island.svg"
+    ],
+    "attributes": {
+     "duration": 4,
+     "nights": 3,
+     "trip_type": "Weekend getaway",
+     "region": "India",
+     "group_size": "Private",
+     "best_time": "Nov – Feb",
+     "start_city": "Goa airport",
+     "highlights": [
+      "Beach resort stay in Candolim",
+      "North and South Goa sightseeing",
+      "Sunset cruise on the Mandovi"
+     ],
+     "inclusions": [
+      "3 nights at a beach resort",
+      "Daily breakfast",
+      "Airport transfers",
+      "Sightseeing by AC cab",
+      "Sunset cruise"
+     ],
+     "exclusions": [
+      "Flights or train tickets unless mentioned",
+      "Lunch, entry tickets and activities not listed",
+      "Personal expenses and tips",
+      "5% GST"
+     ]
+    },
+    "short_description": "Sun, sand and seafood: three nights at a beach resort with sightseeing and a sunset cruise.",
+    "description": "<p>Perfect for a long weekend — fly in Friday, back Monday night.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Arrive</h4><p>Transfer to your beach resort.</p><h4>Day 2: North Goa</h4><p>Fort Aguada, Baga and Anjuna beaches.</p><h4>Day 3: South Goa</h4><p>Old Goa churches, Colva beach and the sunset cruise.</p><h4>Day 4: Departure</h4><p>Check out and transfer to the airport.</p>",
+    "featured": false,
+    "status": "active",
+    "badge": "Hot deal"
+   },
+   {
+    "title": "Andaman Island Hopper",
+    "slug": "andaman-island-hopper",
+    "category": "andaman",
+    "location": "Port Blair → Havelock → Neil Island",
+    "price": 3249900,
+    "price_note": "per person, twin sharing",
+    "image": "theme:images/andaman-island.svg",
+    "gallery": [
+     "theme:images/goa-beach.svg",
+     "theme:images/maldives-villas.svg"
+    ],
+    "attributes": {
+     "duration": 6,
+     "nights": 5,
+     "trip_type": "Honeymoon",
+     "region": "India",
+     "group_size": "Private",
+     "best_time": "Oct – May",
+     "start_city": "Port Blair",
+     "highlights": [
+      "Radhanagar beach sunset",
+      "Snorkelling at Elephant beach",
+      "Cellular Jail light and sound show",
+      "Candle-light dinner on the beach"
+     ],
+     "inclusions": [
+      "Hotel stays on twin-sharing basis",
+      "Daily breakfast and dinner",
+      "Private AC vehicle for transfers and sightseeing",
+      "Driver allowance, tolls and parking",
+      "24×7 on-trip support",
+      "Ferry tickets between islands",
+      "Snorkelling session",
+      "Honeymoon cake and flower decoration"
+     ],
+     "exclusions": [
+      "Flights or train tickets unless mentioned",
+      "Lunch, entry tickets and activities not listed",
+      "Personal expenses and tips",
+      "5% GST"
+     ]
+    },
+    "short_description": "Turquoise water, white sand and coral reefs — a romantic island trip with ferries and snorkelling included.",
+    "description": "<p>Stay in beach resorts on Havelock and Neil islands, with all ferry tickets booked in advance.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Port Blair</h4><p>Arrive; Cellular Jail and the light and sound show.</p><h4>Day 2: Havelock</h4><p>Ferry to Havelock; Radhanagar beach at sunset.</p><h4>Day 3: Havelock</h4><p>Snorkelling at Elephant beach.</p><h4>Day 4: Neil Island</h4><p>Natural bridge and Laxmanpur beach.</p><h4>Day 5: Port Blair</h4><p>Ferry back; shopping.</p><h4>Day 6: Departure</h4><p>Transfer to the airport.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Kashmir: Paradise on Earth",
+    "slug": "kashmir-paradise",
+    "category": "kashmir",
+    "location": "Srinagar → Gulmarg → Pahalgam",
+    "price": 2799900,
+    "price_note": "per person",
+    "image": "theme:images/kashmir-lake.svg",
+    "gallery": [
+     "theme:images/himachal-mountains.svg"
+    ],
+    "attributes": {
+     "duration": 6,
+     "nights": 5,
+     "trip_type": "Honeymoon",
+     "region": "India",
+     "group_size": "Private",
+     "best_time": "Apr – Oct",
+     "start_city": "Srinagar",
+     "highlights": [
+      "Houseboat night on Dal Lake",
+      "Shikara ride at sunset",
+      "Gondola ride in Gulmarg",
+      "Betaab valley, Pahalgam"
+     ],
+     "inclusions": [
+      "Hotel stays on twin-sharing basis",
+      "Daily breakfast and dinner",
+      "Private AC vehicle for transfers and sightseeing",
+      "Driver allowance, tolls and parking",
+      "24×7 on-trip support",
+      "One night on a deluxe houseboat",
+      "Shikara ride"
+     ],
+     "exclusions": [
+      "Flights or train tickets unless mentioned",
+      "Lunch, entry tickets and activities not listed",
+      "Personal expenses and tips",
+      "5% GST",
+      "Gondola tickets"
+     ]
+    },
+    "short_description": "Shikara rides on Dal Lake, the Gulmarg gondola and the meadows of Pahalgam.",
+    "description": "<p>Kashmir at its prettiest, with a houseboat night and comfortable hotels.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Srinagar</h4><p>Arrive; Mughal gardens and a sunset shikara ride.</p><h4>Day 2: Gulmarg</h4><p>Day trip with the gondola ride.</p><h4>Day 3: Pahalgam</h4><p>Drive through saffron fields to Pahalgam.</p><h4>Day 4: Pahalgam</h4><p>Betaab and Aru valleys.</p><h4>Day 5: Srinagar</h4><p>Return; night on a houseboat.</p><h4>Day 6: Departure</h4><p>Transfer to the airport.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Ladakh Bike & Monastery Trail",
+    "slug": "ladakh-monastery-trail",
+    "category": "himachal",
+    "location": "Leh → Nubra → Pangong → Leh",
+    "price": 4299900,
+    "price_note": "per person",
+    "image": "theme:images/ladakh-monastery.svg",
+    "gallery": [
+     "theme:images/himachal-mountains.svg",
+     "theme:images/campfire.svg"
+    ],
+    "attributes": {
+     "duration": 7,
+     "nights": 6,
+     "trip_type": "Adventure",
+     "region": "India",
+     "group_size": "Max 12",
+     "best_time": "Jun – Sep",
+     "start_city": "Leh",
+     "highlights": [
+      "Khardung La pass",
+      "Camel ride in Hunder dunes",
+      "Night at Pangong lake",
+      "Thiksey and Diskit monasteries"
+     ],
+     "inclusions": [
+      "Royal Enfield 350 or seat in a backup vehicle",
+      "Fuel and mechanic",
+      "Inner-line permits",
+      "Hotel and camp stays with breakfast and dinner",
+      "Oxygen cylinder in the backup vehicle"
+     ],
+     "exclusions": [
+      "Flights or train tickets unless mentioned",
+      "Lunch, entry tickets and activities not listed",
+      "Personal expenses and tips",
+      "5% GST"
+     ]
+    },
+    "short_description": "The ride of a lifetime over the world’s highest passes, with a backup vehicle and mechanic all the way.",
+    "description": "<p>Two days of acclimatisation in Leh before riding to Nubra valley and Pangong lake.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Leh</h4><p>Arrive and rest.</p><h4>Day 2: Leh</h4><p>Shanti Stupa and Leh palace.</p><h4>Day 3: Nubra</h4><p>Ride over Khardung La.</p><h4>Day 4: Nubra</h4><p>Diskit monastery and Hunder dunes.</p><h4>Day 5: Pangong</h4><p>Ride via Shyok to Pangong lake.</p><h4>Day 6: Leh</h4><p>Return via Chang La; Thiksey monastery.</p><h4>Day 7: Departure</h4><p>Transfer to Leh airport.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "Few seats left"
+   },
+   {
+    "title": "Bali Honeymoon Special",
+    "slug": "bali-honeymoon",
+    "category": "international",
+    "location": "Ubud → Kintamani → Seminyak",
+    "price": 5499900,
+    "price_note": "per person, twin sharing",
+    "image": "theme:images/bali-terraces.svg",
+    "gallery": [
+     "theme:images/maldives-villas.svg",
+     "theme:images/andaman-island.svg"
+    ],
+    "attributes": {
+     "duration": 6,
+     "nights": 5,
+     "trip_type": "Honeymoon",
+     "region": "International",
+     "group_size": "Private",
+     "best_time": "Apr – Oct",
+     "start_city": "Denpasar",
+     "flights": true,
+     "highlights": [
+      "Private pool villa in Ubud",
+      "Tegallalang rice terraces",
+      "Kintamani volcano view",
+      "Sunset at Tanah Lot"
+     ],
+     "inclusions": [
+      "Return flights from Mumbai or Delhi",
+      "Private pool villa and beach resort",
+      "Daily breakfast",
+      "Private transfers and tours",
+      "Visa on arrival assistance"
+     ],
+     "exclusions": [
+      "Visa fees",
+      "Travel insurance",
+      "Lunch and dinner",
+      "5% GST and TCS as applicable"
+     ]
+    },
+    "short_description": "Rice terraces, temples and a private pool villa — with flights from Mumbai or Delhi included.",
+    "description": "<p>Two nights in Ubud and three on the beach in Seminyak.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Bali</h4><p>Transfer to your pool villa in Ubud.</p><h4>Day 2: Ubud</h4><p>Rice terraces, monkey forest and a Balinese massage.</p><h4>Day 3: Kintamani</h4><p>Volcano view lunch and coffee plantation.</p><h4>Day 4: Seminyak</h4><p>Transfer to the beach; Tanah Lot sunset.</p><h4>Day 5: Seminyak</h4><p>Free day.</p><h4>Day 6: Departure</h4><p>Flight home.</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "Dubai Family Fun",
+    "slug": "dubai-family-fun",
+    "category": "international",
+    "location": "Dubai → Abu Dhabi",
+    "price": 6299900,
+    "price_note": "per person",
+    "image": "theme:images/dubai-skyline.svg",
+    "gallery": [
+     "theme:images/rajasthan-desert.svg"
+    ],
+    "attributes": {
+     "duration": 5,
+     "nights": 4,
+     "trip_type": "Family",
+     "region": "International",
+     "group_size": "Private",
+     "best_time": "Nov – Mar",
+     "start_city": "Dubai",
+     "flights": true,
+     "highlights": [
+      "Burj Khalifa 124th floor",
+      "Desert safari with BBQ dinner",
+      "Ferrari World, Abu Dhabi",
+      "Dhow cruise at the Marina"
+     ],
+     "inclusions": [
+      "Return flights",
+      "4-star hotel with breakfast",
+      "UAE tourist visa",
+      "Tours with transfers"
+     ],
+     "exclusions": [
+      "Travel insurance",
+      "Lunch and dinner unless mentioned",
+      "Tourism Dirham fee",
+      "5% GST and TCS as applicable"
+     ]
+    },
+    "short_description": "Skyscrapers, desert dunes and theme parks — a holiday the whole family will love, with visa and flights included.",
+    "description": "<p>Fixed departures every Friday from Mumbai, Delhi and Bengaluru.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Arrive</h4><p>Transfer to the hotel; dhow cruise dinner.</p><h4>Day 2: Dubai city</h4><p>City tour and Burj Khalifa.</p><h4>Day 3: Desert safari</h4><p>Dune bashing and BBQ dinner.</p><h4>Day 4: Abu Dhabi</h4><p>Grand Mosque and Ferrari World.</p><h4>Day 5: Departure</h4><p>Flight home.</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "Maldives Water Villa Retreat",
+    "slug": "maldives-water-villa",
+    "category": "international",
+    "location": "Malé → South Malé Atoll",
+    "price": 8999900,
+    "price_note": "per person",
+    "image": "theme:images/maldives-villas.svg",
+    "gallery": [
+     "theme:images/andaman-island.svg"
+    ],
+    "attributes": {
+     "duration": 4,
+     "nights": 3,
+     "trip_type": "Honeymoon",
+     "region": "International",
+     "group_size": "Private",
+     "best_time": "Nov – Apr",
+     "start_city": "Malé",
+     "highlights": [
+      "Overwater villa with a private deck",
+      "All meals included",
+      "Sunset dolphin cruise"
+     ],
+     "inclusions": [
+      "3 nights in a water villa",
+      "All meals",
+      "Speedboat transfers",
+      "Dolphin cruise"
+     ],
+     "exclusions": [
+      "Flights",
+      "Green tax",
+      "Travel insurance"
+     ]
+    },
+    "short_description": "Three nights in an overwater villa with all meals and speedboat transfers.",
+    "description": "<p>The ultimate island escape.</p><h3>Day-by-day itinerary</h3><h4>Day 1: Arrive</h4><p>Speedboat to the resort.</p><h4>Day 2: Resort</h4><p>Snorkelling and spa.</p><h4>Day 3: Resort</h4><p>Sunset dolphin cruise.</p><h4>Day 4: Departure</h4><p>Speedboat to Malé.</p>",
+    "featured": false,
+    "status": "closed"
+   }
+  ]
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "Holidays across India & abroad",
+      "heading": "Go where the views are",
+      "subheading": "Handcrafted holiday packages with stays, transfers and sightseeing sorted — so all you have to do is enjoy the trip.",
+      "image": "",
+      "background_image": "theme:images/hero-lake.svg",
+      "primary_button": {
+       "text": "Explore packages",
+       "url": "page:listings"
+      },
+      "secondary_button": {
+       "text": "Plan a custom trip",
+       "url": "page:contact"
+      },
+      "highlights": [
+       {
+        "icon": "bi-star-fill",
+        "text": "4.9 on Google · 2,300 reviews"
+       },
+       {
+        "icon": "bi-shield-check",
+        "text": "Government-approved tour operator"
+       },
+       {
+        "icon": "bi-headset",
+        "text": "24×7 on-trip support"
+       }
+      ]
+     }
+    },
+    {
+     "type": "listing_categories",
+     "data": {
+      "eyebrow": "Destinations",
+      "heading": "Where would you like to go?",
+      "description": "",
+      "limit": 5,
+      "show_counts": true
+     }
+    },
+    {
+     "type": "listings",
+     "data": {
+      "eyebrow": "Popular",
+      "heading": "Trending holiday packages",
+      "description": "Handpicked by our trip planners this season.",
+      "source": "featured",
+      "category": "",
+      "limit": 6,
+      "button": {
+       "text": "All packages",
+       "url": "page:listings"
+      }
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "Why travel with us",
+      "heading": "Holidays planned by people who have been there",
+      "description": "",
+      "image": "",
+      "items": [
+       {
+        "icon": "bi-map",
+        "title": "Tried and tested",
+        "description": "Our planners have personally travelled every route we sell."
+       },
+       {
+        "icon": "bi-sliders",
+        "title": "Made for you",
+        "description": "Change hotels, add days or skip a stop — every package is flexible."
+       },
+       {
+        "icon": "bi-shield-check",
+        "title": "Safe and insured",
+        "description": "Verified hotels and drivers, and travel insurance on request."
+       },
+       {
+        "icon": "bi-headset",
+        "title": "24×7 on-trip support",
+        "description": "A real person on WhatsApp for every day of your trip."
+       }
+      ]
+     }
+    },
+    {
+     "type": "listings",
+     "data": {
+      "eyebrow": "Go abroad",
+      "heading": "International escapes",
+      "description": "",
+      "source": "category",
+      "category": "international",
+      "limit": 3,
+      "button": {
+       "text": "All international trips",
+       "url": "page:listings"
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "12000",
+        "suffix": "+",
+        "label": "Happy travellers",
+        "icon": ""
+       },
+       {
+        "number": "85",
+        "suffix": "",
+        "label": "Destinations",
+        "icon": ""
+       },
+       {
+        "number": "14",
+        "suffix": "",
+        "label": "Years of trips",
+        "icon": ""
+       },
+       {
+        "number": "4.9",
+        "suffix": "/5",
+        "label": "Google rating",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "gallery",
+     "data": {
+      "eyebrow": "From our travellers",
+      "heading": "Moments worth the journey",
+      "description": "",
+      "columns": "3",
+      "images": [
+       {
+        "image": "theme:images/paragliding.svg",
+        "caption": "Paragliding, Solang valley"
+       },
+       {
+        "image": "theme:images/campfire.svg",
+        "caption": "Camping in Kasol"
+       },
+       {
+        "image": "theme:images/kashmir-lake.svg",
+        "caption": "Dal Lake, Srinagar"
+       },
+       {
+        "image": "theme:images/ladakh-monastery.svg",
+        "caption": "Thiksey, Ladakh"
+       },
+       {
+        "image": "theme:images/maldives-villas.svg",
+        "caption": "South Malé Atoll"
+       },
+       {
+        "image": "theme:images/rajasthan-desert.svg",
+        "caption": "Jaisalmer"
+       }
+      ]
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Traveller reviews",
+      "heading": "Stories from the road",
+      "description": "",
+      "items": [
+       {
+        "quote": "Our Kerala trip was flawless — the houseboat, the hotels in Munnar, even the driver. Horizon Trails called us every evening to check we were happy.",
+        "name": "Arjun & Meera",
+        "role": "Kerala Backwaters & Hills",
+        "photo": "theme:images/traveller-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "The Ladakh bike trip was the best thing I have done. The trip captain and mechanic made it feel safe even at 18,000 feet.",
+        "name": "Sanya Kapoor",
+        "role": "Ladakh Bike & Monastery Trail",
+        "photo": "theme:images/traveller-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "They handled our visas, flights and a surprise birthday dinner in Bali. We just had to pack.",
+        "name": "Nisha Rao",
+        "role": "Bali Honeymoon Special",
+        "photo": "theme:images/traveller-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Can’t find the trip you have in mind?",
+      "description": "Tell us where, when and who’s travelling — we’ll design a custom itinerary and send you a quote within 24 hours.",
+      "background_image": "theme:images/banner-hills.svg",
+      "button": {
+       "text": "Plan my trip",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "Browse packages",
+       "url": "page:listings"
+      }
+     }
+    }
+   ]
+  },
+  "about": {
+   "seo_title": "About Horizon Trails",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "About Horizon Trails",
+      "subheading": "Planning happy holidays since 2012.",
+      "background_image": "theme:images/banner-hills.svg"
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Our story",
+      "heading": "We started as travellers, and we still are",
+      "description": "<p>Horizon Trails began in 2012 when two friends from Kochi started organising weekend trips for their colleagues. Today a team of 25 trip planners sends more than 1,500 travellers on holiday every year.</p><p>We are a Ministry of Tourism–approved tour operator and a member of IATA and the Kerala Travel Mart.</p>",
+      "image": "theme:images/about-map.svg",
+      "image_2": "",
+      "experience_number": "14",
+      "experience_label": "years of happy trips",
+      "points": [
+       {
+        "text": "Ministry of Tourism approved"
+       },
+       {
+        "text": "IATA accredited"
+       },
+       {
+        "text": "Verified hotels & drivers"
+       },
+       {
+        "text": "Transparent pricing"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "12000",
+        "suffix": "+",
+        "label": "Happy travellers",
+        "icon": ""
+       },
+       {
+        "number": "85",
+        "suffix": "",
+        "label": "Destinations",
+        "icon": ""
+       },
+       {
+        "number": "14",
+        "suffix": "",
+        "label": "Years of trips",
+        "icon": ""
+       },
+       {
+        "number": "4.9",
+        "suffix": "/5",
+        "label": "Google rating",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "Our trip planners",
+      "heading": "The people behind your holiday",
+      "description": "Travellers first, planners second.",
+      "members": [
+       {
+        "photo": "theme:images/guide-1.svg",
+        "name": "Rohan Varghese",
+        "role": "Founder",
+        "bio": "Has led trips to 40 countries; still plans the Ladakh routes himself.",
+        "linkedin": "https://www.linkedin.com/"
+       },
+       {
+        "photo": "theme:images/guide-2.svg",
+        "name": "Ananya Iyer",
+        "role": "Honeymoons & international",
+        "bio": "Bali, the Maldives and Europe specialist.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/guide-3.svg",
+        "name": "Tsering Dolma",
+        "role": "Himalayan expeditions",
+        "bio": "Born in Leh; leads our mountain and bike trips.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/guide-4.svg",
+        "name": "Joseph Mathew",
+        "role": "Kerala & South India",
+        "bio": "20 years of planning Kerala holidays.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "Our partners",
+      "items": [
+       {
+        "image": "theme:images/partner-1.svg",
+        "name": "SkyIndia Air",
+        "url": ""
+       },
+       {
+        "image": "theme:images/partner-2.svg",
+        "name": "Coral Resorts",
+        "url": ""
+       },
+       {
+        "image": "theme:images/partner-3.svg",
+        "name": "IATA",
+        "url": ""
+       },
+       {
+        "image": "theme:images/partner-4.svg",
+        "name": "Star Hotels",
+        "url": ""
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "services": {
+   "seo_title": "Our services",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Our services",
+      "subheading": "From the first idea to the trip home.",
+      "background_image": "theme:images/banner-hills.svg"
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "What we do",
+      "heading": "Everything for a stress-free trip",
+      "description": "",
+      "columns": "3",
+      "items": [
+       {
+        "icon": "bi-suitcase2",
+        "image": "",
+        "title": "Holiday packages",
+        "description": "Ready-made trips across India and abroad, fully customisable.",
+        "link": {
+         "text": "Browse packages",
+         "url": "page:listings"
+        }
+       },
+       {
+        "icon": "bi-heart",
+        "image": "",
+        "title": "Honeymoons",
+        "description": "Romantic stays, candle-light dinners and thoughtful surprises.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-people",
+        "image": "",
+        "title": "Group & corporate tours",
+        "description": "Offsites, school trips and family reunions for 10 to 500 people.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-airplane",
+        "image": "",
+        "title": "Flights & hotels",
+        "description": "The best fares and hotel rates, booked and confirmed for you.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-passport",
+        "image": "",
+        "title": "Visa assistance",
+        "description": "Document checklists, appointments and application support.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-shield-plus",
+        "image": "",
+        "title": "Travel insurance",
+        "description": "Medical and trip-cancellation cover from leading insurers.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "process",
+     "data": {
+      "eyebrow": "How booking works",
+      "heading": "Four easy steps to your next trip",
+      "description": "",
+      "steps": [
+       {
+        "icon": "bi-chat-heart",
+        "title": "Share your plan",
+        "description": "Tell us the destination, dates and who is travelling."
+       },
+       {
+        "icon": "bi-file-earmark-text",
+        "title": "Get a custom quote",
+        "description": "A detailed itinerary and price within 24 hours."
+       },
+       {
+        "icon": "bi-credit-card",
+        "title": "Book with 25%",
+        "description": "Confirm with a 25% advance; pay the rest before you travel."
+       },
+       {
+        "icon": "bi-backpack2",
+        "title": "Pack and go",
+        "description": "Vouchers, tickets and a 24×7 contact on WhatsApp."
+       }
+      ]
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "FAQ",
+      "heading": "Before you book",
+      "description": "",
+      "items": [
+       {
+        "question": "Can I change the itinerary?",
+        "answer": "Yes. Every package can be customised — add days, change hotels or skip places. We will send a revised quote."
+       },
+       {
+        "question": "How much do I pay to book?",
+        "answer": "A 25% advance confirms your booking. The balance is due 21 days before departure."
+       },
+       {
+        "question": "What is your cancellation policy?",
+        "answer": "Cancellations 30 or more days before travel are refunded minus a small fee; see our cancellation policy for details."
+       },
+       {
+        "question": "Are prices per person?",
+        "answer": "Yes, unless stated otherwise, prices are per person on twin-sharing basis. Child and single-room prices are available on request."
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Can’t find the trip you have in mind?",
+      "description": "Tell us where, when and who’s travelling — we’ll design a custom itinerary and send you a quote within 24 hours.",
+      "background_image": "theme:images/banner-hills.svg",
+      "button": {
+       "text": "Plan my trip",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "Browse packages",
+       "url": "page:listings"
+      }
+     }
+    }
+   ]
+  },
+  "contact": {
+   "seo_title": "Contact us",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Plan your trip",
+      "subheading": "Tell us about your dream holiday — we reply within a few hours.",
+      "background_image": "theme:images/banner-hills.svg"
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Talk to a trip planner",
+      "heading": "Where shall we take you?",
+      "description": "Share your destination, dates and number of travellers and we will send a custom itinerary and quote.",
+      "form_heading": "Send an enquiry",
+      "show_form": true,
+      "show_details": true,
+      "map_url": "https://maps.google.com/?q=MG+Road+Kochi"
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": "",
+      "background_image": "theme:images/banner-hills.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>This policy explains how Horizon Trails collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+     }
+    }
+   ]
+  },
+  "terms-and-conditions": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Terms and Conditions",
+      "subheading": "",
+      "background_image": "theme:images/banner-hills.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+     }
+    }
+   ]
+  },
+  "cancellation-policy": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Cancellation Policy",
+      "subheading": "",
+      "background_image": "theme:images/banner-hills.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+     }
+    }
+   ]
+  }
+ }
+}

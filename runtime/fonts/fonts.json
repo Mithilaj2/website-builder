@@ -106,5 +106,23 @@
       600,
       700
     ]
+  },
+  "sora": {
+    "name": "Sora",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "jost": {
+    "name": "Jost",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
   }
 }

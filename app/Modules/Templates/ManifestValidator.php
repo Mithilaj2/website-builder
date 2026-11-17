@@ -117,6 +117,13 @@ final class ManifestValidator
 
         // Section types
         $types = $m['section_types'];
+        if (isset($m['listings'])) {
+            try {
+                \SiteRuntime\Listings\ListingService::normalise((array) $m['listings']);
+            } catch (\InvalidArgumentException $e) {
+                $this->errors[] = 'manifest.json: ' . $e->getMessage() . '.';
+            }
+        }
         if (!is_array($types) || $types === [] || array_values($types) !== $types) {
             $this->errors[] = 'manifest.json: "section_types" must be a non-empty list.';
             $types = [];

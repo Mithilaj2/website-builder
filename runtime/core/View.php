@@ -14,6 +14,7 @@ final class View
     public array $theme = [];
     /** Result of the last form submission, keyed by form name: ['status' => 'sent'|'error', 'message' => '…'] */
     public array $flash = [];
+    private array $cache = [];
 
     /**
      * @param array{page:string,home:string,theme_asset:string,upload:string,font:string,lib:string} $urls URL patterns
@@ -133,6 +134,9 @@ final class View
         if ($slug === '' || ($home && $home['slug'] === $slug)) {
             return $this->urls['home'];
         }
+        if (($slug === 'listings' || $slug === ($this->listingConfig()['path'] ?? null)) && $this->listingConfig()) {
+            return $this->listingsUrl(); // page:listings (or page:properties…) → the listings page
+        }
         return str_replace('{slug}', rawurlencode($slug), $this->urls['page']);
     }
 
@@ -214,6 +218,66 @@ final class View
     private function libDir(): string
     {
         return $this->dirs['lib'];
+    }
+
+    // ---------------------------------------------------------------- listings (properties, packages, rooms…)
+
+    /** The template's listings definition (normalised), or null if it has none. */
+    public function listingConfig(): ?array
+    {
+        if (!array_key_exists('_listings', $this->cache)) {
+            try {
+                $this->cache['_listings'] = !empty($this->manifest['listings']) ? Listings\ListingService::normalise((array) $this->manifest['listings']) : null;
+            } catch (\InvalidArgumentException) {
+                $this->cache['_listings'] = null;
+            }
+        }
+        return $this->cache['_listings'];
+    }
+
+    public function listingsEnabled(): bool
+    {
+        return $this->listingConfig() !== null;
+    }
+
+    /** URL of the listings page, optionally filtered (['c' => 'villas', 'a' => ['bedrooms' => 3]]). Not escaped. */
+    public function listingsUrl(array $query = []): string
+    {
+        $base = (string) ($this->urls['listings'] ?? '');
+        $cfg = $this->listingConfig();
+        if ($base === '' || !$cfg) {
+            return '#';
+        }
+        return str_replace('{path}', $cfg['path'], $base) . ($query ? '?' . http_build_query($query) : '');
+    }
+
+    public function listingUrl(array $item): string
+    {
+        $base = $this->listingsUrl();
+        return $base === '#' ? '#' : $base . '/' . rawurlencode((string) ($item['slug'] ?? ''));
+    }
+
+    /** Listings for a section. Options: category (slug), featured (bool), sort (new|price_asc|price_desc), limit, include_closed. */
+    public function listings(array $opts = []): array
+    {
+        $cfg = $this->listingConfig();
+        return $cfg ? $this->source->listings(array_intersect_key($opts, array_flip(['category', 'featured', 'sort', 'limit', 'include_closed'])), (array) $this->manifest['listings']) : [];
+    }
+
+    public function listingCategories(): array
+    {
+        return $this->listingConfig() ? $this->source->listingCategories() : [];
+    }
+
+    public function listingLocations(): array
+    {
+        return $this->listingConfig() ? $this->source->listingLocations() : [];
+    }
+
+    /** ₹ price in the listings' format (e.g. ₹85 Lakh / ₹1.2 Cr for real estate). */
+    public function listingPrice(mixed $paise): string
+    {
+        return Listings\ListingService::price((int) $paise, $this->listingConfig()['price_format'] ?? 'inr');
     }
 
     // ---------------------------------------------------------------- shop

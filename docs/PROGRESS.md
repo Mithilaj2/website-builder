@@ -9,7 +9,54 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a done (Education 01, Hospital 01, E-commerce 01 with the shop module), awaiting review. Next: 7b (template 01 for the other 6 categories), then 7c |
+| 7 Template library | 🔄 In progress | 7a done (Education 01, Hospital 01, E-commerce 01 with the shop module). 7b part 1 done (Real Estate 01, Travel 01 with the listings module), awaiting review. Next: 7b part 2 (Restaurant 01, Hotel 01), part 3 (Portfolio 01, Services 01), then 7c |
+
+## Phase 7b, part 1: Real Estate 01, Travel 01 and the listings module
+
+### Delivered
+- **Listings module** (in every website's runtime; switched on by a `listings` block in the template manifest). One generic catalogue serves properties, holiday packages and, later, rooms, projects and similar:
+  - **Configuration in the manifest:** URL path (`properties`, `packages`, `rooms`, `projects`…), labels, price format (`₹24,999` or `₹85 Lakh` / `₹1.25 Cr`), the status name for closed items ("Sold", "Sold out"), an enquiry form (heading, a dropdown, a date, thank-you text) and typed **attributes**: number, text, select, yes/no and list. Attribute values are stored as JSON on each listing, so a new category needs no database change.
+  - **Public pages:** `/{path}` with filters built from the attributes (type, locality, buy/rent, bedrooms, duration, trip type…), price range, search, sorting and pagination; closed items stay visible but are listed last. `/{path}/{slug}` with a photo gallery and lightbox, specifications, description, lists (amenities, inclusions…), an enquiry form with the item name, call and WhatsApp buttons, and similar items. Title and meta description come from the listing.
+  - **Enquiries** go to the existing enquiries inbox and notification email (form type `enquiry`) and return to the listing with the thank-you message.
+  - **Website admin:** a menu entry named after the template ("Properties", "Packages") with a searchable list, an add/edit form generated from the attributes, photos from the media library (cover + gallery, reorder), rich-text description, badge, featured flag and status (active / closed / draft), plus a categories screen ("Property types", "Destinations").
+  - **Sections:** `listings` (featured, newest, lowest price or one category) and `listing_categories` (tiles with counts). Template helpers `listings()`, `listingCategories()`, `listingsUrl()`, `listingUrl()`, `listingPrice()` and others; `page:listings` links to the index. Templates can supply their own card (`partials/listing-card.php`) or whole pages.
+  - Site migration 007; the template's listing path is a reserved page address on that website only; the media library has a "Listings" folder; the generator smoke-tests the index and the first listing; the checklist accepts `page:listings` links.
+  - The media picker from the shop admin is now shared (`admin-media-picker.js`).
+- **Real Estate 01, "Keystone Realty"** (`templates/real-estate/realestate_template_01`, prefix `kst`):
+  - Design: burgundy and champagne on warm stone, Sora headings, square-cornered frames with champagne rules, a full-bleed dusk hero with a tabbed **Buy / Rent search** (locality, property type, budget), property cards with the price on the photo and a beds / baths / area strip, property-type tiles, agents, loan partners and a buying-process timeline.
+  - Attributes: available for, bedrooms, bathrooms, built-up area, possession, furnishing, facing, floor, parking, RERA number, amenities, nearby places. Enquiry: "Schedule a site visit" with a visit date.
+  - Demo agency in Pune with 5 property types and 11 properties (2 sold); 31 original SVG illustrations.
+- **Travel 01, "Horizon Trails"** (`templates/travel/travel_template_01`, prefix `hzt`):
+  - Design: deep ocean and sunset orange on sand, Jost headings, generous rounding and pill buttons, a centred sunset hero with a **capsule trip finder** (destination, trip type, budget), mosaic destination tiles, package cards with a duration chip and "From ₹… per person".
+  - Attributes: duration, nights, trip type, region, group size, best time, starting city, flights included, highlights, inclusions, exclusions. Day-by-day itineraries in the description. Enquiry: "Plan this trip" with travel date and number of travellers.
+  - Demo tour operator in Kochi with 7 destinations and 10 packages (1 sold out); 26 original SVG illustrations.
+- Fonts Sora and Jost bundled (SIL Open Font License). Runtime 1.5.0.
+
+### Tests
+`tests/phase7b_listings_test.php`, **69 end-to-end checks** on freshly generated Keystone Realty and Horizon Trails websites:
+- template registration, manifest validation (an invalid listings block is refused on upload) and the builder preview
+- homepage search and sections, every filter, combined filters, search, sorting, unknown type, junk input and XSS
+- property and package pages: gallery, specifications, lists, enquiry form, similar items, SEO, sold items, 404
+- the enquiry: stored with the item and answers, notification email, thank-you message, tampered return link
+- the admin: list, search and status filter, generated form, validation, add with price / numbers / lists / images, outside images refused, HTML cleaned, unique addresses, draft, delete, categories (add, hide, delete), reserved addresses
+- a website without listings
+
+Results:
+
+| Server | Phase 7b | Shop | Phase 7a (Edu/Hospital) | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+The Phase 6 export test also passed (53/53) on the Keystone Realty website: the exported site serves `/properties` and the property pages on the separate host. All PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of both websites (home, listing index, filtered index, detail pages, inner pages, 404) and the admin listing screens show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- Phase 2 test: a page renamed to "projects" was refused once every listing word was reserved. Now only the website's own listing path (and `listings`) is reserved.
+- Listing numbers and prices showed decimals ("3.00 BHK", "₹32,000.00").
+- Detail gallery with 2 or 3 photos left an empty cell; it now has its own layouts on desktop and phone.
+- Itinerary day headings (h4) were larger than the section heading.
+- The route filter on travel packages listed long route strings; templates can now turn the location filter off (`location_filter: false`).
+- Travel destinations: the large tile overlapped the next row on phones.
 
 ## Phase 7a, part 2: E-commerce 01 and the shop module
 

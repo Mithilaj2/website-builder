@@ -1,0 +1,15 @@
+{
+  "type": "listings",
+  "label": "Listings grid",
+  "icon": "bi-grid-1x2",
+  "description": "A grid of the website's listings (properties, packages, rooms…): featured, newest or one category. Listings are managed in the website admin.",
+  "fields": [
+    { "key": "eyebrow", "label": "Small heading above title", "type": "text", "default": "", "max": 80 },
+    { "key": "heading", "label": "Heading", "type": "text", "default": "Featured", "max": 160 },
+    { "key": "description", "label": "Description", "type": "textarea", "default": "", "max": 600 },
+    { "key": "source", "label": "Show", "type": "select", "options": { "featured": "Featured", "new": "Newest", "category": "One category", "price_asc": "Lowest price first" }, "default": "featured" },
+    { "key": "category", "label": "Category (its web address name, e.g. villas)", "type": "text", "default": "", "max": 90, "pattern": "^[a-z0-9-]*$" },
+    { "key": "limit", "label": "How many", "type": "number", "default": 6, "min": 1, "max": 24 },
+    { "key": "button", "label": "Button below the grid", "type": "link", "default": { "text": "View all", "url": "page:listings" } }
+  ]
+}

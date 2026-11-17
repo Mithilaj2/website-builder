@@ -110,4 +110,41 @@ final class DbSource implements DataSource
             return [];
         }
     }
+
+    public function listings(array $f, array $config): array
+    {
+        try {
+            $svc = new Listings\ListingService($this->db, $config);
+            if (!empty($f['category'])) {
+                $cat = $svc->categoryBySlug((string) $f['category']);
+                if (!$cat) {
+                    return [];
+                }
+                $f['category'] = (int) $cat['id'];
+            }
+            return $svc->search($f)['rows'];
+        } catch (\PDOException) {
+            return [];
+        }
+    }
+
+    public function listingCategories(): array
+    {
+        try {
+            $c = $this->db->t('listing_categories');
+            $l = $this->db->t('listings');
+            return $this->db->fetchAll("SELECT c.*, (SELECT COUNT(*) FROM $l WHERE category_id = c.id AND status <> 'draft') AS listing_count FROM $c c WHERE c.status = 'active' ORDER BY c.sort_order, c.name");
+        } catch (\PDOException) {
+            return [];
+        }
+    }
+
+    public function listingLocations(): array
+    {
+        try {
+            return array_map('strval', array_column($this->db->fetchAll('SELECT DISTINCT location FROM ' . $this->db->t('listings') . " WHERE status <> 'draft' AND location IS NOT NULL AND location <> '' ORDER BY location"), 'location'));
+        } catch (\PDOException) {
+            return [];
+        }
+    }
 }
