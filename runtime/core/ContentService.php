@@ -57,6 +57,13 @@ final class ContentService
     }
 
     /** Create (page = null) or update a page. New pages start with their page type's default sections. */
+    /** System addresses, plus the listings path (and the alias "listings") when the template has a listings module. */
+    public function reservedSlugs(): array
+    {
+        $path = (string) ($this->manifest['listings']['path'] ?? '');
+        return $path !== '' ? array_merge(self::RESERVED_SLUGS, [$path, 'listings']) : self::RESERVED_SLUGS;
+    }
+
     public function savePage(?array $page, array $in): int
     {
         $isHome = $page && (int) $page['is_home'] === 1;
@@ -81,7 +88,7 @@ final class ContentService
         if (!$isHome || $slug !== '') {
             if (!preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/', $slug) || strlen($slug) > 120) {
                 $errors['slug'] = 'URL may contain only lowercase letters, numbers and single hyphens.';
-            } elseif (in_array($slug, self::RESERVED_SLUGS, true)) {
+            } elseif (in_array($slug, $this->reservedSlugs(), true)) {
                 $errors['slug'] = "“{$slug}” is reserved by the website system. Choose another URL.";
             } elseif ((int) $this->db->value('SELECT COUNT(*) FROM ' . $this->db->t('pages') . ' WHERE slug = ? AND id <> ?', [$slug, (int) ($page['id'] ?? 0)]) > 0) {
                 $errors['slug'] = 'Another page already uses this URL.';

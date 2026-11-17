@@ -9,6 +9,9 @@ $nav = [
     ['appearance', 'appearance', 'palette', 'Appearance'],
     ['enquiries', 'enquiries', 'envelope', 'Enquiries'],
 ];
+if (!empty($listingNav)) {
+    array_splice($nav, 1, 0, [['listings', 'listings', $listingNav['icon'], $listingNav['label']]]);
+}
 if (!empty($shopOn)) {
     array_splice($nav, 1, 0, [['orders', 'orders', 'receipt', 'Orders'], ['products', 'products', 'bag', 'Products'], ['coupons', 'coupons', 'ticket-perforated', 'Coupons']]);
 }

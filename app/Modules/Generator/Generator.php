@@ -230,6 +230,7 @@ final class Generator
         FileSystem::copyDir(RUNTIME_PATH . '/assets/lib', "$st/assets/lib");
         FileSystem::copyDir(RUNTIME_PATH . '/assets/pay', "$st/assets/pay");
         FileSystem::copyDir(RUNTIME_PATH . '/assets/shop', "$st/assets/shop");
+        FileSystem::copyDir(RUNTIME_PATH . '/assets/listings', "$st/assets/listings");
         // Website admin scripts and styles (the same editor scripts the builder uses).
         $adm = "$st/assets/admin";
         FileSystem::copyDir(RUNTIME_PATH . '/admin-assets', $adm);
@@ -331,7 +332,7 @@ final class Generator
             'theme/manifest.json', 'theme/layouts/default.php', 'theme/partials/header.php', 'theme/partials/footer.php',
             'assets/fonts/fonts.json', 'assets/lib/libraries.json', 'config/app.php', 'config/database.php', 'config/.htaccess', 'core/.htaccess',
             'core/Admin/App.php', 'core/Admin/Auth.php', 'core/Admin/views/layout-main.php', 'core/editor/editor-modals.php', 'vendor/autoload.php', 'vendor/.htaccess',
-            'assets/admin/js/app.js', 'assets/admin/js/website-workspace.js', 'assets/pay/pay.js', 'core/Payments/PaymentPage.php', 'assets/shop/shop.js', 'core/Shop/ShopPage.php', 'assets/admin/vendor/jquery/jquery.min.js', 'assets/admin/vendor/tinymce/tinymce.min.js'];
+            'assets/admin/js/app.js', 'assets/admin/js/website-workspace.js', 'assets/pay/pay.js', 'core/Payments/PaymentPage.php', 'assets/shop/shop.js', 'core/Shop/ShopPage.php', 'assets/listings/listings.js', 'core/Listings/ListingPage.php', 'assets/admin/vendor/jquery/jquery.min.js', 'assets/admin/vendor/tinymce/tinymce.min.js'];
         $manifest = json_decode((string) file_get_contents("$st/theme/manifest.json"), true) ?: [];
         foreach ((array) ($manifest['section_types'] ?? []) as $t) {
             $required[] = "theme/sections/$t.php";
@@ -476,6 +477,18 @@ final class Generator
                 }
             }
             $shopNote = ' shop, product and cart pages load;';
+        }
+        $lm = $this->site->manifest()['listings'] ?? null;
+        if (!empty($lm['path'])) {
+            $lp = $this->http($url . $lm['path']);
+            if ($lp['code'] !== 200 || preg_match('/(Fatal error|Parse error|Warning:|Notice:|Deprecated:)/', $lp['body'])) {
+                $this->failSmoke("The {$lm['path']} page returned HTTP {$lp['code']}.");
+            }
+            $first = $db->value('SELECT slug FROM ' . $db->t('listings') . " WHERE status <> 'draft' ORDER BY id LIMIT 1");
+            if ($first && $this->http($url . $lm['path'] . '/' . rawurlencode((string) $first))['code'] !== 200) {
+                $this->failSmoke("A {$lm['singular']} page ({$lm['path']}/$first) did not load.");
+            }
+            $shopNote .= " {$lm['path']} pages load;";
         }
         $this->log[] = "$checked page(s) returned 200 with no PHP errors;$shopNote unknown URL returned 404; config/ and vendor/ are protected; admin login loads; assets load. ($url)";
         return 'success';

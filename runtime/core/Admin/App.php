@@ -74,7 +74,13 @@ final class App
                 }
             }
             try {
-                str_starts_with($handler, 'shop:') ? $this->shopAdmin()->{substr($handler, 5)}($params) : $this->$handler($params);
+                if (str_starts_with($handler, 'shop:')) {
+                    $this->shopAdmin()->{substr($handler, 5)}($params);
+                } elseif (str_starts_with($handler, 'list:')) {
+                    $this->listingsAdmin()->{substr($handler, 5)}($params);
+                } else {
+                    $this->$handler($params);
+                }
             } catch (ValidationError $e) {
                 if ($e->extra) {
                     $this->json(['ok' => false, 'message' => $e->getMessage(), 'errors' => (object) $e->errors] + $e->extra, 409);
@@ -126,6 +132,11 @@ final class App
             ['POST', 'payments/settings', 'savePaymentSettings', 'owner'], ['POST', 'payments/test', 'testPaymentConnection', 'owner'],
             ['GET', 'api/payments', 'apiPayments', 'auth'], ['GET', 'api/payments/export', 'apiPaymentsExport', 'auth'],
             ['GET', 'api/payments/{tid}', 'apiPayment', 'auth'], ['POST', 'api/payments/{tid}/recheck', 'apiPaymentRecheck', 'auth'],
+            // Listings (properties, packages, rooms…), when the template declares them
+            ['GET', 'listings', 'list:listPage', 'auth'], ['GET', 'listings/new', 'list:form', 'auth'], ['GET', 'listings/{lid}', 'list:form', 'auth'],
+            ['GET', 'api/listings', 'list:apiList', 'auth'], ['POST', 'api/listings', 'list:apiSave', 'auth'], ['POST', 'api/listings/{lid}', 'list:apiSave', 'auth'], ['POST', 'api/listings/{lid}/delete', 'list:apiDelete', 'auth'],
+            ['GET', 'listing-categories', 'list:categoriesPage', 'auth'], ['GET', 'api/listing-categories', 'list:apiCategories', 'auth'],
+            ['POST', 'api/listing-categories', 'list:apiCategorySave', 'auth'], ['POST', 'api/listing-categories/{cid}', 'list:apiCategorySave', 'auth'], ['POST', 'api/listing-categories/{cid}/delete', 'list:apiCategoryDelete', 'auth'],
             // Shop (e-commerce templates)
             ['GET', 'orders', 'shop:ordersPage', 'auth'], ['GET', 'orders/{oid}', 'shop:orderPage', 'auth'],
             ['GET', 'api/orders', 'shop:apiOrders', 'auth'], ['GET', 'api/orders/export', 'shop:apiOrdersExport', 'auth'],
@@ -828,6 +839,25 @@ final class App
         return $this->cache['shopAvailable'] ??= in_array('ecommerce', (array) ($this->manifest()['features'] ?? []), true) || $this->shop()->enabled();
     }
 
+    public function listings(): ?\SiteRuntime\Listings\ListingService
+    {
+        if (!array_key_exists('listings', $this->cache)) {
+            try {
+                $m = $this->manifest()['listings'] ?? null;
+                $this->cache['listings'] = $m ? new \SiteRuntime\Listings\ListingService($this->db, (array) $m, $this->imageOk(), $this->richtext()) : null;
+            } catch (\InvalidArgumentException) {
+                $this->cache['listings'] = null;
+            }
+        }
+        return $this->cache['listings'];
+    }
+
+    private function listingsAdmin(): ListingsAdmin
+    {
+        $svc = $this->listings() ?? throw new NotFound('This website has no listings.');
+        return $this->cache['listingsAdmin'] ??= new ListingsAdmin($this, $svc, $this->base, $this->app);
+    }
+
     private function shopAdmin(): ShopAdmin
     {
         return $this->cache['shopAdmin'] ??= new ShopAdmin($this, $this->db, $this->app, $this->base, $this->root);
@@ -1000,6 +1030,7 @@ final class App
             'base' => $this->base, 'csrf' => $this->auth->csrf(), 'scripts' => [], 'active' => '',
             'paymentsOn' => $user ? $this->payments()->settings()['enabled'] : false,
             'shopOn' => $user ? $this->shopAvailable() : false,
+            'listingNav' => $user && $this->listings() ? ['label' => $this->listings()->config()['plural'], 'icon' => substr($this->listings()->config()['icon'], 3)] : null,
             'openOrders' => $user && $this->shopAvailable() ? $this->shop()->summary()['open'] : 0,
             'newEnquiries' => $user ? (int) $this->db->value('SELECT COUNT(*) FROM ' . $this->db->t('contact_submissions') . " WHERE status = 'new'") : 0];
         $content = $this->capture(__DIR__ . '/views/' . $view . '.php', $data);

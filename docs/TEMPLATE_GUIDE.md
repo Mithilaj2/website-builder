@@ -189,6 +189,42 @@ The runtime renders `/shop`, product, cart, checkout and order pages inside your
 
 Never link to the shop with a page called "shop": `page:shop` already points to it, and `shop` is a reserved address.
 
+## Listing templates (properties, packages, rooms, projects…)
+
+Templates whose content is a catalogue of things people enquire about, rather than buy, declare a `listings` block in `manifest.json`. The runtime then adds:
+- a public index at `/{path}` with filters, search, sorting and pagination, and a detail page at `/{path}/{slug}` with a photo gallery and lightbox, specifications, lists, an enquiry form and similar items;
+- a menu entry in the website admin (named after `plural`) with an add/edit form generated from your attributes, photos from the media library, and a categories screen;
+- the `listings` and `listing_categories` section types.
+
+```json
+"listings": {
+  "path": "properties",              // one of: properties, packages, tours, rooms, projects, portfolio, listings, destinations, vehicles (reserved as page addresses)
+  "singular": "Property", "plural": "Properties", "icon": "bi-buildings",
+  "category_label": "Property type", "location_label": "Locality", "location_filter": true,
+  "price_label": "Price", "price_format": "lakh",      // "inr" (₹24,999) or "lakh" (₹85 Lakh, ₹1.25 Cr)
+  "price_notes": ["onwards", "per month"],             // suggestions in the admin
+  "closed_label": "Sold",                              // status shown for closed items (they stay visible, sorted last)
+  "attributes": [
+    { "key": "bedrooms", "label": "Bedrooms", "type": "number", "suffix": "BHK", "filter": true, "card": true, "icon": "bi-door-closed" },
+    { "key": "listing_for", "label": "Available for", "type": "select", "options": ["Sale", "Rent"], "filter": true },
+    { "key": "amenities", "label": "Amenities", "type": "list" }
+  ],
+  "enquiry": { "heading": "Schedule a site visit", "button": "Request a visit", "date_label": "Preferred visit date",
+               "select_label": "I am", "select_options": ["Looking to buy", "Looking to rent"], "message_label": "…", "success": "…" }
+}
+```
+
+- Attribute types: `number` (filter = minimum, e.g. "3+ bedrooms"), `text`, `select` (with `options`), `toggle` (yes/no), `list` (one per line in the admin; shown as a checklist). `filter: true` adds it to the index filters (number, select and toggle only). `card: true` marks it for listing cards (`facts` with `card`).
+- Enquiries go to the normal enquiries inbox and notification email as form type `enquiry`, with the item title (labelled with `singular`), the select answer and the date as extra fields.
+- Put demo data in `demo.json` under `"listings"`: `categories` (`name`, `slug`, `description`, `image`) and `items` (`title`, `slug`, `category` slug, `location`, `price` in paise or `null` for "on request", `price_note`, `image`, `gallery`, `attributes` {key: value}, `short_description`, `description` (HTML), `badge`, `featured`, `status` active/closed/draft).
+
+Styling and overrides:
+- The pages use `assets/listings/listings.css` (`.wblist-*` classes, `--wb-*` variables). Restyle with your prefix (`.kst .wblist-filters`).
+- Add `partials/listing-card.php` and every grid (index, similar items, the `listings` section) uses your card; it receives `$item` with `title`, `slug`, `location`, `price_text`, `price_note`, `badge`, `is_closed`, `category_name`, `image`, `gallery`, `attrs` (raw values), `facts` (`key`, `label`, `icon`, `value` formatted with its suffix, `card`) and `lists`.
+- Or replace a whole page with `theme/listings/index.php` or `theme/listings/detail.php`.
+
+`$view` helpers: `listingsEnabled()`, `listingConfig()`, `listingsUrl(['c' => 'villas', 'a' => ['bedrooms' => 3], 'max' => 5000000])` (budget filters in rupees), `listingUrl($item)`, `listings(['featured' => true, 'category' => 'slug', 'sort' => 'new|price_asc|price_desc', 'limit' => 6, 'include_closed' => false])`, `listingCategories()` (with `listing_count`), `listingLocations()`, `listingPrice($paise)`. Link to the index from content with `page:listings`.
+
 ## Design directions (so templates in a category do not look alike)
 
 | Template | Prefix | Palette | Type | Signature motif |
@@ -197,6 +233,8 @@ Never link to the shop with a page called "shop": `page:shop` already points to 
 | Education 01 Lyceum Classic | `lyc` | Forest green + saffron on paper | Fraunces + DM Sans | Arch frames, school crest, notice board, dark hero |
 | E-commerce 01 Terra Market | `trm` | Terracotta + sage on cream, ink footer | Playfair Display + Inter | Capsule (pill) frames, scrolling announcement bar, round category tiles, hover second image, rotating stamp |
 | Hospital 01 CareLine Health | `crl` | Teal + coral on mint, navy footer | Plus Jakarta Sans + DM Sans | Leaf frames (two opposite corners rounded), heartbeat line, 24×7 emergency strip, quick-access bar, light hero |
+| Real Estate 01 Keystone Realty | `kst` | Burgundy + champagne on warm stone, ink footer | Sora + DM Sans | Square-cornered frames with champagne rules, full-bleed dark hero with a tabbed buy/rent search panel, price set on the photo, three-cell fact strip on cards |
+| Travel 01 Horizon Trails | `hzt` | Deep ocean + sunset orange on sand | Jost + Plus Jakarta Sans | Generous rounding and pill buttons, centred sunset hero with a capsule trip finder, mosaic destination tiles, duration chips and "From ₹… per person" card footers |
 
 Later templates in the same category should change at least the palette family, the heading typeface, the frame/shape motif and the hero layout (light vs dark, image side, full-bleed vs boxed).
 

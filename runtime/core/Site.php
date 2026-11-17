@@ -15,6 +15,7 @@ final class Site
     private array $app;
     private array $dbConfig;
     private ?Db $db = null;
+    private ?array $manifestCache = null;
 
     public function __construct(string $root)
     {
@@ -57,6 +58,11 @@ final class Site
                 $this->shop(substr($path, 5));
                 return;
             }
+            $lp = $this->listingPath();
+            if ($lp !== null && ($path === $lp || str_starts_with($path, $lp . '/') || ($path === '' && ($_GET['page'] ?? '') === $lp))) {
+                $this->listingsPage(substr($path, strlen($lp) + 1));
+                return;
+            }
             if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
                 if (preg_match('#^form/([a-z0-9_-]{1,40})$#', $path, $m)) {
                     (new FormHandler($this->db(), (string) $app['key'], $this->baseUrl(), !empty($app['clean_urls']), fn (array $row) => $this->notify($row)))->handle($m[1]);
@@ -75,21 +81,7 @@ final class Site
     private function render(string $path): void
     {
         $manifest = json_decode((string) file_get_contents($this->root . '/theme/manifest.json'), true) ?: [];
-        $flash = [];
-        $form = (string) ($_GET['form'] ?? '');
-        if (preg_match('/^[a-z0-9_-]{1,40}$/', $form) && in_array($_GET['status'] ?? '', ['sent', 'error'], true)) {
-            $sent = $_GET['status'] === 'sent';
-            $reasons = [
-                'invalid' => $form === 'contact' ? 'Please fill in your name, a valid email address and your message.' : 'Please fill in your name and a valid mobile number or email address (and check the date).',
-                'expired' => 'The form expired. Please send your message again.',
-                'limit' => 'Too many messages were sent from your connection. Please try again later.',
-            ];
-            $flash[$form] = [
-                'status' => $sent ? 'sent' : 'error',
-                'reason' => $sent ? '' : (string) ($_GET['reason'] ?? ''),
-                'message' => $sent ? 'Thank you! Your message has been sent. We will get back to you soon.' : ($reasons[$_GET['reason'] ?? ''] ?? 'Your message could not be sent. Please try again.'),
-            ];
-        }
+        $flash = $this->flash();
         $renderer = $this->renderer($manifest, $flash);
         $slug = $path;
         if ($path === '' && isset($_GET['page']) && is_string($_GET['page'])) {
@@ -148,6 +140,33 @@ final class Site
         }, fn (string $level, string $msg) => $this->log($level, $msg),
             fn (array $tx): ?string => !empty($tx['order_id']) ? $this->orderReturn($tx, $shop) : null);
         $page->handle($sub, (string) ($_SERVER['REQUEST_METHOD'] ?? 'GET'));
+    }
+
+    /** The template's listings address (e.g. "properties"), or null when it has no listings. */
+    private function listingPath(): ?string
+    {
+        $m = $this->manifest();
+        return !empty($m['listings']['path']) && in_array($m['listings']['path'], Listings\ListingService::PATHS, true) ? (string) $m['listings']['path'] : null;
+    }
+
+    private function manifest(): array
+    {
+        return $this->manifestCache ??= (json_decode((string) @file_get_contents($this->root . '/theme/manifest.json'), true) ?: []);
+    }
+
+    /** Listing index and detail pages (/properties, /properties/{slug} …). */
+    private function listingsPage(string $sub): void
+    {
+        $manifest = $this->manifest();
+        $base = $this->baseUrl();
+        $version = is_file($this->root . '/VERSION') ? substr(md5((string) file_get_contents($this->root . '/VERSION')), 0, 8) : '1';
+        $svc = new Listings\ListingService($this->db(), (array) $manifest['listings']);
+        $listBase = str_replace('{path}', (string) $manifest['listings']['path'], $this->urls()['listings']);
+        (new Listings\ListingPage($svc, $this->renderer($manifest, $this->flash()), [
+            'url' => static fn (string $s): string => $listBase . ($s !== '' ? '/' . $s : ''),
+            'asset' => static fn (string $p): string => $base . '/assets/' . $p . '?v=' . rawurlencode($version),
+            'theme_dir' => $this->root . '/theme',
+        ]))->handle($sub);
     }
 
     /** Where a customer lands after paying (or not paying) for a shop order: the order page. */
@@ -307,6 +326,27 @@ final class Site
     }
 
     /** URL patterns for this site, based on where it is installed. */
+    /** The result of the last form post (from the redirect's ?form=…&status=…), for the form's thank-you or error message. */
+    private function flash(): array
+    {
+        $flash = [];
+        $form = (string) ($_GET['form'] ?? '');
+        if (preg_match('/^[a-z0-9_-]{1,40}$/', $form) && in_array($_GET['status'] ?? '', ['sent', 'error'], true)) {
+            $sent = $_GET['status'] === 'sent';
+            $reasons = [
+                'invalid' => $form === 'contact' ? 'Please fill in your name, a valid email address and your message.' : 'Please fill in your name and a valid mobile number or email address (and check the date).',
+                'expired' => 'The form expired. Please send your message again.',
+                'limit' => 'Too many messages were sent from your connection. Please try again later.',
+            ];
+            $flash[$form] = [
+                'status' => $sent ? 'sent' : 'error',
+                'reason' => $sent ? '' : (string) ($_GET['reason'] ?? ''),
+                'message' => $sent ? 'Thank you! Your message has been sent. We will get back to you soon.' : ($reasons[$_GET['reason'] ?? ''] ?? 'Your message could not be sent. Please try again.'),
+            ];
+        }
+        return $flash;
+    }
+
     private function urls(): array
     {
         $base = $this->baseUrl();
@@ -321,6 +361,7 @@ final class Site
             'form' => $clean ? $base . '/form/{form}' : $base . '/index.php/form/{form}',
             'form_key' => (string) $this->app['key'],
             'shop' => $this->shopBase(),
+            'listings' => $base . ($clean ? '' : '/index.php') . '/{path}',
             'cart_count' => $this->cart()->count(),
         ];
     }

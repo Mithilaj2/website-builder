@@ -11,7 +11,7 @@ final class ArraySource implements DataSource
      * @param list<array> $pages each with id, slug, is_home, ...
      * @param array<int, list<array>> $sections keyed by page id
      */
-    public function __construct(private array $settings, private array $pages, private array $sections, private array $shop = [])
+    public function __construct(private array $settings, private array $pages, private array $sections, private array $shop = [], private array $listings = [])
     {
     }
 
@@ -27,7 +27,7 @@ final class ArraySource implements DataSource
                 $sections[$id][] = $s + ['id' => $id * 100 + $j, 'page_id' => $id];
             }
         }
-        return new self($seed['settings'], $pages, $sections, (array) ($seed['shop'] ?? []));
+        return new self($seed['settings'], $pages, $sections, (array) ($seed['shop'] ?? []), (array) ($seed['listings'] ?? []));
     }
 
     public function settings(): array
@@ -119,5 +119,63 @@ final class ArraySource implements DataSource
             $out[] = ['id' => $i + 1, 'name' => (string) $c['name'], 'slug' => (string) $c['slug'], 'description' => $c['description'] ?? null, 'image' => $c['image'] ?? null, 'product_count' => $count];
         }
         return $out;
+    }
+
+    /** Demo listings (template previews), decorated like database rows. */
+    public function listings(array $f, array $config): array
+    {
+        try {
+            $cfg = Listings\ListingService::normalise($config);
+        } catch (\InvalidArgumentException) {
+            return [];
+        }
+        $cats = [];
+        foreach ($this->listingCategories() as $c) {
+            $cats[$c['slug']] = $c;
+        }
+        $rows = [];
+        foreach ((array) ($this->listings['items'] ?? []) as $i => $it) {
+            $c = $cats[(string) ($it['category'] ?? '')] ?? null;
+            $rows[] = Listings\ListingService::decorateWith([
+                'id' => $i + 1, 'title' => (string) $it['title'], 'slug' => (string) $it['slug'], 'location' => $it['location'] ?? null, 'price' => $it['price'] ?? null,
+                'price_note' => $it['price_note'] ?? null, 'short_description' => $it['short_description'] ?? null, 'image' => $it['image'] ?? null,
+                'gallery_json' => json_encode((array) ($it['gallery'] ?? [])), 'attributes_json' => json_encode((array) ($it['attributes'] ?? [])), 'badge' => $it['badge'] ?? null,
+                'is_featured' => !empty($it['featured']) ? 1 : 0, 'status' => ($it['status'] ?? 'active') === 'closed' ? 'closed' : 'active',
+                'category_id' => $c['id'] ?? null, 'category_name' => $c['name'] ?? null, 'category_slug' => $c['slug'] ?? null, 'created_order' => $i,
+            ], $cfg);
+        }
+        if (!empty($f['category'])) {
+            $rows = array_values(array_filter($rows, static fn ($r) => $r['category_slug'] === $f['category']));
+        }
+        if (!empty($f['featured'])) {
+            $rows = array_values(array_filter($rows, static fn ($r) => (int) $r['is_featured'] === 1));
+        }
+        if (isset($f['include_closed']) && !$f['include_closed']) {
+            $rows = array_values(array_filter($rows, static fn ($r) => !$r['is_closed']));
+        }
+        match ((string) ($f['sort'] ?? '')) {
+            'new' => usort($rows, static fn ($a, $b) => $b['created_order'] <=> $a['created_order']),
+            'price_asc' => usort($rows, static fn ($a, $b) => (int) $a['price'] <=> (int) $b['price']),
+            'price_desc' => usort($rows, static fn ($a, $b) => (int) $b['price'] <=> (int) $a['price']),
+            default => usort($rows, static fn ($a, $b) => [(int) $a['is_closed'], $b['is_featured'], $a['created_order']] <=> [(int) $b['is_closed'], $a['is_featured'], $b['created_order']]),
+        };
+        return array_slice($rows, 0, max(1, min(60, (int) ($f['limit'] ?? 12))));
+    }
+
+    public function listingCategories(): array
+    {
+        $out = [];
+        foreach ((array) ($this->listings['categories'] ?? []) as $i => $c) {
+            $count = count(array_filter((array) ($this->listings['items'] ?? []), static fn ($it) => ($it['category'] ?? '') === $c['slug']));
+            $out[] = ['id' => $i + 1, 'name' => (string) $c['name'], 'slug' => (string) $c['slug'], 'description' => $c['description'] ?? null, 'image' => $c['image'] ?? null, 'listing_count' => $count];
+        }
+        return $out;
+    }
+
+    public function listingLocations(): array
+    {
+        $l = array_values(array_unique(array_filter(array_map(static fn ($it) => (string) ($it['location'] ?? ''), (array) ($this->listings['items'] ?? [])))));
+        sort($l);
+        return $l;
     }
 }
