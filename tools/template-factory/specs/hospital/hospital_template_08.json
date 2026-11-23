@@ -1,0 +1,75 @@
+{
+  "id": "hospital_template_08",
+  "name": "Vaidya Garden",
+  "prefix": "vga",
+  "niche": "ayurveda",
+  "seed": 8,
+  "direction": "Calm and traditional: centred masthead, colour-panel hero, leaf green and turmeric on parchment, Cormorant serif headings, tinted cards, a dark timings band.",
+  "description": "A calm, traditional design for Ayurveda, wellness and holistic-health centres: centred masthead, a colour-panel hero, serif headings, tinted treatment cards with images, programme pricing and round vaidya portraits.",
+  "theme": {
+    "primary": "#5B7F2A",
+    "secondary": "#C97B2E",
+    "bg": "#FBF6EC",
+    "text": "#2A2A1C",
+    "heading_font": "cormorant-garamond",
+    "body_font": "dm-sans",
+    "radius": "26px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "panel",
+    "banner": "image",
+    "head": "serif",
+    "card": "tint",
+    "about": "layered",
+    "services": "cards",
+    "stats": "cards",
+    "doctors": "cards",
+    "opening_hours": "band",
+    "process": "line",
+    "testimonials": "featured",
+    "cta": "box",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "boxed",
+    "footer": "centered"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 70%, #000)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "mark_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "0",
+    "hero_scale": 1.08,
+    "card": "#FFFDF8"
+  },
+  "demo": {
+    "service_images": true,
+    "home_services": 3,
+    "home_services_columns": "3",
+    "home": [
+      "hero",
+      "about",
+      "services",
+      "stats",
+      "features",
+      "doctors",
+      "testimonials",
+      "opening_hours",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

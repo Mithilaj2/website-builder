@@ -1,0 +1,1157 @@
+{
+  "settings": {
+    "site": {
+      "name": "Sunrise Multispeciality Hospital",
+      "tagline": "Multi-speciality hospital · Hyderabad",
+      "phone": "+91 40 4433 2211",
+      "emergency_phone": "+91 40 4433 1000",
+      "email": "care@sunrisehospital.example",
+      "address": "Road No. 12, Banjara Hills\nHyderabad, Telangana 500034",
+      "hours": "OPD: Mon–Sat 8 am – 8 pm",
+      "footer_about": "A 300-bed multi-speciality hospital with round-the-clock emergency care, modern operation theatres and experienced specialists.",
+      "footer_text": "All rights reserved.",
+      "rating": "NABH accredited",
+      "rating_label": "national standards for patient safety",
+      "header_button": {
+        "text": "Book appointment",
+        "url": "page:appointment"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Sunrise Multispeciality Hospital — multi-speciality hospital in Hyderabad. A 300-bed multi-speciality hospital with round-the-clock emergency care, modern operation theatres and experienced specialists.",
+      "keywords": "multi-speciality hospital, Hyderabad"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "24×7 emergency & trauma care",
+            "heading": "Expert care for every stage of life.",
+            "subheading": "Thirty-two specialities, 80 consultants and a 24-hour emergency department — with clear pricing and cashless insurance.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book appointment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Explore departments",
+              "url": "page:departments"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "300 beds, 60 ICU beds"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Cashless with 40+ insurers"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Ambulance in 15 minutes"
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Departments",
+            "heading": "Specialist care under one roof",
+            "description": "A 300-bed multi-speciality hospital with round-the-clock emergency care, modern operation theatres and experienced specialists.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Cardiology",
+                "description": "Heart check-ups, angiography, angioplasty and cardiac rehabilitation.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-activity",
+                "title": "Neurology",
+                "description": "Stroke care, epilepsy, headache and nerve disorders.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-person-wheelchair",
+                "title": "Orthopaedics",
+                "description": "Joint replacement, sports injuries and spine surgery.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-gender-female",
+                "title": "Obstetrics & Gynaecology",
+                "description": "Pregnancy care, high-risk deliveries and women’s health.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-scissors",
+                "title": "General & Laparoscopic Surgery",
+                "description": "Minimally invasive surgery with faster recovery.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Paediatrics",
+                "description": "Child health, vaccinations and a 20-bed neonatal ICU.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Sunrise",
+            "heading": "Two decades of trusted care in Hyderabad",
+            "description": "<p>Sunrise Multispeciality Hospital opened in 2005 with a promise of honest, high-quality care. Today our 300-bed hospital treats more than 2 lakh patients a year.</p><p>Our specialists work as teams across departments, so every patient gets a coordinated plan, clear explanations and fair, upfront pricing.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2005",
+            "experience_label": "Caring for patients since",
+            "points": [
+              {
+                "text": "NABH and NABL accredited"
+              },
+              {
+                "text": "24×7 emergency, ICU and blood bank"
+              },
+              {
+                "text": "Transparent package pricing"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "300",
+                "suffix": "",
+                "label": "Beds",
+                "icon": ""
+              },
+              {
+                "number": "80",
+                "suffix": "+",
+                "label": "Consultants",
+                "icon": ""
+              },
+              {
+                "number": "2",
+                "suffix": "L+",
+                "label": "Patients a year",
+                "icon": ""
+              },
+              {
+                "number": "24",
+                "suffix": "×7",
+                "label": "Emergency care",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "Doctors",
+            "heading": "Meet our specialists",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Kiran Kumar",
+                "qualification": "MD, DM (Cardiology)",
+                "specialty": "Cardiology",
+                "experience": "18 years",
+                "timings": "Mon–Sat, 9 am – 1 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Swathi Reddy",
+                "qualification": "MS, DNB (Obstetrics)",
+                "specialty": "Gynaecology",
+                "experience": "15 years",
+                "timings": "Mon–Fri, 10 am – 2 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Prakash Naidu",
+                "qualification": "MS (Ortho), Fellowship Joint Replacement",
+                "specialty": "Orthopaedics",
+                "experience": "20 years",
+                "timings": "Tue–Sat, 4 – 8 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Meera Iyer",
+                "qualification": "MD, DM (Neurology)",
+                "specialty": "Neurology",
+                "experience": "12 years",
+                "timings": "Mon–Sat, 11 am – 3 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "Meet the whole team",
+              "url": "page:doctors"
+            }
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient (OPD)",
+                "hours": "Mon–Sat, 8 am – 8 pm"
+              },
+              {
+                "label": "Sunday OPD",
+                "hours": "9 am – 1 pm"
+              },
+              {
+                "label": "Emergency & trauma",
+                "hours": "24 hours, every day"
+              },
+              {
+                "label": "Pharmacy",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Laboratory",
+                "hours": "6 am – 10 pm"
+              },
+              {
+                "label": "Visiting hours",
+                "hours": "4 – 7 pm"
+              }
+            ],
+            "highlight_label": "Emergency",
+            "highlight_value": "Open 24 hours, 7 days",
+            "note": "Please carry previous reports and a photo ID for your first visit."
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Patient stories",
+            "heading": "What our patients say",
+            "items": [
+              {
+                "quote": "The emergency team saved my father’s life after his heart attack. We are forever grateful.",
+                "name": "Ravi Kumar",
+                "role": "Patient’s son",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "My knee replacement was smooth and the price was exactly as quoted.",
+                "name": "Lakshmi Devi",
+                "role": "Orthopaedics patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Clean rooms, caring nurses and doctors who explained everything clearly.",
+                "name": "Syed Ahmed",
+                "role": "General surgery patient",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Cashless treatment with leading insurers",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "MediShield",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "CareSure",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "HealthFirst TPA",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "SecureLife",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Arogya Plus",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Need to see a specialist?",
+            "description": "Book an appointment online or call our helpdesk — we will find the right doctor for you.",
+            "background_image": "",
+            "button": {
+              "text": "Book appointment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914044331000"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Sunrise Multispeciality Hospital",
+            "subheading": "A 300-bed multi-speciality hospital with round-the-clock emergency care, modern operation theatres and experienced specialists.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Sunrise",
+            "heading": "Two decades of trusted care in Hyderabad",
+            "description": "<p>Sunrise Multispeciality Hospital opened in 2005 with a promise of honest, high-quality care. Today our 300-bed hospital treats more than 2 lakh patients a year.</p><p>Our specialists work as teams across departments, so every patient gets a coordinated plan, clear explanations and fair, upfront pricing.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2005",
+            "experience_label": "Caring for patients since",
+            "points": [
+              {
+                "text": "NABH and NABL accredited"
+              },
+              {
+                "text": "24×7 emergency, ICU and blood bank"
+              },
+              {
+                "text": "Transparent package pricing"
+              }
+            ],
+            "button": {
+              "text": "Book appointment",
+              "url": "page:appointment"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "300",
+                "suffix": "",
+                "label": "Beds",
+                "icon": ""
+              },
+              {
+                "number": "80",
+                "suffix": "+",
+                "label": "Consultants",
+                "icon": ""
+              },
+              {
+                "number": "2",
+                "suffix": "L+",
+                "label": "Patients a year",
+                "icon": ""
+              },
+              {
+                "number": "24",
+                "suffix": "×7",
+                "label": "Emergency care",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why families trust Sunrise",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-shield-plus",
+                "title": "Accredited quality",
+                "description": "NABH-accredited processes for patient safety."
+              },
+              {
+                "icon": "bi-cash-coin",
+                "title": "Clear pricing",
+                "description": "Fixed-price packages for common procedures."
+              },
+              {
+                "icon": "bi-credit-card",
+                "title": "Cashless insurance",
+                "description": "Tie-ups with 40+ insurers and TPAs."
+              },
+              {
+                "icon": "bi-telephone-inbound",
+                "title": "Patient helpdesk",
+                "description": "A care coordinator for every admitted patient."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our care",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. Venkat Rao",
+                "role": "Medical Director",
+                "bio": "Cardiologist with 30 years’ experience.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Ms. Anita Reddy",
+                "role": "Chief Executive",
+                "bio": "Twenty years in hospital management.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Ms. Grace Thomas",
+                "role": "Chief Nursing Officer",
+                "bio": "Leads a team of 420 nurses.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Dr. Farhan Ali",
+                "role": "Head, Emergency",
+                "bio": "Emergency physician and trauma specialist.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Facilities",
+            "heading": "Inside our hospital",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Emergency and ambulance"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Cardiac care"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Consultation room"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Imaging suite"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Operation theatre"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Children’s ward"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "departments": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Departments",
+            "subheading": "A 300-bed multi-speciality hospital with round-the-clock emergency care, modern operation theatres and experienced specialists.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "",
+            "heading": "All departments",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Cardiology",
+                "description": "Heart check-ups, angiography, angioplasty and cardiac rehabilitation.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-activity",
+                "title": "Neurology",
+                "description": "Stroke care, epilepsy, headache and nerve disorders.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-person-wheelchair",
+                "title": "Orthopaedics",
+                "description": "Joint replacement, sports injuries and spine surgery.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-gender-female",
+                "title": "Obstetrics & Gynaecology",
+                "description": "Pregnancy care, high-risk deliveries and women’s health.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-scissors",
+                "title": "General & Laparoscopic Surgery",
+                "description": "Minimally invasive surgery with faster recovery.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Paediatrics",
+                "description": "Child health, vaccinations and a 20-bed neonatal ICU.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar2-plus",
+                "title": "Book online or call",
+                "description": "Choose a department, doctor and time."
+              },
+              {
+                "icon": "bi-person-badge",
+                "title": "Register",
+                "description": "Quick registration at the front desk."
+              },
+              {
+                "icon": "bi-clipboard2-pulse",
+                "title": "Consult",
+                "description": "Meet your doctor and get tests if needed."
+              },
+              {
+                "icon": "bi-capsule",
+                "title": "Follow-up",
+                "description": "Reports, prescriptions and reminders by SMS."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you accept insurance?",
+                "answer": "Yes. We offer cashless treatment with more than 40 insurers and TPAs."
+              },
+              {
+                "question": "Is emergency care available at night?",
+                "answer": "Yes, our emergency department, ICU and pharmacy are open 24×7."
+              },
+              {
+                "question": "How do I get my reports?",
+                "answer": "Reports are sent by SMS and email and can be collected from the front desk."
+              },
+              {
+                "question": "Can I book a specific doctor?",
+                "answer": "Yes, choose the doctor and time when booking online or by phone."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Need to see a specialist?",
+            "description": "Book an appointment online or call our helpdesk — we will find the right doctor for you.",
+            "background_image": "",
+            "button": {
+              "text": "Book appointment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914044331000"
+            }
+          }
+        }
+      ]
+    },
+    "doctors": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Doctors",
+            "subheading": "Experienced specialists, with their timings — book directly with the doctor you prefer.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "",
+            "heading": "Find your specialist",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Kiran Kumar",
+                "qualification": "MD, DM (Cardiology)",
+                "specialty": "Cardiology",
+                "experience": "18 years",
+                "timings": "Mon–Sat, 9 am – 1 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Swathi Reddy",
+                "qualification": "MS, DNB (Obstetrics)",
+                "specialty": "Gynaecology",
+                "experience": "15 years",
+                "timings": "Mon–Fri, 10 am – 2 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Prakash Naidu",
+                "qualification": "MS (Ortho), Fellowship Joint Replacement",
+                "specialty": "Orthopaedics",
+                "experience": "20 years",
+                "timings": "Tue–Sat, 4 – 8 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Meera Iyer",
+                "qualification": "MD, DM (Neurology)",
+                "specialty": "Neurology",
+                "experience": "12 years",
+                "timings": "Mon–Sat, 11 am – 3 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Arjun Varma",
+                "qualification": "MS, FMAS",
+                "specialty": "General Surgery",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 9 am – 12 noon",
+                "photo": "theme:images/doctor-5.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Nisha Gupta",
+                "qualification": "MD (Paediatrics)",
+                "specialty": "Paediatrics",
+                "experience": "10 years",
+                "timings": "Mon–Sat, 5 – 8 pm",
+                "photo": "theme:images/doctor-6.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Sameer Khan",
+                "qualification": "MD (Internal Medicine)",
+                "specialty": "Internal Medicine",
+                "experience": "16 years",
+                "timings": "Mon–Sat, 8 am – 12 noon",
+                "photo": "theme:images/doctor-7.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Pooja Menon",
+                "qualification": "MD (Radiology)",
+                "specialty": "Radiology",
+                "experience": "9 years",
+                "timings": "Daily, 9 am – 5 pm",
+                "photo": "theme:images/doctor-8.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Need to see a specialist?",
+            "description": "Book an appointment online or call our helpdesk — we will find the right doctor for you.",
+            "background_image": "",
+            "button": {
+              "text": "Book appointment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914044331000"
+            }
+          }
+        }
+      ]
+    },
+    "health-packages": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Check-ups",
+            "subheading": "Clear prices for check-ups and common treatments.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Check-ups",
+            "heading": "Clear, upfront prices",
+            "description": "Prices include taxes. Packages can be booked online or at the front desk.",
+            "plans": [
+              {
+                "name": "Basic health check",
+                "price": "₹1,999",
+                "period": "person",
+                "features": "Blood sugar & lipid profile\nKidney & liver tests\nECG\nPhysician consultation",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              },
+              {
+                "name": "Executive check-up",
+                "price": "₹5,499",
+                "period": "person",
+                "features": "60+ tests\nEcho & treadmill test\nChest X-ray & ultrasound\nSpecialist consultations\nDiet counselling",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": true
+              },
+              {
+                "name": "Senior citizen check-up",
+                "price": "₹3,999",
+                "period": "person",
+                "features": "Heart, bone & eye checks\nThyroid & vitamin tests\nGeriatric consultation",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you accept insurance?",
+                "answer": "Yes. We offer cashless treatment with more than 40 insurers and TPAs."
+              },
+              {
+                "question": "Is emergency care available at night?",
+                "answer": "Yes, our emergency department, ICU and pharmacy are open 24×7."
+              },
+              {
+                "question": "How do I get my reports?",
+                "answer": "Reports are sent by SMS and email and can be collected from the front desk."
+              },
+              {
+                "question": "Can I book a specific doctor?",
+                "answer": "Yes, choose the doctor and time when booking online or by phone."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Need to see a specialist?",
+            "description": "Book an appointment online or call our helpdesk — we will find the right doctor for you.",
+            "background_image": "",
+            "button": {
+              "text": "Book appointment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914044331000"
+            }
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Appointment",
+            "subheading": "Request an appointment online — we will call you to confirm.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Appointment",
+            "heading": "Book an appointment",
+            "description": "Choose a service and a convenient time — our team will call to confirm.",
+            "form_type": "appointment",
+            "form_heading": "Book an appointment",
+            "select1_label": "Department",
+            "select1_options": "Cardiology\nNeurology\nOrthopaedics\nObstetrics & Gynaecology\nGeneral Surgery\nPaediatrics\nInternal Medicine",
+            "select2_label": "Preferred time",
+            "select2_options": "Morning (8 am – 12 noon)\nAfternoon (12 – 4 pm)\nEvening (4 – 8 pm)",
+            "date_label": "Preferred date",
+            "message_label": "Symptoms or reason for visit",
+            "email_required": false,
+            "button_text": "Request appointment",
+            "success_message": "Thank you! Our team will call you to confirm your appointment.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We confirm by phone",
+                "text": "Usually within an hour"
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Timings",
+                "text": "OPD: Mon–Sat 8 am – 8 pm"
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Bring your reports",
+                "text": "Previous prescriptions and test results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar2-plus",
+                "title": "Book online or call",
+                "description": "Choose a department, doctor and time."
+              },
+              {
+                "icon": "bi-person-badge",
+                "title": "Register",
+                "description": "Quick registration at the front desk."
+              },
+              {
+                "icon": "bi-clipboard2-pulse",
+                "title": "Consult",
+                "description": "Meet your doctor and get tests if needed."
+              },
+              {
+                "icon": "bi-capsule",
+                "title": "Follow-up",
+                "description": "Reports, prescriptions and reminders by SMS."
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient (OPD)",
+                "hours": "Mon–Sat, 8 am – 8 pm"
+              },
+              {
+                "label": "Sunday OPD",
+                "hours": "9 am – 1 pm"
+              },
+              {
+                "label": "Emergency & trauma",
+                "hours": "24 hours, every day"
+              },
+              {
+                "label": "Pharmacy",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Laboratory",
+                "hours": "6 am – 10 pm"
+              },
+              {
+                "label": "Visiting hours",
+                "hours": "4 – 7 pm"
+              }
+            ],
+            "highlight_label": "Emergency",
+            "highlight_value": "Open 24 hours, 7 days",
+            "note": "Please carry previous reports and a photo ID for your first visit."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Visit us, call us or send a message — we are here to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are here to help",
+            "description": "Reach our Hyderabad team by phone, email or the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient (OPD)",
+                "hours": "Mon–Sat, 8 am – 8 pm"
+              },
+              {
+                "label": "Sunday OPD",
+                "hours": "9 am – 1 pm"
+              },
+              {
+                "label": "Emergency & trauma",
+                "hours": "24 hours, every day"
+              },
+              {
+                "label": "Pharmacy",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Laboratory",
+                "hours": "6 am – 10 pm"
+              },
+              {
+                "label": "Visiting hours",
+                "hours": "4 – 7 pm"
+              }
+            ],
+            "highlight_label": "Emergency",
+            "highlight_value": "Open 24 hours, 7 days",
+            "note": "Please carry previous reports and a photo ID for your first visit."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Sunrise Multispeciality Hospital collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

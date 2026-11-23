@@ -1,0 +1,188 @@
+{
+  "id": "hospital_template_04",
+  "name": "ClearSight Clinic",
+  "category": "hospital",
+  "version": "1.0.0",
+  "description": "A precise, clinical design for eye hospitals and specialist clinics: dark navigation with the emergency number, an editorial hero, numbered speciality rows, doctor list cards and a timeline visit process.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#1D4E89",
+      "secondary": "#F7B32B",
+      "bg": "#FFFFFF",
+      "text": "#0F2238",
+      "heading_font": "montserrat",
+      "body_font": "open-sans",
+      "radius": "6px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "pricing",
+    "doctors",
+    "opening_hours",
+    "booking_form"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "stats",
+        "services",
+        "about",
+        "doctors",
+        "testimonials",
+        "opening_hours",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team",
+        "gallery"
+      ]
+    },
+    "departments": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "doctors": {
+      "default_sections": [
+        "page_banner",
+        "doctors",
+        "cta"
+      ]
+    },
+    "packages": {
+      "default_sections": [
+        "page_banner",
+        "pricing",
+        "faq",
+        "cta"
+      ]
+    },
+    "appointment": {
+      "default_sections": [
+        "page_banner",
+        "booking_form",
+        "process",
+        "opening_hours"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact",
+        "opening_hours"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Specialities",
+      "slug": "departments",
+      "type": "departments"
+    },
+    {
+      "title": "Specialists",
+      "slug": "doctors",
+      "type": "doctors"
+    },
+    {
+      "title": "Packages",
+      "slug": "health-packages",
+      "type": "packages"
+    },
+    {
+      "title": "Appointment",
+      "slug": "appointment",
+      "type": "appointment"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

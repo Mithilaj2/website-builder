@@ -1,0 +1,76 @@
+{
+  "id": "hospital_template_09",
+  "name": "Mother’s Nest",
+  "prefix": "mnw",
+  "niche": "maternity",
+  "seed": 9,
+  "direction": "Tender and reassuring: info bar with the emergency number, split hero, berry and blush on soft white, Lora serif headings, soft cards, round portraits and a light footer.",
+  "description": "A tender, reassuring design for maternity, women’s and fertility hospitals: emergency number in the info bar, a split hero, serif headings, service cards, doctor cards and a berry call-to-action band.",
+  "theme": {
+    "primary": "#B23A6F",
+    "secondary": "#F7C8D8",
+    "bg": "#FFF9FA",
+    "text": "#2E1824",
+    "heading_font": "lora",
+    "body_font": "plus-jakarta-sans",
+    "radius": "20px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "split",
+    "banner": "light",
+    "head": "serif",
+    "card": "shadow",
+    "about": "grid",
+    "services": "cards",
+    "stats": "inline",
+    "doctors": "cards",
+    "opening_hours": "panel",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "band",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "light",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "color-mix(in srgb, var(--wb-primary) 80%, #000)",
+    "on_accent_hover": "#FFFFFF",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "-.01em",
+    "card": "#FFFFFF",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "extra_css": ".mnw .mnw-icon { color: var(--wb-primary); background: rgba(var(--wb-secondary-rgb), .45); }\n.mnw .mnw-tag, .mnw .mnw-plan-tag { color: #2E1824; }",
+  "demo": {
+    "service_images": false,
+    "home_services": 6,
+    "home": [
+      "hero",
+      "services",
+      "about",
+      "stats",
+      "doctors",
+      "testimonials",
+      "opening_hours",
+      "logos",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

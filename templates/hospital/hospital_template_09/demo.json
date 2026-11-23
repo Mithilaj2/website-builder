@@ -1,0 +1,1145 @@
+{
+  "settings": {
+    "site": {
+      "name": "Mother’s Nest Women’s Hospital",
+      "tagline": "Maternity & women’s hospital · Ahmedabad",
+      "phone": "+91 79 2656 4400",
+      "emergency_phone": "+91 79 2656 4411",
+      "email": "care@mothersnest.example",
+      "address": "Prahlad Nagar Road\nAhmedabad, Gujarat 380015",
+      "hours": "OPD: Mon–Sat 9 am – 8 pm",
+      "footer_about": "A women’s and maternity hospital with a 24×7 labour room, NICU, fertility clinic and gynaecology care.",
+      "footer_text": "All rights reserved.",
+      "rating": "12,000+ happy births",
+      "rating_label": "since 2007",
+      "header_button": {
+        "text": "Book a consultation",
+        "url": "page:appointment"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Mother’s Nest Women’s Hospital — maternity & women’s hospital in Ahmedabad. A women’s and maternity hospital with a 24×7 labour room, NICU, fertility clinic and gynaecology care.",
+      "keywords": "maternity & women’s hospital, Ahmedabad"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "24×7 labour room & NICU",
+            "heading": "Caring for mothers, welcoming new life.",
+            "subheading": "Pregnancy care, natural and painless births, high-risk obstetrics and a level-III NICU — with warm, private family suites.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:departments"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Painless delivery option"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Private family suites"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Lactation support"
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Services",
+            "heading": "Specialist care under one roof",
+            "description": "A women’s and maternity hospital with a 24×7 labour room, NICU, fertility clinic and gynaecology care.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-heart",
+                "title": "Pregnancy care",
+                "description": "Antenatal visits, scans and classes for parents-to-be.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "NICU & newborn care",
+                "description": "Level-III NICU and newborn check-ups.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-radioactive",
+                "title": "Foetal medicine & scans",
+                "description": "Level-II scans, NT scans and foetal echo.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Labour & delivery",
+                "description": "Natural, painless and caesarean births.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Vaccinations",
+                "description": "Pregnancy and newborn vaccinations.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-gender-female",
+                "title": "Gynaecology",
+                "description": "Menstrual problems, PCOS, menopause and surgery.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "Where every mother feels at home",
+            "description": "<p>Mother’s Nest was founded by obstetricians who wanted childbirth to be safe, respectful and joyful. Our 80-bed hospital has welcomed over 12,000 babies.</p><p>From first scan to first steps, our doctors, midwives and paediatricians care for mother and baby as one team.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2007",
+            "experience_label": "Welcoming babies since",
+            "points": [
+              {
+                "text": "Senior obstetricians 24×7"
+              },
+              {
+                "text": "Level-III NICU on the same floor"
+              },
+              {
+                "text": "Birth-plan friendly"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12000",
+                "suffix": "+",
+                "label": "Births",
+                "icon": ""
+              },
+              {
+                "number": "80",
+                "suffix": "",
+                "label": "Beds",
+                "icon": ""
+              },
+              {
+                "number": "20",
+                "suffix": "",
+                "label": "NICU beds",
+                "icon": ""
+              },
+              {
+                "number": "24",
+                "suffix": "×7",
+                "label": "Labour room",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "Doctors",
+            "heading": "Meet our specialists",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Hetal Desai",
+                "qualification": "MD, DGO",
+                "specialty": "Obstetrics",
+                "experience": "28 years",
+                "timings": "Mon–Sat, 10 am – 2 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Ami Patel",
+                "qualification": "MS, FMAS",
+                "specialty": "Gynaecology",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 4 – 8 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Nirav Shah",
+                "qualification": "MD, DM (Neonatology)",
+                "specialty": "Neonatology",
+                "experience": "16 years",
+                "timings": "Daily, 9 am – 1 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Shruti Joshi",
+                "qualification": "MD, Fellowship Foetal Medicine",
+                "specialty": "Foetal medicine",
+                "experience": "11 years",
+                "timings": "Mon–Sat, 9 am – 1 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "Meet the whole team",
+              "url": "page:doctors"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Patient stories",
+            "heading": "What our patients say",
+            "items": [
+              {
+                "quote": "From the first scan to delivery, the doctors made us feel safe and cared for.",
+                "name": "Pooja & Harsh Patel",
+                "role": "New parents",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "My high-risk pregnancy was managed so carefully. Our daughter is healthy and happy.",
+                "name": "Komal Shah",
+                "role": "Mother",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The lactation team was wonderful in those first difficult days.",
+                "name": "Riddhi Mehta",
+                "role": "Mother",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient clinic",
+                "hours": "Mon–Sat, 9 am – 8 pm"
+              },
+              {
+                "label": "Labour room",
+                "hours": "24 hours"
+              },
+              {
+                "label": "NICU",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Scans",
+                "hours": "Mon–Sat, 8 am – 6 pm"
+              },
+              {
+                "label": "Visiting hours",
+                "hours": "4 – 7 pm"
+              }
+            ],
+            "highlight_label": "In labour?",
+            "highlight_value": "Come straight in, 24×7",
+            "note": "Please bring your antenatal file to every visit."
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Cashless maternity with",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "MomCare TPA",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "CareSure",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "MediShield",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "SecureLife",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "HealthFirst TPA",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Expecting? Let us care for you both.",
+            "description": "Book your first consultation and meet our obstetric team.",
+            "background_image": "",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+917926564411"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Mother’s Nest Women’s Hospital",
+            "subheading": "A women’s and maternity hospital with a 24×7 labour room, NICU, fertility clinic and gynaecology care.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "Where every mother feels at home",
+            "description": "<p>Mother’s Nest was founded by obstetricians who wanted childbirth to be safe, respectful and joyful. Our 80-bed hospital has welcomed over 12,000 babies.</p><p>From first scan to first steps, our doctors, midwives and paediatricians care for mother and baby as one team.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2007",
+            "experience_label": "Welcoming babies since",
+            "points": [
+              {
+                "text": "Senior obstetricians 24×7"
+              },
+              {
+                "text": "Level-III NICU on the same floor"
+              },
+              {
+                "text": "Birth-plan friendly"
+              }
+            ],
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12000",
+                "suffix": "+",
+                "label": "Births",
+                "icon": ""
+              },
+              {
+                "number": "80",
+                "suffix": "",
+                "label": "Beds",
+                "icon": ""
+              },
+              {
+                "number": "20",
+                "suffix": "",
+                "label": "NICU beds",
+                "icon": ""
+              },
+              {
+                "number": "24",
+                "suffix": "×7",
+                "label": "Labour room",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why mothers choose us",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-house-heart",
+                "title": "Family suites",
+                "description": "Private rooms where your partner can stay."
+              },
+              {
+                "icon": "bi-person-hearts",
+                "title": "Respectful birth",
+                "description": "Your birth plan, discussed and respected."
+              },
+              {
+                "icon": "bi-droplet-half",
+                "title": "Lactation support",
+                "description": "Certified lactation counsellors on every shift."
+              },
+              {
+                "icon": "bi-cash-coin",
+                "title": "Fixed packages",
+                "description": "Clear maternity package prices."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our care",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. Hetal Desai",
+                "role": "Founder & Medical Director",
+                "bio": "Obstetrician, 28 years’ experience.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Dr. Nirav Shah",
+                "role": "Head, Neonatology",
+                "bio": "Leads our level-III NICU.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Ms. Sister Mary",
+                "role": "Chief Midwife",
+                "bio": "Has assisted thousands of births.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Mr. Kunal Trivedi",
+                "role": "Administrator",
+                "bio": "Runs hospital operations.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Facilities",
+            "heading": "Inside our hospital",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Maternity care"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Children’s ward"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Imaging suite"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Patient room"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Vaccination"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Consultation room"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "departments": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "A women’s and maternity hospital with a 24×7 labour room, NICU, fertility clinic and gynaecology care.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "",
+            "heading": "All services",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-heart",
+                "title": "Pregnancy care",
+                "description": "Antenatal visits, scans and classes for parents-to-be.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "NICU & newborn care",
+                "description": "Level-III NICU and newborn check-ups.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-radioactive",
+                "title": "Foetal medicine & scans",
+                "description": "Level-II scans, NT scans and foetal echo.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Labour & delivery",
+                "description": "Natural, painless and caesarean births.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Vaccinations",
+                "description": "Pregnancy and newborn vaccinations.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-gender-female",
+                "title": "Gynaecology",
+                "description": "Menstrual problems, PCOS, menopause and surgery.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-heart",
+                "title": "First visit",
+                "description": "Consultation and pregnancy confirmation."
+              },
+              {
+                "icon": "bi-clipboard2-heart",
+                "title": "Antenatal plan",
+                "description": "Scans, tests and visits scheduled."
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Birth",
+                "description": "Admission, delivery and newborn check."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Going home",
+                "description": "Feeding support and follow-ups."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Can my partner stay with me?",
+                "answer": "Yes, partners can stay in the private and family suites."
+              },
+              {
+                "question": "Do you offer painless delivery?",
+                "answer": "Yes, epidural analgesia is available 24×7."
+              },
+              {
+                "question": "Is there a NICU in the hospital?",
+                "answer": "Yes, our level-III NICU is on the same floor as the labour rooms."
+              },
+              {
+                "question": "Are maternity packages covered by insurance?",
+                "answer": "Many policies cover maternity; we offer cashless claims with major insurers."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Expecting? Let us care for you both.",
+            "description": "Book your first consultation and meet our obstetric team.",
+            "background_image": "",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+917926564411"
+            }
+          }
+        }
+      ]
+    },
+    "doctors": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Doctors",
+            "subheading": "Experienced specialists, with their timings — book directly with the doctor you prefer.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "",
+            "heading": "Find your specialist",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Hetal Desai",
+                "qualification": "MD, DGO",
+                "specialty": "Obstetrics",
+                "experience": "28 years",
+                "timings": "Mon–Sat, 10 am – 2 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Ami Patel",
+                "qualification": "MS, FMAS",
+                "specialty": "Gynaecology",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 4 – 8 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Nirav Shah",
+                "qualification": "MD, DM (Neonatology)",
+                "specialty": "Neonatology",
+                "experience": "16 years",
+                "timings": "Daily, 9 am – 1 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Shruti Joshi",
+                "qualification": "MD, Fellowship Foetal Medicine",
+                "specialty": "Foetal medicine",
+                "experience": "11 years",
+                "timings": "Mon–Sat, 9 am – 1 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Bhavna Mehta",
+                "qualification": "MD, Fellowship Reproductive Medicine",
+                "specialty": "Fertility",
+                "experience": "13 years",
+                "timings": "Tue–Sat, 11 am – 4 pm",
+                "photo": "theme:images/doctor-5.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Rakesh Parikh",
+                "qualification": "MD (Anaesthesia)",
+                "specialty": "Painless delivery",
+                "experience": "15 years",
+                "timings": "On call 24×7",
+                "photo": "theme:images/doctor-6.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Kinjal Shah",
+                "qualification": "MD (Paediatrics)",
+                "specialty": "Newborn care",
+                "experience": "9 years",
+                "timings": "Mon–Sat, 5 – 8 pm",
+                "photo": "theme:images/doctor-7.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Neha Vyas",
+                "qualification": "MS (Obstetrics)",
+                "specialty": "High-risk pregnancy",
+                "experience": "10 years",
+                "timings": "Mon–Fri, 9 am – 12 noon",
+                "photo": "theme:images/doctor-8.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Expecting? Let us care for you both.",
+            "description": "Book your first consultation and meet our obstetric team.",
+            "background_image": "",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+917926564411"
+            }
+          }
+        }
+      ]
+    },
+    "health-packages": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Packages",
+            "subheading": "Clear prices for check-ups and common treatments.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Packages",
+            "heading": "Clear, upfront prices",
+            "description": "Prices include taxes. Packages can be booked online or at the front desk.",
+            "plans": [
+              {
+                "name": "Normal delivery",
+                "price": "₹45,000",
+                "period": "package",
+                "features": "Two-day stay\nDelivery & newborn check\nLactation support",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              },
+              {
+                "name": "Caesarean delivery",
+                "price": "₹95,000",
+                "period": "package",
+                "features": "Four-day stay\nSurgery & anaesthesia\nNewborn check & vaccines\nPrivate room",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": true
+              },
+              {
+                "name": "Antenatal care",
+                "price": "₹18,000",
+                "period": "pregnancy",
+                "features": "All antenatal visits\nRoutine scans & tests\nParenting classes",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Can my partner stay with me?",
+                "answer": "Yes, partners can stay in the private and family suites."
+              },
+              {
+                "question": "Do you offer painless delivery?",
+                "answer": "Yes, epidural analgesia is available 24×7."
+              },
+              {
+                "question": "Is there a NICU in the hospital?",
+                "answer": "Yes, our level-III NICU is on the same floor as the labour rooms."
+              },
+              {
+                "question": "Are maternity packages covered by insurance?",
+                "answer": "Many policies cover maternity; we offer cashless claims with major insurers."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Expecting? Let us care for you both.",
+            "description": "Book your first consultation and meet our obstetric team.",
+            "background_image": "",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+917926564411"
+            }
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Appointment",
+            "subheading": "Request an appointment online — we will call you to confirm.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Appointment",
+            "heading": "Book a consultation",
+            "description": "Choose a service and a convenient time — our team will call to confirm.",
+            "form_type": "appointment",
+            "form_heading": "Book a consultation",
+            "select1_label": "Service",
+            "select1_options": "Pregnancy consultation\nScan\nGynaecology\nFertility\nNewborn check\nVaccination",
+            "select2_label": "Weeks pregnant",
+            "select2_options": "Not pregnant\nUnder 12 weeks\n12–28 weeks\nOver 28 weeks",
+            "date_label": "Preferred date",
+            "message_label": "Questions or concerns",
+            "email_required": false,
+            "button_text": "Request appointment",
+            "success_message": "Thank you! We will call you to confirm your appointment.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We confirm by phone",
+                "text": "Usually within an hour"
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Timings",
+                "text": "OPD: Mon–Sat 9 am – 8 pm"
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Bring your reports",
+                "text": "Previous prescriptions and test results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-heart",
+                "title": "First visit",
+                "description": "Consultation and pregnancy confirmation."
+              },
+              {
+                "icon": "bi-clipboard2-heart",
+                "title": "Antenatal plan",
+                "description": "Scans, tests and visits scheduled."
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Birth",
+                "description": "Admission, delivery and newborn check."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Going home",
+                "description": "Feeding support and follow-ups."
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient clinic",
+                "hours": "Mon–Sat, 9 am – 8 pm"
+              },
+              {
+                "label": "Labour room",
+                "hours": "24 hours"
+              },
+              {
+                "label": "NICU",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Scans",
+                "hours": "Mon–Sat, 8 am – 6 pm"
+              },
+              {
+                "label": "Visiting hours",
+                "hours": "4 – 7 pm"
+              }
+            ],
+            "highlight_label": "In labour?",
+            "highlight_value": "Come straight in, 24×7",
+            "note": "Please bring your antenatal file to every visit."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Visit us, call us or send a message — we are here to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are here to help",
+            "description": "Reach our Ahmedabad team by phone, email or the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient clinic",
+                "hours": "Mon–Sat, 9 am – 8 pm"
+              },
+              {
+                "label": "Labour room",
+                "hours": "24 hours"
+              },
+              {
+                "label": "NICU",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Scans",
+                "hours": "Mon–Sat, 8 am – 6 pm"
+              },
+              {
+                "label": "Visiting hours",
+                "hours": "4 – 7 pm"
+              }
+            ],
+            "highlight_label": "In labour?",
+            "highlight_value": "Come straight in, 24×7",
+            "note": "Please bring your antenatal file to every visit."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Mother’s Nest Women’s Hospital collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

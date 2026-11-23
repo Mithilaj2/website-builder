@@ -1,0 +1,71 @@
+{
+  "id": "hospital_template_05",
+  "name": "Little Hearts",
+  "prefix": "lhc",
+  "niche": "paeds",
+  "seed": 5,
+  "direction": "Warm and playful: info bar with the emergency number, centred hero over a playground panorama, periwinkle and sunflower on cream, shadowed image cards, round portraits.",
+  "description": "A warm, playful design for children’s hospitals, paediatric and family clinics: centred hero with a playground panorama, department image cards, a dark timings band and round doctor portraits.",
+  "theme": {
+    "primary": "#5E60CE",
+    "secondary": "#FFB703",
+    "bg": "#FFFCF5",
+    "text": "#221F3A",
+    "heading_font": "poppins",
+    "body_font": "inter",
+    "radius": "22px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "stack",
+    "banner": "light",
+    "head": "pill",
+    "card": "shadow",
+    "about": "grid",
+    "services": "cards",
+    "stats": "cards",
+    "doctors": "cards",
+    "opening_hours": "band",
+    "process": "line",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "boxed",
+    "footer": "band"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "50%",
+    "mark_radius": "50%",
+    "card": "#FFFFFF"
+  },
+  "extra_css": ".lhc .lhc-doctor-photo { border-radius: var(--lhc-radius-lg) var(--lhc-radius-lg) 0 0; }\n.lhc .lhc-hero-stack .lhc-hero-frame img { object-position: 50% 92%; }",
+  "demo": {
+    "service_images": true,
+    "home_services": 3,
+    "home_services_columns": "3",
+    "home": [
+      "hero",
+      "services",
+      "about",
+      "stats",
+      "doctors",
+      "opening_hours",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

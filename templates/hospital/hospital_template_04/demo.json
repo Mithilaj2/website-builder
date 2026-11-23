@@ -1,0 +1,1100 @@
+{
+  "settings": {
+    "site": {
+      "name": "ClearSight Eye Hospital",
+      "tagline": "Eye hospital & LASIK centre · Madurai",
+      "phone": "+91 452 253 9900",
+      "emergency_phone": "+91 452 253 9911",
+      "email": "care@clearsight.example",
+      "address": "KK Nagar Main Road\nMadurai, Tamil Nadu 625020",
+      "hours": "Mon–Sat: 8 am – 7 pm",
+      "footer_about": "A specialist eye hospital for cataract, LASIK, retina, glaucoma and children’s eye care.",
+      "footer_text": "All rights reserved.",
+      "rating": "1.5 lakh+ surgeries",
+      "rating_label": "performed since 1998",
+      "header_button": {
+        "text": "Book an eye check-up",
+        "url": "page:appointment"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "ClearSight Eye Hospital — eye hospital & lasik centre in Madurai. A specialist eye hospital for cataract, LASIK, retina, glaucoma and children’s eye care.",
+      "keywords": "eye hospital & lasik centre, Madurai"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Cataract · LASIK · Retina",
+            "heading": "See life clearly again.",
+            "subheading": "Advanced cataract and refractive surgery, retina and glaucoma care, and children’s eye clinics — all under one roof.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book an eye check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Explore specialities",
+              "url": "page:departments"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Blade-free LASIK"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Premium lens options"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Day-care surgery"
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1.5",
+                "suffix": "L+",
+                "label": "Surgeries",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": "",
+                "label": "Beds",
+                "icon": ""
+              },
+              {
+                "number": "22",
+                "suffix": "",
+                "label": "Eye specialists",
+                "icon": ""
+              },
+              {
+                "number": "28",
+                "suffix": "",
+                "label": "Years of care",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Specialities",
+            "heading": "Specialist care under one roof",
+            "description": "A specialist eye hospital for cataract, LASIK, retina, glaucoma and children’s eye care.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-eye",
+                "title": "Cataract surgery",
+                "description": "Micro-incision surgery with monofocal, toric and multifocal lenses.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-search",
+                "title": "Comprehensive eye check",
+                "description": "Vision, pressure and retina checks for the whole family.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-bullseye",
+                "title": "LASIK & refractive surgery",
+                "description": "Blade-free LASIK, SMILE and ICL for freedom from glasses.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Paediatric ophthalmology",
+                "description": "Squint, lazy eye and vision screening for children.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-circle-half",
+                "title": "Retina & diabetic eye",
+                "description": "Retina scans, lasers and injections for diabetic eye disease.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-eyeglasses",
+                "title": "Optical store",
+                "description": "Prescription glasses and contact lenses fitted on site.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About ClearSight",
+            "heading": "Restoring sight for over 25 years",
+            "description": "<p>ClearSight began as a small cataract clinic in 1998. Today we are a 60-bed eye hospital with specialists in every area of eye care and more than 1.5 lakh surgeries behind us.</p><p>We use the latest diagnostic and laser systems, and offer free screening camps in villages around Madurai every month.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1998",
+            "experience_label": "Restoring sight since",
+            "points": [
+              {
+                "text": "Fellowship-trained eye surgeons"
+              },
+              {
+                "text": "Modular eye operation theatres"
+              },
+              {
+                "text": "Monthly free screening camps"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "Specialists",
+            "heading": "Meet our specialists",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. S. Raghavan",
+                "qualification": "MS, FRCS (Ophthalmology)",
+                "specialty": "Cataract",
+                "experience": "35 years",
+                "timings": "Mon–Sat, 9 am – 1 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Priya Ramesh",
+                "qualification": "MS, Fellowship Cornea & Refractive",
+                "specialty": "LASIK",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 10 am – 4 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Arun Kumar",
+                "qualification": "MS, Fellowship Vitreo-Retina",
+                "specialty": "Retina",
+                "experience": "16 years",
+                "timings": "Mon–Sat, 2 – 6 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Malathi Raghavan",
+                "qualification": "MS, DNB",
+                "specialty": "Glaucoma",
+                "experience": "25 years",
+                "timings": "Tue–Sat, 9 am – 12 noon",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "Meet the whole team",
+              "url": "page:doctors"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Patient stories",
+            "heading": "What our patients say",
+            "items": [
+              {
+                "quote": "After my cataract surgery I can read the newspaper without glasses again.",
+                "name": "K. Murugan",
+                "role": "Cataract patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "LASIK was quick and painless. I was back at work in two days.",
+                "name": "Divya Sundar",
+                "role": "LASIK patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The children’s clinic team was so patient with my son’s squint treatment.",
+                "name": "Revathi Kumar",
+                "role": "Parent",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient clinic",
+                "hours": "Mon–Sat, 8 am – 7 pm"
+              },
+              {
+                "label": "Sunday clinic",
+                "hours": "8 am – 12 noon"
+              },
+              {
+                "label": "Eye emergencies",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Optical store",
+                "hours": "Mon–Sat, 9 am – 8 pm"
+              }
+            ],
+            "highlight_label": "Eye emergency?",
+            "highlight_value": "Seen 24 hours a day",
+            "note": "Dilating drops may blur your vision for a few hours — please bring someone to drive you home."
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Is your vision blurry or cloudy?",
+            "description": "Book a complete eye check-up — it takes about an hour.",
+            "background_image": "theme:images/svc-1.svg",
+            "button": {
+              "text": "Book an eye check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914522539911"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About ClearSight Eye Hospital",
+            "subheading": "A specialist eye hospital for cataract, LASIK, retina, glaucoma and children’s eye care.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About ClearSight",
+            "heading": "Restoring sight for over 25 years",
+            "description": "<p>ClearSight began as a small cataract clinic in 1998. Today we are a 60-bed eye hospital with specialists in every area of eye care and more than 1.5 lakh surgeries behind us.</p><p>We use the latest diagnostic and laser systems, and offer free screening camps in villages around Madurai every month.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1998",
+            "experience_label": "Restoring sight since",
+            "points": [
+              {
+                "text": "Fellowship-trained eye surgeons"
+              },
+              {
+                "text": "Modular eye operation theatres"
+              },
+              {
+                "text": "Monthly free screening camps"
+              }
+            ],
+            "button": {
+              "text": "Book an eye check-up",
+              "url": "page:appointment"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1.5",
+                "suffix": "L+",
+                "label": "Surgeries",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": "",
+                "label": "Beds",
+                "icon": ""
+              },
+              {
+                "number": "22",
+                "suffix": "",
+                "label": "Eye specialists",
+                "icon": ""
+              },
+              {
+                "number": "28",
+                "suffix": "",
+                "label": "Years of care",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why patients choose ClearSight",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-cpu",
+                "title": "Latest technology",
+                "description": "Femtosecond and excimer lasers, OCT and digital imaging."
+              },
+              {
+                "icon": "bi-sun",
+                "title": "Day-care surgery",
+                "description": "Most surgeries take under 20 minutes; go home the same day."
+              },
+              {
+                "icon": "bi-cash-stack",
+                "title": "Clear packages",
+                "description": "All-inclusive surgery prices with lens choices explained."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Community care",
+                "description": "Free camps and subsidised surgery for those in need."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our care",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. S. Raghavan",
+                "role": "Founder & Chairman",
+                "bio": "Cataract surgeon, 35 years’ experience.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Dr. Malathi Raghavan",
+                "role": "Medical Director",
+                "bio": "Glaucoma specialist.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Mr. Ashok Pandian",
+                "role": "Chief Operating Officer",
+                "bio": "Runs hospital operations and camps.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Ms. Jennifer Paul",
+                "role": "Head of Nursing",
+                "bio": "Leads our theatre and ward nurses.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Facilities",
+            "heading": "Inside our hospital",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Eye examination"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Consultation room"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Operation theatre"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Children’s ward"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Imaging suite"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Pharmacy"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "departments": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Specialities",
+            "subheading": "A specialist eye hospital for cataract, LASIK, retina, glaucoma and children’s eye care.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "",
+            "heading": "All specialities",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-eye",
+                "title": "Cataract surgery",
+                "description": "Micro-incision surgery with monofocal, toric and multifocal lenses.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-search",
+                "title": "Comprehensive eye check",
+                "description": "Vision, pressure and retina checks for the whole family.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-bullseye",
+                "title": "LASIK & refractive surgery",
+                "description": "Blade-free LASIK, SMILE and ICL for freedom from glasses.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Paediatric ophthalmology",
+                "description": "Squint, lazy eye and vision screening for children.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-circle-half",
+                "title": "Retina & diabetic eye",
+                "description": "Retina scans, lasers and injections for diabetic eye disease.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-eyeglasses",
+                "title": "Optical store",
+                "description": "Prescription glasses and contact lenses fitted on site.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-check",
+                "title": "Book a check-up",
+                "description": "Online or by phone."
+              },
+              {
+                "icon": "bi-eye",
+                "title": "Complete evaluation",
+                "description": "Vision tests, scans and a specialist consultation."
+              },
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Treatment plan",
+                "description": "Glasses, medicines or surgery explained clearly."
+              },
+              {
+                "icon": "bi-sunglasses",
+                "title": "Recovery",
+                "description": "Follow-up visits and aftercare."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "How long does cataract surgery take?",
+                "answer": "About 15–20 minutes. You can go home the same day."
+              },
+              {
+                "question": "Am I suitable for LASIK?",
+                "answer": "A free LASIK evaluation checks corneal thickness, power and eye health."
+              },
+              {
+                "question": "Is surgery covered by insurance?",
+                "answer": "Most cataract and retina procedures are covered; we offer cashless treatment with major insurers."
+              },
+              {
+                "question": "Do you treat eye emergencies?",
+                "answer": "Yes — eye injuries and sudden vision loss are seen at any time."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Is your vision blurry or cloudy?",
+            "description": "Book a complete eye check-up — it takes about an hour.",
+            "background_image": "theme:images/svc-1.svg",
+            "button": {
+              "text": "Book an eye check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914522539911"
+            }
+          }
+        }
+      ]
+    },
+    "doctors": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Specialists",
+            "subheading": "Experienced specialists, with their timings — book directly with the doctor you prefer.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "",
+            "heading": "Find your specialist",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. S. Raghavan",
+                "qualification": "MS, FRCS (Ophthalmology)",
+                "specialty": "Cataract",
+                "experience": "35 years",
+                "timings": "Mon–Sat, 9 am – 1 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Priya Ramesh",
+                "qualification": "MS, Fellowship Cornea & Refractive",
+                "specialty": "LASIK",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 10 am – 4 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Arun Kumar",
+                "qualification": "MS, Fellowship Vitreo-Retina",
+                "specialty": "Retina",
+                "experience": "16 years",
+                "timings": "Mon–Sat, 2 – 6 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Malathi Raghavan",
+                "qualification": "MS, DNB",
+                "specialty": "Glaucoma",
+                "experience": "25 years",
+                "timings": "Tue–Sat, 9 am – 12 noon",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Kavya Shankar",
+                "qualification": "MS, Fellowship Paediatric Ophthalmology",
+                "specialty": "Children’s eyes",
+                "experience": "9 years",
+                "timings": "Mon–Sat, 10 am – 2 pm",
+                "photo": "theme:images/doctor-5.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Vijay Anand",
+                "qualification": "MS (Ophthalmology)",
+                "specialty": "Oculoplasty",
+                "experience": "11 years",
+                "timings": "Wed & Sat, 10 am – 4 pm",
+                "photo": "theme:images/doctor-6.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Fathima Banu",
+                "qualification": "MS, Fellowship Cornea",
+                "specialty": "Cornea",
+                "experience": "10 years",
+                "timings": "Mon–Fri, 3 – 7 pm",
+                "photo": "theme:images/doctor-7.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Hari Prasad",
+                "qualification": "DO, DNB",
+                "specialty": "General ophthalmology",
+                "experience": "8 years",
+                "timings": "Daily, 8 am – 2 pm",
+                "photo": "theme:images/doctor-8.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Is your vision blurry or cloudy?",
+            "description": "Book a complete eye check-up — it takes about an hour.",
+            "background_image": "theme:images/svc-1.svg",
+            "button": {
+              "text": "Book an eye check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914522539911"
+            }
+          }
+        }
+      ]
+    },
+    "health-packages": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Packages",
+            "subheading": "Clear prices for check-ups and common treatments.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Packages",
+            "heading": "Clear, upfront prices",
+            "description": "Prices include taxes. Packages can be booked online or at the front desk.",
+            "plans": [
+              {
+                "name": "Cataract (monofocal)",
+                "price": "₹24,000",
+                "period": "eye",
+                "features": "Micro-incision surgery\nFoldable monofocal lens\nMedicines & follow-ups",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              },
+              {
+                "name": "Cataract (premium)",
+                "price": "₹65,000",
+                "period": "eye",
+                "features": "Toric or multifocal lens\nLaser-assisted option\nAll follow-ups\nDark glasses kit",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": true
+              },
+              {
+                "name": "LASIK",
+                "price": "₹55,000",
+                "period": "both eyes",
+                "features": "Free suitability test\nBlade-free LASIK\nFollow-ups for one year",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "How long does cataract surgery take?",
+                "answer": "About 15–20 minutes. You can go home the same day."
+              },
+              {
+                "question": "Am I suitable for LASIK?",
+                "answer": "A free LASIK evaluation checks corneal thickness, power and eye health."
+              },
+              {
+                "question": "Is surgery covered by insurance?",
+                "answer": "Most cataract and retina procedures are covered; we offer cashless treatment with major insurers."
+              },
+              {
+                "question": "Do you treat eye emergencies?",
+                "answer": "Yes — eye injuries and sudden vision loss are seen at any time."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Is your vision blurry or cloudy?",
+            "description": "Book a complete eye check-up — it takes about an hour.",
+            "background_image": "theme:images/svc-1.svg",
+            "button": {
+              "text": "Book an eye check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914522539911"
+            }
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Appointment",
+            "subheading": "Request an appointment online — we will call you to confirm.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Appointment",
+            "heading": "Book an eye appointment",
+            "description": "Choose a service and a convenient time — our team will call to confirm.",
+            "form_type": "appointment",
+            "form_heading": "Book an eye appointment",
+            "select1_label": "Service",
+            "select1_options": "Routine eye check-up\nCataract consultation\nLASIK evaluation\nRetina / diabetic eye\nChildren’s eye check\nGlaucoma",
+            "select2_label": "Preferred time",
+            "select2_options": "Morning\nAfternoon\nEvening",
+            "date_label": "Preferred date",
+            "message_label": "Describe your eye problem",
+            "email_required": false,
+            "button_text": "Request appointment",
+            "success_message": "Thank you! We will call you to confirm your appointment.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We confirm by phone",
+                "text": "Usually within an hour"
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Timings",
+                "text": "Mon–Sat: 8 am – 7 pm"
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Bring your reports",
+                "text": "Previous prescriptions and test results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-check",
+                "title": "Book a check-up",
+                "description": "Online or by phone."
+              },
+              {
+                "icon": "bi-eye",
+                "title": "Complete evaluation",
+                "description": "Vision tests, scans and a specialist consultation."
+              },
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Treatment plan",
+                "description": "Glasses, medicines or surgery explained clearly."
+              },
+              {
+                "icon": "bi-sunglasses",
+                "title": "Recovery",
+                "description": "Follow-up visits and aftercare."
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient clinic",
+                "hours": "Mon–Sat, 8 am – 7 pm"
+              },
+              {
+                "label": "Sunday clinic",
+                "hours": "8 am – 12 noon"
+              },
+              {
+                "label": "Eye emergencies",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Optical store",
+                "hours": "Mon–Sat, 9 am – 8 pm"
+              }
+            ],
+            "highlight_label": "Eye emergency?",
+            "highlight_value": "Seen 24 hours a day",
+            "note": "Dilating drops may blur your vision for a few hours — please bring someone to drive you home."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Visit us, call us or send a message — we are here to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are here to help",
+            "description": "Reach our Madurai team by phone, email or the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Outpatient clinic",
+                "hours": "Mon–Sat, 8 am – 7 pm"
+              },
+              {
+                "label": "Sunday clinic",
+                "hours": "8 am – 12 noon"
+              },
+              {
+                "label": "Eye emergencies",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Optical store",
+                "hours": "Mon–Sat, 9 am – 8 pm"
+              }
+            ],
+            "highlight_label": "Eye emergency?",
+            "highlight_value": "Seen 24 hours a day",
+            "note": "Dilating drops may blur your vision for a few hours — please bring someone to drive you home."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how ClearSight Eye Hospital collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

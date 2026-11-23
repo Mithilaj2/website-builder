@@ -1,0 +1,69 @@
+{
+  "id": "hospital_template_04",
+  "name": "ClearSight Clinic",
+  "prefix": "cse",
+  "niche": "eye",
+  "seed": 4,
+  "direction": "Precise and clinical: dark navigation with the emergency number, oversized editorial hero, deep blue and gold, numbered speciality rows, doctor list cards and a timeline.",
+  "description": "A precise, clinical design for eye hospitals and specialist clinics: dark navigation with the emergency number, an editorial hero, numbered speciality rows, doctor list cards and a timeline visit process.",
+  "theme": {
+    "primary": "#1D4E89",
+    "secondary": "#F7B32B",
+    "bg": "#FFFFFF",
+    "text": "#0F2238",
+    "heading_font": "montserrat",
+    "body_font": "open-sans",
+    "radius": "6px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "editorial",
+    "banner": "solid",
+    "head": "bar",
+    "card": "top",
+    "about": "single",
+    "services": "rows",
+    "stats": "inline",
+    "doctors": "list",
+    "opening_hours": "panel",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "doctors",
+    "features"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "track": "-.02em",
+    "hero_scale": 0.95
+  },
+  "demo": {
+    "service_images": false,
+    "home_services": 6,
+    "cta_image": "svc-1.svg",
+    "home": [
+      "hero",
+      "stats",
+      "services",
+      "about",
+      "doctors",
+      "testimonials",
+      "opening_hours",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

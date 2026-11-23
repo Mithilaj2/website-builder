@@ -11,7 +11,7 @@ $email = (string) $view->site('email');
           <?php if ($email !== ''): ?><a href="mailto:<?= $view->e($email) ?>"><i class="bi bi-envelope"></i><?= $view->e($email) ?></a><?php endif; ?>
         </div>
         <?= $view->partial('brand', ['class' => '{{p}}-brand-center']) ?>
-        <div class="{{p}}-masthead-side justify-content-end"><?= $view->partial('header-cta') ?></div>
+        <div class="{{p}}-masthead-side justify-content-end"><?= $view->partial('emergency') ?><?= $view->partial('header-cta') ?></div>
       </div>
     </div>
   </div>

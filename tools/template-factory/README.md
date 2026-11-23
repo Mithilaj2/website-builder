@@ -91,6 +91,8 @@ hand afterwards like any other.
 | courses | `cards` (image cards with level tag, duration and fee), `list` (rows with the fee and a button on the right) |
 | events | `list` (date tile, details, thumbnail), `cards` (image cards with a date badge) |
 | notices | `board` (label panel + list), `strip` (the latest three in a slim bar, for under the hero) |
+| doctors | `cards` (portrait cards with speciality tag, experience, timings, booking button), `list` (photo-left horizontal cards, two per row) |
+| opening_hours | `panel` (card with the timetable and an emergency highlight), `band` (dark band, two-column timetable) |
 
 ### Tokens
 
@@ -128,6 +130,10 @@ background (set `bg`/`text` in `theme` accordingly).
   (`brand`, `quote`, `member`, `accordion`…), never in closures assigned to variables.
 - Generated demo images are original SVG illustrations; no photographs or third-party artwork.
 - Demo partner and "affiliation" logos use invented names, never real boards, universities or companies.
+- The emergency number (site setting `emergency_phone`) appears in every header variant and in the timings
+  highlight only when the site sets one, so templates of other categories are unaffected.
+- Menu links never wrap on desktop; between 992 and 1400px they tighten and the emergency link shows only
+  its number. Keep page titles short (one or two words) so seven menu items fit.
 - Booking-form dropdown labels must not contain the word "date": the runtime validates any field whose
   label contains "date" as a calendar date, so such a dropdown could never be submitted. The education
   demo builder refuses to build if one does.
@@ -137,6 +143,7 @@ background (set `bg`/`text` in `theme` accordingly).
 | Category | Image scenes | Demo niches |
 |---|---|---|
 | Business | `images/business_images.py` | logistics, IT, agro exports, engineering, HR, solar, construction, legal, agency |
+| Hospital | `images/hospital_images.py` (18 clinical tiles, nine heroes, doctor portraits in white coats) | multi-speciality, dental, eye, children’s, diagnostics, physiotherapy, Ayurveda, maternity, cardiac |
 | Education | `images/education_images.py` (19 reusable tiles: classroom, lab, library, sports, music, stage, campus…) | preschool, coaching, engineering college, international school, coding bootcamp, performing arts, business school, language centre, boarding school |
 
 ## Adding a category

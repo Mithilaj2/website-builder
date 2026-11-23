@@ -57,7 +57,9 @@ body.{{p}} { background: var(--wb-bg); color: var(--{{p}}-ink); font-family: var
 .{{p}}-header .nav-link:hover, .{{p}}-header .nav-link.active { color: var(--{{p}}-nav-active); }
 .{{p}}-header .navbar-toggler { border: 1px solid var(--{{p}}-line-strong); font-size: 1.5rem; padding: .2rem .6rem; color: var(--{{p}}-nav-color); }
 .{{p}}-header .navbar-toggler:focus { box-shadow: 0 0 0 .2rem rgba(var(--wb-primary-rgb), .2); }
-.{{p}}-header-cta { margin-left: 1.25rem; padding: .7rem 1.3rem; }
+.{{p}}-header-cta { margin-left: 1.25rem; padding: .7rem 1.3rem; white-space: nowrap; }
+@media (min-width: 992px) { .{{p}}-header .nav-link { white-space: nowrap; } .{{p}}-header .navbar-brand { flex-shrink: 0; } .{{p}}-header .navbar-brand .{{p}}-brand-text { white-space: nowrap; } }
+@media (min-width: 992px) and (max-width: 1399.98px) { .{{p}}-header .nav-link { padding: .5rem .6rem !important; font-size: .9rem; } .{{p}}-header-cta { margin-left: .75rem; padding: .65rem 1rem; } .{{p}}-header .{{p}}-emergency span:not(.{{p}}-pulse) { display: none; } }
 @media (max-width: 991.98px) {
   .{{p}}-header .navbar-collapse { padding: 1rem 0 .5rem; }
   .{{p}}-header-cta { margin: .75rem 0 0; }
@@ -220,6 +222,46 @@ body.{{p}} { background: var(--wb-bg); color: var(--{{p}}-ink); font-family: var
 .{{p}}-board-list time b { display: block; font-family: var(--wb-heading-font); font-size: 1.4rem; color: var(--{{p}}-link); }
 .{{p}}-board-list a, .{{p}}-board-list span { color: var(--{{p}}-ink); font-weight: 600; text-decoration: none; }
 .{{p}}-board-list a:hover { color: var(--{{p}}-link); text-decoration: underline; }
+
+/* ---------- Emergency number (shown only when the site sets one) ---------- */
+.{{p}} .{{p}}-emergency { display: inline-flex; align-items: center; gap: .5rem; background: #C8102E; color: #fff; border-radius: 999px; padding: .3rem .85rem .3rem .65rem; font-size: .82rem; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.{{p}} .{{p}}-emergency b { font-weight: 800; }
+.{{p}} .{{p}}-emergency:hover { background: #A50D26; color: #fff; }
+.{{p}} .{{p}}-emergency.is-compact span:not(.{{p}}-pulse) { display: none; }
+.{{p}}-masthead-side .{{p}}-emergency { margin-right: .5rem; }
+.{{p}}-pulse { width: 9px; height: 9px; border-radius: 50%; background: #fff; flex-shrink: 0; box-shadow: 0 0 0 0 rgba(255, 255, 255, .7); }
+@media (prefers-reduced-motion: no-preference) { .{{p}}-pulse { animation: {{p}}-pulse 1.8s infinite; } }
+@keyframes {{p}}-pulse { 0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, .7); } 70% { box-shadow: 0 0 0 9px rgba(255, 255, 255, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); } }
+.{{p}} .{{p}}-btn-emergency { background: #C8102E; border-color: #C8102E; color: #fff; padding: .6rem 1.1rem; font-size: .9rem; }
+.{{p}} .{{p}}-btn-emergency:hover { background: #A50D26; border-color: #A50D26; color: #fff; }
+@media (max-width: 991.98px) { .{{p}}-header .{{p}}-emergency.is-compact { margin: .75rem 0 0; } }
+
+/* ---------- Doctors ---------- */
+.{{p}}-doctor { background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); overflow: hidden; height: 100%; display: flex; flex-direction: column; transition: box-shadow .25s ease, transform .25s ease; min-width: 0; }
+.{{p}}-doctor:hover { box-shadow: var(--{{p}}-shadow); transform: translateY(-4px); }
+.{{p}}-doctor-photo { position: relative; background: linear-gradient(160deg, var(--{{p}}-surface), rgba(var(--wb-primary-rgb), .16)); display: grid; place-items: center; overflow: hidden; }
+.{{p}}-doctor-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.{{p}}-doctor-photo .{{p}}-tag { position: absolute; left: .85rem; bottom: .85rem; }
+.{{p}}-doctor-initial { font-family: var(--wb-heading-font); font-size: 3.2rem; font-weight: 800; color: rgba(var(--wb-primary-rgb), .4); }
+.{{p}}-doctor-body { padding: 1.3rem 1.35rem 1.5rem; display: flex; flex-direction: column; flex: 1; }
+.{{p}}-doctor-body .{{p}}-card-title { font-size: 1.12rem; margin-bottom: .2rem; }
+.{{p}}-doctor-qual { color: var(--{{p}}-hl); font-weight: 600; font-size: .88rem; margin: 0 0 .75rem; }
+.{{p}}-doctor-meta { list-style: none; padding: 0; margin: 0 0 1.1rem; display: grid; gap: .35rem; font-size: .88rem; color: var(--{{p}}-muted); }
+.{{p}}-doctor-meta i { color: var(--{{p}}-hl); margin-right: .45rem; }
+.{{p}} .{{p}}-doctor-btn { margin-top: auto; padding: .55rem 1rem; font-size: .88rem; width: 100%; }
+
+/* ---------- Timetable (opening hours) ---------- */
+.{{p}}-timetable dl { margin: 0; }
+.{{p}}-timetable-row { display: flex; justify-content: space-between; gap: 1rem; padding: .85rem 0; border-bottom: 1px dashed var(--{{p}}-line-strong); }
+.{{p}}-timetable-row dt { font-weight: 600; }
+.{{p}}-timetable-row dd { margin: 0; text-align: right; color: var(--{{p}}-muted); font-weight: 600; }
+.{{p}}-timetable-note { display: flex; gap: .55rem; margin: 1rem 0 0; font-size: .88rem; color: var(--{{p}}-muted); }
+.{{p}}-timetable-note i { color: var(--{{p}}-hl); }
+.{{p}}-hours-highlight { display: flex; flex-wrap: wrap; align-items: center; gap: .9rem 1rem; background: var(--{{p}}-deep); color: #fff; border-radius: var(--{{p}}-radius-lg); padding: 1.1rem 1.25rem; margin-top: 1.5rem; }
+.{{p}}-hours-highlight .{{p}}-pulse { background: #FF5A6E; }
+.{{p}}-hours-hl-text small { display: block; font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; opacity: .75; }
+.{{p}}-hours-hl-text strong { font-family: var(--wb-heading-font); font-size: 1.15rem; }
+.{{p}}-hours-highlight .{{p}}-btn-emergency { margin-left: auto; }
 
 /* ---------- Logos ---------- */
 .{{p}} .{{p}}-logos { padding: 3rem 0; }

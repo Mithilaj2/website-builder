@@ -1,0 +1,74 @@
+{
+  "id": "hospital_template_03",
+  "name": "SmileCraft Studio",
+  "prefix": "scd",
+  "niche": "dental",
+  "seed": 3,
+  "direction": "Fresh and gentle: floating pill navigation, split hero, aqua and peach, soft tinted cards with round icons, a featured patient story and a centred footer.",
+  "description": "A fresh, gentle design for dental clinics, skin and cosmetic clinics: floating navigation, a split hero with a rating badge, tinted treatment cards, round dentist portraits and a peach call-to-action band.",
+  "theme": {
+    "primary": "#0E9F9E",
+    "secondary": "#FF8A65",
+    "bg": "#FFFFFF",
+    "text": "#14302F",
+    "heading_font": "jost",
+    "body_font": "dm-sans",
+    "radius": "22px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "split",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "about": "grid",
+    "services": "cards",
+    "stats": "cards",
+    "doctors": "cards",
+    "opening_hours": "panel",
+    "process": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "boxed",
+    "footer": "centered"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-primary) 75%, #000)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "mark_radius": "50%",
+    "card": "#FFFFFF",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)"
+  },
+  "extra_css": ".scd .scd-icon { color: var(--wb-primary); background: rgba(var(--wb-primary-rgb), .12); }",
+  "demo": {
+    "service_images": false,
+    "home_services": 6,
+    "home": [
+      "hero",
+      "logos",
+      "services",
+      "about",
+      "stats",
+      "doctors",
+      "testimonials",
+      "opening_hours",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

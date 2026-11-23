@@ -1,0 +1,9 @@
+.{{p}} .{{p}}-hours-band { background: var(--{{p}}-deep); color: rgba(255, 255, 255, .85); }
+.{{p}}-hours-band .{{p}}-title, .{{p}}-hours-band .{{p}}-eyebrow { color: #fff; }
+.{{p}}-hours-band .{{p}}-lead { color: rgba(255, 255, 255, .75); }
+.{{p}}-hours-band .{{p}}-timetable dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.5rem; }
+.{{p}}-hours-band .{{p}}-timetable-row { border-bottom-color: rgba(255, 255, 255, .18); }
+.{{p}}-hours-band .{{p}}-timetable-row dd, .{{p}}-hours-band .{{p}}-timetable-note { color: rgba(255, 255, 255, .78); }
+.{{p}}-hours-band .{{p}}-timetable-note i { color: var(--wb-secondary); }
+.{{p}}-hours-band .{{p}}-hours-highlight { background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .16); }
+@media (max-width: 767.98px) { .{{p}}-hours-band .{{p}}-timetable dl { grid-template-columns: minmax(0, 1fr); } }

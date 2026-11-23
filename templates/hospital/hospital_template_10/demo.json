@@ -1,0 +1,1100 @@
+{
+  "settings": {
+    "site": {
+      "name": "Cardia Heart Institute",
+      "tagline": "Heart hospital · Chennai",
+      "phone": "+91 44 2834 5500",
+      "emergency_phone": "+91 44 2834 5555",
+      "email": "heart@cardia.example",
+      "address": "Greams Road, Thousand Lights\nChennai, Tamil Nadu 600006",
+      "hours": "OPD: Mon–Sat 8 am – 8 pm",
+      "footer_about": "A dedicated heart hospital for diagnosis, angioplasty, bypass surgery, heart-rhythm care and rehabilitation.",
+      "footer_text": "All rights reserved.",
+      "rating": "25,000+ heart procedures",
+      "rating_label": "with outcomes reported openly",
+      "header_button": {
+        "text": "Book a heart check",
+        "url": "page:appointment"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Cardia Heart Institute — heart hospital in Chennai. A dedicated heart hospital for diagnosis, angioplasty, bypass surgery, heart-rhythm care and rehabilitation.",
+      "keywords": "heart hospital, Chennai"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "24×7 heart attack care",
+            "heading": "Every heartbeat matters.",
+            "subheading": "Rapid heart-attack treatment, advanced cath labs, bypass and valve surgery, and cardiac rehab — from a team that does nothing but hearts.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a heart check",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Explore heart care",
+              "url": "page:departments"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Door-to-balloon under 60 minutes"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Two cath labs"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Cardiac rehab programme"
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "25000",
+                "suffix": "+",
+                "label": "Heart procedures",
+                "icon": ""
+              },
+              {
+                "number": "18",
+                "suffix": "",
+                "label": "Cardiologists & surgeons",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": " min",
+                "label": "Door-to-balloon",
+                "icon": ""
+              },
+              {
+                "number": "98.4",
+                "suffix": "%",
+                "label": "Angioplasty success",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Heart Care",
+            "heading": "Specialist care under one roof",
+            "description": "A dedicated heart hospital for diagnosis, angioplasty, bypass surgery, heart-rhythm care and rehabilitation.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Interventional cardiology",
+                "description": "Angiography, angioplasty and stents.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-scissors",
+                "title": "Cardiac surgery",
+                "description": "Bypass, valve repair and minimally invasive heart surgery.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-search-heart",
+                "title": "Cardiac imaging",
+                "description": "Echo, CT coronary angiogram and cardiac MRI.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-lightning-charge",
+                "title": "Heart attack emergency",
+                "description": "Rapid diagnosis and treatment, 24×7.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Cardiac ICU",
+                "description": "Dedicated intensive care after procedures.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-activity",
+                "title": "Heart rhythm clinic",
+                "description": "Pacemakers, ablation and ECG monitoring.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Cardia",
+            "heading": "Two decades devoted to the heart",
+            "description": "<p>Cardia Heart Institute was founded in 2003 as one of the first dedicated heart hospitals in Chennai. Our cardiologists and surgeons have performed more than 25,000 procedures.</p><p>A heart-attack team is on duty around the clock, and we publish our treatment outcomes every year.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2003",
+            "experience_label": "Caring for hearts since",
+            "points": [
+              {
+                "text": "Two cath labs and a hybrid theatre"
+              },
+              {
+                "text": "Heart-attack team 24×7"
+              },
+              {
+                "text": "Outcomes reported every year"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "Cardiologists",
+            "heading": "Meet our specialists",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. V. Srinivasan",
+                "qualification": "MD, DM (Cardiology)",
+                "specialty": "Interventional",
+                "experience": "30 years",
+                "timings": "Mon–Sat, 9 am – 1 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Anand Rajan",
+                "qualification": "MS, MCh (CTVS)",
+                "specialty": "Cardiac surgery",
+                "experience": "25 years",
+                "timings": "Tue & Thu, 4 – 7 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Priya Venkatesh",
+                "qualification": "MD, DM (Cardiology)",
+                "specialty": "Heart failure",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 10 am – 2 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Karthik Raman",
+                "qualification": "MD, DM, Fellowship EP",
+                "specialty": "Heart rhythm",
+                "experience": "12 years",
+                "timings": "Mon–Sat, 2 – 6 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "Meet the whole team",
+              "url": "page:doctors"
+            }
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Cardiology OPD",
+                "hours": "Mon–Sat, 8 am – 8 pm"
+              },
+              {
+                "label": "Heart-attack emergency",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Cath lab",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Cardiac rehab",
+                "hours": "Mon–Sat, 7 am – 7 pm"
+              }
+            ],
+            "highlight_label": "Chest pain?",
+            "highlight_value": "Call our emergency line now",
+            "note": "Do not drive yourself if you have chest pain — call us for an ambulance."
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Patient stories",
+            "heading": "What our patients say",
+            "items": [
+              {
+                "quote": "I reached Cardia with a heart attack at midnight; within 45 minutes my artery was open.",
+                "name": "R. Balasubramanian",
+                "role": "Heart-attack patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Bypass surgery at 68 and I am walking 5 km a day now. Thank you, Cardia.",
+                "name": "Kamala Krishnan",
+                "role": "Bypass patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The rehab team gave me the confidence to live normally again.",
+                "name": "Joseph Mathew",
+                "role": "Cardiac rehab patient",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Worried about your heart?",
+            "description": "Book a comprehensive heart check — or call our emergency line any time.",
+            "background_image": "",
+            "button": {
+              "text": "Book a heart check",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914428345555"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Cardia Heart Institute",
+            "subheading": "A dedicated heart hospital for diagnosis, angioplasty, bypass surgery, heart-rhythm care and rehabilitation.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Cardia",
+            "heading": "Two decades devoted to the heart",
+            "description": "<p>Cardia Heart Institute was founded in 2003 as one of the first dedicated heart hospitals in Chennai. Our cardiologists and surgeons have performed more than 25,000 procedures.</p><p>A heart-attack team is on duty around the clock, and we publish our treatment outcomes every year.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2003",
+            "experience_label": "Caring for hearts since",
+            "points": [
+              {
+                "text": "Two cath labs and a hybrid theatre"
+              },
+              {
+                "text": "Heart-attack team 24×7"
+              },
+              {
+                "text": "Outcomes reported every year"
+              }
+            ],
+            "button": {
+              "text": "Book a heart check",
+              "url": "page:appointment"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "25000",
+                "suffix": "+",
+                "label": "Heart procedures",
+                "icon": ""
+              },
+              {
+                "number": "18",
+                "suffix": "",
+                "label": "Cardiologists & surgeons",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": " min",
+                "label": "Door-to-balloon",
+                "icon": ""
+              },
+              {
+                "number": "98.4",
+                "suffix": "%",
+                "label": "Angioplasty success",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why patients trust Cardia",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-stopwatch",
+                "title": "Fast heart-attack care",
+                "description": "A team ready 24×7 to open blocked arteries."
+              },
+              {
+                "icon": "bi-graph-up",
+                "title": "Published outcomes",
+                "description": "Results shared openly every year."
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Advanced technology",
+                "description": "Two cath labs, a hybrid theatre and 3D mapping."
+              },
+              {
+                "icon": "bi-heart",
+                "title": "Cardiac rehab",
+                "description": "Exercise, diet and lifestyle programmes after treatment."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our care",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. V. Srinivasan",
+                "role": "Founder & Chief Cardiologist",
+                "bio": "Thirty years in interventional cardiology.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Dr. Anand Rajan",
+                "role": "Chief Cardiac Surgeon",
+                "bio": "Over 8,000 heart operations.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Ms. Revathy Sekar",
+                "role": "Chief Executive",
+                "bio": "Runs hospital operations.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Ms. Agnes Paul",
+                "role": "Head of Cardiac Nursing",
+                "bio": "Leads ICU and ward nursing.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Facilities",
+            "heading": "Inside our hospital",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Cardiac care"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Operation theatre"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Imaging suite"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Emergency and ambulance"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Patient room"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Laboratory"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "departments": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Heart Care",
+            "subheading": "A dedicated heart hospital for diagnosis, angioplasty, bypass surgery, heart-rhythm care and rehabilitation.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "",
+            "heading": "All heart care",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Interventional cardiology",
+                "description": "Angiography, angioplasty and stents.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-scissors",
+                "title": "Cardiac surgery",
+                "description": "Bypass, valve repair and minimally invasive heart surgery.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-search-heart",
+                "title": "Cardiac imaging",
+                "description": "Echo, CT coronary angiogram and cardiac MRI.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-lightning-charge",
+                "title": "Heart attack emergency",
+                "description": "Rapid diagnosis and treatment, 24×7.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Cardiac ICU",
+                "description": "Dedicated intensive care after procedures.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-activity",
+                "title": "Heart rhythm clinic",
+                "description": "Pacemakers, ablation and ECG monitoring.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-telephone",
+                "title": "Call or book",
+                "description": "Emergency line or appointment."
+              },
+              {
+                "icon": "bi-clipboard2-pulse",
+                "title": "Heart evaluation",
+                "description": "ECG, echo and consultation."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Treatment",
+                "description": "Medicines, procedure or surgery."
+              },
+              {
+                "icon": "bi-bicycle",
+                "title": "Rehabilitation",
+                "description": "A 12-week cardiac rehab plan."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "What are the warning signs of a heart attack?",
+                "answer": "Chest pain or pressure, breathlessness, sweating or pain in the arm or jaw. Call our emergency line immediately."
+              },
+              {
+                "question": "Do I need a referral?",
+                "answer": "No, you can book a cardiologist directly."
+              },
+              {
+                "question": "Is angioplasty covered by insurance?",
+                "answer": "Most policies cover it; cashless treatment is available with major insurers."
+              },
+              {
+                "question": "How long is the stay after angioplasty?",
+                "answer": "Usually one to two days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Worried about your heart?",
+            "description": "Book a comprehensive heart check — or call our emergency line any time.",
+            "background_image": "",
+            "button": {
+              "text": "Book a heart check",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914428345555"
+            }
+          }
+        }
+      ]
+    },
+    "doctors": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cardiologists",
+            "subheading": "Experienced specialists, with their timings — book directly with the doctor you prefer.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "",
+            "heading": "Find your specialist",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. V. Srinivasan",
+                "qualification": "MD, DM (Cardiology)",
+                "specialty": "Interventional",
+                "experience": "30 years",
+                "timings": "Mon–Sat, 9 am – 1 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Anand Rajan",
+                "qualification": "MS, MCh (CTVS)",
+                "specialty": "Cardiac surgery",
+                "experience": "25 years",
+                "timings": "Tue & Thu, 4 – 7 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Priya Venkatesh",
+                "qualification": "MD, DM (Cardiology)",
+                "specialty": "Heart failure",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 10 am – 2 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Karthik Raman",
+                "qualification": "MD, DM, Fellowship EP",
+                "specialty": "Heart rhythm",
+                "experience": "12 years",
+                "timings": "Mon–Sat, 2 – 6 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Lakshmi Narayan",
+                "qualification": "MD, DNB (Cardiology)",
+                "specialty": "Imaging & echo",
+                "experience": "11 years",
+                "timings": "Daily, 8 am – 12 noon",
+                "photo": "theme:images/doctor-5.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Arvind Kumar",
+                "qualification": "MS, MCh (CTVS)",
+                "specialty": "Valve surgery",
+                "experience": "16 years",
+                "timings": "Mon & Wed, 10 am – 1 pm",
+                "photo": "theme:images/doctor-6.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Sneha Iyer",
+                "qualification": "MD, DM (Paediatric Cardiology)",
+                "specialty": "Children’s hearts",
+                "experience": "10 years",
+                "timings": "Fri & Sat, 10 am – 2 pm",
+                "photo": "theme:images/doctor-7.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Rahul Menon",
+                "qualification": "MD (Cardiac Anaesthesia)",
+                "specialty": "Cardiac ICU",
+                "experience": "13 years",
+                "timings": "On call 24×7",
+                "photo": "theme:images/doctor-8.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Worried about your heart?",
+            "description": "Book a comprehensive heart check — or call our emergency line any time.",
+            "background_image": "",
+            "button": {
+              "text": "Book a heart check",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914428345555"
+            }
+          }
+        }
+      ]
+    },
+    "health-packages": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Check-ups",
+            "subheading": "Clear prices for check-ups and common treatments.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Check-ups",
+            "heading": "Clear, upfront prices",
+            "description": "Prices include taxes. Packages can be booked online or at the front desk.",
+            "plans": [
+              {
+                "name": "Basic heart check",
+                "price": "₹2,499",
+                "period": "person",
+                "features": "ECG & echo\nLipid profile & sugar\nCardiologist consultation",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              },
+              {
+                "name": "Comprehensive heart check",
+                "price": "₹7,999",
+                "period": "person",
+                "features": "Treadmill test\nCT calcium score\nFull blood panel\nDiet counselling\nCardiologist review",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": true
+              },
+              {
+                "name": "Cardiac rehab",
+                "price": "₹18,000",
+                "period": "12 weeks",
+                "features": "Supervised exercise\nDiet & lifestyle coaching\nProgress tests",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "What are the warning signs of a heart attack?",
+                "answer": "Chest pain or pressure, breathlessness, sweating or pain in the arm or jaw. Call our emergency line immediately."
+              },
+              {
+                "question": "Do I need a referral?",
+                "answer": "No, you can book a cardiologist directly."
+              },
+              {
+                "question": "Is angioplasty covered by insurance?",
+                "answer": "Most policies cover it; cashless treatment is available with major insurers."
+              },
+              {
+                "question": "How long is the stay after angioplasty?",
+                "answer": "Usually one to two days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Worried about your heart?",
+            "description": "Book a comprehensive heart check — or call our emergency line any time.",
+            "background_image": "",
+            "button": {
+              "text": "Book a heart check",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call emergency",
+              "url": "tel:+914428345555"
+            }
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Appointment",
+            "subheading": "Request an appointment online — we will call you to confirm.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Appointment",
+            "heading": "Book a heart appointment",
+            "description": "Choose a service and a convenient time — our team will call to confirm.",
+            "form_type": "appointment",
+            "form_heading": "Book a heart appointment",
+            "select1_label": "Service",
+            "select1_options": "Cardiology consultation\nHeart check-up\nEcho / TMT\nHeart rhythm clinic\nSecond opinion for surgery\nCardiac rehab",
+            "select2_label": "Preferred time",
+            "select2_options": "Morning\nAfternoon\nEvening",
+            "date_label": "Preferred date",
+            "message_label": "Symptoms or previous reports",
+            "email_required": false,
+            "button_text": "Request appointment",
+            "success_message": "Thank you! We will call you to confirm your appointment.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We confirm by phone",
+                "text": "Usually within an hour"
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Timings",
+                "text": "OPD: Mon–Sat 8 am – 8 pm"
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Bring your reports",
+                "text": "Previous prescriptions and test results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-telephone",
+                "title": "Call or book",
+                "description": "Emergency line or appointment."
+              },
+              {
+                "icon": "bi-clipboard2-pulse",
+                "title": "Heart evaluation",
+                "description": "ECG, echo and consultation."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Treatment",
+                "description": "Medicines, procedure or surgery."
+              },
+              {
+                "icon": "bi-bicycle",
+                "title": "Rehabilitation",
+                "description": "A 12-week cardiac rehab plan."
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Cardiology OPD",
+                "hours": "Mon–Sat, 8 am – 8 pm"
+              },
+              {
+                "label": "Heart-attack emergency",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Cath lab",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Cardiac rehab",
+                "hours": "Mon–Sat, 7 am – 7 pm"
+              }
+            ],
+            "highlight_label": "Chest pain?",
+            "highlight_value": "Call our emergency line now",
+            "note": "Do not drive yourself if you have chest pain — call us for an ambulance."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Visit us, call us or send a message — we are here to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are here to help",
+            "description": "Reach our Chennai team by phone, email or the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Cardiology OPD",
+                "hours": "Mon–Sat, 8 am – 8 pm"
+              },
+              {
+                "label": "Heart-attack emergency",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Cath lab",
+                "hours": "24 hours"
+              },
+              {
+                "label": "Cardiac rehab",
+                "hours": "Mon–Sat, 7 am – 7 pm"
+              }
+            ],
+            "highlight_label": "Chest pain?",
+            "highlight_value": "Call our emergency line now",
+            "note": "Do not drive yourself if you have chest pain — call us for an ambulance."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Cardia Heart Institute collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

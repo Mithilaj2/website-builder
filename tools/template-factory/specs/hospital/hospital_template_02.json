@@ -1,0 +1,66 @@
+{
+  "id": "hospital_template_02",
+  "name": "Sunrise Care",
+  "prefix": "srh",
+  "niche": "multi",
+  "seed": 2,
+  "direction": "Trustworthy and established: emergency number in the info bar, full-bleed hospital hero, medical blue and amber, hairline image cards, a dark timings band.",
+  "description": "A trustworthy design for multi-speciality hospitals and medical centres: emergency number in the info bar, a full-bleed hospital hero, department image cards, doctor cards with timings and a dark timings band.",
+  "theme": {
+    "primary": "#0E5E8C",
+    "secondary": "#F2A541",
+    "bg": "#FFFFFF",
+    "text": "#102A3C",
+    "heading_font": "sora",
+    "body_font": "open-sans",
+    "radius": "10px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "cover",
+    "banner": "image",
+    "head": "rule",
+    "card": "line",
+    "about": "layered",
+    "services": "cards",
+    "stats": "band",
+    "doctors": "cards",
+    "opening_hours": "band",
+    "process": "line",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "hl": "var(--wb-primary)",
+    "icon": "solid"
+  },
+  "demo": {
+    "service_images": true,
+    "home_services": 6,
+    "home": [
+      "hero",
+      "services",
+      "about",
+      "stats",
+      "doctors",
+      "opening_hours",
+      "testimonials",
+      "logos",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

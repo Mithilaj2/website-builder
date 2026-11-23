@@ -1,0 +1,1110 @@
+{
+  "settings": {
+    "site": {
+      "name": "Revive Physiotherapy & Rehab",
+      "tagline": "Physiotherapy & sports rehab · Pune",
+      "phone": "+91 20 2612 3344",
+      "emergency_phone": "",
+      "email": "move@revivephysio.example",
+      "address": "Lane 7, Baner Road\nPune, Maharashtra 411045",
+      "hours": "Mon–Sat: 7 am – 9 pm",
+      "footer_about": "Physiotherapy, sports injury rehab and pain management with one-to-one sessions and home visits.",
+      "footer_text": "All rights reserved.",
+      "rating": "9 out of 10 patients",
+      "rating_label": "finish treatment pain-free",
+      "header_button": {
+        "text": "Book an assessment",
+        "url": "page:appointment"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Revive Physiotherapy & Rehab — physiotherapy & sports rehab in Pune. Physiotherapy, sports injury rehab and pain management with one-to-one sessions and home visits.",
+      "keywords": "physiotherapy & sports rehab, Pune"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Move better. Live better.",
+            "heading": "Get back to doing what you love.",
+            "subheading": "One-to-one physiotherapy for back pain, sports injuries, post-surgery recovery and posture — at our clinic or at home.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book an assessment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Explore therapies",
+              "url": "page:departments"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "One-to-one sessions"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Home physiotherapy"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Sports rehab gym"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Revive",
+            "heading": "Evidence-based care, one patient at a time",
+            "description": "<p>Revive was started by physiotherapists who were tired of crowded clinics. Every session here is one-to-one, planned around your goals and progress.</p><p>We treat everyone from office workers with back pain to marathon runners and patients recovering from surgery.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2014",
+            "experience_label": "Helping people move since",
+            "points": [
+              {
+                "text": "Qualified MPT physiotherapists"
+              },
+              {
+                "text": "One-to-one, 45-minute sessions"
+              },
+              {
+                "text": "Home visits across Pune"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Therapies",
+            "heading": "Specialist care under one roof",
+            "description": "Physiotherapy, sports injury rehab and pain management with one-to-one sessions and home visits.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-person-arms-up",
+                "title": "Sports injury rehab",
+                "description": "ACL, shoulder and ankle injuries with return-to-sport plans.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-chat-heart",
+                "title": "Pain assessment",
+                "description": "Detailed assessment of pain, posture and movement.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-flower1",
+                "title": "Pilates & posture",
+                "description": "Clinical Pilates for core strength and posture correction.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Post-surgery rehab",
+                "description": "Recovery after knee, hip and spine surgery.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12000",
+                "suffix": "+",
+                "label": "Patients treated",
+                "icon": ""
+              },
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Physiotherapists",
+                "icon": ""
+              },
+              {
+                "number": "45",
+                "suffix": " min",
+                "label": "One-to-one sessions",
+                "icon": ""
+              },
+              {
+                "number": "90",
+                "suffix": "%",
+                "label": "Pain-free on discharge",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-clipboard-pulse",
+                "title": "Assessment",
+                "description": "A 60-minute evaluation of your problem."
+              },
+              {
+                "icon": "bi-bullseye",
+                "title": "Goal plan",
+                "description": "A clear plan with goals and timelines."
+              },
+              {
+                "icon": "bi-activity",
+                "title": "Treatment",
+                "description": "Manual therapy, exercise and equipment."
+              },
+              {
+                "icon": "bi-trophy",
+                "title": "Back to life",
+                "description": "Discharge with a maintenance programme."
+              }
+            ]
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "Our Team",
+            "heading": "Meet our specialists",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Rahul Kulkarni (PT)",
+                "qualification": "MPT (Sports)",
+                "specialty": "Sports injuries",
+                "experience": "15 years",
+                "timings": "Mon–Sat, 7 – 11 am",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Shruti Jog (PT)",
+                "qualification": "MPT (Neurology)",
+                "specialty": "Neuro rehab",
+                "experience": "15 years",
+                "timings": "Mon–Fri, 11 am – 4 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Varun Bhide (PT)",
+                "qualification": "MPT (Musculoskeletal)",
+                "specialty": "Back & neck pain",
+                "experience": "10 years",
+                "timings": "Mon–Sat, 5 – 9 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Pooja Kale (PT)",
+                "qualification": "MPT (Paediatrics)",
+                "specialty": "Children",
+                "experience": "8 years",
+                "timings": "Tue–Sat, 10 am – 2 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "Meet the whole team",
+              "url": "page:doctors"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Patient stories",
+            "heading": "What our patients say",
+            "items": [
+              {
+                "quote": "After my ACL surgery, Revive got me back on the football field in seven months.",
+                "name": "Aditya Patil",
+                "role": "Sports rehab",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "My back pain of five years is finally gone. The home exercises really helped.",
+                "name": "Sunita Deshmukh",
+                "role": "Back pain patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Home visits made my mother’s stroke recovery so much easier.",
+                "name": "Nikhil Joshi",
+                "role": "Son of patient",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Monday – Friday",
+                "hours": "7 am – 9 pm"
+              },
+              {
+                "label": "Saturday",
+                "hours": "7 am – 2 pm"
+              },
+              {
+                "label": "Sunday",
+                "hours": "Home visits only"
+              },
+              {
+                "label": "Rehab gym",
+                "hours": "Mon–Sat, 7 am – 9 pm"
+              }
+            ],
+            "highlight_label": "Acute injury?",
+            "highlight_value": "Same-day assessment",
+            "note": "Please bring any X-ray or MRI reports to your first visit."
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "In pain or recovering from an injury?",
+            "description": "Book a one-hour assessment and get a clear recovery plan.",
+            "background_image": "theme:images/svc-3.svg",
+            "button": {
+              "text": "Book an assessment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912026123344"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Revive Physiotherapy & Rehab",
+            "subheading": "Physiotherapy, sports injury rehab and pain management with one-to-one sessions and home visits.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Revive",
+            "heading": "Evidence-based care, one patient at a time",
+            "description": "<p>Revive was started by physiotherapists who were tired of crowded clinics. Every session here is one-to-one, planned around your goals and progress.</p><p>We treat everyone from office workers with back pain to marathon runners and patients recovering from surgery.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2014",
+            "experience_label": "Helping people move since",
+            "points": [
+              {
+                "text": "Qualified MPT physiotherapists"
+              },
+              {
+                "text": "One-to-one, 45-minute sessions"
+              },
+              {
+                "text": "Home visits across Pune"
+              }
+            ],
+            "button": {
+              "text": "Book an assessment",
+              "url": "page:appointment"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12000",
+                "suffix": "+",
+                "label": "Patients treated",
+                "icon": ""
+              },
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Physiotherapists",
+                "icon": ""
+              },
+              {
+                "number": "45",
+                "suffix": " min",
+                "label": "One-to-one sessions",
+                "icon": ""
+              },
+              {
+                "number": "90",
+                "suffix": "%",
+                "label": "Pain-free on discharge",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why patients choose Revive",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-person",
+                "title": "One-to-one",
+                "description": "Your physio stays with you for the full session."
+              },
+              {
+                "icon": "bi-graph-up",
+                "title": "Measured progress",
+                "description": "Strength and mobility tracked every week."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Home visits",
+                "description": "Treatment at home for those who cannot travel."
+              },
+              {
+                "icon": "bi-phone",
+                "title": "Home programme",
+                "description": "Exercise videos on your phone between sessions."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our care",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. Rahul Kulkarni (PT)",
+                "role": "Founder & Sports Physio",
+                "bio": "MPT Sports, former state team physio.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Dr. Shruti Jog (PT)",
+                "role": "Clinical Director",
+                "bio": "MPT Neuro, 15 years’ experience.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Ms. Komal Shah",
+                "role": "Clinic Manager",
+                "bio": "Schedules sessions and home visits.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Mr. Aniket More",
+                "role": "Strength Coach",
+                "bio": "Certified strength and conditioning coach.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Facilities",
+            "heading": "Inside our hospital",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Physiotherapy gym"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Consultation room"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Wellness and yoga"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Patient room"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Children’s ward"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "X-ray and radiology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "departments": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Therapies",
+            "subheading": "Physiotherapy, sports injury rehab and pain management with one-to-one sessions and home visits.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "",
+            "heading": "All therapies",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-person-arms-up",
+                "title": "Sports injury rehab",
+                "description": "ACL, shoulder and ankle injuries with return-to-sport plans.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-chat-heart",
+                "title": "Pain assessment",
+                "description": "Detailed assessment of pain, posture and movement.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-flower1",
+                "title": "Pilates & posture",
+                "description": "Clinical Pilates for core strength and posture correction.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Post-surgery rehab",
+                "description": "Recovery after knee, hip and spine surgery.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Paediatric physio",
+                "description": "Developmental and neurological physiotherapy for children.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Neuro rehab",
+                "description": "Stroke, Parkinson’s and balance rehabilitation.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-clipboard-pulse",
+                "title": "Assessment",
+                "description": "A 60-minute evaluation of your problem."
+              },
+              {
+                "icon": "bi-bullseye",
+                "title": "Goal plan",
+                "description": "A clear plan with goals and timelines."
+              },
+              {
+                "icon": "bi-activity",
+                "title": "Treatment",
+                "description": "Manual therapy, exercise and equipment."
+              },
+              {
+                "icon": "bi-trophy",
+                "title": "Back to life",
+                "description": "Discharge with a maintenance programme."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Do I need a doctor’s referral?",
+                "answer": "No, you can book an assessment directly."
+              },
+              {
+                "question": "How many sessions will I need?",
+                "answer": "Most problems improve in 6–10 sessions; your plan will give an estimate."
+              },
+              {
+                "question": "Do you offer home visits?",
+                "answer": "Yes, across most of Pune, at a small extra charge."
+              },
+              {
+                "question": "What should I wear?",
+                "answer": "Comfortable clothes that let us see and move the area being treated."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "In pain or recovering from an injury?",
+            "description": "Book a one-hour assessment and get a clear recovery plan.",
+            "background_image": "theme:images/svc-3.svg",
+            "button": {
+              "text": "Book an assessment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912026123344"
+            }
+          }
+        }
+      ]
+    },
+    "doctors": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Team",
+            "subheading": "Experienced specialists, with their timings — book directly with the doctor you prefer.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "",
+            "heading": "Find your specialist",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Rahul Kulkarni (PT)",
+                "qualification": "MPT (Sports)",
+                "specialty": "Sports injuries",
+                "experience": "15 years",
+                "timings": "Mon–Sat, 7 – 11 am",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Shruti Jog (PT)",
+                "qualification": "MPT (Neurology)",
+                "specialty": "Neuro rehab",
+                "experience": "15 years",
+                "timings": "Mon–Fri, 11 am – 4 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Varun Bhide (PT)",
+                "qualification": "MPT (Musculoskeletal)",
+                "specialty": "Back & neck pain",
+                "experience": "10 years",
+                "timings": "Mon–Sat, 5 – 9 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Pooja Kale (PT)",
+                "qualification": "MPT (Paediatrics)",
+                "specialty": "Children",
+                "experience": "8 years",
+                "timings": "Tue–Sat, 10 am – 2 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Ameya Gokhale (PT)",
+                "qualification": "MPT (Orthopaedics)",
+                "specialty": "Post-surgery",
+                "experience": "9 years",
+                "timings": "Mon–Sat, 8 am – 12 noon",
+                "photo": "theme:images/doctor-5.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Neha Sathe (PT)",
+                "qualification": "BPT, Pilates certified",
+                "specialty": "Pilates & posture",
+                "experience": "7 years",
+                "timings": "Mon–Fri, 6 – 9 pm",
+                "photo": "theme:images/doctor-6.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Sagar Pawar (PT)",
+                "qualification": "MPT (Sports)",
+                "specialty": "Running injuries",
+                "experience": "6 years",
+                "timings": "Mon–Sat, 7 – 10 am",
+                "photo": "theme:images/doctor-7.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Ruta Joshi (PT)",
+                "qualification": "MPT (Cardio-respiratory)",
+                "specialty": "Cardiac rehab",
+                "experience": "9 years",
+                "timings": "Mon, Wed, Fri, 3 – 7 pm",
+                "photo": "theme:images/doctor-8.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "In pain or recovering from an injury?",
+            "description": "Book a one-hour assessment and get a clear recovery plan.",
+            "background_image": "theme:images/svc-3.svg",
+            "button": {
+              "text": "Book an assessment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912026123344"
+            }
+          }
+        }
+      ]
+    },
+    "health-packages": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Packages",
+            "subheading": "Clear prices for check-ups and common treatments.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Packages",
+            "heading": "Clear, upfront prices",
+            "description": "Prices include taxes. Packages can be booked online or at the front desk.",
+            "plans": [
+              {
+                "name": "Assessment",
+                "price": "₹1,200",
+                "period": "visit",
+                "features": "60-minute evaluation\nWritten treatment plan\nHome exercise sheet",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              },
+              {
+                "name": "10-session pack",
+                "price": "₹9,500",
+                "period": "pack",
+                "features": "Ten one-to-one sessions\nProgress tracking\nExercise videos\nValid for 3 months",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": true
+              },
+              {
+                "name": "Home physio",
+                "price": "₹1,500",
+                "period": "session",
+                "features": "At-home treatment\nPortable equipment\nFamily training",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Do I need a doctor’s referral?",
+                "answer": "No, you can book an assessment directly."
+              },
+              {
+                "question": "How many sessions will I need?",
+                "answer": "Most problems improve in 6–10 sessions; your plan will give an estimate."
+              },
+              {
+                "question": "Do you offer home visits?",
+                "answer": "Yes, across most of Pune, at a small extra charge."
+              },
+              {
+                "question": "What should I wear?",
+                "answer": "Comfortable clothes that let us see and move the area being treated."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "In pain or recovering from an injury?",
+            "description": "Book a one-hour assessment and get a clear recovery plan.",
+            "background_image": "theme:images/svc-3.svg",
+            "button": {
+              "text": "Book an assessment",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912026123344"
+            }
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Book a Session",
+            "subheading": "Request an appointment online — we will call you to confirm.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Book a Session",
+            "heading": "Book an assessment",
+            "description": "Choose a service and a convenient time — our team will call to confirm.",
+            "form_type": "appointment",
+            "form_heading": "Book an assessment",
+            "select1_label": "Problem area",
+            "select1_options": "Back or neck pain\nKnee or hip\nShoulder\nSports injury\nAfter surgery\nStroke or neurological\nChild development",
+            "select2_label": "Where",
+            "select2_options": "At the clinic\nHome visit",
+            "date_label": "Preferred date",
+            "message_label": "Describe your problem",
+            "email_required": false,
+            "button_text": "Request session",
+            "success_message": "Thank you! We will call you to confirm your session.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We confirm by phone",
+                "text": "Usually within an hour"
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Timings",
+                "text": "Mon–Sat: 7 am – 9 pm"
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Bring your reports",
+                "text": "Previous prescriptions and test results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-clipboard-pulse",
+                "title": "Assessment",
+                "description": "A 60-minute evaluation of your problem."
+              },
+              {
+                "icon": "bi-bullseye",
+                "title": "Goal plan",
+                "description": "A clear plan with goals and timelines."
+              },
+              {
+                "icon": "bi-activity",
+                "title": "Treatment",
+                "description": "Manual therapy, exercise and equipment."
+              },
+              {
+                "icon": "bi-trophy",
+                "title": "Back to life",
+                "description": "Discharge with a maintenance programme."
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Monday – Friday",
+                "hours": "7 am – 9 pm"
+              },
+              {
+                "label": "Saturday",
+                "hours": "7 am – 2 pm"
+              },
+              {
+                "label": "Sunday",
+                "hours": "Home visits only"
+              },
+              {
+                "label": "Rehab gym",
+                "hours": "Mon–Sat, 7 am – 9 pm"
+              }
+            ],
+            "highlight_label": "Acute injury?",
+            "highlight_value": "Same-day assessment",
+            "note": "Please bring any X-ray or MRI reports to your first visit."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Visit us, call us or send a message — we are here to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are here to help",
+            "description": "Reach our Pune team by phone, email or the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Monday – Friday",
+                "hours": "7 am – 9 pm"
+              },
+              {
+                "label": "Saturday",
+                "hours": "7 am – 2 pm"
+              },
+              {
+                "label": "Sunday",
+                "hours": "Home visits only"
+              },
+              {
+                "label": "Rehab gym",
+                "hours": "Mon–Sat, 7 am – 9 pm"
+              }
+            ],
+            "highlight_label": "Acute injury?",
+            "highlight_value": "Same-day assessment",
+            "note": "Please bring any X-ray or MRI reports to your first visit."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Revive Physiotherapy & Rehab collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+          }
+        }
+      ]
+    }
+  }
+}
