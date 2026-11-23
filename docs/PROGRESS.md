@@ -9,7 +9,45 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a done (Education 01, Hospital 01, E-commerce 01 with the shop module). 7b part 1 done (Real Estate 01, Travel 01 with the listings module). 7b part 2 done (Restaurant 01 with the food menu, Hotel 01 with rooms), awaiting review. Next: 7b part 3 (Portfolio 01, Services 01), then 7c |
+| 7 Template library | 🔄 In progress | 7a done (Education 01, Hospital 01, E-commerce 01 with the shop module). 7b part 1 done (Real Estate 01, Travel 01 with the listings module). 7b done: template 01 for all 10 categories (part 3: Portfolio 01, Services 01, awaiting review). Next: 7c (templates 02–10 per category) |
+
+## Phase 7b, part 3: Portfolio 01 and Services 01 (template 01 for every category is now done)
+
+### Delivered
+- **Portfolio 01, "Studio Kiln"** (`templates/portfolio/portfolio_template_01`, prefix `skl`), projects on the listings module at `/work`:
+  - Design: warm grey paper, black type, electric blue and acid lime, oversized Space Grotesk headlines, a scrolling ticker of disciplines (paused on hover, static for people who prefer reduced motion), a two-column project grid, disciplines shown as a large typographic index, a giant email address in the footer.
+  - Case-study pages: client, year, industry, timeline, team, "What we did", "Outcomes", gallery and a project-brief form (budget, ideal start date).
+  - Demo: a Bengaluru design studio with 10 projects in 4 disciplines; 27 original SVG mock-ups (packaging, app screens, posters, cans, book covers, signage).
+- **Services 01, "Ledgerline Advisors"** (`templates/services/services_template_01`, prefix `ldg`), services on the listings module at `/services`:
+  - Design: navy and emerald on white, Poppins headings, a split hero with an illustration and a checklist, flat spot illustrations, fee and turnaround chips, pricing packages, numbered step cards.
+  - Service pages: "Ideal for", fee with a note (per return, per month…), turnaround, how we work, billing, what's included and documents needed, and a call-back request ("You are…", no date).
+  - Free-consultation booking form (Phase 7a booking form, type "appointment") linked from the hero; pricing page with three packages.
+  - Demo: an Ahmedabad CA firm with 10 services in 3 groups; 26 original SVG illustrations.
+- **Listings module:**
+  - `price_format: "none"` for catalogues without prices: no price fields in the admin (posted prices are ignored), no price filters or sorting, no price on pages.
+  - New paths `work` and `services`; `menu_label` for the menu and breadcrumbs.
+  - When the location filter is off, the detail page shows the location as a labelled fact ("Client:", "Ideal for:", "Route:", "Wing:") instead of with a map pin.
+  - The call-back form can leave out the date.
+- Font Space Grotesk bundled (SIL Open Font License). Runtime 1.7.0.
+
+### Tests
+`tests/phase7b_part3_test.php`, **37 end-to-end checks**:
+- portfolio: hero ticker, menu, project grid without prices, filters, case study, the brief end to end, the admin form without prices (a posted price is ignored), the disciplines index on a normal "services" page
+- services: hero link to the consultation form, service groups, cards with fees, filters (billing, budget, group), "Fees on request", the service page, the call-back request, pricing packages, the consultation booking, reserved address, header dropdown
+- an earlier listing template still shows locations with the map pin
+
+Results:
+
+| Server | 7b-3 | 7b-2 | 7b-1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+The Phase 6 export test also passed (53/53) for both new websites, and the exported sites serve the project and service pages on the separate host. All PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of both websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- Portfolio project grid: on phones the wider gutter made the page 4 px wider than the screen; the wider gutter now applies from tablet width.
+- "10 work found": listing counts use the plural ("projects") while the menu can say "Work" (`menu_label`).
 
 ## Phase 7b, part 2: Restaurant 01 and Hotel 01
 

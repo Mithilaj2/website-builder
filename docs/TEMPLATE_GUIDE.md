@@ -199,10 +199,10 @@ Templates whose content is a catalogue of things people enquire about, rather th
 
 ```json
 "listings": {
-  "path": "properties",              // one of: properties, packages, tours, rooms, projects, portfolio, listings, destinations, vehicles (reserved as page addresses)
-  "singular": "Property", "plural": "Properties", "icon": "bi-buildings",
+  "path": "properties",              // one of: properties, packages, tours, rooms, projects, portfolio, work, services, listings, destinations, vehicles (reserved on that website only)
+  "singular": "Property", "plural": "Properties", "menu_label": "Properties", "icon": "bi-buildings",
   "category_label": "Property type", "location_label": "Locality", "location_filter": true,
-  "price_label": "Price", "price_format": "lakh",      // "inr" (₹24,999) or "lakh" (₹85 Lakh, ₹1.25 Cr)
+  "price_label": "Price", "price_format": "lakh",      // "inr" (₹24,999), "lakh" (₹85 Lakh, ₹1.25 Cr) or "none" (no prices anywhere: portfolios)
   "price_notes": ["onwards", "per month"],             // suggestions in the admin
   "closed_label": "Sold",                              // status shown for closed items (they stay visible, sorted last)
   "attributes": [
@@ -223,7 +223,9 @@ Styling and overrides:
 - The pages use `assets/listings/listings.css` (`.wblist-*` classes, `--wb-*` variables). Restyle with your prefix (`.kst .wblist-filters`).
 - Add `partials/listing-card.php` and every grid (index, similar items, the `listings` section) uses your card; it receives `$item` with `title`, `slug`, `location`, `price_text`, `price_note`, `badge`, `is_closed`, `category_name`, `image`, `gallery`, `attrs` (raw values), `facts` (`key`, `label`, `icon`, `value` formatted with its suffix, `card`) and `lists`.
 - Or replace a whole page with `theme/listings/index.php` or `theme/listings/detail.php`.
-- Set `"location_filter": false` when the location field is free text that makes a poor filter (travel routes, hotel wings).
+- Set `"location_filter": false` when the location field is free text that makes a poor filter (travel routes, hotel wings, a portfolio's client). The detail page then shows it as "`location_label`: value" instead of with a map pin.
+- `menu_label` is the name used in the menu and breadcrumbs when it should differ from `plural` (Portfolio 01: menu "Work", counts "10 projects found").
+- Leave `enquiry.date_label` empty to drop the date field (Services 01 call-back form).
 - Detail galleries adapt to 1, 2, 3, 4 or 5+ photos.
 
 `$view` helpers: `listingsEnabled()`, `listingConfig()`, `listingsUrl(['c' => 'villas', 'a' => ['bedrooms' => 3], 'max' => 5000000])` (budget filters in rupees), `listingUrl($item)`, `listings(['featured' => true, 'category' => 'slug', 'sort' => 'new|price_asc|price_desc', 'limit' => 6, 'include_closed' => false])`, `listingCategories()` (with `listing_count`), `listingLocations()`, `listingPrice($paise)`. Link to the index from content with `page:listings`.
@@ -239,6 +241,8 @@ Styling and overrides:
 | Real Estate 01 Keystone Realty | `kst` | Burgundy + champagne on warm stone, ink footer | Sora + DM Sans | Square-cornered frames with champagne rules, full-bleed dark hero with a tabbed buy/rent search panel, price set on the photo, three-cell fact strip on cards |
 | Restaurant 01 Saffron Table | `sfr` | Dark charcoal page, saffron + chilli accents | DM Serif Display + Manrope | The only dark template so far: header floating over a table-spread hero, thin gold rules, menu with dotted price leaders and Indian veg / non-veg marks, uppercase letter-spaced buttons |
 | Hotel 01 The Lakeview Haveli | `lvh` | Forest green + antique brass on ivory | Cormorant Garamond + Montserrat | Rajasthani arch-topped photo frames everywhere, centred two-row header, diamond ornaments in headings, lake-palace hero with a white stay finder |
+| Portfolio 01 Studio Kiln | `skl` | Black + electric blue + acid lime on warm grey paper | Space Grotesk + Inter | Oversized tight headlines, a scrolling ticker of disciplines, hairline rules, two-column project grid with a lime arrow on hover, disciplines as a typographic index, giant email address in the footer, no rounded corners |
+| Services 01 Ledgerline Advisors | `ldg` | Navy + emerald on white with blue-grey and mint bands | Poppins + Open Sans | Split hero with an illustration and a checklist, flat spot illustrations per service, fee and turnaround chips on cards, pricing packages with a highlighted middle plan, numbered step cards |
 | Travel 01 Horizon Trails | `hzt` | Deep ocean + sunset orange on sand | Jost + Plus Jakarta Sans | Generous rounding and pill buttons, centred sunset hero with a capsule trip finder, mosaic destination tiles, duration chips and "From ₹… per person" card footers |
 
 Later templates in the same category should change at least the palette family, the heading typeface, the frame/shape motif and the hero layout (light vs dark, image side, full-bleed vs boxed).

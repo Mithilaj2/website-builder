@@ -15,9 +15,9 @@ $rupees = static fn ($p): string => $p === null || $p === '' ? '' : (string) int
       <div class="card mb-3"><div class="card-body">
         <div class="mb-3"><label class="form-label">Title *</label><input class="form-control" name="title" maxlength="150" required value="<?= e($it['title']) ?>"></div>
         <div class="row g-3 mb-3">
-          <div class="col-md-6"><label class="form-label"><?= e($cfg['location_label']) ?></label><input class="form-control" name="location" maxlength="120" value="<?= e((string) $it['location']) ?>"></div>
-          <div class="col-md-3"><label class="form-label"><?= e($cfg['price_label']) ?> (₹)</label><input class="form-control" name="price" inputmode="numeric" value="<?= e($rupees($it['price'])) ?>" placeholder="On request"></div>
-          <div class="col-md-3"><label class="form-label">Price note</label><input class="form-control" name="price_note" maxlength="40" value="<?= e((string) $it['price_note']) ?>" list="priceNotes" placeholder="e.g. onwards"><datalist id="priceNotes"><?php foreach ($cfg['price_notes'] as $n): ?><option value="<?= e($n) ?>"><?php endforeach; ?></datalist></div>
+          <div class="<?= $cfg['price_format'] === 'none' ? 'col-12' : 'col-md-6' ?>"><label class="form-label"><?= e($cfg['location_label']) ?></label><input class="form-control" name="location" maxlength="120" value="<?= e((string) $it['location']) ?>"></div>
+          <?php if ($cfg['price_format'] !== 'none'): ?><div class="col-md-3"><label class="form-label"><?= e($cfg['price_label']) ?> (₹)</label><input class="form-control" name="price" inputmode="numeric" value="<?= e($rupees($it['price'])) ?>" placeholder="On request"></div>
+          <div class="col-md-3"><label class="form-label">Price note</label><input class="form-control" name="price_note" maxlength="40" value="<?= e((string) $it['price_note']) ?>" list="priceNotes" placeholder="e.g. onwards"><datalist id="priceNotes"><?php foreach ($cfg['price_notes'] as $n): ?><option value="<?= e($n) ?>"><?php endforeach; ?></datalist></div><?php endif; ?>
         </div>
         <div class="mb-3"><label class="form-label">Summary</label><textarea class="form-control" name="short_description" rows="2" maxlength="400"><?= e((string) $it['short_description']) ?></textarea><div class="form-text">Shown at the top of the page and in search results.</div></div>
         <div><label class="form-label">Full description</label><textarea class="form-control" name="description" id="listingDesc" rows="8"><?= e((string) $it['description']) ?></textarea></div>

@@ -140,5 +140,14 @@
     "weights": [
       400
     ]
+  },
+  "space-grotesk": {
+    "name": "Space Grotesk",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
   }
 }

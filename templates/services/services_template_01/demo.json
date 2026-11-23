@@ -1,0 +1,980 @@
+{
+ "settings": {
+  "site": {
+   "name": "Ledgerline Advisors",
+   "tagline": "ICAI-registered chartered accountants",
+   "phone": "+91 79 4890 1100",
+   "email": "hello@ledgerline.example",
+   "address": "6th floor, Shivalik Plaza, CG Road\nAhmedabad, Gujarat 380009",
+   "hours": "Mon–Sat, 10 am – 7 pm",
+   "footer_about": "Chartered accountants for individuals, startups and growing businesses. Tax, GST, company registration, bookkeeping and audit.",
+   "footer_text": "All rights reserved.",
+   "header_button": {
+    "text": "Free consultation",
+    "url": "page:contact"
+   },
+   "social": {
+    "linkedin": "https://www.linkedin.com/",
+    "facebook": "https://www.facebook.com/",
+    "whatsapp": "https://wa.me/917948901100"
+   }
+  },
+  "seo": {
+   "description": "Ledgerline Advisors, Ahmedabad: chartered accountants for ITR filing, GST registration and returns, company registration, bookkeeping, payroll and audit. Fixed fees, online across India.",
+   "keywords": "chartered accountant Ahmedabad, ITR filing, GST registration, company registration, bookkeeping services"
+  }
+ },
+ "listings": {
+  "categories": [
+   {
+    "name": "Individuals",
+    "slug": "individuals",
+    "description": "Tax returns, notices and tax planning for salaried people and freelancers.",
+    "image": "theme:images/svc-itr.svg"
+   },
+   {
+    "name": "Startups",
+    "slug": "startups",
+    "description": "Company registration, trademarks, Startup India and virtual CFO.",
+    "image": "theme:images/svc-startup.svg"
+   },
+   {
+    "name": "Businesses",
+    "slug": "businesses",
+    "description": "GST, bookkeeping, payroll and audits for growing businesses.",
+    "image": "theme:images/svc-bookkeeping.svg"
+   }
+  ],
+  "items": [
+   {
+    "title": "Income tax return (ITR) filing",
+    "slug": "itr-filing",
+    "category": "individuals",
+    "location": "Salaried people, pensioners and freelancers",
+    "price": 149900,
+    "price_note": "per return",
+    "image": "theme:images/svc-itr.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "2–3 working days",
+     "mode": "Online",
+     "frequency": "Yearly",
+     "included": [
+      "Review of Form 16, AIS and 26AS",
+      "Choice of old or new tax regime",
+      "Deductions under 80C, 80D and more",
+      "Filing and e-verification",
+      "Help with refund follow-up"
+     ],
+     "documents": [
+      "PAN card",
+      "Aadhaar card",
+      "Bank statement or passbook",
+      "Form 16 from your employer",
+      "Rent receipts and investment proofs"
+     ]
+    },
+    "short_description": "Accurate ITR filing by a chartered accountant, with every deduction you are entitled to.",
+    "description": "<p>We compare the old and new tax regimes for you, check your AIS and Form 26AS for mismatches, claim every eligible deduction and file before the deadline. You get a computation sheet and the filed acknowledgement.</p><h3>Who is it for?</h3><p>Salaried people, pensioners, freelancers and people with capital gains from shares or mutual funds (capital-gains filing is ₹2,999).</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "Most popular"
+   },
+   {
+    "title": "GST registration",
+    "slug": "gst-registration",
+    "category": "businesses",
+    "location": "New businesses, shops and online sellers",
+    "price": 199900,
+    "price_note": "one-time",
+    "image": "theme:images/svc-gst.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "5–7 working days",
+     "mode": "Online",
+     "frequency": "One-time",
+     "included": [
+      "Eligibility check and advice on the right scheme",
+      "Application on the GST portal",
+      "Replies to department queries",
+      "GST certificate"
+     ],
+     "documents": [
+      "PAN card",
+      "Aadhaar card",
+      "Bank statement or passbook",
+      "Proof of business address",
+      "Photograph of the owner or partners"
+     ]
+    },
+    "short_description": "Get your GSTIN quickly, with expert help on the right scheme for your business.",
+    "description": "<p>We help you decide between the regular and composition schemes, prepare the application and handle any clarification the department asks for.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "GST return filing",
+    "slug": "gst-returns",
+    "category": "businesses",
+    "location": "GST-registered businesses",
+    "price": 149900,
+    "price_note": "per month",
+    "image": "theme:images/svc-tds.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "Every month, before the due date",
+     "mode": "Online",
+     "frequency": "Monthly",
+     "included": [
+      "GSTR-1 and GSTR-3B",
+      "Input tax credit reconciliation with GSTR-2B",
+      "Reminders before every due date",
+      "Annual return (GSTR-9) at a discount"
+     ],
+     "documents": [
+      "Sales and purchase invoices",
+      "Bank statement for the month"
+     ]
+    },
+    "short_description": "Monthly GST returns filed on time, with input tax credit matched every month.",
+    "description": "<p>Send us your invoices by the 5th of each month and we take care of the rest — including reconciliation so you never lose input tax credit.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Private limited company registration",
+    "slug": "company-registration",
+    "category": "startups",
+    "location": "Startups and growing businesses",
+    "price": 699900,
+    "price_note": "plus government fees",
+    "image": "theme:images/svc-company.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "10–12 working days",
+     "mode": "Online",
+     "frequency": "One-time",
+     "included": [
+      "Name approval",
+      "Digital signatures for 2 directors",
+      "Certificate of incorporation, PAN and TAN",
+      "MOA and AOA drafting",
+      "Bank account opening support"
+     ],
+     "documents": [
+      "PAN and Aadhaar of directors",
+      "Address proof of directors",
+      "Registered office proof and NOC from owner"
+     ]
+    },
+    "short_description": "Incorporate your private limited company with everything you need to open a bank account and start trading.",
+    "description": "<p>We handle name approval, documents and filings with the Ministry of Corporate Affairs, and help you with the first board meeting and statutory registers.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Monthly bookkeeping",
+    "slug": "bookkeeping",
+    "category": "businesses",
+    "location": "Small businesses and startups",
+    "price": 499900,
+    "price_note": "per month",
+    "image": "theme:images/svc-bookkeeping.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "Books updated weekly",
+     "mode": "Online",
+     "frequency": "Monthly",
+     "included": [
+      "Bookkeeping in Tally or Zoho Books",
+      "Bank reconciliation",
+      "Monthly profit and loss statement",
+      "Receivables and payables report"
+     ],
+     "documents": [
+      "Access to bank statements",
+      "Sales and purchase bills"
+     ]
+    },
+    "short_description": "Clean, up-to-date books every month, so you always know where your money is.",
+    "description": "<p>Your dedicated accountant updates your books every week and sends you a simple monthly report.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Payroll and PF/ESI compliance",
+    "slug": "payroll",
+    "category": "businesses",
+    "location": "Businesses with 5 to 200 employees",
+    "price": 299900,
+    "price_note": "per month",
+    "image": "theme:images/svc-payroll.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "Every month, on payday",
+     "mode": "Online",
+     "frequency": "Monthly",
+     "included": [
+      "Salary calculation and payslips",
+      "PF, ESI and professional tax filings",
+      "TDS on salaries and Form 16",
+      "Full and final settlements"
+     ],
+     "documents": [
+      "Employee details and salary structure",
+      "Attendance and leave data"
+     ]
+    },
+    "short_description": "Payroll, payslips and statutory filings handled every month.",
+    "description": "<p>Pricing for up to 25 employees; ₹60 per additional employee per month.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Trademark registration",
+    "slug": "trademark",
+    "category": "startups",
+    "location": "Brands, startups and creators",
+    "price": 449900,
+    "price_note": "plus government fee",
+    "image": "theme:images/svc-trademark.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "Filed within 2 working days",
+     "mode": "Online",
+     "frequency": "One-time",
+     "included": [
+      "Trademark search",
+      "Class advice",
+      "Application filing",
+      "Use of the ™ symbol from filing"
+     ],
+     "documents": [
+      "Logo or brand name",
+      "PAN and address of the applicant"
+     ]
+    },
+    "short_description": "Protect your brand name and logo with a trademark application filed by experts.",
+    "description": "<p>Government fee is ₹4,500 for individuals and small businesses (₹9,000 for others).</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "Startup India (DPIIT) recognition",
+    "slug": "startup-india",
+    "category": "startups",
+    "location": "Companies and LLPs under 10 years old",
+    "price": 499900,
+    "price_note": "one-time",
+    "image": "theme:images/svc-startup.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "7–10 working days",
+     "mode": "Online",
+     "frequency": "One-time",
+     "included": [
+      "Eligibility review",
+      "Pitch write-up for the application",
+      "Application filing",
+      "Guidance on tax exemptions"
+     ],
+     "documents": [
+      "Certificate of incorporation",
+      "Short description of your product"
+     ]
+    },
+    "short_description": "Get DPIIT recognition to unlock tax benefits and easier compliance.",
+    "description": "<p>Recognised startups can apply for income tax exemption under section 80-IAC and enjoy simpler compliance.</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "Virtual CFO",
+    "slug": "virtual-cfo",
+    "category": "startups",
+    "location": "Funded startups and SMEs",
+    "price": null,
+    "price_note": null,
+    "image": "theme:images/svc-cfo.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "Monthly review meeting",
+     "mode": "Online or in-office",
+     "frequency": "Monthly",
+     "included": [
+      "Budgets and cash-flow forecasts",
+      "Investor reporting and MIS",
+      "Fund-raise and due-diligence support",
+      "Board meeting preparation"
+     ],
+     "documents": []
+    },
+    "short_description": "A part-time finance head for your startup: budgets, investor reports and fund-raise support.",
+    "description": "<p>Fees depend on the size of your business; we send a proposal after a first conversation.</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "Statutory audit",
+    "slug": "statutory-audit",
+    "category": "businesses",
+    "location": "Private limited companies",
+    "price": 2499900,
+    "price_note": "onwards",
+    "image": "theme:images/svc-audit.svg",
+    "gallery": [],
+    "attributes": {
+     "turnaround": "3–4 weeks",
+     "mode": "Online or in-office",
+     "frequency": "Yearly",
+     "included": [
+      "Audit under the Companies Act",
+      "Audit report and CARO report",
+      "Help with ROC filings (AOC-4, MGT-7)"
+     ],
+     "documents": [
+      "Books of accounts",
+      "Bank statements",
+      "Previous year’s financial statements"
+     ]
+    },
+    "short_description": "Statutory audits for private limited companies, done thoroughly and on time.",
+    "description": "<p>Currently not taking new audit clients until April 2027.</p>",
+    "featured": false,
+    "status": "closed"
+   }
+  ]
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "Chartered accountants · Ahmedabad",
+      "heading": "Tax, GST and compliance, handled by experts",
+      "subheading": "From your ITR to your company’s books, we take care of the numbers so you can focus on your work.",
+      "image": "theme:images/hero-advisors.svg",
+      "background_image": "",
+      "primary_button": {
+       "text": "Book a free consultation",
+       "url": "#appointment-form"
+      },
+      "secondary_button": {
+       "text": "View services",
+       "url": "page:listings"
+      },
+      "highlights": [
+       {
+        "icon": "bi-check-circle-fill",
+        "text": "Fixed, upfront fees"
+       },
+       {
+        "icon": "bi-check-circle-fill",
+        "text": "A named chartered accountant for every client"
+       },
+       {
+        "icon": "bi-check-circle-fill",
+        "text": "9,000+ returns filed on time"
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "Trusted by 600+ businesses across Gujarat",
+      "items": [
+       {
+        "image": "theme:images/client-logo-1.svg",
+        "name": "Nirmaan",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-2.svg",
+        "name": "Sutra Labs",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-3.svg",
+        "name": "GreenLeaf",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-4.svg",
+        "name": "Tessera",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-5.svg",
+        "name": "Zenith",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-6.svg",
+        "name": "Arc Foods",
+        "url": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "listing_categories",
+     "data": {
+      "eyebrow": "Who we help",
+      "heading": "Services for every stage",
+      "description": "",
+      "limit": 3,
+      "show_counts": true
+     }
+    },
+    {
+     "type": "listings",
+     "data": {
+      "eyebrow": "Popular services",
+      "heading": "What can we help you with?",
+      "description": "Clear fees and turnaround times for every service.",
+      "source": "featured",
+      "category": "",
+      "limit": 6,
+      "button": {
+       "text": "All services",
+       "url": "page:listings"
+      }
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "Why Ledgerline",
+      "heading": "Chartered accountants who pick up the phone",
+      "description": "",
+      "image": "",
+      "items": [
+       {
+        "icon": "bi-person-badge",
+        "title": "A CA, not a call centre",
+        "description": "Every client has a named chartered accountant."
+       },
+       {
+        "icon": "bi-tags",
+        "title": "Fixed, upfront fees",
+        "description": "Know the price before we start. No surprises."
+       },
+       {
+        "icon": "bi-alarm",
+        "title": "Never miss a deadline",
+        "description": "Reminders and filings well before every due date."
+       },
+       {
+        "icon": "bi-shield-lock",
+        "title": "Your data is safe",
+        "description": "Encrypted document sharing and strict confidentiality."
+       }
+      ]
+     }
+    },
+    {
+     "type": "process",
+     "data": {
+      "eyebrow": "How it works",
+      "heading": "Done in four simple steps",
+      "description": "",
+      "steps": [
+       {
+        "icon": "bi-telephone",
+        "title": "Free call",
+        "description": "Tell us what you need. We suggest the right service."
+       },
+       {
+        "icon": "bi-cloud-upload",
+        "title": "Share documents",
+        "description": "Upload securely or send on WhatsApp."
+       },
+       {
+        "icon": "bi-clipboard-check",
+        "title": "We prepare & review",
+        "description": "A CA prepares and you review before filing."
+       },
+       {
+        "icon": "bi-send-check",
+        "title": "Filed & done",
+        "description": "You get the acknowledgement and a reminder for next time."
+       }
+      ]
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "12",
+        "suffix": "",
+        "label": "Years in practice",
+        "icon": ""
+       },
+       {
+        "number": "600",
+        "suffix": "+",
+        "label": "Business clients",
+        "icon": ""
+       },
+       {
+        "number": "9000",
+        "suffix": "+",
+        "label": "Returns filed",
+        "icon": ""
+       },
+       {
+        "number": "4.9",
+        "suffix": "",
+        "label": "Google rating",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Client reviews",
+      "heading": "What our clients say",
+      "description": "",
+      "items": [
+       {
+        "quote": "Ledgerline has handled our GST and payroll for four years. Not one late filing, and they explain everything in plain language.",
+        "name": "Hemant Desai",
+        "role": "Owner, Arc Foods",
+        "photo": "theme:images/client-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "They incorporated our company, got our DPIIT recognition and now act as our virtual CFO. Investors love the monthly reports.",
+        "name": "Riya Shah",
+        "role": "Co-founder, Sutra Labs",
+        "photo": "theme:images/client-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "My ITR was done in two days and they found deductions I had missed for years.",
+        "name": "Imran Qureshi",
+        "role": "Software engineer",
+        "photo": "theme:images/client-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "booking_form",
+     "data": {
+      "eyebrow": "Free consultation",
+      "heading": "Talk to a chartered accountant",
+      "description": "Book a free 15-minute call. We will understand your needs and give you a fixed quote — no obligation.",
+      "form_type": "appointment",
+      "form_heading": "Book your free call",
+      "select1_label": "Service",
+      "select1_options": "Income tax return\nGST registration or returns\nCompany registration\nBookkeeping or payroll\nSomething else",
+      "select2_label": "Preferred time",
+      "select2_options": "Morning (10 am – 1 pm)\nAfternoon (2 – 5 pm)\nEvening (5 – 7 pm)",
+      "date_label": "Preferred date",
+      "message_label": "Anything we should know? (optional)",
+      "email_required": false,
+      "button_text": "Book my free call",
+      "success_message": "Thank you! We will call you at your preferred time to confirm.",
+      "image": "",
+      "points": [
+       {
+        "icon": "bi-clock",
+        "title": "15-minute call",
+        "text": "With a qualified chartered accountant"
+       },
+       {
+        "icon": "bi-currency-rupee",
+        "title": "Free, no obligation",
+        "text": "Get a fixed quote before you decide"
+       },
+       {
+        "icon": "bi-whatsapp",
+        "title": "Prefer WhatsApp?",
+        "text": "Message us on +91 79 4890 1100"
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Tax deadline coming up?",
+      "description": "File your ITR with a chartered accountant from ₹1,499. Most returns are filed within three working days.",
+      "background_image": "",
+      "button": {
+       "text": "File my ITR",
+       "url": "page:listings"
+      },
+      "secondary_button": {
+       "text": "Call us",
+       "url": "tel:+917948901100"
+      }
+     }
+    }
+   ]
+  },
+  "about": {
+   "seo_title": "About us",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "About Ledgerline Advisors",
+      "subheading": "Chartered accountants for individuals, startups and growing businesses.",
+      "background_image": "theme:images/banner-navy.svg"
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "About us",
+      "heading": "Your finance team, without the overheads",
+      "description": "<p>Ledgerline Advisors is a chartered accountancy firm in Ahmedabad founded in 2014. Our team of 28 — chartered accountants, company secretaries and tax specialists — works with individuals, startups and businesses across India.</p><p>We are registered with the Institute of Chartered Accountants of India (firm registration no. 123456W).</p>",
+      "image": "theme:images/about-team.svg",
+      "image_2": "",
+      "experience_number": "12+",
+      "experience_label": "years of practice",
+      "points": [
+       {
+        "text": "ICAI-registered firm"
+       },
+       {
+        "text": "Fixed, upfront fees"
+       },
+       {
+        "text": "Named CA for every client"
+       },
+       {
+        "text": "Online across India"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "12",
+        "suffix": "",
+        "label": "Years in practice",
+        "icon": ""
+       },
+       {
+        "number": "600",
+        "suffix": "+",
+        "label": "Business clients",
+        "icon": ""
+       },
+       {
+        "number": "9000",
+        "suffix": "+",
+        "label": "Returns filed",
+        "icon": ""
+       },
+       {
+        "number": "4.9",
+        "suffix": "",
+        "label": "Google rating",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "Our partners",
+      "heading": "Meet the team",
+      "description": "Chartered accountants with experience at Big Four firms and in industry.",
+      "members": [
+       {
+        "photo": "theme:images/partner-1.svg",
+        "name": "CA Rohan Mehta",
+        "role": "Founding partner",
+        "bio": "FCA, 18 years in direct tax and corporate advisory.",
+        "linkedin": "https://www.linkedin.com/"
+       },
+       {
+        "photo": "theme:images/partner-2.svg",
+        "name": "CA Nidhi Patel",
+        "role": "Partner, GST",
+        "bio": "Leads our indirect tax practice; former Big Four manager.",
+        "linkedin": "https://www.linkedin.com/"
+       },
+       {
+        "photo": "theme:images/partner-3.svg",
+        "name": "CA Suresh Iyer",
+        "role": "Partner, audit",
+        "bio": "Statutory and internal audits for 25 years.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/partner-4.svg",
+        "name": "Kavya Joshi",
+        "role": "Head, startups",
+        "bio": "Company secretary helping 150+ startups incorporate and stay compliant.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "Trusted by 600+ businesses across Gujarat",
+      "items": [
+       {
+        "image": "theme:images/client-logo-1.svg",
+        "name": "Nirmaan",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-2.svg",
+        "name": "Sutra Labs",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-3.svg",
+        "name": "GreenLeaf",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-4.svg",
+        "name": "Tessera",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-5.svg",
+        "name": "Zenith",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-6.svg",
+        "name": "Arc Foods",
+        "url": ""
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "pricing": {
+   "seo_title": "Pricing",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Simple, transparent pricing",
+      "subheading": "Fixed monthly packages, or pay per service.",
+      "background_image": "theme:images/banner-navy.svg"
+     }
+    },
+    {
+     "type": "pricing",
+     "data": {
+      "eyebrow": "Packages",
+      "heading": "Compliance packages for growing businesses",
+      "description": "Everything a small company needs, for one monthly fee. GST extra.",
+      "plans": [
+       {
+        "name": "Starter",
+        "price": "₹4,999",
+        "period": "/ month",
+        "features": "Bookkeeping up to 100 transactions\nGST returns (GSTR-1 & 3B)\nTDS returns\nQuarterly review call",
+        "button": {
+         "text": "Get started",
+         "url": "page:contact"
+        },
+        "featured": false
+       },
+       {
+        "name": "Growth",
+        "price": "₹9,999",
+        "period": "/ month",
+        "features": "Bookkeeping up to 400 transactions\nGST, TDS and PF/ESI filings\nPayroll for up to 25 employees\nMonthly MIS report\nAnnual ROC filings",
+        "button": {
+         "text": "Get started",
+         "url": "page:contact"
+        },
+        "featured": true
+       },
+       {
+        "name": "Scale",
+        "price": "₹19,999",
+        "period": "/ month",
+        "features": "Unlimited bookkeeping\nAll tax and labour filings\nVirtual CFO (monthly meeting)\nInvestor reporting\nStatutory audit coordination",
+        "button": {
+         "text": "Talk to us",
+         "url": "page:contact"
+        },
+        "featured": false
+       }
+      ]
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "FAQ",
+      "heading": "Frequently asked questions",
+      "description": "",
+      "items": [
+       {
+        "question": "Are your fees fixed?",
+        "answer": "Yes. Prices on this website are starting fees; we confirm a fixed fee before we start. Government fees and GST are extra."
+       },
+       {
+        "question": "Can you work with clients outside Ahmedabad?",
+        "answer": "Yes — most of our work is done online for clients across India."
+       },
+       {
+        "question": "How do I share documents securely?",
+        "answer": "We send you a private upload link. You can also share on WhatsApp or by email."
+       },
+       {
+        "question": "What if I receive a tax notice?",
+        "answer": "Send it to us. Notice replies start at ₹2,499 and are free for our ITR clients for the same year."
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Tax deadline coming up?",
+      "description": "File your ITR with a chartered accountant from ₹1,499. Most returns are filed within three working days.",
+      "background_image": "",
+      "button": {
+       "text": "File my ITR",
+       "url": "page:listings"
+      },
+      "secondary_button": {
+       "text": "Call us",
+       "url": "tel:+917948901100"
+      }
+     }
+    }
+   ]
+  },
+  "contact": {
+   "seo_title": "Contact",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Contact us",
+      "subheading": "Visit our office or book a free call.",
+      "background_image": "theme:images/banner-navy.svg"
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Get in touch",
+      "heading": "We usually reply within an hour",
+      "description": "Call, email or send us a message during office hours.",
+      "form_heading": "Send us a message",
+      "show_form": true,
+      "show_details": true,
+      "map_url": "https://maps.google.com/?q=CG+Road+Ahmedabad"
+     }
+    },
+    {
+     "type": "booking_form",
+     "data": {
+      "eyebrow": "Free consultation",
+      "heading": "Talk to a chartered accountant",
+      "description": "Book a free 15-minute call. We will understand your needs and give you a fixed quote — no obligation.",
+      "form_type": "appointment",
+      "form_heading": "Book your free call",
+      "select1_label": "Service",
+      "select1_options": "Income tax return\nGST registration or returns\nCompany registration\nBookkeeping or payroll\nSomething else",
+      "select2_label": "Preferred time",
+      "select2_options": "Morning (10 am – 1 pm)\nAfternoon (2 – 5 pm)\nEvening (5 – 7 pm)",
+      "date_label": "Preferred date",
+      "message_label": "Anything we should know? (optional)",
+      "email_required": false,
+      "button_text": "Book my free call",
+      "success_message": "Thank you! We will call you at your preferred time to confirm.",
+      "image": "",
+      "points": [
+       {
+        "icon": "bi-clock",
+        "title": "15-minute call",
+        "text": "With a qualified chartered accountant"
+       },
+       {
+        "icon": "bi-currency-rupee",
+        "title": "Free, no obligation",
+        "text": "Get a fixed quote before you decide"
+       },
+       {
+        "icon": "bi-whatsapp",
+        "title": "Prefer WhatsApp?",
+        "text": "Message us on +91 79 4890 1100"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": "",
+      "background_image": "theme:images/banner-navy.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>We use your personal and financial information only to provide the services you engage us for, and we keep it confidential as required by the ICAI Code of Ethics. Documents are stored in encrypted storage and deleted on request after statutory retention periods.</p>"
+     }
+    }
+   ]
+  },
+  "terms": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Terms of Engagement",
+      "subheading": "",
+      "background_image": "theme:images/banner-navy.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>Fees shown are starting prices and exclude government fees and GST. A fixed fee is confirmed in writing before work begins. Our responsibility is limited to the information you provide; please share complete and accurate documents.</p>"
+     }
+    }
+   ]
+  }
+ }
+}
