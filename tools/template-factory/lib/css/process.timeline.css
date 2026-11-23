@@ -1,0 +1,7 @@
+.{{p}}-process-timeline .{{p}}-steps { max-width: 820px; margin: 0 auto; position: relative; }
+.{{p}}-process-timeline .{{p}}-steps::before { content: ""; position: absolute; left: 31px; top: 10px; bottom: 10px; width: 2px; background: linear-gradient(var(--wb-secondary), rgba(var(--wb-primary-rgb), .15)); }
+.{{p}}-process-timeline .{{p}}-step { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 1.5rem; padding-bottom: 2.25rem; position: relative; }
+.{{p}}-process-timeline .{{p}}-step:last-child { padding-bottom: 0; }
+.{{p}}-process-timeline .{{p}}-step-num { width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center; background: var(--{{p}}-deep); color: #fff; font-size: 1.15rem; box-shadow: 0 0 0 6px var(--wb-bg); position: relative; }
+.{{p}}-process-timeline .{{p}}-step-body { background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); padding: 1.5rem 1.6rem; }
+.{{p}}-process-timeline .{{p}}-step-icon { float: right; margin: 0 0 .5rem 1rem; }

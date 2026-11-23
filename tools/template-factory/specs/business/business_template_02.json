@@ -1,0 +1,67 @@
+{
+  "id": "business_template_02",
+  "name": "Northbridge Freight",
+  "prefix": "nbf",
+  "niche": "logistics",
+  "seed": 2,
+  "direction": "Industrial and dependable: full-bleed photo hero with a stat strip, dark info bar, amber accents, image service cards and a dark four-column footer.",
+  "description": "A bold, industrial design for logistics, transport and distribution companies: full-bleed cover hero with a highlights strip, info bar, image-led service cards, a dark numbers band and a four-column footer.",
+  "theme": {
+    "primary": "#0E3B43",
+    "secondary": "#F2A541",
+    "bg": "#FFFFFF",
+    "text": "#16252B",
+    "heading_font": "sora",
+    "body_font": "inter",
+    "radius": "8px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "cover",
+    "banner": "image",
+    "head": "rule",
+    "card": "line",
+    "about": "layered",
+    "services": "cards",
+    "stats": "band",
+    "process": "line",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "hl": "var(--wb-primary)",
+    "icon": "solid"
+  },
+  "demo": {
+    "service_images": true,
+    "home_services": 4,
+    "home_services_columns": "4",
+    "features_image": "about-2.svg",
+    "cta_call": true,
+    "home": [
+      "hero",
+      "logos",
+      "services",
+      "about",
+      "stats",
+      "features",
+      "process",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

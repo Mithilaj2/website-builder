@@ -1,0 +1,750 @@
+{
+  "settings": {
+    "site": {
+      "name": "Ironclad Engineering",
+      "tagline": "Precision fabrication and industrial automation",
+      "phone": "+91 20 6720 4455",
+      "email": "projects@ironclad.example",
+      "address": "Gat No. 221, MIDC Chakan Phase II\nPune, Maharashtra 410501",
+      "hours": "Mon–Sat: 8:30 am – 6:30 pm",
+      "footer_about": "Structural fabrication, precision machining and automation for automotive, pharma and process industries.",
+      "footer_text": "All rights reserved.",
+      "rating": "ISO 9001 · ISO 3834",
+      "rating_label": "certified fabrication and welding quality",
+      "header_button": {
+        "text": "Request a quote",
+        "url": "page:contact"
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "seo": {
+      "description": "Ironclad Engineering — precision fabrication and industrial automation in Pune. Structural fabrication, precision machining and automation for automotive, pharma and process industries.",
+      "keywords": "precision fabrication and industrial automation, Pune"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Built in Pune since 1998",
+            "heading": "Engineered to spec. Built to last.",
+            "subheading": "Heavy fabrication, CNC machining and turnkey automation lines for manufacturers who cannot afford downtime.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Request a quote",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:services"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "45,000 sq ft shop floor"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Certified welders"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "In-house design team"
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "25",
+                "suffix": "+",
+                "label": "Years of engineering",
+                "icon": ""
+              },
+              {
+                "number": "1400",
+                "suffix": "+",
+                "label": "Projects delivered",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Technicians",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "t",
+                "label": "Max single lift",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Ironclad",
+            "heading": "Twenty-five years of getting the details right",
+            "description": "<p>Ironclad started as a small job shop in Bhosari. Today our 45,000 sq ft facility in Chakan builds structures, skids, machined parts and automation cells for some of India’s largest manufacturers.</p><p>Our engineers design, fabricate, test and install — so one team is responsible from drawing to commissioning.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1998",
+            "experience_label": "Engineering since",
+            "points": [
+              {
+                "text": "Design-to-commissioning delivery"
+              },
+              {
+                "text": "120 skilled technicians"
+              },
+              {
+                "text": "Third-party inspected welds"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Services built around your business",
+            "description": "Structural fabrication, precision machining and automation for automotive, pharma and process industries.",
+            "columns": "2",
+            "items": [
+              {
+                "icon": "bi-bricks",
+                "title": "Structural fabrication",
+                "description": "Steel structures, platforms, pipe racks and skids up to 40 tonnes.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-gear-wide-connected",
+                "title": "Precision machining",
+                "description": "5-axis CNC machining, turning and grinding to tight tolerances.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-robot",
+                "title": "Automation",
+                "description": "Robotic welding cells, conveyors and PLC-controlled special machines.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Quality assurance",
+                "description": "NDT, dimensional inspection and full documentation for every job.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "What sets our work apart",
+            "description": "",
+            "image": "theme:images/svc-1.svg",
+            "items": [
+              {
+                "icon": "bi-award",
+                "title": "Certified quality",
+                "description": "ISO 9001 and ISO 3834 systems with qualified welding procedures."
+              },
+              {
+                "icon": "bi-stopwatch",
+                "title": "On-time delivery",
+                "description": "Planned with MS Project and reviewed weekly with your team."
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Smart automation",
+                "description": "PLC, HMI and IoT monitoring built into the machines we deliver."
+              },
+              {
+                "icon": "bi-wrench-adjustable",
+                "title": "Lifetime support",
+                "description": "Spares, upgrades and AMC long after commissioning."
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Brief & drawings",
+                "description": "Share drawings or a requirement — we review feasibility."
+              },
+              {
+                "icon": "bi-rulers",
+                "title": "Engineering",
+                "description": "Detailed design, FEA and approval drawings."
+              },
+              {
+                "icon": "bi-hammer",
+                "title": "Fabrication",
+                "description": "Cutting, welding, machining and painting in our shop."
+              },
+              {
+                "icon": "bi-check2-square",
+                "title": "Test & install",
+                "description": "Factory acceptance tests, dispatch and commissioning."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "What our clients say",
+            "items": [
+              {
+                "quote": "Ironclad delivered our press-shop automation line two weeks early and it has run without a stoppage since.",
+                "name": "Sanjay Kulkarni",
+                "role": "Plant Head, Tatra Motors",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Their weld documentation is the best we have seen from any vendor.",
+                "name": "Rekha Nair",
+                "role": "QA Manager, Medichem",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "A single team from design to commissioning made our expansion much simpler to manage.",
+                "name": "Gurpreet Singh",
+                "role": "Projects Director, Hindva Steel",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Trusted by OEMs and plant owners across India",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Tatra Motors",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Medichem",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Hindva Steel",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Polycore",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Sahyadri Agro",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Have drawings ready for quotation?",
+            "description": "Send them over — our estimators reply within two working days.",
+            "background_image": "",
+            "button": {
+              "text": "Request a quote",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Ironclad Engineering",
+            "subheading": "Structural fabrication, precision machining and automation for automotive, pharma and process industries.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Ironclad",
+            "heading": "Twenty-five years of getting the details right",
+            "description": "<p>Ironclad started as a small job shop in Bhosari. Today our 45,000 sq ft facility in Chakan builds structures, skids, machined parts and automation cells for some of India’s largest manufacturers.</p><p>Our engineers design, fabricate, test and install — so one team is responsible from drawing to commissioning.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1998",
+            "experience_label": "Engineering since",
+            "points": [
+              {
+                "text": "Design-to-commissioning delivery"
+              },
+              {
+                "text": "120 skilled technicians"
+              },
+              {
+                "text": "Third-party inspected welds"
+              }
+            ],
+            "button": {
+              "text": "Get in touch",
+              "url": "page:contact"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "25",
+                "suffix": "+",
+                "label": "Years of engineering",
+                "icon": ""
+              },
+              {
+                "number": "1400",
+                "suffix": "+",
+                "label": "Projects delivered",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Technicians",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "t",
+                "label": "Max single lift",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people behind our work",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Prakash Deshmukh",
+                "role": "Founder & MD",
+                "bio": "Mechanical engineer with 30 years in heavy fabrication.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Rohit Joshi",
+                "role": "Head of Automation",
+                "bio": "Builds robotic cells and special-purpose machines.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Sunita Gaikwad",
+                "role": "Quality Head",
+                "bio": "Certified welding inspector and NDT Level III.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Aman Verma",
+                "role": "Projects Manager",
+                "bio": "Plans and delivers our largest site installations.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Have drawings ready for quotation?",
+            "description": "Send them over — our estimators reply within two working days.",
+            "background_image": "",
+            "button": {
+              "text": "Request a quote",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "Structural fabrication, precision machining and automation for automotive, pharma and process industries.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Our services",
+            "heading": "Everything we can do for you",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-bricks",
+                "title": "Structural fabrication",
+                "description": "Steel structures, platforms, pipe racks and skids up to 40 tonnes.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-gear-wide-connected",
+                "title": "Precision machining",
+                "description": "5-axis CNC machining, turning and grinding to tight tolerances.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-robot",
+                "title": "Automation",
+                "description": "Robotic welding cells, conveyors and PLC-controlled special machines.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Quality assurance",
+                "description": "NDT, dimensional inspection and full documentation for every job.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-rulers",
+                "title": "Design & detailing",
+                "description": "3D modelling, FEA and fabrication drawings by in-house engineers.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Installation & AMC",
+                "description": "Site erection, commissioning and annual maintenance contracts.",
+                "image": "",
+                "link": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Brief & drawings",
+                "description": "Share drawings or a requirement — we review feasibility."
+              },
+              {
+                "icon": "bi-rulers",
+                "title": "Engineering",
+                "description": "Detailed design, FEA and approval drawings."
+              },
+              {
+                "icon": "bi-hammer",
+                "title": "Fabrication",
+                "description": "Cutting, welding, machining and painting in our shop."
+              },
+              {
+                "icon": "bi-check2-square",
+                "title": "Test & install",
+                "description": "Factory acceptance tests, dispatch and commissioning."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Engagements",
+            "heading": "Simple ways to work with us",
+            "description": "Every engagement is agreed in writing before work begins.",
+            "plans": [
+              {
+                "name": "Job work",
+                "price": "Per kg",
+                "period": "rate",
+                "features": "Fabrication to your drawings\nStandard inspection\nEx-works delivery",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              },
+              {
+                "name": "Turnkey project",
+                "price": "Fixed",
+                "period": "price",
+                "features": "Design, build and install\nFAT and SAT\nProject manager\n12-month warranty",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": true
+              },
+              {
+                "name": "AMC",
+                "price": "₹1,80,000",
+                "period": "year",
+                "features": "Quarterly preventive visits\nPriority breakdown support\nSpares at contract rates",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Common questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you work from our drawings?",
+                "answer": "Yes. We build to customer drawings or develop the design ourselves."
+              },
+              {
+                "question": "What is your largest capacity?",
+                "answer": "Single assemblies up to 40 tonnes and 18 metres, with in-house crane capacity."
+              },
+              {
+                "question": "Do you provide installation?",
+                "answer": "Yes. Our site teams erect, commission and train your operators."
+              },
+              {
+                "question": "Which industries do you serve?",
+                "answer": "Automotive, pharma, steel, chemicals, food processing and infrastructure."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Have drawings ready for quotation?",
+            "description": "Send them over — our estimators reply within two working days.",
+            "background_image": "",
+            "button": {
+              "text": "Request a quote",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "A look inside Ironclad Engineering — our people, places and projects.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Chakan fabrication bay"
+              },
+              {
+                "image": "theme:images/about-1.svg",
+                "caption": "Robotic welding cell"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "CNC machining centre"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Site erection"
+              },
+              {
+                "image": "theme:images/about-2.svg",
+                "caption": "Quality inspection"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Design office"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Have drawings ready for quotation?",
+            "description": "Send them over — our estimators reply within two working days.",
+            "background_image": "",
+            "button": {
+              "text": "Request a quote",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Tell us what you need and we will get back to you within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit our Pune office, call us, or send a message using the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you get in touch",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you work from our drawings?",
+                "answer": "Yes. We build to customer drawings or develop the design ourselves."
+              },
+              {
+                "question": "What is your largest capacity?",
+                "answer": "Single assemblies up to 40 tonnes and 18 metres, with in-house crane capacity."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how we collect, use and protect the personal information you share with us through this website.</p><h3>Information we collect</h3><p>When you submit an enquiry we collect your name, email address, phone number and the details of your message.</p><h3>How we use it</h3><p>We use this information only to respond to your enquiry and to provide the services you request. We do not sell or share your information with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on our Contact page.</p><p><em>Replace this sample text with your own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Use of this website</h3><p>The content on this website is for general information only and may change without notice.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

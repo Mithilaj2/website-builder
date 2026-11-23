@@ -1,0 +1,18 @@
+.{{p}} .{{p}}-hero-cover { min-height: min(88vh, 760px); display: flex; flex-direction: column; justify-content: flex-end; padding: 8rem 0 0; color: #fff; background: var(--{{p}}-deep); }
+.{{p}}-hero-cover-bg { position: absolute; inset: 0; z-index: 0; background-size: cover; background-position: center; }
+.{{p}}-hero-cover > .container { z-index: 2; }
+.{{p}}-hero-cover::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0, 0, 0, .8) 0%, rgba(0, 0, 0, .55) 50%, rgba(0, 0, 0, .2) 100%), linear-gradient(0deg, rgba(0, 0, 0, .55), transparent 45%); z-index: 1; }
+.{{p}}-hero-cover-text { max-width: 720px; padding-bottom: 3.5rem; }
+.{{p}}-hero-cover .{{p}}-hero-title { color: #fff; }
+.{{p}}-hero-cover .{{p}}-hero-text { color: rgba(255, 255, 255, .85); }
+.{{p}}-hero-cover .{{p}}-eyebrow-hero { color: #fff; background: rgba(255, 255, 255, .14); padding: .45rem 1rem; border-radius: 999px; backdrop-filter: blur(6px); }
+.{{p}}-hero-cover .{{p}}-eyebrow-hero::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--wb-secondary); }
+.{{p}}-hero-strip { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--{{p}}-n), minmax(0, 1fr)); border-top: 1px solid rgba(255, 255, 255, .22); }
+.{{p}}-hero-strip li { display: flex; align-items: center; gap: .8rem; padding: 1.5rem 1.25rem 1.6rem 0; font-weight: 600; min-width: 0; }
+.{{p}}-hero-strip li + li { padding-left: 1.25rem; border-left: 1px solid rgba(255, 255, 255, .22); }
+.{{p}}-hero-strip i { font-size: 1.4rem; color: var(--wb-secondary); }
+@media (max-width: 767.98px) {
+  .{{p}} .{{p}}-hero-cover { min-height: 0; padding-top: 5rem; }
+  .{{p}}-hero-strip { grid-template-columns: minmax(0, 1fr); }
+  .{{p}}-hero-strip li, .{{p}}-hero-strip li + li { padding: .8rem 0; border-left: 0; border-top: 1px solid rgba(255, 255, 255, .12); }
+}

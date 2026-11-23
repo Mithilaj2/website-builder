@@ -1,0 +1,9 @@
+.{{p}} .{{p}}-stats-band { background: var(--{{p}}-deep); color: #fff; padding: 4.5rem 0; overflow: hidden; }
+.{{p}}-stats-band::before { content: ""; position: absolute; inset: 0; background-image: radial-gradient(rgba(255, 255, 255, .07) 1.5px, transparent 1.5px); background-size: 22px 22px; }
+.{{p}}-stats-band .container { position: relative; }
+.{{p}}-stats-band .{{p}}-stats-heading { color: #fff; }
+.{{p}}-stats-band .{{p}}-stat { text-align: center; }
+.{{p}}-stats-band .{{p}}-stat strong { color: var(--wb-secondary); }
+.{{p}}-stats-band .{{p}}-stat-label { color: rgba(255, 255, 255, .82); }
+.{{p}}-stats-band .{{p}}-stat-icon { color: rgba(255, 255, 255, .6); }
+@media (min-width: 992px) { .{{p}}-stats-band .{{p}}-stat + .{{p}}-stat::before { content: ""; position: absolute; left: -.75rem; top: 15%; height: 70%; width: 1px; background: rgba(255, 255, 255, .15); } }

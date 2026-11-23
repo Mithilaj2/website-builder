@@ -1,0 +1,69 @@
+{
+  "id": "business_template_06",
+  "name": "Brightpath Talent",
+  "prefix": "bpt",
+  "niche": "hr",
+  "seed": 6,
+  "direction": "Friendly and optimistic: split hero with layered frame, violet and sunflower palette, soft shadowed cards, pill labels, round team portraits and a light footer.",
+  "description": "A friendly, optimistic design for HR, recruitment, training and people businesses: split hero with a rating badge, violet and sunflower palette, soft shadowed cards, round team portraits and a light footer.",
+  "theme": {
+    "primary": "#5B2A86",
+    "secondary": "#FFB703",
+    "bg": "#FFFFFF",
+    "text": "#1F1530",
+    "heading_font": "plus-jakarta-sans",
+    "body_font": "inter",
+    "radius": "14px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "split",
+    "banner": "solid",
+    "head": "pill",
+    "card": "shadow",
+    "about": "grid",
+    "services": "cards",
+    "stats": "cards",
+    "process": "line",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "boxed",
+    "footer": "columns"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "light",
+  "tokens": {
+    "accent": "secondary",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "50%",
+    "mark_radius": "50%",
+    "track": "-.02em"
+  },
+  "demo": {
+    "service_images": false,
+    "home_services": 4,
+    "home_services_columns": "4",
+    "features_image": "about-2.svg",
+    "home": [
+      "hero",
+      "logos",
+      "about",
+      "services",
+      "stats",
+      "process",
+      "features",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

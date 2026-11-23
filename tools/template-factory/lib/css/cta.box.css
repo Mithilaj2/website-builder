@@ -1,0 +1,10 @@
+.{{p}} .{{p}}-cta-box { padding: 4rem 0; }
+.{{p}}-cta-box .{{p}}-cta-inner { background-color: var(--{{p}}-deep); background-size: cover; background-position: center; border-radius: calc(var(--{{p}}-radius-lg) * 1.25); padding: 3.5rem; color: #fff; position: relative; overflow: hidden; }
+.{{p}}-cta-box .{{p}}-cta-inner.has-bg::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .35)); }
+.{{p}}-cta-box .{{p}}-cta-inner:not(.has-bg)::before { content: ""; position: absolute; width: 280px; height: 280px; right: -120px; bottom: -170px; border-radius: 50%; background: var(--wb-secondary); opacity: .9; }
+.{{p}}-cta-box .row { position: relative; z-index: 1; }
+.{{p}}-cta-box .{{p}}-cta-title { color: #fff; }
+.{{p}}-cta-box .{{p}}-cta-text { color: rgba(255, 255, 255, .82); }
+.{{p}}-cta-actions { margin-top: 0; }
+@media (min-width: 992px) { .{{p}}-cta-actions { justify-content: flex-end; } }
+@media (max-width: 575.98px) { .{{p}}-cta-box .{{p}}-cta-inner { padding: 2.25rem 1.5rem; } }

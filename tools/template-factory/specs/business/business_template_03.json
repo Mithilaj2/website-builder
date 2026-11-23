@@ -1,0 +1,74 @@
+{
+  "id": "business_template_03",
+  "name": "Vertex Nightshift",
+  "prefix": "vtx",
+  "niche": "it",
+  "seed": 3,
+  "mood": "dark",
+  "direction": "Dark, technical and precise: floating pill navigation, centred hero over a glowing panorama, tinted cards, outlined numbers and a centred footer.",
+  "description": "A dark, modern design for IT services, software and SaaS companies: floating pill navigation, a centred hero with a wide product panorama, tinted cards, a featured testimonial and a centred footer.",
+  "theme": {
+    "primary": "#6C63FF",
+    "secondary": "#22D3EE",
+    "bg": "#0B1020",
+    "text": "#E6E9F2",
+    "heading_font": "space-grotesk",
+    "body_font": "inter",
+    "radius": "14px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "stack",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "about": "grid",
+    "services": "cards",
+    "stats": "inline",
+    "process": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "icon": "tint",
+    "icon_radius": "12px",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)",
+    "hero_scale": 1.05,
+    "track": "-.02em"
+  },
+  "extra_css": ".vtx .vtx-icon { color: var(--wb-secondary); }\n.vtx-mood-dark .vtx-icon { background: rgba(var(--wb-primary-rgb), .18); }",
+  "demo": {
+    "service_images": false,
+    "home_services": 6,
+    "home_services_columns": "3",
+    "features_image": "",
+    "home": [
+      "hero",
+      "logos",
+      "services",
+      "stats",
+      "about",
+      "features",
+      "process",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

@@ -9,7 +9,74 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a done (Education 01, Hospital 01, E-commerce 01 with the shop module). 7b part 1 done (Real Estate 01, Travel 01 with the listings module). 7b done: template 01 for all 10 categories (part 3: Portfolio 01, Services 01, awaiting review). Next: 7c (templates 02–10 per category) |
+| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): **Business done** (awaiting review) with the new template factory; next: the other 9 categories |
+
+## Phase 7c, Business: templates 02–10 and the template factory
+
+### Delivered
+- **Template factory** (`tools/template-factory`, a development tool; see its README):
+  - Generates standalone templates from short JSON design specs.
+  - Shared markup library with variants:
+    - 5 heroes, 4 headers, 3 footers, 3 page banners
+    - 4 card styles, 4 section-heading styles
+    - variants for about, services, stats, process, testimonials, call to action, team, gallery, FAQ and logos
+  - A token-driven stylesheet built on the `--wb-*` theme variables. It supports light and dark moods, and colours are never hard-coded.
+  - Original SVG illustrations drawn per niche and recoloured to each template's palette, including team portraits and client logos.
+  - Demo copy written for each niche.
+  - Output is an ordinary template with its own prefix, so it can be edited by hand. Nothing depends on the factory at runtime, and it is never exported.
+- **Nine new Business templates**, each with its own demo company:
+
+| # | Template | Prefix | Demo business | Hero / header / footer | Look |
+|---|---|---|---|---|---|
+| 02 | Northbridge Freight | `nbf` | Logistics, Chennai | cover / info bar / columns | Deep teal + amber, Sora |
+| 03 | Vertex Nightshift | `vtx` | IT services, Bengaluru | centred panorama / floating pill / centred | **Dark**, violet + cyan, Space Grotesk |
+| 04 | Greenfield Harvest | `gfh` | Agro exports, Ahmedabad | colour panel / centred masthead / contact cards | Green + gold on cream, Fraunces |
+| 05 | Ironclad Works | `icw` | Fabrication, Pune | editorial / dark bar / columns | Graphite + red-orange, uppercase Montserrat, square corners |
+| 06 | Brightpath Talent | `bpt` | HR & recruitment, Hyderabad | split / info bar / light columns | Violet + sunflower, Plus Jakarta Sans |
+| 07 | Suncrest Renewables | `scr` | Solar EPC, Coimbatore | cover / floating pill / contact cards | Ocean blue + sun yellow, Poppins |
+| 08 | Crestmark Construct | `cmc` | Construction, Jaipur | colour panel / dark bar / columns | Charcoal + yellow, Jost |
+| 09 | Harbor Chambers | `hbc` | Law firm, Mumbai | editorial / centred masthead / centred | Navy + bronze on ivory, Cormorant Garamond |
+| 10 | Pulse Studio | `pls` | Creative agency, New Delhi | split / floating pill / centred | Ink + coral on warm paper, DM Serif Display |
+
+- Every template ships:
+  - 7 pages: home, about, services with pricing and FAQ, gallery, contact, and two legal pages
+  - 17–22 original images
+  - a `preview.jpg`
+- No runtime changes, so the runtime version stays 1.7.0.
+
+### Tests
+`tests/phase7c_business_test.php` runs **126 end-to-end checks**.
+
+For the template files:
+- The validator reports no errors or warnings.
+- Each template has its own prefix, with no placeholders or other templates' classes left behind.
+- The stylesheets are theme-driven.
+- Every demo image exists.
+- The page types match the demos.
+- The nine designs and descriptions are all distinct.
+
+For each of the nine generated websites:
+- The expected header, hero and footer variants render, with the hero copy.
+- The header button, menu and legal links are present.
+- The home sections render, with count-up statistics.
+- Images are served.
+- The inner pages work, the team shows four portraits, and the template's 404 page is used.
+- A contact enquiry is submitted end to end and stored.
+
+A full export of one factory-built site also passed: the ZIP contains the template's files and none of the factory tooling.
+
+Results:
+
+| Server | 7c Business | 7b-3 | 7b-2 | 7b-1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+All template PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of every page of the nine websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- Cover hero: the dark overlay sat underneath the background image, so headlines over bright illustrations were hard to read. The overlay now stacks above the image and is stronger.
+- A long statistic suffix ("8.4M sq ft") wrapped onto two lines. The suffix is now "M" and the unit moved into the label.
 
 ## Phase 7b, part 3: Portfolio 01 and Services 01 (template 01 for every category is now done)
 
@@ -658,6 +725,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-23 (Phase 7c, Business)
+Template factory; Business templates 02–10; 126-check test; full regression on dev and Apache.
 
 ### 2026-11-07 (Phase 7a, part 2)
 - E-commerce 01 (Terra Market) and the shop module: catalogue, options, cart, coupons, GST, cash on delivery and online payment, orders admin, PDF invoices, emails. Shop test 102/102; all other suites green on the dev server and Apache.

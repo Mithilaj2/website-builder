@@ -1,0 +1,4 @@
+.{{p}}-team-round .{{p}}-member { text-align: center; }
+.{{p}}-team-round .{{p}}-member-photo { width: 190px; max-width: 80%; aspect-ratio: 1; margin: 0 auto 1.4rem; border-radius: 50%; box-shadow: 0 0 0 6px var(--wb-bg), 0 0 0 8px rgba(var(--wb-secondary-rgb), .55); }
+.{{p}}-team-round .{{p}}-member-link { right: 50%; bottom: -2px; transform: translateX(50%); }
+.{{p}}-team-round .{{p}}-card-title { font-size: 1.15rem; margin-bottom: .2rem; }

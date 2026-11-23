@@ -1,0 +1,750 @@
+{
+  "settings": {
+    "site": {
+      "name": "Brightpath People",
+      "tagline": "Recruitment, HR outsourcing and workplace training",
+      "phone": "+91 40 4455 8800",
+      "email": "talk@brightpath.example",
+      "address": "Level 6, Cyber Gateway, HITEC City\nHyderabad, Telangana 500081",
+      "hours": "Mon–Fri: 9:30 am – 6:30 pm",
+      "footer_about": "We help growing companies hire well, run HR smoothly and build teams people want to stay in.",
+      "footer_text": "All rights reserved.",
+      "rating": "12,000+ successful placements",
+      "rating_label": "for 600 companies across India",
+      "header_button": {
+        "text": "Talk to a consultant",
+        "url": "page:contact"
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "seo": {
+      "description": "Brightpath People — recruitment, hr outsourcing and workplace training in Hyderabad. We help growing companies hire well, run HR smoothly and build teams people want to stay in.",
+      "keywords": "recruitment, hr outsourcing and workplace training, Hyderabad"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "People partner since 2012",
+            "heading": "The right people, in the right roles, faster.",
+            "subheading": "Specialist recruiters, HR outsourcing and leadership training for companies scaling from 20 to 2,000 people.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Talk to a consultant",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:services"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "21-day average time-to-hire"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Replacement guarantee"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Payroll & compliance"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Hiring partner to 600 growing companies",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Zentra",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Kalpa Health",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Novabuild",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Lumen Retail",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Trident",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "We treat every hire like it is our own team",
+            "description": "<p>Brightpath was founded by HR leaders who believed recruitment could be faster and more human. Our consultants specialise by industry, so they understand the roles they fill.</p><p>Alongside hiring, we run payroll, compliance and training for companies that would rather focus on their customers than on paperwork.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2012",
+            "experience_label": "Building teams since",
+            "points": [
+              {
+                "text": "Industry-specialist recruiters"
+              },
+              {
+                "text": "90-day replacement guarantee"
+              },
+              {
+                "text": "PF, ESI and labour-law compliance"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Services built around your business",
+            "description": "We help growing companies hire well, run HR smoothly and build teams people want to stay in.",
+            "columns": "4",
+            "items": [
+              {
+                "icon": "bi-person-plus",
+                "title": "Recruitment",
+                "description": "Permanent hiring from graduate to CXO, led by industry specialists.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-easel",
+                "title": "Training & workshops",
+                "description": "Leadership, sales and soft-skills programmes for teams of every size.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-cash-stack",
+                "title": "Payroll & compliance",
+                "description": "Payroll, PF, ESI and statutory filings handled every month.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-bar-chart-line",
+                "title": "HR analytics",
+                "description": "Attrition, engagement and hiring dashboards that guide decisions.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12000",
+                "suffix": "+",
+                "label": "Placements",
+                "icon": ""
+              },
+              {
+                "number": "600",
+                "suffix": "",
+                "label": "Client companies",
+                "icon": ""
+              },
+              {
+                "number": "21",
+                "suffix": " days",
+                "label": "Avg. time-to-hire",
+                "icon": ""
+              },
+              {
+                "number": "93",
+                "suffix": "%",
+                "label": "Retention after a year",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-square-text",
+                "title": "Understand the role",
+                "description": "A briefing call on skills, culture and budget."
+              },
+              {
+                "icon": "bi-search",
+                "title": "Search & screen",
+                "description": "Sourcing, screening and assessments by our specialists."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Interview",
+                "description": "A shortlist of 3–5 candidates and interview coordination."
+              },
+              {
+                "icon": "bi-hand-thumbs-up",
+                "title": "Offer & onboard",
+                "description": "Offer negotiation and a smooth first 90 days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why companies hire with Brightpath",
+            "description": "",
+            "image": "theme:images/about-2.svg",
+            "items": [
+              {
+                "icon": "bi-bullseye",
+                "title": "Specialist recruiters",
+                "description": "Consultants who know your industry and its talent pool."
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Replacement guarantee",
+                "description": "If a hire leaves within 90 days, we replace them free."
+              },
+              {
+                "icon": "bi-clock-history",
+                "title": "Fast shortlists",
+                "description": "Qualified profiles in your inbox within five working days."
+              },
+              {
+                "icon": "bi-lock",
+                "title": "Confidential search",
+                "description": "Discreet leadership hiring for sensitive roles."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "What our clients say",
+            "items": [
+              {
+                "quote": "Brightpath filled 40 engineering roles for our new centre in under three months.",
+                "name": "Deepa Reddy",
+                "role": "HR Director, Zentra",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Their payroll team has not missed a filing deadline in four years.",
+                "name": "Mohammed Arif",
+                "role": "Finance Head, Kalpa Health",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The leadership programme changed how our managers run their teams.",
+                "name": "Sunil Varma",
+                "role": "CEO, Novabuild",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Hiring for a role that matters?",
+            "description": "Share the brief — a specialist consultant will call you within a day.",
+            "background_image": "",
+            "button": {
+              "text": "Talk to a consultant",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Brightpath People",
+            "subheading": "We help growing companies hire well, run HR smoothly and build teams people want to stay in.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "We treat every hire like it is our own team",
+            "description": "<p>Brightpath was founded by HR leaders who believed recruitment could be faster and more human. Our consultants specialise by industry, so they understand the roles they fill.</p><p>Alongside hiring, we run payroll, compliance and training for companies that would rather focus on their customers than on paperwork.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2012",
+            "experience_label": "Building teams since",
+            "points": [
+              {
+                "text": "Industry-specialist recruiters"
+              },
+              {
+                "text": "90-day replacement guarantee"
+              },
+              {
+                "text": "PF, ESI and labour-law compliance"
+              }
+            ],
+            "button": {
+              "text": "Get in touch",
+              "url": "page:contact"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12000",
+                "suffix": "+",
+                "label": "Placements",
+                "icon": ""
+              },
+              {
+                "number": "600",
+                "suffix": "",
+                "label": "Client companies",
+                "icon": ""
+              },
+              {
+                "number": "21",
+                "suffix": " days",
+                "label": "Avg. time-to-hire",
+                "icon": ""
+              },
+              {
+                "number": "93",
+                "suffix": "%",
+                "label": "Retention after a year",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people behind our work",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Lakshmi Narayan",
+                "role": "Founder & CEO",
+                "bio": "Former CHRO with 22 years in people leadership.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Ravi Teja",
+                "role": "Head of Recruitment",
+                "bio": "Leads our technology and engineering practice.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Shalini Gupta",
+                "role": "Head of Training",
+                "bio": "Certified coach and leadership facilitator.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Arjun Rao",
+                "role": "Payroll & Compliance",
+                "bio": "Keeps 18,000 payslips accurate every month.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Hiring for a role that matters?",
+            "description": "Share the brief — a specialist consultant will call you within a day.",
+            "background_image": "",
+            "button": {
+              "text": "Talk to a consultant",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "We help growing companies hire well, run HR smoothly and build teams people want to stay in.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Our services",
+            "heading": "Everything we can do for you",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-person-plus",
+                "title": "Recruitment",
+                "description": "Permanent hiring from graduate to CXO, led by industry specialists.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-easel",
+                "title": "Training & workshops",
+                "description": "Leadership, sales and soft-skills programmes for teams of every size.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-cash-stack",
+                "title": "Payroll & compliance",
+                "description": "Payroll, PF, ESI and statutory filings handled every month.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-bar-chart-line",
+                "title": "HR analytics",
+                "description": "Attrition, engagement and hiring dashboards that guide decisions.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-people",
+                "title": "Staffing",
+                "description": "Contract and temporary staff for projects and seasonal peaks.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-clipboard-heart",
+                "title": "HR policies",
+                "description": "Handbooks, appraisal systems and POSH compliance set up properly.",
+                "image": "",
+                "link": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-square-text",
+                "title": "Understand the role",
+                "description": "A briefing call on skills, culture and budget."
+              },
+              {
+                "icon": "bi-search",
+                "title": "Search & screen",
+                "description": "Sourcing, screening and assessments by our specialists."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Interview",
+                "description": "A shortlist of 3–5 candidates and interview coordination."
+              },
+              {
+                "icon": "bi-hand-thumbs-up",
+                "title": "Offer & onboard",
+                "description": "Offer negotiation and a smooth first 90 days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Engagements",
+            "heading": "Simple ways to work with us",
+            "description": "Every engagement is agreed in writing before work begins.",
+            "plans": [
+              {
+                "name": "Single hire",
+                "price": "8.33%",
+                "period": "of CTC",
+                "features": "Specialist recruiter\nShortlist in 5 days\n90-day replacement",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              },
+              {
+                "name": "Hiring partner",
+                "price": "6.5%",
+                "period": "of CTC",
+                "features": "10+ roles a year\nDedicated account team\nMonthly hiring reports\nEmployer-brand support",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": true
+              },
+              {
+                "name": "Payroll",
+                "price": "₹250",
+                "period": "employee / month",
+                "features": "Monthly payroll processing\nPF, ESI and TDS filings\nEmployee self-service portal",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Common questions",
+            "description": "",
+            "items": [
+              {
+                "question": "How do you charge for recruitment?",
+                "answer": "A success fee of 8.33% of annual CTC, payable only when a candidate joins."
+              },
+              {
+                "question": "Do you hire outside Hyderabad?",
+                "answer": "Yes. We recruit across India and for Indian companies’ overseas teams."
+              },
+              {
+                "question": "Can you run payroll for a small team?",
+                "answer": "Yes. Our payroll service starts at ten employees."
+              },
+              {
+                "question": "Are training programmes customised?",
+                "answer": "Every programme is tailored after a needs assessment with your leaders."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Hiring for a role that matters?",
+            "description": "Share the brief — a specialist consultant will call you within a day.",
+            "background_image": "",
+            "button": {
+              "text": "Talk to a consultant",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "A look inside Brightpath People — our people, places and projects.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Our Hyderabad office"
+              },
+              {
+                "image": "theme:images/about-1.svg",
+                "caption": "Leadership workshop"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Campus hiring drive"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Interview day"
+              },
+              {
+                "image": "theme:images/about-2.svg",
+                "caption": "Team offsite"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Training session"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Hiring for a role that matters?",
+            "description": "Share the brief — a specialist consultant will call you within a day.",
+            "background_image": "",
+            "button": {
+              "text": "Talk to a consultant",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Tell us what you need and we will get back to you within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit our Hyderabad office, call us, or send a message using the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you get in touch",
+            "description": "",
+            "items": [
+              {
+                "question": "How do you charge for recruitment?",
+                "answer": "A success fee of 8.33% of annual CTC, payable only when a candidate joins."
+              },
+              {
+                "question": "Do you hire outside Hyderabad?",
+                "answer": "Yes. We recruit across India and for Indian companies’ overseas teams."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how we collect, use and protect the personal information you share with us through this website.</p><h3>Information we collect</h3><p>When you submit an enquiry we collect your name, email address, phone number and the details of your message.</p><h3>How we use it</h3><p>We use this information only to respond to your enquiry and to provide the services you request. We do not sell or share your information with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on our Contact page.</p><p><em>Replace this sample text with your own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Use of this website</h3><p>The content on this website is for general information only and may change without notice.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

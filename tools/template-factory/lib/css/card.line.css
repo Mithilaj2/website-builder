@@ -1,0 +1,5 @@
+.{{p}}-card { border: 1px solid var(--{{p}}-line); }
+.{{p}}-card:hover { border-color: var(--{{p}}-line-strong); }
+.{{p}}-service:hover, .{{p}}-feature-card:hover { transform: translateY(-5px); box-shadow: var(--{{p}}-shadow); }
+.{{p}}-service::before { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 3px; background: var(--wb-secondary); transform: scaleX(0); transform-origin: left; transition: transform .3s ease; z-index: 1; }
+.{{p}}-service:hover::before { transform: scaleX(1); }

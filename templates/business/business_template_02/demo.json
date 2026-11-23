@@ -1,0 +1,766 @@
+{
+  "settings": {
+    "site": {
+      "name": "Northbridge Logistics",
+      "tagline": "Freight, warehousing and last-mile delivery",
+      "phone": "+91 44 4012 7788",
+      "email": "hello@northbridge.example",
+      "address": "Plot 14, SIPCOT Logistics Park\nOragadam, Chennai 602105",
+      "hours": "Mon–Sat: 8:00 am – 8:00 pm",
+      "footer_about": "Moving goods across India on time, every time — by road, sea and air, with warehousing in between.",
+      "footer_text": "All rights reserved.",
+      "rating": "98.6% on-time delivery",
+      "rating_label": "across 1.2 million shipments last year",
+      "header_button": {
+        "text": "Get a freight quote",
+        "url": "page:contact"
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "seo": {
+      "description": "Northbridge Logistics — freight, warehousing and last-mile delivery in Chennai. Moving goods across India on time, every time — by road, sea and air, with warehousing in between.",
+      "keywords": "freight, warehousing and last-mile delivery, Chennai"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Pan-India freight since 2006",
+            "heading": "Freight that moves when your business does.",
+            "subheading": "Full-truckload, part-load and container freight with live tracking, GST-ready billing and warehouses in seven cities.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Get a freight quote",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:services"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Live GPS tracking"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "7 regional warehouses"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "24×7 control room"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Moving goods for 400+ manufacturers and retailers",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Kaveri Foods",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Tessaro",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Brightline",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Mahin Auto",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Coastal Paints",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Services built around your business",
+            "description": "Moving goods across India on time, every time — by road, sea and air, with warehousing in between.",
+            "columns": "4",
+            "items": [
+              {
+                "icon": "bi-truck",
+                "title": "Road freight",
+                "description": "Full-truckload and part-load services across 22 states, with tracking on every trip.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-tsunami",
+                "title": "Sea & container freight",
+                "description": "Port-to-door container movement, customs coordination and coastal shipping.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-box-seam",
+                "title": "Warehousing",
+                "description": "Bonded and GST-registered warehouses with WMS, pick-pack and cycle counts.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Track & trace",
+                "description": "A live dashboard and SMS alerts for every consignment, from pickup to proof of delivery.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Who we are",
+            "heading": "A logistics partner built around reliability",
+            "description": "<p>Northbridge started with four trucks and one promise: deliver when we say we will. Two decades later we run a fleet of 600 vehicles, seven warehouses and a control room that never sleeps.</p><p>Our customers range from FMCG brands to auto-component makers. They stay because we answer the phone, share honest ETAs and fix problems before they reach the shop floor.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2006",
+            "experience_label": "Moving freight since",
+            "points": [
+              {
+                "text": "600+ owned and partner vehicles"
+              },
+              {
+                "text": "ISO 9001 certified operations"
+              },
+              {
+                "text": "Dedicated key-account managers"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1.2",
+                "suffix": "M",
+                "label": "Shipments a year",
+                "icon": ""
+              },
+              {
+                "number": "600",
+                "suffix": "+",
+                "label": "Vehicles",
+                "icon": ""
+              },
+              {
+                "number": "7",
+                "suffix": "",
+                "label": "Warehouses",
+                "icon": ""
+              },
+              {
+                "number": "22",
+                "suffix": "",
+                "label": "States covered",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why shippers stay with us",
+            "description": "",
+            "image": "theme:images/about-2.svg",
+            "items": [
+              {
+                "icon": "bi-broadcast",
+                "title": "Live visibility",
+                "description": "See every truck on a map and get alerts for delays before they happen."
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Insured cargo",
+                "description": "Transit insurance and a claims desk that settles fast."
+              },
+              {
+                "icon": "bi-receipt",
+                "title": "GST-ready billing",
+                "description": "E-way bills, e-invoices and monthly statements without the paperwork chase."
+              },
+              {
+                "icon": "bi-headset",
+                "title": "One point of contact",
+                "description": "A named account manager who knows your lanes and your customers."
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Share your lanes",
+                "description": "Tell us your routes, volumes and delivery windows."
+              },
+              {
+                "icon": "bi-calculator",
+                "title": "Get a rate card",
+                "description": "Clear per-trip or per-kg pricing within 24 hours."
+              },
+              {
+                "icon": "bi-truck",
+                "title": "We move it",
+                "description": "Pickup, transit and delivery with live tracking."
+              },
+              {
+                "icon": "bi-graph-up",
+                "title": "Monthly review",
+                "description": "On-time, damage and cost reports to keep improving."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "What our clients say",
+            "items": [
+              {
+                "quote": "Northbridge took over our south-India distribution in six weeks. On-time delivery went from 81% to 97%.",
+                "name": "Ramesh Iyer",
+                "role": "Supply Chain Head, Kaveri Foods",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Their control room calls us before we notice a delay. That alone is worth the contract.",
+                "name": "Priya Menon",
+                "role": "Operations Manager, Tessaro",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Warehousing, billing and transport under one roof has cut our logistics cost by 14%.",
+                "name": "Imran Qureshi",
+                "role": "CFO, Coastal Paints",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Have a load to move this week?",
+            "description": "Share your route and volume — we will send a rate card within 24 hours.",
+            "background_image": "",
+            "button": {
+              "text": "Get a freight quote",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914440127788"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Northbridge Logistics",
+            "subheading": "Moving goods across India on time, every time — by road, sea and air, with warehousing in between.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Who we are",
+            "heading": "A logistics partner built around reliability",
+            "description": "<p>Northbridge started with four trucks and one promise: deliver when we say we will. Two decades later we run a fleet of 600 vehicles, seven warehouses and a control room that never sleeps.</p><p>Our customers range from FMCG brands to auto-component makers. They stay because we answer the phone, share honest ETAs and fix problems before they reach the shop floor.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2006",
+            "experience_label": "Moving freight since",
+            "points": [
+              {
+                "text": "600+ owned and partner vehicles"
+              },
+              {
+                "text": "ISO 9001 certified operations"
+              },
+              {
+                "text": "Dedicated key-account managers"
+              }
+            ],
+            "button": {
+              "text": "Get in touch",
+              "url": "page:contact"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1.2",
+                "suffix": "M",
+                "label": "Shipments a year",
+                "icon": ""
+              },
+              {
+                "number": "600",
+                "suffix": "+",
+                "label": "Vehicles",
+                "icon": ""
+              },
+              {
+                "number": "7",
+                "suffix": "",
+                "label": "Warehouses",
+                "icon": ""
+              },
+              {
+                "number": "22",
+                "suffix": "",
+                "label": "States covered",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people behind our work",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Vikram Raghavan",
+                "role": "Managing Director",
+                "bio": "Twenty years in road transport and fleet operations.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Anita Joseph",
+                "role": "Head of Warehousing",
+                "bio": "Runs our seven sites and the WMS rollout.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "S. Karthik",
+                "role": "Control Room Lead",
+                "bio": "Keeps 600 trucks moving, day and night.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Meera Pillai",
+                "role": "Key Accounts Director",
+                "bio": "Looks after our largest manufacturing clients.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Have a load to move this week?",
+            "description": "Share your route and volume — we will send a rate card within 24 hours.",
+            "background_image": "",
+            "button": {
+              "text": "Get a freight quote",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914440127788"
+            }
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "Moving goods across India on time, every time — by road, sea and air, with warehousing in between.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Our services",
+            "heading": "Everything we can do for you",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-truck",
+                "title": "Road freight",
+                "description": "Full-truckload and part-load services across 22 states, with tracking on every trip.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-tsunami",
+                "title": "Sea & container freight",
+                "description": "Port-to-door container movement, customs coordination and coastal shipping.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-box-seam",
+                "title": "Warehousing",
+                "description": "Bonded and GST-registered warehouses with WMS, pick-pack and cycle counts.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Track & trace",
+                "description": "A live dashboard and SMS alerts for every consignment, from pickup to proof of delivery.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-lightning-charge",
+                "title": "Express & last mile",
+                "description": "Same-day city delivery and next-day metro routes for urgent consignments.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-snow",
+                "title": "Cold chain",
+                "description": "Temperature-controlled vehicles and storage for food and pharma products.",
+                "image": "",
+                "link": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Share your lanes",
+                "description": "Tell us your routes, volumes and delivery windows."
+              },
+              {
+                "icon": "bi-calculator",
+                "title": "Get a rate card",
+                "description": "Clear per-trip or per-kg pricing within 24 hours."
+              },
+              {
+                "icon": "bi-truck",
+                "title": "We move it",
+                "description": "Pickup, transit and delivery with live tracking."
+              },
+              {
+                "icon": "bi-graph-up",
+                "title": "Monthly review",
+                "description": "On-time, damage and cost reports to keep improving."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Engagements",
+            "heading": "Simple ways to work with us",
+            "description": "Every engagement is agreed in writing before work begins.",
+            "plans": [
+              {
+                "name": "Part load",
+                "price": "₹14",
+                "period": "kg",
+                "features": "Hub-to-hub LTL service\nLive tracking\nWeekly billing",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              },
+              {
+                "name": "Full truck",
+                "price": "₹42,000",
+                "period": "trip",
+                "features": "Dedicated 32 ft vehicle\nDoor-to-door delivery\nTransit insurance\nPriority support",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": true
+              },
+              {
+                "name": "Contract",
+                "price": "Custom",
+                "period": "month",
+                "features": "Dedicated fleet & warehouse\nMonthly performance reviews\nKey-account manager",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Common questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Which cities do you cover?",
+                "answer": "We run scheduled routes across 22 states and serve most PIN codes through our partner network."
+              },
+              {
+                "question": "Can I track my shipment?",
+                "answer": "Yes. Every consignment has a tracking link and SMS updates from pickup to delivery."
+              },
+              {
+                "question": "Do you handle part loads?",
+                "answer": "Yes. Part-load (LTL) shipments are consolidated at our hubs and billed by weight."
+              },
+              {
+                "question": "Is my cargo insured?",
+                "answer": "Transit insurance is available on every shipment and is included for contract customers."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Have a load to move this week?",
+            "description": "Share your route and volume — we will send a rate card within 24 hours.",
+            "background_image": "",
+            "button": {
+              "text": "Get a freight quote",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914440127788"
+            }
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "A look inside Northbridge Logistics — our people, places and projects.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Our Oragadam hub"
+              },
+              {
+                "image": "theme:images/about-1.svg",
+                "caption": "Container yard"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Night operations"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Warehouse racking"
+              },
+              {
+                "image": "theme:images/about-2.svg",
+                "caption": "Fleet on the highway"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Control room"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Have a load to move this week?",
+            "description": "Share your route and volume — we will send a rate card within 24 hours.",
+            "background_image": "",
+            "button": {
+              "text": "Get a freight quote",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914440127788"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Tell us what you need and we will get back to you within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit our Chennai office, call us, or send a message using the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you get in touch",
+            "description": "",
+            "items": [
+              {
+                "question": "Which cities do you cover?",
+                "answer": "We run scheduled routes across 22 states and serve most PIN codes through our partner network."
+              },
+              {
+                "question": "Can I track my shipment?",
+                "answer": "Yes. Every consignment has a tracking link and SMS updates from pickup to delivery."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how we collect, use and protect the personal information you share with us through this website.</p><h3>Information we collect</h3><p>When you submit an enquiry we collect your name, email address, phone number and the details of your message.</p><h3>How we use it</h3><p>We use this information only to respond to your enquiry and to provide the services you request. We do not sell or share your information with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on our Contact page.</p><p><em>Replace this sample text with your own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Use of this website</h3><p>The content on this website is for general information only and may change without notice.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

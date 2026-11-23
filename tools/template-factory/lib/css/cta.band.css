@@ -1,0 +1,8 @@
+.{{p}} .{{p}}-cta-band { background: var(--{{p}}-band); color: var(--{{p}}-on-band); padding: 5rem 0; overflow: hidden; }
+.{{p}}-cta-bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: .18; mix-blend-mode: luminosity; }
+.{{p}}-cta-band .{{p}}-cta-title { color: inherit; font-size: clamp(1.8rem, 1.3rem + 2vw, 2.8rem); }
+.{{p}}-cta-band .{{p}}-cta-text { opacity: .85; }
+.{{p}}-cta-band .{{p}}-btn-primary { background: var(--{{p}}-on-band); color: var(--{{p}}-band); border-color: var(--{{p}}-on-band); }
+.{{p}}-cta-band .{{p}}-btn-primary:hover { background: transparent; color: var(--{{p}}-on-band); border-color: var(--{{p}}-on-band); }
+.{{p}}-cta-band .{{p}}-btn-light { color: var(--{{p}}-on-band); border-color: currentColor; }
+.{{p}}-cta-band .{{p}}-btn-light:hover { background: var(--{{p}}-on-band); color: var(--{{p}}-band); }

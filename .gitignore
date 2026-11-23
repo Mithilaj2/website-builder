@@ -25,3 +25,5 @@ node_modules/
 !/generated_websites/.gitkeep
 /storage/qa/
 storage/migrations.lock
+__pycache__/
+*.pyc

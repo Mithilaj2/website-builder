@@ -1,0 +1,8 @@
+.{{p}} .{{p}}-stats-inline { padding: 4rem 0; }
+.{{p}}-stats-inline .{{p}}-stat-grid { gap: 0; border-top: 1px solid var(--{{p}}-line-strong); border-bottom: 1px solid var(--{{p}}-line-strong); }
+.{{p}}-stats-inline .{{p}}-stat { padding: 2rem 1.5rem; }
+.{{p}}-stats-inline .{{p}}-stat + .{{p}}-stat { border-left: 1px solid var(--{{p}}-line-strong); }
+.{{p}}-stats-inline .{{p}}-stat strong { font-size: clamp(2.4rem, 1.6rem + 2.6vw, 3.8rem); color: var(--{{p}}-hero-ink); }
+.{{p}}-stats-inline .{{p}}-stat-label { color: var(--{{p}}-muted); }
+.{{p}}-stats-inline .{{p}}-stat-icon { color: var(--{{p}}-hl); }
+@media (max-width: 991.98px) { .{{p}}-stats-inline .{{p}}-stat:nth-child(odd) { border-left: 0; } .{{p}}-stats-inline .{{p}}-stat:nth-child(n+3) { border-top: 1px solid var(--{{p}}-line-strong); } }

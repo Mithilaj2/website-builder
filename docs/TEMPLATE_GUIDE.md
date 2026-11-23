@@ -235,6 +235,15 @@ Styling and overrides:
 | Template | Prefix | Palette | Type | Signature motif |
 |---|---|---|---|---|
 | Business 01 Meridian Corporate | `mrd` | Navy + amber | Manrope + Inter | Corporate grid, numbered process |
+| Business 02 Northbridge Freight | `nbf` | Deep teal + amber on white, dark teal footer | Sora + Inter | Industrial and dependable: full-bleed photo hero with a stat strip, dark info bar, amber accents, image service cards and a dark four-column footer. |
+| Business 03 Vertex Nightshift | `vtx` | Dark navy page, violet + cyan | Space Grotesk + Inter | Dark, technical and precise: floating pill navigation, centred hero over a glowing panorama, tinted cards, outlined numbers and a centred footer. |
+| Business 04 Greenfield Harvest | `gfh` | Forest green + harvest gold on cream | Fraunces + DM Sans | Warm and earthy: centred masthead, split colour-panel hero, serif headings on cream, numbered service rows, a timeline and contact cards above the footer. |
+| Business 05 Ironclad Works | `icw` | Graphite + red-orange on white | Montserrat + Open Sans | Heavy-duty and engineered: dark navigation, oversized uppercase editorial hero, sharp corners, top-accent cards, outlined step numbers and a red-orange call-to-action band. |
+| Business 06 Brightpath Talent | `bpt` | Violet + sunflower on white, light footer | Plus Jakarta Sans + Inter | Friendly and optimistic: split hero with layered frame, violet and sunflower palette, soft shadowed cards, pill labels, round team portraits and a light footer. |
+| Business 07 Suncrest Renewables | `scr` | Ocean blue + sun yellow on white | Poppins + Inter | Bright and clean-tech: floating pill navigation over a full-bleed cover hero, ocean blue and sun yellow, image service rows, a timeline and contact cards in the footer. |
+| Business 08 Crestmark Construct | `cmc` | Charcoal + construction yellow on white | Jost + Roboto | Solid and confident: charcoal navigation, split panel hero with a yellow edge, accent-topped image cards, large inline numbers and a yellow call-to-action band. |
+| Business 09 Harbor Chambers | `hbc` | Navy + bronze on ivory | Cormorant Garamond + DM Sans | Classic and composed: centred masthead, oversized serif editorial hero, navy and bronze on ivory, hairline cards, numbered practice rows and a centred footer. |
+| Business 10 Pulse Studio | `pls` | Ink + coral on warm paper | DM Serif Display + DM Sans | Playful and editorial: floating pill navigation, split hero with big rounded frames, display serif headings on warm paper, coral accents and a coral call-to-action band. |
 | Education 01 Lyceum Classic | `lyc` | Forest green + saffron on paper | Fraunces + DM Sans | Arch frames, school crest, notice board, dark hero |
 | E-commerce 01 Terra Market | `trm` | Terracotta + sage on cream, ink footer | Playfair Display + Inter | Capsule (pill) frames, scrolling announcement bar, round category tiles, hover second image, rotating stamp |
 | Hospital 01 CareLine Health | `crl` | Teal + coral on mint, navy footer | Plus Jakarta Sans + DM Sans | Leaf frames (two opposite corners rounded), heartbeat line, 24×7 emergency strip, quick-access bar, light hero |
@@ -244,6 +253,12 @@ Styling and overrides:
 | Portfolio 01 Studio Kiln | `skl` | Black + electric blue + acid lime on warm grey paper | Space Grotesk + Inter | Oversized tight headlines, a scrolling ticker of disciplines, hairline rules, two-column project grid with a lime arrow on hover, disciplines as a typographic index, giant email address in the footer, no rounded corners |
 | Services 01 Ledgerline Advisors | `ldg` | Navy + emerald on white with blue-grey and mint bands | Poppins + Open Sans | Split hero with an illustration and a checklist, flat spot illustrations per service, fee and turnaround chips on cards, pricing packages with a highlighted middle plan, numbered step cards |
 | Travel 01 Horizon Trails | `hzt` | Deep ocean + sunset orange on sand | Jost + Plus Jakarta Sans | Generous rounding and pill buttons, centred sunset hero with a capsule trip finder, mosaic destination tiles, duration chips and "From ₹… per person" card footers |
+
+Business 02–10 were generated with the template factory (below); each changes the hero, header, card style, palette and heading typeface.
+
+## Template factory (templates 02–10)
+
+Templates 02–10 of each category are generated from short design specs by `tools/template-factory` (see its README). A spec picks a prefix, theme defaults, a variant for each component (5 heroes, 4 headers, 3 footers, 4 card styles, 4 heading styles, and variants for banners, about, services, stats, process, testimonials, CTA, team, gallery, FAQ and logos), a niche for the demo copy and original SVG illustrations recoloured to the palette. The output is an ordinary, self-contained template with its own prefix: it passes the same validator, can be edited by hand afterwards and does not depend on the factory. Rebuild with `python3 tools/template-factory/factory.py --category business`.
 
 Later templates in the same category should change at least the palette family, the heading typeface, the frame/shape motif and the hero layout (light vs dark, image side, full-bleed vs boxed).
 

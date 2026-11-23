@@ -1,0 +1,5 @@
+.{{p}}-about-layered .{{p}}-about-media { padding: 0 3rem 3rem 0; }
+.{{p}}-about-layered .{{p}}-about-img-1 { width: 100%; aspect-ratio: 4 / 3.4; box-shadow: var(--{{p}}-shadow); }
+.{{p}}-about-layered .{{p}}-about-img-2 { position: absolute; right: 0; bottom: 0; width: 46%; aspect-ratio: 1; border: 8px solid var(--wb-bg); box-shadow: var(--{{p}}-shadow); }
+.{{p}}-about-layered .{{p}}-about-badge { position: absolute; left: -1rem; top: 2rem; max-width: 175px; }
+@media (max-width: 575.98px) { .{{p}}-about-layered .{{p}}-about-media { padding: 0 1.25rem 2rem 0; } .{{p}}-about-layered .{{p}}-about-badge { left: .5rem; } }

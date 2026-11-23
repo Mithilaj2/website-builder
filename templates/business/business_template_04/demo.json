@@ -1,0 +1,750 @@
+{
+  "settings": {
+    "site": {
+      "name": "Greenfield Agro Exports",
+      "tagline": "Farm-fresh produce from Indian farms to global markets",
+      "phone": "+91 79 4900 3311",
+      "email": "trade@greenfieldagro.example",
+      "address": "Survey No. 112, Sanand Road\nAhmedabad, Gujarat 382210",
+      "hours": "Mon–Sat: 9:00 am – 6:00 pm",
+      "footer_about": "We source, grade and ship fresh produce and spices from 3,000 partner farmers to buyers in 28 countries.",
+      "footer_text": "All rights reserved.",
+      "rating": "APEDA & GLOBALG.A.P. certified",
+      "rating_label": "trusted by importers in 28 countries",
+      "header_button": {
+        "text": "Request a price list",
+        "url": "page:contact"
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "seo": {
+      "description": "Greenfield Agro Exports — farm-fresh produce from indian farms to global markets in Ahmedabad. We source, grade and ship fresh produce and spices from 3,000 partner farmers to buyers in 28 countries.",
+      "keywords": "farm-fresh produce from indian farms to global markets, Ahmedabad"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Farm to port since 2011",
+            "heading": "Fresh from Indian farms, delivered to the world.",
+            "subheading": "Onions, grapes, pomegranates, spices and pulses — traceable to the farm, graded to export standards and shipped on schedule.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Request a price list",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:services"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "3,000 partner farmers"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Residue-tested produce"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Reefer shipping"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our roots",
+            "heading": "A fair, traceable supply chain from field to container",
+            "description": "<p>Greenfield began as a cooperative of grape growers near Nashik. Today we work with 3,000 farmers in Gujarat and Maharashtra, paying fair prices and sharing agronomy support.</p><p>Our pack-houses grade, sort and pre-cool every lot, and our export desk handles phytosanitary paperwork, reefers and documentation for buyers abroad.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2011",
+            "experience_label": "Exporting since",
+            "points": [
+              {
+                "text": "Farm-level traceability"
+              },
+              {
+                "text": "Cold-chain pack-houses"
+              },
+              {
+                "text": "Residue testing on every lot"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Services built around your business",
+            "description": "We source, grade and ship fresh produce and spices from 3,000 partner farmers to buyers in 28 countries.",
+            "columns": "2",
+            "items": [
+              {
+                "icon": "bi-flower1",
+                "title": "Produce sourcing",
+                "description": "Direct buying from partner farms with fair prices and agronomy support.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-box2",
+                "title": "Grading & packing",
+                "description": "Sorting, grading and branded packing in our pre-cooled pack-houses.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-tsunami",
+                "title": "Export shipping",
+                "description": "Reefer containers, phytosanitary certificates and port handling.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-patch-check",
+                "title": "Quality certification",
+                "description": "GLOBALG.A.P., residue testing and third-party inspections.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "3000",
+                "suffix": "+",
+                "label": "Partner farmers",
+                "icon": ""
+              },
+              {
+                "number": "28",
+                "suffix": "",
+                "label": "Export countries",
+                "icon": ""
+              },
+              {
+                "number": "42",
+                "suffix": "K t",
+                "label": "Shipped each year",
+                "icon": ""
+              },
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Product lines",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why buyers choose Greenfield",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-qr-code",
+                "title": "Full traceability",
+                "description": "Every box can be traced back to the farm and harvest date."
+              },
+              {
+                "icon": "bi-thermometer-snow",
+                "title": "Cold chain",
+                "description": "Pre-cooling within hours of harvest keeps produce fresh longer."
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "Export paperwork",
+                "description": "Certificates of origin, phyto and customs handled for you."
+              },
+              {
+                "icon": "bi-heart",
+                "title": "Fair farming",
+                "description": "Fair prices and training help our growers improve every season."
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-envelope-paper",
+                "title": "Share specifications",
+                "description": "Tell us product, grade, packing and destination."
+              },
+              {
+                "icon": "bi-receipt",
+                "title": "Confirm the offer",
+                "description": "Receive FOB or CIF pricing and a shipping schedule."
+              },
+              {
+                "icon": "bi-box-seam",
+                "title": "Harvest & pack",
+                "description": "We harvest, grade, pre-cool and pack to your spec."
+              },
+              {
+                "icon": "bi-tsunami",
+                "title": "Ship & document",
+                "description": "Reefer booking, loading photos and documents shared online."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "What our clients say",
+            "items": [
+              {
+                "quote": "Consistent grading and honest communication. Greenfield is our first call for grapes every season.",
+                "name": "Omar Al-Hashimi",
+                "role": "Buyer, FreshMart UAE",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Their traceability reports made our retail audits straightforward.",
+                "name": "Claire Hughes",
+                "role": "Sourcing Manager, Verdant UK",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Twelve containers of pomegranates this year, every one on schedule and in perfect condition.",
+                "name": "Rashid Khan",
+                "role": "Director, Al Noor Trading",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Supplying importers and retail chains across 28 countries",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "FreshMart UAE",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Al Noor Trading",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Verdant UK",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Sunbay",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Harvest Co.",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning your next season’s buying?",
+            "description": "Send your specifications and we will share availability and pricing within a day.",
+            "background_image": "theme:images/about-2.svg",
+            "button": {
+              "text": "Request a price list",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Greenfield Agro Exports",
+            "subheading": "We source, grade and ship fresh produce and spices from 3,000 partner farmers to buyers in 28 countries.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our roots",
+            "heading": "A fair, traceable supply chain from field to container",
+            "description": "<p>Greenfield began as a cooperative of grape growers near Nashik. Today we work with 3,000 farmers in Gujarat and Maharashtra, paying fair prices and sharing agronomy support.</p><p>Our pack-houses grade, sort and pre-cool every lot, and our export desk handles phytosanitary paperwork, reefers and documentation for buyers abroad.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2011",
+            "experience_label": "Exporting since",
+            "points": [
+              {
+                "text": "Farm-level traceability"
+              },
+              {
+                "text": "Cold-chain pack-houses"
+              },
+              {
+                "text": "Residue testing on every lot"
+              }
+            ],
+            "button": {
+              "text": "Get in touch",
+              "url": "page:contact"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "3000",
+                "suffix": "+",
+                "label": "Partner farmers",
+                "icon": ""
+              },
+              {
+                "number": "28",
+                "suffix": "",
+                "label": "Export countries",
+                "icon": ""
+              },
+              {
+                "number": "42",
+                "suffix": "K t",
+                "label": "Shipped each year",
+                "icon": ""
+              },
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Product lines",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people behind our work",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Harshad Patel",
+                "role": "Founder & CEO",
+                "bio": "Third-generation grower who built our farmer network.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Kavita Desai",
+                "role": "Head of Exports",
+                "bio": "Fifteen years in international fresh-produce trade.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Dr. Suresh Bhat",
+                "role": "Quality & Agronomy",
+                "bio": "Leads farm training and residue testing.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Nikhil Shah",
+                "role": "Logistics Manager",
+                "bio": "Books reefers and keeps shipments on schedule.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning your next season’s buying?",
+            "description": "Send your specifications and we will share availability and pricing within a day.",
+            "background_image": "theme:images/about-2.svg",
+            "button": {
+              "text": "Request a price list",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "We source, grade and ship fresh produce and spices from 3,000 partner farmers to buyers in 28 countries.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Our services",
+            "heading": "Everything we can do for you",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-flower1",
+                "title": "Produce sourcing",
+                "description": "Direct buying from partner farms with fair prices and agronomy support.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-box2",
+                "title": "Grading & packing",
+                "description": "Sorting, grading and branded packing in our pre-cooled pack-houses.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-tsunami",
+                "title": "Export shipping",
+                "description": "Reefer containers, phytosanitary certificates and port handling.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-patch-check",
+                "title": "Quality certification",
+                "description": "GLOBALG.A.P., residue testing and third-party inspections.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-basket",
+                "title": "Private label",
+                "description": "Packing under your brand with custom sizes, labels and barcodes.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-moisture",
+                "title": "Spices & pulses",
+                "description": "Cleaned, sterilised spices and pulses in bulk or retail packs.",
+                "image": "",
+                "link": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-envelope-paper",
+                "title": "Share specifications",
+                "description": "Tell us product, grade, packing and destination."
+              },
+              {
+                "icon": "bi-receipt",
+                "title": "Confirm the offer",
+                "description": "Receive FOB or CIF pricing and a shipping schedule."
+              },
+              {
+                "icon": "bi-box-seam",
+                "title": "Harvest & pack",
+                "description": "We harvest, grade, pre-cool and pack to your spec."
+              },
+              {
+                "icon": "bi-tsunami",
+                "title": "Ship & document",
+                "description": "Reefer booking, loading photos and documents shared online."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Engagements",
+            "heading": "Simple ways to work with us",
+            "description": "Every engagement is agreed in writing before work begins.",
+            "plans": [
+              {
+                "name": "Trial lot",
+                "price": "FOB",
+                "period": "quote",
+                "features": "One mixed container\nStandard export packing\nPre-shipment inspection",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              },
+              {
+                "name": "Season contract",
+                "price": "Fixed",
+                "period": "per kg",
+                "features": "Weekly shipments\nPrice fixed for the season\nPrivate-label packing\nDedicated export manager",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": true
+              },
+              {
+                "name": "Spot buy",
+                "price": "Market",
+                "period": "rate",
+                "features": "Available stock\nShips within 7 days\nStandard documentation",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Common questions",
+            "description": "",
+            "items": [
+              {
+                "question": "What is your minimum order?",
+                "answer": "One 40 ft reefer container for fresh produce; smaller lots for spices and pulses."
+              },
+              {
+                "question": "Do you ship CIF?",
+                "answer": "Yes. We quote FOB Mundra/Nhava Sheva or CIF to your destination port."
+              },
+              {
+                "question": "Can you pack under our brand?",
+                "answer": "Yes. Private-label packing is available for orders above two containers a season."
+              },
+              {
+                "question": "Which certifications do you hold?",
+                "answer": "APEDA registration, GLOBALG.A.P., ISO 22000 and FSSAI."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning your next season’s buying?",
+            "description": "Send your specifications and we will share availability and pricing within a day.",
+            "background_image": "theme:images/about-2.svg",
+            "button": {
+              "text": "Request a price list",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "A look inside Greenfield Agro Exports — our people, places and projects.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Grape harvest near Nashik"
+              },
+              {
+                "image": "theme:images/about-1.svg",
+                "caption": "Pack-house grading line"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Container loading"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Farmer training day"
+              },
+              {
+                "image": "theme:images/about-2.svg",
+                "caption": "Spice cleaning unit"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Quality lab"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning your next season’s buying?",
+            "description": "Send your specifications and we will share availability and pricing within a day.",
+            "background_image": "theme:images/about-2.svg",
+            "button": {
+              "text": "Request a price list",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Tell us what you need and we will get back to you within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit our Ahmedabad office, call us, or send a message using the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you get in touch",
+            "description": "",
+            "items": [
+              {
+                "question": "What is your minimum order?",
+                "answer": "One 40 ft reefer container for fresh produce; smaller lots for spices and pulses."
+              },
+              {
+                "question": "Do you ship CIF?",
+                "answer": "Yes. We quote FOB Mundra/Nhava Sheva or CIF to your destination port."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how we collect, use and protect the personal information you share with us through this website.</p><h3>Information we collect</h3><p>When you submit an enquiry we collect your name, email address, phone number and the details of your message.</p><h3>How we use it</h3><p>We use this information only to respond to your enquiry and to provide the services you request. We do not sell or share your information with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on our Contact page.</p><p><em>Replace this sample text with your own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Use of this website</h3><p>The content on this website is for general information only and may change without notice.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+.{{p}}-faq-center .{{p}}-accordion .accordion-item { border-width: 0 0 1px; border-radius: 0 !important; background: transparent; margin: 0; }
+.{{p}}-faq-center .{{p}}-accordion .accordion-button { background: transparent; padding: 1.35rem .25rem; font-size: 1.08rem; }
+.{{p}}-faq-center .{{p}}-accordion .accordion-button:not(.collapsed) { background: transparent; }
+.{{p}}-faq-center .{{p}}-accordion .accordion-body { padding: 0 .25rem 1.5rem; }

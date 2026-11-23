@@ -1,0 +1,74 @@
+{
+  "id": "business_template_05",
+  "name": "Ironclad Works",
+  "prefix": "icw",
+  "niche": "engineering",
+  "seed": 5,
+  "direction": "Heavy-duty and engineered: dark navigation, oversized uppercase editorial hero, sharp corners, top-accent cards, outlined step numbers and a red-orange call-to-action band.",
+  "description": "A strong, engineered design for manufacturing, fabrication and industrial firms: dark navigation, an oversized editorial hero, sharp corners with accent-topped cards, an image banner and a bold call-to-action band.",
+  "theme": {
+    "primary": "#1F2937",
+    "secondary": "#E4572E",
+    "bg": "#FFFFFF",
+    "text": "#111827",
+    "heading_font": "montserrat",
+    "body_font": "open-sans",
+    "radius": "0px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "editorial",
+    "banner": "image",
+    "head": "bar",
+    "card": "top",
+    "about": "layered",
+    "services": "cards",
+    "stats": "band",
+    "process": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "process"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 82%, #000)",
+    "icon": "accent",
+    "case": "uppercase",
+    "track": ".01em",
+    "hero_scale": 0.92,
+    "btn_case": "uppercase",
+    "btn_track": ".06em",
+    "nav_font": "var(--wb-heading-font)"
+  },
+  "extra_css": ".icw .icw-header .nav-link { text-transform: uppercase; font-size: .82rem; letter-spacing: .08em; }\n.icw .icw-hero-title { letter-spacing: -.01em; }",
+  "demo": {
+    "service_images": true,
+    "home_services": 4,
+    "home_services_columns": "2",
+    "features_image": "svc-1.svg",
+    "home": [
+      "hero",
+      "stats",
+      "about",
+      "services",
+      "features",
+      "process",
+      "testimonials",
+      "logos",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "business_template_09",
+  "name": "Harbor Chambers",
+  "prefix": "hbc",
+  "niche": "legal",
+  "seed": 9,
+  "direction": "Classic and composed: centred masthead, oversized serif editorial hero, navy and bronze on ivory, hairline cards, numbered practice rows and a centred footer.",
+  "description": "A classic, composed design for law firms, advisory practices and professional partnerships: centred masthead, editorial serif hero, navy and bronze on ivory, numbered practice-area rows and a centred footer.",
+  "theme": {
+    "primary": "#1D2B3A",
+    "secondary": "#B08D57",
+    "bg": "#FAF8F4",
+    "text": "#1D2B3A",
+    "heading_font": "cormorant-garamond",
+    "body_font": "dm-sans",
+    "radius": "0px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "editorial",
+    "banner": "solid",
+    "head": "serif",
+    "card": "line",
+    "about": "layered",
+    "services": "rows",
+    "stats": "inline",
+    "process": "timeline",
+    "testimonials": "featured",
+    "cta": "split",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 72%, #000)",
+    "icon": "tint",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "0",
+    "hero_scale": 1.05,
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "service_images": false,
+    "home_services": 6,
+    "features_image": "about-2.svg",
+    "services_heading": "Practice areas",
+    "services_eyebrow": "Expertise",
+    "services_page_heading": "Our practice areas",
+    "home": [
+      "hero",
+      "about",
+      "services",
+      "stats",
+      "testimonials",
+      "features",
+      "process",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

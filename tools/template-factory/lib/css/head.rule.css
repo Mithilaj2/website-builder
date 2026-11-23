@@ -1,0 +1,2 @@
+.{{p}}-head .{{p}}-eyebrow::before { content: ""; width: 28px; height: 2px; background: currentColor; }
+.{{p}}-head-center .{{p}}-eyebrow::after { content: ""; width: 28px; height: 2px; background: currentColor; }

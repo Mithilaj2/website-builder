@@ -1,0 +1,4 @@
+.{{p}}-head .{{p}}-eyebrow { font-family: var(--wb-body-font); font-weight: 600; letter-spacing: .22em; font-size: .74rem; }
+.{{p}}-head .{{p}}-title { font-weight: var(--{{p}}-hw); }
+.{{p}}-head-center .{{p}}-eyebrow::before, .{{p}}-head-center .{{p}}-eyebrow::after { content: "—"; opacity: .6; }
+.{{p}}-head-start .{{p}}-eyebrow::before { content: "—"; opacity: .6; }

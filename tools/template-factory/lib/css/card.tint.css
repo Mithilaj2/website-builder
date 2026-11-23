@@ -1,0 +1,8 @@
+.{{p}}-card { border: 0; background: var(--{{p}}-surface); }
+.{{p}} .{{p}}-plan:not(.is-featured) { background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); }
+.{{p}} .{{p}}-service:hover, .{{p}} .{{p}}-feature-card:hover { background: var(--{{p}}-deep); color: #fff; }
+.{{p}} .{{p}}-service:hover p, .{{p}} .{{p}}-feature-card:hover p { color: rgba(255, 255, 255, .78); }
+.{{p}} .{{p}}-service:hover .{{p}}-link, .{{p}} .{{p}}-service:hover .{{p}}-card-title, .{{p}} .{{p}}-feature-card:hover .{{p}}-feature-title { color: #fff; }
+.{{p}} .{{p}}-service:hover .{{p}}-service-num { color: rgba(255, 255, 255, .12); }
+.{{p}} .{{p}}-service:hover .{{p}}-icon, .{{p}} .{{p}}-feature-card:hover .{{p}}-icon { background: var(--wb-secondary); color: var(--wb-on-secondary); }
+.{{p}}-service, .{{p}}-feature-card { transition: background-color .3s ease, color .3s ease, transform .3s ease; }
