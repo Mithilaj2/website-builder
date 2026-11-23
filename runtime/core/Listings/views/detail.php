@@ -18,7 +18,7 @@ $dateKey = $en['date_label'] !== '' ? (stripos($en['date_label'], 'date') === fa
       <div class="wblist-head-price"><small><?= $view->e($cfg['price_label']) ?></small><strong><?= $view->e($item['price_text'] !== '' ? $item['price_text'] : 'On request') ?></strong><?php if (($item['price_note'] ?? '') !== '' && $item['price_text'] !== ''): ?><span><?= $view->e($item['price_note']) ?></span><?php endif; ?></div>
     </div>
     <?php if ($images): ?>
-      <div class="wblist-gallery<?= count($images) > 3 ? ' has-many' : (count($images) > 1 ? ' has-' . count($images) : '') ?>" data-wblist-gallery>
+      <div class="wblist-gallery<?= count($images) > 4 ? ' has-many' : (count($images) > 1 ? ' has-' . count($images) : '') ?>" data-wblist-gallery>
         <?php foreach (array_slice($images, 0, 5) as $i => $ref): ?>
           <button type="button" class="wblist-gallery-item" data-wblist-open="<?= $i ?>" aria-label="View image <?= $i + 1 ?> of <?= count($images) ?>"><img src="<?= $view->img($ref) ?>" alt="<?= $i === 0 ? $view->e($item['title']) : '' ?>"<?= $i ? ' loading="lazy"' : '' ?>><?php if ($i === 4 && count($images) > 5): ?><span>+<?= count($images) - 5 ?></span><?php endif; ?></button>
         <?php endforeach; ?>

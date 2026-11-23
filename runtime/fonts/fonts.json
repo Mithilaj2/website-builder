@@ -124,5 +124,21 @@
       600,
       700
     ]
+  },
+  "cormorant-garamond": {
+    "name": "Cormorant Garamond",
+    "fallback": "Georgia, 'Times New Roman', serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "dm-serif-display": {
+    "name": "DM Serif Display",
+    "fallback": "Georgia, 'Times New Roman', serif",
+    "weights": [
+      400
+    ]
   }
 }

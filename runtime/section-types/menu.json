@@ -1,0 +1,37 @@
+{
+  "type": "menu",
+  "label": "Food menu",
+  "icon": "bi-journal-text",
+  "description": "A restaurant or café menu grouped by course, with prices, veg / non-veg marks, spice level and optional photos. Dishes with the same “Course” are shown together, in the order of their first appearance.",
+  "fields": [
+    { "key": "eyebrow", "label": "Small heading above title", "type": "text", "default": "Our menu", "max": 80 },
+    { "key": "heading", "label": "Heading", "type": "text", "default": "Something for every appetite", "max": 160 },
+    { "key": "description", "label": "Description", "type": "textarea", "default": "", "max": 600 },
+    { "key": "layout", "label": "Layout", "type": "select", "options": { "tabs": "Tabs, one per course", "list": "All courses on the page" }, "default": "tabs" },
+    { "key": "show_images", "label": "Show dish photos", "type": "toggle", "default": true },
+    {
+      "key": "items",
+      "label": "Dishes",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 80,
+      "item_label": "name",
+      "fields": [
+        { "key": "course", "label": "Course (e.g. Starters, Mains, Desserts)", "type": "text", "required": true, "max": 40 },
+        { "key": "name", "label": "Dish name", "type": "text", "required": true, "max": 80 },
+        { "key": "description", "label": "Description", "type": "textarea", "max": 240 },
+        { "key": "price", "label": "Price (e.g. ₹349 or ₹349 / ₹599)", "type": "text", "max": 30 },
+        { "key": "diet", "label": "Food type", "type": "select", "options": { "": "Not shown", "veg": "Vegetarian", "nonveg": "Non-vegetarian", "egg": "Contains egg", "vegan": "Vegan" }, "default": "" },
+        { "key": "spice", "label": "Spice level", "type": "select", "options": { "0": "Not spicy", "1": "Mild", "2": "Medium", "3": "Hot" }, "default": "0" },
+        { "key": "tag", "label": "Label (e.g. Chef’s special, Bestseller)", "type": "text", "max": 30 },
+        { "key": "image", "label": "Photo (optional)", "type": "image" }
+      ],
+      "default": [
+        { "course": "Starters", "name": "Paneer tikka", "description": "Cottage cheese marinated in yoghurt and spices, grilled in the tandoor.", "price": "₹320", "diet": "veg", "spice": "1", "tag": "", "image": "" },
+        { "course": "Mains", "name": "Butter chicken", "description": "Tandoori chicken simmered in a rich tomato and butter gravy.", "price": "₹420", "diet": "nonveg", "spice": "1", "tag": "Bestseller", "image": "" }
+      ]
+    },
+    { "key": "note", "label": "Note below the menu", "type": "text", "default": "Prices are in rupees and exclude GST. Please tell us about any allergies.", "max": 200 },
+    { "key": "button", "label": "Button below the menu", "type": "link", "default": { "text": "", "url": "" } }
+  ]
+}

@@ -9,7 +9,51 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a done (Education 01, Hospital 01, E-commerce 01 with the shop module). 7b part 1 done (Real Estate 01, Travel 01 with the listings module), awaiting review. Next: 7b part 2 (Restaurant 01, Hotel 01), part 3 (Portfolio 01, Services 01), then 7c |
+| 7 Template library | 🔄 In progress | 7a done (Education 01, Hospital 01, E-commerce 01 with the shop module). 7b part 1 done (Real Estate 01, Travel 01 with the listings module). 7b part 2 done (Restaurant 01 with the food menu, Hotel 01 with rooms), awaiting review. Next: 7b part 3 (Portfolio 01, Services 01), then 7c |
+
+## Phase 7b, part 2: Restaurant 01 and Hotel 01
+
+### Delivered
+- **Food menu section** (`menu`, new core section type) for restaurants, cafés and bars:
+  - Up to 80 dishes, each with a course, name, description, price text, food type (vegetarian, non-vegetarian, contains egg, vegan), spice level (mild / medium / hot), a label such as "Chef's special" and an optional photo.
+  - Dishes are grouped by course. Layout "tabs" shows one course at a time (keyboard-accessible tabs; without JavaScript every course is listed with its heading); layout "list" shows all courses on the page. A key for the marks and a note ("prices exclude GST…") sit below.
+  - Food-type marks follow the familiar Indian square-and-dot symbols and include text for screen readers.
+- **Restaurant 01, "Saffron Table"** (`templates/restaurant/restaurant_template_01`, prefix `sfr`):
+  - The first dark template: charcoal page, saffron and chilli accents, DM Serif Display headings, a header floating over a full-bleed table-spread hero, thin gold rules and dotted price leaders.
+  - Pages: home (story, signature dishes, highlights, gallery, reviews, table booking), menu (21 dishes in 5 courses), about (chefs, press), events and private dining (venues and upcoming evenings), reservations (booking form with guests, time and date, opening hours, FAQ), contact.
+  - Reuses the Phase 7a booking form (form type "booking"), opening hours and events sections.
+  - Demo: a Mumbai restaurant; 29 original SVG illustrations (12 top-down dishes, interiors, kitchen, chefs).
+- **Hotel 01, "The Lakeview Haveli"** (`templates/hotel/hotel_template_01`, prefix `lvh`), built on the listings module (path `rooms`):
+  - Design: forest green and antique brass on ivory, Cormorant Garamond headings, Rajasthani arch-topped photo frames, a centred two-row header with "Rooms" in the menu, a lake-palace hero with a stay finder (room type, guests, view).
+  - Room attributes: guests, bed, size, view, breakfast included (yes/no), bathroom, in-room amenities and "good to know" lists. The room page has a "Check availability" request with check-in date and number of nights. Status "Fully booked" keeps a room visible but marked.
+  - Pages: home, rooms (8 demo rooms in 3 types), about, experiences, weddings and events (event enquiry that requires an email), contact with FAQ, booking and cancellation policy.
+  - Demo: an Udaipur heritage hotel; 27 original SVG illustrations.
+- Listings module: galleries now have a 4-photo layout; templates can hide the location filter.
+- Fonts DM Serif Display and Cormorant Garamond bundled (SIL Open Font License). Runtime 1.6.0.
+
+### Tests
+`tests/phase7b_part2_test.php`, **54 end-to-end checks** on freshly generated Saffron Table and Lakeview Haveli websites:
+- templates, new fonts (served by the generated site), builder previews
+- restaurant pages: dark theme, menu as a list and as tabs, dish marks, booking form, opening hours, events; no listings on a restaurant site
+- editing the menu in the builder: required fields, the 80-dish limit, unknown values, adding a course, photos off, list layout
+- a table booking end to end: stored as "booking" with guests, time and date, notification email
+- hotel pages: header, stay finder, featured rooms, every filter, the room page, an availability request stored with room, nights and check-in date
+- hotel admin: generated room form (yes/no field, bed choices), add / validate / delete a suite
+- the wedding enquiry requiring an email; "rooms" reserved only on the hotel website
+
+Results:
+
+| Server | 7b part 2 | 7b part 1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+The Phase 6 export test also passed (53/53) for both new websites, and the exported sites serve the menu, reservations and room pages on the separate host. All PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of both websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- **Installer and OPcache:** on hosts with OPcache, the first requests after installation could still use the old settings file, so a form opened immediately after installing could be rejected as "expired" (seen intermittently in the export test with the hotel website). The installer now clears the cached copies of the files it writes.
+- A menu with a single course no longer shows a redundant course heading.
+- The call-to-action band on the dark template is now readable over its photo.
 
 ## Phase 7b, part 1: Real Estate 01, Travel 01 and the listings module
 

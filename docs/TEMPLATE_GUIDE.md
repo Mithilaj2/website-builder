@@ -123,7 +123,8 @@ Category section types (Phase 7a), available to any template that lists them:
 | `notices` | Education, any | Dated announcements with an optional link and a "New" flag |
 | `doctors` | Hospital | Photo, name, qualification, specialty, experience, consultation timings, button |
 | `opening_hours` | Hospital, any | Timing rows plus one highlighted line (e.g. Emergency · 24 × 7) and a note |
-| `booking_form` | Any | Appointment / admission / booking / enquiry form, see below |
+| `booking_form` | Any | Appointment / admission / booking / enquiry form, see below. Restaurant 01 uses it for table bookings (Guests, Time, Date) and Hotel 01 for event enquiries |
+| `menu` | Restaurant, café, bar | Dishes in one list (up to 80), each with a `course`, name, description, price text, food type (`veg`, `nonveg`, `egg`, `vegan` or none), spice level 0–3, a label and an optional photo. Group dishes by `course` in order of first appearance. `layout` is `tabs` or `list`; with tabs, render every course with its heading and let JavaScript turn them into tabs, so the menu still works without JavaScript. Show a key for the marks and the `note` |
 
 **`booking_form`.** Post it to `$view->formAction($form)` where `$form` is the section's `form_type` (`appointment`, `admission`, `booking` or `enquiry`), include `$view->formGuard()`, and read the result with `$view->formStatus($form)`. Give the form card `id="<form>-form"`: the redirect after posting jumps to that anchor, and buttons elsewhere can link to it (`#admission-form`). Field rules, enforced by the runtime:
 - `name` is required, plus a valid mobile number **or** email. If `email_required` is on, post `_email_required=1` and mark the email input `required`. `message` is optional.
@@ -222,6 +223,8 @@ Styling and overrides:
 - The pages use `assets/listings/listings.css` (`.wblist-*` classes, `--wb-*` variables). Restyle with your prefix (`.kst .wblist-filters`).
 - Add `partials/listing-card.php` and every grid (index, similar items, the `listings` section) uses your card; it receives `$item` with `title`, `slug`, `location`, `price_text`, `price_note`, `badge`, `is_closed`, `category_name`, `image`, `gallery`, `attrs` (raw values), `facts` (`key`, `label`, `icon`, `value` formatted with its suffix, `card`) and `lists`.
 - Or replace a whole page with `theme/listings/index.php` or `theme/listings/detail.php`.
+- Set `"location_filter": false` when the location field is free text that makes a poor filter (travel routes, hotel wings).
+- Detail galleries adapt to 1, 2, 3, 4 or 5+ photos.
 
 `$view` helpers: `listingsEnabled()`, `listingConfig()`, `listingsUrl(['c' => 'villas', 'a' => ['bedrooms' => 3], 'max' => 5000000])` (budget filters in rupees), `listingUrl($item)`, `listings(['featured' => true, 'category' => 'slug', 'sort' => 'new|price_asc|price_desc', 'limit' => 6, 'include_closed' => false])`, `listingCategories()` (with `listing_count`), `listingLocations()`, `listingPrice($paise)`. Link to the index from content with `page:listings`.
 
@@ -234,6 +237,8 @@ Styling and overrides:
 | E-commerce 01 Terra Market | `trm` | Terracotta + sage on cream, ink footer | Playfair Display + Inter | Capsule (pill) frames, scrolling announcement bar, round category tiles, hover second image, rotating stamp |
 | Hospital 01 CareLine Health | `crl` | Teal + coral on mint, navy footer | Plus Jakarta Sans + DM Sans | Leaf frames (two opposite corners rounded), heartbeat line, 24×7 emergency strip, quick-access bar, light hero |
 | Real Estate 01 Keystone Realty | `kst` | Burgundy + champagne on warm stone, ink footer | Sora + DM Sans | Square-cornered frames with champagne rules, full-bleed dark hero with a tabbed buy/rent search panel, price set on the photo, three-cell fact strip on cards |
+| Restaurant 01 Saffron Table | `sfr` | Dark charcoal page, saffron + chilli accents | DM Serif Display + Manrope | The only dark template so far: header floating over a table-spread hero, thin gold rules, menu with dotted price leaders and Indian veg / non-veg marks, uppercase letter-spaced buttons |
+| Hotel 01 The Lakeview Haveli | `lvh` | Forest green + antique brass on ivory | Cormorant Garamond + Montserrat | Rajasthani arch-topped photo frames everywhere, centred two-row header, diamond ornaments in headings, lake-palace hero with a white stay finder |
 | Travel 01 Horizon Trails | `hzt` | Deep ocean + sunset orange on sand | Jost + Plus Jakarta Sans | Generous rounding and pill buttons, centred sunset hero with a capsule trip finder, mosaic destination tiles, duration chips and "From ₹… per person" card footers |
 
 Later templates in the same category should change at least the palette family, the heading typeface, the frame/shape motif and the hero layout (light vs dark, image side, full-bleed vs boxed).

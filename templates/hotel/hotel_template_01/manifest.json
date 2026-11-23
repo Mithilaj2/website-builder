@@ -1,0 +1,71 @@
+{
+  "id": "hotel_template_01",
+  "name": "The Lakeview Haveli",
+  "category": "hotel",
+  "version": "1.0.0",
+  "description": "A graceful heritage design for hotels, resorts and homestays: forest green and antique brass on ivory, Cormorant Garamond headings, Rajasthani arch-shaped frames and a lake-palace hero with a stay finder. Includes rooms and suites with rates, photo galleries, in-room amenities and an availability request with check-in date, plus experiences (spa, dining, cruises, weddings), a stay-enquiry form, awards and guest reviews.",
+  "libraries": ["bootstrap", "bootstrap-icons"],
+  "features": ["contact"],
+  "optional_features": ["payments"],
+  "theme": {
+    "defaults": {
+      "primary": "#1F3D36", "secondary": "#B88A44", "bg": "#F8F5EE", "text": "#1D2421",
+      "heading_font": "cormorant-garamond", "body_font": "montserrat", "radius": "2px",
+      "button_style": "sharp", "header_style": "centered", "footer_style": "dark"
+    },
+    "header_styles": { "centered": "Centred logo, menu below", "inline": "Logo and menu on one line" },
+    "footer_styles": { "dark": "Forest green", "light": "Ivory" }
+  },
+  "listings": {
+    "path": "rooms",
+    "singular": "Room",
+    "plural": "Rooms",
+    "icon": "bi-door-open",
+    "category_label": "Room type",
+    "location_label": "Wing",
+    "location_filter": false,
+    "price_label": "Rate",
+    "price_format": "inr",
+    "price_notes": ["per night", "per night, with breakfast", "per night, all meals"],
+    "closed_label": "Fully booked",
+    "attributes": [
+      { "key": "guests", "label": "Guests", "type": "number", "suffix": "Guests", "filter": true, "card": true, "icon": "bi-people", "help": "Maximum adults and children" },
+      { "key": "bed", "label": "Bed", "type": "select", "options": ["King bed", "Queen bed", "Twin beds", "King bed + sofa bed", "Two king beds"], "card": true, "icon": "bi-moon-stars" },
+      { "key": "size", "label": "Room size", "type": "number", "suffix": "sq ft", "card": true, "icon": "bi-arrows-angle-expand" },
+      { "key": "view", "label": "View", "type": "select", "options": ["Lake view", "Garden view", "Courtyard view", "Pool view"], "filter": true, "icon": "bi-image" },
+      { "key": "breakfast", "label": "Breakfast included", "type": "toggle", "icon": "bi-cup-hot" },
+      { "key": "bathroom", "label": "Bathroom", "type": "text", "icon": "bi-droplet", "help": "e.g. Rain shower and bathtub" },
+      { "key": "amenities", "label": "In your room", "type": "list", "icon": "bi-stars" },
+      { "key": "policies", "label": "Good to know", "type": "list", "icon": "bi-info-circle" }
+    ],
+    "enquiry": {
+      "heading": "Check availability",
+      "button": "Check availability",
+      "date_label": "Check-in date",
+      "select_label": "Nights",
+      "select_options": ["1 night", "2 nights", "3 nights", "4–6 nights", "7 nights or more"],
+      "message_label": "Number of guests and any special requests",
+      "success": "Thank you! Our reservations team will confirm availability and the best rate within two hours."
+    }
+  },
+  "section_types": ["hero", "page_banner", "about", "services", "features", "stats", "testimonials", "gallery", "team", "faq", "cta", "contact", "logos", "rich_text", "process", "listings", "listing_categories", "booking_form", "opening_hours"],
+  "page_types": {
+    "home": { "default_sections": ["hero", "about", "listings", "services", "stats", "gallery", "testimonials", "logos", "cta"] },
+    "about": { "default_sections": ["page_banner", "about", "features", "team", "logos"] },
+    "experiences": { "default_sections": ["page_banner", "services", "gallery", "cta"] },
+    "weddings": { "default_sections": ["page_banner", "about", "features", "booking_form"] },
+    "contact": { "default_sections": ["page_banner", "contact", "faq"] },
+    "legal": { "default_sections": ["page_banner", "rich_text"] },
+    "generic": { "default_sections": ["page_banner", "rich_text", "cta"] }
+  },
+  "default_pages": [
+    { "title": "Home", "slug": "", "type": "home", "is_home": true },
+    { "title": "About", "slug": "about", "type": "about" },
+    { "title": "Experiences", "slug": "experiences", "type": "experiences" },
+    { "title": "Weddings & Events", "slug": "weddings", "type": "weddings" },
+    { "title": "Contact", "slug": "contact", "type": "contact" },
+    { "title": "Privacy Policy", "slug": "privacy-policy", "type": "legal", "in_menu": false, "in_footer": true },
+    { "title": "Booking & Cancellation Policy", "slug": "booking-policy", "type": "legal", "in_menu": false, "in_footer": true }
+  ],
+  "demo_content": "demo.json"
+}

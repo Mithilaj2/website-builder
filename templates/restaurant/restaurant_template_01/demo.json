@@ -1,0 +1,1041 @@
+{
+ "settings": {
+  "site": {
+   "name": "Saffron Table",
+   "tagline": "Modern Indian kitchen & bar",
+   "phone": "+91 22 4970 2244",
+   "email": "hello@saffrontable.example",
+   "address": "Ground floor, Mathuradas Mills Compound\nSenapati Bapat Marg, Lower Parel\nMumbai 400013",
+   "hours": "Tue–Fri: 12:30–3:30 pm, 7–11:30 pm; Sat–Sun: 12:30–4 pm, 7 pm–12 am; Monday: closed",
+   "footer_about": "Home-style Indian recipes cooked over charcoal and served in a candle-lit room in Lower Parel, Mumbai.",
+   "footer_text": "All rights reserved. FSSAI Lic. No. 11518998000123.",
+   "header_button": {
+    "text": "Book a table",
+    "url": "page:reservations"
+   },
+   "social": {
+    "instagram": "https://www.instagram.com/",
+    "facebook": "https://www.facebook.com/",
+    "youtube": "https://www.youtube.com/"
+   }
+  },
+  "seo": {
+   "description": "Saffron Table, Lower Parel: modern Indian restaurant and bar in Mumbai. Tandoori kebabs, dal makhani, biryani, Sunday brunch, private dining and catering. Book a table online.",
+   "keywords": "Indian restaurant Lower Parel, best butter chicken Mumbai, private dining Mumbai, Sunday brunch Lower Parel"
+  }
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "Modern Indian kitchen & bar",
+      "heading": "Flavours worth slowing down for",
+      "subheading": "Charcoal-kissed kebabs, overnight dal and biryani sealed the old way — served in a candle-lit room in the heart of Lower Parel.",
+      "image": "",
+      "background_image": "theme:images/hero-table.svg",
+      "primary_button": {
+       "text": "Reserve a table",
+       "url": "page:reservations"
+      },
+      "secondary_button": {
+       "text": "See the menu",
+       "url": "page:menu"
+      },
+      "highlights": [
+       {
+        "icon": "bi-clock",
+        "text": "Open today 12:30 pm – 11:30 pm"
+       },
+       {
+        "icon": "bi-star-fill",
+        "text": "4.7 · 3,900 reviews"
+       },
+       {
+        "icon": "bi-geo-alt",
+        "text": "Lower Parel, Mumbai"
+       }
+      ]
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Our story",
+      "heading": "Home-style recipes, cooked with fire and patience",
+      "description": "<p>Saffron Table opened in 2016 in a restored mill building in Lower Parel. Our menu travels across India — from the kebab lanes of Lucknow to the toddy shops of Kerala — and everything is made in-house, from the spice blends to the paneer.</p><p>Dal cooks overnight on the embers of our tandoor, breads are baked to order and our biryani is sealed and slow-cooked the old way.</p>",
+      "image": "theme:images/about-spices.svg",
+      "image_2": "",
+      "experience_number": "10",
+      "experience_label": "years of good food",
+      "points": [
+       {
+        "text": "Spices ground in-house"
+       },
+       {
+        "text": "Charcoal tandoor"
+       },
+       {
+        "text": "Local, seasonal produce"
+       },
+       {
+        "text": "Vegetarian kitchen section"
+       }
+      ],
+      "button": {
+       "text": "Read our story",
+       "url": "page:about"
+      }
+     }
+    },
+    {
+     "type": "menu",
+     "data": {
+      "eyebrow": "Signature dishes",
+      "heading": "What everyone orders",
+      "description": "A taste of the menu — the full menu has over 60 dishes.",
+      "layout": "list",
+      "show_images": true,
+      "items": [
+       {
+        "course": "Signatures",
+        "name": "Tandoori paneer tikka",
+        "description": "Hung-curd marinade, smoked over charcoal, mint chutney.",
+        "price": "₹395",
+        "diet": "veg",
+        "spice": "1",
+        "tag": "Bestseller",
+        "image": "theme:images/dish-paneer-tikka.svg"
+       },
+       {
+        "course": "Signatures",
+        "name": "Old Delhi butter chicken",
+        "description": "Tandoori chicken in a velvety tomato, butter and fenugreek gravy.",
+        "price": "₹545",
+        "diet": "nonveg",
+        "spice": "1",
+        "tag": "Signature",
+        "image": "theme:images/dish-butter-chicken.svg"
+       },
+       {
+        "course": "Signatures",
+        "name": "Dal makhani",
+        "description": "Black lentils slow-cooked overnight on the tandoor’s embers.",
+        "price": "₹395",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "Bestseller",
+        "image": "theme:images/dish-dal-makhani.svg"
+       },
+       {
+        "course": "Signatures",
+        "name": "Lucknowi gosht biryani",
+        "description": "Dum-cooked basmati and lamb, saffron, fried onions, raita.",
+        "price": "₹625",
+        "diet": "nonveg",
+        "spice": "1",
+        "tag": "Chef’s special",
+        "image": "theme:images/dish-biryani.svg"
+       },
+       {
+        "course": "Signatures",
+        "name": "Matka kulfi",
+        "description": "Slow-reduced milk ice cream with pistachio and saffron.",
+        "price": "₹225",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "Must try",
+        "image": "theme:images/dish-kulfi.svg"
+       },
+       {
+        "course": "Signatures",
+        "name": "Dahi puri chaat",
+        "description": "Crisp shells, spiced potato, sweet yoghurt, tamarind and sev.",
+        "price": "₹245",
+        "diet": "veg",
+        "spice": "1",
+        "tag": "",
+        "image": "theme:images/dish-chaat.svg"
+       },
+       {
+        "course": "Signatures",
+        "name": "Malabar prawn curry",
+        "description": "Tiger prawns in coconut milk with kokum and curry leaves.",
+        "price": "₹695",
+        "diet": "nonveg",
+        "spice": "2",
+        "tag": "",
+        "image": "theme:images/dish-prawn-curry.svg"
+       }
+      ],
+      "note": "Prices in rupees, exclusive of GST. Please tell us about any allergies.",
+      "button": {
+       "text": "Full menu",
+       "url": "page:menu"
+      }
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "Why guests return",
+      "heading": "More than a meal",
+      "description": "",
+      "image": "",
+      "items": [
+       {
+        "icon": "bi-fire",
+        "title": "Charcoal cooking",
+        "description": "Kebabs, breads and dal cooked over a real charcoal tandoor."
+       },
+       {
+        "icon": "bi-flower1",
+        "title": "Fresh every day",
+        "description": "Vegetables from farms in Nashik; spices from Kerala and Kashmir."
+       },
+       {
+        "icon": "bi-cup-straw",
+        "title": "Craft bar",
+        "description": "House cocktails with Indian botanicals and fresh-pressed coolers."
+       },
+       {
+        "icon": "bi-music-note-beamed",
+        "title": "Live music",
+        "description": "Ghazal and acoustic nights every Friday and Saturday."
+       }
+      ]
+     }
+    },
+    {
+     "type": "gallery",
+     "data": {
+      "eyebrow": "The room",
+      "heading": "Inside Saffron Table",
+      "description": "",
+      "columns": "3",
+      "images": [
+       {
+        "image": "theme:images/interior-dining.svg",
+        "caption": "The dining room"
+       },
+       {
+        "image": "theme:images/kitchen.svg",
+        "caption": "Our tandoor"
+       },
+       {
+        "image": "theme:images/interior-bar.svg",
+        "caption": "The bar"
+       },
+       {
+        "image": "theme:images/dish-biryani.svg",
+        "caption": "Gosht biryani"
+       },
+       {
+        "image": "theme:images/private-dining.svg",
+        "caption": "Private dining"
+       },
+       {
+        "image": "theme:images/dish-paneer-tikka.svg",
+        "caption": "Paneer tikka"
+       }
+      ]
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Guest book",
+      "heading": "What our guests say",
+      "description": "",
+      "items": [
+       {
+        "quote": "The dal makhani alone is worth the trip. Warm service, beautiful room, and the best butter chicken we have had in Mumbai.",
+        "name": "Kavya Shah",
+        "role": "Google review",
+        "photo": "theme:images/guest-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "We hosted my parents’ anniversary in the private dining room — the team took care of everything, down to the flowers.",
+        "name": "Rohan Mehta",
+        "role": "Private dining guest",
+        "photo": "theme:images/guest-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "Sunday brunch here has become a family ritual. The kids love the dosa station; I come for the biryani.",
+        "name": "Farah Khan",
+        "role": "Regular since 2019",
+        "photo": "theme:images/guest-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "booking_form",
+     "data": {
+      "eyebrow": "Reservations",
+      "heading": "Reserve your table",
+      "description": "Book online for lunch or dinner. For tables of more than 10 guests, please call us.",
+      "form_type": "booking",
+      "form_heading": "Table booking",
+      "select1_label": "Guests",
+      "select1_options": "1\n2\n3\n4\n5\n6\n7–10",
+      "select2_label": "Time",
+      "select2_options": "12:30 pm\n1:30 pm\n2:30 pm\n7:00 pm\n8:00 pm\n9:00 pm\n10:00 pm",
+      "date_label": "Date",
+      "message_label": "Occasion or special requests (optional)",
+      "email_required": false,
+      "button_text": "Request booking",
+      "success_message": "Thank you! We will confirm your table by phone or WhatsApp within 30 minutes.",
+      "image": "theme:images/interior-dining.svg",
+      "points": [
+       {
+        "icon": "bi-clock",
+        "title": "Lunch & dinner",
+        "text": "Tue–Sun, 12:30–3:30 pm and 7–11:30 pm"
+       },
+       {
+        "icon": "bi-telephone",
+        "title": "Large groups",
+        "text": "Call +91 22 4970 2244 for 10+ guests"
+       },
+       {
+        "icon": "bi-p-circle",
+        "title": "Valet parking",
+        "text": "Complimentary for dinner guests"
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Celebrations, corporate dinners and weddings",
+      "description": "Our private dining room seats 24, and our chefs cater events of up to 400 guests across the city.",
+      "background_image": "theme:images/private-dining.svg",
+      "button": {
+       "text": "Plan an event",
+       "url": "page:events"
+      },
+      "secondary_button": {
+       "text": "Call us",
+       "url": "tel:+912249702244"
+      }
+     }
+    }
+   ]
+  },
+  "menu": {
+   "seo_title": "Menu",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Our menu",
+      "subheading": "Small plates, curries, breads from the tandoor and desserts — made fresh every day.",
+      "background_image": "theme:images/banner-spice.svg"
+     }
+    },
+    {
+     "type": "menu",
+     "data": {
+      "eyebrow": "À la carte",
+      "heading": "Lunch & dinner menu",
+      "description": "",
+      "layout": "tabs",
+      "show_images": true,
+      "items": [
+       {
+        "course": "Small plates",
+        "name": "Tandoori paneer tikka",
+        "description": "Hung-curd marinade, smoked over charcoal, mint chutney.",
+        "price": "₹395",
+        "diet": "veg",
+        "spice": "1",
+        "tag": "Bestseller",
+        "image": "theme:images/dish-paneer-tikka.svg"
+       },
+       {
+        "course": "Small plates",
+        "name": "Dahi puri chaat",
+        "description": "Crisp shells, spiced potato, sweet yoghurt, tamarind and sev.",
+        "price": "₹245",
+        "diet": "veg",
+        "spice": "1",
+        "tag": "",
+        "image": "theme:images/dish-chaat.svg"
+       },
+       {
+        "course": "Small plates",
+        "name": "Mutton seekh kebab",
+        "description": "Hand-minced lamb with green chilli and ginger, cooked on skewers.",
+        "price": "₹525",
+        "diet": "nonveg",
+        "spice": "2",
+        "tag": "",
+        "image": "theme:images/dish-seekh-kebab.svg"
+       },
+       {
+        "course": "Small plates",
+        "name": "Amritsari fish fry",
+        "description": "Carom-spiced batter, chaat masala, lime.",
+        "price": "₹475",
+        "diet": "nonveg",
+        "spice": "1",
+        "tag": "",
+        "image": ""
+       },
+       {
+        "course": "Small plates",
+        "name": "Masala corn on the cob",
+        "description": "Grilled corn, lime, chilli salt, white butter.",
+        "price": "₹225",
+        "diet": "veg",
+        "spice": "1",
+        "tag": "",
+        "image": ""
+       },
+       {
+        "course": "Mains",
+        "name": "Old Delhi butter chicken",
+        "description": "Tandoori chicken in a velvety tomato, butter and fenugreek gravy.",
+        "price": "₹545",
+        "diet": "nonveg",
+        "spice": "1",
+        "tag": "Signature",
+        "image": "theme:images/dish-butter-chicken.svg"
+       },
+       {
+        "course": "Mains",
+        "name": "Dal makhani",
+        "description": "Black lentils slow-cooked overnight on the tandoor’s embers.",
+        "price": "₹395",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "Bestseller",
+        "image": "theme:images/dish-dal-makhani.svg"
+       },
+       {
+        "course": "Mains",
+        "name": "Malabar prawn curry",
+        "description": "Tiger prawns in coconut milk with kokum and curry leaves.",
+        "price": "₹695",
+        "diet": "nonveg",
+        "spice": "2",
+        "tag": "",
+        "image": "theme:images/dish-prawn-curry.svg"
+       },
+       {
+        "course": "Mains",
+        "name": "Lucknowi gosht biryani",
+        "description": "Dum-cooked basmati and lamb, saffron, fried onions, raita.",
+        "price": "₹625",
+        "diet": "nonveg",
+        "spice": "1",
+        "tag": "Chef’s special",
+        "image": "theme:images/dish-biryani.svg"
+       },
+       {
+        "course": "Mains",
+        "name": "Ghee-roast masala dosa",
+        "description": "Crisp rice crêpe, potato masala, sambar and three chutneys.",
+        "price": "₹325",
+        "diet": "veg",
+        "spice": "1",
+        "tag": "",
+        "image": "theme:images/dish-masala-dosa.svg"
+       },
+       {
+        "course": "Mains",
+        "name": "Paneer lababdar",
+        "description": "Cottage cheese in a rich onion-tomato gravy with cream.",
+        "price": "₹445",
+        "diet": "veg",
+        "spice": "1",
+        "tag": "",
+        "image": ""
+       },
+       {
+        "course": "Breads & rice",
+        "name": "Garlic butter naan",
+        "description": "From the tandoor, brushed with garlic butter.",
+        "price": "₹110",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "",
+        "image": "theme:images/dish-naan.svg"
+       },
+       {
+        "course": "Breads & rice",
+        "name": "Laccha paratha",
+        "description": "Flaky layered whole-wheat bread.",
+        "price": "₹95",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "",
+        "image": ""
+       },
+       {
+        "course": "Breads & rice",
+        "name": "Jeera rice",
+        "description": "Basmati tempered with cumin and ghee.",
+        "price": "₹195",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "",
+        "image": ""
+       },
+       {
+        "course": "Breads & rice",
+        "name": "Egg bhurji pav",
+        "description": "Spiced scrambled eggs with buttered pav.",
+        "price": "₹245",
+        "diet": "egg",
+        "spice": "1",
+        "tag": "",
+        "image": ""
+       },
+       {
+        "course": "Desserts",
+        "name": "Gulab jamun with rabri",
+        "description": "Warm milk dumplings in rose syrup, chilled rabri.",
+        "price": "₹245",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "",
+        "image": "theme:images/dish-gulab-jamun.svg"
+       },
+       {
+        "course": "Desserts",
+        "name": "Matka kulfi",
+        "description": "Slow-reduced milk ice cream with pistachio and saffron.",
+        "price": "₹225",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "Must try",
+        "image": "theme:images/dish-kulfi.svg"
+       },
+       {
+        "course": "Desserts",
+        "name": "Coconut & jaggery payasam",
+        "description": "Plant-based rice pudding with cardamom.",
+        "price": "₹215",
+        "diet": "vegan",
+        "spice": "0",
+        "tag": "",
+        "image": ""
+       },
+       {
+        "course": "Drinks",
+        "name": "Alphonso mango lassi",
+        "description": "Thick yoghurt shake with Ratnagiri mangoes.",
+        "price": "₹195",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "",
+        "image": "theme:images/dish-mango-lassi.svg"
+       },
+       {
+        "course": "Drinks",
+        "name": "Masala chaas",
+        "description": "Spiced buttermilk with roasted cumin and mint.",
+        "price": "₹125",
+        "diet": "veg",
+        "spice": "0",
+        "tag": "",
+        "image": ""
+       },
+       {
+        "course": "Drinks",
+        "name": "Kokum cooler",
+        "description": "Tangy kokum, black salt and soda.",
+        "price": "₹165",
+        "diet": "vegan",
+        "spice": "0",
+        "tag": "",
+        "image": ""
+       }
+      ],
+      "note": "Prices in rupees, exclusive of 5% GST. Our kitchen handles nuts, gluten and dairy; please tell your server about any allergies.",
+      "button": {
+       "text": "Reserve a table",
+       "url": "page:reservations"
+      }
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Celebrations, corporate dinners and weddings",
+      "description": "Our private dining room seats 24, and our chefs cater events of up to 400 guests across the city.",
+      "background_image": "theme:images/private-dining.svg",
+      "button": {
+       "text": "Plan an event",
+       "url": "page:events"
+      },
+      "secondary_button": {
+       "text": "Call us",
+       "url": "tel:+912249702244"
+      }
+     }
+    }
+   ]
+  },
+  "about": {
+   "seo_title": "About us",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Our story",
+      "subheading": "Ten years of cooking with fire, patience and family recipes.",
+      "background_image": "theme:images/banner-spice.svg"
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Our story",
+      "heading": "Home-style recipes, cooked with fire and patience",
+      "description": "<p>Saffron Table opened in 2016 in a restored mill building in Lower Parel. Our menu travels across India — from the kebab lanes of Lucknow to the toddy shops of Kerala — and everything is made in-house, from the spice blends to the paneer.</p><p>Dal cooks overnight on the embers of our tandoor, breads are baked to order and our biryani is sealed and slow-cooked the old way.</p>",
+      "image": "theme:images/about-spices.svg",
+      "image_2": "",
+      "experience_number": "10",
+      "experience_label": "years of good food",
+      "points": [
+       {
+        "text": "Spices ground in-house"
+       },
+       {
+        "text": "Charcoal tandoor"
+       },
+       {
+        "text": "Local, seasonal produce"
+       },
+       {
+        "text": "Vegetarian kitchen section"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "10",
+        "suffix": "",
+        "label": "Years in Lower Parel",
+        "icon": ""
+       },
+       {
+        "number": "60",
+        "suffix": "+",
+        "label": "Dishes on the menu",
+        "icon": ""
+       },
+       {
+        "number": "4.7",
+        "suffix": "",
+        "label": "Google rating",
+        "icon": ""
+       },
+       {
+        "number": "250",
+        "suffix": "",
+        "label": "Kg of dal every week",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "In the kitchen",
+      "heading": "Meet our chefs",
+      "description": "",
+      "members": [
+       {
+        "photo": "theme:images/chef-1.svg",
+        "name": "Chef Aarav Kapoor",
+        "role": "Chef & founder",
+        "bio": "Trained in Lucknow and London; cooks the food of his grandmother’s kitchen with a modern hand.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/chef-2.svg",
+        "name": "Chef Ishita Rao",
+        "role": "Head chef",
+        "bio": "Brings the coastal flavours of Mangalore and Kerala to the menu.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/chef-3.svg",
+        "name": "Ustad Rafiq Ahmed",
+        "role": "Tandoor master",
+        "bio": "Thirty years at the tandoor. His seekh kebabs have a following of their own.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "As featured in",
+      "items": [
+       {
+        "image": "theme:images/press-1.svg",
+        "name": "The Food Times",
+        "url": ""
+       },
+       {
+        "image": "theme:images/press-2.svg",
+        "name": "City Gourmet",
+        "url": ""
+       },
+       {
+        "image": "theme:images/press-3.svg",
+        "name": "Plate & Palate",
+        "url": ""
+       },
+       {
+        "image": "theme:images/press-4.svg",
+        "name": "Green Kitchen",
+        "url": ""
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "events": {
+   "seo_title": "Events & private dining",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Events & private dining",
+      "subheading": "Birthdays, anniversaries, office dinners and weddings.",
+      "background_image": "theme:images/banner-spice.svg"
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "Celebrate with us",
+      "heading": "Ways to host with Saffron Table",
+      "description": "",
+      "columns": "3",
+      "items": [
+       {
+        "icon": "bi-door-closed",
+        "image": "theme:images/private-dining.svg",
+        "title": "Private dining room",
+        "description": "A candle-lit room for up to 24 guests with set menus from ₹1,800 per person.",
+        "link": {
+         "text": "Enquire",
+         "url": "page:reservations"
+        }
+       },
+       {
+        "icon": "bi-building",
+        "image": "theme:images/interior-bar.svg",
+        "title": "Full-venue buyouts",
+        "description": "The whole restaurant and bar for up to 120 guests — launches, receptions and parties.",
+        "link": {
+         "text": "Enquire",
+         "url": "page:contact"
+        }
+       },
+       {
+        "icon": "bi-truck",
+        "image": "theme:images/kitchen.svg",
+        "title": "Outdoor catering",
+        "description": "Our chefs and live tandoor at your venue, for 50 to 400 guests.",
+        "link": {
+         "text": "Enquire",
+         "url": "page:contact"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "events",
+     "data": {
+      "eyebrow": "What’s on",
+      "heading": "Upcoming evenings",
+      "description": "",
+      "hide_past": true,
+      "items": [
+       {
+        "date": "2026-12-12",
+        "time": "8 pm onwards",
+        "title": "Ghazal night with Aman Ali",
+        "location": "Main dining room",
+        "description": "An evening of ghazals with a special Awadhi set menu.",
+        "image": "theme:images/interior-dining.svg",
+        "link": {
+         "text": "Book a table",
+         "url": "page:reservations"
+        }
+       },
+       {
+        "date": "2026-12-31",
+        "time": "8 pm – 1 am",
+        "title": "New Year’s Eve dinner",
+        "location": "Whole restaurant",
+        "description": "A seven-course tasting menu, live band and a midnight toast. ₹6,500 per guest.",
+        "image": "theme:images/interior-bar.svg",
+        "link": {
+         "text": "Reserve",
+         "url": "page:reservations"
+        }
+       },
+       {
+        "date": "2027-01-17",
+        "time": "12 – 4 pm",
+        "title": "Kerala sadya Sunday brunch",
+        "location": "Main dining room",
+        "description": "A traditional 24-dish feast served on banana leaves.",
+        "image": "theme:images/dish-prawn-curry.svg",
+        "link": {
+         "text": "Book a table",
+         "url": "page:reservations"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Celebrations, corporate dinners and weddings",
+      "description": "Our private dining room seats 24, and our chefs cater events of up to 400 guests across the city.",
+      "background_image": "theme:images/private-dining.svg",
+      "button": {
+       "text": "Plan an event",
+       "url": "page:events"
+      },
+      "secondary_button": {
+       "text": "Call us",
+       "url": "tel:+912249702244"
+      }
+     }
+    }
+   ]
+  },
+  "reservations": {
+   "seo_title": "Reserve a table",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Reservations",
+      "subheading": "Book a table for lunch, dinner or Sunday brunch.",
+      "background_image": "theme:images/banner-spice.svg"
+     }
+    },
+    {
+     "type": "booking_form",
+     "data": {
+      "eyebrow": "Reservations",
+      "heading": "Reserve your table",
+      "description": "Book online for lunch or dinner. For tables of more than 10 guests, please call us.",
+      "form_type": "booking",
+      "form_heading": "Table booking",
+      "select1_label": "Guests",
+      "select1_options": "1\n2\n3\n4\n5\n6\n7–10",
+      "select2_label": "Time",
+      "select2_options": "12:30 pm\n1:30 pm\n2:30 pm\n7:00 pm\n8:00 pm\n9:00 pm\n10:00 pm",
+      "date_label": "Date",
+      "message_label": "Occasion or special requests (optional)",
+      "email_required": false,
+      "button_text": "Request booking",
+      "success_message": "Thank you! We will confirm your table by phone or WhatsApp within 30 minutes.",
+      "image": "theme:images/interior-dining.svg",
+      "points": [
+       {
+        "icon": "bi-clock",
+        "title": "Lunch & dinner",
+        "text": "Tue–Sun, 12:30–3:30 pm and 7–11:30 pm"
+       },
+       {
+        "icon": "bi-telephone",
+        "title": "Large groups",
+        "text": "Call +91 22 4970 2244 for 10+ guests"
+       },
+       {
+        "icon": "bi-p-circle",
+        "title": "Valet parking",
+        "text": "Complimentary for dinner guests"
+       }
+      ]
+     }
+    },
+    {
+     "type": "opening_hours",
+     "data": {
+      "eyebrow": "Opening hours",
+      "heading": "Come hungry",
+      "description": "Our kitchen closes 30 minutes before closing time.",
+      "rows": [
+       {
+        "label": "Monday",
+        "hours": "Closed"
+       },
+       {
+        "label": "Tuesday – Friday",
+        "hours": "12:30–3:30 pm · 7–11:30 pm"
+       },
+       {
+        "label": "Saturday",
+        "hours": "12:30–4 pm · 7 pm–12 am"
+       },
+       {
+        "label": "Sunday brunch",
+        "hours": "12–4 pm · 7–11:30 pm"
+       }
+      ],
+      "highlight_label": "Reservations by phone",
+      "highlight_value": "Every day from 11 am",
+      "note": "Open on public holidays, including Mondays that fall on holidays."
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "Good to know",
+      "heading": "Before you visit",
+      "description": "",
+      "items": [
+       {
+        "question": "Is there a dress code?",
+        "answer": "Smart casual. We ask guests not to wear sleeveless vests or shorts for dinner on weekends."
+       },
+       {
+        "question": "Do you have vegetarian and vegan options?",
+        "answer": "Yes — more than half the menu is vegetarian, with vegan dishes marked on the menu. Our vegetarian dishes are prepared in a separate section of the kitchen."
+       },
+       {
+        "question": "Can I bring a cake?",
+        "answer": "Of course. Tell us when you book and we will keep it chilled and bring it out with candles."
+       },
+       {
+        "question": "Is parking available?",
+        "answer": "Complimentary valet parking is available for dinner guests."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "contact": {
+   "seo_title": "Contact",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Contact",
+      "subheading": "We would love to hear from you.",
+      "background_image": "theme:images/banner-spice.svg"
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Get in touch",
+      "heading": "Visit, call or write to us",
+      "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+      "form_heading": "Send a message",
+      "show_form": true,
+      "show_details": true,
+      "map_url": "https://maps.google.com/?q=Lower+Parel+Mumbai"
+     }
+    },
+    {
+     "type": "opening_hours",
+     "data": {
+      "eyebrow": "Opening hours",
+      "heading": "Come hungry",
+      "description": "Our kitchen closes 30 minutes before closing time.",
+      "rows": [
+       {
+        "label": "Monday",
+        "hours": "Closed"
+       },
+       {
+        "label": "Tuesday – Friday",
+        "hours": "12:30–3:30 pm · 7–11:30 pm"
+       },
+       {
+        "label": "Saturday",
+        "hours": "12:30–4 pm · 7 pm–12 am"
+       },
+       {
+        "label": "Sunday brunch",
+        "hours": "12–4 pm · 7–11:30 pm"
+       }
+      ],
+      "highlight_label": "Reservations by phone",
+      "highlight_value": "Every day from 11 am",
+      "note": "Open on public holidays, including Mondays that fall on holidays."
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": "",
+      "background_image": "theme:images/banner-spice.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+     }
+    }
+   ]
+  },
+  "terms-and-conditions": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Terms and Conditions",
+      "subheading": "",
+      "background_image": "theme:images/banner-spice.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+     }
+    }
+   ]
+  }
+ }
+}
