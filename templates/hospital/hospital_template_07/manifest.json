@@ -1,0 +1,189 @@
+{
+  "id": "hospital_template_07",
+  "name": "Revive Motion",
+  "category": "hospital",
+  "version": "1.0.0",
+  "description": "An active, grounded design for physiotherapy, rehab and sports-medicine clinics: centred masthead, a full-bleed hero, therapy rows with images, a numbers band, a timeline and round physio portraits.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#2D6A4F",
+      "secondary": "#F4A261",
+      "bg": "#F8F6F1",
+      "text": "#1A2E25",
+      "heading_font": "sora",
+      "body_font": "inter",
+      "radius": "14px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "pricing",
+    "doctors",
+    "opening_hours",
+    "booking_form"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "about",
+        "services",
+        "stats",
+        "process",
+        "doctors",
+        "testimonials",
+        "opening_hours",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team",
+        "gallery"
+      ]
+    },
+    "departments": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "doctors": {
+      "default_sections": [
+        "page_banner",
+        "doctors",
+        "cta"
+      ]
+    },
+    "packages": {
+      "default_sections": [
+        "page_banner",
+        "pricing",
+        "faq",
+        "cta"
+      ]
+    },
+    "appointment": {
+      "default_sections": [
+        "page_banner",
+        "booking_form",
+        "process",
+        "opening_hours"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact",
+        "opening_hours"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Therapies",
+      "slug": "departments",
+      "type": "departments"
+    },
+    {
+      "title": "Our Team",
+      "slug": "doctors",
+      "type": "doctors"
+    },
+    {
+      "title": "Packages",
+      "slug": "health-packages",
+      "type": "packages"
+    },
+    {
+      "title": "Book a Session",
+      "slug": "appointment",
+      "type": "appointment"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

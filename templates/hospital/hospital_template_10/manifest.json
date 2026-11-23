@@ -1,0 +1,189 @@
+{
+  "id": "hospital_template_10",
+  "name": "Cardia Pulse",
+  "category": "hospital",
+  "version": "1.0.0",
+  "description": "An urgent, high-tech design for heart hospitals, critical-care and specialist institutes: dark page, emergency number up top, a full-bleed ECG hero, tinted heart-care cards and doctor list cards.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#E11D48",
+      "secondary": "#38BDF8",
+      "bg": "#0F0B10",
+      "text": "#F3E8EC",
+      "heading_font": "manrope",
+      "body_font": "inter",
+      "radius": "12px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky, with info bar",
+      "minimal": "Sticky, no info bar",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "pricing",
+    "doctors",
+    "opening_hours",
+    "booking_form"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "stats",
+        "services",
+        "about",
+        "doctors",
+        "opening_hours",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team",
+        "gallery"
+      ]
+    },
+    "departments": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "doctors": {
+      "default_sections": [
+        "page_banner",
+        "doctors",
+        "cta"
+      ]
+    },
+    "packages": {
+      "default_sections": [
+        "page_banner",
+        "pricing",
+        "faq",
+        "cta"
+      ]
+    },
+    "appointment": {
+      "default_sections": [
+        "page_banner",
+        "booking_form",
+        "process",
+        "opening_hours"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact",
+        "opening_hours"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Heart Care",
+      "slug": "departments",
+      "type": "departments"
+    },
+    {
+      "title": "Cardiologists",
+      "slug": "doctors",
+      "type": "doctors"
+    },
+    {
+      "title": "Check-ups",
+      "slug": "health-packages",
+      "type": "packages"
+    },
+    {
+      "title": "Appointment",
+      "slug": "appointment",
+      "type": "appointment"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

@@ -9,7 +9,71 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); **Education done** (awaiting review); next: Hospital, then the remaining 7 categories |
+| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); **Hospital done** (awaiting review); next: the remaining 6 categories (E-commerce, Real Estate, Travel, Restaurant, Hotel, Portfolio, Services) |
+
+## Phase 7c, Hospital: templates 02–10
+
+### Delivered
+- **Factory extended for hospitals:**
+  - New library sections: `doctors`, with `cards` or `list` variants, showing a portrait, speciality tag, qualification, experience, timings and a booking button.
+  - `opening_hours`, with a `panel` or `band` variant, showing the timetable, a note and an emergency highlight.
+  - An `emergency` partial that every header variant shows only when the site sets an emergency number: a pulsing red pill with the number.
+  - 18 clinical illustration tiles: reception, consultation, lab, imaging, theatre, ward, pharmacy, dental, eye, children, physio, Ayurveda, maternity, cardiac, emergency, X-ray, vaccination and wellness. These are composed into nine heroes.
+  - Eight doctor portraits per template, in white coats with stethoscopes.
+  - Demo copy for nine kinds of practice.
+- **Nine new Hospital templates**, each with its own demo practice:
+
+| # | Template | Prefix | Demo practice | Hero / header / timings | Look |
+|---|---|---|---|---|---|
+| 02 | Sunrise Care | `srh` | Multi-speciality hospital, Hyderabad | full-bleed cover / info bar with emergency / dark band | Medical blue + amber, Sora |
+| 03 | SmileCraft Studio | `scd` | Dental studio, Mumbai | split / floating pill / panel | Aqua + peach, Jost, rounded |
+| 04 | ClearSight Clinic | `cse` | Eye hospital, Madurai | editorial / dark bar with emergency / panel | Deep blue + gold, Montserrat |
+| 05 | Little Hearts | `lhc` | Children’s hospital, Bengaluru | centred panorama / info bar with emergency / dark band | Periwinkle + sunflower, Poppins |
+| 06 | PrimeScan Lab | `psd` | Diagnostics & imaging, New Delhi | colour panel / floating pill / panel | Teal-green + red, Space Grotesk |
+| 07 | Revive Motion | `rvp` | Physiotherapy, Pune | full-bleed cover / centred masthead / panel | Forest green + sandy orange, Sora |
+| 08 | Vaidya Garden | `vga` | Ayurveda centre, Thrissur | colour panel / centred masthead / dark band | Leaf green + turmeric, Cormorant Garamond |
+| 09 | Mother’s Nest | `mnw` | Maternity hospital, Ahmedabad | split / info bar with emergency / panel | Berry + blush, Lora |
+| 10 | Cardia Pulse | `chi` | Heart institute, Chennai | full-bleed ECG cover / info bar with emergency / dark band | **Dark**, rose red + sky blue, Manrope |
+
+- Every template has nine pages:
+  - Home
+  - About (leadership and a facilities gallery)
+  - Departments (six services)
+  - Doctors (eight doctors with timings)
+  - Packages (three priced packages)
+  - Appointment (appointment form with two dropdowns and a date, the visit steps and timings)
+  - Contact
+  - Two legal pages
+- Each template ships 27–28 original images and a `preview.jpg`.
+- Practices without a 24-hour service (dental, diagnostics, physio, Ayurveda) have no emergency number, so none is shown.
+- No runtime changes; runtime 1.7.0.
+
+### Tests
+`tests/phase7c_hospital_test.php` runs **162 end-to-end checks**.
+
+- **Template files:** the same checks as the earlier categories. Prefixes are compared against all 37 existing templates.
+- **Each of the nine websites:**
+  - variants, hero copy, menu and legal links
+  - departments, four doctor cards with portraits, the timings variant and statistics
+  - the emergency number: shown and dialable where the practice has one, absent where it has none
+  - all eight inner pages, eight doctors with timings and booking links, six departments, the facilities gallery and the leadership portraits
+  - the 404 page
+  - a contact enquiry
+  - an appointment request, stored with both dropdown answers
+- **Export:** a full export of one website.
+
+| Server | 7c Hospital | 7c Education | 7c Business | 7b-3 | 7b-2 | 7b-1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+All template PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of every page of the nine websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- **Menus wrapped onto two lines** when a practice had seven pages plus an emergency number. Menu links now stay on one line, tighten between 992 and 1400px, and the emergency link shows only its number in tight headers. Hospital page titles are shorter ("Doctors", "Packages", "Appointment"). The brand name no longer shrinks under the menu.
+- **Featured testimonial was blank** on tinted-card templates. The tint rule for the section repainted the dark featured quote white, so white text sat on white. The featured quote's own colours now take priority.
+- **Children's hospital hero:** the centred panorama crop is shifted down so the children and doctor stay in frame.
+- **Small illustrations:** people in the physio, wellness, children's and maternity tiles are larger, drawn as busts.
 
 ## Phase 7c, Education: templates 02–10
 
@@ -786,6 +850,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-23 (Phase 7c, Hospital)
+Hospital templates 02–10; factory sections for doctors, opening hours and the emergency number; 162-check test; full regression on dev and Apache.
 
 ### 2026-11-23 (Phase 7c, Education)
 Education templates 02–10; factory sections for courses, events, notices and booking forms; 153-check test; full regression on dev and Apache.

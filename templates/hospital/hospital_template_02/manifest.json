@@ -1,0 +1,190 @@
+{
+  "id": "hospital_template_02",
+  "name": "Sunrise Care",
+  "category": "hospital",
+  "version": "1.0.0",
+  "description": "A trustworthy design for multi-speciality hospitals and medical centres: emergency number in the info bar, a full-bleed hospital hero, department image cards, doctor cards with timings and a dark timings band.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#0E5E8C",
+      "secondary": "#F2A541",
+      "bg": "#FFFFFF",
+      "text": "#102A3C",
+      "heading_font": "sora",
+      "body_font": "open-sans",
+      "radius": "10px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky, with info bar",
+      "minimal": "Sticky, no info bar",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "pricing",
+    "doctors",
+    "opening_hours",
+    "booking_form"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "services",
+        "about",
+        "stats",
+        "doctors",
+        "opening_hours",
+        "testimonials",
+        "logos",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team",
+        "gallery"
+      ]
+    },
+    "departments": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "doctors": {
+      "default_sections": [
+        "page_banner",
+        "doctors",
+        "cta"
+      ]
+    },
+    "packages": {
+      "default_sections": [
+        "page_banner",
+        "pricing",
+        "faq",
+        "cta"
+      ]
+    },
+    "appointment": {
+      "default_sections": [
+        "page_banner",
+        "booking_form",
+        "process",
+        "opening_hours"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact",
+        "opening_hours"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Departments",
+      "slug": "departments",
+      "type": "departments"
+    },
+    {
+      "title": "Doctors",
+      "slug": "doctors",
+      "type": "doctors"
+    },
+    {
+      "title": "Check-ups",
+      "slug": "health-packages",
+      "type": "packages"
+    },
+    {
+      "title": "Appointment",
+      "slug": "appointment",
+      "type": "appointment"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

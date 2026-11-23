@@ -1,0 +1,70 @@
+{
+  "id": "hospital_template_07",
+  "name": "Revive Motion",
+  "prefix": "rvp",
+  "niche": "physio",
+  "seed": 7,
+  "direction": "Active and grounded: centred masthead, full-bleed cover hero, forest green and sandy orange on stone, image therapy rows, a timeline and contact cards above the footer.",
+  "description": "An active, grounded design for physiotherapy, rehab and sports-medicine clinics: centred masthead, a full-bleed hero, therapy rows with images, a numbers band, a timeline and round physio portraits.",
+  "theme": {
+    "primary": "#2D6A4F",
+    "secondary": "#F4A261",
+    "bg": "#F8F6F1",
+    "text": "#1A2E25",
+    "heading_font": "sora",
+    "body_font": "inter",
+    "radius": "14px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "cover",
+    "banner": "solid",
+    "head": "bar",
+    "card": "shadow",
+    "about": "single",
+    "services": "rows",
+    "stats": "band",
+    "doctors": "cards",
+    "opening_hours": "panel",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "band"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "service_images": true,
+    "home_services": 4,
+    "cta_image": "svc-3.svg",
+    "home": [
+      "hero",
+      "about",
+      "services",
+      "stats",
+      "process",
+      "doctors",
+      "testimonials",
+      "opening_hours",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

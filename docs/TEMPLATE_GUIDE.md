@@ -256,6 +256,15 @@ Styling and overrides:
 | Education 10 Pinecrest Heritage | `pcr` | Slate + rust on parchment | Merriweather + Open Sans | Heritage and outdoors: centred masthead, colour-panel hero with a mountain campus, slate and rust on parchment, Merriweather headings, programme rows, a timeline and a dark footer. |
 | E-commerce 01 Terra Market | `trm` | Terracotta + sage on cream, ink footer | Playfair Display + Inter | Capsule (pill) frames, scrolling announcement bar, round category tiles, hover second image, rotating stamp |
 | Hospital 01 CareLine Health | `crl` | Teal + coral on mint, navy footer | Plus Jakarta Sans + DM Sans | Leaf frames (two opposite corners rounded), heartbeat line, 24×7 emergency strip, quick-access bar, light hero |
+| Hospital 02 Sunrise Care | `srh` | Medical blue + amber on white | Sora + Open Sans | Trustworthy and established: emergency number in the info bar, full-bleed hospital hero, medical blue and amber, hairline image cards, a dark timings band. |
+| Hospital 03 SmileCraft Studio | `scd` | Aqua + peach on white | Jost + DM Sans | Fresh and gentle: floating pill navigation, split hero, aqua and peach, soft tinted cards with round icons, a featured patient story and a centred footer. |
+| Hospital 04 ClearSight Clinic | `cse` | Deep blue + gold on white | Montserrat + Open Sans | Precise and clinical: dark navigation with the emergency number, oversized editorial hero, deep blue and gold, numbered speciality rows, doctor list cards and a timeline. |
+| Hospital 05 Little Hearts | `lhc` | Periwinkle + sunflower on cream | Poppins + Inter | Warm and playful: info bar with the emergency number, centred hero over a playground panorama, periwinkle and sunflower on cream, shadowed image cards, round portraits. |
+| Hospital 06 PrimeScan Lab | `psd` | Teal-green + signal red on white, light footer | Space Grotesk + Inter | Clean and efficient: floating pill navigation, colour-panel hero, teal-green and signal red on white, hairline image cards, doctor list cards and a light footer. |
+| Hospital 07 Revive Motion | `rvp` | Forest green + sandy orange on stone | Sora + Inter | Active and grounded: centred masthead, full-bleed cover hero, forest green and sandy orange on stone, image therapy rows, a timeline and contact cards above the footer. |
+| Hospital 08 Vaidya Garden | `vga` | Leaf green + turmeric on parchment | Cormorant Garamond + DM Sans | Calm and traditional: centred masthead, colour-panel hero, leaf green and turmeric on parchment, Cormorant serif headings, tinted cards, a dark timings band. |
+| Hospital 09 Mother’s Nest | `mnw` | Berry + blush on soft white, light footer | Lora + Plus Jakarta Sans | Tender and reassuring: info bar with the emergency number, split hero, berry and blush on soft white, Lora serif headings, soft cards, round portraits and a light footer. |
+| Hospital 10 Cardia Pulse | `chi` | Dark page, rose red + sky blue | Manrope + Inter | Urgent and high-tech: dark page, info bar with the emergency number, full-bleed ECG hero, rose red and sky blue, tinted cards, doctor list cards and a red call-to-action band. |
 | Real Estate 01 Keystone Realty | `kst` | Burgundy + champagne on warm stone, ink footer | Sora + DM Sans | Square-cornered frames with champagne rules, full-bleed dark hero with a tabbed buy/rent search panel, price set on the photo, three-cell fact strip on cards |
 | Restaurant 01 Saffron Table | `sfr` | Dark charcoal page, saffron + chilli accents | DM Serif Display + Manrope | The only dark template so far: header floating over a table-spread hero, thin gold rules, menu with dotted price leaders and Indian veg / non-veg marks, uppercase letter-spaced buttons |
 | Hotel 01 The Lakeview Haveli | `lvh` | Forest green + antique brass on ivory | Cormorant Garamond + Montserrat | Rajasthani arch-topped photo frames everywhere, centred two-row header, diamond ornaments in headings, lake-palace hero with a white stay finder |
@@ -263,7 +272,7 @@ Styling and overrides:
 | Services 01 Ledgerline Advisors | `ldg` | Navy + emerald on white with blue-grey and mint bands | Poppins + Open Sans | Split hero with an illustration and a checklist, flat spot illustrations per service, fee and turnaround chips on cards, pricing packages with a highlighted middle plan, numbered step cards |
 | Travel 01 Horizon Trails | `hzt` | Deep ocean + sunset orange on sand | Jost + Plus Jakarta Sans | Generous rounding and pill buttons, centred sunset hero with a capsule trip finder, mosaic destination tiles, duration chips and "From ₹… per person" card footers |
 
-Business 02–10 and Education 02–10 were generated with the template factory (below); each changes the hero, header, card style, palette and heading typeface.
+Business, Education and Hospital 02–10 were generated with the template factory (below); each changes the hero, header, card style, palette and heading typeface.
 
 ## Template factory (templates 02–10)
 

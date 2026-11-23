@@ -1,0 +1,70 @@
+{
+  "id": "hospital_template_06",
+  "name": "PrimeScan Lab",
+  "prefix": "psd",
+  "niche": "diagnostics",
+  "seed": 6,
+  "direction": "Clean and efficient: floating pill navigation, colour-panel hero, teal-green and signal red on white, hairline image cards, doctor list cards and a light footer.",
+  "description": "A clean, efficient design for diagnostic labs, imaging centres and polyclinics: floating navigation, a colour-panel hero, test and scan image cards, health-package pricing and a red call-to-action band.",
+  "theme": {
+    "primary": "#1B998B",
+    "secondary": "#E84855",
+    "bg": "#FFFFFF",
+    "text": "#0F2B28",
+    "heading_font": "space-grotesk",
+    "body_font": "inter",
+    "radius": "10px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "panel",
+    "banner": "image",
+    "head": "rule",
+    "card": "line",
+    "about": "layered",
+    "services": "cards",
+    "stats": "inline",
+    "doctors": "list",
+    "opening_hours": "panel",
+    "process": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "light",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-primary) 80%, #000)",
+    "icon": "tint",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)",
+    "track": "-.02em"
+  },
+  "demo": {
+    "service_images": true,
+    "home_services": 6,
+    "home": [
+      "hero",
+      "stats",
+      "services",
+      "about",
+      "process",
+      "doctors",
+      "testimonials",
+      "opening_hours",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

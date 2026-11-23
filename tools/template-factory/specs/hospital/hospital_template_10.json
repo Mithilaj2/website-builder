@@ -1,0 +1,73 @@
+{
+  "id": "hospital_template_10",
+  "name": "Cardia Pulse",
+  "prefix": "chi",
+  "niche": "cardiac",
+  "seed": 10,
+  "mood": "dark",
+  "direction": "Urgent and high-tech: dark page, info bar with the emergency number, full-bleed ECG hero, rose red and sky blue, tinted cards, doctor list cards and a red call-to-action band.",
+  "description": "An urgent, high-tech design for heart hospitals, critical-care and specialist institutes: dark page, emergency number up top, a full-bleed ECG hero, tinted heart-care cards and doctor list cards.",
+  "theme": {
+    "primary": "#E11D48",
+    "secondary": "#38BDF8",
+    "bg": "#0F0B10",
+    "text": "#F3E8EC",
+    "heading_font": "manrope",
+    "body_font": "inter",
+    "radius": "12px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "cover",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "about": "grid",
+    "services": "cards",
+    "stats": "band",
+    "doctors": "list",
+    "opening_hours": "band",
+    "process": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "var(--wb-secondary)",
+    "link": "var(--wb-secondary)",
+    "icon": "tint",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)",
+    "track": "-.02em"
+  },
+  "extra_css": ".chi .chi-icon { color: var(--wb-primary); background: rgba(var(--wb-primary-rgb), .16); }",
+  "demo": {
+    "service_images": false,
+    "home_services": 6,
+    "home": [
+      "hero",
+      "stats",
+      "services",
+      "about",
+      "doctors",
+      "opening_hours",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "hospital",
+  "version": "1.0.0"
+}

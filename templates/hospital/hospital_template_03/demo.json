@@ -1,0 +1,1133 @@
+{
+  "settings": {
+    "site": {
+      "name": "SmileCraft Dental Studio",
+      "tagline": "Family and cosmetic dentistry · Mumbai",
+      "phone": "+91 22 2648 5577",
+      "emergency_phone": "",
+      "email": "smile@smilecraft.example",
+      "address": "2nd Floor, Linking Road, Bandra West\nMumbai 400050",
+      "hours": "Mon–Sat: 10 am – 8 pm",
+      "footer_about": "Gentle, modern dentistry for the whole family — from check-ups and fillings to implants, aligners and smile makeovers.",
+      "footer_text": "All rights reserved.",
+      "rating": "4.9 rating from 1,800 patients",
+      "rating_label": "on Google reviews",
+      "header_button": {
+        "text": "Book a check-up",
+        "url": "page:appointment"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "SmileCraft Dental Studio — family and cosmetic dentistry in Mumbai. Gentle, modern dentistry for the whole family — from check-ups and fillings to implants, aligners and smile makeovers.",
+      "keywords": "family and cosmetic dentistry, Mumbai"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Painless, modern dentistry",
+            "heading": "A healthier smile starts here.",
+            "subheading": "Check-ups, cleaning, aligners, implants and cosmetic dentistry in a calm studio with digital X-rays and strict sterilisation.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Explore treatments",
+              "url": "page:departments"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Digital X-rays & 3D scans"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Same-day emergency slots"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Easy EMI on treatments"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Insurance and partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "SmileGuard",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "CareSure",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "DentaPlus",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "HealthFirst TPA",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Arogya Plus",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Treatments",
+            "heading": "Specialist care under one roof",
+            "description": "Gentle, modern dentistry for the whole family — from check-ups and fillings to implants, aligners and smile makeovers.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-stars",
+                "title": "Smile makeovers",
+                "description": "Veneers, whitening and bonding for a natural, confident smile.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-search",
+                "title": "Check-ups & cleaning",
+                "description": "Exams, scaling and polishing every six months.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-radioactive",
+                "title": "Digital X-rays",
+                "description": "Low-radiation digital X-rays and 3D scans in the studio.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Children’s dentistry",
+                "description": "Gentle care, fluoride and sealants for little ones.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Root canal treatment",
+                "description": "Single-sitting, rotary root canals with minimal discomfort.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-gem",
+                "title": "Implants & aligners",
+                "description": "Dental implants and clear aligners with digital planning.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "Gentle care from a team you can trust",
+            "description": "<p>SmileCraft was founded by two dentists who wanted every visit to feel calm and comfortable. Our studio uses digital X-rays, intra-oral scanners and rotary root-canal systems to make treatment quicker and gentler.</p><p>We explain every option and its cost before we start, so there are no surprises.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2011",
+            "experience_label": "Creating smiles since",
+            "points": [
+              {
+                "text": "Hospital-grade sterilisation"
+              },
+              {
+                "text": "Clear quotes before treatment"
+              },
+              {
+                "text": "Child-friendly dentists"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Years of practice",
+                "icon": ""
+              },
+              {
+                "number": "18000",
+                "suffix": "+",
+                "label": "Patients treated",
+                "icon": ""
+              },
+              {
+                "number": "2400",
+                "suffix": "+",
+                "label": "Implants placed",
+                "icon": ""
+              },
+              {
+                "number": "4.9",
+                "suffix": "/5",
+                "label": "Patient rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "Dentists",
+            "heading": "Meet our specialists",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Aditi Kulkarni",
+                "qualification": "BDS, MDS (Prosthodontics)",
+                "specialty": "Cosmetic dentistry",
+                "experience": "16 years",
+                "timings": "Mon–Sat, 11 am – 7 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Vikram Shah",
+                "qualification": "BDS, MDS (Periodontics)",
+                "specialty": "Implants",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 10 am – 4 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Ritu Mehta",
+                "qualification": "BDS, MDS (Orthodontics)",
+                "specialty": "Aligners & braces",
+                "experience": "11 years",
+                "timings": "Tue–Sat, 2 – 8 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Kunal Joshi",
+                "qualification": "BDS, MDS (Endodontics)",
+                "specialty": "Root canals",
+                "experience": "9 years",
+                "timings": "Mon–Sat, 10 am – 2 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "Meet the whole team",
+              "url": "page:doctors"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Patient stories",
+            "heading": "What our patients say",
+            "items": [
+              {
+                "quote": "My root canal was completely painless. I could not believe it was done in one visit.",
+                "name": "Neha Shah",
+                "role": "Patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The aligners fixed my teeth in eleven months. The team kept me motivated throughout.",
+                "name": "Rohan Desai",
+                "role": "Aligner patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Our kids actually look forward to their dental visits now!",
+                "name": "Fatima Sayed",
+                "role": "Parent",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Monday – Friday",
+                "hours": "10 am – 8 pm"
+              },
+              {
+                "label": "Saturday",
+                "hours": "10 am – 6 pm"
+              },
+              {
+                "label": "Sunday",
+                "hours": "Closed"
+              },
+              {
+                "label": "Emergency slots",
+                "hours": "Same day, call first"
+              }
+            ],
+            "highlight_label": "Dental emergency?",
+            "highlight_value": "Same-day appointments",
+            "note": "Please arrive ten minutes early for your first visit."
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Due for a check-up?",
+            "description": "Book a visit in under a minute — evening and Saturday slots available.",
+            "background_image": "",
+            "button": {
+              "text": "Book a check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912226485577"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About SmileCraft Dental Studio",
+            "subheading": "Gentle, modern dentistry for the whole family — from check-ups and fillings to implants, aligners and smile makeovers.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "Gentle care from a team you can trust",
+            "description": "<p>SmileCraft was founded by two dentists who wanted every visit to feel calm and comfortable. Our studio uses digital X-rays, intra-oral scanners and rotary root-canal systems to make treatment quicker and gentler.</p><p>We explain every option and its cost before we start, so there are no surprises.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2011",
+            "experience_label": "Creating smiles since",
+            "points": [
+              {
+                "text": "Hospital-grade sterilisation"
+              },
+              {
+                "text": "Clear quotes before treatment"
+              },
+              {
+                "text": "Child-friendly dentists"
+              }
+            ],
+            "button": {
+              "text": "Book a check-up",
+              "url": "page:appointment"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Years of practice",
+                "icon": ""
+              },
+              {
+                "number": "18000",
+                "suffix": "+",
+                "label": "Patients treated",
+                "icon": ""
+              },
+              {
+                "number": "2400",
+                "suffix": "+",
+                "label": "Implants placed",
+                "icon": ""
+              },
+              {
+                "number": "4.9",
+                "suffix": "/5",
+                "label": "Patient rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why patients choose SmileCraft",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-emoji-heart-eyes",
+                "title": "Comfort first",
+                "description": "Numbing gel, noise-cancelling headphones and gentle hands."
+              },
+              {
+                "icon": "bi-droplet",
+                "title": "Strict sterilisation",
+                "description": "Class B autoclaves and single-use instruments."
+              },
+              {
+                "icon": "bi-wallet2",
+                "title": "Clear pricing",
+                "description": "Written quotes and no-cost EMI."
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Evening slots",
+                "description": "Appointments till 8 pm, six days a week."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our care",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. Aditi Kulkarni",
+                "role": "Founder & Cosmetic Dentist",
+                "bio": "BDS, MDS; smile-design specialist.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Dr. Vikram Shah",
+                "role": "Co-founder & Implantologist",
+                "bio": "Over 2,000 implants placed.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Ms. Priya Nair",
+                "role": "Practice Manager",
+                "bio": "Keeps appointments running on time.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Ms. Sana Khan",
+                "role": "Head Hygienist",
+                "bio": "Leads cleaning and preventive care.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Facilities",
+            "heading": "Inside our hospital",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Dental chair"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Consultation room"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "X-ray and radiology"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Children’s ward"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Reception and help desk"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Vaccination"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "departments": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Treatments",
+            "subheading": "Gentle, modern dentistry for the whole family — from check-ups and fillings to implants, aligners and smile makeovers.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "",
+            "heading": "All treatments",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-stars",
+                "title": "Smile makeovers",
+                "description": "Veneers, whitening and bonding for a natural, confident smile.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-search",
+                "title": "Check-ups & cleaning",
+                "description": "Exams, scaling and polishing every six months.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-radioactive",
+                "title": "Digital X-rays",
+                "description": "Low-radiation digital X-rays and 3D scans in the studio.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Children’s dentistry",
+                "description": "Gentle care, fluoride and sealants for little ones.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Root canal treatment",
+                "description": "Single-sitting, rotary root canals with minimal discomfort.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-gem",
+                "title": "Implants & aligners",
+                "description": "Dental implants and clear aligners with digital planning.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-check",
+                "title": "Book a visit",
+                "description": "Pick a time online or call us."
+              },
+              {
+                "icon": "bi-search",
+                "title": "Examination",
+                "description": "Check-up and digital X-rays if needed."
+              },
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Treatment plan",
+                "description": "Options and costs explained clearly."
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Smile",
+                "description": "Treatment and follow-up reminders."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Does a root canal hurt?",
+                "answer": "With modern anaesthesia and rotary instruments, most patients feel only mild pressure."
+              },
+              {
+                "question": "How often should I get a check-up?",
+                "answer": "Every six months for most adults and children."
+              },
+              {
+                "question": "Do you offer EMI?",
+                "answer": "Yes, no-cost EMI is available for implants, aligners and smile makeovers."
+              },
+              {
+                "question": "Can you see dental emergencies?",
+                "answer": "Yes, we keep same-day slots for pain, swelling and broken teeth."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Due for a check-up?",
+            "description": "Book a visit in under a minute — evening and Saturday slots available.",
+            "background_image": "",
+            "button": {
+              "text": "Book a check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912226485577"
+            }
+          }
+        }
+      ]
+    },
+    "doctors": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Dentists",
+            "subheading": "Experienced specialists, with their timings — book directly with the doctor you prefer.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "",
+            "heading": "Find your specialist",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Aditi Kulkarni",
+                "qualification": "BDS, MDS (Prosthodontics)",
+                "specialty": "Cosmetic dentistry",
+                "experience": "16 years",
+                "timings": "Mon–Sat, 11 am – 7 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Vikram Shah",
+                "qualification": "BDS, MDS (Periodontics)",
+                "specialty": "Implants",
+                "experience": "14 years",
+                "timings": "Mon–Fri, 10 am – 4 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Ritu Mehta",
+                "qualification": "BDS, MDS (Orthodontics)",
+                "specialty": "Aligners & braces",
+                "experience": "11 years",
+                "timings": "Tue–Sat, 2 – 8 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Kunal Joshi",
+                "qualification": "BDS, MDS (Endodontics)",
+                "specialty": "Root canals",
+                "experience": "9 years",
+                "timings": "Mon–Sat, 10 am – 2 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Ananya Rao",
+                "qualification": "BDS, MDS (Pedodontics)",
+                "specialty": "Children’s dentistry",
+                "experience": "8 years",
+                "timings": "Mon–Sat, 4 – 8 pm",
+                "photo": "theme:images/doctor-5.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Imran Shaikh",
+                "qualification": "BDS, MDS (Oral Surgery)",
+                "specialty": "Oral surgery",
+                "experience": "12 years",
+                "timings": "Wed & Sat, 11 am – 5 pm",
+                "photo": "theme:images/doctor-6.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Sneha Pillai",
+                "qualification": "BDS",
+                "specialty": "General dentistry",
+                "experience": "6 years",
+                "timings": "Mon–Sat, 10 am – 6 pm",
+                "photo": "theme:images/doctor-7.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Arjun Rane",
+                "qualification": "BDS, MDS (Prosthodontics)",
+                "specialty": "Crowns & dentures",
+                "experience": "10 years",
+                "timings": "Mon–Fri, 3 – 8 pm",
+                "photo": "theme:images/doctor-8.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Due for a check-up?",
+            "description": "Book a visit in under a minute — evening and Saturday slots available.",
+            "background_image": "",
+            "button": {
+              "text": "Book a check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912226485577"
+            }
+          }
+        }
+      ]
+    },
+    "health-packages": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Prices",
+            "subheading": "Clear prices for check-ups and common treatments.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Prices",
+            "heading": "Clear, upfront prices",
+            "description": "Prices include taxes. Packages can be booked online or at the front desk.",
+            "plans": [
+              {
+                "name": "Check-up & cleaning",
+                "price": "₹1,500",
+                "period": "visit",
+                "features": "Full examination\nScaling & polishing\nOral hygiene advice",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              },
+              {
+                "name": "Smile whitening",
+                "price": "₹12,000",
+                "period": "course",
+                "features": "In-studio whitening\nTake-home kit\nShade check after 2 weeks\nSensitivity care",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": true
+              },
+              {
+                "name": "Clear aligners",
+                "price": "₹1,20,000+",
+                "period": "treatment",
+                "features": "Digital scan & plan\nAll aligner sets\nRetainers included",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Does a root canal hurt?",
+                "answer": "With modern anaesthesia and rotary instruments, most patients feel only mild pressure."
+              },
+              {
+                "question": "How often should I get a check-up?",
+                "answer": "Every six months for most adults and children."
+              },
+              {
+                "question": "Do you offer EMI?",
+                "answer": "Yes, no-cost EMI is available for implants, aligners and smile makeovers."
+              },
+              {
+                "question": "Can you see dental emergencies?",
+                "answer": "Yes, we keep same-day slots for pain, swelling and broken teeth."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Due for a check-up?",
+            "description": "Book a visit in under a minute — evening and Saturday slots available.",
+            "background_image": "",
+            "button": {
+              "text": "Book a check-up",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912226485577"
+            }
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Book a Visit",
+            "subheading": "Request an appointment online — we will call you to confirm.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Book a Visit",
+            "heading": "Book a visit",
+            "description": "Choose a service and a convenient time — our team will call to confirm.",
+            "form_type": "appointment",
+            "form_heading": "Book a visit",
+            "select1_label": "Treatment",
+            "select1_options": "Check-up & cleaning\nTooth pain\nRoot canal\nImplants\nAligners & braces\nWhitening\nChildren’s dentistry",
+            "select2_label": "Preferred time",
+            "select2_options": "Morning\nAfternoon\nEvening",
+            "date_label": "Preferred date",
+            "message_label": "Anything we should know?",
+            "email_required": false,
+            "button_text": "Request a visit",
+            "success_message": "Thank you! We will call you to confirm your visit.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We confirm by phone",
+                "text": "Usually within an hour"
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Timings",
+                "text": "Mon–Sat: 10 am – 8 pm"
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Bring your reports",
+                "text": "Previous prescriptions and test results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-check",
+                "title": "Book a visit",
+                "description": "Pick a time online or call us."
+              },
+              {
+                "icon": "bi-search",
+                "title": "Examination",
+                "description": "Check-up and digital X-rays if needed."
+              },
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Treatment plan",
+                "description": "Options and costs explained clearly."
+              },
+              {
+                "icon": "bi-emoji-smile",
+                "title": "Smile",
+                "description": "Treatment and follow-up reminders."
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Monday – Friday",
+                "hours": "10 am – 8 pm"
+              },
+              {
+                "label": "Saturday",
+                "hours": "10 am – 6 pm"
+              },
+              {
+                "label": "Sunday",
+                "hours": "Closed"
+              },
+              {
+                "label": "Emergency slots",
+                "hours": "Same day, call first"
+              }
+            ],
+            "highlight_label": "Dental emergency?",
+            "highlight_value": "Same-day appointments",
+            "note": "Please arrive ten minutes early for your first visit."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Visit us, call us or send a message — we are here to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are here to help",
+            "description": "Reach our Mumbai team by phone, email or the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Monday – Friday",
+                "hours": "10 am – 8 pm"
+              },
+              {
+                "label": "Saturday",
+                "hours": "10 am – 6 pm"
+              },
+              {
+                "label": "Sunday",
+                "hours": "Closed"
+              },
+              {
+                "label": "Emergency slots",
+                "hours": "Same day, call first"
+              }
+            ],
+            "highlight_label": "Dental emergency?",
+            "highlight_value": "Same-day appointments",
+            "note": "Please arrive ten minutes early for your first visit."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how SmileCraft Dental Studio collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

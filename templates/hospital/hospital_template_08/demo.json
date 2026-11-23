@@ -1,0 +1,1101 @@
+{
+  "settings": {
+    "site": {
+      "name": "Vaidyagram Ayurveda Centre",
+      "tagline": "Classical Ayurveda & Panchakarma · Thrissur",
+      "phone": "+91 487 233 4455",
+      "emergency_phone": "",
+      "email": "care@vaidyagram.example",
+      "address": "Kuttanellur, near Ollur\nThrissur, Kerala 680014",
+      "hours": "Daily: 7 am – 7 pm",
+      "footer_about": "Authentic Kerala Ayurveda with Panchakarma, residential treatment programmes and doctor-supervised therapies.",
+      "footer_text": "All rights reserved.",
+      "rating": "Three generations of vaidyas",
+      "rating_label": "practising classical Ayurveda",
+      "header_button": {
+        "text": "Book a consultation",
+        "url": "page:appointment"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Vaidyagram Ayurveda Centre — classical ayurveda & panchakarma in Thrissur. Authentic Kerala Ayurveda with Panchakarma, residential treatment programmes and doctor-supervised therapies.",
+      "keywords": "classical ayurveda & panchakarma, Thrissur"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Classical Kerala Ayurveda",
+            "heading": "Restore balance, naturally.",
+            "subheading": "Doctor-led Panchakarma, rejuvenation and pain-relief programmes in a peaceful garden setting, with medicines prepared in our own pharmacy.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Explore treatments",
+              "url": "page:departments"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Residential programmes"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Own herbal pharmacy"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Certified therapists"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our tradition",
+            "heading": "Three generations of healing",
+            "description": "<p>Vaidyagram was founded in 1987 by Vaidya Raman Nair, continuing a family tradition of Ayurveda. Today his children and grandchildren lead a team of doctors and therapists in a 4-acre garden campus.</p><p>Every programme starts with a consultation and is supervised daily by a qualified Ayurveda doctor.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1987",
+            "experience_label": "Practising Ayurveda since",
+            "points": [
+              {
+                "text": "BAMS and MD (Ayurveda) doctors"
+              },
+              {
+                "text": "Medicines made in our own pharmacy"
+              },
+              {
+                "text": "Vegetarian Ayurvedic diet"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Treatments",
+            "heading": "Specialist care under one roof",
+            "description": "Authentic Kerala Ayurveda with Panchakarma, residential treatment programmes and doctor-supervised therapies.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-droplet",
+                "title": "Panchakarma",
+                "description": "Classical five-step detoxification under daily supervision.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-flower2",
+                "title": "Rejuvenation",
+                "description": "Rasayana therapies for energy, sleep and wellbeing.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-chat-heart",
+                "title": "Doctor consultation",
+                "description": "Pulse diagnosis, diet advice and personalised medicines.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "38",
+                "suffix": "",
+                "label": "Years of practice",
+                "icon": ""
+              },
+              {
+                "number": "9",
+                "suffix": "",
+                "label": "Ayurveda doctors",
+                "icon": ""
+              },
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Treatment rooms",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "",
+                "label": "Residential rooms",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "The Vaidyagram way",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-leaf",
+                "title": "Authentic methods",
+                "description": "Classical texts, traditional oils and time-tested procedures."
+              },
+              {
+                "icon": "bi-person-check",
+                "title": "Doctor-supervised",
+                "description": "Daily review by a qualified Ayurveda doctor."
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Peaceful campus",
+                "description": "A garden setting away from city noise."
+              },
+              {
+                "icon": "bi-cup-hot",
+                "title": "Ayurvedic meals",
+                "description": "Fresh vegetarian meals planned for your treatment."
+              }
+            ]
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "Vaidyas",
+            "heading": "Meet our specialists",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Sreedevi Nair",
+                "qualification": "MD (Ayurveda)",
+                "specialty": "Panchakarma",
+                "experience": "24 years",
+                "timings": "Daily, 8 am – 1 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Vishnu Raman",
+                "qualification": "BAMS, MD (Kayachikitsa)",
+                "specialty": "Internal medicine",
+                "experience": "15 years",
+                "timings": "Mon–Sat, 2 – 6 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Lakshmi Menon",
+                "qualification": "BAMS",
+                "specialty": "Women’s health",
+                "experience": "12 years",
+                "timings": "Mon–Fri, 9 am – 1 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Arun Varma",
+                "qualification": "MD (Ayurveda)",
+                "specialty": "Pain & arthritis",
+                "experience": "14 years",
+                "timings": "Mon–Sat, 9 am – 12 noon",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "Meet the whole team",
+              "url": "page:doctors"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Patient stories",
+            "heading": "What our patients say",
+            "items": [
+              {
+                "quote": "Fourteen days of Panchakarma here gave me relief from years of back pain.",
+                "name": "Margaret Collins",
+                "role": "Guest from the UK",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Authentic treatment, caring doctors and the most peaceful place I have stayed.",
+                "name": "Ramesh Iyer",
+                "role": "Guest from Chennai",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "My arthritis is much better and I sleep well again.",
+                "name": "Leela Menon",
+                "role": "Patient",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Consultations",
+                "hours": "Daily, 8 am – 6 pm"
+              },
+              {
+                "label": "Therapies",
+                "hours": "Daily, 7 am – 7 pm"
+              },
+              {
+                "label": "Pharmacy",
+                "hours": "Mon–Sat, 9 am – 6 pm"
+              },
+              {
+                "label": "Residential check-in",
+                "hours": "10 am – 4 pm"
+              }
+            ],
+            "highlight_label": "Planning a stay?",
+            "highlight_value": "Book 2 weeks ahead",
+            "note": "Please share your medical reports before a residential programme."
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to restore your balance?",
+            "description": "Book a consultation with our doctors to plan the right programme for you.",
+            "background_image": "",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914872334455"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Vaidyagram Ayurveda Centre",
+            "subheading": "Authentic Kerala Ayurveda with Panchakarma, residential treatment programmes and doctor-supervised therapies.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our tradition",
+            "heading": "Three generations of healing",
+            "description": "<p>Vaidyagram was founded in 1987 by Vaidya Raman Nair, continuing a family tradition of Ayurveda. Today his children and grandchildren lead a team of doctors and therapists in a 4-acre garden campus.</p><p>Every programme starts with a consultation and is supervised daily by a qualified Ayurveda doctor.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1987",
+            "experience_label": "Practising Ayurveda since",
+            "points": [
+              {
+                "text": "BAMS and MD (Ayurveda) doctors"
+              },
+              {
+                "text": "Medicines made in our own pharmacy"
+              },
+              {
+                "text": "Vegetarian Ayurvedic diet"
+              }
+            ],
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "38",
+                "suffix": "",
+                "label": "Years of practice",
+                "icon": ""
+              },
+              {
+                "number": "9",
+                "suffix": "",
+                "label": "Ayurveda doctors",
+                "icon": ""
+              },
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Treatment rooms",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "",
+                "label": "Residential rooms",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "The Vaidyagram way",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-leaf",
+                "title": "Authentic methods",
+                "description": "Classical texts, traditional oils and time-tested procedures."
+              },
+              {
+                "icon": "bi-person-check",
+                "title": "Doctor-supervised",
+                "description": "Daily review by a qualified Ayurveda doctor."
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Peaceful campus",
+                "description": "A garden setting away from city noise."
+              },
+              {
+                "icon": "bi-cup-hot",
+                "title": "Ayurvedic meals",
+                "description": "Fresh vegetarian meals planned for your treatment."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our care",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Vaidya K. Raman Nair",
+                "role": "Founder",
+                "bio": "Fifty years of Ayurvedic practice.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Dr. Sreedevi Nair",
+                "role": "Chief Physician",
+                "bio": "MD (Ayurveda), Panchakarma specialist.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Mr. Unnikrishnan",
+                "role": "Head Therapist",
+                "bio": "Trains our therapy team.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Ms. Anjali Raman",
+                "role": "Guest Relations",
+                "bio": "Looks after residential guests.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Facilities",
+            "heading": "Inside our hospital",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Ayurveda therapy"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Wellness and yoga"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Consultation room"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Pharmacy"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Patient room"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Physiotherapy gym"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "departments": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Treatments",
+            "subheading": "Authentic Kerala Ayurveda with Panchakarma, residential treatment programmes and doctor-supervised therapies.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "",
+            "heading": "All treatments",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-droplet",
+                "title": "Panchakarma",
+                "description": "Classical five-step detoxification under daily supervision.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-flower2",
+                "title": "Rejuvenation",
+                "description": "Rasayana therapies for energy, sleep and wellbeing.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-chat-heart",
+                "title": "Doctor consultation",
+                "description": "Pulse diagnosis, diet advice and personalised medicines.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-capsule",
+                "title": "Herbal pharmacy",
+                "description": "Classical medicines prepared in our own pharmacy.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-hospital",
+                "title": "Residential care",
+                "description": "Stays of 7 to 28 days with diet, therapy and rest.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-person-arms-up",
+                "title": "Pain relief",
+                "description": "Treatments for back pain, arthritis and joint stiffness.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Consultation",
+                "description": "Pulse diagnosis and a detailed history."
+              },
+              {
+                "icon": "bi-journal-medical",
+                "title": "Treatment plan",
+                "description": "Therapies, medicines and diet for you."
+              },
+              {
+                "icon": "bi-droplet-half",
+                "title": "Therapy",
+                "description": "Daily treatments by trained therapists."
+              },
+              {
+                "icon": "bi-sun",
+                "title": "Aftercare",
+                "description": "Diet and lifestyle advice for home."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "How long is a Panchakarma programme?",
+                "answer": "Usually 14 to 28 days, depending on your condition and the doctor’s advice."
+              },
+              {
+                "question": "Is accommodation included?",
+                "answer": "Residential programmes include room, meals, therapies and medicines."
+              },
+              {
+                "question": "Can I continue my regular medicines?",
+                "answer": "Yes — our doctors review all your current medicines before treatment."
+              },
+              {
+                "question": "Do you have female therapists?",
+                "answer": "Yes, women are treated by female therapists."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to restore your balance?",
+            "description": "Book a consultation with our doctors to plan the right programme for you.",
+            "background_image": "",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914872334455"
+            }
+          }
+        }
+      ]
+    },
+    "doctors": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Vaidyas",
+            "subheading": "Experienced specialists, with their timings — book directly with the doctor you prefer.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "",
+            "heading": "Find your specialist",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Sreedevi Nair",
+                "qualification": "MD (Ayurveda)",
+                "specialty": "Panchakarma",
+                "experience": "24 years",
+                "timings": "Daily, 8 am – 1 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Vishnu Raman",
+                "qualification": "BAMS, MD (Kayachikitsa)",
+                "specialty": "Internal medicine",
+                "experience": "15 years",
+                "timings": "Mon–Sat, 2 – 6 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Lakshmi Menon",
+                "qualification": "BAMS",
+                "specialty": "Women’s health",
+                "experience": "12 years",
+                "timings": "Mon–Fri, 9 am – 1 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Arun Varma",
+                "qualification": "MD (Ayurveda)",
+                "specialty": "Pain & arthritis",
+                "experience": "14 years",
+                "timings": "Mon–Sat, 9 am – 12 noon",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Divya Krishnan",
+                "qualification": "BAMS",
+                "specialty": "Skin & hair",
+                "experience": "9 years",
+                "timings": "Tue–Sat, 3 – 7 pm",
+                "photo": "theme:images/doctor-5.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Hari Narayanan",
+                "qualification": "BAMS, MD (Rasayana)",
+                "specialty": "Rejuvenation",
+                "experience": "11 years",
+                "timings": "Daily, 7 – 11 am",
+                "photo": "theme:images/doctor-6.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Meera Pillai",
+                "qualification": "BAMS",
+                "specialty": "Diet & lifestyle",
+                "experience": "8 years",
+                "timings": "Mon–Sat, 11 am – 3 pm",
+                "photo": "theme:images/doctor-7.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Sanjay Kumar",
+                "qualification": "BAMS",
+                "specialty": "Residential care",
+                "experience": "10 years",
+                "timings": "Daily, 4 – 7 pm",
+                "photo": "theme:images/doctor-8.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to restore your balance?",
+            "description": "Book a consultation with our doctors to plan the right programme for you.",
+            "background_image": "",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914872334455"
+            }
+          }
+        }
+      ]
+    },
+    "health-packages": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "Clear prices for check-ups and common treatments.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Clear, upfront prices",
+            "description": "Prices include taxes. Packages can be booked online or at the front desk.",
+            "plans": [
+              {
+                "name": "Consultation",
+                "price": "₹800",
+                "period": "visit",
+                "features": "Pulse diagnosis\nDiet & lifestyle advice\nPrescription",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              },
+              {
+                "name": "Panchakarma (14 days)",
+                "price": "₹68,000",
+                "period": "programme",
+                "features": "Room & Ayurvedic meals\nDaily therapies\nMedicines\nDaily doctor review",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": true
+              },
+              {
+                "name": "Rejuvenation (7 days)",
+                "price": "₹32,000",
+                "period": "programme",
+                "features": "Room & meals\nAbhyanga & Shirodhara\nYoga sessions",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "How long is a Panchakarma programme?",
+                "answer": "Usually 14 to 28 days, depending on your condition and the doctor’s advice."
+              },
+              {
+                "question": "Is accommodation included?",
+                "answer": "Residential programmes include room, meals, therapies and medicines."
+              },
+              {
+                "question": "Can I continue my regular medicines?",
+                "answer": "Yes — our doctors review all your current medicines before treatment."
+              },
+              {
+                "question": "Do you have female therapists?",
+                "answer": "Yes, women are treated by female therapists."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to restore your balance?",
+            "description": "Book a consultation with our doctors to plan the right programme for you.",
+            "background_image": "",
+            "button": {
+              "text": "Book a consultation",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914872334455"
+            }
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Consultation",
+            "subheading": "Request an appointment online — we will call you to confirm.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Consultation",
+            "heading": "Book a consultation",
+            "description": "Choose a service and a convenient time — our team will call to confirm.",
+            "form_type": "appointment",
+            "form_heading": "Book a consultation",
+            "select1_label": "Programme",
+            "select1_options": "Doctor consultation\nPanchakarma\nRejuvenation\nPain relief\nWeight management\nSkin & hair",
+            "select2_label": "Type",
+            "select2_options": "Outpatient\nResidential stay\nOnline consultation",
+            "date_label": "Preferred date",
+            "message_label": "Health concerns and current medicines",
+            "email_required": false,
+            "button_text": "Request consultation",
+            "success_message": "Thank you! Our team will call you to plan your consultation.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We confirm by phone",
+                "text": "Usually within an hour"
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Timings",
+                "text": "Daily: 7 am – 7 pm"
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Bring your reports",
+                "text": "Previous prescriptions and test results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Consultation",
+                "description": "Pulse diagnosis and a detailed history."
+              },
+              {
+                "icon": "bi-journal-medical",
+                "title": "Treatment plan",
+                "description": "Therapies, medicines and diet for you."
+              },
+              {
+                "icon": "bi-droplet-half",
+                "title": "Therapy",
+                "description": "Daily treatments by trained therapists."
+              },
+              {
+                "icon": "bi-sun",
+                "title": "Aftercare",
+                "description": "Diet and lifestyle advice for home."
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Consultations",
+                "hours": "Daily, 8 am – 6 pm"
+              },
+              {
+                "label": "Therapies",
+                "hours": "Daily, 7 am – 7 pm"
+              },
+              {
+                "label": "Pharmacy",
+                "hours": "Mon–Sat, 9 am – 6 pm"
+              },
+              {
+                "label": "Residential check-in",
+                "hours": "10 am – 4 pm"
+              }
+            ],
+            "highlight_label": "Planning a stay?",
+            "highlight_value": "Book 2 weeks ahead",
+            "note": "Please share your medical reports before a residential programme."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Visit us, call us or send a message — we are here to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are here to help",
+            "description": "Reach our Thrissur team by phone, email or the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Consultations",
+                "hours": "Daily, 8 am – 6 pm"
+              },
+              {
+                "label": "Therapies",
+                "hours": "Daily, 7 am – 7 pm"
+              },
+              {
+                "label": "Pharmacy",
+                "hours": "Mon–Sat, 9 am – 6 pm"
+              },
+              {
+                "label": "Residential check-in",
+                "hours": "10 am – 4 pm"
+              }
+            ],
+            "highlight_label": "Planning a stay?",
+            "highlight_value": "Book 2 weeks ahead",
+            "note": "Please share your medical reports before a residential programme."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Vaidyagram Ayurveda Centre collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -26,10 +26,10 @@ CATEGORY_DIRS = {'business': 'business', 'real-estate': 'real-estate', 'travel':
 # Component -> CSS module; sections listed here pick "<type>.<variant>.php".
 VARIANT_SECTIONS = {'hero': 'hero', 'page_banner': 'banner', 'about': 'about', 'services': 'services', 'stats': 'stats',
                     'process': 'process', 'testimonials': 'testimonials', 'cta': 'cta', 'team': 'team', 'gallery': 'gallery', 'faq': 'faq',
-                    'courses': 'courses', 'events': 'events', 'notices': 'notices'}
-CSS_ORDER = ['header', 'hero', 'banner', 'head', 'card', 'about', 'services', 'stats', 'process', 'testimonials', 'cta', 'team', 'gallery', 'faq', 'logos', 'courses', 'events', 'notices', 'footer']
+                    'courses': 'courses', 'events': 'events', 'notices': 'notices', 'doctors': 'doctors', 'opening_hours': 'opening_hours'}
+CSS_ORDER = ['header', 'hero', 'banner', 'head', 'card', 'about', 'services', 'stats', 'process', 'testimonials', 'cta', 'team', 'gallery', 'faq', 'logos', 'courses', 'events', 'notices', 'doctors', 'opening_hours', 'footer']
 SURFACE_CLASS = {'services': 'services', 'testimonials': 'testimonials', 'features': 'features', 'faq': 'faq', 'team': 'team', 'pricing': 'pricing', 'process': 'process', 'about': 'about', 'gallery': 'gallery', 'contact': 'contact',
-                 'courses': 'courses', 'events': 'events', 'booking_form': 'booking', 'stats': 'stats'}
+                 'courses': 'courses', 'events': 'events', 'booking_form': 'booking', 'stats': 'stats', 'doctors': 'doctors', 'opening_hours': 'hours'}
 
 HEADER_STYLES = {
     'bar': {'sticky': 'Sticky, with info bar', 'minimal': 'Sticky, no info bar', 'static': 'Scrolls with the page'},

@@ -1,5 +1,5 @@
-.{{p}}-quote.is-big { padding: 3rem; background: var(--{{p}}-deep); color: #fff; border: 0; }
-.{{p}}-quote.is-big blockquote p { font-family: var(--wb-heading-font); font-size: clamp(1.3rem, 1rem + 1vw, 1.75rem); line-height: 1.45; color: #fff; }
+.{{p}} .{{p}}-quote.is-big { padding: 3rem; background: var(--{{p}}-deep); color: #fff; border: 0; }
+.{{p}} .{{p}}-quote.is-big blockquote p { font-family: var(--wb-heading-font); font-size: clamp(1.3rem, 1rem + 1vw, 1.75rem); line-height: 1.45; color: #fff; }
 .{{p}}-quote.is-big .{{p}}-quote-mark { font-size: 6rem; color: rgba(var(--wb-secondary-rgb), .55); right: 2rem; top: 1rem; }
 .{{p}}-quote.is-big figcaption { border-top-color: rgba(255, 255, 255, .15); }
 .{{p}}-quote.is-big small { color: rgba(255, 255, 255, .7); }

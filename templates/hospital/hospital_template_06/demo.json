@@ -1,0 +1,1130 @@
+{
+  "settings": {
+    "site": {
+      "name": "PrimeScan Diagnostics",
+      "tagline": "Pathology & imaging centre · New Delhi",
+      "phone": "+91 11 4321 8800",
+      "emergency_phone": "",
+      "email": "reports@primescan.example",
+      "address": "B-12, Lajpat Nagar II\nNew Delhi 110024",
+      "hours": "Daily: 6:30 am – 10 pm",
+      "footer_about": "NABL-accredited pathology lab and imaging centre with MRI, CT, ultrasound and home sample collection.",
+      "footer_text": "All rights reserved.",
+      "rating": "NABL accredited lab",
+      "rating_label": "quality-checked reports",
+      "header_button": {
+        "text": "Book a test",
+        "url": "page:appointment"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "PrimeScan Diagnostics — pathology & imaging centre in New Delhi. NABL-accredited pathology lab and imaging centre with MRI, CT, ultrasound and home sample collection.",
+      "keywords": "pathology & imaging centre, New Delhi"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Reports in hours, not days",
+            "heading": "Accurate tests. Fast reports.",
+            "subheading": "Blood tests, MRI, CT, ultrasound and full-body check-ups — with free home sample collection and reports on your phone.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a test",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Explore tests & scans",
+              "url": "page:departments"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Free home collection"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "NABL-accredited lab"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Reports on WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2500",
+                "suffix": "+",
+                "label": "Tests a day",
+                "icon": ""
+              },
+              {
+                "number": "1200",
+                "suffix": "+",
+                "label": "Tests offered",
+                "icon": ""
+              },
+              {
+                "number": "6",
+                "suffix": " hrs",
+                "label": "Average report time",
+                "icon": ""
+              },
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Collection centres",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Tests & Scans",
+            "heading": "Specialist care under one roof",
+            "description": "NABL-accredited pathology lab and imaging centre with MRI, CT, ultrasound and home sample collection.",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-droplet",
+                "title": "Blood tests",
+                "description": "Over 1,200 tests from routine blood counts to hormone panels.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-magnet",
+                "title": "MRI scan",
+                "description": "Quiet, wide-bore 3T MRI for brain, spine and joints.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-radioactive",
+                "title": "Digital X-ray",
+                "description": "Low-dose digital X-ray with same-hour reports.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Cardiac tests",
+                "description": "ECG, echo, TMT and Holter monitoring.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Vaccinations",
+                "description": "Adult vaccines including flu, HPV and hepatitis.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-house-heart",
+                "title": "Home collection",
+                "description": "Trained phlebotomists at your door from 6:30 am.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About PrimeScan",
+            "heading": "Precision diagnostics you can rely on",
+            "description": "<p>PrimeScan was set up by radiologists and pathologists to give Delhi fast, accurate diagnostics at fair prices. Our lab runs over 2,500 tests a day on fully automated analysers.</p><p>Every report is checked by a qualified doctor, and most results reach your phone the same day.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2010",
+            "experience_label": "Diagnosing since",
+            "points": [
+              {
+                "text": "NABL & ISO accredited"
+              },
+              {
+                "text": "3T MRI and 128-slice CT"
+              },
+              {
+                "text": "Doctor-verified reports"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-cart-check",
+                "title": "Book a test",
+                "description": "Online, by phone or walk in."
+              },
+              {
+                "icon": "bi-house-door",
+                "title": "Sample collection",
+                "description": "At home or at any of our centres."
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Testing",
+                "description": "Automated analysers and doctor review."
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Report",
+                "description": "On your phone, usually the same day."
+              }
+            ]
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "Specialists",
+            "heading": "Meet our specialists",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Alok Verma",
+                "qualification": "MD (Radiology)",
+                "specialty": "MRI & CT",
+                "experience": "25 years",
+                "timings": "Mon–Sat, 9 am – 5 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Shalini Bajaj",
+                "qualification": "MD (Pathology)",
+                "specialty": "Pathology",
+                "experience": "18 years",
+                "timings": "Daily, 7 am – 3 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Manish Kapoor",
+                "qualification": "MD (Radiology)",
+                "specialty": "Ultrasound",
+                "experience": "12 years",
+                "timings": "Mon–Sat, 10 am – 6 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Neha Jain",
+                "qualification": "MD (Microbiology)",
+                "specialty": "Microbiology",
+                "experience": "10 years",
+                "timings": "Mon–Fri, 9 am – 4 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "Meet the whole team",
+              "url": "page:doctors"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Patient stories",
+            "heading": "What our patients say",
+            "items": [
+              {
+                "quote": "Booked at night, sample collected at 7 am, report by lunch. Very impressive.",
+                "name": "Ankita Malhotra",
+                "role": "Customer",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The MRI staff were calm and kind, and the report was very detailed.",
+                "name": "Rajesh Gupta",
+                "role": "MRI patient",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "We use PrimeScan for all our employees’ annual check-ups.",
+                "name": "Simran Kaur",
+                "role": "HR Manager",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Lab & collection",
+                "hours": "Daily, 6:30 am – 10 pm"
+              },
+              {
+                "label": "MRI & CT",
+                "hours": "Daily, 7 am – 11 pm"
+              },
+              {
+                "label": "Home collection",
+                "hours": "From 6:30 am"
+              },
+              {
+                "label": "Report helpdesk",
+                "hours": "8 am – 10 pm"
+              }
+            ],
+            "highlight_label": "Report ready?",
+            "highlight_value": "Get it on WhatsApp",
+            "note": "For fasting tests, please book an early-morning slot."
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Due for your annual check-up?",
+            "description": "Book a full-body package with free home sample collection.",
+            "background_image": "",
+            "button": {
+              "text": "Book a test",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911143218800"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About PrimeScan Diagnostics",
+            "subheading": "NABL-accredited pathology lab and imaging centre with MRI, CT, ultrasound and home sample collection.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About PrimeScan",
+            "heading": "Precision diagnostics you can rely on",
+            "description": "<p>PrimeScan was set up by radiologists and pathologists to give Delhi fast, accurate diagnostics at fair prices. Our lab runs over 2,500 tests a day on fully automated analysers.</p><p>Every report is checked by a qualified doctor, and most results reach your phone the same day.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2010",
+            "experience_label": "Diagnosing since",
+            "points": [
+              {
+                "text": "NABL & ISO accredited"
+              },
+              {
+                "text": "3T MRI and 128-slice CT"
+              },
+              {
+                "text": "Doctor-verified reports"
+              }
+            ],
+            "button": {
+              "text": "Book a test",
+              "url": "page:appointment"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2500",
+                "suffix": "+",
+                "label": "Tests a day",
+                "icon": ""
+              },
+              {
+                "number": "1200",
+                "suffix": "+",
+                "label": "Tests offered",
+                "icon": ""
+              },
+              {
+                "number": "6",
+                "suffix": " hrs",
+                "label": "Average report time",
+                "icon": ""
+              },
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Collection centres",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why choose PrimeScan",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-patch-check",
+                "title": "Accredited quality",
+                "description": "NABL and ISO-accredited lab processes."
+              },
+              {
+                "icon": "bi-lightning",
+                "title": "Fast reports",
+                "description": "Most reports within six hours."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Home collection",
+                "description": "Free sample pickup across south Delhi."
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Reports on your phone",
+                "description": "Download reports or get them on WhatsApp."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people who lead our care",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. Alok Verma",
+                "role": "Founder & Chief Radiologist",
+                "bio": "MD Radiology, 25 years’ experience.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Dr. Shalini Bajaj",
+                "role": "Lab Director",
+                "bio": "MD Pathology, quality lead.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Mr. Vivek Sharma",
+                "role": "Operations Head",
+                "bio": "Runs 15 collection centres.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Ms. Ruchi Arora",
+                "role": "Customer Care Lead",
+                "bio": "Keeps reports and bookings on track.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Facilities",
+            "heading": "Inside our hospital",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Laboratory"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Imaging suite"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "X-ray and radiology"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Cardiac care"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Vaccination"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Reception and help desk"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "departments": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Tests & Scans",
+            "subheading": "NABL-accredited pathology lab and imaging centre with MRI, CT, ultrasound and home sample collection.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "",
+            "heading": "All tests & scans",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-droplet",
+                "title": "Blood tests",
+                "description": "Over 1,200 tests from routine blood counts to hormone panels.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-magnet",
+                "title": "MRI scan",
+                "description": "Quiet, wide-bore 3T MRI for brain, spine and joints.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-radioactive",
+                "title": "Digital X-ray",
+                "description": "Low-dose digital X-ray with same-hour reports.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Cardiac tests",
+                "description": "ECG, echo, TMT and Holter monitoring.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Vaccinations",
+                "description": "Adult vaccines including flu, HPV and hepatitis.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              },
+              {
+                "icon": "bi-house-heart",
+                "title": "Home collection",
+                "description": "Trained phlebotomists at your door from 6:30 am.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:departments"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-cart-check",
+                "title": "Book a test",
+                "description": "Online, by phone or walk in."
+              },
+              {
+                "icon": "bi-house-door",
+                "title": "Sample collection",
+                "description": "At home or at any of our centres."
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Testing",
+                "description": "Automated analysers and doctor review."
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Report",
+                "description": "On your phone, usually the same day."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Do I need to fast for blood tests?",
+                "answer": "Some tests need 8–12 hours of fasting; we tell you when you book."
+              },
+              {
+                "question": "Is home collection free?",
+                "answer": "Yes, for orders above ₹500 within our service area."
+              },
+              {
+                "question": "How will I get my report?",
+                "answer": "By SMS link, email and WhatsApp; printed copies are also available."
+              },
+              {
+                "question": "Do you need a prescription for MRI?",
+                "answer": "Yes, scans need a doctor’s prescription."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Due for your annual check-up?",
+            "description": "Book a full-body package with free home sample collection.",
+            "background_image": "",
+            "button": {
+              "text": "Book a test",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911143218800"
+            }
+          }
+        }
+      ]
+    },
+    "doctors": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Specialists",
+            "subheading": "Experienced specialists, with their timings — book directly with the doctor you prefer.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "doctors",
+          "data": {
+            "eyebrow": "",
+            "heading": "Find your specialist",
+            "description": "",
+            "items": [
+              {
+                "name": "Dr. Alok Verma",
+                "qualification": "MD (Radiology)",
+                "specialty": "MRI & CT",
+                "experience": "25 years",
+                "timings": "Mon–Sat, 9 am – 5 pm",
+                "photo": "theme:images/doctor-1.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Shalini Bajaj",
+                "qualification": "MD (Pathology)",
+                "specialty": "Pathology",
+                "experience": "18 years",
+                "timings": "Daily, 7 am – 3 pm",
+                "photo": "theme:images/doctor-2.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Manish Kapoor",
+                "qualification": "MD (Radiology)",
+                "specialty": "Ultrasound",
+                "experience": "12 years",
+                "timings": "Mon–Sat, 10 am – 6 pm",
+                "photo": "theme:images/doctor-3.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Neha Jain",
+                "qualification": "MD (Microbiology)",
+                "specialty": "Microbiology",
+                "experience": "10 years",
+                "timings": "Mon–Fri, 9 am – 4 pm",
+                "photo": "theme:images/doctor-4.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Sandeep Arora",
+                "qualification": "MD, DM (Cardiology)",
+                "specialty": "Cardiac tests",
+                "experience": "15 years",
+                "timings": "Tue & Fri, 10 am – 1 pm",
+                "photo": "theme:images/doctor-5.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Priya Sethi",
+                "qualification": "MD (Biochemistry)",
+                "specialty": "Biochemistry",
+                "experience": "9 years",
+                "timings": "Daily, 7 am – 3 pm",
+                "photo": "theme:images/doctor-6.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Rohit Malhotra",
+                "qualification": "MD (Radiology)",
+                "specialty": "X-ray & mammography",
+                "experience": "11 years",
+                "timings": "Mon–Sat, 2 – 9 pm",
+                "photo": "theme:images/doctor-7.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              },
+              {
+                "name": "Dr. Kavita Singh",
+                "qualification": "MD (Pathology)",
+                "specialty": "Histopathology",
+                "experience": "8 years",
+                "timings": "Mon–Fri, 9 am – 5 pm",
+                "photo": "theme:images/doctor-8.svg",
+                "link": {
+                  "text": "Book appointment",
+                  "url": "page:appointment"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Due for your annual check-up?",
+            "description": "Book a full-body package with free home sample collection.",
+            "background_image": "",
+            "button": {
+              "text": "Book a test",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911143218800"
+            }
+          }
+        }
+      ]
+    },
+    "health-packages": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Packages",
+            "subheading": "Clear prices for check-ups and common treatments.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Packages",
+            "heading": "Clear, upfront prices",
+            "description": "Prices include taxes. Packages can be booked online or at the front desk.",
+            "plans": [
+              {
+                "name": "Essential check",
+                "price": "₹1,499",
+                "period": "person",
+                "features": "62 tests\nBlood count, sugar & lipids\nThyroid & liver\nFree home collection",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              },
+              {
+                "name": "Full body check",
+                "price": "₹3,999",
+                "period": "person",
+                "features": "92 tests\nVitamin D & B12\nKidney & heart markers\nECG\nDoctor consultation",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": true
+              },
+              {
+                "name": "Women’s wellness",
+                "price": "₹2,999",
+                "period": "person",
+                "features": "Hormone & thyroid panel\nIron & vitamin tests\nPelvic ultrasound",
+                "button": {
+                  "text": "Book now",
+                  "url": "page:appointment"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions patients ask",
+            "description": "",
+            "items": [
+              {
+                "question": "Do I need to fast for blood tests?",
+                "answer": "Some tests need 8–12 hours of fasting; we tell you when you book."
+              },
+              {
+                "question": "Is home collection free?",
+                "answer": "Yes, for orders above ₹500 within our service area."
+              },
+              {
+                "question": "How will I get my report?",
+                "answer": "By SMS link, email and WhatsApp; printed copies are also available."
+              },
+              {
+                "question": "Do you need a prescription for MRI?",
+                "answer": "Yes, scans need a doctor’s prescription."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Due for your annual check-up?",
+            "description": "Book a full-body package with free home sample collection.",
+            "background_image": "",
+            "button": {
+              "text": "Book a test",
+              "url": "page:appointment"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911143218800"
+            }
+          }
+        }
+      ]
+    },
+    "appointment": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Book a Test",
+            "subheading": "Request an appointment online — we will call you to confirm.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Book a Test",
+            "heading": "Book a test or scan",
+            "description": "Choose a service and a convenient time — our team will call to confirm.",
+            "form_type": "appointment",
+            "form_heading": "Book a test or scan",
+            "select1_label": "Test type",
+            "select1_options": "Blood tests\nFull body check-up\nMRI\nCT scan\nUltrasound\nX-ray\nCardiac tests",
+            "select2_label": "Collection",
+            "select2_options": "Home collection\nVisit a centre",
+            "date_label": "Preferred date",
+            "message_label": "Tests prescribed or questions",
+            "email_required": false,
+            "button_text": "Book now",
+            "success_message": "Thank you! We will call you to confirm your booking.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We confirm by phone",
+                "text": "Usually within an hour"
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Timings",
+                "text": "Daily: 6:30 am – 10 pm"
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Bring your reports",
+                "text": "Previous prescriptions and test results"
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Your visit, step by step",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-cart-check",
+                "title": "Book a test",
+                "description": "Online, by phone or walk in."
+              },
+              {
+                "icon": "bi-house-door",
+                "title": "Sample collection",
+                "description": "At home or at any of our centres."
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Testing",
+                "description": "Automated analysers and doctor review."
+              },
+              {
+                "icon": "bi-file-earmark-medical",
+                "title": "Report",
+                "description": "On your phone, usually the same day."
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Lab & collection",
+                "hours": "Daily, 6:30 am – 10 pm"
+              },
+              {
+                "label": "MRI & CT",
+                "hours": "Daily, 7 am – 11 pm"
+              },
+              {
+                "label": "Home collection",
+                "hours": "From 6:30 am"
+              },
+              {
+                "label": "Report helpdesk",
+                "hours": "8 am – 10 pm"
+              }
+            ],
+            "highlight_label": "Report ready?",
+            "highlight_value": "Get it on WhatsApp",
+            "note": "For fasting tests, please book an early-morning slot."
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Visit us, call us or send a message — we are here to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are here to help",
+            "description": "Reach our New Delhi team by phone, email or the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Timings",
+            "heading": "When we are open",
+            "description": "",
+            "rows": [
+              {
+                "label": "Lab & collection",
+                "hours": "Daily, 6:30 am – 10 pm"
+              },
+              {
+                "label": "MRI & CT",
+                "hours": "Daily, 7 am – 11 pm"
+              },
+              {
+                "label": "Home collection",
+                "hours": "From 6:30 am"
+              },
+              {
+                "label": "Report helpdesk",
+                "hours": "8 am – 10 pm"
+              }
+            ],
+            "highlight_label": "Report ready?",
+            "highlight_value": "Get it on WhatsApp",
+            "note": "For fasting tests, please book an early-morning slot."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how PrimeScan Diagnostics collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you request an appointment or send a message we collect your name, phone number, email address and the details you provide, such as the department and preferred date.</p><h3>How we use it</h3><p>We use this information only to respond to you and to arrange your care. Medical records are handled under applicable health-data regulations and are never shared for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the hospital help desk using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Medical information</h3><p>Content on this website is for general information only and is not a substitute for professional medical advice. In an emergency, call the hospital's emergency number or go to the nearest emergency department.</p><h3>Appointments</h3><p>An appointment request is confirmed only after our help desk contacts you. Consultation timings may change without notice.</p><h3>Prices</h3><p>Package prices shown are indicative and may change. The final amount is confirmed at the hospital.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

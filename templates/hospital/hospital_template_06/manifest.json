@@ -1,0 +1,189 @@
+{
+  "id": "hospital_template_06",
+  "name": "PrimeScan Lab",
+  "category": "hospital",
+  "version": "1.0.0",
+  "description": "A clean, efficient design for diagnostic labs, imaging centres and polyclinics: floating navigation, a colour-panel hero, test and scan image cards, health-package pricing and a red call-to-action band.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#1B998B",
+      "secondary": "#E84855",
+      "bg": "#FFFFFF",
+      "text": "#0F2B28",
+      "heading_font": "space-grotesk",
+      "body_font": "inter",
+      "radius": "10px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "light"
+    },
+    "header_styles": {
+      "sticky": "Sticky",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "pricing",
+    "doctors",
+    "opening_hours",
+    "booking_form"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "stats",
+        "services",
+        "about",
+        "process",
+        "doctors",
+        "testimonials",
+        "opening_hours",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team",
+        "gallery"
+      ]
+    },
+    "departments": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "doctors": {
+      "default_sections": [
+        "page_banner",
+        "doctors",
+        "cta"
+      ]
+    },
+    "packages": {
+      "default_sections": [
+        "page_banner",
+        "pricing",
+        "faq",
+        "cta"
+      ]
+    },
+    "appointment": {
+      "default_sections": [
+        "page_banner",
+        "booking_form",
+        "process",
+        "opening_hours"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact",
+        "opening_hours"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Tests & Scans",
+      "slug": "departments",
+      "type": "departments"
+    },
+    {
+      "title": "Specialists",
+      "slug": "doctors",
+      "type": "doctors"
+    },
+    {
+      "title": "Packages",
+      "slug": "health-packages",
+      "type": "packages"
+    },
+    {
+      "title": "Book a Test",
+      "slug": "appointment",
+      "type": "appointment"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}
