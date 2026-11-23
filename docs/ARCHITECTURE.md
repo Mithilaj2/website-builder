@@ -249,6 +249,8 @@ templates/business/business_template_01/
 └── assets/         css/style.css  js/main.js  images/  fonts/  vendor/bootstrap/
 ```
 
+Templates 02–10 of each category are produced by `tools/template-factory` (a development-only generator, never deployed or exported) from short design specs. Its output is an ordinary package like the one above, validated and registered the same way; see `tools/template-factory/README.md`.
+
 A template contains **no** business logic and **no** database code. It only receives clean, escaped data from the runtime and outputs HTML. It never references files outside its own folder (the validator checks this).
 
 ### 4.2 Manifest (abridged)

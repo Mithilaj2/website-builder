@@ -1,0 +1,4 @@
+.{{p}}-head { position: relative; }
+.{{p}}-head-start { padding-left: 1.25rem; border-left: 4px solid var(--wb-secondary); }
+.{{p}}-head-center .{{p}}-title::after { content: ""; display: block; width: 56px; height: 4px; background: var(--wb-secondary); margin: 1.1rem auto 0; }
+.{{p}}-head .{{p}}-eyebrow { letter-spacing: .2em; }

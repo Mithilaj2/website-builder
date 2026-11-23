@@ -1,0 +1,6 @@
+.{{p}}-footer-centered .{{p}}-brand { justify-content: center; }
+.{{p}}-footer-inline { list-style: none; padding: 0; margin: 1.75rem 0; display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 2rem; font-weight: 600; }
+.{{p}}-footer-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem 2rem; font-size: .92rem; }
+.{{p}}-footer-meta a, .{{p}}-footer-meta span { display: inline-flex; align-items: center; gap: .5rem; }
+.{{p}}-footer-meta i { color: var(--wb-secondary); }
+.{{p}}-footer-centered .{{p}}-footer-bottom { justify-content: center; text-align: center; }

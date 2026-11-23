@@ -1,0 +1,750 @@
+{
+  "settings": {
+    "site": {
+      "name": "Suncrest Energy",
+      "tagline": "Rooftop solar, solar parks and energy storage",
+      "phone": "+91 422 455 6600",
+      "email": "solar@suncrest.example",
+      "address": "88 Avinashi Road, Peelamedu\nCoimbatore, Tamil Nadu 641004",
+      "hours": "Mon–Sat: 9:00 am – 6:00 pm",
+      "footer_about": "Clean energy for homes, factories and campuses — designed, installed and maintained by one accountable team.",
+      "footer_text": "All rights reserved.",
+      "rating": "180 MW installed",
+      "rating_label": "across 2,400 rooftops and 11 solar parks",
+      "header_button": {
+        "text": "Get a free site survey",
+        "url": "page:contact"
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "seo": {
+      "description": "Suncrest Energy — rooftop solar, solar parks and energy storage in Coimbatore. Clean energy for homes, factories and campuses — designed, installed and maintained by one accountable team.",
+      "keywords": "rooftop solar, solar parks and energy storage, Coimbatore"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Clean power since 2013",
+            "heading": "Cut your power bill with sunlight you already have.",
+            "subheading": "Rooftop and ground-mount solar, battery storage and maintenance for homes, factories and campuses across South India.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Get a free site survey",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:services"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Tier-1 panels"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "25-year performance warranty"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Subsidy & net-metering help"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Suncrest",
+            "heading": "Engineering-led solar you can rely on for 25 years",
+            "description": "<p>Suncrest was founded by electrical engineers who saw too many poorly built solar plants. We design every system for local weather, shading and load, and we monitor them long after installation.</p><p>From a 3 kW home rooftop to a 20 MW solar park, the same engineering standards apply — and the same team answers when you call.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2013",
+            "experience_label": "Installing solar since",
+            "points": [
+              {
+                "text": "MNRE-empanelled installer"
+              },
+              {
+                "text": "In-house design and EPC"
+              },
+              {
+                "text": "Remote monitoring of every plant"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Services built around your business",
+            "description": "Clean energy for homes, factories and campuses — designed, installed and maintained by one accountable team.",
+            "columns": "2",
+            "items": [
+              {
+                "icon": "bi-house",
+                "title": "Rooftop solar",
+                "description": "Grid-tied systems for homes, offices and factories with net-metering support.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-grid-3x3",
+                "title": "Solar parks",
+                "description": "Utility-scale and open-access ground-mount plants built on turnkey EPC terms.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-battery-charging",
+                "title": "Battery storage",
+                "description": "Lithium storage that keeps critical loads running through outages.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-wind",
+                "title": "Wind & hybrid",
+                "description": "Wind-solar hybrid projects for industries chasing round-the-clock green power.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "180",
+                "suffix": " MW",
+                "label": "Installed capacity",
+                "icon": ""
+              },
+              {
+                "number": "2400",
+                "suffix": "+",
+                "label": "Rooftops",
+                "icon": ""
+              },
+              {
+                "number": "210",
+                "suffix": "K t",
+                "label": "CO₂ avoided a year",
+                "icon": ""
+              },
+              {
+                "number": "4.2",
+                "suffix": " yrs",
+                "label": "Average payback",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why customers choose Suncrest",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-sun",
+                "title": "Designed for your roof",
+                "description": "Shadow analysis and load studies before a single panel is fixed."
+              },
+              {
+                "icon": "bi-bar-chart",
+                "title": "Live monitoring",
+                "description": "Watch generation and savings on your phone, every day."
+              },
+              {
+                "icon": "bi-patch-check",
+                "title": "Tier-1 equipment",
+                "description": "Only bankable panels and inverters with long warranties."
+              },
+              {
+                "icon": "bi-cash-coin",
+                "title": "Easy financing",
+                "description": "EMI, lease and RESCO models with no upfront cost."
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-geo",
+                "title": "Free site survey",
+                "description": "Roof, shading and electricity-bill assessment."
+              },
+              {
+                "icon": "bi-pencil-square",
+                "title": "Design & proposal",
+                "description": "System size, savings and payback in writing."
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Installation",
+                "description": "Certified crews install and test within weeks."
+              },
+              {
+                "icon": "bi-lightning-charge",
+                "title": "Switch on & save",
+                "description": "Net-metering, monitoring app and ongoing O&M."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "What our clients say",
+            "items": [
+              {
+                "quote": "Our 1.2 MW rooftop plant paid for itself in under four years. Suncrest’s O&M team is excellent.",
+                "name": "R. Senthil",
+                "role": "Director, Lakshmi Mills",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "From survey to switch-on in five weeks, including the net-metering paperwork.",
+                "name": "Dr. Kavya Ganesh",
+                "role": "Administrator, KG Hospitals",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Our school now runs almost entirely on solar during the day.",
+                "name": "Fr. Thomas",
+                "role": "Principal, Velan Schools",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Powering 2,400 homes, factories and campuses",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Lakshmi Mills",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "KG Hospitals",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Annapoorna",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Roots Textiles",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Velan Schools",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to see how much you could save?",
+            "description": "Book a free site survey and get a savings report within a week.",
+            "background_image": "theme:images/svc-2.svg",
+            "button": {
+              "text": "Get a free site survey",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Suncrest Energy",
+            "subheading": "Clean energy for homes, factories and campuses — designed, installed and maintained by one accountable team.",
+            "background_image": "theme:images/about-2.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Suncrest",
+            "heading": "Engineering-led solar you can rely on for 25 years",
+            "description": "<p>Suncrest was founded by electrical engineers who saw too many poorly built solar plants. We design every system for local weather, shading and load, and we monitor them long after installation.</p><p>From a 3 kW home rooftop to a 20 MW solar park, the same engineering standards apply — and the same team answers when you call.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2013",
+            "experience_label": "Installing solar since",
+            "points": [
+              {
+                "text": "MNRE-empanelled installer"
+              },
+              {
+                "text": "In-house design and EPC"
+              },
+              {
+                "text": "Remote monitoring of every plant"
+              }
+            ],
+            "button": {
+              "text": "Get in touch",
+              "url": "page:contact"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "180",
+                "suffix": " MW",
+                "label": "Installed capacity",
+                "icon": ""
+              },
+              {
+                "number": "2400",
+                "suffix": "+",
+                "label": "Rooftops",
+                "icon": ""
+              },
+              {
+                "number": "210",
+                "suffix": "K t",
+                "label": "CO₂ avoided a year",
+                "icon": ""
+              },
+              {
+                "number": "4.2",
+                "suffix": " yrs",
+                "label": "Average payback",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people behind our work",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Balaji Subramanian",
+                "role": "Founder & CEO",
+                "bio": "Electrical engineer, 20 years in power systems.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Divya Prakash",
+                "role": "Head of Design",
+                "bio": "Leads system design and energy modelling.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Kumar Velu",
+                "role": "EPC Projects Head",
+                "bio": "Delivered 11 solar parks across three states.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Ayesha Begum",
+                "role": "Customer Success",
+                "bio": "Runs monitoring and O&M for 2,400 plants.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to see how much you could save?",
+            "description": "Book a free site survey and get a savings report within a week.",
+            "background_image": "theme:images/svc-2.svg",
+            "button": {
+              "text": "Get a free site survey",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "Clean energy for homes, factories and campuses — designed, installed and maintained by one accountable team.",
+            "background_image": "theme:images/about-2.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Our services",
+            "heading": "Everything we can do for you",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house",
+                "title": "Rooftop solar",
+                "description": "Grid-tied systems for homes, offices and factories with net-metering support.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-grid-3x3",
+                "title": "Solar parks",
+                "description": "Utility-scale and open-access ground-mount plants built on turnkey EPC terms.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-battery-charging",
+                "title": "Battery storage",
+                "description": "Lithium storage that keeps critical loads running through outages.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-wind",
+                "title": "Wind & hybrid",
+                "description": "Wind-solar hybrid projects for industries chasing round-the-clock green power.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-tools",
+                "title": "O&M services",
+                "description": "Cleaning, inspections and performance guarantees for existing plants.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-ev-front",
+                "title": "EV charging",
+                "description": "Workplace and fleet charging stations powered by your own solar.",
+                "image": "",
+                "link": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-geo",
+                "title": "Free site survey",
+                "description": "Roof, shading and electricity-bill assessment."
+              },
+              {
+                "icon": "bi-pencil-square",
+                "title": "Design & proposal",
+                "description": "System size, savings and payback in writing."
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Installation",
+                "description": "Certified crews install and test within weeks."
+              },
+              {
+                "icon": "bi-lightning-charge",
+                "title": "Switch on & save",
+                "description": "Net-metering, monitoring app and ongoing O&M."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Engagements",
+            "heading": "Simple ways to work with us",
+            "description": "Every engagement is agreed in writing before work begins.",
+            "plans": [
+              {
+                "name": "Home 3 kW",
+                "price": "₹1,65,000",
+                "period": "installed",
+                "features": "Tier-1 panels & inverter\nNet-metering support\nMonitoring app\n5-year service",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              },
+              {
+                "name": "Business 50 kW",
+                "price": "₹22,00,000",
+                "period": "installed",
+                "features": "Custom design\nPerformance guarantee\nRemote monitoring\n5-year O&M included",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": true
+              },
+              {
+                "name": "RESCO",
+                "price": "₹0",
+                "period": "upfront",
+                "features": "Pay only for power used\n25-year agreement\nFull O&M by Suncrest",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Common questions",
+            "description": "",
+            "items": [
+              {
+                "question": "How much roof area do I need?",
+                "answer": "Roughly 100 sq ft of shade-free roof per kW of solar capacity."
+              },
+              {
+                "question": "Will it work during power cuts?",
+                "answer": "Grid-tied systems switch off in outages; add a battery to keep power on."
+              },
+              {
+                "question": "Do you help with subsidies?",
+                "answer": "Yes. We handle PM Surya Ghar subsidy and net-metering applications."
+              },
+              {
+                "question": "What maintenance is needed?",
+                "answer": "Panel cleaning and an annual check — our O&M plans cover both."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to see how much you could save?",
+            "description": "Book a free site survey and get a savings report within a week.",
+            "background_image": "theme:images/svc-2.svg",
+            "button": {
+              "text": "Get a free site survey",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "A look inside Suncrest Energy — our people, places and projects.",
+            "background_image": "theme:images/about-2.svg"
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Rooftop plant in Tiruppur"
+              },
+              {
+                "image": "theme:images/about-1.svg",
+                "caption": "Solar park, Karur"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Battery room"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Installation crew"
+              },
+              {
+                "image": "theme:images/about-2.svg",
+                "caption": "Wind-solar hybrid site"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Monitoring centre"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to see how much you could save?",
+            "description": "Book a free site survey and get a savings report within a week.",
+            "background_image": "theme:images/svc-2.svg",
+            "button": {
+              "text": "Get a free site survey",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Tell us what you need and we will get back to you within one working day.",
+            "background_image": "theme:images/about-2.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit our Coimbatore office, call us, or send a message using the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you get in touch",
+            "description": "",
+            "items": [
+              {
+                "question": "How much roof area do I need?",
+                "answer": "Roughly 100 sq ft of shade-free roof per kW of solar capacity."
+              },
+              {
+                "question": "Will it work during power cuts?",
+                "answer": "Grid-tied systems switch off in outages; add a battery to keep power on."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how we collect, use and protect the personal information you share with us through this website.</p><h3>Information we collect</h3><p>When you submit an enquiry we collect your name, email address, phone number and the details of your message.</p><h3>How we use it</h3><p>We use this information only to respond to your enquiry and to provide the services you request. We do not sell or share your information with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on our Contact page.</p><p><em>Replace this sample text with your own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Use of this website</h3><p>The content on this website is for general information only and may change without notice.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

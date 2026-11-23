@@ -1,0 +1,4 @@
+.{{p}}-card { border: 0; box-shadow: var(--{{p}}-shadow-sm); }
+.{{p}}-service:hover, .{{p}}-feature-card:hover { transform: translateY(-6px); box-shadow: var(--{{p}}-shadow); }
+.{{p}}-service:hover .{{p}}-icon { background: var(--{{p}}-accent); color: var(--{{p}}-on-accent); }
+.{{p}}-icon { transition: background-color .25s ease, color .25s ease; }

@@ -1,0 +1,12 @@
+.{{p}} .{{p}}-hero-editorial { padding: 5rem 0 5.5rem; }
+.{{p}}-hero-editorial .{{p}}-hero-title { font-size: calc(clamp(2.6rem, 1.2rem + 5.4vw, 5.6rem) * var(--{{p}}-hero-scale)); max-width: 1050px; line-height: 1.02; margin-bottom: 2.5rem; }
+.{{p}}-hero-editorial .{{p}}-eyebrow-hero { color: var(--{{p}}-hl); }
+.{{p}}-hero-editorial .{{p}}-eyebrow-hero::before { content: ""; width: 40px; height: 2px; background: currentColor; }
+.{{p}}-hero-editorial-row { border-top: 1px solid var(--{{p}}-line-strong); padding-top: 2.5rem; }
+.{{p}}-hero-editorial .{{p}}-actions { margin-top: 1.75rem; }
+.{{p}}-hero-editorial .{{p}}-hero-frame { border-radius: var(--{{p}}-radius); }
+.{{p}}-hero-editorial .{{p}}-hero-frame img { aspect-ratio: 16 / 10; }
+.{{p}}-hero-index { list-style: none; counter-reset: hx; padding: 0; margin: 2.25rem 0 0; display: grid; gap: 0; }
+.{{p}}-hero-index li { counter-increment: hx; display: flex; gap: 1rem; padding: .8rem 0; border-bottom: 1px solid var(--{{p}}-line); font-weight: 600; }
+.{{p}}-hero-index li::before { content: counter(hx, decimal-leading-zero); font-family: var(--wb-heading-font); color: var(--{{p}}-hl); font-weight: 700; }
+@media (max-width: 991.98px) { .{{p}} .{{p}}-hero-editorial { padding: 3.5rem 0 4rem; } .{{p}}-hero-editorial .{{p}}-hero-title { margin-bottom: 1.5rem; } }

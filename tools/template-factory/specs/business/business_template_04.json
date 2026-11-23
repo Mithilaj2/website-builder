@@ -1,0 +1,72 @@
+{
+  "id": "business_template_04",
+  "name": "Greenfield Harvest",
+  "prefix": "gfh",
+  "niche": "agro",
+  "seed": 4,
+  "direction": "Warm and earthy: centred masthead, split colour-panel hero, serif headings on cream, numbered service rows, a timeline and contact cards above the footer.",
+  "description": "A warm, earthy design for agriculture, food export and sustainable businesses: centred masthead, colour-panel hero, serif headings on a cream background, numbered service rows, a timeline process and contact cards in the footer.",
+  "theme": {
+    "primary": "#2F5D3A",
+    "secondary": "#D9A441",
+    "bg": "#FBF8F1",
+    "text": "#22301F",
+    "heading_font": "fraunces",
+    "body_font": "dm-sans",
+    "radius": "24px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "panel",
+    "banner": "solid",
+    "head": "serif",
+    "card": "tint",
+    "about": "single",
+    "services": "rows",
+    "stats": "cards",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "boxed",
+    "footer": "band"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 55%, #3a2a00)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "mark_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "-.015em",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "service_images": true,
+    "home_services": 4,
+    "features_image": "",
+    "cta_image": "about-2.svg",
+    "home": [
+      "hero",
+      "about",
+      "services",
+      "stats",
+      "features",
+      "process",
+      "testimonials",
+      "logos",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

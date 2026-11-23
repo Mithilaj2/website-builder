@@ -1,0 +1,13 @@
+.{{p}} .{{p}}-hero-stack { padding: 5.5rem 0 0; text-align: center; }
+.{{p}}-hero-glow { position: absolute; left: 50%; top: -260px; width: 1100px; height: 700px; transform: translateX(-50%); background: radial-gradient(closest-side, rgba(var(--wb-primary-rgb), .22), transparent 70%), radial-gradient(closest-side at 70% 60%, rgba(var(--wb-secondary-rgb), .18), transparent 70%); pointer-events: none; }
+.{{p}}-hero-stack-text { max-width: 860px; margin: 0 auto; }
+.{{p}}-hero-stack .{{p}}-hero-text { margin-left: auto; margin-right: auto; }
+.{{p}}-hero-stack .{{p}}-eyebrow-hero { border: 1px solid var(--{{p}}-line-strong); padding: .4rem 1rem; border-radius: 999px; color: var(--{{p}}-ink); }
+.{{p}}-hero-stack .{{p}}-eyebrow-hero::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--wb-secondary); box-shadow: 0 0 0 4px rgba(var(--wb-secondary-rgb), .25); }
+.{{p}}-hero-stage { position: relative; margin-top: 3.5rem; padding-bottom: 4.5rem; }
+.{{p}}-hero-stack .{{p}}-hero-frame { border: 1px solid var(--{{p}}-line); }
+.{{p}}-hero-stack .{{p}}-hero-frame img { aspect-ratio: 21 / 9; }
+.{{p}}-hero-chips { list-style: none; padding: 0; margin: -1.6rem auto 0; position: relative; display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; }
+.{{p}}-hero-chips li { display: inline-flex; align-items: center; gap: .5rem; background: var(--{{p}}-card); color: var(--{{p}}-ink); border: 1px solid var(--{{p}}-line); box-shadow: var(--{{p}}-shadow-sm); padding: .65rem 1.15rem; border-radius: 999px; font-weight: 600; font-size: .92rem; }
+.{{p}}-hero-chips i { color: var(--{{p}}-hl); }
+@media (max-width: 767.98px) { .{{p}} .{{p}}-hero-stack { padding-top: 3.5rem; } .{{p}}-hero-stack .{{p}}-hero-frame img { aspect-ratio: 4 / 3; } .{{p}}-hero-chips { margin-top: 1.25rem; } .{{p}}-hero-stage { padding-bottom: 3rem; } }

@@ -1,0 +1,5 @@
+.{{p}} .{{p}}-stats-cards { background: var(--{{p}}-surface); padding: 4.5rem 0; }
+.{{p}}-stats-cards .{{p}}-stat { background: var(--{{p}}-card); border-radius: var(--{{p}}-radius-lg); padding: 1.8rem 1.5rem; box-shadow: var(--{{p}}-shadow-sm); border-bottom: 4px solid var(--wb-secondary); }
+.{{p}}-stats-cards .{{p}}-stat strong { color: var(--{{p}}-link); }
+.{{p}}-stats-cards .{{p}}-stat-label { color: var(--{{p}}-muted); }
+.{{p}}-stats-cards .{{p}}-stat-icon { color: var(--{{p}}-hl); }

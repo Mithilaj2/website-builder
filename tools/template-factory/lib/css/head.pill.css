@@ -1,0 +1,2 @@
+.{{p}}-head .{{p}}-eyebrow { background: rgba(var(--wb-secondary-rgb), .15); padding: .4rem .95rem; border-radius: 999px; letter-spacing: .1em; }
+.{{p}}-head .{{p}}-eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--wb-secondary); }

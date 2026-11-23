@@ -1,0 +1,6 @@
+.{{p}}-team-cards .{{p}}-member { background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); overflow: hidden; }
+.{{p}}-team-cards .{{p}}-member-photo { aspect-ratio: 4 / 4.4; }
+.{{p}}-team-cards .{{p}}-member-body { padding: 1.4rem 1.4rem 1.6rem; }
+.{{p}}-team-cards .{{p}}-card-title { font-size: 1.12rem; margin-bottom: .2rem; }
+.{{p}}-team-cards .{{p}}-member:hover .{{p}}-member-photo img { transform: scale(1.04); }
+.{{p}}-team-cards .{{p}}-member-photo img { transition: transform .5s ease; }

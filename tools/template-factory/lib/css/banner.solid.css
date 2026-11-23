@@ -1,0 +1,7 @@
+.{{p}} .{{p}}-banner-solid { background: var(--{{p}}-deep); color: #fff; }
+.{{p}}-banner-solid .{{p}}-banner-bg { opacity: .16; }
+.{{p}}-banner-solid::after { content: ""; position: absolute; right: -80px; top: -160px; width: 420px; height: 420px; border-radius: 50%; border: 60px solid rgba(255, 255, 255, .05); }
+.{{p}}-banner-solid .{{p}}-banner-title { color: #fff; }
+.{{p}}-banner-solid .{{p}}-banner-text { color: rgba(255, 255, 255, .8); }
+.{{p}}-banner-solid .{{p}}-crumbs { color: rgba(255, 255, 255, .75); }
+.{{p}}-banner-solid .{{p}}-crumbs li + li::before { color: var(--wb-secondary); opacity: 1; }

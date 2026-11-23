@@ -1,0 +1,7 @@
+.{{p}}-process-cards .{{p}}-steps { display: grid; grid-template-columns: repeat(var(--{{p}}-n), minmax(0, 1fr)); gap: 1.25rem; counter-reset: none; }
+.{{p}}-process-cards .{{p}}-step { background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); padding: 2rem 1.6rem; position: relative; overflow: hidden; }
+.{{p}}-process-cards .{{p}}-step-num { display: block; font-size: 3.4rem; line-height: 1; color: transparent; -webkit-text-stroke: 1.5px var(--{{p}}-hl); margin-bottom: 1.25rem; }
+.{{p}}-process-cards .{{p}}-step::after { content: ""; position: absolute; left: 0; bottom: 0; height: 4px; width: 100%; background: var(--wb-secondary); transform: scaleX(.18); transform-origin: left; transition: transform .35s ease; }
+.{{p}}-process-cards .{{p}}-step:hover::after { transform: scaleX(1); }
+@media (max-width: 991.98px) { .{{p}}-process-cards .{{p}}-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 575.98px) { .{{p}}-process-cards .{{p}}-steps { grid-template-columns: minmax(0, 1fr); } }

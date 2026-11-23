@@ -1,0 +1,76 @@
+{
+  "id": "business_template_10",
+  "name": "Pulse Studio",
+  "prefix": "pls",
+  "niche": "agency",
+  "seed": 10,
+  "direction": "Playful and editorial: floating pill navigation, split hero with big rounded frames, display serif headings on warm paper, coral accents and a coral call-to-action band.",
+  "description": "A playful, editorial design for creative agencies, studios and marketing teams: floating navigation, split hero with rounded frames, display-serif headings on warm paper, masonry gallery and a coral call-to-action band.",
+  "theme": {
+    "primary": "#111827",
+    "secondary": "#FF5A5F",
+    "bg": "#FFF8F3",
+    "text": "#111827",
+    "heading_font": "dm-serif-display",
+    "body_font": "dm-sans",
+    "radius": "24px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "split",
+    "banner": "light",
+    "head": "rule",
+    "card": "shadow",
+    "about": "single",
+    "services": "cards",
+    "stats": "cards",
+    "process": "cards",
+    "testimonials": "cards",
+    "cta": "band",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 78%, #000)",
+    "icon": "soft",
+    "icon_radius": "18px",
+    "heading_weight": 400,
+    "hero_weight": 400,
+    "track": "0",
+    "hero_scale": 1.08,
+    "card": "#FFFFFF",
+    "band": "var(--wb-secondary)",
+    "on_band": "#FFFFFF"
+  },
+  "extra_css": ".pls .pls-hero-split .pls-hero-visual::before { border-radius: 50%; width: 46%; height: 52%; }\n.pls .pls-btn { font-family: var(--wb-body-font); }",
+  "demo": {
+    "service_images": false,
+    "home_services": 4,
+    "home_services_columns": "4",
+    "features_image": "",
+    "home": [
+      "hero",
+      "logos",
+      "services",
+      "about",
+      "stats",
+      "process",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

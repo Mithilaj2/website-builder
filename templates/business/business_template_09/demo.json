@@ -1,0 +1,737 @@
+{
+  "settings": {
+    "site": {
+      "name": "Harbor & Co. Advocates",
+      "tagline": "Corporate, litigation and property law",
+      "phone": "+91 22 4920 1144",
+      "email": "chambers@harborco.example",
+      "address": "Suite 902, Nariman Bhavan\nNariman Point, Mumbai 400021",
+      "hours": "Mon–Fri: 10:00 am – 7:00 pm",
+      "footer_about": "A full-service law firm advising companies, families and institutions with clarity, discretion and rigour.",
+      "footer_text": "All rights reserved.",
+      "rating": "Ranked by legal directories",
+      "rating_label": "for corporate and dispute resolution work",
+      "header_button": {
+        "text": "Schedule a consultation",
+        "url": "page:contact"
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "seo": {
+      "description": "Harbor & Co. Advocates — corporate, litigation and property law in Mumbai. A full-service law firm advising companies, families and institutions with clarity, discretion and rigour.",
+      "keywords": "corporate, litigation and property law, Mumbai"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Advocates & solicitors since 1994",
+            "heading": "Clear counsel for decisions that matter.",
+            "subheading": "Corporate advisory, commercial litigation, property and family law from a team of 40 advocates in Mumbai and Delhi.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Schedule a consultation",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:services"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Corporate & M&A"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "High Court & NCLT"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Arbitration"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "The firm",
+            "heading": "Three decades of trusted legal advice",
+            "description": "<p>Harbor & Co. was founded in 1994 by two advocates who wanted a firm that combined courtroom strength with practical commercial sense.</p><p>Today our partners advise listed companies, family businesses and individuals on transactions, disputes and property — always with partner-level attention.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1994",
+            "experience_label": "Practising law since",
+            "points": [
+              {
+                "text": "Partner-led engagements"
+              },
+              {
+                "text": "Offices in Mumbai and Delhi"
+              },
+              {
+                "text": "Strict confidentiality"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Expertise",
+            "heading": "Practice areas",
+            "description": "A full-service law firm advising companies, families and institutions with clarity, discretion and rigour.",
+            "columns": "4",
+            "items": [
+              {
+                "icon": "bi-bank",
+                "title": "Litigation & disputes",
+                "description": "Representation before High Courts, NCLT, consumer forums and tribunals.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-briefcase",
+                "title": "Corporate & contracts",
+                "description": "Company formation, M&A, joint ventures and commercial contracts.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-house-check",
+                "title": "Property & real estate",
+                "description": "Title due diligence, conveyancing, RERA and development agreements.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-people",
+                "title": "Family & succession",
+                "description": "Wills, trusts, succession planning and mediated settlements.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "Arbitration",
+                "description": "Domestic and international commercial arbitration.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Regulatory & compliance",
+                "description": "SEBI, RBI and FEMA advice for regulated businesses.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Years of practice",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "",
+                "label": "Advocates",
+                "icon": ""
+              },
+              {
+                "number": "2500",
+                "suffix": "+",
+                "label": "Matters handled",
+                "icon": ""
+              },
+              {
+                "number": "2",
+                "suffix": "",
+                "label": "Offices",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "What our clients say",
+            "items": [
+              {
+                "quote": "Harbor & Co. guided our acquisition from term sheet to closing with remarkable clarity.",
+                "name": "Anil Vardhan",
+                "role": "Chairman, Vardhan Group",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Measured, thorough and always available. They resolved a difficult family settlement with great care.",
+                "name": "Mrs. R. Kapoor",
+                "role": "Private client",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Their arbitration team understands shipping disputes better than anyone we have instructed.",
+                "name": "Capt. D’Souza",
+                "role": "Director, Seabird Shipping",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "What clients value in our practice",
+            "description": "",
+            "image": "theme:images/about-2.svg",
+            "items": [
+              {
+                "icon": "bi-person-badge",
+                "title": "Partner attention",
+                "description": "A partner leads every matter from first meeting to resolution."
+              },
+              {
+                "icon": "bi-lock",
+                "title": "Discretion",
+                "description": "Confidential handling of sensitive corporate and family matters."
+              },
+              {
+                "icon": "bi-lightbulb",
+                "title": "Commercial sense",
+                "description": "Advice that weighs legal risk against business reality."
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Responsiveness",
+                "description": "Replies within one working day, and urgent matters the same day."
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar2-check",
+                "title": "Consultation",
+                "description": "A confidential first meeting to understand the matter."
+              },
+              {
+                "icon": "bi-journal-text",
+                "title": "Assessment",
+                "description": "A written view of options, risks, costs and timelines."
+              },
+              {
+                "icon": "bi-briefcase",
+                "title": "Engagement",
+                "description": "A clear engagement letter and a dedicated team."
+              },
+              {
+                "icon": "bi-check2-circle",
+                "title": "Resolution",
+                "description": "Representation through to settlement, order or closing."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Need advice on a legal matter?",
+            "description": "Schedule a confidential consultation with one of our partners.",
+            "background_image": "",
+            "button": {
+              "text": "Schedule a consultation",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Harbor & Co. Advocates",
+            "subheading": "A full-service law firm advising companies, families and institutions with clarity, discretion and rigour.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "The firm",
+            "heading": "Three decades of trusted legal advice",
+            "description": "<p>Harbor & Co. was founded in 1994 by two advocates who wanted a firm that combined courtroom strength with practical commercial sense.</p><p>Today our partners advise listed companies, family businesses and individuals on transactions, disputes and property — always with partner-level attention.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1994",
+            "experience_label": "Practising law since",
+            "points": [
+              {
+                "text": "Partner-led engagements"
+              },
+              {
+                "text": "Offices in Mumbai and Delhi"
+              },
+              {
+                "text": "Strict confidentiality"
+              }
+            ],
+            "button": {
+              "text": "Get in touch",
+              "url": "page:contact"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Years of practice",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "",
+                "label": "Advocates",
+                "icon": ""
+              },
+              {
+                "number": "2500",
+                "suffix": "+",
+                "label": "Matters handled",
+                "icon": ""
+              },
+              {
+                "number": "2",
+                "suffix": "",
+                "label": "Offices",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people behind our work",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Adv. Rohan Harbor",
+                "role": "Founding Partner",
+                "bio": "Corporate and M&A, 32 years at the Bar.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Adv. Meenakshi Iyer",
+                "role": "Senior Partner",
+                "bio": "Commercial litigation and arbitration.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Adv. Kabir Malhotra",
+                "role": "Partner, Delhi",
+                "bio": "Regulatory and competition law.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Adv. Sana Merchant",
+                "role": "Partner",
+                "bio": "Property, trusts and succession.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Need advice on a legal matter?",
+            "description": "Schedule a confidential consultation with one of our partners.",
+            "background_image": "",
+            "button": {
+              "text": "Schedule a consultation",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "A full-service law firm advising companies, families and institutions with clarity, discretion and rigour.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Our services",
+            "heading": "Our practice areas",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-bank",
+                "title": "Litigation & disputes",
+                "description": "Representation before High Courts, NCLT, consumer forums and tribunals.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-briefcase",
+                "title": "Corporate & contracts",
+                "description": "Company formation, M&A, joint ventures and commercial contracts.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-house-check",
+                "title": "Property & real estate",
+                "description": "Title due diligence, conveyancing, RERA and development agreements.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-people",
+                "title": "Family & succession",
+                "description": "Wills, trusts, succession planning and mediated settlements.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "Arbitration",
+                "description": "Domestic and international commercial arbitration.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Regulatory & compliance",
+                "description": "SEBI, RBI and FEMA advice for regulated businesses.",
+                "image": "",
+                "link": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar2-check",
+                "title": "Consultation",
+                "description": "A confidential first meeting to understand the matter."
+              },
+              {
+                "icon": "bi-journal-text",
+                "title": "Assessment",
+                "description": "A written view of options, risks, costs and timelines."
+              },
+              {
+                "icon": "bi-briefcase",
+                "title": "Engagement",
+                "description": "A clear engagement letter and a dedicated team."
+              },
+              {
+                "icon": "bi-check2-circle",
+                "title": "Resolution",
+                "description": "Representation through to settlement, order or closing."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Engagements",
+            "heading": "Simple ways to work with us",
+            "description": "Every engagement is agreed in writing before work begins.",
+            "plans": [
+              {
+                "name": "Consultation",
+                "price": "₹15,000",
+                "period": "session",
+                "features": "One-hour partner meeting\nWritten summary of options\nConfidential",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              },
+              {
+                "name": "Fixed-fee matter",
+                "price": "Fixed",
+                "period": "quote",
+                "features": "Defined scope of work\nAgreed fee upfront\nPartner-led team\nRegular updates",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": true
+              },
+              {
+                "name": "Retainer",
+                "price": "₹1,50,000",
+                "period": "month",
+                "features": "On-call legal advice\nContract reviews\nPriority response",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Common questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Is the first consultation confidential?",
+                "answer": "Yes. Everything you share is protected by advocate–client privilege from the first conversation."
+              },
+              {
+                "question": "How are fees structured?",
+                "answer": "Fixed fees for defined work, and hourly or stage-wise fees for litigation, agreed in writing upfront."
+              },
+              {
+                "question": "Do you appear outside Mumbai?",
+                "answer": "Yes. We appear before courts and tribunals across India and in international arbitrations."
+              },
+              {
+                "question": "Can you review a contract urgently?",
+                "answer": "Yes. Urgent reviews can usually be turned around within 48 hours."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Need advice on a legal matter?",
+            "description": "Schedule a confidential consultation with one of our partners.",
+            "background_image": "",
+            "button": {
+              "text": "Schedule a consultation",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "A look inside Harbor & Co. Advocates — our people, places and projects.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Our Nariman Point chambers"
+              },
+              {
+                "image": "theme:images/about-1.svg",
+                "caption": "Library"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Conference room"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Bombay High Court"
+              },
+              {
+                "image": "theme:images/about-2.svg",
+                "caption": "Team meeting"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Arbitration hearing"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Need advice on a legal matter?",
+            "description": "Schedule a confidential consultation with one of our partners.",
+            "background_image": "",
+            "button": {
+              "text": "Schedule a consultation",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Tell us what you need and we will get back to you within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit our Mumbai office, call us, or send a message using the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you get in touch",
+            "description": "",
+            "items": [
+              {
+                "question": "Is the first consultation confidential?",
+                "answer": "Yes. Everything you share is protected by advocate–client privilege from the first conversation."
+              },
+              {
+                "question": "How are fees structured?",
+                "answer": "Fixed fees for defined work, and hourly or stage-wise fees for litigation, agreed in writing upfront."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how we collect, use and protect the personal information you share with us through this website.</p><h3>Information we collect</h3><p>When you submit an enquiry we collect your name, email address, phone number and the details of your message.</p><h3>How we use it</h3><p>We use this information only to respond to your enquiry and to provide the services you request. We do not sell or share your information with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on our Contact page.</p><p><em>Replace this sample text with your own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Use of this website</h3><p>The content on this website is for general information only and may change without notice.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+.{{p}}-masonry { columns: var(--{{p}}-n); column-gap: 1.25rem; }
+.{{p}}-masonry .{{p}}-shot { break-inside: avoid; margin-bottom: 1.25rem; }
+.{{p}}-masonry .{{p}}-shot.is-tall img { aspect-ratio: 3 / 4; }
+@media (max-width: 991.98px) { .{{p}}-masonry { columns: 2; } }
+@media (max-width: 575.98px) { .{{p}}-masonry { columns: 1; } }

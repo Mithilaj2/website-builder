@@ -1,0 +1,5 @@
+.{{p}}-card { border: 1px solid var(--{{p}}-line); border-top: 4px solid var(--wb-secondary); border-radius: var(--{{p}}-radius); }
+.{{p}}-service.has-image { border-top-width: 1px; }
+.{{p}}-service.has-image .{{p}}-service-img { border-bottom: 4px solid var(--wb-secondary); }
+.{{p}}-service:hover, .{{p}}-feature-card:hover { box-shadow: var(--{{p}}-shadow); }
+.{{p}}-plan.is-featured { border-top-color: var(--wb-secondary); }

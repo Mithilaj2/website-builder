@@ -1,0 +1,73 @@
+{
+  "id": "business_template_08",
+  "name": "Crestmark Construct",
+  "prefix": "cmc",
+  "niche": "construction",
+  "seed": 8,
+  "direction": "Solid and confident: charcoal navigation, split panel hero with a yellow edge, accent-topped image cards, large inline numbers and a yellow call-to-action band.",
+  "description": "A solid, confident design for construction, contracting and infrastructure firms: charcoal navigation, a panel hero with a yellow edge, accent-topped image cards, large inline numbers and a yellow call-to-action band.",
+  "theme": {
+    "primary": "#262626",
+    "secondary": "#F5B700",
+    "bg": "#FFFFFF",
+    "text": "#1A1A1A",
+    "heading_font": "jost",
+    "body_font": "roboto",
+    "radius": "4px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "panel",
+    "banner": "image",
+    "head": "rule",
+    "card": "top",
+    "about": "grid",
+    "services": "cards",
+    "stats": "inline",
+    "process": "line",
+    "testimonials": "cards",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "boxed",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 50%, #2b2000)",
+    "icon": "accent",
+    "hero_ink": "var(--wb-text)",
+    "brand_color": "var(--wb-text)",
+    "link": "var(--wb-text)",
+    "heading_weight": 700,
+    "case": "none"
+  },
+  "extra_css": ".cmc .cmc-brand-mark { box-shadow: inset 0 -4px 0 var(--wb-secondary); }",
+  "demo": {
+    "service_images": true,
+    "home_services": 4,
+    "home_services_columns": "4",
+    "features_image": "svc-1.svg",
+    "home": [
+      "hero",
+      "logos",
+      "about",
+      "stats",
+      "services",
+      "process",
+      "features",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

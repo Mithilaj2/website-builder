@@ -1,0 +1,16 @@
+.{{p}} .{{p}}-hero-panel { padding: 0; background: var(--{{p}}-deep); color: #fff; }
+.{{p}}-hero-panel-media { position: absolute; top: 0; right: 0; bottom: 0; width: 50%; }
+.{{p}}-hero-panel-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.{{p}}-hero-panel-media::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 10px; background: var(--wb-secondary); z-index: 1; }
+.{{p}}-hero-panel-text { padding: 6.5rem 3rem 6.5rem 0; min-height: min(80vh, 680px); display: flex; flex-direction: column; justify-content: center; }
+.{{p}}-hero-panel .{{p}}-hero-title { color: #fff; }
+.{{p}}-hero-panel .{{p}}-hero-text { color: rgba(255, 255, 255, .8); }
+.{{p}}-hero-panel .{{p}}-eyebrow-hero { color: var(--wb-secondary); }
+.{{p}}-hero-panel .{{p}}-eyebrow-hero::before { content: ""; width: 34px; height: 2px; background: currentColor; }
+.{{p}}-hero-panel .{{p}}-highlights { color: rgba(255, 255, 255, .9); }
+.{{p}}-hero-panel .{{p}}-highlights i { color: var(--wb-secondary); }
+@media (max-width: 991.98px) {
+  .{{p}}-hero-panel-media { position: relative; width: 100%; height: 300px; }
+  .{{p}}-hero-panel-media::before { width: 100%; height: 6px; top: auto; bottom: 0; }
+  .{{p}}-hero-panel-text { padding: 3rem 0 4rem; min-height: 0; }
+}

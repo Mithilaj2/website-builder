@@ -1,0 +1,719 @@
+{
+  "settings": {
+    "site": {
+      "name": "Pulse Creative",
+      "tagline": "Brand, digital and performance marketing",
+      "phone": "+91 11 4567 3030",
+      "email": "hello@pulsecreative.example",
+      "address": "2nd Floor, 14 Hauz Khas Village\nNew Delhi 110016",
+      "hours": "Mon–Fri: 10:00 am – 7:00 pm",
+      "footer_about": "An independent agency making brands people remember and campaigns that pay back.",
+      "footer_text": "All rights reserved.",
+      "rating": "3× average return on ad spend",
+      "rating_label": "across 140 live performance campaigns",
+      "header_button": {
+        "text": "Start a project",
+        "url": "page:contact"
+      },
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/"
+      }
+    },
+    "seo": {
+      "description": "Pulse Creative — brand, digital and performance marketing in New Delhi. An independent agency making brands people remember and campaigns that pay back.",
+      "keywords": "brand, digital and performance marketing, New Delhi"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Independent creative agency",
+            "heading": "Ideas that get noticed. Campaigns that grow.",
+            "subheading": "Brand identity, websites, social and performance marketing for ambitious D2C brands, startups and institutions.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Start a project",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Explore services",
+              "url": "page:services"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Strategy-led creative"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "In-house media team"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Weekly reporting"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Building brands for 90+ founders and marketers",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Chaiwala Co.",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Kanha Organics",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Urbanfit",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Saffron Stays",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Moji Toys",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Services built around your business",
+            "description": "An independent agency making brands people remember and campaigns that pay back.",
+            "columns": "4",
+            "items": [
+              {
+                "icon": "bi-gem",
+                "title": "Brand identity",
+                "description": "Naming, logos, packaging and brand guidelines that make you unmistakable.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-phone",
+                "title": "Social media",
+                "description": "Content calendars, reels and community management that build a following.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-window",
+                "title": "Websites & landing pages",
+                "description": "Fast, conversion-focused sites built on modern stacks.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              },
+              {
+                "icon": "bi-megaphone",
+                "title": "Performance marketing",
+                "description": "Meta, Google and marketplace ads optimised for return, not vanity.",
+                "image": "",
+                "link": {
+                  "text": "Learn more",
+                  "url": "page:services"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Who we are",
+            "heading": "Strategists, designers and growth marketers under one roof",
+            "description": "<p>Pulse started in a Hauz Khas studio with three people and a simple belief: great creative and hard numbers belong together.</p><p>Today 45 strategists, designers, writers and media buyers build brands from first logo to the hundredth campaign — and report on what each rupee returns.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2016",
+            "experience_label": "Making brands since",
+            "points": [
+              {
+                "text": "45-person in-house team"
+              },
+              {
+                "text": "Meta and Google partners"
+              },
+              {
+                "text": "Brand and performance in one place"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "90",
+                "suffix": "+",
+                "label": "Brands built",
+                "icon": ""
+              },
+              {
+                "number": "3",
+                "suffix": "×",
+                "label": "Average ROAS",
+                "icon": ""
+              },
+              {
+                "number": "45",
+                "suffix": "",
+                "label": "Specialists",
+                "icon": ""
+              },
+              {
+                "number": "28",
+                "suffix": "",
+                "label": "Industry awards",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-heart",
+                "title": "Listen",
+                "description": "A workshop to understand your brand, customers and goals."
+              },
+              {
+                "icon": "bi-lightbulb",
+                "title": "Create",
+                "description": "Concepts, identity and content designed around one big idea."
+              },
+              {
+                "icon": "bi-send",
+                "title": "Launch",
+                "description": "Campaigns go live across the channels your customers use."
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "title": "Optimise",
+                "description": "Weekly testing and reporting to keep improving."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "What our clients say",
+            "items": [
+              {
+                "quote": "Pulse rebuilt our brand and our ads in the same quarter. Revenue from Meta tripled.",
+                "name": "Ishita Arora",
+                "role": "Founder, Kanha Organics",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "They think like owners. Every idea comes with a reason and a number attached.",
+                "name": "Varun Khanna",
+                "role": "CMO, Urbanfit",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Our new identity and website made us look like the premium brand we always were.",
+                "name": "Nandini Rao",
+                "role": "Co-founder, Saffron Stays",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Got a brand that deserves more attention?",
+            "description": "Tell us about it — we will come back with ideas, not a sales pitch.",
+            "background_image": "",
+            "button": {
+              "text": "Start a project",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Pulse Creative",
+            "subheading": "An independent agency making brands people remember and campaigns that pay back.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Who we are",
+            "heading": "Strategists, designers and growth marketers under one roof",
+            "description": "<p>Pulse started in a Hauz Khas studio with three people and a simple belief: great creative and hard numbers belong together.</p><p>Today 45 strategists, designers, writers and media buyers build brands from first logo to the hundredth campaign — and report on what each rupee returns.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2016",
+            "experience_label": "Making brands since",
+            "points": [
+              {
+                "text": "45-person in-house team"
+              },
+              {
+                "text": "Meta and Google partners"
+              },
+              {
+                "text": "Brand and performance in one place"
+              }
+            ],
+            "button": {
+              "text": "Get in touch",
+              "url": "page:contact"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "90",
+                "suffix": "+",
+                "label": "Brands built",
+                "icon": ""
+              },
+              {
+                "number": "3",
+                "suffix": "×",
+                "label": "Average ROAS",
+                "icon": ""
+              },
+              {
+                "number": "45",
+                "suffix": "",
+                "label": "Specialists",
+                "icon": ""
+              },
+              {
+                "number": "28",
+                "suffix": "",
+                "label": "Industry awards",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Leadership",
+            "heading": "The people behind our work",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Aditya Sen",
+                "role": "Founder & Creative Director",
+                "bio": "Former ECD at a global network agency.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Ritika Malhotra",
+                "role": "Head of Strategy",
+                "bio": "Builds brand and go-to-market plans.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Kunal Bhatia",
+                "role": "Head of Performance",
+                "bio": "Manages ₹40 crore of annual ad spend.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Zoya Hussain",
+                "role": "Design Lead",
+                "bio": "Identity, packaging and digital design.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Got a brand that deserves more attention?",
+            "description": "Tell us about it — we will come back with ideas, not a sales pitch.",
+            "background_image": "",
+            "button": {
+              "text": "Start a project",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "An independent agency making brands people remember and campaigns that pay back.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Our services",
+            "heading": "Everything we can do for you",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-gem",
+                "title": "Brand identity",
+                "description": "Naming, logos, packaging and brand guidelines that make you unmistakable.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-phone",
+                "title": "Social media",
+                "description": "Content calendars, reels and community management that build a following.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-window",
+                "title": "Websites & landing pages",
+                "description": "Fast, conversion-focused sites built on modern stacks.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-megaphone",
+                "title": "Performance marketing",
+                "description": "Meta, Google and marketplace ads optimised for return, not vanity.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-camera-reels",
+                "title": "Content production",
+                "description": "Product shoots, films and UGC-style videos from our studio.",
+                "image": "",
+                "link": {}
+              },
+              {
+                "icon": "bi-search",
+                "title": "SEO & content",
+                "description": "Search strategy and articles that bring customers in every month.",
+                "image": "",
+                "link": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "A simple, proven way of working",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-heart",
+                "title": "Listen",
+                "description": "A workshop to understand your brand, customers and goals."
+              },
+              {
+                "icon": "bi-lightbulb",
+                "title": "Create",
+                "description": "Concepts, identity and content designed around one big idea."
+              },
+              {
+                "icon": "bi-send",
+                "title": "Launch",
+                "description": "Campaigns go live across the channels your customers use."
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "title": "Optimise",
+                "description": "Weekly testing and reporting to keep improving."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Engagements",
+            "heading": "Simple ways to work with us",
+            "description": "Every engagement is agreed in writing before work begins.",
+            "plans": [
+              {
+                "name": "Brand kit",
+                "price": "₹3,50,000",
+                "period": "one-time",
+                "features": "Logo and visual identity\nBrand guidelines\nSocial templates",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              },
+              {
+                "name": "Growth",
+                "price": "₹2,25,000",
+                "period": "month",
+                "features": "Performance marketing\n20 creatives a month\nWeekly reporting\nLanding-page testing",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": true
+              },
+              {
+                "name": "Full service",
+                "price": "₹4,50,000",
+                "period": "month",
+                "features": "Brand, content and media\nDedicated team\nQuarterly brand campaigns",
+                "button": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Common questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you work with early-stage brands?",
+                "answer": "Yes. Our launch packages are built for founders taking a first product to market."
+              },
+              {
+                "question": "Is there a minimum ad budget?",
+                "answer": "We recommend at least ₹3 lakh a month in media for performance campaigns."
+              },
+              {
+                "question": "Who owns the creative?",
+                "answer": "You own all final artwork, files and accounts once invoices are settled."
+              },
+              {
+                "question": "How do you report results?",
+                "answer": "A live dashboard plus a weekly call covering spend, results and next tests."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Got a brand that deserves more attention?",
+            "description": "Tell us about it — we will come back with ideas, not a sales pitch.",
+            "background_image": "",
+            "button": {
+              "text": "Start a project",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "A look inside Pulse Creative — our people, places and projects.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Our Hauz Khas studio"
+              },
+              {
+                "image": "theme:images/about-1.svg",
+                "caption": "Packaging design"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Product shoot"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Strategy workshop"
+              },
+              {
+                "image": "theme:images/about-2.svg",
+                "caption": "Campaign launch"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Award night"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Got a brand that deserves more attention?",
+            "description": "Tell us about it — we will come back with ideas, not a sales pitch.",
+            "background_image": "",
+            "button": {
+              "text": "Start a project",
+              "url": "page:contact"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Tell us what you need and we will get back to you within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit our New Delhi office, call us, or send a message using the form.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you get in touch",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you work with early-stage brands?",
+                "answer": "Yes. Our launch packages are built for founders taking a first product to market."
+              },
+              {
+                "question": "Is there a minimum ad budget?",
+                "answer": "We recommend at least ₹3 lakh a month in media for performance campaigns."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how we collect, use and protect the personal information you share with us through this website.</p><h3>Information we collect</h3><p>When you submit an enquiry we collect your name, email address, phone number and the details of your message.</p><h3>How we use it</h3><p>We use this information only to respond to your enquiry and to provide the services you request. We do not sell or share your information with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on our Contact page.</p><p><em>Replace this sample text with your own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Use of this website</h3><p>The content on this website is for general information only and may change without notice.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

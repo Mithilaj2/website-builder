@@ -1,0 +1,8 @@
+.{{p}}-process-line .{{p}}-steps { display: grid; grid-template-columns: repeat(var(--{{p}}-n), minmax(0, 1fr)); gap: 2rem; }
+.{{p}}-process-line .{{p}}-step { position: relative; text-align: center; }
+.{{p}}-process-line .{{p}}-step-num { width: 74px; height: 74px; margin: 0 auto 1.3rem; border-radius: 50%; display: grid; place-items: center; background: var(--{{p}}-card); border: 2px dashed rgba(var(--wb-primary-rgb), .35); color: var(--{{p}}-link); font-size: 1.3rem; position: relative; z-index: 1; transition: all .25s ease; }
+.{{p}}-process-line .{{p}}-step:hover .{{p}}-step-num { background: var(--{{p}}-accent); color: var(--{{p}}-on-accent); border-style: solid; border-color: var(--{{p}}-accent); }
+.{{p}}-process-line .{{p}}-step-icon { display: none; }
+@media (min-width: 992px) { .{{p}}-process-line .{{p}}-step + .{{p}}-step::before { content: ""; position: absolute; top: 37px; right: 50%; width: calc(100% + 2rem); height: 2px; background: repeating-linear-gradient(90deg, rgba(var(--wb-primary-rgb), .25) 0 8px, transparent 8px 16px); } }
+@media (max-width: 991.98px) { .{{p}}-process-line .{{p}}-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 575.98px) { .{{p}}-process-line .{{p}}-steps { grid-template-columns: minmax(0, 1fr); } }

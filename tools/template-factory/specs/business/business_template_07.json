@@ -1,0 +1,69 @@
+{
+  "id": "business_template_07",
+  "name": "Suncrest Renewables",
+  "prefix": "scr",
+  "niche": "solar",
+  "seed": 7,
+  "direction": "Bright and clean-tech: floating pill navigation over a full-bleed cover hero, ocean blue and sun yellow, image service rows, a timeline and contact cards in the footer.",
+  "description": "A bright, clean-tech design for solar, energy and sustainability companies: floating navigation, full-bleed cover hero, image-led service rows, a numbers band, a timeline process and contact cards above the footer.",
+  "theme": {
+    "primary": "#0B5D8C",
+    "secondary": "#FFC93C",
+    "bg": "#FFFFFF",
+    "text": "#0F2433",
+    "heading_font": "poppins",
+    "body_font": "inter",
+    "radius": "8px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "cover",
+    "banner": "light",
+    "head": "bar",
+    "card": "shadow",
+    "about": "single",
+    "services": "rows",
+    "stats": "band",
+    "process": "timeline",
+    "testimonials": "featured",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "band"
+  },
+  "surface": [
+    "features",
+    "faq"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%"
+  },
+  "extra_css": ".scr .scr-icon { color: var(--wb-primary); background: rgba(var(--wb-secondary-rgb), .28); }\n.scr .scr-header-pill { position: sticky; }",
+  "demo": {
+    "service_images": true,
+    "home_services": 4,
+    "features_image": "",
+    "cta_image": "svc-2.svg",
+    "banner_image": "theme:images/about-2.svg",
+    "home": [
+      "hero",
+      "about",
+      "services",
+      "stats",
+      "features",
+      "process",
+      "testimonials",
+      "logos",
+      "cta"
+    ]
+  },
+  "category": "business",
+  "version": "1.0.0"
+}

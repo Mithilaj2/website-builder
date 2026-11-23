@@ -1,0 +1,6 @@
+.{{p}} .{{p}}-banner-light { background: var(--{{p}}-surface); padding: 4.5rem 0 4rem; border-bottom: 1px solid var(--{{p}}-line); }
+.{{p}}-banner-light .{{p}}-crumbs { color: var(--{{p}}-muted); margin-bottom: .5rem; }
+.{{p}}-banner-light .{{p}}-crumbs li[aria-current] { color: var(--{{p}}-hl); font-weight: 600; }
+.{{p}}-banner-light .{{p}}-banner-title { color: var(--{{p}}-hero-ink); font-size: clamp(2.2rem, 1.4rem + 3vw, 3.8rem); }
+.{{p}}-banner-light .{{p}}-banner-text { color: var(--{{p}}-muted); }
+.{{p}}-banner-thumb { aspect-ratio: 16 / 9; border-radius: var(--{{p}}-radius-lg); background-size: cover; background-position: center; box-shadow: var(--{{p}}-shadow); }

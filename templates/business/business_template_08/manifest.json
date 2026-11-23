@@ -1,0 +1,160 @@
+{
+  "id": "business_template_08",
+  "name": "Crestmark Construct",
+  "category": "business",
+  "version": "1.0.0",
+  "description": "A solid, confident design for construction, contracting and infrastructure firms: charcoal navigation, a panel hero with a yellow edge, accent-topped image cards, large inline numbers and a yellow call-to-action band.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "blog"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#262626",
+      "secondary": "#F5B700",
+      "bg": "#FFFFFF",
+      "text": "#1A1A1A",
+      "heading_font": "jost",
+      "body_font": "roboto",
+      "radius": "4px",
+      "button_style": "sharp",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "pricing"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "logos",
+        "about",
+        "stats",
+        "services",
+        "process",
+        "features",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "team",
+        "cta"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "pricing",
+        "faq",
+        "cta"
+      ]
+    },
+    "gallery": {
+      "default_sections": [
+        "page_banner",
+        "gallery",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact",
+        "faq"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About Us",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Gallery",
+      "slug": "gallery",
+      "type": "gallery"
+    },
+    {
+      "title": "Contact Us",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

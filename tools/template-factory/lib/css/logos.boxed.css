@@ -1,0 +1,4 @@
+.{{p}} .{{p}}-logos { background: var(--{{p}}-surface); }
+.{{p}}-logos-row { gap: 1rem; }
+.{{p}}-logos-row li { background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius); padding: 1rem 1.6rem; display: grid; place-items: center; min-width: 150px; }
+@media (max-width: 575.98px) { .{{p}}-logos-row li { min-width: 0; flex: 1 1 40%; padding: .8rem 1rem; } }

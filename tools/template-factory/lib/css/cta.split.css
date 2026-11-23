@@ -1,0 +1,8 @@
+.{{p}} .{{p}}-cta-split { padding: 4rem 0; }
+.{{p}}-cta-split .{{p}}-cta-inner { display: grid; grid-template-columns: minmax(0, 1fr); background: var(--{{p}}-surface); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); overflow: hidden; }
+.{{p}}-cta-split .{{p}}-cta-inner.has-image { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
+.{{p}}-cta-split .{{p}}-cta-copy { padding: 3.5rem; border-left: 6px solid var(--wb-secondary); }
+.{{p}}-cta-split .{{p}}-cta-title { color: var(--{{p}}-hero-ink); }
+.{{p}}-cta-split .{{p}}-cta-text { color: var(--{{p}}-muted); }
+.{{p}}-cta-media { background-size: cover; background-position: center; min-height: 260px; }
+@media (max-width: 767.98px) { .{{p}}-cta-split .{{p}}-cta-inner.has-image { grid-template-columns: minmax(0, 1fr); } .{{p}}-cta-split .{{p}}-cta-copy { padding: 2.25rem 1.5rem; } .{{p}}-cta-media { min-height: 200px; } }
