@@ -271,6 +271,12 @@ final class Generator
             $old = (static fn ($f) => require $f)($live);
             $key = is_array($old) ? ($old['key'] ?? null) : null;
         }
+        // The template version is the one actually copied (regeneration always copies the template's current files).
+        $tplVersion = (string) ((json_decode((string) file_get_contents("$st/theme/manifest.json"), true) ?: [])['version'] ?? $w['template_version']);
+        if ($tplVersion !== (string) $w['template_version']) {
+            Database::update('wb_websites', ['template_version' => $tplVersion, 'updated_at' => now()], $this->site->id());
+            $this->log[] = "Template version recorded: {$w['template_version']} → $tplVersion.";
+        }
         $features = ['contact'];
         if (!empty($w['payment_gateway']) && !empty(json_decode((string) $w['features'], true)['payments'])) {
             $features[] = 'payments';
@@ -286,7 +292,7 @@ final class Generator
             'key' => $key ?: base64_encode(random_bytes(32)),
             'runtime_version' => $this->runtimeVersion(),
             'template' => $w['template_code'],
-            'template_version' => $w['template_version'],
+            'template_version' => $tplVersion,
             'features' => $features,
             'generated_at' => date('c'),
         ];
@@ -311,7 +317,7 @@ final class Generator
         $this->writePhp("$st/config/payment.php", $payment, 'Payment gateway selection (credentials are stored encrypted in the database, never in files)');
         copy(RUNTIME_PATH . '/skeleton/_private/.htaccess', "$st/config/.htaccess");
         file_put_contents("$st/VERSION", json_encode([
-            'runtime' => $this->runtimeVersion(), 'template' => $w['template_code'], 'template_version' => $w['template_version'],
+            'runtime' => $this->runtimeVersion(), 'template' => $w['template_code'], 'template_version' => $tplVersion,
             'generated_at' => date('c'), 'run' => (int) $this->run['id'],
         ], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");
         $this->log[] = 'Wrote config/app.php, config/database.php (prefix ' . $w['table_prefix'] . '), config/payment.php, VERSION.';

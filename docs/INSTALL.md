@@ -66,6 +66,17 @@ Each website has its own admin at `<website address>/admin`. In the builder, ope
 
 For enquiry emails, the client (or you) should set **Settings → Email → SMTP** in the website admin, with a mailbox on the client's domain (cPanel → Email Accounts → Connect Devices shows the SMTP server and port).
 
+## Delivering a website to a client
+
+Website → **Export & deploy** → *Full package* → download the ZIP. Give the client the ZIP and the **installation key** shown next to it; the steps are in the package's `INSTALLATION.md`:
+1. extract the ZIP in `public_html`
+2. create a database in cPanel
+3. open `/install.php`
+
+Later code fixes go out as an *Update package*.
+
+Builder updates: after uploading a new version of the builder, open any builder page once. Database changes (`database/migrations/`) are applied automatically.
+
 ## Online payments (each generated website)
 
 The website owner sets payments up in the website admin → **Payments → Settings**. See `docs/PROGRESS.md` → "Sandbox verification checklist". Requirements:
@@ -99,6 +110,14 @@ php tests/phase4_http_test.php http://127.0.0.1:8080 info@channelsoftech.com 'Yo
 ```
 
 The last argument is optional. It lets the test clear its own login attempts and test accounts, so it can be re-run within the 15-minute lockout window.
+
+Phase 6 (export and install on separate hosting; needs an empty web folder and a database user that cannot reach the builder database):
+
+```bash
+php tests/phase6_http_test.php http://127.0.0.1:8080 info@channelsoftech.com 'YourPassword' 2 http://client-host/ /path/to/client/public_html client_db client_user 'client_pass' site_ www-data
+# PHP's built-in server can stand in for the client host (applies the same .htaccess protections):
+php -S 127.0.0.1:8084 -t /tmp/client tools/site-builtin-router.php
+```
 
 Phase 5 (payments) runs against a local imitation of the gateways. Add `'payment_emulator' => 'http://127.0.0.1:8090'` to `config/config.php` (developers only, never on the live builder), regenerate the website, then:
 

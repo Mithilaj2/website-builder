@@ -7,9 +7,72 @@
 | 2 Template engine | ✅ Complete | PR #2 |
 | 3 Website generator | ✅ Complete | PR #3 |
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
-| 5 Payment integration | ✅ Built, awaiting review · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
-| 6 Export & deployment | ⏳ Not started | Independence test on a second cPanel account to be run by Channel Softech |
+| 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
+| 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
 | 7 Template library | ⏳ Not started | Order: Business, Education, Hospital, E-commerce, then the rest |
+
+## Phase 6: Export and deployment
+
+### Delivered
+- **Export & deploy page** for each website (button in the website header). The export runs in stages driven by the browser, like generation, with no cron, so large image libraries never hit a hosting time limit.
+- **Full package** (first deployment), one ZIP to extract in `public_html` or any subfolder:
+  - the website code, template, libraries (`vendor/`) and images
+  - `database/schema.sql` + `database/data.sql`, written in PHP (no `mysqldump` needed)
+  - `install.php`, plus `INSTALLATION.md`, `REQUIREMENTS.md` and `DEPLOYMENT_CHECKLIST.md`, filled in for that website
+  - a separate **database-only ZIP** for hosts where the client prefers phpMyAdmin
+- **Nothing secret leaves the builder.** The package's last step re-opens it and blocks the download if any builder value is found inside.
+  - not exported: the builder's database credentials and server paths, the QA copy's website key (the installer creates a new one), administrator logins, login history, the payment message log, test payments, and the developer-only payment emulator setting
+  - blanked: every saved encrypted value (SMTP password, payment keys); the client enters them again
+  - optional: enquiries and live payments
+- **Installation key:** each full package gets its own key, shown on the export page and in `DEPLOYMENT_CHECKLIST.md`. The package holds only its hash, and the installer requires it, so nobody who finds the uploaded files can install over the website. Wrong keys are limited to 10 per hour.
+- **Installer (`install.php`):**
+  1. checks the server: PHP 8.1+, the 8 required extensions, writable folders, and the database version (MySQL 5.7+ / MariaDB 10.3+)
+  2. asks for the installation key, the database details, the table prefix (renamed safely, including foreign keys; existing tables are never replaced unless ticked) and the owner login
+  3. imports the database, creates the owner, writes `config/` with a **new website key**, and detects whether clean addresses work
+  4. deletes itself, the SQL files and the key file, and locks against re-running
+
+  It runs on older PHP too, where it explains that 8.1 is needed instead of showing a blank page.
+- **Update package** (for deployed websites): code only, plus `UPDATE.md`. It never contains `config/`, `uploads/`, `storage/`, data or the installer. Database changes are applied automatically the first time the admin is opened.
+- **Package list:** the 5 newest packages per website are kept, each showing its installation key, size and versions; ZIP and SQL downloads are for users who can manage websites only.
+- **Builder database updates:** `database/migrations/NNN_*.sql` are applied once, in order, on the first request after an upload (version in `wb_settings`). The first one extends `wb_exports`. The builder on Apache updated itself this way.
+
+### Independence test
+Docker Hub is blocked from this environment, so the "clean server" test was done three ways:
+
+| Target | Web server | Database | Result |
+|---|---|---|---|
+| Separate Apache site (own folder and port) | Apache 2.4 + PHP 8.3 | new database, new user with no access to the builder database | 53/53 |
+| Same host, subfolder `/shop`, prefix `shop_`, same database | Apache 2.4 + PHP 8.3 | shared with the website above (both coexist) | 53/53 |
+| PHP **8.1.31** (compiled from source; the minimum version) | PHP built-in server, `.htaccess` rules emulated | its own database and user | 53/53 |
+| Package exported by the **Apache** copy of the builder | Apache, subfolder `/apx`, prefix `apx_` | client database | 53/53 |
+
+`tests/phase6_http_test.php` (53 checks) runs on each target:
+- **Export:** export → download → inspect the package (required files present; no config, logs, secrets, builder passwords, paths or QA key)
+- **Install:** before installing, the website sends visitors to `install.php`; wrong key, wrong database password and weak owner password are refused; installation succeeds and cleans up after itself
+- **The installed website:**
+  - every page, assets and the 404 page work; 9 private paths are blocked, including the guides that contain the key
+  - the contact form works (signed with the new key)
+  - the admin: owner sign-in, no QA logins carried over, the enquiry received, content editing, image upload
+  - payment keys and the SMTP password are empty
+- **Update package:** applying it keeps content, logins and configuration, and does not bring the installer back
+
+All PHP files (runtime, builder, installer, libraries) also pass `php -l` under PHP 8.1, and a scan found no PHP 8.2+ functions or syntax.
+
+### Regression
+Phase 1 80/80, Phase 2 99/99, Phase 3 79/79, Phase 4 105/105 and Phase 5 68/68, on both the PHP dev server and Apache.
+
+### Bugs found and fixed
+- **Template version label (from Phase 3):** regenerating copied the newest template files but kept the old version number on the website (site 2 said 1.0.0 while running 1.1.1). The generator now records the version it actually copied.
+- **Export page layout (from your screenshot):**
+  - the packages table was cramped (the installation key broke over three lines) and is now laid out to fit at 1280–1920 px
+  - older packages whose files were removed are hidden behind a link
+  - "1 images" now reads "1 uploaded image"
+- The list kept 6 packages instead of 5: the clean-up didn't count the export that was finishing.
+- The runtime's database scripts are now split by a proper SQL splitter that understands quotes and comments, shared with the installer.
+
+### Still to do by Channel Softech
+- Run the same install on a **real second cPanel account** (Spec §20 item 18), using the full package and `DEPLOYMENT_CHECKLIST.md`.
+- Payment sandbox verification (Phase 5 checklist). It can be done on that deployed website.
 
 ## Phase 5: Online payments
 
@@ -107,7 +170,7 @@ Test credentials: Razorpay test keys appear right after signup. Stripe test keys
 ### Notes
 - Currency is INR. Refunds are made from the gateway's dashboard (the admin shows the payment ID to search for).
 - E-commerce checkout (cart and orders) arrives with the e-commerce templates in Phase 7, on this same payment framework.
-- `payment_emulator` in `config/config.php` is a developer-only setting. The Phase 6 export must never include it (noted for Phase 6).
+- `payment_emulator` in `config/config.php` is a developer-only setting. The Phase 6 export removes it and refuses to finish if it is found.
 
 ## Phase 4: The generated website's own admin panel
 

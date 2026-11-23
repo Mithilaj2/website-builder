@@ -377,8 +377,16 @@ If anything fails before step 11, the staging folder is deleted and the live sit
 2. **SQL dump** (done in PHP, because `mysqldump` and `exec` are often disabled on cPanel): `schema.sql` (the `CREATE TABLE`s with a `{{prefix}}` placeholder) + `data.sql` (`INSERT`s, chunked). **Excluded:** `admin_users`, `login_attempts`, payment credentials (gateway and mode are kept, keys are blanked), test transactions, and test contact submissions (optional checkbox).
 3. **Package** into `storage/exports/site_NNNNNN_<date>.zip` via ZipArchive (also streamed in chunks over AJAX for large media): the code, theme, uploads, vendor, `install.php`, `database/`, `INSTALLATION.md`, `REQUIREMENTS.md` and `DEPLOYMENT_CHECKLIST.md`. `config/*.php` is replaced by `*.example.php` templates, so no builder credentials or APP_KEY leave the builder.
 4. **The Export screen shows:** downloads (full ZIP, SQL only), PHP version, required extensions (`pdo_mysql, mbstring, json, openssl, sodium, zip, gd or imagick, fileinfo, curl`), DB requirements, payment configuration status, and the deployment checklist.
+   *As built (Phase 6):*
+   - the dump uses a real table prefix (`site_` by default) rather than a placeholder, so phpMyAdmin can import it directly; the installer renames tables and foreign keys to the prefix the client chooses
+   - every full package has an **installation key**; only its hash ships in `config/install.php`
+   - `install.php` writes a new `APP_KEY`, so values encrypted on the QA copy are blanked at export
 5. **Client deploy:** upload the ZIP → extract into `public_html` (or a subfolder; the base path is auto-detected) → create the DB → open `/install.php` → done. Payment keys are entered in `/admin → Payments`.
 6. **The final independence test** (Spec §20, item 18): a clean Docker PHP 8.1 + MariaDB stack in CI that has no access to the builder, which installs the exported ZIP and runs smoke tests. The team then repeats it on a real separate cPanel account.
+   *As built:* Docker images could not be pulled in the build environment. The same test (`tests/phase6_http_test.php`) ran instead on:
+   - a separate Apache site with its own database user
+   - a subfolder install with a different prefix
+   - PHP 8.1.31 compiled from source
 
 ---
 
