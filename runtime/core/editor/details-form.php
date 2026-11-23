@@ -16,7 +16,12 @@
             <div class="col-md-6"><label class="form-label">Phone</label><input class="form-control" name="phone" maxlength="20"></div>
             <div class="col-md-6"><label class="form-label">WhatsApp number</label><input class="form-control" name="whatsapp" maxlength="20" placeholder="+91…"></div>
             <div class="col-md-6"><label class="form-label">Working hours</label><input class="form-control" name="hours" maxlength="120" placeholder="Mon–Sat: 9 am – 6 pm"></div>
+            <div class="col-md-6"><label class="form-label">Emergency / helpline number</label><input class="form-control" name="emergency_phone" maxlength="20" placeholder="Shown by templates that have an emergency strip"></div>
             <div class="col-12"><label class="form-label">Address</label><textarea class="form-control" name="address" rows="2" maxlength="400"></textarea></div>
+          </div></div></div>
+          <div class="card mb-3"><div class="card-header">Highlight badge</div><div class="card-body"><div class="row g-3">
+            <div class="col-md-5"><label class="form-label">Badge title</label><input class="form-control" name="rating" maxlength="40" placeholder="e.g. NABH accredited"></div>
+            <div class="col-md-7"><label class="form-label">Badge text</label><input class="form-control" name="rating_label" maxlength="90" placeholder="Leave the title empty to hide the badge"></div>
           </div></div></div>
           <div class="card mb-3"><div class="card-header">Header button</div><div class="card-body"><div class="row g-3">
             <div class="col-md-5"><label class="form-label">Text</label><input class="form-control" name="header_button_text" maxlength="40" placeholder="Leave empty to hide"></div>

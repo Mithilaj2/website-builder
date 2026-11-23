@@ -1,12 +1,110 @@
 {
-  "inter": { "name": "Inter", "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif", "weights": [400, 600, 700] },
-  "manrope": { "name": "Manrope", "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif", "weights": [400, 600, 700] },
-  "poppins": { "name": "Poppins", "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif", "weights": [400, 600, 700] },
-  "montserrat": { "name": "Montserrat", "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif", "weights": [400, 600, 700] },
-  "dm-sans": { "name": "DM Sans", "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif", "weights": [400, 600, 700] },
-  "open-sans": { "name": "Open Sans", "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif", "weights": [400, 600, 700] },
-  "roboto": { "name": "Roboto", "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif", "weights": [400, 600, 700] },
-  "playfair-display": { "name": "Playfair Display", "fallback": "Georgia, 'Times New Roman', serif", "weights": [400, 600, 700] },
-  "lora": { "name": "Lora", "fallback": "Georgia, 'Times New Roman', serif", "weights": [400, 600, 700] },
-  "merriweather": { "name": "Merriweather", "fallback": "Georgia, 'Times New Roman', serif", "weights": [400, 600, 700] }
+  "inter": {
+    "name": "Inter",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "manrope": {
+    "name": "Manrope",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "poppins": {
+    "name": "Poppins",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "montserrat": {
+    "name": "Montserrat",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "dm-sans": {
+    "name": "DM Sans",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "open-sans": {
+    "name": "Open Sans",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "roboto": {
+    "name": "Roboto",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "playfair-display": {
+    "name": "Playfair Display",
+    "fallback": "Georgia, 'Times New Roman', serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "lora": {
+    "name": "Lora",
+    "fallback": "Georgia, 'Times New Roman', serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "merriweather": {
+    "name": "Merriweather",
+    "fallback": "Georgia, 'Times New Roman', serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "fraunces": {
+    "name": "Fraunces",
+    "fallback": "Georgia, 'Times New Roman', serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  },
+  "plus-jakarta-sans": {
+    "name": "Plus Jakarta Sans",
+    "fallback": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+    "weights": [
+      400,
+      600,
+      700
+    ]
+  }
 }

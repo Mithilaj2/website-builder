@@ -9,7 +9,60 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | ⏳ Not started | Order: Business, Education, Hospital, E-commerce, then the rest |
+| 7 Template library | 🔄 In progress | 7a part 1 (Education 01, Hospital 01) built, awaiting review. Next: E-commerce 01 with the shop module, then 7b and 7c |
+
+## Phase 7a, part 1: Education 01 and Hospital 01
+
+### Delivered
+- **Education 01, "Lyceum Classic"** (`templates/education/education_template_01`, CSS prefix `lyc`).
+  - Design: forest green and saffron on a paper-toned background, Fraunces headings, arch-shaped frames, a school crest when no logo is uploaded.
+  - Pages: Home, About, Courses, Admissions, Events, Gallery, Contact, Privacy Policy, Terms.
+  - Sections: notice board, course cards, events list with date blocks, admission steps, fee cards and an admission enquiry form.
+  - 20 original SVG illustrations. Demo content: "Evergreen Valley Academy", Thrissur.
+- **Hospital 01, "CareLine Health"** (`templates/hospital/hospital_template_01`, CSS prefix `crl`).
+  - Design: deep teal and coral on mint, Plus Jakarta Sans headings, leaf-shaped frames, a heartbeat-line motif and a navy footer.
+  - A 24×7 emergency strip (header style "emergency"; "minimal" hides it) and an emergency card in the hero and footer.
+  - Pages: Home, About, Departments, Doctors, Health Packages, Book Appointment, Contact, Privacy Policy, Terms.
+  - Sections: quick-access bar, department tiles, doctor cards (specialty, qualification, experience, timings, booking button), OPD timetable with a highlighted emergency line, health packages, insurance-partner logos and an appointment form.
+  - 20 original SVG illustrations (doctors, patients, hospital scenes and invented insurer logos). Demo content: "CareLine Hospital", Kochi.
+- **New section types:** `courses`, `events` (YYYY-MM-DD dates; "hide past events" on the live site), `notices`, `doctors`, `opening_hours` and `booking_form`. Any template can use them.
+- **Booking-style forms** (appointment, admission, booking, enquiry):
+  - Name plus a mobile number or an email; "email required" can be switched on per form.
+  - The message is optional.
+  - Up to two dropdowns and a date (a real date, no past dates offered).
+  - Answers are stored with the enquiry, so the site database gains migration 005, `extra_json`.
+  - Answers appear in the admin's Enquiries list, in the CSV (Form and Details columns) and in the notification email, whose subject names the kind, e.g. "New appointment request".
+- **Site details:** two new client-editable fields.
+  - An **emergency / helpline number**.
+  - A **highlight badge** (title and text), e.g. "NABH accredited". Before this, the badge could only come from demo content.
+- **Fonts bundled:** Fraunces and Plus Jakarta Sans (WOFF2, SIL Open Font License). Runtime version 1.3.0.
+
+### Tests
+`tests/phase7a_http_test.php`, **68 end-to-end checks** against both generated websites:
+- templates registered and active; all 18 pages render; theme assets and fonts load
+- emergency number and badge: validation, rendering, and hiding when empty
+- validation of the new section types; events "hide past" on the live site vs the builder preview
+- appointment form: dropdowns, date rules, phone/email rule, forged token, thank-you message, notification email with answers and Reply-To, admin list, CSV
+- "email required" option; admission form on the education site; the contact form's rules unchanged
+
+Results:
+
+| Server | Phase 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|
+| PHP dev server | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+All template and runtime PHP files also pass the PHP 8.1 syntax check. Every page of both templates was screenshot at 1440 px and 390 px: no horizontal scrolling, no broken images, no unreadable buttons and no console errors.
+
+### Fixed during this phase
+- **Unreadable buttons on Education 01 (your screenshot).** The general link colour outranked the button colours, so some button text matched its background. Button rules are now scoped to the template, and the screenshot check flags any button whose text colour equals its background.
+- **Images that looked missing in full-page screenshots.** These were lazy-loaded images that had not loaded yet. The screenshot script now scrolls the page first and checks every image.
+- **Hero badge text.** It could not be edited after creation; it is now in Site details.
+- **Notification email.** Labels of the extra answers are now HTML-escaped.
+
+### Notes
+- Each template's design direction is recorded in `docs/TEMPLATE_GUIDE.md`, so later templates in the same category look different.
+- An unknown `form_type` sent to the section editor is not stored; like every select field, it falls back to the default.
 
 ## Phase 6: Export and deployment
 
@@ -410,6 +463,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-07 (Phase 7a, part 1)
+- Education 01 and Hospital 01 templates, six category section types, booking-style forms with stored answers, emergency number and badge in Site details. Phase 7a test 68/68; Phases 1–6 regression green on the dev server and Apache.
 
 ### 2026-11-06 (Phase 3)
 - Wizard, staged generator, standalone generated websites, QA access and statuses built and tested (see above).

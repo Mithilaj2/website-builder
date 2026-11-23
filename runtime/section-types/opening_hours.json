@@ -1,0 +1,85 @@
+{
+  "type": "opening_hours",
+  "label": "Opening hours / timings",
+  "icon": "bi-clock",
+  "description": "A timings table with a highlighted line (e.g. emergency or helpline).",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Timings",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Visiting and OPD hours",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "",
+      "max": 800
+    },
+    {
+      "key": "rows",
+      "label": "Timings",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 14,
+      "item_label": "label",
+      "fields": [
+        {
+          "key": "label",
+          "label": "Day(s) / service",
+          "type": "text",
+          "required": true,
+          "max": 60
+        },
+        {
+          "key": "hours",
+          "label": "Hours",
+          "type": "text",
+          "required": true,
+          "max": 80
+        }
+      ],
+      "default": [
+        {
+          "label": "Monday – Saturday",
+          "hours": "9:00 am – 8:00 pm"
+        },
+        {
+          "label": "Sunday",
+          "hours": "9:00 am – 1:00 pm"
+        }
+      ]
+    },
+    {
+      "key": "highlight_label",
+      "label": "Highlighted line: label",
+      "type": "text",
+      "default": "Emergency",
+      "max": 40
+    },
+    {
+      "key": "highlight_value",
+      "label": "Highlighted line: value",
+      "type": "text",
+      "default": "24 × 7",
+      "max": 80
+    },
+    {
+      "key": "note",
+      "label": "Note",
+      "type": "textarea",
+      "default": "",
+      "max": 300
+    }
+  ]
+}

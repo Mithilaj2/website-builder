@@ -1,0 +1,151 @@
+{
+  "type": "booking_form",
+  "label": "Booking / appointment form",
+  "icon": "bi-calendar-check",
+  "description": "An enquiry form for appointments, admissions or bookings. Submissions appear in Enquiries.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Book a visit",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Request an appointment",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "Fill in the form and our team will call you to confirm.",
+      "max": 800
+    },
+    {
+      "key": "form_type",
+      "label": "Form type",
+      "type": "select",
+      "default": "appointment",
+      "options": {
+        "appointment": "Appointment",
+        "admission": "Admission enquiry",
+        "booking": "Booking",
+        "enquiry": "General enquiry"
+      }
+    },
+    {
+      "key": "form_heading",
+      "label": "Form heading",
+      "type": "text",
+      "default": "Your details",
+      "max": 120
+    },
+    {
+      "key": "select1_label",
+      "label": "First dropdown: label (empty = hide)",
+      "type": "text",
+      "default": "Department",
+      "max": 40
+    },
+    {
+      "key": "select1_options",
+      "label": "First dropdown: options (one per line)",
+      "type": "textarea",
+      "default": "General Medicine\nPaediatrics\nOrthopaedics",
+      "max": 1500
+    },
+    {
+      "key": "select2_label",
+      "label": "Second dropdown: label (empty = hide)",
+      "type": "text",
+      "default": "",
+      "max": 40
+    },
+    {
+      "key": "select2_options",
+      "label": "Second dropdown: options (one per line)",
+      "type": "textarea",
+      "default": "",
+      "max": 1500
+    },
+    {
+      "key": "date_label",
+      "label": "Date field: label (empty = hide)",
+      "type": "text",
+      "default": "Preferred date",
+      "max": 40
+    },
+    {
+      "key": "message_label",
+      "label": "Message field: label (empty = hide)",
+      "type": "text",
+      "default": "Anything we should know?",
+      "max": 60
+    },
+    {
+      "key": "email_required",
+      "label": "Email is required (otherwise mobile number is enough)",
+      "type": "toggle",
+      "default": false
+    },
+    {
+      "key": "button_text",
+      "label": "Button text",
+      "type": "text",
+      "default": "Request appointment",
+      "max": 40
+    },
+    {
+      "key": "success_message",
+      "label": "Message after sending",
+      "type": "text",
+      "default": "Thank you! We have received your request and will call you to confirm.",
+      "max": 200
+    },
+    {
+      "key": "image",
+      "label": "Side image (optional)",
+      "type": "image"
+    },
+    {
+      "key": "points",
+      "label": "Side information",
+      "type": "repeater",
+      "min_items": 0,
+      "max_items": 6,
+      "item_label": "title",
+      "fields": [
+        {
+          "key": "icon",
+          "label": "Icon",
+          "type": "icon"
+        },
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true,
+          "max": 80
+        },
+        {
+          "key": "text",
+          "label": "Text",
+          "type": "text",
+          "max": 160
+        }
+      ],
+      "default": [
+        {
+          "icon": "bi-telephone",
+          "title": "We call you back",
+          "text": "Within 2 working hours to confirm."
+        }
+      ]
+    }
+  ]
+}

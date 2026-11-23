@@ -542,7 +542,7 @@ $(function () {
 
       const $d = $('#detailsForm');
       const s = res.site || {};
-      ['name', 'tagline', 'email', 'phone', 'whatsapp', 'address', 'hours', 'footer_about', 'footer_text'].forEach(k => $d.find('[name=' + k + ']').val(s[k] || ''));
+      ['name', 'tagline', 'email', 'phone', 'whatsapp', 'emergency_phone', 'address', 'hours', 'rating', 'rating_label', 'footer_about', 'footer_text'].forEach(k => $d.find('[name=' + k + ']').val(s[k] || ''));
       $d.find('[name=header_button_text]').val((s.header_button || {}).text || '');
       $d.find('[name=header_button_url]').val((s.header_button || {}).url || '');
       ['facebook', 'instagram', 'linkedin', 'twitter', 'youtube'].forEach(k => $d.find('[name=social_' + k + ']').val((s.social || {})[k] || ''));

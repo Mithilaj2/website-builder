@@ -1,0 +1,85 @@
+{
+  "type": "notices",
+  "label": "Notices / announcements",
+  "icon": "bi-megaphone",
+  "description": "A notice board of dated announcements.",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Small heading above title",
+      "type": "text",
+      "default": "Notice board",
+      "max": 80
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text",
+      "default": "Latest announcements",
+      "required": true,
+      "max": 160
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "textarea",
+      "default": "",
+      "max": 800
+    },
+    {
+      "key": "items",
+      "label": "Notices",
+      "type": "repeater",
+      "min_items": 1,
+      "max_items": 30,
+      "item_label": "title",
+      "fields": [
+        {
+          "key": "date",
+          "label": "Date (YYYY-MM-DD)",
+          "type": "text",
+          "max": 10,
+          "pattern": "^(\\d{4}-\\d{2}-\\d{2})?$"
+        },
+        {
+          "key": "title",
+          "label": "Notice",
+          "type": "text",
+          "required": true,
+          "max": 200
+        },
+        {
+          "key": "link",
+          "label": "Link (page or document)",
+          "type": "link",
+          "default": {
+            "text": "Read more",
+            "url": ""
+          }
+        },
+        {
+          "key": "is_new",
+          "label": "Mark as new",
+          "type": "toggle",
+          "default": false
+        }
+      ],
+      "default": [
+        {
+          "date": "2026-11-01",
+          "title": "Admissions open for the new academic year",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "key": "button",
+      "label": "Button",
+      "type": "link",
+      "default": {
+        "text": "View all notices",
+        "url": ""
+      }
+    }
+  ]
+}
