@@ -25,7 +25,8 @@ final class PaymentPage
      * @param \Closure(array):void $onPaid   sends the receipt + owner notification (best effort)
      * @param \Closure(string,string):void $log
      */
-    public function __construct(private PaymentService $svc, private Renderer $renderer, private array $ctx, private \Closure $onPaid, private \Closure $log)
+    /** @param ?\Closure(array):?string $afterReturn  where to send the customer back to (shop orders); null = the receipt page */
+    public function __construct(private PaymentService $svc, private Renderer $renderer, private array $ctx, private \Closure $onPaid, private \Closure $log, private ?\Closure $afterReturn = null)
     {
     }
 
@@ -149,7 +150,7 @@ final class PaymentPage
                 $this->svc->event((int) $tx['id'], $tx['gateway'], 'return', false, 'error', $e->getMessage());
             }
         }
-        header('Location: ' . $this->receiptUrl($ref), true, 303);
+        header('Location: ' . $this->backUrl($ref), true, 303);
     }
 
     private function cancel(string $ref): void
@@ -173,7 +174,7 @@ final class PaymentPage
                 ($this->onPaid)($this->svc->find((int) $tx['id']));
             }
         }
-        header('Location: ' . $this->receiptUrl($ref), true, 303);
+        header('Location: ' . $this->backUrl($ref), true, 303);
     }
 
     private function receipt(string $ref): void
@@ -284,6 +285,14 @@ final class PaymentPage
     private function abs(string $sub): string
     {
         return $this->ctx['abs_base'] . ($this->ctx['url'])($sub);
+    }
+
+    /** Shop orders go back to the order page; other payments to their receipt. */
+    private function backUrl(string $ref): string
+    {
+        $tx = $this->svc->byReference($ref);
+        $url = $tx && $this->afterReturn ? ($this->afterReturn)($tx) : null;
+        return $url ?? $this->receiptUrl($ref);
     }
 
     private function receiptUrl(string $ref): string

@@ -9,7 +9,73 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a part 1 (Education 01, Hospital 01) built, awaiting review. Next: E-commerce 01 with the shop module, then 7b and 7c |
+| 7 Template library | 🔄 In progress | 7a done (Education 01, Hospital 01, E-commerce 01 with the shop module), awaiting review. Next: 7b (template 01 for the other 6 categories), then 7c |
+
+## Phase 7a, part 2: E-commerce 01 and the shop module
+
+### Delivered
+- **E-commerce 01, "Terra Market"** (`templates/ecommerce/ecommerce_template_01`, CSS prefix `trm`).
+  - Design: terracotta and sage on cream, Playfair Display headings, capsule-shaped frames and a scrolling announcement bar built from the shop settings (free-delivery threshold, cash on delivery).
+  - The header has a Shop menu with categories and a cart icon with an item count; the footer lists the shop's categories.
+  - Product tiles show a second image on hover and a quick "Add to cart" button.
+  - Pages: Home, Our Story, Help & FAQ, Contact, Shipping & Returns, Privacy, Terms, plus the shop pages.
+  - 34 original SVG illustrations. Demo shop "Terra Market", Kochi: 4 categories, 14 products (6 with options), 2 coupons.
+- **Shop module** (in every website's runtime; switched on by templates with the `ecommerce` feature, or in Shop settings):
+  - **Pages:** `/shop` (categories, search, sort, pagination), `/shop/product/{slug}` (gallery, options with their own price and stock, quantity, add to cart / buy now, related products), `/shop/cart`, `/shop/checkout`, `/shop/order/{no}` and `/shop/invoice/{no}`.
+  - **Cart:** kept in a signed cookie (no sessions or database rows). Prices and stock are always looked up again, quantities are capped to stock, and unavailable items are removed with a message.
+  - **Coupons:** percentage (with a maximum), fixed amount, or free delivery. Each can have a minimum order, dates, a usage limit and a paused status.
+  - **GST:** prices include or exclude GST (a setting). The discount is shared across lines by value, then tax is worked out per line. CGST + SGST applies within the shop's state and IGST for other states.
+  - **Delivery:** a flat charge, free above a threshold, and an optional minimum order.
+  - **Payment:** online through the Phase 5 gateways (Razorpay, Stripe, Cashfree, PhonePe, PayU), with a "Pay now" retry if a payment fails, or cash on delivery (optional fee and upper limit).
+  - **Orders:** order numbers like `TM261107ABCDE`. Stock is taken and the coupon counted only when an order is placed: at once for cash on delivery, after payment for online orders. Cancelling returns the stock. The customer's order page is protected by a token.
+  - **GST invoice:** a PDF with financial-year numbering (e.g. `TM/26-27/0001`), seller and buyer GSTIN, HSN codes and a GST summary. It is produced by a small built-in PDF writer, so no new library is needed.
+  - **Emails:** order confirmation to the customer, a new-order notice to the shop, and shipped, delivered or cancelled updates with tracking.
+- **Shop admin** (website admin):
+  - **Orders:** filters, sales totals and CSV export. The order page has status changes (with allowed transitions), courier and tracking, "cash received", private notes, a history and the invoice.
+  - **Products:** add and edit with images from the media library (upload or choose), price, "was" price, GST rate, HSN, SKU, stock tracking, options, badge, featured flag and draft status. The list has quick stock edits and a low-stock filter.
+  - **Categories, Coupons, and Shop settings** (owner only): GSTIN, state, prefixes, delivery, cash on delivery, returns text.
+- **New section types:** `products` (featured, newest, lowest price or one category) and `product_categories`. Template helpers: `$view->products()`, `productCategories()`, `shopUrl()`, `productUrl()`, `categoryUrl()`, `money()`, `cartCount()`, `shopToken()`, `shopEnabled()`.
+- **Other changes:**
+  - Site database migration 006 (shop tables; payments can belong to an order).
+  - `shop` is a reserved page address.
+  - The media library has a "Products" folder.
+  - The generator's smoke test also loads the shop, a product and the cart.
+  - Runtime 1.4.0.
+
+### Tests
+`tests/phase7a_shop_test.php`, **102 end-to-end checks** on a freshly generated Terra Market website:
+- catalogue, filters and sorting
+- options, stock caps and the signed cart cookie
+- coupons, and the exact GST arithmetic
+- checkout validation
+- a cash-on-delivery order: stock, coupon, invoice numbering, both emails, the invoice PDF and the token checks
+- an online order through the Razorpay emulator: a failed payment, a retry and a successful payment, with one confirmation only and IGST for another state
+- admin order workflow, tracking emails, cancellation and restock, CSV
+- product, category, coupon and settings management and their validation
+- the shop switched off, and the template preview
+
+Results:
+
+| Server | Shop | Phase 7a (Edu/Hospital) | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+The Phase 6 export test also passed (53/53) on the shop website itself. The exported shop runs on the separate host with its products, cart and product pages. All PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of the store, product, cart, checkout and order pages and the admin screens show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- On phones, the cart line total and the checkout form overflowed the screen; both now fit.
+- "From" prices only show when a product's options really have different prices.
+- Checkout totals now follow the chosen payment method, so the cash-on-delivery fee shows when cash on delivery is selected.
+- A "not enough stock" message is now shown when adding more than is available.
+- Customer-facing item amounts show the item price; the discount is shown on its own line.
+- The Phase 6 test no longer assumes the Business template's form class.
+
+### Notes / limits
+- Shipping is one flat charge with a free-delivery threshold. Shipping and the cash-on-delivery fee are charged without GST (shown separately on the invoice).
+- Refunds are made in the gateway's dashboard. Cancelling a paid order emails the customer that the payment will be refunded.
+- Products are managed in the website's own admin (Products), also on the QA copy. The builder's section editor places product grids and categories on pages.
+- No customer accounts: customers follow their order with the link in their email. Accounts can be added later if needed.
 
 ## Phase 7a, part 1: Education 01 and Hospital 01
 
@@ -463,6 +529,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-07 (Phase 7a, part 2)
+- E-commerce 01 (Terra Market) and the shop module: catalogue, options, cart, coupons, GST, cash on delivery and online payment, orders admin, PDF invoices, emails. Shop test 102/102; all other suites green on the dev server and Apache.
 
 ### 2026-11-07 (Phase 7a, part 1)
 - Education 01 and Hospital 01 templates, six category section types, booking-style forms with stored answers, emergency number and badge in Site details. Phase 7a test 68/68; Phases 1–6 regression green on the dev server and Apache.

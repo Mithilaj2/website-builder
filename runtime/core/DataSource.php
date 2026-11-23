@@ -24,4 +24,13 @@ interface DataSource
 
     /** @return array<string, string> media path => alt text */
     public function mediaAlt(): array;
+
+    /**
+     * Active shop products for sections (featured, category, newest…); empty when the site has no shop.
+     * @param array{category?:string, featured?:bool, sort?:string, limit?:int} $f  category is a slug
+     */
+    public function products(array $f): array;
+
+    /** @return list<array> active product categories with product_count */
+    public function productCategories(): array;
 }

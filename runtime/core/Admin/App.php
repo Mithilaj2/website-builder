@@ -74,7 +74,7 @@ final class App
                 }
             }
             try {
-                $this->$handler($params);
+                str_starts_with($handler, 'shop:') ? $this->shopAdmin()->{substr($handler, 5)}($params) : $this->$handler($params);
             } catch (ValidationError $e) {
                 if ($e->extra) {
                     $this->json(['ok' => false, 'message' => $e->getMessage(), 'errors' => (object) $e->errors] + $e->extra, 409);
@@ -126,6 +126,19 @@ final class App
             ['POST', 'payments/settings', 'savePaymentSettings', 'owner'], ['POST', 'payments/test', 'testPaymentConnection', 'owner'],
             ['GET', 'api/payments', 'apiPayments', 'auth'], ['GET', 'api/payments/export', 'apiPaymentsExport', 'auth'],
             ['GET', 'api/payments/{tid}', 'apiPayment', 'auth'], ['POST', 'api/payments/{tid}/recheck', 'apiPaymentRecheck', 'auth'],
+            // Shop (e-commerce templates)
+            ['GET', 'orders', 'shop:ordersPage', 'auth'], ['GET', 'orders/{oid}', 'shop:orderPage', 'auth'],
+            ['GET', 'api/orders', 'shop:apiOrders', 'auth'], ['GET', 'api/orders/export', 'shop:apiOrdersExport', 'auth'],
+            ['POST', 'api/orders/{oid}', 'shop:apiOrderUpdate', 'auth'], ['GET', 'orders/{oid}/invoice', 'shop:invoice', 'auth'],
+            ['POST', 'api/orders/{oid}/resend', 'shop:apiOrderResend', 'auth'],
+            ['GET', 'products', 'shop:productsPage', 'auth'], ['GET', 'products/new', 'shop:productForm', 'auth'], ['GET', 'products/{pid}', 'shop:productForm', 'auth'],
+            ['GET', 'api/products', 'shop:apiProducts', 'auth'], ['POST', 'api/products', 'shop:apiProductSave', 'auth'], ['POST', 'api/products/{pid}', 'shop:apiProductSave', 'auth'],
+            ['POST', 'api/products/{pid}/delete', 'shop:apiProductDelete', 'auth'], ['POST', 'api/products/{pid}/stock', 'shop:apiProductStock', 'auth'],
+            ['GET', 'categories', 'shop:categoriesPage', 'auth'], ['GET', 'api/categories', 'shop:apiCategories', 'auth'],
+            ['POST', 'api/categories', 'shop:apiCategorySave', 'auth'], ['POST', 'api/categories/{cid}', 'shop:apiCategorySave', 'auth'], ['POST', 'api/categories/{cid}/delete', 'shop:apiCategoryDelete', 'auth'],
+            ['GET', 'coupons', 'shop:couponsPage', 'auth'], ['GET', 'api/coupons', 'shop:apiCoupons', 'auth'],
+            ['POST', 'api/coupons', 'shop:apiCouponSave', 'owner'], ['POST', 'api/coupons/{cid}', 'shop:apiCouponSave', 'owner'], ['POST', 'api/coupons/{cid}/delete', 'shop:apiCouponDelete', 'owner'],
+            ['GET', 'shop-settings', 'shop:settingsPage', 'owner'], ['POST', 'shop-settings', 'shop:saveSettings', 'owner'],
             ['GET', 'api/users', 'apiUsers', 'owner'], ['POST', 'api/users', 'apiUserSave', 'owner'], ['POST', 'api/users/{uid}', 'apiUserSave', 'owner'],
             ['POST', 'api/users/{uid}/delete', 'apiUserDelete', 'owner'],
         ];
@@ -807,6 +820,75 @@ final class App
         return ($https ? 'https' : 'http') . '://' . (preg_match('/^[a-z0-9.\-]+(:\d{1,5})?$/i', $host) ? $host : 'localhost');
     }
 
+    // ================================================================== shared with ShopAdmin
+
+    /** The shop menu appears for templates that use the shop (manifest feature "ecommerce") or when the shop is switched on. */
+    public function shopAvailable(): bool
+    {
+        return $this->cache['shopAvailable'] ??= in_array('ecommerce', (array) ($this->manifest()['features'] ?? []), true) || $this->shop()->enabled();
+    }
+
+    private function shopAdmin(): ShopAdmin
+    {
+        return $this->cache['shopAdmin'] ??= new ShopAdmin($this, $this->db, $this->app, $this->base, $this->root);
+    }
+
+    public function shop(): \SiteRuntime\Shop\ShopService
+    {
+        return $this->cache['shop'] ??= new \SiteRuntime\Shop\ShopService($this->db, $this->imageOk(), $this->richtext());
+    }
+
+    public function currentUser(): ?array
+    {
+        return $this->auth->user();
+    }
+
+    public function page(string $view, array $data): void
+    {
+        $this->render($view, $data);
+    }
+
+    public function respond(array $data, int $status = 200): never
+    {
+        $this->json($data, $status);
+    }
+
+    public function respondOk(string $message, array $extra = []): never
+    {
+        $this->ok($message, $extra);
+    }
+
+    public function respondFail(string $message, array $errors = [], int $status = 422): never
+    {
+        $this->fail($message, $errors, $status);
+    }
+
+    public function siteSettings(): array
+    {
+        return $this->settings()->all();
+    }
+
+    public function paymentService(): PaymentService
+    {
+        return $this->payments();
+    }
+
+    public function sendMail(array $to, string $subject, string $html, string $text, ?string $replyTo = null): void
+    {
+        $m = $this->mailer();
+        $m->send($to, $subject, $m->wrap($subject, $html), $text, $replyTo);
+    }
+
+    public function writeLog(string $msg): void
+    {
+        $this->log($msg);
+    }
+
+    public function editorConfig(): array
+    {
+        return $this->editorVars()['config'];
+    }
+
     // ================================================================== services
 
     private function manifest(): array
@@ -917,6 +999,8 @@ final class App
         $data += ['admin' => $this, 'user' => $user, 'siteName' => (string) ($this->settings()->all()['site']['name'] ?? $this->app['name'] ?? 'Website'),
             'base' => $this->base, 'csrf' => $this->auth->csrf(), 'scripts' => [], 'active' => '',
             'paymentsOn' => $user ? $this->payments()->settings()['enabled'] : false,
+            'shopOn' => $user ? $this->shopAvailable() : false,
+            'openOrders' => $user && $this->shopAvailable() ? $this->shop()->summary()['open'] : 0,
             'newEnquiries' => $user ? (int) $this->db->value('SELECT COUNT(*) FROM ' . $this->db->t('contact_submissions') . " WHERE status = 'new'") : 0];
         $content = $this->capture(__DIR__ . '/views/' . $view . '.php', $data);
         header('Content-Type: text/html; charset=utf-8');

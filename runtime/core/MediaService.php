@@ -9,7 +9,7 @@ namespace SiteRuntime;
  */
 final class MediaService
 {
-    public const FOLDERS = ['logo' => 'Logo & favicon', 'banners' => 'Banners', 'gallery' => 'Gallery', 'pages' => 'Page images', 'team' => 'Team & people', 'general' => 'General'];
+    public const FOLDERS = ['logo' => 'Logo & favicon', 'banners' => 'Banners', 'gallery' => 'Gallery', 'pages' => 'Page images', 'team' => 'Team & people', 'products' => 'Products', 'general' => 'General'];
     public const MAX_BYTES = 8 * 1024 * 1024;
     public const MAX_DIM = 6000;
 
