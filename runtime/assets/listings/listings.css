@@ -1,0 +1,138 @@
+/* Listing pages (properties, packages, rooms…). Colours, fonts and corners follow the --wb-* theme variables;
+   templates can restyle any .wblist-* class. */
+.wblist { --l-ink: var(--wb-text, #1f2937); --l-line: rgba(var(--wb-text-rgb, 31, 41, 55), .12); --l-muted: rgba(var(--wb-text-rgb, 31, 41, 55), .64); --l-soft: rgba(var(--wb-text-rgb, 31, 41, 55), .045); --l-r: var(--wb-radius, 10px);
+  padding: 2.5rem 0 5rem; color: var(--l-ink); }
+.wblist *, .wblist *::before, .wblist *::after { box-sizing: border-box; }
+.wblist-wrap { width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 .75rem; }
+@media (max-width: 1399.98px) { .wblist-wrap { max-width: 1140px; } }
+@media (max-width: 1199.98px) { .wblist-wrap { max-width: 960px; } }
+@media (max-width: 991.98px) { .wblist-wrap { max-width: 720px; } }
+@media (max-width: 767.98px) { .wblist-wrap { max-width: 540px; } }
+@media (max-width: 575.98px) { .wblist-wrap { max-width: none; padding: 0 1rem; } }
+.wblist a { color: inherit; }
+.wblist img { max-width: 100%; display: block; }
+.wblist .visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.wblist-title { font-family: var(--wb-heading-font); font-size: clamp(1.7rem, 1.2rem + 1.6vw, 2.5rem); line-height: 1.15; margin: 0 0 .5rem; }
+.wblist h2 { font-family: var(--wb-heading-font); font-size: 1.3rem; margin: 0 0 1rem; }
+.wblist-muted { color: var(--l-muted); font-size: .94rem; margin: 0; }
+.wblist-crumbs { display: flex; flex-wrap: wrap; gap: .45rem; font-size: .86rem; color: var(--l-muted); margin-bottom: 1.1rem; }
+.wblist-crumbs a { text-decoration: none; }
+.wblist-crumbs a:hover { color: var(--wb-primary); }
+.wblist .wblist-btn { display: inline-flex; align-items: center; justify-content: center; gap: .45rem; padding: .75rem 1.3rem; border: 0; border-radius: var(--wb-btn-radius, 8px); background: var(--wb-primary); color: var(--wb-on-primary, #fff); font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; transition: filter .2s; }
+.wblist .wblist-btn:hover { filter: brightness(1.1); color: var(--wb-on-primary, #fff); }
+.wblist .wblist-btn-block { width: 100%; }
+.wblist .wblist-link { color: var(--wb-primary); font-weight: 600; text-decoration: none; }
+
+/* Filters */
+.wblist-filters { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .8rem; margin: 1.6rem 0 1.4rem; padding: 1.2rem; border-radius: var(--l-r); background: #fff; border: 1px solid var(--l-line); box-shadow: 0 18px 40px -34px rgba(0, 0, 0, .4); }
+.wblist-f { display: flex; flex-direction: column; gap: .3rem; flex: 1 1 150px; min-width: 0; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--l-muted); }
+.wblist-f-q { flex: 2 1 220px; }
+.wblist-f-sm { flex: 0 1 110px; }
+.wblist-f input, .wblist-f select, .wblist-bar select, .wblist-form input, .wblist-form select, .wblist-form textarea { font: inherit; font-size: .95rem; text-transform: none; letter-spacing: 0; color: var(--l-ink); padding: .62rem .8rem; border: 1px solid var(--l-line); border-radius: calc(var(--l-r) * .8); background: #fff; min-width: 0; width: 100%; }
+.wblist-f input:focus, .wblist-f select:focus, .wblist-form :is(input, select, textarea):focus { outline: 2px solid rgba(var(--wb-primary-rgb, 37, 99, 235), .3); border-color: var(--wb-primary); }
+.wblist-check { display: inline-flex; align-items: center; gap: .4rem; font-size: .9rem; font-weight: 600; padding-bottom: .6rem; }
+.wblist-f-actions { display: flex; align-items: center; gap: .8rem; }
+.wblist-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: .8rem; margin-bottom: 1.2rem; }
+.wblist-bar select { width: auto; }
+.wblist-empty { text-align: center; padding: 4rem 1rem; border: 1px dashed var(--l-line); border-radius: var(--l-r); }
+.wblist-empty p { margin-bottom: 1rem; }
+
+/* Cards */
+.wblist-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1.6rem; }
+.wblist-card { display: flex; flex-direction: column; border-radius: var(--l-r); overflow: hidden; background: #fff; border: 1px solid var(--l-line); transition: transform .25s, box-shadow .25s; }
+.wblist-card:hover { transform: translateY(-3px); box-shadow: 0 24px 44px -32px rgba(0, 0, 0, .45); }
+.wblist-card-img { position: relative; display: block; aspect-ratio: 4 / 3; background: var(--l-soft); overflow: hidden; }
+.wblist-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+.wblist-card:hover .wblist-card-img img { transform: scale(1.04); }
+.wblist-card.is-closed .wblist-card-img img { filter: grayscale(.6); }
+.wblist-flag { position: absolute; left: .8rem; top: .8rem; padding: .25rem .7rem; border-radius: 999px; background: var(--wb-secondary, #e11d48); color: var(--wb-on-secondary, #fff); font-size: .74rem; font-weight: 700; }
+.wblist-flag.is-dark { background: var(--l-ink); color: #fff; }
+.wblist-flag.is-static { position: static; display: inline-block; margin-bottom: .6rem; }
+.wblist-card-body { display: flex; flex-direction: column; flex: 1; padding: 1.1rem 1.2rem 1.2rem; }
+.wblist-cat { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--wb-primary); margin-bottom: .3rem; }
+.wblist-card-title { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .3rem; }
+.wblist-card-title a { text-decoration: none; }
+.wblist-loc { display: flex; gap: .35rem; align-items: baseline; color: var(--l-muted); font-size: .9rem; margin: 0 0 .7rem; }
+.wblist-facts { list-style: none; display: flex; flex-wrap: wrap; gap: .4rem 1rem; padding: .7rem 0; margin: 0 0 .8rem; border-top: 1px solid var(--l-line); border-bottom: 1px solid var(--l-line); font-size: .88rem; font-weight: 600; }
+.wblist-facts li { display: inline-flex; align-items: center; gap: .35rem; }
+.wblist-facts i { color: var(--l-muted); }
+.wblist-price { margin-top: auto; }
+.wblist-price strong { font-size: 1.2rem; font-weight: 800; color: var(--wb-primary); }
+.wblist-price small { color: var(--l-muted); }
+.wblist-pager { display: flex; justify-content: center; gap: .4rem; margin-top: 2.5rem; }
+.wblist-pager a { min-width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--l-line); border-radius: 999px; text-decoration: none; font-weight: 600; }
+.wblist-pager a.is-active { background: var(--l-ink); border-color: var(--l-ink); color: #fff; }
+
+/* Detail */
+.wblist-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 1rem 2rem; margin-bottom: 1.4rem; }
+.wblist-head .wblist-loc { font-size: 1rem; margin: 0; }
+.wblist-head-price { text-align: right; }
+.wblist-head-price small { display: block; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--l-muted); }
+.wblist-head-price strong { font-family: var(--wb-heading-font); font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.2rem); color: var(--wb-primary); }
+.wblist-head-price span { display: block; color: var(--l-muted); font-size: .9rem; }
+.wblist-gallery { display: grid; gap: .6rem; border-radius: var(--l-r); overflow: hidden; margin-bottom: 2rem; grid-template-columns: 1fr; }
+.wblist-gallery.has-many { grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 220px 220px; }
+.wblist-gallery.has-many .wblist-gallery-item:first-child { grid-row: span 2; }
+.wblist-gallery.has-2 { grid-template-columns: 2fr 1fr; grid-template-rows: 440px; }
+.wblist-gallery.has-3 { grid-template-columns: 2fr 1fr; grid-template-rows: 220px 220px; }
+.wblist-gallery.has-3 .wblist-gallery-item:first-child { grid-row: span 2; }
+.wblist-gallery-item { position: relative; padding: 0; border: 0; background: var(--l-soft); cursor: zoom-in; overflow: hidden; min-height: 0; }
+.wblist-gallery:not(.has-many):not(.has-2):not(.has-3) .wblist-gallery-item { aspect-ratio: 16 / 8; }
+.wblist-gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+.wblist-gallery-item:hover img { transform: scale(1.03); }
+.wblist-gallery-item span { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, .45); color: #fff; font-size: 1.6rem; font-weight: 700; }
+.wblist-cols { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 2.5rem; align-items: start; }
+.wblist-specs { list-style: none; padding: 0; margin: 0 0 1.6rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: .8rem; }
+.wblist-specs li { display: flex; align-items: center; gap: .8rem; padding: .9rem 1rem; border-radius: var(--l-r); background: #fff; border: 1px solid var(--l-line); }
+.wblist-specs i { font-size: 1.3rem; color: var(--wb-primary); }
+.wblist-specs small { display: block; color: var(--l-muted); font-size: .76rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+.wblist-specs strong { font-size: 1rem; }
+.wblist-lead { font-size: 1.1rem; color: var(--l-muted); }
+.wblist-prose { color: var(--l-muted); line-height: 1.75; }
+.wblist .wblist-prose h2, .wblist .wblist-prose h3 { color: var(--l-ink); font-size: 1.25rem; margin: 1.8rem 0 .7rem; }
+.wblist .wblist-prose h4 { color: var(--l-ink); font-size: 1.02rem; margin: 1.2rem 0 .3rem; }
+.wblist-listblock { margin-top: 2rem; }
+.wblist-chips { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .55rem 1.2rem; }
+.wblist-chips li { display: flex; gap: .5rem; align-items: baseline; }
+.wblist-chips i { color: var(--wb-primary); }
+.wblist-side { position: sticky; top: 100px; }
+.wblist-box { padding: 1.6rem; border-radius: var(--l-r); background: #fff; border: 1px solid var(--l-line); box-shadow: 0 24px 50px -36px rgba(0, 0, 0, .45); scroll-margin-top: 110px; }
+.wblist-box h2 { font-size: 1.2rem; }
+.wblist-form fieldset { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: .8rem; }
+.wblist-form label { display: flex; flex-direction: column; gap: .3rem; font-size: .88rem; font-weight: 600; min-width: 0; }
+.wblist-form fieldset[disabled] { opacity: .7; }
+.wblist-alert { padding: .8rem 1rem; border-radius: calc(var(--l-r) * .8); font-weight: 600; font-size: .92rem; margin-bottom: 1rem; }
+.wblist-alert.is-sent { background: #E7F6EC; color: #11613A; }
+.wblist-alert.is-error { background: #FDECEA; color: #A12A1A; }
+.wblist .wblist-call { display: flex; align-items: center; justify-content: center; gap: .5rem; margin-top: .7rem; padding: .7rem; border-radius: var(--wb-btn-radius, 8px); border: 1.5px solid var(--l-line); font-weight: 700; text-decoration: none; }
+.wblist .wblist-call:hover { border-color: var(--wb-primary); color: var(--wb-primary); }
+.wblist .wblist-call.is-wa { color: #128C4A; }
+.wblist-similar { margin-top: 4rem; }
+.wblist-lightbox { position: fixed; inset: 0; z-index: 2000; background: rgba(10, 10, 10, .92); display: flex; align-items: center; justify-content: center; }
+.wblist-lightbox[hidden] { display: none; }
+.wblist-lightbox img { max-width: 90vw; max-height: 85vh; object-fit: contain; border-radius: 6px; }
+.wblist-lightbox button { position: absolute; border: 0; background: rgba(255, 255, 255, .12); color: #fff; width: 48px; height: 48px; border-radius: 50%; font-size: 1.8rem; line-height: 1; cursor: pointer; }
+.wblist-lightbox button:hover { background: rgba(255, 255, 255, .25); }
+.wblist-lb-close { top: 1rem; right: 1rem; }
+.wblist-lb-nav.is-prev { left: 1rem; }
+.wblist-lb-nav.is-next { right: 1rem; }
+.wblist-lb-count { position: absolute; bottom: 1.2rem; color: rgba(255, 255, 255, .8); font-size: .9rem; }
+
+@media (max-width: 991.98px) {
+  .wblist-cols { grid-template-columns: minmax(0, 1fr); }
+  .wblist-side { position: static; }
+  .wblist-gallery.has-many { grid-template-columns: 1fr 1fr; grid-template-rows: 240px 120px; }
+  .wblist-gallery.has-many .wblist-gallery-item:first-child { grid-column: span 2; grid-row: auto; }
+  .wblist-gallery.has-many .wblist-gallery-item:nth-child(n+4) { display: none; }
+  .wblist-gallery.has-3 { grid-template-rows: 240px 120px; grid-template-columns: 1fr 1fr; }
+  .wblist-gallery.has-3 .wblist-gallery-item:first-child { grid-column: span 2; grid-row: auto; }
+  .wblist-gallery.has-2 { grid-template-columns: 1fr; grid-template-rows: 240px 140px; }
+}
+@media (max-width: 575.98px) {
+  .wblist { padding-top: 1.5rem; }
+  .wblist-grid { grid-template-columns: minmax(0, 1fr); }
+  .wblist-head-price { text-align: left; }
+  .wblist-f, .wblist-f-sm { flex: 1 1 calc(50% - .4rem); }
+  .wblist-f-q { flex-basis: 100%; }
+  .wblist-gallery.has-many { grid-template-rows: 200px 100px; }
+}

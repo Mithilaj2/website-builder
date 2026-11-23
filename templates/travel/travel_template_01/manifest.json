@@ -1,0 +1,278 @@
+{
+  "id": "travel_template_01",
+  "name": "Horizon Trails",
+  "category": "travel",
+  "version": "1.0.0",
+  "description": "A bright, adventurous design for tour operators and travel agencies: deep ocean blue with sunset orange on warm sand, Jost headings, rounded cards and a big sunset hero with a trip finder. Includes a holiday-package catalogue with filters (destination, trip type, duration, budget), package pages with gallery, day-by-day itinerary, inclusions and exclusions and a trip enquiry form with travel date, plus destinations, travel guides, reviews and booking steps.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#0E4D64",
+      "secondary": "#F28C38",
+      "bg": "#FBF8F3",
+      "text": "#13262F",
+      "heading_font": "jost",
+      "body_font": "plus-jakarta-sans",
+      "radius": "18px",
+      "button_style": "pill",
+      "header_style": "topbar",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "topbar": "With contact bar",
+      "minimal": "Minimal, no bar"
+    },
+    "footer_styles": {
+      "dark": "Deep ocean",
+      "light": "Sand"
+    }
+  },
+  "listings": {
+    "path": "packages",
+    "singular": "Package",
+    "plural": "Packages",
+    "icon": "bi-airplane",
+    "category_label": "Destination",
+    "location_label": "Route",
+    "location_filter": false,
+    "price_label": "Price",
+    "price_format": "inr",
+    "price_notes": [
+      "per person",
+      "per couple",
+      "per person, twin sharing",
+      "onwards"
+    ],
+    "closed_label": "Sold out",
+    "attributes": [
+      {
+        "key": "duration",
+        "label": "Duration",
+        "type": "number",
+        "suffix": "Days",
+        "filter": true,
+        "card": true,
+        "icon": "bi-calendar3"
+      },
+      {
+        "key": "nights",
+        "label": "Nights",
+        "type": "number",
+        "suffix": "Nights",
+        "icon": "bi-moon-stars"
+      },
+      {
+        "key": "trip_type",
+        "label": "Trip type",
+        "type": "select",
+        "options": [
+          "Family",
+          "Honeymoon",
+          "Adventure",
+          "Pilgrimage",
+          "Weekend getaway",
+          "Group tour"
+        ],
+        "filter": true,
+        "card": true,
+        "icon": "bi-compass"
+      },
+      {
+        "key": "region",
+        "label": "Region",
+        "type": "select",
+        "options": [
+          "India",
+          "International"
+        ],
+        "filter": true,
+        "icon": "bi-globe2"
+      },
+      {
+        "key": "group_size",
+        "label": "Group size",
+        "type": "text",
+        "card": true,
+        "icon": "bi-people",
+        "help": "e.g. Max 12 or Private"
+      },
+      {
+        "key": "best_time",
+        "label": "Best time to go",
+        "type": "text",
+        "icon": "bi-sun",
+        "help": "e.g. Oct – Mar"
+      },
+      {
+        "key": "start_city",
+        "label": "Starts from",
+        "type": "text",
+        "icon": "bi-geo-alt"
+      },
+      {
+        "key": "flights",
+        "label": "Flights included",
+        "type": "toggle",
+        "icon": "bi-airplane"
+      },
+      {
+        "key": "highlights",
+        "label": "Highlights",
+        "type": "list",
+        "icon": "bi-stars"
+      },
+      {
+        "key": "inclusions",
+        "label": "What’s included",
+        "type": "list",
+        "icon": "bi-check-circle"
+      },
+      {
+        "key": "exclusions",
+        "label": "Not included",
+        "type": "list",
+        "icon": "bi-x-circle"
+      }
+    ],
+    "enquiry": {
+      "heading": "Plan this trip",
+      "button": "Send enquiry",
+      "date_label": "Travel date",
+      "select_label": "Travellers",
+      "select_options": [
+        "1 traveller",
+        "2 travellers",
+        "3–4 travellers",
+        "5–8 travellers",
+        "9 or more"
+      ],
+      "message_label": "Anything else? (hotel preference, special requests)",
+      "success": "Thank you! A trip planner will call you within a few hours with a detailed quote."
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "listings",
+    "listing_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "listing_categories",
+        "listings",
+        "features",
+        "listings",
+        "stats",
+        "gallery",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "team",
+        "logos"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About Us",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Cancellation Policy",
+      "slug": "cancellation-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ],
+  "demo_content": "demo.json"
+}

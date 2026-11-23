@@ -56,7 +56,7 @@ final class Seeder
         $settings['theme'] = array_replace((array) ($manifest['theme']['defaults'] ?? []), (array) ($settings['theme'] ?? []));
         $settings['seo'] = (array) ($settings['seo'] ?? []);
         $shop = (array) ($demo['shop'] ?? []);
-        return ['settings' => $settings, 'pages' => $pages, 'shop' => $shop];
+        return ['settings' => $settings, 'pages' => $pages, 'shop' => $shop, 'listings' => (array) ($demo['listings'] ?? [])];
     }
 
     /** Insert a seed into an (empty) site database. */
@@ -90,6 +90,9 @@ final class Seeder
             }
             if (!empty($seed['shop'])) {
                 Shop\ShopService::seed($db, (array) $seed['shop']);
+            }
+            if (!empty($seed['listings'])) {
+                Listings\ListingService::seed($db, (array) $seed['listings']);
             }
         });
     }

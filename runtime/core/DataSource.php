@@ -33,4 +33,16 @@ interface DataSource
 
     /** @return list<array> active product categories with product_count */
     public function productCategories(): array;
+
+    /**
+     * Listings (properties, packages, rooms…) for sections. $f: category (slug), featured, sort, limit, include_closed.
+     * $config is the template manifest's "listings" block.
+     */
+    public function listings(array $f, array $config): array;
+
+    /** @return list<array> active listing categories with listing_count */
+    public function listingCategories(): array;
+
+    /** @return list<string> locations used by visible listings */
+    public function listingLocations(): array;
 }

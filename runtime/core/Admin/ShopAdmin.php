@@ -179,7 +179,7 @@ final class ShopAdmin
         }
         $this->app->page('shop-product-form', ['title' => $product ? 'Edit product' : 'Add product', 'active' => 'products', 'product' => $product, 'images' => $images,
             'categories' => $this->shop()->categories(false), 'gstRates' => ShopService::GST_RATES, 'config' => $this->app->editorConfig(),
-            'shopUrl' => $this->shopUrl(), 'scripts' => ['vendor/tinymce/tinymce.min.js', 'js/admin-shop.js']]);
+            'shopUrl' => $this->shopUrl(), 'scripts' => ['vendor/tinymce/tinymce.min.js', 'js/admin-media-picker.js', 'js/admin-shop.js']]);
     }
 
     public function apiProductSave(array $p = []): void
@@ -214,7 +214,7 @@ final class ShopAdmin
 
     public function categoriesPage(): void
     {
-        $this->app->page('shop-categories', ['title' => 'Categories', 'active' => 'products', 'config' => $this->app->editorConfig(), 'scripts' => ['js/admin-shop.js']]);
+        $this->app->page('shop-categories', ['title' => 'Categories', 'active' => 'products', 'config' => $this->app->editorConfig(), 'scripts' => ['js/admin-media-picker.js', 'js/admin-shop.js']]);
     }
 
     public function apiCategories(): void

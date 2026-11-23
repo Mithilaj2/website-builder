@@ -1,0 +1,1244 @@
+{
+ "settings": {
+  "site": {
+   "name": "Keystone Realty",
+   "tagline": "Property advisors · Pune",
+   "phone": "+91 20 6720 4400",
+   "email": "homes@keystonerealty.example",
+   "address": "Office 402, Sai Capital, Baner Road\nBaner, Pune, Maharashtra 411045",
+   "hours": "Mon–Sun, 10 am – 7 pm",
+   "footer_about": "MahaRERA-registered property advisors helping families and companies buy, sell and rent property across Pune since 2010.",
+   "footer_text": "All rights reserved. MahaRERA Agent Reg. No. A52100001234.",
+   "header_button": {
+    "text": "Book a site visit",
+    "url": "page:contact"
+   },
+   "social": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/",
+    "linkedin": "https://www.linkedin.com/"
+   }
+  },
+  "seo": {
+   "description": "Keystone Realty, Pune: verified apartments, villas, plots and offices for sale and rent in Baner, Aundh, Kharadi, Hinjewadi and more. Home-loan help and site visits.",
+   "keywords": "flats for sale in Pune, villas Pune, property dealers Baner, 3 BHK Baner, plots near Pune"
+  }
+ },
+ "listings": {
+  "categories": [
+   {
+    "name": "Apartments",
+    "slug": "apartments",
+    "description": "Ready and under-construction flats from 1 to 4 BHK, and penthouses.",
+    "image": "theme:images/apartment-tower.svg"
+   },
+   {
+    "name": "Villas & bungalows",
+    "slug": "villas",
+    "description": "Independent homes and gated villa communities.",
+    "image": "theme:images/villa-skyline.svg"
+   },
+   {
+    "name": "Row houses",
+    "slug": "row-houses",
+    "description": "Low-rise homes with their own garden and terrace.",
+    "image": "theme:images/townhouses.svg"
+   },
+   {
+    "name": "Plots",
+    "slug": "plots",
+    "description": "NA-approved residential plots with clear titles.",
+    "image": "theme:images/plot.svg"
+   },
+   {
+    "name": "Commercial",
+    "slug": "commercial",
+    "description": "Offices, showrooms and shops to buy or lease.",
+    "image": "theme:images/office.svg"
+   }
+  ],
+  "items": [
+   {
+    "title": "Sky Terrace Residences — 3 BHK",
+    "slug": "sky-terrace-3-bhk",
+    "category": "apartments",
+    "location": "Baner, Pune",
+    "price": 1850000000,
+    "image": "theme:images/apartment-tower.svg",
+    "gallery": [
+     "theme:images/interior-living.svg",
+     "theme:images/interior-kitchen.svg",
+     "theme:images/interior-bedroom.svg",
+     "theme:images/interior-bath.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "bedrooms": 3,
+     "bathrooms": 3,
+     "area": 1640,
+     "possession": "Ready to move",
+     "furnishing": "Semi-furnished",
+     "facing": "East",
+     "floor": "9th of 18",
+     "parking": 2,
+     "rera": "P52100012345",
+     "amenities": [
+      "Swimming pool",
+      "Clubhouse & gym",
+      "24×7 security with CCTV",
+      "Power backup for lifts and common areas",
+      "Children’s play area",
+      "Rainwater harvesting",
+      "Covered car parking",
+      "Jogging track"
+     ],
+     "nearby": [
+      "Balewadi High Street — 5 min",
+      "Mumbai–Bangalore Highway — 4 min",
+      "Hinjewadi IT Park — 20 min",
+      "Jupiter Hospital — 8 min"
+     ]
+    },
+    "short_description": "A bright, east-facing 3 BHK on the ninth floor with a wide deck, modular kitchen and two covered parking spaces, in a gated tower with a full clubhouse.",
+    "description": "<p>Sky Terrace Residences is a completed, OC-received tower of 18 floors on the quiet side of Baner. This three-bedroom home has a 14-ft living room that opens onto a deck overlooking the landscaped podium, a modular kitchen with a utility balcony and three attached bathrooms.</p><h3>Highlights</h3><ul><li>Ready to move: occupancy certificate received</li><li>Semi-furnished: wardrobes, modular kitchen, lights and fans</li><li>Two covered car parks and a store room</li></ul><p>Home-loan approved by leading banks. Registration and stamp duty are extra.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "Ready to move"
+   },
+   {
+    "title": "Aranya Villas — 4 BHK private pool villa",
+    "slug": "aranya-4-bhk-pool-villa",
+    "category": "villas",
+    "location": "Koregaon Park Annexe, Pune",
+    "price": 5200000000,
+    "image": "theme:images/villa-skyline-pool.svg",
+    "gallery": [
+     "theme:images/villa-skyline.svg",
+     "theme:images/interior-living.svg",
+     "theme:images/interior-bedroom.svg",
+     "theme:images/interior-kitchen.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "bedrooms": 4,
+     "bathrooms": 5,
+     "area": 4200,
+     "possession": "Under construction",
+     "furnishing": "Unfurnished",
+     "facing": "North",
+     "parking": 3,
+     "rera": "P52100023456",
+     "amenities": [
+      "Private swimming pool",
+      "Home automation",
+      "Landscaped garden",
+      "Servant quarters",
+      "Solar water heating",
+      "Gated community of 24 villas"
+     ],
+     "nearby": [
+      "Osho Park — 6 min",
+      "Pune Airport — 15 min",
+      "Bishop’s School — 10 min"
+     ]
+    },
+    "short_description": "A contemporary four-bedroom villa with a private pool, double-height living room and a landscaped garden, in a gated enclave of 24 homes.",
+    "description": "<p>Designed by an award-winning Pune studio, Aranya Villas are built on 5,000 sq ft plots with generous setbacks and lots of glass. Each villa has a double-height living room, a family lounge upstairs, a home office and a private pool deck.</p><p>Possession is planned for December 2027. A payment plan linked to construction stages is available.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "New launch",
+    "price_note": "onwards"
+   },
+   {
+    "title": "Kerala-style bungalow with garden",
+    "slug": "garden-bungalow-aundh",
+    "category": "villas",
+    "location": "Aundh, Pune",
+    "price": 3450000000,
+    "image": "theme:images/bungalow.svg",
+    "gallery": [
+     "theme:images/bungalow-garden.svg",
+     "theme:images/interior-living.svg",
+     "theme:images/interior-kitchen.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "bedrooms": 3,
+     "bathrooms": 3,
+     "area": 2650,
+     "possession": "Ready to move",
+     "furnishing": "Fully furnished",
+     "facing": "East",
+     "parking": 2,
+     "amenities": [
+      "Mature garden with coconut and mango trees",
+      "Covered verandah",
+      "Borewell and municipal water",
+      "Solar panels",
+      "Independent gate"
+     ],
+     "nearby": [
+      "Aundh ITI Road — 3 min",
+      "University Circle — 10 min",
+      "Westend Mall — 6 min"
+     ]
+    },
+    "short_description": "A calm, sloping-roof bungalow on a 4,800 sq ft plot with a wraparound verandah and a mature garden, fully furnished and ready to move in.",
+    "description": "<p>Rarely available in central Aundh: an independent bungalow on its own plot, built in 2014 with a traditional tiled roof, teak doors and a deep verandah. The house has three bedrooms, a puja room, a large dining hall and a covered parking for two cars.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Riverside Row Houses — 3 BHK",
+    "slug": "riverside-row-house",
+    "category": "row-houses",
+    "location": "Kharadi, Pune",
+    "price": 2150000000,
+    "image": "theme:images/townhouses.svg",
+    "gallery": [
+     "theme:images/interior-living.svg",
+     "theme:images/interior-bedroom.svg",
+     "theme:images/interior-bath.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "bedrooms": 3,
+     "bathrooms": 3,
+     "area": 1950,
+     "possession": "New launch",
+     "furnishing": "Unfurnished",
+     "facing": "West",
+     "parking": 1,
+     "rera": "P52100034567",
+     "amenities": [
+      "Private terrace",
+      "Front and back garden",
+      "Clubhouse",
+      "Riverside walkway"
+     ],
+     "nearby": [
+      "EON IT Park — 7 min",
+      "Phoenix Marketcity — 12 min"
+     ]
+    },
+    "short_description": "Three-storey row houses with a private terrace and garden near EON IT Park. Pre-launch prices for the first 20 homes.",
+    "description": "<p>A low-density community of 64 row houses along the river, with private front gardens, a terrace on every home and a shared riverside walkway.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "Pre-launch",
+    "price_note": "onwards"
+   },
+   {
+    "title": "Skyline Penthouse with private terrace",
+    "slug": "skyline-penthouse-hinjewadi",
+    "category": "apartments",
+    "location": "Hinjewadi Phase 1, Pune",
+    "price": 2950000000,
+    "image": "theme:images/penthouse.svg",
+    "gallery": [
+     "theme:images/interior-living.svg",
+     "theme:images/interior-kitchen.svg",
+     "theme:images/interior-bedroom.svg",
+     "theme:images/interior-bath.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "bedrooms": 4,
+     "bathrooms": 4,
+     "area": 3100,
+     "possession": "Ready to move",
+     "furnishing": "Semi-furnished",
+     "facing": "North-East",
+     "floor": "22nd of 22",
+     "parking": 3,
+     "rera": "P52100045678",
+     "amenities": [
+      "1,200 sq ft private terrace",
+      "Jacuzzi",
+      "Private lift lobby",
+      "Clubhouse & infinity pool"
+     ],
+     "nearby": [
+      "Rajiv Gandhi Infotech Park — 2 min",
+      "Metro Line 3 station — 5 min"
+     ]
+    },
+    "short_description": "The top-floor penthouse of a 22-storey tower, with a 1,200 sq ft private terrace and views across the Hinjewadi hills.",
+    "description": "<p>A duplex penthouse with four bedrooms, a home theatre, a private lift lobby and a large terrace with a jacuzzi.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "2 BHK apartment for rent",
+    "slug": "wakad-2-bhk-rent",
+    "category": "apartments",
+    "location": "Wakad, Pune",
+    "price": 3200000,
+    "image": "theme:images/apartment-dusk.svg",
+    "gallery": [
+     "theme:images/interior-living.svg",
+     "theme:images/interior-kitchen.svg"
+    ],
+    "attributes": {
+     "listing_for": "Rent",
+     "bedrooms": 2,
+     "bathrooms": 2,
+     "area": 1050,
+     "possession": "Ready to move",
+     "furnishing": "Fully furnished",
+     "facing": "East",
+     "floor": "6th of 14",
+     "parking": 1,
+     "amenities": [
+      "Gym",
+      "Swimming pool",
+      "24×7 security",
+      "Power backup"
+     ],
+     "nearby": [
+      "Wakad Chowk — 3 min",
+      "Hinjewadi IT Park — 15 min"
+     ]
+    },
+    "short_description": "A fully furnished 2 BHK with appliances, ideal for working professionals or a small family. Available from the 1st of next month.",
+    "description": "<p>Furnished with beds, sofa, dining table, refrigerator, washing machine, ACs in both bedrooms and a modular kitchen. Two months’ deposit; maintenance included.</p>",
+    "featured": true,
+    "status": "active",
+    "price_note": "per month"
+   },
+   {
+    "title": "Grade-A office floor, Business Park",
+    "slug": "business-park-office-floor",
+    "category": "commercial",
+    "location": "Viman Nagar, Pune",
+    "price": 8500000000,
+    "image": "theme:images/office.svg",
+    "gallery": [
+     "theme:images/interior-living.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "area": 9800,
+     "possession": "Ready to move",
+     "furnishing": "Unfurnished",
+     "floor": "8th of 14",
+     "parking": 12,
+     "rera": "P52100056789",
+     "amenities": [
+      "Central air conditioning",
+      "100% power backup",
+      "High-speed lifts",
+      "Food court",
+      "Visitor parking"
+     ],
+     "nearby": [
+      "Pune Airport — 5 min",
+      "Phoenix Marketcity — 4 min"
+     ]
+    },
+    "short_description": "A full, bare-shell office floor of 9,800 sq ft in a LEED-certified business park, with 12 car parks. Also available on lease.",
+    "description": "<p>Suitable for an IT or BFSI company: a column-free floor plate, raised floors, a 1:1,000 parking ratio and 24×7 security.</p>",
+    "featured": false,
+    "status": "active",
+    "price_note": "negotiable"
+   },
+   {
+    "title": "High-street retail showroom",
+    "slug": "fc-road-retail-showroom",
+    "category": "commercial",
+    "location": "FC Road, Pune",
+    "price": 45000000,
+    "image": "theme:images/retail.svg",
+    "gallery": [],
+    "attributes": {
+     "listing_for": "Rent",
+     "area": 2200,
+     "possession": "Ready to move",
+     "furnishing": "Unfurnished",
+     "floor": "Ground",
+     "parking": 4,
+     "amenities": [
+      "Double-height glass frontage",
+      "Mezzanine",
+      "Signage rights"
+     ],
+     "nearby": [
+      "Goodluck Chowk — 2 min",
+      "Fergusson College — 4 min"
+     ]
+    },
+    "short_description": "A ground-floor showroom with a 40-ft glass frontage on one of Pune’s busiest shopping streets. Ideal for fashion or electronics brands.",
+    "description": "<p>Available on a 9-year lease with a 3-year lock-in.</p>",
+    "featured": false,
+    "status": "active",
+    "price_note": "per month"
+   },
+   {
+    "title": "Residential plot in a gated layout",
+    "slug": "gated-plot-talegaon",
+    "category": "plots",
+    "location": "Talegaon Dabhade, Pune",
+    "price": 360000000,
+    "image": "theme:images/plot.svg",
+    "gallery": [
+     "theme:images/plot-2.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "area": 2400,
+     "possession": "Ready to move",
+     "facing": "North",
+     "amenities": [
+      "Clear title, NA approved",
+      "Tar roads and street lights",
+      "Underground drainage",
+      "Compound wall with security"
+     ],
+     "nearby": [
+      "Talegaon railway station — 6 min",
+      "Mumbai–Pune Expressway — 12 min"
+     ]
+    },
+    "short_description": "A 2,400 sq ft NA-approved plot in a gated layout with roads, drainage and street lights already in place. Bank loans available.",
+    "description": "<p>Build your own home at your pace. Construction partners available on request.</p>",
+    "featured": false,
+    "status": "active",
+    "badge": "Bank approved"
+   },
+   {
+    "title": "Corner plot near the expressway",
+    "slug": "corner-plot-chakan",
+    "category": "plots",
+    "location": "Chakan, Pune",
+    "price": 540000000,
+    "image": "theme:images/plot-2.svg",
+    "gallery": [
+     "theme:images/plot.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "area": 3200,
+     "possession": "Ready to move",
+     "facing": "North-East",
+     "amenities": [
+      "Corner plot",
+      "Clear title"
+     ]
+    },
+    "short_description": "A 3,200 sq ft corner plot close to the Chakan industrial belt.",
+    "description": "<p>Suitable for a home or a small commercial building.</p>",
+    "featured": false,
+    "status": "closed"
+   },
+   {
+    "title": "Garden villa — 3 BHK",
+    "slug": "garden-villa-3-bhk",
+    "category": "villas",
+    "location": "Bavdhan, Pune",
+    "price": 2400000000,
+    "image": "theme:images/villa-skyline.svg",
+    "gallery": [
+     "theme:images/bungalow-garden.svg",
+     "theme:images/interior-living.svg"
+    ],
+    "attributes": {
+     "listing_for": "Sale",
+     "bedrooms": 3,
+     "bathrooms": 4,
+     "area": 2900,
+     "possession": "Ready to move",
+     "furnishing": "Semi-furnished",
+     "facing": "South",
+     "parking": 2,
+     "amenities": [
+      "Private garden",
+      "Clubhouse",
+      "Hillside walking trail"
+     ],
+     "nearby": [
+      "Chandni Chowk — 6 min",
+      "Kothrud — 12 min"
+     ]
+    },
+    "short_description": "A modern three-bedroom villa backing onto the Bavdhan hills, with a private garden and a terrace on the upper floor.",
+    "description": "<p>Spacious, light-filled rooms with large sliding windows and a covered car port.</p>",
+    "featured": false,
+    "status": "closed"
+   }
+  ]
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "Pune’s trusted property advisors",
+      "heading": "Find a home that fits your life",
+      "subheading": "Verified apartments, villas, plots and offices across Pune — with honest advice, home-loan help and site visits on your schedule.",
+      "image": "",
+      "background_image": "theme:images/hero-villa.svg",
+      "primary_button": {
+       "text": "Browse properties",
+       "url": "page:listings"
+      },
+      "secondary_button": {
+       "text": "Talk to an advisor",
+       "url": "page:contact"
+      },
+      "highlights": [
+       {
+        "icon": "bi-patch-check",
+        "text": "MahaRERA-registered agents"
+       },
+       {
+        "icon": "bi-house-check",
+        "text": "1,800+ families moved in"
+       },
+       {
+        "icon": "bi-bank",
+        "text": "Home-loan assistance"
+       }
+      ]
+     }
+    },
+    {
+     "type": "listing_categories",
+     "data": {
+      "eyebrow": "Explore",
+      "heading": "What are you looking for?",
+      "description": "",
+      "limit": 4,
+      "show_counts": true
+     }
+    },
+    {
+     "type": "listings",
+     "data": {
+      "eyebrow": "Handpicked",
+      "heading": "Featured properties",
+      "description": "Homes our advisors recommend this month.",
+      "source": "featured",
+      "category": "",
+      "limit": 6,
+      "button": {
+       "text": "View all properties",
+       "url": "page:listings"
+      }
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "About Keystone",
+      "heading": "Sixteen years of helping Pune find home",
+      "description": "<p>Keystone Realty started in 2010 as a two-person office in Baner. Today our team of 30 advisors helps families buy, sell and rent homes across Pune, and helps companies find offices that fit.</p><p>We list only what we have visited and verified, and we tell you what we would tell a friend.</p>",
+      "image": "theme:images/about-office.svg",
+      "image_2": "",
+      "experience_number": "16",
+      "experience_label": "years of trusted advice",
+      "points": [
+       {
+        "text": "Every listing visited & verified"
+       },
+       {
+        "text": "Title & RERA checks"
+       },
+       {
+        "text": "Home-loan assistance"
+       },
+       {
+        "text": "Support after possession"
+       }
+      ],
+      "button": {
+       "text": "More about us",
+       "url": "page:about"
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "1800",
+        "suffix": "+",
+        "label": "Families moved in",
+        "icon": ""
+       },
+       {
+        "number": "16",
+        "suffix": "",
+        "label": "Years in Pune real estate",
+        "icon": ""
+       },
+       {
+        "number": "45",
+        "suffix": "",
+        "label": "Builder partners",
+        "icon": ""
+       },
+       {
+        "number": "650",
+        "suffix": " Cr+",
+        "label": "Worth of property sold",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "What we do",
+      "heading": "One team for every step of your property journey",
+      "description": "",
+      "columns": "3",
+      "items": [
+       {
+        "icon": "bi-house-door",
+        "image": "",
+        "title": "Buy a home",
+        "description": "Verified listings, honest advice on price and builder track record, and site visits arranged around your schedule.",
+        "link": {
+         "text": "Homes for sale",
+         "url": "page:listings"
+        }
+       },
+       {
+        "icon": "bi-key",
+        "image": "",
+        "title": "Rent & property management",
+        "description": "Tenant search, rent agreements, police verification and yearly renewals for landlords.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-graph-up-arrow",
+        "image": "",
+        "title": "Sell at the right price",
+        "description": "A market valuation, professional photographs and marketing to genuine, pre-qualified buyers.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-bank",
+        "image": "",
+        "title": "Home loans",
+        "description": "Compare offers from partner banks and get help with the paperwork until disbursal.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-file-earmark-check",
+        "image": "",
+        "title": "Legal & documentation",
+        "description": "Title search, RERA checks, sale deed drafting and registration support.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-buildings",
+        "image": "",
+        "title": "Commercial leasing",
+        "description": "Offices, showrooms and warehouses for companies moving to or expanding in Pune.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "listings",
+     "data": {
+      "eyebrow": "Just listed",
+      "heading": "New on the market",
+      "description": "",
+      "source": "new",
+      "category": "",
+      "limit": 3,
+      "button": {
+       "text": "See all new listings",
+       "url": "page:listings"
+      }
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Client stories",
+      "heading": "Trusted by home buyers across Pune",
+      "description": "",
+      "items": [
+       {
+        "quote": "We saw nine homes in two weekends and Keystone handled every visit. They negotiated a better price than we expected and sorted out the bank loan papers too.",
+        "name": "Rahul & Neha Kulkarni",
+        "role": "Bought a 3 BHK in Baner",
+        "photo": "theme:images/customer-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "As an NRI buyer I needed someone I could trust on the ground. Video tours, legal checks and registration by power of attorney — all done without a single trip.",
+        "name": "Priya Menon",
+        "role": "NRI buyer, Dubai",
+        "photo": "theme:images/customer-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "They found tenants for our flat in Wakad within ten days and handle the rent agreement and police verification every year.",
+        "name": "Suresh Patil",
+        "role": "Landlord, Wakad",
+        "photo": "theme:images/customer-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "Home loans arranged with",
+      "items": [
+       {
+        "image": "theme:images/bank-1.svg",
+        "name": "Bharat Bank",
+        "url": ""
+       },
+       {
+        "image": "theme:images/bank-2.svg",
+        "name": "Unity Home Finance",
+        "url": ""
+       },
+       {
+        "image": "theme:images/bank-3.svg",
+        "name": "Sahyadri Bank",
+        "url": ""
+       },
+       {
+        "image": "theme:images/bank-4.svg",
+        "name": "Lotus Finance",
+        "url": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Planning to buy, sell or rent?",
+      "description": "Speak to a Keystone advisor today. We will shortlist homes that fit your budget and arrange site visits on your schedule.",
+      "background_image": "theme:images/cta-skyline.svg",
+      "button": {
+       "text": "Talk to an advisor",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "Browse properties",
+       "url": "page:listings"
+      }
+     }
+    }
+   ]
+  },
+  "about": {
+   "seo_title": "About Keystone Realty",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "About Keystone Realty",
+      "subheading": "Honest property advice in Pune since 2010.",
+      "background_image": "theme:images/banner-skyline.svg"
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Our story",
+      "heading": "We would rather lose a deal than lose your trust",
+      "description": "<p>Keystone Realty was founded by Aditya Deshmukh after a decade with a national developer. He saw buyers making the biggest purchase of their lives with little reliable information — so he started an advisory that puts the buyer first.</p><p>We are registered with MahaRERA, work with 45 reputed builders, and are a member of the local real-estate association.</p>",
+      "image": "theme:images/about-office.svg",
+      "image_2": "",
+      "experience_number": "1,800+",
+      "experience_label": "families moved in",
+      "points": [
+       {
+        "text": "MahaRERA registered"
+       },
+       {
+        "text": "Transparent fees"
+       },
+       {
+        "text": "Advisors in every zone"
+       },
+       {
+        "text": "NRI desk"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "1800",
+        "suffix": "+",
+        "label": "Families moved in",
+        "icon": ""
+       },
+       {
+        "number": "16",
+        "suffix": "",
+        "label": "Years in Pune real estate",
+        "icon": ""
+       },
+       {
+        "number": "45",
+        "suffix": "",
+        "label": "Builder partners",
+        "icon": ""
+       },
+       {
+        "number": "650",
+        "suffix": " Cr+",
+        "label": "Worth of property sold",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "Our advisors",
+      "heading": "Meet the people who will find your home",
+      "description": "RERA-registered agents who know every lane of the neighbourhoods they cover.",
+      "members": [
+       {
+        "photo": "theme:images/agent-1.svg",
+        "name": "Aditya Deshmukh",
+        "role": "Founder & Director",
+        "bio": "16 years in Pune residential real estate; MahaRERA agent A52100001234.",
+        "linkedin": "https://www.linkedin.com/"
+       },
+       {
+        "photo": "theme:images/agent-2.svg",
+        "name": "Sneha Joshi",
+        "role": "Senior advisor — West Pune",
+        "bio": "Baner, Balewadi, Aundh and Bavdhan. Speaks Marathi, Hindi and English.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/agent-3.svg",
+        "name": "Rajiv Nair",
+        "role": "Commercial leasing",
+        "bio": "Offices and retail across Viman Nagar, Kharadi and the CBD.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/agent-4.svg",
+        "name": "Farah Shaikh",
+        "role": "NRI & home loans desk",
+        "bio": "Helps NRI buyers with video tours, documentation and loan approvals.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "Why Keystone",
+      "heading": "What makes us different",
+      "description": "",
+      "image": "",
+      "items": [
+       {
+        "icon": "bi-eye",
+        "title": "Verified listings",
+        "description": "Every property is visited and its documents checked before it is listed."
+       },
+       {
+        "icon": "bi-cash-coin",
+        "title": "Fees in writing",
+        "description": "No surprises: our fee is agreed before the first visit."
+       },
+       {
+        "icon": "bi-geo-alt",
+        "title": "Local experts",
+        "description": "Advisors who live and work in the areas they cover."
+       },
+       {
+        "icon": "bi-headset",
+        "title": "After-sale support",
+        "description": "Help with possession, society transfer and tenants."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "services": {
+   "seo_title": "Our services",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Our services",
+      "subheading": "Buying, selling, renting, loans and legal help — under one roof.",
+      "background_image": "theme:images/banner-skyline.svg"
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "What we do",
+      "heading": "One team for every step of your property journey",
+      "description": "",
+      "columns": "3",
+      "items": [
+       {
+        "icon": "bi-house-door",
+        "image": "",
+        "title": "Buy a home",
+        "description": "Verified listings, honest advice on price and builder track record, and site visits arranged around your schedule.",
+        "link": {
+         "text": "Homes for sale",
+         "url": "page:listings"
+        }
+       },
+       {
+        "icon": "bi-key",
+        "image": "",
+        "title": "Rent & property management",
+        "description": "Tenant search, rent agreements, police verification and yearly renewals for landlords.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-graph-up-arrow",
+        "image": "",
+        "title": "Sell at the right price",
+        "description": "A market valuation, professional photographs and marketing to genuine, pre-qualified buyers.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-bank",
+        "image": "",
+        "title": "Home loans",
+        "description": "Compare offers from partner banks and get help with the paperwork until disbursal.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-file-earmark-check",
+        "image": "",
+        "title": "Legal & documentation",
+        "description": "Title search, RERA checks, sale deed drafting and registration support.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-buildings",
+        "image": "",
+        "title": "Commercial leasing",
+        "description": "Offices, showrooms and warehouses for companies moving to or expanding in Pune.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "process",
+     "data": {
+      "eyebrow": "How it works",
+      "heading": "From first call to keys in hand",
+      "description": "",
+      "steps": [
+       {
+        "icon": "bi-chat-dots",
+        "title": "Tell us what you need",
+        "description": "Budget, locality, size and timeline — a 15-minute call is enough to start."
+       },
+       {
+        "icon": "bi-search",
+        "title": "Shortlist & site visits",
+        "description": "We shortlist verified options and accompany you on every visit."
+       },
+       {
+        "icon": "bi-shield-check",
+        "title": "Negotiation & checks",
+        "description": "We negotiate the price and check the title, approvals and RERA registration."
+       },
+       {
+        "icon": "bi-key",
+        "title": "Loan, registration, keys",
+        "description": "Home loan, agreement, registration and possession — all coordinated for you."
+       }
+      ]
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "FAQ",
+      "heading": "Questions buyers ask us",
+      "description": "Can’t find your answer? Call us — we are happy to help.",
+      "items": [
+       {
+        "question": "Do you charge buyers a fee?",
+        "answer": "For new projects from our builder partners there is no fee for buyers. For resale homes and rentals our fee is agreed in writing before the first site visit."
+       },
+       {
+        "question": "Are your listings verified?",
+        "answer": "Yes. We visit every property, check the ownership documents and confirm RERA registration for projects before listing them."
+       },
+       {
+        "question": "Can you help NRIs buy property?",
+        "answer": "Yes. Our NRI desk arranges video tours, legal checks, home loans for NRIs and registration through a power of attorney."
+       },
+       {
+        "question": "What extra costs should I budget for?",
+        "answer": "In Maharashtra, plan for about 6% stamp duty, 1% registration (capped), GST on under-construction homes and society or maintenance deposits."
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Planning to buy, sell or rent?",
+      "description": "Speak to a Keystone advisor today. We will shortlist homes that fit your budget and arrange site visits on your schedule.",
+      "background_image": "theme:images/cta-skyline.svg",
+      "button": {
+       "text": "Talk to an advisor",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "Browse properties",
+       "url": "page:listings"
+      }
+     }
+    }
+   ]
+  },
+  "agents": {
+   "seo_title": "Our agents",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Our agents",
+      "subheading": "Experienced, MahaRERA-registered advisors for every part of Pune.",
+      "background_image": "theme:images/banner-skyline.svg"
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "Our advisors",
+      "heading": "Meet the people who will find your home",
+      "description": "RERA-registered agents who know every lane of the neighbourhoods they cover.",
+      "members": [
+       {
+        "photo": "theme:images/agent-1.svg",
+        "name": "Aditya Deshmukh",
+        "role": "Founder & Director",
+        "bio": "16 years in Pune residential real estate; MahaRERA agent A52100001234.",
+        "linkedin": "https://www.linkedin.com/"
+       },
+       {
+        "photo": "theme:images/agent-2.svg",
+        "name": "Sneha Joshi",
+        "role": "Senior advisor — West Pune",
+        "bio": "Baner, Balewadi, Aundh and Bavdhan. Speaks Marathi, Hindi and English.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/agent-3.svg",
+        "name": "Rajiv Nair",
+        "role": "Commercial leasing",
+        "bio": "Offices and retail across Viman Nagar, Kharadi and the CBD.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/agent-4.svg",
+        "name": "Farah Shaikh",
+        "role": "NRI & home loans desk",
+        "bio": "Helps NRI buyers with video tours, documentation and loan approvals.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Client stories",
+      "heading": "Trusted by home buyers across Pune",
+      "description": "",
+      "items": [
+       {
+        "quote": "We saw nine homes in two weekends and Keystone handled every visit. They negotiated a better price than we expected and sorted out the bank loan papers too.",
+        "name": "Rahul & Neha Kulkarni",
+        "role": "Bought a 3 BHK in Baner",
+        "photo": "theme:images/customer-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "As an NRI buyer I needed someone I could trust on the ground. Video tours, legal checks and registration by power of attorney — all done without a single trip.",
+        "name": "Priya Menon",
+        "role": "NRI buyer, Dubai",
+        "photo": "theme:images/customer-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "They found tenants for our flat in Wakad within ten days and handle the rent agreement and police verification every year.",
+        "name": "Suresh Patil",
+        "role": "Landlord, Wakad",
+        "photo": "theme:images/customer-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Planning to buy, sell or rent?",
+      "description": "Speak to a Keystone advisor today. We will shortlist homes that fit your budget and arrange site visits on your schedule.",
+      "background_image": "theme:images/cta-skyline.svg",
+      "button": {
+       "text": "Talk to an advisor",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "Browse properties",
+       "url": "page:listings"
+      }
+     }
+    }
+   ]
+  },
+  "contact": {
+   "seo_title": "Contact us",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Contact us",
+      "subheading": "Visit our Baner office or ask us to call you back.",
+      "background_image": "theme:images/banner-skyline.svg"
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Get in touch",
+      "heading": "Let’s find your next property",
+      "description": "Tell us what you are looking for and an advisor will call you within one working day.",
+      "form_heading": "Request a call back",
+      "show_form": true,
+      "show_details": true,
+      "map_url": "https://maps.google.com/?q=Baner+Pune"
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": "",
+      "background_image": "theme:images/banner-skyline.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>This policy explains how Keystone Realty collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+     }
+    }
+   ]
+  },
+  "terms-and-conditions": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Terms and Conditions",
+      "subheading": "",
+      "background_image": "theme:images/banner-skyline.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>Keystone Realty is not liable for decisions made only on the basis of information on this website.</p>"
+     }
+    }
+   ]
+  },
+  "disclaimer": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Disclaimer",
+      "subheading": "",
+      "background_image": "theme:images/banner-skyline.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the MahaRERA website.</p>"
+     }
+    }
+   ]
+  }
+ }
+}
