@@ -1,0 +1,8 @@
+.{{p}}-booking-img { margin: 1.5rem 0; border-radius: var(--{{p}}-radius-lg); overflow: hidden; }
+.{{p}}-booking-img img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.{{p}}-points { list-style: none; padding: 0; margin: 1.5rem 0 0; display: grid; gap: 1.1rem; }
+.{{p}}-points li { display: flex; gap: 1rem; align-items: center; }
+.{{p}}-points .{{p}}-icon { margin: 0; width: 48px; height: 48px; font-size: 1.15rem; }
+.{{p}}-points strong { display: block; font-family: var(--wb-heading-font); }
+.{{p}}-points small { display: block; color: var(--{{p}}-muted); }
+#admission-form, #appointment-form, #booking-form, #enquiry-form { scroll-margin-top: 110px; }

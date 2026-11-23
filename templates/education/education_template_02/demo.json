@@ -1,0 +1,1054 @@
+{
+  "settings": {
+    "site": {
+      "name": "Little Acorns Preschool",
+      "tagline": "Play-based preschool and day care",
+      "phone": "+91 20 2567 4411",
+      "email": "hello@littleacorns.example",
+      "address": "12 Lane 5, Koregaon Park\nPune, Maharashtra 411001",
+      "hours": "Mon–Fri: 8:00 am – 6:30 pm",
+      "footer_about": "A warm, play-based preschool where children aged 18 months to 6 years learn through curiosity, stories and play.",
+      "footer_text": "All rights reserved.",
+      "rating": "Rated 4.9 by parents",
+      "rating_label": "from 300+ Google reviews",
+      "header_button": {
+        "text": "Book a school tour",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Little Acorns Preschool — play-based preschool and day care in Pune. A warm, play-based preschool where children aged 18 months to 6 years learn through curiosity, stories and play.",
+      "keywords": "play-based preschool and day care, Pune"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Admissions open for 2027–28",
+            "heading": "Where little ones grow big ideas.",
+            "subheading": "Playgroup, nursery and kindergarten in a safe, joyful campus with small classes, caring teachers and a nutritious meal plan.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a school tour",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "1 teacher for every 8 children"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "CCTV & secure pick-up"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Day care till 6:30 pm"
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-18",
+                "title": "Admissions for 2027–28 playgroup and nursery are now open",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-10",
+                "title": "Children’s Day photos are up in the parent app",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-02",
+                "title": "Winter uniform from 1 December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-25",
+                "title": "Parent–teacher meetings on Saturday, 29 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-15",
+                "title": "New healthy snack menu for the term",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "A second home for your child’s first school years",
+            "description": "<p>Little Acorns was started by two early-childhood educators who wanted preschool to feel like a warm family home. Our classrooms are bright, our routines gentle and our teachers trained in Montessori and play-based methods.</p><p>Children explore art, music, stories, numbers and nature every day, and parents get photos and updates through our app.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2012",
+            "experience_label": "Caring for children since",
+            "points": [
+              {
+                "text": "Montessori-trained teachers"
+              },
+              {
+                "text": "Small, mixed-age groups"
+              },
+              {
+                "text": "Fresh, home-style meals"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "A warm, play-based preschool where children aged 18 months to 6 years learn through curiosity, stories and play.",
+            "items": [
+              {
+                "title": "Playgroup",
+                "level": "1.5 – 2.5 yrs",
+                "duration": "Half day",
+                "fee": "₹6,500 / month",
+                "description": "Gentle settling-in, sensory play, songs and first friendships.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Nursery",
+                "level": "2.5 – 3.5 yrs",
+                "duration": "Half day",
+                "fee": "₹7,500 / month",
+                "description": "Language, early numbers, art and outdoor play in small groups.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Junior KG",
+                "level": "3.5 – 4.5 yrs",
+                "duration": "Full morning",
+                "fee": "₹8,500 / month",
+                "description": "Phonics, pre-writing, number sense and show-and-tell.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why parents choose Little Acorns",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-shield-check",
+                "title": "Safe campus",
+                "description": "CCTV, verified staff, secure pick-up and first-aid trained teachers."
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Learning through play",
+                "description": "Art, music, blocks and nature walks build curiosity and confidence."
+              },
+              {
+                "icon": "bi-egg-fried",
+                "title": "Healthy meals",
+                "description": "Fresh, home-style breakfast and lunch prepared in our kitchen."
+              },
+              {
+                "icon": "bi-phone",
+                "title": "Daily updates",
+                "description": "Photos, meal logs and nap times shared with parents every day."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Years of nurturing",
+                "icon": ""
+              },
+              {
+                "number": "1",
+                "suffix": ":8",
+                "label": "Teacher–child ratio",
+                "icon": ""
+              },
+              {
+                "number": "2400",
+                "suffix": "+",
+                "label": "Happy graduates",
+                "icon": ""
+              },
+              {
+                "number": "98",
+                "suffix": "%",
+                "label": "Parents recommend us",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-26",
+                "time": "9:00 am",
+                "title": "Republic Day Celebration",
+                "location": "School courtyard",
+                "description": "Flag hoisting, songs and a little parade by our youngest citizens.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-14",
+                "time": "10:00 am – 12:00 noon",
+                "title": "Grandparents’ Day",
+                "location": "Activity hall",
+                "description": "Stories, crafts and a special performance for grandparents.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-20",
+                "time": "9:30 am",
+                "title": "Annual Day: “Our Big Green World”",
+                "location": "Community auditorium",
+                "description": "Songs, dances and skits about nature, performed by every class.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "What students and parents say",
+            "items": [
+              {
+                "quote": "My shy daughter now runs into class every morning. The teachers are so patient and kind.",
+                "name": "Sneha Joshi",
+                "role": "Parent, Nursery",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The daily photos and notes make working days so much easier for us.",
+                "name": "Rahul Kulkarni",
+                "role": "Parent, Day care",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Our son was more than ready for Grade 1. Reading came naturally.",
+                "name": "Farah Shaikh",
+                "role": "Parent, Senior KG",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and see us in action",
+            "description": "Book a 30-minute tour — children are welcome to join the play.",
+            "background_image": "",
+            "button": {
+              "text": "Book a school tour",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912025674411"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Little Acorns Preschool",
+            "subheading": "A warm, play-based preschool where children aged 18 months to 6 years learn through curiosity, stories and play.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "A second home for your child’s first school years",
+            "description": "<p>Little Acorns was started by two early-childhood educators who wanted preschool to feel like a warm family home. Our classrooms are bright, our routines gentle and our teachers trained in Montessori and play-based methods.</p><p>Children explore art, music, stories, numbers and nature every day, and parents get photos and updates through our app.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2012",
+            "experience_label": "Caring for children since",
+            "points": [
+              {
+                "text": "Montessori-trained teachers"
+              },
+              {
+                "text": "Small, mixed-age groups"
+              },
+              {
+                "text": "Fresh, home-style meals"
+              }
+            ],
+            "button": {
+              "text": "Book a school tour",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Years of nurturing",
+                "icon": ""
+              },
+              {
+                "number": "1",
+                "suffix": ":8",
+                "label": "Teacher–child ratio",
+                "icon": ""
+              },
+              {
+                "number": "2400",
+                "suffix": "+",
+                "label": "Happy graduates",
+                "icon": ""
+              },
+              {
+                "number": "98",
+                "suffix": "%",
+                "label": "Parents recommend us",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Meera Deshpande",
+                "role": "Founder & Director",
+                "bio": "Early-years educator with 20 years’ experience.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Anjali Rao",
+                "role": "Head Teacher",
+                "bio": "Montessori-certified, leads our curriculum.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Sarah Thomas",
+                "role": "Nursery Teacher",
+                "bio": "Brings stories and music to every lesson.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Kavya Patil",
+                "role": "Day-care Lead",
+                "bio": "Keeps afternoons calm, safe and fun.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why parents choose Little Acorns",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-shield-check",
+                "title": "Safe campus",
+                "description": "CCTV, verified staff, secure pick-up and first-aid trained teachers."
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Learning through play",
+                "description": "Art, music, blocks and nature walks build curiosity and confidence."
+              },
+              {
+                "icon": "bi-egg-fried",
+                "title": "Healthy meals",
+                "description": "Fresh, home-style breakfast and lunch prepared in our kitchen."
+              },
+              {
+                "icon": "bi-phone",
+                "title": "Daily updates",
+                "description": "Photos, meal logs and nap times shared with parents every day."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "A warm, play-based preschool where children aged 18 months to 6 years learn through curiosity, stories and play.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "Playgroup",
+                "level": "1.5 – 2.5 yrs",
+                "duration": "Half day",
+                "fee": "₹6,500 / month",
+                "description": "Gentle settling-in, sensory play, songs and first friendships.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Nursery",
+                "level": "2.5 – 3.5 yrs",
+                "duration": "Half day",
+                "fee": "₹7,500 / month",
+                "description": "Language, early numbers, art and outdoor play in small groups.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Junior KG",
+                "level": "3.5 – 4.5 yrs",
+                "duration": "Full morning",
+                "fee": "₹8,500 / month",
+                "description": "Phonics, pre-writing, number sense and show-and-tell.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Senior KG",
+                "level": "4.5 – 6 yrs",
+                "duration": "Full morning",
+                "fee": "₹9,000 / month",
+                "description": "Reading, writing and maths readiness for Grade 1.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Day care",
+                "level": "1.5 – 8 yrs",
+                "duration": "Till 6:30 pm",
+                "fee": "₹5,500 / month",
+                "description": "Homework help, naps, meals and supervised play after school.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Summer camp",
+                "level": "3 – 8 yrs",
+                "duration": "4 weeks",
+                "fee": "₹9,500",
+                "description": "Art, dance, science experiments and splash play every summer.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "What age can my child join?",
+                "answer": "Playgroup starts at 18 months; we take children up to 6 years."
+              },
+              {
+                "question": "Do you provide meals?",
+                "answer": "Yes. Breakfast and lunch are freshly prepared on campus."
+              },
+              {
+                "question": "How do I get updates?",
+                "answer": "Through our parent app with photos, meal logs and teacher notes every day."
+              },
+              {
+                "question": "Is transport available?",
+                "answer": "Yes, for families within 5 km, with a female attendant on every van."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and see us in action",
+            "description": "Book a 30-minute tour — children are welcome to join the play.",
+            "background_image": "",
+            "button": {
+              "text": "Book a school tour",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912025674411"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Admissions",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-check",
+                "title": "Book a tour",
+                "description": "Visit with your child and meet the teachers."
+              },
+              {
+                "icon": "bi-chat-heart",
+                "title": "Meet & greet",
+                "description": "A relaxed play session to see where your child fits."
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Register",
+                "description": "Fill in the form and submit documents."
+              },
+              {
+                "icon": "bi-balloon",
+                "title": "Settle in",
+                "description": "A gentle two-week settling-in plan."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "Playgroup & Nursery",
+                "price": "₹6,500",
+                "period": "month",
+                "features": "Half-day programme\nSnacks included\nParent app",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "Kindergarten",
+                "price": "₹8,500",
+                "period": "month",
+                "features": "Full-morning programme\nBreakfast & lunch\nPhonics & maths readiness\nTerm reports",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "Day care",
+                "price": "₹5,500",
+                "period": "month",
+                "features": "Till 6:30 pm\nNap & meals\nHomework help",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Admissions",
+            "heading": "Book a school tour",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "admission",
+            "form_heading": "Book a school tour",
+            "select1_label": "Programme",
+            "select1_options": "Playgroup\nNursery\nJunior KG\nSenior KG\nDay care",
+            "select2_label": "Start month",
+            "select2_options": "June 2027\nJanuary 2027\nAs soon as possible",
+            "date_label": "Preferred tour date",
+            "message_label": "Child’s name and age",
+            "email_required": false,
+            "button_text": "Book my tour",
+            "success_message": "Thank you! We will call you to confirm your tour.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Mon–Fri: 8:00 am – 6:30 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "hello@littleacorns.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "What age can my child join?",
+                "answer": "Playgroup starts at 18 months; we take children up to 6 years."
+              },
+              {
+                "question": "Do you provide meals?",
+                "answer": "Yes. Breakfast and lunch are freshly prepared on campus."
+              },
+              {
+                "question": "How do I get updates?",
+                "answer": "Through our parent app with photos, meal logs and teacher notes every day."
+              },
+              {
+                "question": "Is transport available?",
+                "answer": "Yes, for families within 5 km, with a female attendant on every van."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-26",
+                "time": "9:00 am",
+                "title": "Republic Day Celebration",
+                "location": "School courtyard",
+                "description": "Flag hoisting, songs and a little parade by our youngest citizens.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-14",
+                "time": "10:00 am – 12:00 noon",
+                "title": "Grandparents’ Day",
+                "location": "Activity hall",
+                "description": "Stories, crafts and a special performance for grandparents.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-20",
+                "time": "9:30 am",
+                "title": "Annual Day: “Our Big Green World”",
+                "location": "Community auditorium",
+                "description": "Songs, dances and skits about nature, performed by every class.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-18",
+                "title": "Admissions for 2027–28 playgroup and nursery are now open",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-10",
+                "title": "Children’s Day photos are up in the parent app",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-02",
+                "title": "Winter uniform from 1 December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-25",
+                "title": "Parent–teacher meetings on Saturday, 29 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-15",
+                "title": "New healthy snack menu for the term",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Art studio"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Classroom"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Library"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at Little Acorns Preschool.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at Little"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Play area"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Art studio"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Music room"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Sports field"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Library"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and see us in action",
+            "description": "Book a 30-minute tour — children are welcome to join the play.",
+            "background_image": "",
+            "button": {
+              "text": "Book a school tour",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912025674411"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Pune, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Little Acorns Preschool collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

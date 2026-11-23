@@ -1,0 +1,1066 @@
+{
+  "settings": {
+    "site": {
+      "name": "Apex Coaching Academy",
+      "tagline": "JEE, NEET and foundation coaching",
+      "phone": "+91 40 2765 9900",
+      "email": "admissions@apexcoaching.example",
+      "address": "4th Floor, Lakdi-ka-pul Main Road\nHyderabad, Telangana 500004",
+      "hours": "Mon–Sun: 7:00 am – 9:00 pm",
+      "footer_about": "Classroom and online coaching for JEE, NEET and Class 8–10 foundation, led by IIT and AIIMS alumni.",
+      "footer_text": "All rights reserved.",
+      "rating": "1,240 top-rank selections",
+      "rating_label": "in JEE Advanced and NEET since 2015",
+      "header_button": {
+        "text": "Book a free demo class",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Apex Coaching Academy — jee, neet and foundation coaching in Hyderabad. Classroom and online coaching for JEE, NEET and Class 8–10 foundation, led by IIT and AIIMS alumni.",
+      "keywords": "jee, neet and foundation coaching, Hyderabad"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "New batches from 5 January 2027",
+            "heading": "Crack JEE and NEET with teachers who did it first.",
+            "subheading": "Small batches, daily practice tests and doubt-clearing by IIT and AIIMS alumni — in our Hyderabad centre or live online.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a free demo class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Batches of 40 students"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Weekly All-India tests"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Scholarships up to 90%"
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1240",
+                "suffix": "+",
+                "label": "Top-rank selections",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "",
+                "label": "Students per batch",
+                "icon": ""
+              },
+              {
+                "number": "16",
+                "suffix": "",
+                "label": "Years of results",
+                "icon": ""
+              },
+              {
+                "number": "92",
+                "suffix": "%",
+                "label": "Students who qualify",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-20",
+                "title": "Scholarship test (ASAT) on 14 December — register free",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-15",
+                "title": "JEE Main 2027 crash course batch announced",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-08",
+                "title": "Monthly test results for Target batches published",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-11-01",
+                "title": "Parent meeting for foundation students on 22 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-25",
+                "title": "Hostel tie-up for outstation students",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "Classroom and online coaching for JEE, NEET and Class 8–10 foundation, led by IIT and AIIMS alumni.",
+            "items": [
+              {
+                "title": "JEE Main + Advanced (2 years)",
+                "level": "Class XI",
+                "duration": "2 years",
+                "fee": "₹1,45,000 / year",
+                "description": "Physics, chemistry and maths from basics to Advanced level.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "NEET (2 years)",
+                "level": "Class XI",
+                "duration": "2 years",
+                "fee": "₹1,25,000 / year",
+                "description": "Biology-first programme with daily MCQ practice.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "JEE / NEET Repeater",
+                "level": "After Class XII",
+                "duration": "1 year",
+                "fee": "₹1,35,000",
+                "description": "Intensive one-year programme with mock tests every Sunday.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Foundation",
+                "level": "Class 8 – 10",
+                "duration": "1 – 3 years",
+                "fee": "₹58,000 / year",
+                "description": "Olympiad and board preparation that builds strong basics.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Apex",
+            "heading": "Serious preparation, personal attention",
+            "description": "<p>Apex was founded in 2008 by four IIT graduates who believed coaching should explain concepts, not just drill shortcuts. We keep batches small so every student is known by name.</p><p>Our faculty write their own study material, set weekly tests in the real exam pattern and run doubt clinics every evening.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2008",
+            "experience_label": "Coaching toppers since",
+            "points": [
+              {
+                "text": "IIT and AIIMS alumni faculty"
+              },
+              {
+                "text": "Own study material and test series"
+              },
+              {
+                "text": "Evening doubt clinics"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "What makes Apex different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-people",
+                "title": "Small batches",
+                "description": "Forty students a batch, so teachers know every student."
+              },
+              {
+                "icon": "bi-clipboard-data",
+                "title": "Weekly tests",
+                "description": "Exam-pattern tests with rank and topic analysis."
+              },
+              {
+                "icon": "bi-question-circle",
+                "title": "Doubt clinics",
+                "description": "One-to-one doubt sessions every evening."
+              },
+              {
+                "icon": "bi-award",
+                "title": "Scholarships",
+                "description": "Up to 90% fee waiver through our scholarship test."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "Results that speak",
+            "items": [
+              {
+                "quote": "The weekly tests showed me exactly where I was losing marks. I improved my rank by 9,000 in six months.",
+                "name": "Aditya Reddy",
+                "role": "AIR 412, JEE Advanced 2026",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Biology classes here are the best I have attended. The doubt clinic saved me every week.",
+                "name": "Sana Fatima",
+                "role": "NEET 2026, 680/720",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The teachers called us after every test with honest feedback about our son’s progress.",
+                "name": "K. Srinivas",
+                "role": "Parent",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2026-12-14",
+                "time": "10:00 am – 1:00 pm",
+                "title": "Apex Scholarship Test (ASAT)",
+                "location": "Hyderabad centre & online",
+                "description": "Free test for Class 8–12 students. Win up to 90% fee waiver.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-01-05",
+                "time": "8:00 am",
+                "title": "New JEE & NEET batches begin",
+                "location": "Lakdi-ka-pul centre",
+                "description": "Orientation for students and parents, followed by the first classes.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-07",
+                "time": "4:00 pm",
+                "title": "Toppers’ Talk 2027",
+                "location": "Auditorium",
+                "description": "Our 2026 rank holders share strategies and answer questions.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Not sure which batch is right?",
+            "description": "Take our free scholarship test or book a demo class — a mentor will guide you.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free demo class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914027659900"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Apex Coaching Academy",
+            "subheading": "Classroom and online coaching for JEE, NEET and Class 8–10 foundation, led by IIT and AIIMS alumni.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Apex",
+            "heading": "Serious preparation, personal attention",
+            "description": "<p>Apex was founded in 2008 by four IIT graduates who believed coaching should explain concepts, not just drill shortcuts. We keep batches small so every student is known by name.</p><p>Our faculty write their own study material, set weekly tests in the real exam pattern and run doubt clinics every evening.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2008",
+            "experience_label": "Coaching toppers since",
+            "points": [
+              {
+                "text": "IIT and AIIMS alumni faculty"
+              },
+              {
+                "text": "Own study material and test series"
+              },
+              {
+                "text": "Evening doubt clinics"
+              }
+            ],
+            "button": {
+              "text": "Book a free demo class",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1240",
+                "suffix": "+",
+                "label": "Top-rank selections",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "",
+                "label": "Students per batch",
+                "icon": ""
+              },
+              {
+                "number": "16",
+                "suffix": "",
+                "label": "Years of results",
+                "icon": ""
+              },
+              {
+                "number": "92",
+                "suffix": "%",
+                "label": "Students who qualify",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. Ravi Shankar",
+                "role": "Director, Physics",
+                "bio": "IIT Bombay, 22 years teaching JEE physics.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Lakshmi Venkat",
+                "role": "Head, Chemistry",
+                "bio": "IIT Madras, author of our chemistry modules.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Dr. Imran Ali",
+                "role": "Head, Biology",
+                "bio": "AIIMS Delhi alumnus, leads the NEET programme.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Pradeep Kumar",
+                "role": "Head, Mathematics",
+                "bio": "IIT Kharagpur, Olympiad coach.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "What makes Apex different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-people",
+                "title": "Small batches",
+                "description": "Forty students a batch, so teachers know every student."
+              },
+              {
+                "icon": "bi-clipboard-data",
+                "title": "Weekly tests",
+                "description": "Exam-pattern tests with rank and topic analysis."
+              },
+              {
+                "icon": "bi-question-circle",
+                "title": "Doubt clinics",
+                "description": "One-to-one doubt sessions every evening."
+              },
+              {
+                "icon": "bi-award",
+                "title": "Scholarships",
+                "description": "Up to 90% fee waiver through our scholarship test."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "Classroom and online coaching for JEE, NEET and Class 8–10 foundation, led by IIT and AIIMS alumni.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "JEE Main + Advanced (2 years)",
+                "level": "Class XI",
+                "duration": "2 years",
+                "fee": "₹1,45,000 / year",
+                "description": "Physics, chemistry and maths from basics to Advanced level.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "NEET (2 years)",
+                "level": "Class XI",
+                "duration": "2 years",
+                "fee": "₹1,25,000 / year",
+                "description": "Biology-first programme with daily MCQ practice.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "JEE / NEET Repeater",
+                "level": "After Class XII",
+                "duration": "1 year",
+                "fee": "₹1,35,000",
+                "description": "Intensive one-year programme with mock tests every Sunday.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Foundation",
+                "level": "Class 8 – 10",
+                "duration": "1 – 3 years",
+                "fee": "₹58,000 / year",
+                "description": "Olympiad and board preparation that builds strong basics.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Crash course",
+                "level": "Class XII",
+                "duration": "10 weeks",
+                "fee": "₹28,000",
+                "description": "Revision and full-length tests before the exam.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Live online programme",
+                "level": "Class XI – XII",
+                "duration": "1 – 2 years",
+                "fee": "₹65,000 / year",
+                "description": "Live classes, recorded lectures and online tests.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "When do new batches start?",
+                "answer": "Main batches start in April and January; crash courses run before each exam."
+              },
+              {
+                "question": "Do you offer scholarships?",
+                "answer": "Yes. Our free scholarship test offers waivers of up to 90% of fees."
+              },
+              {
+                "question": "Can I pay fees in instalments?",
+                "answer": "Yes, in up to four instalments through the year."
+              },
+              {
+                "question": "Is hostel accommodation available?",
+                "answer": "We partner with supervised hostels near the centre for outstation students."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Not sure which batch is right?",
+            "description": "Take our free scholarship test or book a demo class — a mentor will guide you.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free demo class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914027659900"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Admissions",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-pencil-square",
+                "title": "Take the scholarship test",
+                "description": "A free test to place you and decide your scholarship."
+              },
+              {
+                "icon": "bi-chat-dots",
+                "title": "Counselling",
+                "description": "Discuss goals and the right batch with a mentor."
+              },
+              {
+                "icon": "bi-credit-card",
+                "title": "Enrol",
+                "description": "Pay fees in instalments and collect study material."
+              },
+              {
+                "icon": "bi-journal-check",
+                "title": "Start classes",
+                "description": "Join your batch and the weekly test series."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "Foundation",
+                "price": "₹58,000",
+                "period": "year",
+                "features": "Class 8–10\nOlympiad prep\nWeekly tests",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "JEE / NEET classroom",
+                "price": "₹1,45,000",
+                "period": "year",
+                "features": "Small batches\nStudy material & test series\nDoubt clinics\nMentor calls",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "Online",
+                "price": "₹65,000",
+                "period": "year",
+                "features": "Live & recorded classes\nOnline tests\nDoubt chat",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Admissions",
+            "heading": "Book a free demo class",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "admission",
+            "form_heading": "Book a free demo class",
+            "select1_label": "Course",
+            "select1_options": "JEE (2 years)\nNEET (2 years)\nRepeater\nFoundation (Class 8–10)\nCrash course\nOnline programme",
+            "select2_label": "Current class",
+            "select2_options": "Class 8\nClass 9\nClass 10\nClass 11\nClass 12\nPassed Class 12",
+            "date_label": "Preferred demo date",
+            "message_label": "Questions or exam goals",
+            "email_required": false,
+            "button_text": "Book demo class",
+            "success_message": "Thank you! A counsellor will call you to confirm your demo class.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Mon–Sun: 7:00 am – 9:00 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "admissions@apexcoaching.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "When do new batches start?",
+                "answer": "Main batches start in April and January; crash courses run before each exam."
+              },
+              {
+                "question": "Do you offer scholarships?",
+                "answer": "Yes. Our free scholarship test offers waivers of up to 90% of fees."
+              },
+              {
+                "question": "Can I pay fees in instalments?",
+                "answer": "Yes, in up to four instalments through the year."
+              },
+              {
+                "question": "Is hostel accommodation available?",
+                "answer": "We partner with supervised hostels near the centre for outstation students."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2026-12-14",
+                "time": "10:00 am – 1:00 pm",
+                "title": "Apex Scholarship Test (ASAT)",
+                "location": "Hyderabad centre & online",
+                "description": "Free test for Class 8–12 students. Win up to 90% fee waiver.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-01-05",
+                "time": "8:00 am",
+                "title": "New JEE & NEET batches begin",
+                "location": "Lakdi-ka-pul centre",
+                "description": "Orientation for students and parents, followed by the first classes.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-07",
+                "time": "4:00 pm",
+                "title": "Toppers’ Talk 2027",
+                "location": "Auditorium",
+                "description": "Our 2026 rank holders share strategies and answer questions.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-20",
+                "title": "Scholarship test (ASAT) on 14 December — register free",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-15",
+                "title": "JEE Main 2027 crash course batch announced",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-08",
+                "title": "Monthly test results for Target batches published",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-11-01",
+                "title": "Parent meeting for foundation students on 22 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-25",
+                "title": "Hostel tie-up for outstation students",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Science laboratory"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Lecture hall"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Library"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at Apex Coaching Academy.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at Apex"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Mathematics"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Science laboratory"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Examination hall"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Live online class"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Library"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Not sure which batch is right?",
+            "description": "Take our free scholarship test or book a demo class — a mentor will guide you.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free demo class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914027659900"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Hyderabad, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Apex Coaching Academy collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

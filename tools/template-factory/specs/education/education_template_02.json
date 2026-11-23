@@ -1,0 +1,74 @@
+{
+  "id": "education_template_02",
+  "name": "Acorn Playschool",
+  "prefix": "lac",
+  "niche": "preschool",
+  "seed": 2,
+  "direction": "Bright and cheerful: floating pill navigation, split hero with round frame, tomato and sunshine palette on warm cream, tinted rounded cards, round teacher portraits.",
+  "description": "A bright, cheerful design for preschools, day cares and kindergartens: floating navigation, a split hero, a notice strip, rounded tinted cards, event cards with date badges and round teacher portraits.",
+  "theme": {
+    "primary": "#E4572E",
+    "secondary": "#FFC93C",
+    "bg": "#FFFBF2",
+    "text": "#2B2118",
+    "heading_font": "poppins",
+    "body_font": "dm-sans",
+    "radius": "22px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "split",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "about": "grid",
+    "courses": "cards",
+    "events": "cards",
+    "notices": "strip",
+    "stats": "cards",
+    "process": "line",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "band",
+    "services": "cards"
+  },
+  "surface": [
+    "courses",
+    "testimonials"
+  ],
+  "footer_style": "light",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-primary) 80%, #000)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "mark_radius": "50%",
+    "card": "#FFFFFF",
+    "hero_ink": "var(--wb-text)",
+    "brand_color": "var(--wb-primary)"
+  },
+  "extra_css": ".lac .lac-hero-split .lac-hero-visual::before { border-radius: 50%; width: 60%; height: 70%; }\n.lac .lac-hero-frame { border-radius: 40% 40% var(--lac-radius-lg) var(--lac-radius-lg); }",
+  "demo": {
+    "home_courses": 3,
+    "home": [
+      "hero",
+      "notices",
+      "about",
+      "courses",
+      "features",
+      "stats",
+      "events",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "education",
+  "version": "1.0.0"
+}

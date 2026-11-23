@@ -1,0 +1,1054 @@
+{
+  "settings": {
+    "site": {
+      "name": "LinguaBridge Language Centre",
+      "tagline": "IELTS, PTE and foreign-language classes",
+      "phone": "+91 172 466 2200",
+      "email": "hello@linguabridge.example",
+      "address": "SCO 214, Sector 34-A\nChandigarh 160022",
+      "hours": "Mon–Sat: 8:00 am – 8:00 pm",
+      "footer_about": "IELTS, PTE, spoken English and foreign-language courses for study, work and migration abroad.",
+      "footer_text": "All rights reserved.",
+      "rating": "Average IELTS band 7.5",
+      "rating_label": "for students who complete our course",
+      "header_button": {
+        "text": "Book a free trial class",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "LinguaBridge Language Centre — ielts, pte and foreign-language classes in Chandigarh. IELTS, PTE, spoken English and foreign-language courses for study, work and migration abroad.",
+      "keywords": "ielts, pte and foreign-language classes, Chandigarh"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "New batches every Monday",
+            "heading": "Speak with confidence. Score with ease.",
+            "subheading": "IELTS, PTE, spoken English, French and German taught by certified trainers — in Chandigarh or live online.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a free trial class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Certified trainers"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Weekly mock tests"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Morning, evening & weekend batches"
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-19",
+                "title": "IELTS weekend batch starts 6 December",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-12",
+                "title": "French A1 evening batch — 6 seats left",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-04",
+                "title": "Free mock test every Saturday at 10 am",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-27",
+                "title": "German A1 for nurses: new course",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-19",
+                "title": "Diwali holiday on 8 – 9 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "IELTS, PTE, spoken English and foreign-language courses for study, work and migration abroad.",
+            "items": [
+              {
+                "title": "IELTS Academic & General",
+                "level": "All levels",
+                "duration": "6 weeks",
+                "fee": "₹14,000",
+                "description": "All four modules with weekly mock tests and speaking practice.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "PTE Academic",
+                "level": "All levels",
+                "duration": "4 weeks",
+                "fee": "₹12,000",
+                "description": "Computer-based test strategies and scored practice tests.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Spoken English",
+                "level": "Beginner – Advanced",
+                "duration": "8 weeks",
+                "fee": "₹9,500",
+                "description": "Fluency, pronunciation and confidence for work and life.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "Language skills that open doors",
+            "description": "<p>LinguaBridge has helped 15,000 students reach the scores and language levels they need for study, work and migration since 2010.</p><p>Our trainers are certified and experienced, our batches are small and every student gets weekly mock tests with detailed feedback.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2010",
+            "experience_label": "Teaching languages since",
+            "points": [
+              {
+                "text": "Certified trainers"
+              },
+              {
+                "text": "Small batches of 12"
+              },
+              {
+                "text": "Computer-delivered test practice"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "15000",
+                "suffix": "+",
+                "label": "Students trained",
+                "icon": ""
+              },
+              {
+                "number": "7.5",
+                "suffix": "",
+                "label": "Average IELTS band",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Students per batch",
+                "icon": ""
+              },
+              {
+                "number": "16",
+                "suffix": "",
+                "label": "Years of teaching",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why students choose LinguaBridge",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-patch-check",
+                "title": "Certified trainers",
+                "description": "Trainers with international teaching certificates."
+              },
+              {
+                "icon": "bi-laptop",
+                "title": "Real test practice",
+                "description": "Computer-delivered mock tests every week."
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Flexible batches",
+                "description": "Morning, evening, weekend and online options."
+              },
+              {
+                "icon": "bi-chat-square-quote",
+                "title": "Speaking practice",
+                "description": "Daily speaking sessions with feedback."
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2026-12-06",
+                "time": "10:00 am – 1:00 pm",
+                "title": "Free IELTS mock test",
+                "location": "Sector 34 centre",
+                "description": "Full-length test with band scores and feedback the same day.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-01-16",
+                "time": "5:00 pm",
+                "title": "Study abroad seminar",
+                "location": "Hotel Mountview, Chandigarh",
+                "description": "University representatives from Canada, the UK and Australia.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-13",
+                "time": "4:00 pm",
+                "title": "French Culture Evening",
+                "location": "LinguaBridge centre",
+                "description": "Films, food and conversation with our French students.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "Student success stories",
+            "items": [
+              {
+                "quote": "I got band 8 in IELTS on my first attempt. The speaking practice made all the difference.",
+                "name": "Harpreet Kaur",
+                "role": "IELTS 8.0, now studying in Canada",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "German A2 in five months while working full time. The weekend batch was perfect.",
+                "name": "Rajat Sharma",
+                "role": "German A2",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Spoken English classes gave me the confidence to lead client calls.",
+                "name": "Simran Gill",
+                "role": "IT professional",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Take a free level test today",
+            "description": "Find out where you stand and how quickly you can reach your target.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free trial class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911724662200"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About LinguaBridge Language Centre",
+            "subheading": "IELTS, PTE, spoken English and foreign-language courses for study, work and migration abroad.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "Language skills that open doors",
+            "description": "<p>LinguaBridge has helped 15,000 students reach the scores and language levels they need for study, work and migration since 2010.</p><p>Our trainers are certified and experienced, our batches are small and every student gets weekly mock tests with detailed feedback.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2010",
+            "experience_label": "Teaching languages since",
+            "points": [
+              {
+                "text": "Certified trainers"
+              },
+              {
+                "text": "Small batches of 12"
+              },
+              {
+                "text": "Computer-delivered test practice"
+              }
+            ],
+            "button": {
+              "text": "Book a free trial class",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "15000",
+                "suffix": "+",
+                "label": "Students trained",
+                "icon": ""
+              },
+              {
+                "number": "7.5",
+                "suffix": "",
+                "label": "Average IELTS band",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Students per batch",
+                "icon": ""
+              },
+              {
+                "number": "16",
+                "suffix": "",
+                "label": "Years of teaching",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Neelam Arora",
+                "role": "Founder & Head Trainer",
+                "bio": "Certified IELTS trainer with 18 years’ experience.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Marc Dubois",
+                "role": "French Trainer",
+                "bio": "Native speaker, DELF examiner.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Karan Sethi",
+                "role": "PTE Specialist",
+                "bio": "Has coached 3,000 PTE students.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Anke Weber",
+                "role": "German Trainer",
+                "bio": "Native speaker, Goethe-certified.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why students choose LinguaBridge",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-patch-check",
+                "title": "Certified trainers",
+                "description": "Trainers with international teaching certificates."
+              },
+              {
+                "icon": "bi-laptop",
+                "title": "Real test practice",
+                "description": "Computer-delivered mock tests every week."
+              },
+              {
+                "icon": "bi-clock",
+                "title": "Flexible batches",
+                "description": "Morning, evening, weekend and online options."
+              },
+              {
+                "icon": "bi-chat-square-quote",
+                "title": "Speaking practice",
+                "description": "Daily speaking sessions with feedback."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "IELTS, PTE, spoken English and foreign-language courses for study, work and migration abroad.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "IELTS Academic & General",
+                "level": "All levels",
+                "duration": "6 weeks",
+                "fee": "₹14,000",
+                "description": "All four modules with weekly mock tests and speaking practice.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "PTE Academic",
+                "level": "All levels",
+                "duration": "4 weeks",
+                "fee": "₹12,000",
+                "description": "Computer-based test strategies and scored practice tests.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Spoken English",
+                "level": "Beginner – Advanced",
+                "duration": "8 weeks",
+                "fee": "₹9,500",
+                "description": "Fluency, pronunciation and confidence for work and life.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "French A1 – B1",
+                "level": "Beginner",
+                "duration": "10 weeks per level",
+                "fee": "₹16,000 / level",
+                "description": "Conversation, grammar and exam preparation.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "German A1 – B2",
+                "level": "Beginner",
+                "duration": "10 weeks per level",
+                "fee": "₹18,000 / level",
+                "description": "For study, nursing and work in Germany.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Business communication",
+                "level": "Professionals",
+                "duration": "6 weeks",
+                "fee": "₹11,000",
+                "description": "Emails, presentations and meetings in English.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "How long does IELTS preparation take?",
+                "answer": "Most students need 4–8 weeks depending on their starting level and target band."
+              },
+              {
+                "question": "Do you book the exam for me?",
+                "answer": "We help you choose a date and book the official test."
+              },
+              {
+                "question": "Are online classes as good as classroom?",
+                "answer": "Yes — same trainers, same materials and live speaking practice."
+              },
+              {
+                "question": "Can I repeat a course?",
+                "answer": "Yes, at half the fee within six months."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Take a free level test today",
+            "description": "Find out where you stand and how quickly you can reach your target.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free trial class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911724662200"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Enrol",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-clipboard",
+                "title": "Free level test",
+                "description": "Find your current level in 30 minutes."
+              },
+              {
+                "icon": "bi-calendar3",
+                "title": "Pick a batch",
+                "description": "Choose timings that suit you."
+              },
+              {
+                "icon": "bi-book",
+                "title": "Learn & practise",
+                "description": "Classes, homework and mock tests."
+              },
+              {
+                "icon": "bi-trophy",
+                "title": "Take the exam",
+                "description": "Exam booking help and final review."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "IELTS / PTE",
+                "price": "₹12,000+",
+                "period": "course",
+                "features": "Small batch\nWeekly mock tests\nStudy material",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "IELTS Premium",
+                "price": "₹22,000",
+                "period": "course",
+                "features": "Batch + 10 one-to-one sessions\nUnlimited mock tests\nWriting corrections\nExam booking help",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "Languages",
+                "price": "₹16,000+",
+                "period": "level",
+                "features": "French or German\n10 weeks per level\nCertificate exam prep",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Enrol",
+            "heading": "Book a free trial class",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "enquiry",
+            "form_heading": "Book a free trial class",
+            "select1_label": "Course",
+            "select1_options": "IELTS Academic\nIELTS General\nPTE Academic\nSpoken English\nFrench\nGerman\nBusiness communication",
+            "select2_label": "Preferred batch",
+            "select2_options": "Morning\nAfternoon\nEvening\nWeekend\nOnline",
+            "date_label": "Preferred start date",
+            "message_label": "Target score or level",
+            "email_required": false,
+            "button_text": "Book trial",
+            "success_message": "Thank you! We will call you to confirm your trial class.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Mon–Sat: 8:00 am – 8:00 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "hello@linguabridge.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "How long does IELTS preparation take?",
+                "answer": "Most students need 4–8 weeks depending on their starting level and target band."
+              },
+              {
+                "question": "Do you book the exam for me?",
+                "answer": "We help you choose a date and book the official test."
+              },
+              {
+                "question": "Are online classes as good as classroom?",
+                "answer": "Yes — same trainers, same materials and live speaking practice."
+              },
+              {
+                "question": "Can I repeat a course?",
+                "answer": "Yes, at half the fee within six months."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2026-12-06",
+                "time": "10:00 am – 1:00 pm",
+                "title": "Free IELTS mock test",
+                "location": "Sector 34 centre",
+                "description": "Full-length test with band scores and feedback the same day.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-01-16",
+                "time": "5:00 pm",
+                "title": "Study abroad seminar",
+                "location": "Hotel Mountview, Chandigarh",
+                "description": "University representatives from Canada, the UK and Australia.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-13",
+                "time": "4:00 pm",
+                "title": "French Culture Evening",
+                "location": "LinguaBridge centre",
+                "description": "Films, food and conversation with our French students.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-19",
+                "title": "IELTS weekend batch starts 6 December",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-12",
+                "title": "French A1 evening batch — 6 seats left",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-04",
+                "title": "Free mock test every Saturday at 10 am",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-27",
+                "title": "German A1 for nurses: new course",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-19",
+                "title": "Diwali holiday on 8 – 9 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Classroom"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Examination hall"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Graduation day"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at LinguaBridge Language Centre.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at LinguaBridge"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Language class"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Classroom"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Live online class"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Library"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Graduation day"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Take a free level test today",
+            "description": "Find out where you stand and how quickly you can reach your target.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free trial class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911724662200"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Chandigarh, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how LinguaBridge Language Centre collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

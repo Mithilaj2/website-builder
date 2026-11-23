@@ -1,0 +1,71 @@
+{
+  "id": "education_template_08",
+  "name": "Westbridge Executive",
+  "prefix": "wsm",
+  "niche": "mba",
+  "seed": 8,
+  "direction": "Corporate and editorial: dark navigation, oversized editorial hero, ink and sky blue on white, near-square corners, programme rows, inline numbers and a timeline admissions process.",
+  "description": "A corporate, editorial design for business schools, executive education and universities: dark navigation, an editorial hero, a notice board, programme rows, inline statistics and a timeline admissions process.",
+  "theme": {
+    "primary": "#111827",
+    "secondary": "#0EA5E9",
+    "bg": "#FFFFFF",
+    "text": "#111827",
+    "heading_font": "manrope",
+    "body_font": "inter",
+    "radius": "2px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "editorial",
+    "banner": "image",
+    "head": "bar",
+    "card": "top",
+    "about": "layered",
+    "courses": "list",
+    "events": "list",
+    "notices": "board",
+    "stats": "inline",
+    "process": "timeline",
+    "testimonials": "featured",
+    "cta": "box",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns",
+    "services": "cards"
+  },
+  "surface": [
+    "features",
+    "courses"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 70%, #000)",
+    "icon": "accent",
+    "track": "-.025em",
+    "hero_scale": 0.95
+  },
+  "demo": {
+    "home_courses": 4,
+    "features_image": "svc-1.svg",
+    "home": [
+      "hero",
+      "logos",
+      "about",
+      "stats",
+      "courses",
+      "features",
+      "testimonials",
+      "notices",
+      "cta"
+    ],
+    "testimonials_heading": "What our alumni say"
+  },
+  "category": "education",
+  "version": "1.0.0"
+}

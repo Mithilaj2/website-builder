@@ -1,0 +1,72 @@
+{
+  "id": "education_template_07",
+  "name": "Raga Stage",
+  "prefix": "rsp",
+  "niche": "arts",
+  "seed": 7,
+  "direction": "Expressive and theatrical: centred masthead, full-bleed stage hero, wine and marigold on warm cream, Lora serif headings, hairline cards, a marigold numbers band.",
+  "description": "An expressive, theatrical design for music, dance and performing-arts schools: centred masthead, a full-bleed stage hero, serif headings, class cards, event cards with date badges and round teacher portraits.",
+  "theme": {
+    "primary": "#6D1A36",
+    "secondary": "#F4A259",
+    "bg": "#FFF8F0",
+    "text": "#2C1520",
+    "heading_font": "lora",
+    "body_font": "jost",
+    "radius": "14px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "cover",
+    "banner": "solid",
+    "head": "serif",
+    "card": "line",
+    "about": "grid",
+    "courses": "cards",
+    "events": "cards",
+    "notices": "board",
+    "stats": "band",
+    "process": "line",
+    "testimonials": "featured",
+    "cta": "split",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "boxed",
+    "footer": "band",
+    "services": "cards"
+  },
+  "surface": [
+    "courses",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 700,
+    "track": "-.01em",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "home_courses": 6,
+    "cta_image": "svc-2.svg",
+    "home": [
+      "hero",
+      "about",
+      "courses",
+      "stats",
+      "events",
+      "testimonials",
+      "notices",
+      "cta"
+    ]
+  },
+  "category": "education",
+  "version": "1.0.0"
+}

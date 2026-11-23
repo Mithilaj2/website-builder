@@ -245,6 +245,15 @@ Styling and overrides:
 | Business 09 Harbor Chambers | `hbc` | Navy + bronze on ivory | Cormorant Garamond + DM Sans | Classic and composed: centred masthead, oversized serif editorial hero, navy and bronze on ivory, hairline cards, numbered practice rows and a centred footer. |
 | Business 10 Pulse Studio | `pls` | Ink + coral on warm paper | DM Serif Display + DM Sans | Playful and editorial: floating pill navigation, split hero with big rounded frames, display serif headings on warm paper, coral accents and a coral call-to-action band. |
 | Education 01 Lyceum Classic | `lyc` | Forest green + saffron on paper | Fraunces + DM Sans | Arch frames, school crest, notice board, dark hero |
+| Education 02 Acorn Playschool | `lac` | Tomato + sunshine on warm cream, light footer | Poppins + DM Sans | Bright and cheerful: floating pill navigation, split hero with round frame, tomato and sunshine palette on warm cream, tinted rounded cards, round teacher portraits. |
+| Education 03 Apex Rankers | `apx` | Navy + signal red on white | Montserrat + Inter | Driven and results-focused: dark navigation, colour-panel hero, navy and signal red, accent-topped cards, course list with fees, red numbers band. |
+| Education 04 Circuit Campus | `mit` | Deep teal + amber on white | Sora + Inter | Modern and technical: info bar and clean navbar, full-bleed campus hero with a highlights strip, deep teal and amber, hairline cards, large inline numbers, a timeline admissions process. |
+| Education 05 Cedar Global | `cis` | Plum + antique gold on ivory | Playfair Display + DM Sans | Refined and international: centred masthead, centred hero over a wide campus panorama, plum and antique gold on ivory, serif headings, soft shadows, a gold call-to-action band. |
+| Education 06 Forge Terminal | `cfa` | Dark green-black page, emerald + highlighter yellow | Space Grotesk + Inter | Dark and hands-on: floating pill navigation on a near-black green page, terminal emerald and highlighter yellow, split hero, course rows, outlined step numbers and a centred footer. |
+| Education 07 Raga Stage | `rsp` | Wine + marigold on warm cream | Lora + Jost | Expressive and theatrical: centred masthead, full-bleed stage hero, wine and marigold on warm cream, Lora serif headings, hairline cards, a marigold numbers band. |
+| Education 08 Westbridge Executive | `wsm` | Ink + sky blue on white | Manrope + Inter | Corporate and editorial: dark navigation, oversized editorial hero, ink and sky blue on white, near-square corners, programme rows, inline numbers and a timeline admissions process. |
+| Education 09 Lingua Bridge | `lgb` | Teal + coral on white, light footer | Plus Jakarta Sans + Inter | Friendly and conversational: info bar, split hero, teal and coral on white, pill labels, soft shadowed cards, round trainer portraits and a light footer. |
+| Education 10 Pinecrest Heritage | `pcr` | Slate + rust on parchment | Merriweather + Open Sans | Heritage and outdoors: centred masthead, colour-panel hero with a mountain campus, slate and rust on parchment, Merriweather headings, programme rows, a timeline and a dark footer. |
 | E-commerce 01 Terra Market | `trm` | Terracotta + sage on cream, ink footer | Playfair Display + Inter | Capsule (pill) frames, scrolling announcement bar, round category tiles, hover second image, rotating stamp |
 | Hospital 01 CareLine Health | `crl` | Teal + coral on mint, navy footer | Plus Jakarta Sans + DM Sans | Leaf frames (two opposite corners rounded), heartbeat line, 24×7 emergency strip, quick-access bar, light hero |
 | Real Estate 01 Keystone Realty | `kst` | Burgundy + champagne on warm stone, ink footer | Sora + DM Sans | Square-cornered frames with champagne rules, full-bleed dark hero with a tabbed buy/rent search panel, price set on the photo, three-cell fact strip on cards |
@@ -254,7 +263,7 @@ Styling and overrides:
 | Services 01 Ledgerline Advisors | `ldg` | Navy + emerald on white with blue-grey and mint bands | Poppins + Open Sans | Split hero with an illustration and a checklist, flat spot illustrations per service, fee and turnaround chips on cards, pricing packages with a highlighted middle plan, numbered step cards |
 | Travel 01 Horizon Trails | `hzt` | Deep ocean + sunset orange on sand | Jost + Plus Jakarta Sans | Generous rounding and pill buttons, centred sunset hero with a capsule trip finder, mosaic destination tiles, duration chips and "From ₹… per person" card footers |
 
-Business 02–10 were generated with the template factory (below); each changes the hero, header, card style, palette and heading typeface.
+Business 02–10 and Education 02–10 were generated with the template factory (below); each changes the hero, header, card style, palette and heading typeface.
 
 ## Template factory (templates 02–10)
 

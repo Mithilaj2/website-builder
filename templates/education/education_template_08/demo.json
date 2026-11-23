@@ -1,0 +1,1052 @@
+{
+  "settings": {
+    "site": {
+      "name": "Westbridge School of Management",
+      "tagline": "MBA and executive education",
+      "phone": "+91 124 456 7800",
+      "email": "admissions@westbridge.example",
+      "address": "Sector 62, Golf Course Extension Road\nGurugram, Haryana 122102",
+      "hours": "Mon–Sat: 9:00 am – 6:00 pm",
+      "footer_about": "A business school offering a two-year MBA, a one-year executive MBA and short programmes for managers.",
+      "footer_text": "All rights reserved.",
+      "rating": "Ranked in India’s top 30",
+      "rating_label": "by national B-school surveys",
+      "header_button": {
+        "text": "Start your application",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Westbridge School of Management — mba and executive education in Gurugram. A business school offering a two-year MBA, a one-year executive MBA and short programmes for managers.",
+      "keywords": "mba and executive education, Gurugram"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "MBA 2027–29 applications open",
+            "heading": "Lead with clarity in a changing world.",
+            "subheading": "A rigorous, case-based MBA with live consulting projects, a global immersion and a placement record built over 25 years.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Start your application",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Median CTC ₹18.6 LPA"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Global immersion week"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "6,000-strong alumni network"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Top recruiters in 2026",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Northwind Capital",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Vantage Consulting",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Corvio Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Pillar Retail",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Lumen FMCG",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Westbridge",
+            "heading": "Practical management education since 2001",
+            "description": "<p>Westbridge was set up by industry leaders who wanted managers trained on real problems. Our MBA uses cases, simulations and live consulting projects from day one.</p><p>Faculty combine research with years of corporate experience, and 6,000 alumni open doors across consulting, finance and technology.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2001",
+            "experience_label": "Developing leaders since",
+            "points": [
+              {
+                "text": "Case-method teaching"
+              },
+              {
+                "text": "Live projects with 80 companies"
+              },
+              {
+                "text": "International immersion every year"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "96",
+                "suffix": "%",
+                "label": "Batch placed in 2026",
+                "icon": ""
+              },
+              {
+                "number": "18.6",
+                "suffix": " LPA",
+                "label": "Median salary",
+                "icon": ""
+              },
+              {
+                "number": "6000",
+                "suffix": "+",
+                "label": "Alumni",
+                "icon": ""
+              },
+              {
+                "number": "80",
+                "suffix": "",
+                "label": "Live-project partners",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "A business school offering a two-year MBA, a one-year executive MBA and short programmes for managers.",
+            "items": [
+              {
+                "title": "MBA (full time)",
+                "level": "Graduates",
+                "duration": "2 years",
+                "fee": "₹16,50,000 total",
+                "description": "Core management, electives in finance, marketing, analytics and strategy.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "MBA Business Analytics",
+                "level": "Graduates",
+                "duration": "2 years",
+                "fee": "₹17,50,000 total",
+                "description": "Management with data science, AI and decision modelling.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Executive MBA",
+                "level": "5+ yrs experience",
+                "duration": "15 months",
+                "fee": "₹12,00,000 total",
+                "description": "Weekend classes for working managers.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Post-graduate Certificate in HR",
+                "level": "Graduates",
+                "duration": "1 year",
+                "fee": "₹4,50,000",
+                "description": "HR strategy, analytics and labour law.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "The Westbridge difference",
+            "description": "",
+            "image": "theme:images/svc-1.svg",
+            "items": [
+              {
+                "icon": "bi-briefcase",
+                "title": "Live consulting",
+                "description": "Every student works on two real company projects."
+              },
+              {
+                "icon": "bi-globe",
+                "title": "Global immersion",
+                "description": "A week at a partner school in Europe or Asia."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Small cohorts",
+                "description": "180 students a year for real faculty contact."
+              },
+              {
+                "icon": "bi-graph-up-arrow",
+                "title": "Career services",
+                "description": "Coaching, mock interviews and summer internships."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "What our alumni say",
+            "items": [
+              {
+                "quote": "The live consulting projects were the closest thing to real work. They got me my consulting offer.",
+                "name": "Aman Bhatia",
+                "role": "MBA 2026, Vantage Consulting",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Weekend classes let me grow without leaving my job. I was promoted before I graduated.",
+                "name": "Neha Gupta",
+                "role": "Executive MBA 2025",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Westbridge interns hit the ground running every summer.",
+                "name": "Rohit Malhotra",
+                "role": "HR Director, Corvio Bank",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-20",
+                "title": "MBA 2027–29: Round 2 deadline is 15 January",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-13",
+                "title": "Final placements: 96% of the batch placed",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-05",
+                "title": "Leadership lecture series: CEO of Corvio Bank, 26 Nov",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-29",
+                "title": "Executive MBA weekend batch — info session",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-21",
+                "title": "Case competition team wins national final",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready for your next career step?",
+            "description": "Speak with our admissions team or attend an info session.",
+            "background_image": "",
+            "button": {
+              "text": "Start your application",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911244567800"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Westbridge School of Management",
+            "subheading": "A business school offering a two-year MBA, a one-year executive MBA and short programmes for managers.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Westbridge",
+            "heading": "Practical management education since 2001",
+            "description": "<p>Westbridge was set up by industry leaders who wanted managers trained on real problems. Our MBA uses cases, simulations and live consulting projects from day one.</p><p>Faculty combine research with years of corporate experience, and 6,000 alumni open doors across consulting, finance and technology.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2001",
+            "experience_label": "Developing leaders since",
+            "points": [
+              {
+                "text": "Case-method teaching"
+              },
+              {
+                "text": "Live projects with 80 companies"
+              },
+              {
+                "text": "International immersion every year"
+              }
+            ],
+            "button": {
+              "text": "Start your application",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "96",
+                "suffix": "%",
+                "label": "Batch placed in 2026",
+                "icon": ""
+              },
+              {
+                "number": "18.6",
+                "suffix": " LPA",
+                "label": "Median salary",
+                "icon": ""
+              },
+              {
+                "number": "6000",
+                "suffix": "+",
+                "label": "Alumni",
+                "icon": ""
+              },
+              {
+                "number": "80",
+                "suffix": "",
+                "label": "Live-project partners",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Prof. Anil Kapoor",
+                "role": "Director",
+                "bio": "Former consulting partner and strategy professor.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Prof. Ritu Sharma",
+                "role": "Dean, Programmes",
+                "bio": "Professor of Marketing.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Prof. Sameer Jain",
+                "role": "Chair, Analytics",
+                "bio": "Data scientist and author.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Ms. Kavita Arora",
+                "role": "Head, Career Services",
+                "bio": "Leads placements and corporate relations.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "The Westbridge difference",
+            "description": "",
+            "image": "theme:images/svc-1.svg",
+            "items": [
+              {
+                "icon": "bi-briefcase",
+                "title": "Live consulting",
+                "description": "Every student works on two real company projects."
+              },
+              {
+                "icon": "bi-globe",
+                "title": "Global immersion",
+                "description": "A week at a partner school in Europe or Asia."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Small cohorts",
+                "description": "180 students a year for real faculty contact."
+              },
+              {
+                "icon": "bi-graph-up-arrow",
+                "title": "Career services",
+                "description": "Coaching, mock interviews and summer internships."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "A business school offering a two-year MBA, a one-year executive MBA and short programmes for managers.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "MBA (full time)",
+                "level": "Graduates",
+                "duration": "2 years",
+                "fee": "₹16,50,000 total",
+                "description": "Core management, electives in finance, marketing, analytics and strategy.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "MBA Business Analytics",
+                "level": "Graduates",
+                "duration": "2 years",
+                "fee": "₹17,50,000 total",
+                "description": "Management with data science, AI and decision modelling.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Executive MBA",
+                "level": "5+ yrs experience",
+                "duration": "15 months",
+                "fee": "₹12,00,000 total",
+                "description": "Weekend classes for working managers.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Post-graduate Certificate in HR",
+                "level": "Graduates",
+                "duration": "1 year",
+                "fee": "₹4,50,000",
+                "description": "HR strategy, analytics and labour law.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Leadership programmes",
+                "level": "Senior managers",
+                "duration": "3 – 5 days",
+                "fee": "From ₹85,000",
+                "description": "Short open programmes for senior leaders.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Online certificate in Digital Marketing",
+                "level": "All",
+                "duration": "12 weeks",
+                "fee": "₹65,000",
+                "description": "Live online classes with a capstone project.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Which entrance exams are accepted?",
+                "answer": "CAT, XAT, GMAT and GRE scores are accepted."
+              },
+              {
+                "question": "Is work experience required?",
+                "answer": "Not for the MBA; the Executive MBA needs at least five years."
+              },
+              {
+                "question": "Are education loans available?",
+                "answer": "Yes, we have tie-ups with leading banks for collateral-free loans."
+              },
+              {
+                "question": "Is there hostel accommodation?",
+                "answer": "Yes, single and twin-sharing rooms on campus."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready for your next career step?",
+            "description": "Speak with our admissions team or attend an info session.",
+            "background_image": "",
+            "button": {
+              "text": "Start your application",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911244567800"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Admissions",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Apply online",
+                "description": "Submit your application and CAT / GMAT score."
+              },
+              {
+                "icon": "bi-pencil",
+                "title": "Written test",
+                "description": "An analytical writing test."
+              },
+              {
+                "icon": "bi-person-video3",
+                "title": "Interview",
+                "description": "A personal interview with faculty and alumni."
+              },
+              {
+                "icon": "bi-envelope-check",
+                "title": "Offer",
+                "description": "Receive your offer and confirm your seat."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "MBA",
+                "price": "₹16,50,000",
+                "period": "programme",
+                "features": "Tuition & materials\nGlobal immersion\nCareer services",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "MBA Business Analytics",
+                "price": "₹17,50,000",
+                "period": "programme",
+                "features": "Tuition & materials\nAnalytics lab & software\nGlobal immersion\nCareer services",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "Executive MBA",
+                "price": "₹12,00,000",
+                "period": "programme",
+                "features": "Weekend classes\nLeadership coaching\nInternational module",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Admissions",
+            "heading": "Request a call from admissions",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "admission",
+            "form_heading": "Request a call from admissions",
+            "select1_label": "Programme",
+            "select1_options": "MBA (full time)\nMBA Business Analytics\nExecutive MBA\nPG Certificate in HR\nLeadership programmes",
+            "select2_label": "Work experience",
+            "select2_options": "None\nUnder 2 years\n2 – 5 years\n5+ years",
+            "date_label": "",
+            "message_label": "Entrance exam score and questions",
+            "email_required": false,
+            "button_text": "Request a call",
+            "success_message": "Thank you! An admissions counsellor will call you within one working day.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Mon–Sat: 9:00 am – 6:00 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "admissions@westbridge.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Which entrance exams are accepted?",
+                "answer": "CAT, XAT, GMAT and GRE scores are accepted."
+              },
+              {
+                "question": "Is work experience required?",
+                "answer": "Not for the MBA; the Executive MBA needs at least five years."
+              },
+              {
+                "question": "Are education loans available?",
+                "answer": "Yes, we have tie-ups with leading banks for collateral-free loans."
+              },
+              {
+                "question": "Is there hostel accommodation?",
+                "answer": "Yes, single and twin-sharing rooms on campus."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-09",
+                "time": "11:00 am",
+                "title": "MBA Admissions Info Session",
+                "location": "Campus & online",
+                "description": "Meet faculty and students, and learn about the selection process.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-05",
+                "time": "9:00 am – 6:00 pm",
+                "title": "Westbridge Business Conclave",
+                "location": "Convention hall",
+                "description": "Leaders from consulting, finance and tech on the next decade of business.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-27",
+                "time": "5:00 pm",
+                "title": "Convocation 2027",
+                "location": "Main lawn",
+                "description": "Graduation ceremony for the MBA and Executive MBA batches.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-20",
+                "title": "MBA 2027–29: Round 2 deadline is 15 January",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-13",
+                "title": "Final placements: 96% of the batch placed",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-05",
+                "title": "Leadership lecture series: CEO of Corvio Bank, 26 Nov",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-29",
+                "title": "Executive MBA weekend batch — info session",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-21",
+                "title": "Case competition team wins national final",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Lecture hall"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Live online class"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Computer lab"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at Westbridge School of Management.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at Westbridge"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Business analytics"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Lecture hall"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Library"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Graduation day"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Computer lab"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready for your next career step?",
+            "description": "Speak with our admissions team or attend an info session.",
+            "background_image": "",
+            "button": {
+              "text": "Start your application",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911244567800"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Gurugram, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Westbridge School of Management collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}
