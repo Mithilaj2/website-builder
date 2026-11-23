@@ -1,0 +1,10 @@
+.{{p}}-event-list { display: grid; gap: 1.25rem; max-width: 1000px; margin: 0 auto; }
+.{{p}}-event { display: grid; grid-template-columns: 96px minmax(0, 1fr) 220px; gap: 1.5rem; align-items: center; background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); padding: 1.25rem; }
+.{{p}}-event:not(:has(.{{p}}-event-img)) { grid-template-columns: 96px minmax(0, 1fr); }
+.{{p}}-event-date { display: flex; flex-direction: column; align-items: center; justify-content: center; aspect-ratio: 1; border-radius: var(--{{p}}-radius); background: var(--{{p}}-deep); color: #fff; text-align: center; line-height: 1.1; }
+.{{p}}-event-date b { font-family: var(--wb-heading-font); font-size: 2rem; }
+.{{p}}-event-date span { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; opacity: .85; margin-top: .2rem; }
+.{{p}}-event-body .{{p}}-card-title { margin-bottom: .4rem; }
+.{{p}}-event-body p { color: var(--{{p}}-muted); margin: .6rem 0 0; }
+.{{p}}-event-img img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: var(--{{p}}-radius); display: block; }
+@media (max-width: 767.98px) { .{{p}}-event, .{{p}}-event:not(:has(.{{p}}-event-img)) { grid-template-columns: 72px minmax(0, 1fr); } .{{p}}-event-img { grid-column: 1 / -1; } .{{p}}-event-date b { font-size: 1.5rem; } }

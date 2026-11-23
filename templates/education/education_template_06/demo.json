@@ -1,0 +1,1098 @@
+{
+  "settings": {
+    "site": {
+      "name": "CodeForge Academy",
+      "tagline": "Coding bootcamps and tech careers",
+      "phone": "+91 80 4111 7766",
+      "email": "learn@codeforge.example",
+      "address": "WeWork Galaxy, Residency Road\nBengaluru, Karnataka 560025",
+      "hours": "Mon–Sat: 10:00 am – 8:00 pm",
+      "footer_about": "Job-focused bootcamps in full-stack development, data science and cloud, live online and in Bengaluru.",
+      "footer_text": "All rights reserved.",
+      "rating": "2,800+ graduates hired",
+      "rating_label": "average salary jump of 2.4×",
+      "header_button": {
+        "text": "Book a free career call",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "CodeForge Academy — coding bootcamps and tech careers in Bengaluru. Job-focused bootcamps in full-stack development, data science and cloud, live online and in Bengaluru.",
+      "keywords": "coding bootcamps and tech careers, Bengaluru"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Next cohort starts 12 January",
+            "heading": "Learn to code. Get hired. Grow fast.",
+            "subheading": "Live, mentor-led bootcamps with real projects, mock interviews and placement support — no computer-science degree needed.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a free career call",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Live classes, small cohorts"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "1:1 industry mentors"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Pay after placement option"
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-21",
+                "title": "January cohort: 40 seats left in Full-Stack",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-14",
+                "title": "Free workshop: build your first React app, 30 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-06",
+                "title": "Hiring partners’ demo day on 18 December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-30",
+                "title": "New: Cloud & DevOps track launches in February",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-22",
+                "title": "Scholarships for women in tech — apply now",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our graduates work at",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Finlytic",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Quikcart",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Stackwell",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Orbitpay",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Medora",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "Job-focused bootcamps in full-stack development, data science and cloud, live online and in Bengaluru.",
+            "items": [
+              {
+                "title": "Full-Stack Web Development",
+                "level": "Beginner friendly",
+                "duration": "24 weeks",
+                "fee": "₹1,49,000",
+                "description": "HTML to React, Node.js, databases and deployment.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Data Science & Machine Learning",
+                "level": "Some maths",
+                "duration": "28 weeks",
+                "fee": "₹1,79,000",
+                "description": "Python, statistics, ML models and real datasets.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Cloud & DevOps",
+                "level": "Some coding",
+                "duration": "16 weeks",
+                "fee": "₹1,29,000",
+                "description": "AWS, Docker, Kubernetes and CI/CD pipelines.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Data Analytics",
+                "level": "Beginner friendly",
+                "duration": "16 weeks",
+                "fee": "₹89,000",
+                "description": "Excel, SQL, Power BI and storytelling with data.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2800",
+                "suffix": "+",
+                "label": "Graduates hired",
+                "icon": ""
+              },
+              {
+                "number": "300",
+                "suffix": "+",
+                "label": "Hiring partners",
+                "icon": ""
+              },
+              {
+                "number": "2.4",
+                "suffix": "×",
+                "label": "Average salary jump",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Student rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Why we exist",
+            "heading": "Skills over degrees, projects over theory",
+            "description": "<p>CodeForge started in 2018 to give career-switchers a fair shot at tech jobs. Our bootcamps are taught live by engineers who work at product companies.</p><p>Every student builds a portfolio of real projects, practises interviews with mentors and gets introductions to 300 hiring partners.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2018",
+            "experience_label": "Training developers since",
+            "points": [
+              {
+                "text": "Engineers from product companies teach"
+              },
+              {
+                "text": "Portfolio of six real projects"
+              },
+              {
+                "text": "Placement support until you are hired"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-telephone",
+                "title": "Career call",
+                "description": "Talk to an advisor about your goals."
+              },
+              {
+                "icon": "bi-code",
+                "title": "Aptitude test",
+                "description": "A short logic test — no coding needed."
+              },
+              {
+                "icon": "bi-laptop",
+                "title": "Learn & build",
+                "description": "Live classes, assignments and projects."
+              },
+              {
+                "icon": "bi-briefcase",
+                "title": "Get hired",
+                "description": "Interviews with our hiring partners."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "What our graduates say",
+            "items": [
+              {
+                "quote": "I went from a call-centre job to a frontend developer role in eight months.",
+                "name": "Pooja Nair",
+                "role": "Frontend Developer, Quikcart",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The mentors are working engineers. Their code reviews taught me more than any course.",
+                "name": "Varun Shetty",
+                "role": "Data Analyst, Finlytic",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "CodeForge graduates arrive with real projects and solid fundamentals.",
+                "name": "Ankit Sharma",
+                "role": "CTO, Orbitpay",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2026-11-30",
+                "time": "11:00 am – 1:00 pm",
+                "title": "Free workshop: Your first React app",
+                "location": "Online (Zoom)",
+                "description": "Build and deploy a small app with our lead instructor.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2026-12-18",
+                "time": "3:00 pm",
+                "title": "Hiring Partners Demo Day",
+                "location": "Residency Road campus",
+                "description": "Graduating students present projects to 40 hiring companies.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-01-12",
+                "time": "7:00 pm",
+                "title": "January cohort kick-off",
+                "location": "Online & campus",
+                "description": "Welcome session, mentor matching and your first live class.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to switch careers?",
+            "description": "Book a free 20-minute call with an advisor to plan your path into tech.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free career call",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918041117766"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About CodeForge Academy",
+            "subheading": "Job-focused bootcamps in full-stack development, data science and cloud, live online and in Bengaluru.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Why we exist",
+            "heading": "Skills over degrees, projects over theory",
+            "description": "<p>CodeForge started in 2018 to give career-switchers a fair shot at tech jobs. Our bootcamps are taught live by engineers who work at product companies.</p><p>Every student builds a portfolio of real projects, practises interviews with mentors and gets introductions to 300 hiring partners.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2018",
+            "experience_label": "Training developers since",
+            "points": [
+              {
+                "text": "Engineers from product companies teach"
+              },
+              {
+                "text": "Portfolio of six real projects"
+              },
+              {
+                "text": "Placement support until you are hired"
+              }
+            ],
+            "button": {
+              "text": "Book a free career call",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2800",
+                "suffix": "+",
+                "label": "Graduates hired",
+                "icon": ""
+              },
+              {
+                "number": "300",
+                "suffix": "+",
+                "label": "Hiring partners",
+                "icon": ""
+              },
+              {
+                "number": "2.4",
+                "suffix": "×",
+                "label": "Average salary jump",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Student rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Kiran Rao",
+                "role": "Co-founder & CEO",
+                "bio": "Former engineering manager at a fintech unicorn.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Divya Menon",
+                "role": "Head of Curriculum",
+                "bio": "Full-stack engineer and teacher.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Rohan Gupta",
+                "role": "Lead Instructor, Data",
+                "bio": "Machine-learning engineer, 10 years in industry.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Fatima Sheikh",
+                "role": "Head of Careers",
+                "bio": "Runs our hiring-partner network.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "How CodeForge works",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-broadcast",
+                "title": "Live, not recorded",
+                "description": "Every class is live with time for questions."
+              },
+              {
+                "icon": "bi-person-workspace",
+                "title": "1:1 mentors",
+                "description": "Weekly sessions with an engineer from industry."
+              },
+              {
+                "icon": "bi-kanban",
+                "title": "Real projects",
+                "description": "Build and deploy six portfolio projects."
+              },
+              {
+                "icon": "bi-briefcase",
+                "title": "Career support",
+                "description": "Résumé reviews, mock interviews and referrals."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "Job-focused bootcamps in full-stack development, data science and cloud, live online and in Bengaluru.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "Full-Stack Web Development",
+                "level": "Beginner friendly",
+                "duration": "24 weeks",
+                "fee": "₹1,49,000",
+                "description": "HTML to React, Node.js, databases and deployment.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Data Science & Machine Learning",
+                "level": "Some maths",
+                "duration": "28 weeks",
+                "fee": "₹1,79,000",
+                "description": "Python, statistics, ML models and real datasets.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Cloud & DevOps",
+                "level": "Some coding",
+                "duration": "16 weeks",
+                "fee": "₹1,29,000",
+                "description": "AWS, Docker, Kubernetes and CI/CD pipelines.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Data Analytics",
+                "level": "Beginner friendly",
+                "duration": "16 weeks",
+                "fee": "₹89,000",
+                "description": "Excel, SQL, Power BI and storytelling with data.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Coding for Teens",
+                "level": "Ages 12 – 17",
+                "duration": "12 weeks",
+                "fee": "₹24,000",
+                "description": "Python, games and web projects in weekend classes.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Interview Prep Sprint",
+                "level": "Working developers",
+                "duration": "6 weeks",
+                "fee": "₹35,000",
+                "description": "Data structures, system design and mock interviews.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Do I need a CS degree?",
+                "answer": "No. Most of our students come from other fields; our aptitude test checks logical thinking only."
+              },
+              {
+                "question": "Can I study while working?",
+                "answer": "Yes. Evening and weekend cohorts are designed for working professionals."
+              },
+              {
+                "question": "What is pay after placement?",
+                "answer": "Pay a small deposit now and the rest only after you get a job above ₹5 LPA."
+              },
+              {
+                "question": "Is there a refund policy?",
+                "answer": "Yes, a full refund within the first two weeks."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to switch careers?",
+            "description": "Book a free 20-minute call with an advisor to plan your path into tech.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free career call",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918041117766"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Apply",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-telephone",
+                "title": "Career call",
+                "description": "Talk to an advisor about your goals."
+              },
+              {
+                "icon": "bi-code",
+                "title": "Aptitude test",
+                "description": "A short logic test — no coding needed."
+              },
+              {
+                "icon": "bi-laptop",
+                "title": "Learn & build",
+                "description": "Live classes, assignments and projects."
+              },
+              {
+                "icon": "bi-briefcase",
+                "title": "Get hired",
+                "description": "Interviews with our hiring partners."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "Pay upfront",
+                "price": "₹1,49,000",
+                "period": "course",
+                "features": "Full bootcamp\n1:1 mentoring\nCareer support\n10% early-bird discount",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "Pay after placement",
+                "price": "₹25,000",
+                "period": "deposit",
+                "features": "Rest paid after you are hired\nSame curriculum\nCareer support\nIncome share capped",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "EMI",
+                "price": "₹12,900",
+                "period": "month",
+                "features": "No-cost EMI for 12 months\nFull bootcamp\nCareer support",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Apply",
+            "heading": "Book a free career call",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "enquiry",
+            "form_heading": "Book a free career call",
+            "select1_label": "Programme",
+            "select1_options": "Full-Stack Web Development\nData Science & ML\nCloud & DevOps\nData Analytics\nCoding for Teens\nInterview Prep Sprint",
+            "select2_label": "Current status",
+            "select2_options": "Student\nWorking professional\nCareer break\nOther",
+            "date_label": "Preferred call date",
+            "message_label": "Your background and goals",
+            "email_required": false,
+            "button_text": "Book my call",
+            "success_message": "Thanks! A career advisor will call you at the time you chose.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Mon–Sat: 10:00 am – 8:00 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "learn@codeforge.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Do I need a CS degree?",
+                "answer": "No. Most of our students come from other fields; our aptitude test checks logical thinking only."
+              },
+              {
+                "question": "Can I study while working?",
+                "answer": "Yes. Evening and weekend cohorts are designed for working professionals."
+              },
+              {
+                "question": "What is pay after placement?",
+                "answer": "Pay a small deposit now and the rest only after you get a job above ₹5 LPA."
+              },
+              {
+                "question": "Is there a refund policy?",
+                "answer": "Yes, a full refund within the first two weeks."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2026-11-30",
+                "time": "11:00 am – 1:00 pm",
+                "title": "Free workshop: Your first React app",
+                "location": "Online (Zoom)",
+                "description": "Build and deploy a small app with our lead instructor.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2026-12-18",
+                "time": "3:00 pm",
+                "title": "Hiring Partners Demo Day",
+                "location": "Residency Road campus",
+                "description": "Graduating students present projects to 40 hiring companies.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-01-12",
+                "time": "7:00 pm",
+                "title": "January cohort kick-off",
+                "location": "Online & campus",
+                "description": "Welcome session, mentor matching and your first live class.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-21",
+                "title": "January cohort: 40 seats left in Full-Stack",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-14",
+                "title": "Free workshop: build your first React app, 30 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-06",
+                "title": "Hiring partners’ demo day on 18 December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-30",
+                "title": "New: Cloud & DevOps track launches in February",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-22",
+                "title": "Scholarships for women in tech — apply now",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Live online class"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Business analytics"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Graduation day"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at CodeForge Academy.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at CodeForge"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Computer lab"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Live online class"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Robotics lab"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Lecture hall"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Graduation day"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Ready to switch careers?",
+            "description": "Book a free 20-minute call with an advisor to plan your path into tech.",
+            "background_image": "",
+            "button": {
+              "text": "Book a free career call",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918041117766"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Bengaluru, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how CodeForge Academy collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1066 @@
+{
+  "settings": {
+    "site": {
+      "name": "Pinecrest Residential School",
+      "tagline": "Co-educational boarding school, CBSE",
+      "phone": "+91 135 274 3300",
+      "email": "admissions@pinecrest.example",
+      "address": "Mussoorie Road, Rajpur\nDehradun, Uttarakhand 248009",
+      "hours": "Office: Mon–Sat 9:00 am – 5:00 pm",
+      "footer_about": "A co-educational boarding school in the Doon valley, educating students from Class 4 to 12 since 1962.",
+      "footer_text": "All rights reserved.",
+      "rating": "60 years of boarding",
+      "rating_label": "alumni across 40 countries",
+      "header_button": {
+        "text": "Request a prospectus",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Pinecrest Residential School — co-educational boarding school, cbse in Dehradun. A co-educational boarding school in the Doon valley, educating students from Class 4 to 12 since 1962.",
+      "keywords": "co-educational boarding school, cbse, Dehradun"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Admissions for 2027–28",
+            "heading": "Character, curiosity and the mountains.",
+            "subheading": "A residential school on a 90-acre hillside campus, where academics, sport, music and outdoor adventure shape confident young people.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Request a prospectus",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Class 4 to 12, CBSE"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "House system & pastoral care"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "90-acre hillside campus"
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-18",
+                "title": "Entrance test for Class 4–9 on 17 January — register now",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-11",
+                "title": "Founder’s Day photos and videos online",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-02",
+                "title": "Winter break begins 12 December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-26",
+                "title": "Inter-house football cup: Shivalik House wins",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-17",
+                "title": "Parents’ weekend on 22–23 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our heritage",
+            "heading": "Six decades of shaping young lives",
+            "description": "<p>Pinecrest was founded in 1962 on a pine-covered hillside above Dehradun. Today 650 boys and girls live and learn here, in eight houses looked after by resident housemasters.</p><p>Alongside a strong CBSE curriculum, every student plays sport, learns music or art, and goes on Himalayan treks every year.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1962",
+            "experience_label": "Educating since",
+            "points": [
+              {
+                "text": "Eight houses with resident staff"
+              },
+              {
+                "text": "Doctor and nurses on campus"
+              },
+              {
+                "text": "Treks, scouts and adventure camps"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "650",
+                "suffix": "",
+                "label": "Boarders",
+                "icon": ""
+              },
+              {
+                "number": "90",
+                "suffix": " acres",
+                "label": "Hillside campus",
+                "icon": ""
+              },
+              {
+                "number": "64",
+                "suffix": "",
+                "label": "Years of history",
+                "icon": ""
+              },
+              {
+                "number": "1",
+                "suffix": ":9",
+                "label": "Teacher–student ratio",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "A co-educational boarding school in the Doon valley, educating students from Class 4 to 12 since 1962.",
+            "items": [
+              {
+                "title": "Junior School",
+                "level": "Class 4 – 6",
+                "duration": "3 years",
+                "fee": "₹6,40,000 / year",
+                "description": "Foundation academics with a gentle introduction to boarding life.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Middle School",
+                "level": "Class 7 – 8",
+                "duration": "2 years",
+                "fee": "₹6,90,000 / year",
+                "description": "Broad curriculum, clubs and leadership in the house system.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Secondary",
+                "level": "Class 9 – 10",
+                "duration": "2 years",
+                "fee": "₹7,40,000 / year",
+                "description": "CBSE board preparation with small sections and supervised study.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Senior Secondary — Science",
+                "level": "Class 11 – 12",
+                "duration": "2 years",
+                "fee": "₹7,90,000 / year",
+                "description": "PCM / PCB with entrance-exam guidance.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Life on the hill",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-house-heart",
+                "title": "House system",
+                "description": "Eight houses with housemasters who live alongside students."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Health & wellbeing",
+                "description": "Resident doctor, nurses and counsellors."
+              },
+              {
+                "icon": "bi-compass",
+                "title": "Outdoor education",
+                "description": "Annual Himalayan treks and adventure camps."
+              },
+              {
+                "icon": "bi-music-note-list",
+                "title": "Music & arts",
+                "description": "Orchestra, choir, theatre and art studios."
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-17",
+                "time": "9:00 am",
+                "title": "Entrance test for 2027–28",
+                "location": "School campus & Delhi centre",
+                "description": "Tests for Classes 4 to 9 and Class 11.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-05",
+                "time": "10:00 am",
+                "title": "Inter-School Debating Championship",
+                "location": "Assembly hall",
+                "description": "Twenty schools compete in the Doon valley’s oldest debate.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-05-22",
+                "time": "6:00 am",
+                "title": "Himalayan Trek Week",
+                "location": "Har Ki Dun valley",
+                "description": "Class 8–11 students trek with our outdoor education team.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "What students and parents say",
+            "items": [
+              {
+                "quote": "Pinecrest gave our son independence and lifelong friends. The housemasters are like family.",
+                "name": "Col. & Mrs. Rawat",
+                "role": "Parents, Class 10",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The treks, debates and orchestra shaped who I am today.",
+                "name": "Ishaan Verma",
+                "role": "Alumnus, Class of 2018",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Our daughter loves her house and has blossomed in music and sport.",
+                "name": "Dr. Meenal Joshi",
+                "role": "Parent, Class 7",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "See Pinecrest for yourself",
+            "description": "Request a prospectus or plan a visit to the campus.",
+            "background_image": "",
+            "button": {
+              "text": "Request a prospectus",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911352743300"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Pinecrest Residential School",
+            "subheading": "A co-educational boarding school in the Doon valley, educating students from Class 4 to 12 since 1962.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our heritage",
+            "heading": "Six decades of shaping young lives",
+            "description": "<p>Pinecrest was founded in 1962 on a pine-covered hillside above Dehradun. Today 650 boys and girls live and learn here, in eight houses looked after by resident housemasters.</p><p>Alongside a strong CBSE curriculum, every student plays sport, learns music or art, and goes on Himalayan treks every year.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1962",
+            "experience_label": "Educating since",
+            "points": [
+              {
+                "text": "Eight houses with resident staff"
+              },
+              {
+                "text": "Doctor and nurses on campus"
+              },
+              {
+                "text": "Treks, scouts and adventure camps"
+              }
+            ],
+            "button": {
+              "text": "Request a prospectus",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "650",
+                "suffix": "",
+                "label": "Boarders",
+                "icon": ""
+              },
+              {
+                "number": "90",
+                "suffix": " acres",
+                "label": "Hillside campus",
+                "icon": ""
+              },
+              {
+                "number": "64",
+                "suffix": "",
+                "label": "Years of history",
+                "icon": ""
+              },
+              {
+                "number": "1",
+                "suffix": ":9",
+                "label": "Teacher–student ratio",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Mr. Arvind Negi",
+                "role": "Headmaster",
+                "bio": "Thirty years in residential education.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Mrs. Shalini Bisht",
+                "role": "Deputy Head (Pastoral)",
+                "bio": "Oversees houses and wellbeing.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Mr. Thomas George",
+                "role": "Director of Music",
+                "bio": "Leads the orchestra and choir.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Capt. Raj Thapa",
+                "role": "Head of Outdoor Education",
+                "bio": "Mountaineer and adventure instructor.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Life on the hill",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-house-heart",
+                "title": "House system",
+                "description": "Eight houses with housemasters who live alongside students."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Health & wellbeing",
+                "description": "Resident doctor, nurses and counsellors."
+              },
+              {
+                "icon": "bi-compass",
+                "title": "Outdoor education",
+                "description": "Annual Himalayan treks and adventure camps."
+              },
+              {
+                "icon": "bi-music-note-list",
+                "title": "Music & arts",
+                "description": "Orchestra, choir, theatre and art studios."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "A co-educational boarding school in the Doon valley, educating students from Class 4 to 12 since 1962.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "Junior School",
+                "level": "Class 4 – 6",
+                "duration": "3 years",
+                "fee": "₹6,40,000 / year",
+                "description": "Foundation academics with a gentle introduction to boarding life.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Middle School",
+                "level": "Class 7 – 8",
+                "duration": "2 years",
+                "fee": "₹6,90,000 / year",
+                "description": "Broad curriculum, clubs and leadership in the house system.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Secondary",
+                "level": "Class 9 – 10",
+                "duration": "2 years",
+                "fee": "₹7,40,000 / year",
+                "description": "CBSE board preparation with small sections and supervised study.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Senior Secondary — Science",
+                "level": "Class 11 – 12",
+                "duration": "2 years",
+                "fee": "₹7,90,000 / year",
+                "description": "PCM / PCB with entrance-exam guidance.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Senior Secondary — Commerce & Humanities",
+                "level": "Class 11 – 12",
+                "duration": "2 years",
+                "fee": "₹7,90,000 / year",
+                "description": "Economics, business, psychology and more.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Summer adventure camp",
+                "level": "Ages 10 – 16",
+                "duration": "3 weeks",
+                "fee": "₹68,000",
+                "description": "Treks, rock climbing, camping and a taste of boarding life.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "From which class can students join?",
+                "answer": "We admit students to Classes 4 to 9 and Class 11."
+              },
+              {
+                "question": "How often can parents visit?",
+                "answer": "On visiting weekends each month and during parents’ weekends."
+              },
+              {
+                "question": "Can students call home?",
+                "answer": "Yes, at scheduled times every week, and anytime through the housemaster if needed."
+              },
+              {
+                "question": "Are there scholarships?",
+                "answer": "Merit and need-based scholarships are available for Class 6 and 11 entrants."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "See Pinecrest for yourself",
+            "description": "Request a prospectus or plan a visit to the campus.",
+            "background_image": "",
+            "button": {
+              "text": "Request a prospectus",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911352743300"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Admissions",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-envelope-open",
+                "title": "Request a prospectus",
+                "description": "Get fees, dates and the application form."
+              },
+              {
+                "icon": "bi-pencil",
+                "title": "Entrance test",
+                "description": "English, maths and reasoning."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Interview & visit",
+                "description": "Meet the headmaster and see the campus."
+              },
+              {
+                "icon": "bi-bag-check",
+                "title": "Join",
+                "description": "Confirm the seat and prepare for term."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "Junior & Middle",
+                "price": "₹6,40,000+",
+                "period": "year",
+                "features": "Tuition, boarding & meals\nUniform & laundry\nTreks & camps",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "Secondary & Senior",
+                "price": "₹7,40,000+",
+                "period": "year",
+                "features": "Tuition, boarding & meals\nSupervised study\nBoard & entrance guidance\nTreks & camps",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "Summer camp",
+                "price": "₹68,000",
+                "period": "3 weeks",
+                "features": "Treks & climbing\nBoarding & meals\nCertificate",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Admissions",
+            "heading": "Request a prospectus",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "admission",
+            "form_heading": "Request a prospectus",
+            "select1_label": "Class applying for",
+            "select1_options": "Class 4\nClass 5\nClass 6\nClass 7\nClass 8\nClass 9\nClass 11",
+            "select2_label": "Academic year",
+            "select2_options": "2027–28\n2028–29",
+            "date_label": "Preferred visit date",
+            "message_label": "Current school and questions",
+            "email_required": false,
+            "button_text": "Send request",
+            "success_message": "Thank you! We will email the prospectus and call you within two working days.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Office: Mon–Sat 9:00 am – 5:00 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "admissions@pinecrest.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "From which class can students join?",
+                "answer": "We admit students to Classes 4 to 9 and Class 11."
+              },
+              {
+                "question": "How often can parents visit?",
+                "answer": "On visiting weekends each month and during parents’ weekends."
+              },
+              {
+                "question": "Can students call home?",
+                "answer": "Yes, at scheduled times every week, and anytime through the housemaster if needed."
+              },
+              {
+                "question": "Are there scholarships?",
+                "answer": "Merit and need-based scholarships are available for Class 6 and 11 entrants."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-17",
+                "time": "9:00 am",
+                "title": "Entrance test for 2027–28",
+                "location": "School campus & Delhi centre",
+                "description": "Tests for Classes 4 to 9 and Class 11.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-05",
+                "time": "10:00 am",
+                "title": "Inter-School Debating Championship",
+                "location": "Assembly hall",
+                "description": "Twenty schools compete in the Doon valley’s oldest debate.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-05-22",
+                "time": "6:00 am",
+                "title": "Himalayan Trek Week",
+                "location": "Har Ki Dun valley",
+                "description": "Class 8–11 students trek with our outdoor education team.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-18",
+                "title": "Entrance test for Class 4–9 on 17 January — register now",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-11",
+                "title": "Founder’s Day photos and videos online",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-02",
+                "title": "Winter break begins 12 December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-26",
+                "title": "Inter-house football cup: Shivalik House wins",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-17",
+                "title": "Parents’ weekend on 22–23 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Sports field"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Science laboratory"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Library"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at Pinecrest Residential School.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at Pinecrest"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Classroom"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Sports field"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Residential campus"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Music room"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Library"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "See Pinecrest for yourself",
+            "description": "Request a prospectus or plan a visit to the campus.",
+            "background_image": "",
+            "button": {
+              "text": "Request a prospectus",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911352743300"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Dehradun, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Pinecrest Residential School collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

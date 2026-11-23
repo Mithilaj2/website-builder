@@ -1,0 +1,8 @@
+.{{p}}-course { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.{{p}}-course-img { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: var(--{{p}}-surface); }
+.{{p}}-course-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+.{{p}}-course:hover .{{p}}-course-img img { transform: scale(1.05); }
+.{{p}}-course-img .{{p}}-tag { position: absolute; left: 1rem; top: 1rem; }
+.{{p}}-course-ph { position: absolute; inset: 0; display: grid; place-items: center; font-size: 3rem; color: rgba(var(--wb-primary-rgb), .35); }
+.{{p}}-course-body { padding: 1.6rem 1.6rem 1.8rem; display: flex; flex-direction: column; flex: 1; align-items: flex-start; }
+.{{p}}-course-body .{{p}}-course-meta { margin: auto 0 1.1rem; padding-top: 1rem; border-top: 1px solid var(--{{p}}-line); width: 100%; }

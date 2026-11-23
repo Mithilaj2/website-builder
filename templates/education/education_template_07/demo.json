@@ -1,0 +1,1059 @@
+{
+  "settings": {
+    "site": {
+      "name": "Raga School of Performing Arts",
+      "tagline": "Music, dance and theatre academy",
+      "phone": "+91 484 236 7788",
+      "email": "hello@ragaarts.example",
+      "address": "Warriam Road, near Chittoor Road\nKochi, Kerala 682016",
+      "hours": "Tue–Sun: 7:00 am – 8:30 pm",
+      "footer_about": "Classical and contemporary music, dance and theatre for children and adults, taught by performing artists.",
+      "footer_text": "All rights reserved.",
+      "rating": "Trinity & graded exam centre",
+      "rating_label": "98% distinction and merit results",
+      "header_button": {
+        "text": "Book a trial class",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Raga School of Performing Arts — music, dance and theatre academy in Kochi. Classical and contemporary music, dance and theatre for children and adults, taught by performing artists.",
+      "keywords": "music, dance and theatre academy, Kochi"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Music · Dance · Theatre",
+            "heading": "Find your voice. Find your rhythm.",
+            "subheading": "Carnatic and Western music, Bharatanatyam, contemporary dance and drama — for ages 5 to 75, taught by working artists.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a trial class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "Trial class for ₹200"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Annual stage performance"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Graded exam preparation"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Raga",
+            "heading": "Where tradition meets the stage",
+            "description": "<p>Raga was founded in 1999 by a Carnatic vocalist and a Bharatanatyam dancer who wanted a home for the arts in Kochi. Today 1,200 students learn from 35 teachers in our studios.</p><p>Every student performs on stage at least once a year, and our graded exam results are among the best in the state.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1999",
+            "experience_label": "Teaching the arts since",
+            "points": [
+              {
+                "text": "Teachers who perform professionally"
+              },
+              {
+                "text": "Soundproof studios and a 200-seat theatre"
+              },
+              {
+                "text": "Exam and stage preparation"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "Classical and contemporary music, dance and theatre for children and adults, taught by performing artists.",
+            "items": [
+              {
+                "title": "Carnatic vocal",
+                "level": "Ages 6+",
+                "duration": "Weekly",
+                "fee": "₹1,800 / month",
+                "description": "Swarams, varnams and kritis with voice culture.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Bharatanatyam",
+                "level": "Ages 5+",
+                "duration": "Twice a week",
+                "fee": "₹2,200 / month",
+                "description": "Adavus, expressions and repertoire leading to arangetram.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Keyboard & piano",
+                "level": "Ages 6+",
+                "duration": "Weekly",
+                "fee": "₹2,000 / month",
+                "description": "Western notation, chords and graded exam preparation.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Guitar",
+                "level": "Ages 8+",
+                "duration": "Weekly",
+                "fee": "₹2,000 / month",
+                "description": "Acoustic and electric guitar, from strumming to solos.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Contemporary dance",
+                "level": "Ages 10+",
+                "duration": "Twice a week",
+                "fee": "₹2,400 / month",
+                "description": "Modern technique, choreography and stage work.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Theatre & drama",
+                "level": "Ages 8+",
+                "duration": "Weekends",
+                "fee": "₹1,600 / month",
+                "description": "Voice, movement, improvisation and an annual production.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1200",
+                "suffix": "",
+                "label": "Students",
+                "icon": ""
+              },
+              {
+                "number": "35",
+                "suffix": "",
+                "label": "Performing teachers",
+                "icon": ""
+              },
+              {
+                "number": "27",
+                "suffix": "",
+                "label": "Years of teaching",
+                "icon": ""
+              },
+              {
+                "number": "98",
+                "suffix": "%",
+                "label": "Distinction & merit",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-18",
+                "time": "6:30 pm",
+                "title": "Thyagaraja Aradhana concert",
+                "location": "Raga Theatre",
+                "description": "Students and teachers present the Pancharatna kritis.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-21",
+                "time": "5:00 pm",
+                "title": "Student showcase: Rhythm & Rhyme",
+                "location": "Raga Theatre",
+                "description": "Western music and contemporary dance performances.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-28",
+                "time": "5:30 pm",
+                "title": "Annual Day 2027",
+                "location": "JT Pac, Kochi",
+                "description": "Our grand annual production with 400 performers.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "What students and parents say",
+            "items": [
+              {
+                "quote": "My daughter’s arangetram was the proudest day of our lives. Her guru gave her everything.",
+                "name": "Lakshmi Menon",
+                "role": "Parent, Bharatanatyam",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "I started keyboard at 52. The teachers are patient and I passed my Grade 3 exam this year!",
+                "name": "George Mathew",
+                "role": "Adult student, Keyboard",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Theatre classes helped my son overcome his stage fright completely.",
+                "name": "Asha Varghese",
+                "role": "Parent, Drama",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-16",
+                "title": "New Saturday batches for keyboard and guitar",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-10",
+                "title": "Graded exam registrations close on 5 December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-03",
+                "title": "Bharatanatyam arangetram workshop for senior students",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-26",
+                "title": "Annual Day rehearsals begin 1 February",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-18",
+                "title": "Holiday on 1 November (Kerala Piravi)",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "The stage is waiting",
+            "description": "Book a ₹200 trial class and meet our teachers.",
+            "background_image": "theme:images/svc-2.svg",
+            "button": {
+              "text": "Book a trial class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914842367788"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Raga School of Performing Arts",
+            "subheading": "Classical and contemporary music, dance and theatre for children and adults, taught by performing artists.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Raga",
+            "heading": "Where tradition meets the stage",
+            "description": "<p>Raga was founded in 1999 by a Carnatic vocalist and a Bharatanatyam dancer who wanted a home for the arts in Kochi. Today 1,200 students learn from 35 teachers in our studios.</p><p>Every student performs on stage at least once a year, and our graded exam results are among the best in the state.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1999",
+            "experience_label": "Teaching the arts since",
+            "points": [
+              {
+                "text": "Teachers who perform professionally"
+              },
+              {
+                "text": "Soundproof studios and a 200-seat theatre"
+              },
+              {
+                "text": "Exam and stage preparation"
+              }
+            ],
+            "button": {
+              "text": "Book a trial class",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1200",
+                "suffix": "",
+                "label": "Students",
+                "icon": ""
+              },
+              {
+                "number": "35",
+                "suffix": "",
+                "label": "Performing teachers",
+                "icon": ""
+              },
+              {
+                "number": "27",
+                "suffix": "",
+                "label": "Years of teaching",
+                "icon": ""
+              },
+              {
+                "number": "98",
+                "suffix": "%",
+                "label": "Distinction & merit",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Smt. Radha Krishnan",
+                "role": "Founder, Carnatic Vocal",
+                "bio": "A-grade artiste with 40 years on stage.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Kalamandalam Priya",
+                "role": "Bharatanatyam Guru",
+                "bio": "Has guided 60 students to arangetram.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Joel D’Cruz",
+                "role": "Head of Western Music",
+                "bio": "Pianist and session musician.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Neha Pillai",
+                "role": "Contemporary Dance",
+                "bio": "Choreographer and performer.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why students learn at Raga",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-music-note-beamed",
+                "title": "Performing faculty",
+                "description": "Learn from artists who perform on stage every season."
+              },
+              {
+                "icon": "bi-mic",
+                "title": "Studio quality",
+                "description": "Soundproof rooms, grand piano and recording studio."
+              },
+              {
+                "icon": "bi-stars",
+                "title": "Stage every year",
+                "description": "Every student performs at our Annual Day."
+              },
+              {
+                "icon": "bi-award",
+                "title": "Graded exams",
+                "description": "Preparation for music and dance exams."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "Classical and contemporary music, dance and theatre for children and adults, taught by performing artists.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "Carnatic vocal",
+                "level": "Ages 6+",
+                "duration": "Weekly",
+                "fee": "₹1,800 / month",
+                "description": "Swarams, varnams and kritis with voice culture.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Bharatanatyam",
+                "level": "Ages 5+",
+                "duration": "Twice a week",
+                "fee": "₹2,200 / month",
+                "description": "Adavus, expressions and repertoire leading to arangetram.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Keyboard & piano",
+                "level": "Ages 6+",
+                "duration": "Weekly",
+                "fee": "₹2,000 / month",
+                "description": "Western notation, chords and graded exam preparation.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Guitar",
+                "level": "Ages 8+",
+                "duration": "Weekly",
+                "fee": "₹2,000 / month",
+                "description": "Acoustic and electric guitar, from strumming to solos.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Contemporary dance",
+                "level": "Ages 10+",
+                "duration": "Twice a week",
+                "fee": "₹2,400 / month",
+                "description": "Modern technique, choreography and stage work.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Theatre & drama",
+                "level": "Ages 8+",
+                "duration": "Weekends",
+                "fee": "₹1,600 / month",
+                "description": "Voice, movement, improvisation and an annual production.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Is there an age limit?",
+                "answer": "No — our youngest students are 5 and our oldest is 74."
+              },
+              {
+                "question": "Do I need my own instrument?",
+                "answer": "Not for the first month; practice instruments are available in the studios."
+              },
+              {
+                "question": "Can I take graded exams?",
+                "answer": "Yes, we prepare students for recognised music and dance graded exams."
+              },
+              {
+                "question": "Are there online classes?",
+                "answer": "Yes, vocal, keyboard and theory classes are available live online."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "The stage is waiting",
+            "description": "Book a ₹200 trial class and meet our teachers.",
+            "background_image": "theme:images/svc-2.svg",
+            "button": {
+              "text": "Book a trial class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914842367788"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Enrol",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-heart",
+                "title": "Book a trial",
+                "description": "Try a class for ₹200."
+              },
+              {
+                "icon": "bi-chat-heart",
+                "title": "Meet the teacher",
+                "description": "Discuss level, goals and schedule."
+              },
+              {
+                "icon": "bi-pencil-square",
+                "title": "Enrol",
+                "description": "Choose your batch and register."
+              },
+              {
+                "icon": "bi-stars",
+                "title": "Perform",
+                "description": "Learn, practise and take the stage."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "One art",
+                "price": "₹1,800",
+                "period": "month",
+                "features": "Weekly class\nAnnual Day performance\nProgress report",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "Two arts",
+                "price": "₹3,200",
+                "period": "month",
+                "features": "Two classes a week\nAnnual Day\nExam preparation\nStudio practice time",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "Online",
+                "price": "₹1,500",
+                "period": "month",
+                "features": "Live online class\nRecorded practice tracks\nQuarterly assessment",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#enquiry-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Enrol",
+            "heading": "Book a trial class",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "enquiry",
+            "form_heading": "Book a trial class",
+            "select1_label": "Art form",
+            "select1_options": "Carnatic vocal\nBharatanatyam\nKeyboard & piano\nGuitar\nContemporary dance\nTheatre & drama",
+            "select2_label": "Student age group",
+            "select2_options": "5 – 9 years\n10 – 15 years\n16 – 25 years\nAdult",
+            "date_label": "Preferred trial date",
+            "message_label": "Any previous training?",
+            "email_required": false,
+            "button_text": "Book trial",
+            "success_message": "Thank you! We will call you to confirm your trial class.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Tue–Sun: 7:00 am – 8:30 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "hello@ragaarts.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Is there an age limit?",
+                "answer": "No — our youngest students are 5 and our oldest is 74."
+              },
+              {
+                "question": "Do I need my own instrument?",
+                "answer": "Not for the first month; practice instruments are available in the studios."
+              },
+              {
+                "question": "Can I take graded exams?",
+                "answer": "Yes, we prepare students for recognised music and dance graded exams."
+              },
+              {
+                "question": "Are there online classes?",
+                "answer": "Yes, vocal, keyboard and theory classes are available live online."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-18",
+                "time": "6:30 pm",
+                "title": "Thyagaraja Aradhana concert",
+                "location": "Raga Theatre",
+                "description": "Students and teachers present the Pancharatna kritis.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-21",
+                "time": "5:00 pm",
+                "title": "Student showcase: Rhythm & Rhyme",
+                "location": "Raga Theatre",
+                "description": "Western music and contemporary dance performances.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-28",
+                "time": "5:30 pm",
+                "title": "Annual Day 2027",
+                "location": "JT Pac, Kochi",
+                "description": "Our grand annual production with 400 performers.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-16",
+                "title": "New Saturday batches for keyboard and guitar",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-10",
+                "title": "Graded exam registrations close on 5 December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-03",
+                "title": "Bharatanatyam arangetram workshop for senior students",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-26",
+                "title": "Annual Day rehearsals begin 1 February",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-18",
+                "title": "Holiday on 1 November (Kerala Piravi)",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Stage performance"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Classroom"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Graduation day"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at Raga School of Performing Arts.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at Raga"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Music room"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Stage performance"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Art studio"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Live online class"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Graduation day"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "The stage is waiting",
+            "description": "Book a ₹200 trial class and meet our teachers.",
+            "background_image": "theme:images/svc-2.svg",
+            "button": {
+              "text": "Book a trial class",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914842367788"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Kochi, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Raga School of Performing Arts collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "education_template_10",
+  "name": "Pinecrest Heritage",
+  "category": "education",
+  "version": "1.0.0",
+  "description": "A heritage design for boarding schools, residential and hill-station schools: centred masthead, a colour-panel hero with a mountain campus, Merriweather headings, a notice board, programme rows and an event list.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#2F4858",
+      "secondary": "#B5651D",
+      "bg": "#F7F4EE",
+      "text": "#1F2D36",
+      "heading_font": "merriweather",
+      "body_font": "open-sans",
+      "radius": "4px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "pricing",
+    "courses",
+    "events",
+    "notices",
+    "booking_form"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "notices",
+        "about",
+        "stats",
+        "courses",
+        "features",
+        "events",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "team",
+        "features"
+      ]
+    },
+    "courses": {
+      "default_sections": [
+        "page_banner",
+        "courses",
+        "faq",
+        "cta"
+      ]
+    },
+    "admissions": {
+      "default_sections": [
+        "page_banner",
+        "process",
+        "pricing",
+        "booking_form",
+        "faq"
+      ]
+    },
+    "events": {
+      "default_sections": [
+        "page_banner",
+        "events",
+        "notices",
+        "gallery"
+      ]
+    },
+    "gallery": {
+      "default_sections": [
+        "page_banner",
+        "gallery",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Programmes",
+      "slug": "courses",
+      "type": "courses"
+    },
+    {
+      "title": "Admissions",
+      "slug": "admissions",
+      "type": "admissions"
+    },
+    {
+      "title": "Events",
+      "slug": "events",
+      "type": "events"
+    },
+    {
+      "title": "Gallery",
+      "slug": "gallery",
+      "type": "gallery"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

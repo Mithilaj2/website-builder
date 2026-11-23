@@ -1,0 +1,77 @@
+{
+  "id": "education_template_06",
+  "name": "Forge Terminal",
+  "prefix": "cfa",
+  "niche": "coding",
+  "seed": 6,
+  "mood": "dark",
+  "direction": "Dark and hands-on: floating pill navigation on a near-black green page, terminal emerald and highlighter yellow, split hero, course rows, outlined step numbers and a centred footer.",
+  "description": "A dark, hands-on design for coding bootcamps, online academies and tech training: floating navigation, a split hero, a notice strip, course rows with fees, outlined step cards and an emerald call-to-action band.",
+  "theme": {
+    "primary": "#10B981",
+    "secondary": "#FACC15",
+    "bg": "#0A1612",
+    "text": "#E7F5EE",
+    "heading_font": "space-grotesk",
+    "body_font": "inter",
+    "radius": "12px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "split",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "about": "grid",
+    "courses": "list",
+    "events": "cards",
+    "notices": "strip",
+    "stats": "inline",
+    "process": "cards",
+    "testimonials": "cards",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "centered",
+    "services": "cards"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "var(--wb-primary)",
+    "link": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "10px",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)",
+    "track": "-.02em"
+  },
+  "extra_css": ".cfa .cfa-icon { color: var(--wb-primary); }\n.cfa-mood-dark .cfa-hero-split { background: radial-gradient(ellipse at 80% 20%, rgba(var(--wb-primary-rgb), .18), transparent 60%), var(--wb-bg); }\n.cfa .cfa-hero-badge, .cfa .cfa-hero-chips li { color: var(--wb-text); }",
+  "demo": {
+    "home_courses": 4,
+    "home": [
+      "hero",
+      "notices",
+      "logos",
+      "courses",
+      "stats",
+      "about",
+      "process",
+      "testimonials",
+      "events",
+      "cta"
+    ],
+    "testimonials_heading": "What our graduates say"
+  },
+  "category": "education",
+  "version": "1.0.0"
+}

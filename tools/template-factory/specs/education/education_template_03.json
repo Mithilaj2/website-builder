@@ -1,0 +1,71 @@
+{
+  "id": "education_template_03",
+  "name": "Apex Rankers",
+  "prefix": "apx",
+  "niche": "coaching",
+  "seed": 3,
+  "direction": "Driven and results-focused: dark navigation, colour-panel hero, navy and signal red, accent-topped cards, course list with fees, red numbers band.",
+  "description": "A driven, results-focused design for coaching institutes and test-prep centres: dark navigation, a colour-panel hero, a notice board, course rows with fees and duration, a results band and a featured testimonial.",
+  "theme": {
+    "primary": "#1D3557",
+    "secondary": "#E63946",
+    "bg": "#FFFFFF",
+    "text": "#14213D",
+    "heading_font": "montserrat",
+    "body_font": "inter",
+    "radius": "6px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "panel",
+    "banner": "image",
+    "head": "bar",
+    "card": "top",
+    "about": "layered",
+    "courses": "list",
+    "events": "list",
+    "notices": "board",
+    "stats": "band",
+    "process": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns",
+    "services": "cards"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 85%, #000)",
+    "icon": "tint",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)",
+    "track": "-.015em"
+  },
+  "demo": {
+    "home_courses": 4,
+    "home": [
+      "hero",
+      "stats",
+      "notices",
+      "courses",
+      "about",
+      "features",
+      "testimonials",
+      "events",
+      "cta"
+    ],
+    "testimonials_heading": "Results that speak"
+  },
+  "category": "education",
+  "version": "1.0.0"
+}

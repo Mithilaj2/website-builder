@@ -1,0 +1,72 @@
+{
+  "id": "education_template_10",
+  "name": "Pinecrest Heritage",
+  "prefix": "pcr",
+  "niche": "boarding",
+  "seed": 10,
+  "direction": "Heritage and outdoors: centred masthead, colour-panel hero with a mountain campus, slate and rust on parchment, Merriweather headings, programme rows, a timeline and a dark footer.",
+  "description": "A heritage design for boarding schools, residential and hill-station schools: centred masthead, a colour-panel hero with a mountain campus, Merriweather headings, a notice board, programme rows and an event list.",
+  "theme": {
+    "primary": "#2F4858",
+    "secondary": "#B5651D",
+    "bg": "#F7F4EE",
+    "text": "#1F2D36",
+    "heading_font": "merriweather",
+    "body_font": "open-sans",
+    "radius": "4px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "panel",
+    "banner": "image",
+    "head": "rule",
+    "card": "line",
+    "about": "layered",
+    "courses": "list",
+    "events": "list",
+    "notices": "board",
+    "stats": "band",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns",
+    "services": "cards"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 80%, #000)",
+    "icon": "solid",
+    "heading_weight": 700,
+    "hero_weight": 700,
+    "track": "-.01em",
+    "card": "#FFFFFF",
+    "hero_scale": 0.92
+  },
+  "demo": {
+    "home_courses": 4,
+    "home": [
+      "hero",
+      "notices",
+      "about",
+      "stats",
+      "courses",
+      "features",
+      "events",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "education",
+  "version": "1.0.0"
+}

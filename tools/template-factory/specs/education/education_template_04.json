@@ -1,0 +1,68 @@
+{
+  "id": "education_template_04",
+  "name": "Circuit Campus",
+  "prefix": "mit",
+  "niche": "engineering",
+  "seed": 4,
+  "direction": "Modern and technical: info bar and clean navbar, full-bleed campus hero with a highlights strip, deep teal and amber, hairline cards, large inline numbers, a timeline admissions process.",
+  "description": "A modern, technical design for engineering colleges, universities and institutes: info bar, a full-bleed campus hero with highlights, a notice strip, programme cards, large inline statistics and a timeline admissions process.",
+  "theme": {
+    "primary": "#0B4F6C",
+    "secondary": "#F4A259",
+    "bg": "#FFFFFF",
+    "text": "#102A38",
+    "heading_font": "sora",
+    "body_font": "inter",
+    "radius": "10px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "cover",
+    "banner": "solid",
+    "head": "rule",
+    "card": "line",
+    "about": "single",
+    "courses": "cards",
+    "events": "cards",
+    "notices": "strip",
+    "stats": "inline",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "boxed",
+    "footer": "columns",
+    "services": "cards"
+  },
+  "surface": [
+    "courses",
+    "features"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "hl": "var(--wb-primary)",
+    "icon": "solid"
+  },
+  "demo": {
+    "home_courses": 3,
+    "cta_image": "svc-1.svg",
+    "home": [
+      "hero",
+      "notices",
+      "about",
+      "stats",
+      "courses",
+      "features",
+      "logos",
+      "events",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "education",
+  "version": "1.0.0"
+}

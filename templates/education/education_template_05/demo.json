@@ -1,0 +1,1054 @@
+{
+  "settings": {
+    "site": {
+      "name": "Cedar International School",
+      "tagline": "IB and Cambridge day school",
+      "phone": "+91 80 2843 6100",
+      "email": "admissions@cedar.example",
+      "address": "Sarjapur Road, Dommasandra\nBengaluru, Karnataka 562125",
+      "hours": "Mon–Fri: 8:00 am – 4:00 pm",
+      "footer_about": "An international day school offering the IB Primary Years, Cambridge IGCSE and IB Diploma programmes.",
+      "footer_text": "All rights reserved.",
+      "rating": "IB Diploma average 36",
+      "rating_label": "above the world average for five years running",
+      "header_button": {
+        "text": "Enquire about admission",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Cedar International School — ib and cambridge day school in Bengaluru. An international day school offering the IB Primary Years, Cambridge IGCSE and IB Diploma programmes.",
+      "keywords": "ib and cambridge day school, Bengaluru"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Kindergarten to Grade 12",
+            "heading": "A world-class education, rooted in curiosity.",
+            "subheading": "Inquiry-led learning, small classes and a 25-acre campus that brings together students from 30 nationalities.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Enquire about admission",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "IB PYP · IGCSE · IB DP"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Average class of 20"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "Students from 30 countries"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our school",
+            "heading": "Confident, caring global citizens",
+            "description": "<p>Cedar International School opened in 2004 with 60 students. Today 1,100 learners from 30 countries study the IB and Cambridge curricula on our green campus in east Bengaluru.</p><p>We believe children learn best when they ask questions, so our classrooms are built around inquiry, projects and conversation.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2004",
+            "experience_label": "Inspiring learners since",
+            "points": [
+              {
+                "text": "IB World School and Cambridge centre"
+              },
+              {
+                "text": "Average class size of 20"
+              },
+              {
+                "text": "Learning-support and EAL teams"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "An international day school offering the IB Primary Years, Cambridge IGCSE and IB Diploma programmes.",
+            "items": [
+              {
+                "title": "Early Years (Pre-K – K2)",
+                "level": "Ages 3 – 5",
+                "duration": "3 years",
+                "fee": "₹4,80,000 / year",
+                "description": "Play-based inquiry, language and early numeracy.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "IB Primary Years (Grades 1 – 5)",
+                "level": "Ages 6 – 10",
+                "duration": "5 years",
+                "fee": "₹6,20,000 / year",
+                "description": "Trans-disciplinary units, arts, sport and a second language.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Middle School (Grades 6 – 8)",
+                "level": "Ages 11 – 13",
+                "duration": "3 years",
+                "fee": "₹6,90,000 / year",
+                "description": "Broad curriculum with design, coding and outdoor education.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-17",
+                "title": "Applications for August 2027 entry are open",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-09",
+                "title": "IB Diploma results celebration on 28 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-01",
+                "title": "Winter Concert tickets available at reception",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-24",
+                "title": "Parent workshop: supporting teenagers through exams",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-16",
+                "title": "Model United Nations team wins best delegation",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1100",
+                "suffix": "",
+                "label": "Students",
+                "icon": ""
+              },
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Nationalities",
+                "icon": ""
+              },
+              {
+                "number": "36",
+                "suffix": "",
+                "label": "IB Diploma average",
+                "icon": ""
+              },
+              {
+                "number": "20",
+                "suffix": "",
+                "label": "Average class size",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Life at Cedar",
+            "description": "",
+            "image": "theme:images/about-2.svg",
+            "items": [
+              {
+                "icon": "bi-lightbulb",
+                "title": "Inquiry-led learning",
+                "description": "Students ask, investigate and present — not just memorise."
+              },
+              {
+                "icon": "bi-translate",
+                "title": "Languages",
+                "description": "French, Spanish, Hindi and Kannada from Grade 1."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Wellbeing",
+                "description": "Counsellors, house system and a dedicated pastoral team."
+              },
+              {
+                "icon": "bi-trophy",
+                "title": "Sport & arts",
+                "description": "Swimming pool, turf fields, theatre and music studios."
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-30",
+                "time": "10:00 am – 1:00 pm",
+                "title": "Admissions Open Morning",
+                "location": "Main campus",
+                "description": "Tour classrooms, meet teachers and see a student showcase.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-20",
+                "time": "6:00 pm",
+                "title": "Winter Concert",
+                "location": "Cedar Theatre",
+                "description": "Choirs, orchestra and jazz band perform music from around the world.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-13",
+                "time": "9:00 am",
+                "title": "International Day",
+                "location": "Sports field",
+                "description": "Food, dance and flags from our 30 nationalities.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "What students and parents say",
+            "items": [
+              {
+                "quote": "Our children moved here from Singapore and settled in within weeks. The teachers truly know them.",
+                "name": "Elena & Arun Menon",
+                "role": "Parents, Grades 3 and 7",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "The IB Diploma taught me to think for myself. I felt ready from my first week at university.",
+                "name": "Riya Kapoor",
+                "role": "Class of 2025, now at university abroad",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Cedar’s arts programme gave my son confidence on and off the stage.",
+                "name": "Ahmed Siddiqui",
+                "role": "Parent, Grade 9",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and visit Cedar",
+            "description": "Join an open morning or book a personal tour with our admissions team.",
+            "background_image": "",
+            "button": {
+              "text": "Enquire about admission",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918028436100"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Cedar International School",
+            "subheading": "An international day school offering the IB Primary Years, Cambridge IGCSE and IB Diploma programmes.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our school",
+            "heading": "Confident, caring global citizens",
+            "description": "<p>Cedar International School opened in 2004 with 60 students. Today 1,100 learners from 30 countries study the IB and Cambridge curricula on our green campus in east Bengaluru.</p><p>We believe children learn best when they ask questions, so our classrooms are built around inquiry, projects and conversation.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2004",
+            "experience_label": "Inspiring learners since",
+            "points": [
+              {
+                "text": "IB World School and Cambridge centre"
+              },
+              {
+                "text": "Average class size of 20"
+              },
+              {
+                "text": "Learning-support and EAL teams"
+              }
+            ],
+            "button": {
+              "text": "Enquire about admission",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1100",
+                "suffix": "",
+                "label": "Students",
+                "icon": ""
+              },
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Nationalities",
+                "icon": ""
+              },
+              {
+                "number": "36",
+                "suffix": "",
+                "label": "IB Diploma average",
+                "icon": ""
+              },
+              {
+                "number": "20",
+                "suffix": "",
+                "label": "Average class size",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. Catherine Moore",
+                "role": "Head of School",
+                "bio": "Twenty-five years leading international schools.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Nikhil Bhat",
+                "role": "IB Diploma Coordinator",
+                "bio": "Physics teacher and university counsellor.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Ananya Rao",
+                "role": "Primary Principal",
+                "bio": "PYP specialist and teacher trainer.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "James Okafor",
+                "role": "Director of Sport",
+                "bio": "Former national-level athlete and coach.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Life at Cedar",
+            "description": "",
+            "image": "theme:images/about-2.svg",
+            "items": [
+              {
+                "icon": "bi-lightbulb",
+                "title": "Inquiry-led learning",
+                "description": "Students ask, investigate and present — not just memorise."
+              },
+              {
+                "icon": "bi-translate",
+                "title": "Languages",
+                "description": "French, Spanish, Hindi and Kannada from Grade 1."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Wellbeing",
+                "description": "Counsellors, house system and a dedicated pastoral team."
+              },
+              {
+                "icon": "bi-trophy",
+                "title": "Sport & arts",
+                "description": "Swimming pool, turf fields, theatre and music studios."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "An international day school offering the IB Primary Years, Cambridge IGCSE and IB Diploma programmes.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "Early Years (Pre-K – K2)",
+                "level": "Ages 3 – 5",
+                "duration": "3 years",
+                "fee": "₹4,80,000 / year",
+                "description": "Play-based inquiry, language and early numeracy.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "IB Primary Years (Grades 1 – 5)",
+                "level": "Ages 6 – 10",
+                "duration": "5 years",
+                "fee": "₹6,20,000 / year",
+                "description": "Trans-disciplinary units, arts, sport and a second language.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Middle School (Grades 6 – 8)",
+                "level": "Ages 11 – 13",
+                "duration": "3 years",
+                "fee": "₹6,90,000 / year",
+                "description": "Broad curriculum with design, coding and outdoor education.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "Cambridge IGCSE (Grades 9 – 10)",
+                "level": "Ages 14 – 15",
+                "duration": "2 years",
+                "fee": "₹7,60,000 / year",
+                "description": "Choose from 20 subjects with expert subject teachers.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "IB Diploma (Grades 11 – 12)",
+                "level": "Ages 16 – 18",
+                "duration": "2 years",
+                "fee": "₹8,90,000 / year",
+                "description": "Six subjects, theory of knowledge, extended essay and CAS.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "After-school academy",
+                "level": "All ages",
+                "duration": "Termly",
+                "fee": "From ₹18,000",
+                "description": "Music, robotics, swimming, debate and 30 more clubs.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "When can my child join?",
+                "answer": "We admit students throughout the year if a place is available; the main intake is in August."
+              },
+              {
+                "question": "Do you offer transport?",
+                "answer": "Yes, air-conditioned buses cover most of east and south Bengaluru."
+              },
+              {
+                "question": "Is there support for children new to English?",
+                "answer": "Our EAL team supports children learning English alongside their classes."
+              },
+              {
+                "question": "Are meals provided?",
+                "answer": "Yes, a nutritious lunch and snacks are included in the fees."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and visit Cedar",
+            "description": "Join an open morning or book a personal tour with our admissions team.",
+            "background_image": "",
+            "button": {
+              "text": "Enquire about admission",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918028436100"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Admissions",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-envelope",
+                "title": "Enquire",
+                "description": "Send an enquiry and get our prospectus."
+              },
+              {
+                "icon": "bi-building",
+                "title": "Visit",
+                "description": "Tour the campus and meet the admissions team."
+              },
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Assessment",
+                "description": "A friendly, age-appropriate assessment and interview."
+              },
+              {
+                "icon": "bi-patch-check",
+                "title": "Offer & join",
+                "description": "Receive an offer and complete enrolment."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "Early Years & Primary",
+                "price": "₹4,80,000+",
+                "period": "year",
+                "features": "Tuition & lunch\nAfter-school clubs (2)\nField trips",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "IGCSE & IB Diploma",
+                "price": "₹7,60,000+",
+                "period": "year",
+                "features": "Tuition & lunch\nExam board fees\nUniversity counselling\nResidential trips",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "Transport",
+                "price": "₹72,000",
+                "period": "year",
+                "features": "AC buses\nGPS tracking\nBus attendant",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Admissions",
+            "heading": "Admission enquiry",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "admission",
+            "form_heading": "Admission enquiry",
+            "select1_label": "Grade applying for",
+            "select1_options": "Pre-K / K1 / K2\nGrades 1 – 5\nGrades 6 – 8\nGrades 9 – 10 (IGCSE)\nGrades 11 – 12 (IB DP)",
+            "select2_label": "Start term",
+            "select2_options": "August 2027\nJanuary 2027\nMid-year",
+            "date_label": "Preferred visit date",
+            "message_label": "Current school and anything we should know",
+            "email_required": false,
+            "button_text": "Send enquiry",
+            "success_message": "Thank you! Our admissions team will be in touch within two working days.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Mon–Fri: 8:00 am – 4:00 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "admissions@cedar.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "When can my child join?",
+                "answer": "We admit students throughout the year if a place is available; the main intake is in August."
+              },
+              {
+                "question": "Do you offer transport?",
+                "answer": "Yes, air-conditioned buses cover most of east and south Bengaluru."
+              },
+              {
+                "question": "Is there support for children new to English?",
+                "answer": "Our EAL team supports children learning English alongside their classes."
+              },
+              {
+                "question": "Are meals provided?",
+                "answer": "Yes, a nutritious lunch and snacks are included in the fees."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-30",
+                "time": "10:00 am – 1:00 pm",
+                "title": "Admissions Open Morning",
+                "location": "Main campus",
+                "description": "Tour classrooms, meet teachers and see a student showcase.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-20",
+                "time": "6:00 pm",
+                "title": "Winter Concert",
+                "location": "Cedar Theatre",
+                "description": "Choirs, orchestra and jazz band perform music from around the world.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-13",
+                "time": "9:00 am",
+                "title": "International Day",
+                "location": "Sports field",
+                "description": "Food, dance and flags from our 30 nationalities.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-17",
+                "title": "Applications for August 2027 entry are open",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-09",
+                "title": "IB Diploma results celebration on 28 November",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-01",
+                "title": "Winter Concert tickets available at reception",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-24",
+                "title": "Parent workshop: supporting teenagers through exams",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-16",
+                "title": "Model United Nations team wins best delegation",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Science laboratory"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Art studio"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Music room"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at Cedar International School.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at Cedar"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Classroom"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Science laboratory"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Library"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Sports field"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Music room"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and visit Cedar",
+            "description": "Join an open morning or book a personal tour with our admissions team.",
+            "background_image": "",
+            "button": {
+              "text": "Enquire about admission",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918028436100"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Bengaluru, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Cedar International School collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

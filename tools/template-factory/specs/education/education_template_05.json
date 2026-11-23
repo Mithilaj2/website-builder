@@ -1,0 +1,76 @@
+{
+  "id": "education_template_05",
+  "name": "Cedar Global",
+  "prefix": "cis",
+  "niche": "international",
+  "seed": 5,
+  "direction": "Refined and international: centred masthead, centred hero over a wide campus panorama, plum and antique gold on ivory, serif headings, soft shadows, a gold call-to-action band.",
+  "description": "A refined, international design for IB, Cambridge and premium schools: centred masthead, a centred hero with a campus panorama, serif headings, a notice board, event listings and round faculty portraits.",
+  "theme": {
+    "primary": "#4A1942",
+    "secondary": "#D4A373",
+    "bg": "#FBF7F2",
+    "text": "#2A1A28",
+    "heading_font": "playfair-display",
+    "body_font": "dm-sans",
+    "radius": "12px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "stack",
+    "banner": "image",
+    "head": "serif",
+    "card": "shadow",
+    "about": "layered",
+    "courses": "cards",
+    "events": "list",
+    "notices": "board",
+    "stats": "cards",
+    "process": "line",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "centered",
+    "services": "cards"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 60%, #000)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "-.01em",
+    "card": "#FFFFFF",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)"
+  },
+  "demo": {
+    "home_courses": 3,
+    "features_image": "about-2.svg",
+    "home": [
+      "hero",
+      "about",
+      "courses",
+      "notices",
+      "stats",
+      "features",
+      "events",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "education",
+  "version": "1.0.0"
+}

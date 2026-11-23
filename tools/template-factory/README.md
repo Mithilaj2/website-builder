@@ -38,6 +38,7 @@ hand afterwards like any other.
 | `lib/sections` | `<type>.php`, or `<type>.<variant>.php` for sections that have variants |
 | `lib/css/base.css` | Token-driven base styles (`--{{p}}-*` variables built on the site's `--wb-*` theme variables) |
 | `lib/css/<component>.<variant>.css` | One module per variant; only the chosen ones are concatenated into `style.css` |
+| `lib/css/sec.<type>.css` | Styles for a section type without variants (e.g. `booking_form`), added only when the category uses that type |
 | `lib/js/main.js` | Sticky-header shadow, count-up numbers, reveal on scroll (all off for reduced motion) |
 | `images/kit.py` | Palette-driven SVG primitives (figures, portraits, buildings, trucks, panels, monitors, logos…) |
 | `images/<category>_images.py` | Category scenes. `generate(out_dir, niche, primary, secondary, seed, logo_names)` |
@@ -87,6 +88,9 @@ hand afterwards like any other.
 | faq | `split`, `center` |
 | logos | `strip`, `boxed` |
 | footer | `columns`, `centered`, `band` (contact cards above the columns) |
+| courses | `cards` (image cards with level tag, duration and fee), `list` (rows with the fee and a button on the right) |
+| events | `list` (date tile, details, thumbnail), `cards` (image cards with a date badge) |
+| notices | `board` (label panel + list), `strip` (the latest three in a slim bar, for under the hero) |
 
 ### Tokens
 
@@ -123,12 +127,23 @@ background (set `bg`/`text` in `theme` accordingly).
 - Only functions the template validator allows. Repeated markup lives in partials
   (`brand`, `quote`, `member`, `accordion`…), never in closures assigned to variables.
 - Generated demo images are original SVG illustrations; no photographs or third-party artwork.
+- Demo partner and "affiliation" logos use invented names, never real boards, universities or companies.
+- Booking-form dropdown labels must not contain the word "date": the runtime validates any field whose
+  label contains "date" as a calendar date, so such a dropdown could never be submitted. The education
+  demo builder refuses to build if one does.
+
+## Categories built so far
+
+| Category | Image scenes | Demo niches |
+|---|---|---|
+| Business | `images/business_images.py` | logistics, IT, agro exports, engineering, HR, solar, construction, legal, agency |
+| Education | `images/education_images.py` (19 reusable tiles: classroom, lab, library, sports, music, stage, campus…) | preschool, coaching, engineering college, international school, coding bootcamp, performing arts, business school, language centre, boarding school |
 
 ## Adding a category
 
 1. Write `images/<category>_images.py` with a `generate()` function, reusing `kit.py`.
-2. Write `demos/<category>.py` (exporting `build(spec)`, `page_types(demo)`, `DEFAULT_PAGES` and
-   `SECTION_TYPES`) and its content file.
+2. Write `demos/<category>.py` (exporting `build(spec)`, `page_types(demo)`, `SECTION_TYPES`, and either
+   `DEFAULT_PAGES` or `default_pages(spec)`; optionally `FEATURES` / `OPTIONAL_FEATURES`) and its content file.
 3. Add sections the category needs to `lib/sections` (with prefix placeholders) and their CSS modules.
 4. Write the specs. Vary at least the palette family, the heading typeface, the hero, the header
    and the card style between templates of the same category.

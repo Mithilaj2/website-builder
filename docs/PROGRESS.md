@@ -9,7 +9,68 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): **Business done** (awaiting review) with the new template factory; next: the other 9 categories |
+| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); **Education done** (awaiting review); next: Hospital, then the remaining 7 categories |
+
+## Phase 7c, Education: templates 02–10
+
+### Delivered
+- **Factory extended for education:**
+  - New library sections: `courses` (`cards` and `list` variants), `events` (`list` and `cards`), `notices` (`board`, and `strip` for a slim bar under the hero) and `booking_form` (the admission / enquiry form with two dropdowns, a date, a message and side points).
+  - Shared styles for course meta, tags and "New" badges, and select menus in light and dark moods.
+  - 19 reusable education illustration tiles (classroom, laboratory, library, computer lab, sports field, art studio, music room, stage, graduation, lecture hall, online class, robotics, language, maths, campus, play area, hill campus, business analytics, exam hall), composed into nine different heroes.
+  - Demo copy for nine kinds of institution.
+- **Nine new Education templates**, each with its own demo institution:
+
+| # | Template | Prefix | Demo institution | Hero / header / notices | Look |
+|---|---|---|---|---|---|
+| 02 | Acorn Playschool | `lac` | Preschool & day care, Pune | split / floating pill / strip | Tomato + sunshine on cream, Poppins, rounded |
+| 03 | Apex Rankers | `apx` | JEE / NEET coaching, Hyderabad | colour panel / dark bar / board | Navy + signal red, Montserrat, course rows with fees |
+| 04 | Circuit Campus | `mit` | Engineering college, Chennai | full-bleed cover / info bar / strip | Deep teal + amber, Sora |
+| 05 | Cedar Global | `cis` | International school, Bengaluru | centred panorama / centred masthead / board | Plum + antique gold on ivory, Playfair Display |
+| 06 | Forge Terminal | `cfa` | Coding bootcamp, Bengaluru | split / floating pill / strip | **Dark**, emerald + yellow, Space Grotesk |
+| 07 | Raga Stage | `rsp` | Music & dance school, Kochi | full-bleed stage / centred masthead / board | Wine + marigold on cream, Lora |
+| 08 | Westbridge Executive | `wsm` | Business school, Gurugram | editorial / dark bar / board | Ink + sky blue, Manrope, near-square corners |
+| 09 | Lingua Bridge | `lgb` | Language & IELTS centre, Chandigarh | split / info bar / strip | Teal + coral, Plus Jakarta Sans |
+| 10 | Pinecrest Heritage | `pcr` | Boarding school, Dehradun | colour panel / centred masthead / board | Slate + rust on parchment, Merriweather |
+
+- Every template has nine pages:
+  - Home
+  - About (with faculty portraits)
+  - Programmes (six courses with level, duration and fee)
+  - Admissions (steps, three fee cards linking to the form, and an admission or enquiry form)
+  - Events (three dated events, the notice board and a small gallery)
+  - Gallery, Contact, and two legal pages
+- Each template ships 21–22 original images and a `preview.jpg`. No runtime changes, so the runtime stays at 1.7.0.
+
+### Tests
+`tests/phase7c_education_test.php`: **153 end-to-end checks**.
+
+- **Template files:** the same checks as Business (validator, own prefix, theme-driven CSS, images, page types, distinct designs). The prefixes are also checked against every existing template, including Business 02–10.
+- **Each of the nine websites:**
+  - variants, hero copy, menu and legal links
+  - the notice variant with "New" badges
+  - courses, events, stats and testimonials
+  - all eight inner pages, six courses with images, three dated events plus the notice list
+  - the team portraits and the 404 page
+  - a contact enquiry
+  - an admission or enquiry request with both dropdowns, stored with its answers and confirmed with the template's own success message
+- **Export:** a full export of one website.
+
+| Server | 7c Education | 7c Business | 7b-3 | 7b-2 | 7b-1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+All template PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of every page of the nine websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- **Cedar 05 admission form.** Its dropdown was labelled "Start date", and the runtime validates any field whose label contains "date" as a calendar date. Every enquiry would have been rejected. The label is now "Start term", and the factory refuses to build a dropdown whose label contains "date".
+- **Dropdown arrows.** Form fields set their colour with the `background` shorthand, which wiped Bootstrap's dropdown arrow. On light templates the arrow disappeared; on the dark template it tiled across the whole field. Fields now set `background-color` only.
+- **Notice strip.** The list styles lived only in the board variant, so strip templates showed bullet points and run-together dates. The shared list styles moved into the base stylesheet.
+- **About images.** These were cropped twice: once inside the SVG and once by the photo frame, so a clock tower filled the whole frame. The scene is now drawn full-width with headroom.
+- **Hero centring and captions:**
+  - The coaching hero's board text is centred, so the colour-panel crop keeps it whole.
+  - Gallery captions come from the scene actually drawn in each image, instead of a list that could fall out of step.
 
 ## Phase 7c, Business: templates 02–10 and the template factory
 
@@ -725,6 +786,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-23 (Phase 7c, Education)
+Education templates 02–10; factory sections for courses, events, notices and booking forms; 153-check test; full regression on dev and Apache.
 
 ### 2026-11-23 (Phase 7c, Business)
 Template factory; Business templates 02–10; 126-check test; full regression on dev and Apache.

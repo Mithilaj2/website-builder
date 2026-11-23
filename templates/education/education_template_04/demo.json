@@ -1,0 +1,1087 @@
+{
+  "settings": {
+    "site": {
+      "name": "Meridian Institute of Technology",
+      "tagline": "Engineering and technology college",
+      "phone": "+91 44 2745 8800",
+      "email": "admissions@mitchennai.example",
+      "address": "OMR, Padur\nChennai, Tamil Nadu 603103",
+      "hours": "Mon–Sat: 9:00 am – 5:00 pm",
+      "footer_about": "An autonomous engineering college offering B.E., B.Tech. and M.Tech. programmes with strong industry links.",
+      "footer_text": "All rights reserved.",
+      "rating": "NAAC A++ · NBA accredited",
+      "rating_label": "autonomous institution affiliated to a state university",
+      "header_button": {
+        "text": "Apply for 2027",
+        "url": "page:admissions"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Meridian Institute of Technology — engineering and technology college in Chennai. An autonomous engineering college offering B.E., B.Tech. and M.Tech. programmes with strong industry links.",
+      "keywords": "engineering and technology college, Chennai"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Admissions 2027 open",
+            "heading": "Engineer the future, starting on day one.",
+            "subheading": "Industry-designed B.E. and B.Tech. programmes, research labs and a placement record that speaks for itself — on a 60-acre campus off OMR.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Apply for 2027",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Explore programmes",
+              "url": "page:courses"
+            },
+            "highlights": [
+              {
+                "icon": "bi-check2-circle",
+                "text": "94% placement in 2026"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "120 recruiting companies"
+              },
+              {
+                "icon": "bi-check2-circle",
+                "text": "60-acre green campus"
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-19",
+                "title": "B.E. / B.Tech. 2027 applications open — apply online",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-12",
+                "title": "End-semester timetable published",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-04",
+                "title": "National Robotics Challenge: team registrations close 30 Nov",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-28",
+                "title": "Placement drive: 34 companies confirmed for December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-20",
+                "title": "Library open till 10 pm during exams",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "All updates",
+              "url": "page:events"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About MIT Chennai",
+            "heading": "Thirty years of engineering excellence",
+            "description": "<p>Meridian Institute of Technology was founded in 1996 with a simple goal: produce engineers who can build things. Today, 6,000 students study across nine departments on our 60-acre campus.</p><p>Industry partners help design our curriculum, sponsor labs and mentor student projects, so graduates are ready for real work.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1996",
+            "experience_label": "Shaping engineers since",
+            "points": [
+              {
+                "text": "Autonomous, NAAC A++ accredited"
+              },
+              {
+                "text": "Industry-sponsored centres of excellence"
+              },
+              {
+                "text": "On-campus hostels for 2,400 students"
+              }
+            ],
+            "button": {
+              "text": "More about us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "6000",
+                "suffix": "+",
+                "label": "Students",
+                "icon": ""
+              },
+              {
+                "number": "94",
+                "suffix": "%",
+                "label": "Placement rate",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Recruiters",
+                "icon": ""
+              },
+              {
+                "number": "42",
+                "suffix": "",
+                "label": "Patents filed",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "Programmes",
+            "heading": "Find the right programme",
+            "description": "An autonomous engineering college offering B.E., B.Tech. and M.Tech. programmes with strong industry links.",
+            "items": [
+              {
+                "title": "B.E. Computer Science",
+                "level": "Undergraduate",
+                "duration": "4 years",
+                "fee": "₹1,65,000 / year",
+                "description": "Algorithms, AI, systems and software engineering with industry projects.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "B.Tech. Artificial Intelligence & Data Science",
+                "level": "Undergraduate",
+                "duration": "4 years",
+                "fee": "₹1,75,000 / year",
+                "description": "Machine learning, data engineering and applied AI.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "B.E. Electronics & Communication",
+                "level": "Undergraduate",
+                "duration": "4 years",
+                "fee": "₹1,45,000 / year",
+                "description": "VLSI, embedded systems, IoT and communication networks.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "View all programmes",
+              "url": "page:courses"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why students choose MIT Chennai",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-briefcase",
+                "title": "Placement record",
+                "description": "A dedicated placement cell and pre-placement training from second year."
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Centres of excellence",
+                "description": "AI, EV and IoT labs sponsored by industry partners."
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "Global exposure",
+                "description": "Semester exchanges with partner universities abroad."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Residential campus",
+                "description": "Hostels, sports complex, health centre and transport."
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our students are hired by",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "TechNova",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Infiniq",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Auralis Motors",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Cloudreach",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "Voltgrid",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-22",
+                "time": "9:00 am – 6:00 pm",
+                "title": "TechFest “Meridian Spark 2027”",
+                "location": "Main campus",
+                "description": "Hackathons, robotics battles and talks by industry leaders.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-12",
+                "time": "10:00 am",
+                "title": "Campus Open Day",
+                "location": "Admissions block",
+                "description": "Tour the labs, meet faculty and talk to current students.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-06",
+                "time": "9:30 am",
+                "title": "National Conference on Sustainable Engineering",
+                "location": "Seminar hall",
+                "description": "Research papers and keynote talks on green technology.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Voices",
+            "heading": "What students and parents say",
+            "items": [
+              {
+                "quote": "The AI centre let me work on a real industry project in my third year. It got me my job offer.",
+                "name": "Harini S.",
+                "role": "B.Tech. AI & DS, 2026",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "Excellent faculty and a campus that keeps you busy — robotics club, hackathons and sports.",
+                "name": "Mohammed Faiz",
+                "role": "B.E. Mechanical, Year 3",
+                "photo": "",
+                "rating": 5
+              },
+              {
+                "quote": "MIT graduates join us ready to contribute from week one.",
+                "name": "Priya Natarajan",
+                "role": "Talent Lead, TechNova",
+                "photo": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Visit the campus before you decide",
+            "description": "Join our open day or book a guided tour of the labs and hostels.",
+            "background_image": "theme:images/svc-1.svg",
+            "button": {
+              "text": "Apply for 2027",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914427458800"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About Meridian Institute of Technology",
+            "subheading": "An autonomous engineering college offering B.E., B.Tech. and M.Tech. programmes with strong industry links.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About MIT Chennai",
+            "heading": "Thirty years of engineering excellence",
+            "description": "<p>Meridian Institute of Technology was founded in 1996 with a simple goal: produce engineers who can build things. Today, 6,000 students study across nine departments on our 60-acre campus.</p><p>Industry partners help design our curriculum, sponsor labs and mentor student projects, so graduates are ready for real work.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1996",
+            "experience_label": "Shaping engineers since",
+            "points": [
+              {
+                "text": "Autonomous, NAAC A++ accredited"
+              },
+              {
+                "text": "Industry-sponsored centres of excellence"
+              },
+              {
+                "text": "On-campus hostels for 2,400 students"
+              }
+            ],
+            "button": {
+              "text": "Apply for 2027",
+              "url": "page:admissions"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "6000",
+                "suffix": "+",
+                "label": "Students",
+                "icon": ""
+              },
+              {
+                "number": "94",
+                "suffix": "%",
+                "label": "Placement rate",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Recruiters",
+                "icon": ""
+              },
+              {
+                "number": "42",
+                "suffix": "",
+                "label": "Patents filed",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our people",
+            "heading": "Meet our faculty",
+            "description": "",
+            "members": [
+              {
+                "photo": "theme:images/team-1.svg",
+                "name": "Dr. S. Ramanathan",
+                "role": "Principal",
+                "bio": "Thirty years in engineering education and research.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-2.svg",
+                "name": "Dr. Anitha Krishnan",
+                "role": "Dean, Academics",
+                "bio": "Professor of Computer Science.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-3.svg",
+                "name": "Dr. Vivek Iyer",
+                "role": "Head, Centre for EV Research",
+                "bio": "Leads our electric-vehicle lab.",
+                "linkedin": ""
+              },
+              {
+                "photo": "theme:images/team-4.svg",
+                "name": "Ms. Deepa Raj",
+                "role": "Placement Officer",
+                "bio": "Connects students with 120 recruiters.",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why us",
+            "heading": "Why students choose MIT Chennai",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-briefcase",
+                "title": "Placement record",
+                "description": "A dedicated placement cell and pre-placement training from second year."
+              },
+              {
+                "icon": "bi-cpu",
+                "title": "Centres of excellence",
+                "description": "AI, EV and IoT labs sponsored by industry partners."
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "Global exposure",
+                "description": "Semester exchanges with partner universities abroad."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Residential campus",
+                "description": "Hostels, sports complex, health centre and transport."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "courses": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Programmes",
+            "subheading": "An autonomous engineering college offering B.E., B.Tech. and M.Tech. programmes with strong industry links.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "courses",
+          "data": {
+            "eyebrow": "",
+            "heading": "All programmes",
+            "description": "",
+            "items": [
+              {
+                "title": "B.E. Computer Science",
+                "level": "Undergraduate",
+                "duration": "4 years",
+                "fee": "₹1,65,000 / year",
+                "description": "Algorithms, AI, systems and software engineering with industry projects.",
+                "image": "theme:images/svc-1.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "B.Tech. Artificial Intelligence & Data Science",
+                "level": "Undergraduate",
+                "duration": "4 years",
+                "fee": "₹1,75,000 / year",
+                "description": "Machine learning, data engineering and applied AI.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "B.E. Electronics & Communication",
+                "level": "Undergraduate",
+                "duration": "4 years",
+                "fee": "₹1,45,000 / year",
+                "description": "VLSI, embedded systems, IoT and communication networks.",
+                "image": "theme:images/svc-3.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "B.E. Mechanical Engineering",
+                "level": "Undergraduate",
+                "duration": "4 years",
+                "fee": "₹1,35,000 / year",
+                "description": "Design, manufacturing, robotics and electric vehicles.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "B.E. Civil Engineering",
+                "level": "Undergraduate",
+                "duration": "4 years",
+                "fee": "₹1,25,000 / year",
+                "description": "Structures, transport and sustainable infrastructure.",
+                "image": "theme:images/svc-5.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              },
+              {
+                "title": "M.Tech. (4 specialisations)",
+                "level": "Postgraduate",
+                "duration": "2 years",
+                "fee": "₹1,10,000 / year",
+                "description": "Advanced study and research with industry-sponsored theses.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "Details & fees",
+                  "url": "page:admissions"
+                }
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "What is the eligibility for B.E. / B.Tech.?",
+                "answer": "A pass in Class XII with physics, chemistry and mathematics, with at least 50% aggregate."
+              },
+              {
+                "question": "Are scholarships available?",
+                "answer": "Yes — merit, sports and need-based scholarships of up to 100% tuition."
+              },
+              {
+                "question": "Is hostel accommodation guaranteed?",
+                "answer": "First-year students are guaranteed hostel rooms on campus."
+              },
+              {
+                "question": "Do you offer lateral entry?",
+                "answer": "Yes, diploma holders can join the second year of B.E. programmes."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Visit the campus before you decide",
+            "description": "Join our open day or book a guided tour of the labs and hostels.",
+            "background_image": "theme:images/svc-1.svg",
+            "button": {
+              "text": "Apply for 2027",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914427458800"
+            }
+          }
+        }
+      ]
+    },
+    "admissions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Admissions",
+            "subheading": "Everything you need to join us — steps, fees and a quick enquiry form.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How to join",
+            "heading": "Four simple steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-laptop",
+                "title": "Apply online",
+                "description": "Fill in the application and upload marks."
+              },
+              {
+                "icon": "bi-list-check",
+                "title": "Counselling",
+                "description": "Choose your branch based on merit and preference."
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "Document check",
+                "description": "Verification and fee payment at the admissions office."
+              },
+              {
+                "icon": "bi-mortarboard",
+                "title": "Orientation",
+                "description": "Two weeks of induction before classes begin."
+              }
+            ]
+          }
+        },
+        {
+          "type": "pricing",
+          "data": {
+            "eyebrow": "Fees",
+            "heading": "Clear, all-inclusive fees",
+            "description": "Fees are reviewed every year. Scholarships and instalment options are available.",
+            "plans": [
+              {
+                "name": "B.E. programmes",
+                "price": "₹1,25,000+",
+                "period": "year",
+                "features": "Tuition & lab fees\nLibrary & Wi-Fi\nPlacement training",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              },
+              {
+                "name": "B.Tech. AI & DS",
+                "price": "₹1,75,000",
+                "period": "year",
+                "features": "Tuition & lab fees\nGPU computing access\nIndustry projects\nInternship support",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": true
+              },
+              {
+                "name": "Hostel",
+                "price": "₹95,000",
+                "period": "year",
+                "features": "Shared rooms\nMess (4 meals)\nLaundry & Wi-Fi",
+                "button": {
+                  "text": "Enquire",
+                  "url": "#admission-form"
+                },
+                "featured": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Admissions",
+            "heading": "Apply for 2027 admission",
+            "description": "Share a few details and our team will get back to you within one working day.",
+            "form_type": "admission",
+            "form_heading": "Apply for 2027 admission",
+            "select1_label": "Programme",
+            "select1_options": "B.E. Computer Science\nB.Tech. AI & Data Science\nB.E. Electronics & Communication\nB.E. Mechanical\nB.E. Civil\nM.Tech.",
+            "select2_label": "Class XII board",
+            "select2_options": "State board\nCBSE\nICSE\nOther",
+            "date_label": "",
+            "message_label": "Class XII marks (PCM %) and questions",
+            "email_required": false,
+            "button_text": "Submit application",
+            "success_message": "Thank you! Our admissions office will contact you within two working days.",
+            "image": "",
+            "points": [
+              {
+                "icon": "bi-telephone",
+                "title": "We call you back",
+                "text": "Within one working day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit us",
+                "text": "Mon–Sat: 9:00 am – 5:00 pm"
+              },
+              {
+                "icon": "bi-envelope",
+                "title": "Prefer email?",
+                "text": "admissions@mitchennai.example"
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "What is the eligibility for B.E. / B.Tech.?",
+                "answer": "A pass in Class XII with physics, chemistry and mathematics, with at least 50% aggregate."
+              },
+              {
+                "question": "Are scholarships available?",
+                "answer": "Yes — merit, sports and need-based scholarships of up to 100% tuition."
+              },
+              {
+                "question": "Is hostel accommodation guaranteed?",
+                "answer": "First-year students are guaranteed hostel rooms on campus."
+              },
+              {
+                "question": "Do you offer lateral entry?",
+                "answer": "Yes, diploma holders can join the second year of B.E. programmes."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "News & Events",
+            "subheading": "Upcoming events and the latest announcements.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "Calendar",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": false,
+            "items": [
+              {
+                "date": "2027-01-22",
+                "time": "9:00 am – 6:00 pm",
+                "title": "TechFest “Meridian Spark 2027”",
+                "location": "Main campus",
+                "description": "Hackathons, robotics battles and talks by industry leaders.",
+                "image": "theme:images/svc-2.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-02-12",
+                "time": "10:00 am",
+                "title": "Campus Open Day",
+                "location": "Admissions block",
+                "description": "Tour the labs, meet faculty and talk to current students.",
+                "image": "theme:images/svc-4.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "date": "2027-03-06",
+                "time": "9:30 am",
+                "title": "National Conference on Sustainable Engineering",
+                "location": "Seminar hall",
+                "description": "Research papers and keynote talks on green technology.",
+                "image": "theme:images/svc-6.svg",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "notices",
+          "data": {
+            "eyebrow": "Notice board",
+            "heading": "Latest announcements",
+            "description": "Circulars, results and important dates.",
+            "items": [
+              {
+                "date": "2026-11-19",
+                "title": "B.E. / B.Tech. 2027 applications open — apply online",
+                "link": {
+                  "text": "Read more",
+                  "url": "page:admissions"
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-12",
+                "title": "End-semester timetable published",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": true
+              },
+              {
+                "date": "2026-11-04",
+                "title": "National Robotics Challenge: team registrations close 30 Nov",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-28",
+                "title": "Placement drive: 34 companies confirmed for December",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              },
+              {
+                "date": "2026-10-20",
+                "title": "Library open till 10 pm during exams",
+                "link": {
+                  "text": "",
+                  "url": ""
+                },
+                "is_new": false
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Moments",
+            "heading": "From recent events",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Computer lab"
+              },
+              {
+                "image": "theme:images/svc-4.svg",
+                "caption": "Lecture hall"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Graduation day"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "gallery": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Gallery",
+            "subheading": "Life at Meridian Institute of Technology.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/hero.svg",
+                "caption": "Life at Meridian"
+              },
+              {
+                "image": "theme:images/svc-1.svg",
+                "caption": "Robotics lab"
+              },
+              {
+                "image": "theme:images/svc-2.svg",
+                "caption": "Computer lab"
+              },
+              {
+                "image": "theme:images/svc-3.svg",
+                "caption": "Science laboratory"
+              },
+              {
+                "image": "theme:images/svc-5.svg",
+                "caption": "Library"
+              },
+              {
+                "image": "theme:images/svc-6.svg",
+                "caption": "Graduation day"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Visit the campus before you decide",
+            "description": "Join our open day or book a guided tour of the labs and hostels.",
+            "background_image": "theme:images/svc-1.svg",
+            "button": {
+              "text": "Apply for 2027",
+              "url": "page:admissions"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914427458800"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact Us",
+            "subheading": "Questions about programmes, fees or visits? We are happy to help.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We would love to hear from you",
+            "description": "Visit us in Chennai, call, or send a message.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Meridian Institute of Technology collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or admission request we collect your name, phone number, email address and the details you provide, such as the programme you are interested in.</p><h3>How we use it</h3><p>We use this information only to respond to you and to process admissions. We do not sell or share it with third parties for marketing.</p><h3>Contact</h3><p>For any privacy question, contact the office using the details on our Contact page.</p><p><em>Replace this sample text with your institution's own policy before publishing.</em></p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Information on this website</h3><p>Course details, fees and dates are for general information and may change. Please confirm with the admissions office before applying.</p><h3>Liability</h3><p>We are not liable for any loss arising from the use of information on this website.</p><p><em>Replace this sample text with your institution's own terms before publishing.</em></p>"
+          }
+        }
+      ]
+    }
+  }
+}

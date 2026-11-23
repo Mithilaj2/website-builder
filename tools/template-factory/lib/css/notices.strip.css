@@ -1,0 +1,10 @@
+.{{p}} .{{p}}-notices-strip { padding: 2.5rem 0 0; }
+.{{p}}-strip { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 1.5rem; background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); box-shadow: var(--{{p}}-shadow); padding: .75rem 1.5rem .75rem .75rem; }
+.{{p}}-strip-label { display: flex; align-items: center; gap: .6rem; background: var(--{{p}}-accent); color: var(--{{p}}-on-accent); font-family: var(--wb-heading-font); font-weight: 700; padding: 1rem 1.25rem; border-radius: var(--{{p}}-radius); white-space: nowrap; }
+.{{p}}-strip .{{p}}-board-list { padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
+.{{p}}-strip .{{p}}-board-list li { border: 0; padding: .25rem 0; align-items: flex-start; font-size: .92rem; }
+.{{p}}-strip .{{p}}-board-list li + li { border-left: 1px solid var(--{{p}}-line); padding-left: 1.25rem; }
+.{{p}}-strip .{{p}}-board-list time { width: 42px; }
+.{{p}}-strip .{{p}}-board-list time b { font-size: 1.2rem; }
+.{{p}}-strip-more { white-space: nowrap; }
+@media (max-width: 1199.98px) { .{{p}}-strip { grid-template-columns: minmax(0, 1fr); padding: .75rem; } .{{p}}-strip .{{p}}-board-list { grid-template-columns: minmax(0, 1fr); gap: .25rem; padding: 0 .5rem; } .{{p}}-strip .{{p}}-board-list li + li { border-left: 0; padding-left: 0; border-top: 1px solid var(--{{p}}-line); padding-top: .6rem; } .{{p}}-strip-label { justify-content: center; } .{{p}}-strip-more { padding: 0 .5rem .5rem; } }
