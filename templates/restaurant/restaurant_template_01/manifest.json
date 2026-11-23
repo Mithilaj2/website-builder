@@ -1,0 +1,41 @@
+{
+  "id": "restaurant_template_01",
+  "name": "Saffron Table",
+  "category": "restaurant",
+  "version": "1.0.0",
+  "description": "A moody, candle-lit design for restaurants, cafés and bars: a dark charcoal page with saffron and chilli accents, DM Serif Display headings and a full-bleed table-spread hero. Includes a food menu with courses in tabs, veg / non-veg marks, spice levels and dish photos, a table-reservation form, opening hours, events and private dining, chefs, press mentions and guest reviews.",
+  "libraries": ["bootstrap", "bootstrap-icons"],
+  "features": ["contact"],
+  "optional_features": ["payments"],
+  "theme": {
+    "defaults": {
+      "primary": "#E0A43A", "secondary": "#C2412D", "bg": "#15110E", "text": "#F3E9DC",
+      "heading_font": "dm-serif-display", "body_font": "manrope", "radius": "4px",
+      "button_style": "sharp", "header_style": "overlay", "footer_style": "dark"
+    },
+    "header_styles": { "overlay": "Transparent over the hero", "solid": "Solid bar" },
+    "footer_styles": { "dark": "Charcoal", "warm": "Warm brown" }
+  },
+  "section_types": ["hero", "page_banner", "about", "menu", "services", "features", "stats", "testimonials", "gallery", "team", "faq", "cta", "contact", "logos", "rich_text", "process", "booking_form", "opening_hours", "events"],
+  "page_types": {
+    "home": { "default_sections": ["hero", "about", "menu", "features", "gallery", "testimonials", "booking_form", "cta"] },
+    "menu": { "default_sections": ["page_banner", "menu", "cta"] },
+    "about": { "default_sections": ["page_banner", "about", "stats", "team", "logos"] },
+    "reservations": { "default_sections": ["page_banner", "booking_form", "opening_hours", "faq"] },
+    "events": { "default_sections": ["page_banner", "services", "events", "cta"] },
+    "contact": { "default_sections": ["page_banner", "contact", "opening_hours"] },
+    "legal": { "default_sections": ["page_banner", "rich_text"] },
+    "generic": { "default_sections": ["page_banner", "rich_text", "cta"] }
+  },
+  "default_pages": [
+    { "title": "Home", "slug": "", "type": "home", "is_home": true },
+    { "title": "Menu", "slug": "menu", "type": "menu" },
+    { "title": "About", "slug": "about", "type": "about" },
+    { "title": "Events & Private Dining", "slug": "events", "type": "events" },
+    { "title": "Reservations", "slug": "reservations", "type": "reservations" },
+    { "title": "Contact", "slug": "contact", "type": "contact" },
+    { "title": "Privacy Policy", "slug": "privacy-policy", "type": "legal", "in_menu": false, "in_footer": true },
+    { "title": "Terms and Conditions", "slug": "terms-and-conditions", "type": "legal", "in_menu": false, "in_footer": true }
+  ],
+  "demo_content": "demo.json"
+}

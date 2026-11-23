@@ -207,6 +207,11 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST' && $reqOk) {
             if (function_exists('posix_geteuid') && @fileowner($path) === posix_geteuid()) {
                 @chmod($path, 0600);
             }
+            // Hosts with OPcache may keep serving the old file for a few seconds; drop it now so the
+            // new key and database settings apply to the very next request.
+            if (function_exists('opcache_invalidate')) {
+                @opcache_invalidate($path, true);
+            }
         }
         if (!$alert) {
             @file_put_contents(WB_ROOT . '/storage/install.lock', date('c') . "\n");

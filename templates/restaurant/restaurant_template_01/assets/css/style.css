@@ -1,0 +1,373 @@
+/* ==========================================================================
+   Saffron Table — restaurant_template_01
+   Candle-lit, dark charcoal page with saffron and chilli accents, DM Serif
+   Display headings, thin gold rules, a header floating over a full-bleed
+   table-spread hero and a menu with dotted price leaders.
+   Built on the --wb-* theme variables (colours, fonts, radius follow settings).
+   ========================================================================== */
+
+:root {
+  --sfr-ink: var(--wb-text, #F3E9DC);
+  --sfr-muted: rgba(var(--wb-text-rgb, 243, 233, 220), .66);
+  --sfr-line: rgba(var(--wb-text-rgb, 243, 233, 220), .14);
+  --sfr-bg: var(--wb-bg, #15110E);
+  --sfr-alt: color-mix(in srgb, var(--wb-bg, #15110E) 88%, #fff);
+  --sfr-card: color-mix(in srgb, var(--wb-bg, #15110E) 92%, #fff);
+  --sfr-gold: var(--wb-primary, #E0A43A);
+  --sfr-chili: var(--wb-secondary, #C2412D);
+  --sfr-r: var(--wb-radius, 4px);
+  --sfr-shadow: 0 30px 60px -30px rgba(0, 0, 0, .8);
+}
+
+html { scroll-behavior: smooth; }
+body.sfr { background: var(--sfr-bg); color: var(--sfr-ink); font-family: var(--wb-body-font); font-size: 1rem; line-height: 1.75; -webkit-font-smoothing: antialiased; }
+.sfr h1, .sfr h2, .sfr h3, .sfr h4 { font-family: var(--wb-heading-font); font-weight: 400; letter-spacing: 0; color: inherit; }
+.sfr a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.sfr img { max-width: 100%; height: auto; }
+.sfr-skip { position: absolute; left: -9999px; top: 0; z-index: 2000; background: var(--sfr-gold); color: #000; padding: .5rem 1rem; }
+.sfr-skip:focus { left: 1rem; top: 1rem; }
+.sfr-muted { color: var(--sfr-muted); }
+.sfr :focus-visible { outline: 2px solid var(--sfr-gold); outline-offset: 2px; }
+
+/* ---------- Sections & style options ---------- */
+.sfr .wb-section { position: relative; padding: 6rem 0; scroll-margin-top: 90px; }
+.sfr .wb-pad-none { padding: 0; }
+.sfr .wb-pad-sm { padding: 3.2rem 0; }
+.sfr .wb-pad-lg { padding: 8rem 0; }
+.sfr .wb-has-overlay::before { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, var(--wb-overlay, .5)); pointer-events: none; }
+.sfr .wb-has-overlay > .container { position: relative; z-index: 1; }
+.sfr .wb-tone-light, .sfr .wb-tone-light .sfr-title { color: #fff; }
+.sfr .wb-bg-alt, .sfr .wb-bg-light { background: var(--sfr-alt); }
+
+/* ---------- Buttons & links ---------- */
+.sfr .sfr-btn { display: inline-flex; align-items: center; justify-content: center; gap: .6rem; padding: .9rem 1.8rem; border: 1px solid transparent; border-radius: var(--wb-btn-radius, 0);
+  font-weight: 700; font-size: .78rem; letter-spacing: .18em; text-transform: uppercase; text-decoration: none; transition: background-color .25s ease, color .25s ease, border-color .25s ease; }
+.sfr .sfr-btn i { transition: transform .2s ease; }
+.sfr .sfr-btn:hover i.bi-arrow-right { transform: translateX(3px); }
+.sfr .sfr-btn-primary { background: var(--sfr-gold); border-color: var(--sfr-gold); color: var(--wb-on-primary, #15110E); }
+.sfr .sfr-btn-primary:hover, .sfr .sfr-btn-primary:focus-visible { background: transparent; color: var(--sfr-gold); }
+.sfr .sfr-btn-outline, .sfr .sfr-btn-light { background: transparent; border-color: rgba(var(--wb-text-rgb, 243, 233, 220), .45); color: var(--sfr-ink); }
+.sfr .sfr-btn-outline:hover, .sfr .sfr-btn-outline:focus-visible, .sfr .sfr-btn-light:hover { border-color: var(--sfr-gold); color: var(--sfr-gold); }
+.sfr-actions { display: flex; flex-wrap: wrap; gap: .9rem; }
+.sfr .sfr-link { display: inline-flex; align-items: center; gap: .45rem; font-weight: 700; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; color: var(--sfr-gold); }
+.sfr .sfr-link:hover { color: var(--sfr-ink); }
+
+/* ---------- Headings ---------- */
+.sfr-head { max-width: 680px; margin-bottom: 3rem; }
+.sfr-head-center { margin-left: auto; margin-right: auto; text-align: center; }
+.sfr-eyebrow { display: inline-flex; align-items: center; gap: .8rem; margin-bottom: 1rem; font-size: .74rem; font-weight: 700; letter-spacing: .3em; text-transform: uppercase; color: var(--sfr-gold); }
+.sfr-eyebrow::before, .sfr-head-center .sfr-eyebrow::after { content: ""; width: 34px; height: 1px; background: currentColor; opacity: .7; }
+.sfr-title { font-size: clamp(2.1rem, 1.4rem + 2.4vw, 3.4rem); line-height: 1.1; margin-bottom: 1rem; }
+.sfr-lead { color: var(--sfr-muted); font-size: 1.05rem; margin-bottom: 0; }
+.sfr-feature-title, .sfr-card-title { font-size: 1.4rem; margin-bottom: .4rem; }
+
+/* ---------- Header ---------- */
+.sfr-header { position: sticky; top: 0; z-index: 1030; background: var(--sfr-bg); border-bottom: 1px solid var(--sfr-line); transition: background-color .3s ease, border-color .3s ease, box-shadow .3s ease; }
+.sfr-header-overlay .sfr-header { position: fixed; left: 0; right: 0; background: transparent; border-bottom-color: transparent; }
+.sfr-header-overlay .sfr-header.is-scrolled, .sfr-header-overlay .sfr-header:has(.navbar-collapse.show) { background: rgba(21, 17, 14, .96); background: color-mix(in srgb, var(--sfr-bg) 96%, transparent); border-bottom-color: var(--sfr-line); box-shadow: 0 10px 30px -20px #000; }
+.sfr-header-overlay main > .wb-section:first-child { padding-top: 10rem; }
+.sfr-header-overlay main > .sfr-hero:first-child { padding-top: 0; }
+.sfr-header .navbar { padding: 1.1rem 0; }
+.sfr .sfr-brand { display: inline-flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--sfr-ink); }
+.sfr-brand img { max-height: 52px; width: auto; }
+.sfr-mark { width: 40px; height: 40px; color: var(--sfr-gold); display: inline-flex; }
+.sfr-mark svg { width: 100%; height: 100%; }
+.sfr-brand-name { font-family: var(--wb-heading-font); font-size: 1.6rem; line-height: 1; }
+.sfr-header .nav-link { color: var(--sfr-ink); font-weight: 600; font-size: .78rem; letter-spacing: .16em; text-transform: uppercase; padding: .5rem .9rem !important; }
+.sfr-header .nav-link:hover, .sfr-header .nav-link.active { color: var(--sfr-gold); }
+.sfr-header-end { display: flex; align-items: center; gap: 1.2rem; }
+.sfr .sfr-header-phone { display: inline-flex; align-items: center; gap: .45rem; text-decoration: none; font-weight: 600; font-size: .9rem; color: var(--sfr-ink); white-space: nowrap; }
+.sfr-header-phone i { color: var(--sfr-gold); }
+.sfr .sfr-header-cta { padding: .7rem 1.2rem; }
+.sfr-header .navbar-toggler { border: 0; font-size: 1.7rem; padding: .2rem .4rem; color: var(--sfr-ink); }
+.sfr-header .navbar-toggler:focus { box-shadow: 0 0 0 2px var(--sfr-gold); }
+
+/* ---------- Hero ---------- */
+.sfr .sfr-hero { padding: 0; min-height: min(100vh, 900px); display: flex; align-items: center; overflow: hidden; background: #1E1814; }
+.sfr-hero-bg { position: absolute; inset: 0; background-size: cover; background-position: right center; }
+.sfr-hero::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, var(--sfr-bg) 0%, color-mix(in srgb, var(--sfr-bg) 85%, transparent) 32%, transparent 70%); pointer-events: none; }
+.sfr-hero > .container { z-index: 2; padding-top: 9rem; padding-bottom: 5rem; }
+.sfr-hero-copy { max-width: 600px; }
+.sfr-hero-title { font-size: clamp(3rem, 1.6rem + 5vw, 6rem); line-height: .98; margin-bottom: 1.5rem; color: var(--sfr-ink); }
+.sfr-hero-text { font-size: 1.12rem; color: var(--sfr-muted); max-width: 480px; margin-bottom: 2.2rem; }
+.sfr-hero-points { list-style: none; padding: 1.6rem 0 0; margin: 3.5rem 0 0; display: flex; flex-wrap: wrap; gap: .8rem 2.6rem; border-top: 1px solid var(--sfr-line); max-width: 640px; font-size: .9rem; }
+.sfr-hero-points li { display: inline-flex; align-items: center; gap: .6rem; }
+.sfr-hero-points i { color: var(--sfr-gold); font-size: 1.1rem; }
+
+/* ---------- Page banner ---------- */
+.sfr .sfr-banner { padding: 10rem 0 4.5rem; overflow: hidden; background: #1E1814; border-bottom: 1px solid var(--sfr-line); }
+.sfr-banner-bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: .5; }
+.sfr-banner-title { font-size: clamp(2.4rem, 1.6rem + 3vw, 4.2rem); margin: .8rem 0 .6rem; color: var(--sfr-ink); }
+.sfr-banner-text { max-width: 620px; margin: 0 auto; color: var(--sfr-muted); font-size: 1.05rem; }
+.sfr-crumbs { list-style: none; display: inline-flex; flex-wrap: wrap; justify-content: center; gap: .6rem; padding: 0; margin: 0; font-size: .72rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; color: var(--sfr-muted); }
+.sfr-crumbs li + li::before { content: "·"; margin-right: .6rem; color: var(--sfr-gold); }
+.sfr .sfr-crumbs a { text-decoration: none; color: var(--sfr-gold); }
+
+/* ---------- Menu ---------- */
+.sfr-menu-tabs { display: none; }
+.sfr-menu-wrap.is-tabbed .sfr-menu-tabs { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem 2.2rem; margin-bottom: 3rem; border-bottom: 1px solid var(--sfr-line); }
+.sfr-menu-tabs button { position: relative; border: 0; background: none; padding: .9rem .2rem; color: var(--sfr-muted); font-family: var(--wb-heading-font); font-size: 1.35rem; }
+.sfr-menu-tabs button::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--sfr-gold); transform: scaleX(0); transition: transform .25s ease; }
+.sfr-menu-tabs button[aria-selected="true"] { color: var(--sfr-ink); }
+.sfr-menu-tabs button[aria-selected="true"]::after { transform: scaleX(1); }
+.sfr-menu-tabs button:hover { color: var(--sfr-ink); }
+.sfr-menu-course + .sfr-menu-course { margin-top: 3.5rem; }
+.sfr-menu-wrap.is-tabbed .sfr-menu-course { margin-top: 0; }
+.sfr-menu-wrap.is-tabbed .sfr-menu-course-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.sfr-menu-course-title { text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--sfr-gold); }
+.sfr-dishes { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.2rem 4rem; }
+.sfr-dish { display: flex; gap: 1.2rem; align-items: flex-start; }
+.sfr-dish-img { flex: 0 0 auto; width: 88px; height: 88px; border-radius: 50%; object-fit: cover; border: 1px solid var(--sfr-line); }
+.sfr-dish-body { flex: 1; min-width: 0; }
+.sfr-dish-line { display: flex; align-items: baseline; gap: .6rem; }
+.sfr-dish-name { display: inline-flex; align-items: center; gap: .55rem; font-size: 1.3rem; margin: 0; min-width: 0; }
+.sfr-dish-dots { flex: 1; min-width: 1.5rem; border-bottom: 1px dotted rgba(var(--wb-text-rgb, 243, 233, 220), .35); transform: translateY(-.3rem); }
+.sfr-dish-price { font-family: var(--wb-heading-font); font-size: 1.25rem; color: var(--sfr-gold); white-space: nowrap; }
+.sfr-dish-desc { color: var(--sfr-muted); font-size: .92rem; margin: .35rem 0 0; }
+.sfr-dish-meta { display: flex; align-items: center; gap: .8rem; margin-top: .5rem; }
+.sfr-spice { color: var(--sfr-chili); font-size: .82rem; display: inline-flex; gap: .1rem; }
+.sfr-dish-tag { padding: .15rem .6rem; border: 1px solid var(--sfr-gold); color: var(--sfr-gold); font-size: .66rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; border-radius: var(--sfr-r); }
+.sfr-diet { flex: 0 0 auto; position: relative; display: inline-block; width: 14px; height: 14px; border: 1.5px solid #3E9B4F; border-radius: 2px; }
+.sfr-diet::after { content: ""; position: absolute; inset: 2.5px; border-radius: 50%; background: #3E9B4F; }
+.sfr-diet.is-nonveg { border-color: #B5482F; }
+.sfr-diet.is-nonveg::after { inset: auto; left: 50%; top: 50%; width: 0; height: 0; border-radius: 0; background: none; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 7px solid #B5482F; transform: translate(-50%, -55%); }
+.sfr-diet.is-egg { border-color: #D9A12B; }
+.sfr-diet.is-egg::after { background: #D9A12B; }
+.sfr-diet.is-vegan { border-color: #7FB35E; border-radius: 50%; }
+.sfr-diet.is-vegan::after { background: #7FB35E; }
+.sfr-menu-foot { display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--sfr-line); text-align: center; }
+.sfr-menu-legend { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 1.8rem; padding: 0; margin: 0; color: var(--sfr-muted); font-size: .84rem; }
+.sfr-menu-legend li { display: inline-flex; align-items: center; gap: .5rem; }
+.sfr-menu-legend .bi-fire { color: var(--sfr-chili); }
+.sfr-menu-note { color: var(--sfr-muted); font-size: .88rem; font-style: italic; margin: 0; }
+
+/* ---------- About, features, tiles ---------- */
+.sfr-about-media { position: relative; max-width: 520px; padding: 1.6rem 1.6rem 0 0; }
+.sfr-about-media::before { content: ""; position: absolute; right: 0; top: 0; width: 75%; height: 80%; border: 1px solid var(--sfr-gold); }
+.sfr-frame, .sfr-pill { position: relative; overflow: hidden; background: var(--sfr-card); border-radius: var(--sfr-r); }
+.sfr-frame img, .sfr-pill img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.sfr-frame { aspect-ratio: 10 / 11; box-shadow: var(--sfr-shadow); }
+.sfr-about-media.has-second { padding-bottom: 5rem; }
+.sfr-about-small { position: absolute; left: -1.5rem; bottom: 0; width: 44%; aspect-ratio: 4 / 3; border: 6px solid var(--sfr-bg); }
+.sfr-about-badge { position: absolute; left: -1.5rem; bottom: 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 150px; height: 150px; border-radius: 50%; background: var(--sfr-chili); color: #fff; text-align: center; box-shadow: var(--sfr-shadow); padding: 1rem; }
+.sfr-about-badge strong { font-family: var(--wb-heading-font); font-size: 2.6rem; line-height: 1; font-weight: 400; }
+.sfr-about-badge span { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-top: .3rem; line-height: 1.3; }
+.sfr-prose { color: var(--sfr-muted); }
+.sfr-prose h2, .sfr-prose h3 { color: var(--sfr-ink); margin: 1.6rem 0 .7rem; }
+.sfr-prose a { color: var(--sfr-gold); }
+.sfr-narrow { max-width: 780px; margin: 0 auto; }
+.sfr-ticks { list-style: none; padding: 0; margin: 1.4rem 0 1.8rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem 1.2rem; }
+.sfr-ticks li { display: flex; gap: .6rem; }
+.sfr-ticks i { color: var(--sfr-gold); }
+.sfr-icon { flex: 0 0 auto; width: 58px; height: 58px; display: inline-flex; align-items: center; justify-content: center; font-size: 1.5rem; color: var(--sfr-gold); border: 1px solid var(--sfr-line); border-radius: 50%; }
+.sfr-tile { position: relative; height: 100%; padding: 2.4rem 2rem; background: var(--sfr-card); border: 1px solid var(--sfr-line); border-radius: var(--sfr-r); transition: border-color .3s; }
+.sfr-tile:hover { border-color: var(--sfr-gold); }
+.sfr-tile .sfr-icon { margin-bottom: 1.4rem; }
+.sfr-tile p { color: var(--sfr-muted); font-size: .94rem; margin-bottom: 1rem; }
+.sfr-tile-img { margin: -2.4rem -2rem 1.4rem; aspect-ratio: 16 / 10; overflow: hidden; }
+.sfr-tile-img img { width: 100%; height: 100%; object-fit: cover; }
+.sfr-usp { display: grid; grid-template-columns: repeat(var(--sfr-usp, 4), minmax(0, 1fr)); gap: 0; }
+.sfr-usp-item { padding: 1rem 2rem; text-align: center; }
+.sfr-usp-item + .sfr-usp-item { border-left: 1px solid var(--sfr-line); }
+.sfr-usp-item .sfr-icon { margin-bottom: 1.2rem; }
+.sfr-usp-item p { color: var(--sfr-muted); font-size: .93rem; margin: 0; }
+.sfr-feature { display: flex; gap: 1.1rem; align-items: flex-start; }
+.sfr-feature p { color: var(--sfr-muted); font-size: .93rem; margin: 0; }
+.sfr-features-img { aspect-ratio: 4 / 5; max-width: 440px; }
+
+/* ---------- Stats ---------- */
+.sfr .sfr-stats { background: var(--sfr-alt); border-top: 1px solid var(--sfr-line); border-bottom: 1px solid var(--sfr-line); }
+.sfr-stats-heading { text-align: center; font-size: 1.6rem; margin-bottom: 2rem; }
+.sfr-stat { text-align: center; padding: 1rem; }
+.sfr-stats .col-6 + .col-6 .sfr-stat { border-left: 1px solid var(--sfr-line); }
+.sfr-stat strong { display: block; font-family: var(--wb-heading-font); font-size: clamp(2.6rem, 1.8rem + 2.6vw, 3.8rem); font-weight: 400; line-height: 1.1; color: var(--sfr-gold); }
+.sfr-stat > span { color: var(--sfr-muted); font-size: .8rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+
+/* ---------- Process ---------- */
+.sfr-steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(var(--sfr-steps, 4), minmax(0, 1fr)); gap: 2rem; }
+.sfr-step { position: relative; padding-top: 3rem; }
+.sfr-step-num { position: absolute; top: 0; left: 0; font-family: var(--wb-heading-font); font-size: 2.2rem; line-height: 1; color: var(--sfr-gold); }
+.sfr-step-icon { display: none; }
+.sfr-step p { color: var(--sfr-muted); font-size: .93rem; margin: 0; }
+
+/* ---------- Team (chefs) ---------- */
+.sfr-member { height: 100%; text-align: center; position: relative; }
+.sfr-member-photo { aspect-ratio: 4 / 5; background: var(--sfr-card); margin-bottom: 1.3rem; overflow: hidden; display: flex; align-items: center; justify-content: center; border-radius: var(--sfr-r); }
+.sfr-member-photo img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.9); transition: transform .6s; }
+.sfr-member:hover .sfr-member-photo img { transform: scale(1.04); }
+.sfr-member-photo span { font-family: var(--wb-heading-font); font-size: 3rem; color: var(--sfr-gold); }
+.sfr-member-role { display: block; color: var(--sfr-gold); font-size: .72rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; margin-bottom: .6rem; }
+.sfr-member p { color: var(--sfr-muted); font-size: .9rem; margin: 0 auto; max-width: 300px; }
+.sfr .sfr-member-link { position: absolute; top: .8rem; right: .8rem; width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center; background: var(--sfr-bg); border-radius: 50%; color: var(--sfr-gold); }
+
+/* ---------- Testimonials ---------- */
+.sfr-quote { position: relative; height: 100%; margin: 0; padding: 2.4rem 2.2rem 2rem; border: 1px solid var(--sfr-line); border-radius: var(--sfr-r); display: flex; flex-direction: column; text-align: center; }
+.sfr-stars { color: var(--sfr-gold); font-size: .85rem; display: flex; justify-content: center; gap: .2rem; margin-bottom: 1.2rem; }
+.sfr-quote blockquote { font-family: var(--wb-heading-font); font-size: 1.3rem; line-height: 1.5; margin: 0 0 1.8rem; flex: 1; }
+.sfr-quote figcaption { display: flex; flex-direction: column; align-items: center; gap: .6rem; }
+.sfr-quote figcaption img, .sfr-avatar { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex: 0 0 auto; border: 1px solid var(--sfr-gold); }
+.sfr-avatar { display: inline-flex; align-items: center; justify-content: center; background: var(--sfr-card); color: var(--sfr-gold); font-weight: 700; }
+.sfr-quote figcaption strong { display: block; line-height: 1.2; font-weight: 700; font-size: .95rem; }
+.sfr-quote figcaption small { color: var(--sfr-muted); font-size: .82rem; }
+
+/* ---------- Gallery ---------- */
+.sfr-shot { position: relative; margin: 0; overflow: hidden; aspect-ratio: 1; background: var(--sfr-card); border-radius: var(--sfr-r); }
+.sfr-shot img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s ease, filter .4s; filter: brightness(.9); }
+.sfr-shot:hover img { transform: scale(1.06); filter: brightness(1); }
+.sfr-shot figcaption { position: absolute; left: 1rem; bottom: 1rem; font-family: var(--wb-heading-font); font-size: 1.15rem; color: #fff; text-shadow: 0 2px 10px rgba(0, 0, 0, .7); }
+
+/* ---------- FAQ ---------- */
+.sfr-accordion .accordion-item { border: 0; border-bottom: 1px solid var(--sfr-line); background: transparent; color: var(--sfr-ink); border-radius: 0 !important; }
+.sfr-accordion .accordion-button { background: transparent; font-family: var(--wb-heading-font); font-size: 1.3rem; color: var(--sfr-ink); padding: 1.3rem 0; box-shadow: none; }
+.sfr-accordion .accordion-button::after { filter: invert(1) sepia(1) saturate(4) hue-rotate(5deg); }
+.sfr-accordion .accordion-button:not(.collapsed) { color: var(--sfr-gold); }
+.sfr-accordion .accordion-button:focus-visible { outline: 2px solid var(--sfr-gold); }
+.sfr-accordion .accordion-body { padding: 0 0 1.4rem; color: var(--sfr-muted); }
+
+/* ---------- CTA ---------- */
+.sfr-cta-box { position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1.8rem; padding: 5rem 2rem; border: 1px solid var(--sfr-line); border-radius: var(--sfr-r); background-color: var(--sfr-card); background-size: cover; background-position: center; }
+.sfr-cta-box::before { content: ""; position: absolute; inset: 14px; z-index: 1; border: 1px solid color-mix(in srgb, var(--sfr-gold) 45%, transparent); pointer-events: none; }
+.sfr-cta-box::after { content: ""; position: absolute; inset: 0; z-index: 0; background: color-mix(in srgb, var(--sfr-bg) 78%, transparent); pointer-events: none; }
+.sfr-cta-text { max-width: 640px; position: relative; z-index: 2; }
+.sfr-cta-title { font-size: clamp(2rem, 1.4rem + 2vw, 3rem); margin-bottom: .8rem; }
+.sfr-cta-box p { color: var(--sfr-muted); margin: 0; }
+.sfr-cta-box .sfr-actions { position: relative; z-index: 2; justify-content: center; }
+
+/* ---------- Logos (press) ---------- */
+.sfr-logos-title { text-align: center; color: var(--sfr-muted); font-size: .72rem; font-weight: 700; letter-spacing: .26em; text-transform: uppercase; margin-bottom: 2rem; }
+.sfr-logo-row { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem 3.8rem; }
+.sfr-logo-row img { max-height: 40px; width: auto; opacity: .7; transition: opacity .2s; }
+.sfr-logo-row img:hover { opacity: 1; }
+.sfr-logo-row span { font-family: var(--wb-heading-font); font-size: 1.3rem; color: var(--sfr-muted); }
+
+/* ---------- Events ---------- */
+.sfr-event-list { display: grid; gap: 1.4rem; }
+.sfr-event { display: grid; grid-template-columns: 110px minmax(0, 1fr) 260px; gap: 2rem; align-items: center; padding: 1.6rem; border: 1px solid var(--sfr-line); border-radius: var(--sfr-r); background: var(--sfr-card); }
+.sfr-event-date { display: flex; flex-direction: column; align-items: center; padding: 1rem .5rem; border-right: 1px solid var(--sfr-line); }
+.sfr-event-date b { font-family: var(--wb-heading-font); font-weight: 400; font-size: 3rem; line-height: 1; color: var(--sfr-gold); }
+.sfr-event-date span { font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--sfr-muted); margin-top: .3rem; }
+.sfr-event-meta { display: flex; flex-wrap: wrap; gap: .3rem 1.2rem; color: var(--sfr-muted); font-size: .86rem; margin-bottom: .6rem; }
+.sfr-event-meta i { color: var(--sfr-gold); margin-right: .35rem; }
+.sfr-event-body p { color: var(--sfr-muted); font-size: .94rem; margin-bottom: .6rem; }
+.sfr-event-img { aspect-ratio: 4 / 3; overflow: hidden; border-radius: var(--sfr-r); }
+.sfr-event-img img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ---------- Booking & hours ---------- */
+.sfr-booking-img { aspect-ratio: 4 / 3; margin-top: 1rem; }
+.sfr-points { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: 1.2rem; }
+.sfr-points li { display: flex; gap: 1rem; align-items: center; }
+.sfr-points li > span:last-child { display: flex; flex-direction: column; }
+.sfr-points small { color: var(--sfr-muted); font-size: .88rem; }
+.sfr-hours-box { padding: 3.2rem; border: 1px solid var(--sfr-line); border-radius: var(--sfr-r); background: var(--sfr-card); }
+.sfr-hours-highlight { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; padding: 1.2rem 1.4rem; border: 1px solid var(--sfr-gold); border-radius: var(--sfr-r); }
+.sfr-hours-highlight > span:nth-child(2) { display: flex; flex-direction: column; line-height: 1.3; }
+.sfr-hours-highlight small { color: var(--sfr-muted); font-size: .74rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.sfr-hours-highlight strong { font-family: var(--wb-heading-font); font-weight: 400; font-size: 1.35rem; }
+.sfr-pulse { width: 12px; height: 12px; border-radius: 50%; background: #3E9B4F; box-shadow: 0 0 0 0 rgba(62, 155, 79, .6); animation: sfr-pulse 2s infinite; }
+@keyframes sfr-pulse { 70% { box-shadow: 0 0 0 12px rgba(62, 155, 79, 0); } 100% { box-shadow: 0 0 0 0 rgba(62, 155, 79, 0); } }
+.sfr-timetable dl { margin: 0; }
+.sfr-timetable-row { display: flex; justify-content: space-between; gap: 1rem; padding: .9rem 0; border-bottom: 1px dotted rgba(var(--wb-text-rgb, 243, 233, 220), .3); }
+.sfr-timetable-row dt { font-weight: 600; }
+.sfr-timetable-row dd { margin: 0; color: var(--sfr-gold); text-align: right; }
+.sfr-timetable-note { display: flex; gap: .6rem; color: var(--sfr-muted); font-size: .9rem; margin: 1.2rem 0 0; }
+
+/* ---------- Contact & forms ---------- */
+.sfr-contact-list { list-style: none; padding: 0; margin: 0 0 1.6rem; display: grid; gap: 1.2rem; }
+.sfr-contact-list li { display: flex; gap: 1rem; align-items: flex-start; min-width: 0; }
+.sfr-contact-list small { display: block; color: var(--sfr-muted); font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.sfr .sfr-contact-list a, .sfr-contact-list span > span { font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
+.sfr-card.sfr-form-card { padding: 2.6rem; border-radius: var(--sfr-r); background: var(--sfr-card); border: 1px solid var(--sfr-line); }
+.sfr-form .form-label { font-size: .74rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--sfr-muted); }
+.sfr-form .form-control, .sfr-form .form-select { border-radius: 0; border: 0; border-bottom: 1px solid rgba(var(--wb-text-rgb, 243, 233, 220), .3); background-color: transparent; color: var(--sfr-ink); padding: .7rem 0; }
+.sfr-form .form-select { background-position: right .2rem center; padding-right: 1.8rem; }
+.sfr-form .form-select option { background: var(--sfr-bg); color: var(--sfr-ink); }
+.sfr-form .form-control::placeholder { color: rgba(var(--wb-text-rgb, 243, 233, 220), .35); }
+.sfr-form .form-control:focus, .sfr-form .form-select:focus { border-bottom-color: var(--sfr-gold); box-shadow: none; background-color: transparent; color: var(--sfr-ink); }
+.sfr-form input[type="date"] { color-scheme: dark; }
+.sfr-form fieldset { min-width: 0; }
+.sfr-form fieldset[disabled] { opacity: .75; }
+.sfr-form-note { margin: 1rem 0 0; color: var(--sfr-muted); font-size: .88rem; }
+.sfr-form-alert { display: flex; gap: .6rem; align-items: flex-start; padding: .9rem 1.1rem; border-radius: var(--sfr-r); margin-bottom: 1.4rem; font-weight: 600; }
+.sfr-form-alert.is-sent { background: rgba(62, 155, 79, .15); color: #9AD7A5; border: 1px solid rgba(62, 155, 79, .4); }
+.sfr-form-alert.is-error { background: rgba(194, 65, 45, .15); color: #F2A08F; border: 1px solid rgba(194, 65, 45, .5); }
+.sfr .form-select { --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23E0A43A' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e"); }
+.sfr .ratio iframe, .sfr iframe { filter: grayscale(.4) invert(.9) hue-rotate(180deg); }
+
+/* ---------- 404 ---------- */
+.sfr-404-code { display: block; font-family: var(--wb-heading-font); font-size: clamp(6rem, 3rem + 10vw, 11rem); line-height: 1; color: var(--sfr-gold); }
+
+/* ---------- Footer ---------- */
+.sfr-footer { background: #0E0B09; background: color-mix(in srgb, var(--sfr-bg) 70%, #000); color: var(--sfr-muted); font-size: .94rem; padding-top: 4.5rem; border-top: 1px solid var(--sfr-line); }
+.sfr-footer.is-warm { background: #2A1B12; }
+.sfr-footer-top { text-align: center; margin-bottom: 3.5rem; padding-bottom: 3rem; border-bottom: 1px solid var(--sfr-line); }
+.sfr .sfr-brand-footer { color: var(--sfr-ink); margin-bottom: 1rem; }
+.sfr-brand-footer .sfr-brand-name { font-size: 2.4rem; }
+.sfr-footer-about { max-width: 520px; margin: 0 auto; }
+.sfr-footer-title { font-family: var(--wb-body-font) !important; font-size: .72rem; font-weight: 700 !important; letter-spacing: .24em !important; text-transform: uppercase; color: var(--sfr-gold); margin-bottom: 1.2rem; }
+.sfr-footer-links, .sfr-footer-contact, .sfr-footer-hours { list-style: none; padding: 0; margin: 0; display: grid; gap: .55rem; }
+.sfr-footer-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.sfr .sfr-footer a { color: var(--sfr-ink); text-decoration: none; }
+.sfr .sfr-footer a:hover { color: var(--sfr-gold); }
+.sfr-footer-contact li { display: flex; gap: .7rem; min-width: 0; }
+.sfr-footer-contact a, .sfr-footer-contact span { overflow-wrap: anywhere; }
+.sfr-footer-contact i { color: var(--sfr-gold); margin-top: .15rem; }
+.sfr-footer-social { display: flex; gap: .5rem; margin-top: 1.4rem; }
+.sfr .sfr-footer-social a { width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--sfr-line); border-radius: 50%; }
+.sfr .sfr-footer-social a:hover { border-color: var(--sfr-gold); }
+.sfr-footer-bottom { display: flex; justify-content: center; margin-top: 3.5rem; padding: 1.4rem 0; border-top: 1px solid var(--sfr-line); font-size: .82rem; text-align: center; }
+
+/* ---------- Reveal on scroll ---------- */
+.sfr-reveal { opacity: 0; transform: translateY(16px); transition: opacity .7s ease, transform .7s ease; }
+.sfr-reveal.is-visible { opacity: 1; transform: none; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1199.98px) {
+  .sfr-header-phone span { display: none; }
+}
+@media (max-width: 991.98px) {
+  .sfr .wb-section { padding: 4.2rem 0; }
+  .sfr-header-overlay main > .wb-section:first-child { padding-top: 8rem; }
+  .sfr .sfr-banner { padding: 8rem 0 3.5rem; }
+  .sfr-header .navbar-collapse { padding: 1rem 0 .5rem; }
+  .sfr-header-end { padding-top: .8rem; border-top: 1px solid var(--sfr-line); margin-top: .5rem; }
+  .sfr-header-phone span { display: inline; }
+  .sfr .sfr-hero { min-height: 0; }
+  .sfr-hero::before { background: linear-gradient(180deg, color-mix(in srgb, var(--sfr-bg) 70%, transparent) 0%, color-mix(in srgb, var(--sfr-bg) 92%, transparent) 70%); }
+  .sfr-hero > .container { padding-top: 8rem; padding-bottom: 4rem; }
+  .sfr-dishes { grid-template-columns: minmax(0, 1fr); gap: 1.8rem; }
+  .sfr-usp { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 0; }
+  .sfr-usp-item:nth-child(odd) { border-left: 0; }
+  .sfr-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sfr-event { grid-template-columns: 90px minmax(0, 1fr); }
+  .sfr-event-img { display: none; }
+  .sfr-about-media { margin: 0 auto; }
+  .sfr-stats .col-6:nth-child(odd) .sfr-stat { border-left: 0 !important; }
+}
+@media (max-width: 575.98px) {
+  .sfr-brand-name { font-size: 1.35rem; }
+  .sfr-hero-title { font-size: 3rem; }
+  .sfr-hero-points { gap: .6rem 1.6rem; margin-top: 2.4rem; }
+  .sfr-menu-wrap.is-tabbed .sfr-menu-tabs { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; gap: 1.4rem; scrollbar-width: none; }
+  .sfr-menu-tabs button { white-space: nowrap; font-size: 1.15rem; }
+  .sfr-dish-img { width: 64px; height: 64px; }
+  .sfr-dish-name { font-size: 1.12rem; }
+  .sfr-dish-line { flex-wrap: wrap; }
+  .sfr-dish-dots { display: none; }
+  .sfr-dish-price { width: 100%; font-size: 1.05rem; }
+  .sfr-usp, .sfr-steps { grid-template-columns: minmax(0, 1fr); }
+  .sfr-usp-item { border-left: 0 !important; }
+  .sfr-ticks { grid-template-columns: minmax(0, 1fr); }
+  .sfr-event { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .sfr-event-date { flex-direction: row; gap: .8rem; border-right: 0; border-bottom: 1px solid var(--sfr-line); justify-content: flex-start; padding: 0 0 .8rem; }
+  .sfr-hours-box, .sfr-card.sfr-form-card { padding: 1.6rem; }
+  .sfr-cta-box { padding: 3.4rem 1.4rem; }
+  .sfr-about-badge { left: 0; width: 120px; height: 120px; }
+  .sfr-about-badge strong { font-size: 2rem; }
+  .sfr-about-small { left: 0; }
+  .sfr-footer-links { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sfr-reveal { opacity: 1; transform: none; transition: none; }
+  .sfr-pulse { animation: none; }
+  html { scroll-behavior: auto; }
+}

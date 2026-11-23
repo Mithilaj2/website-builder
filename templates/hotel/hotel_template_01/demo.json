@@ -1,0 +1,1070 @@
+{
+ "settings": {
+  "site": {
+   "name": "The Lakeview Haveli",
+   "tagline": "Heritage hotel · Udaipur",
+   "phone": "+91 294 243 0500",
+   "email": "stay@lakeviewhaveli.example",
+   "address": "Lal Ghat, near Gangaur Ghat\nUdaipur, Rajasthan 313001",
+   "hours": "Reservations: 8 am – 10 pm, every day",
+   "footer_about": "A family-run heritage hotel in a restored 1884 haveli on the shores of Lake Pichola, Udaipur.",
+   "footer_text": "All rights reserved.",
+   "header_button": {
+    "text": "Book your stay",
+    "url": "page:listings"
+   },
+   "social": {
+    "instagram": "https://www.instagram.com/",
+    "facebook": "https://www.facebook.com/"
+   }
+  },
+  "seo": {
+   "description": "The Lakeview Haveli, Udaipur: heritage hotel on Lake Pichola with lake-view rooms, suites and pool villas, spa, rooftop dining and lakeside weddings. Best rates when you book direct.",
+   "keywords": "heritage hotel Udaipur, lake view hotel Udaipur, Lake Pichola hotel, wedding venue Udaipur, boutique hotel Rajasthan"
+  }
+ },
+ "listings": {
+  "categories": [
+   {
+    "name": "Heritage rooms",
+    "slug": "rooms",
+    "description": "Heritage rooms in the original haveli.",
+    "image": "theme:images/room-lake-view.svg"
+   },
+   {
+    "name": "Suites",
+    "slug": "suites",
+    "description": "Spacious suites with separate living areas.",
+    "image": "theme:images/suite-royal.svg"
+   },
+   {
+    "name": "Villas",
+    "slug": "villas",
+    "description": "Private garden villas with plunge pools.",
+    "image": "theme:images/villa-pool.svg"
+   }
+  ],
+  "items": [
+   {
+    "title": "Lake View Room",
+    "slug": "lake-view-room",
+    "category": "rooms",
+    "location": "Lake wing",
+    "price": 1350000,
+    "price_note": "per night, with breakfast",
+    "image": "theme:images/room-lake-view.svg",
+    "gallery": [
+     "theme:images/suite-living.svg",
+     "theme:images/pool-infinity.svg",
+     "theme:images/courtyard.svg"
+    ],
+    "attributes": {
+     "guests": 2,
+     "bed": "King bed",
+     "size": 380,
+     "view": "Lake view",
+     "breakfast": true,
+     "bathroom": "Rain shower",
+     "amenities": [
+      "Air conditioning",
+      "Free high-speed Wi-Fi",
+      "43\" smart TV",
+      "Tea and coffee tray",
+      "In-room safe",
+      "Organic bath amenities",
+      "Daily housekeeping",
+      "Jharokha window seat facing the lake"
+     ],
+     "policies": [
+      "Check-in from 2 pm, check-out by 11 am",
+      "Children under 6 stay free using existing beds",
+      "Extra bed ₹2,500 per night including breakfast",
+      "Free cancellation up to 7 days before arrival"
+     ]
+    },
+    "short_description": "Wake up to the lake through a carved arched window: a calm, light-filled room in the original haveli.",
+    "description": "<p>Our most requested room sits in the lake wing of the 1880s haveli. A carved <em>jharokha</em> window seat looks over the water and the palace beyond, and the room is furnished with block-printed textiles and handcrafted furniture.</p><p>Breakfast is served on the lakeside terrace or in your room.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "Most loved"
+   },
+   {
+    "title": "Haveli Deluxe Room",
+    "slug": "haveli-deluxe-room",
+    "category": "rooms",
+    "location": "Garden wing",
+    "price": 950000,
+    "price_note": "per night, with breakfast",
+    "image": "theme:images/room-deluxe.svg",
+    "gallery": [
+     "theme:images/courtyard.svg",
+     "theme:images/spa.svg"
+    ],
+    "attributes": {
+     "guests": 2,
+     "bed": "King bed",
+     "size": 320,
+     "view": "Garden view",
+     "breakfast": true,
+     "bathroom": "Walk-in shower",
+     "amenities": [
+      "Air conditioning",
+      "Free high-speed Wi-Fi",
+      "43\" smart TV",
+      "Tea and coffee tray",
+      "In-room safe",
+      "Organic bath amenities",
+      "Daily housekeeping"
+     ],
+     "policies": [
+      "Check-in from 2 pm, check-out by 11 am",
+      "Children under 6 stay free using existing beds",
+      "Extra bed ₹2,500 per night including breakfast",
+      "Free cancellation up to 7 days before arrival"
+     ]
+    },
+    "short_description": "A restful garden-facing room with hand-painted walls and a private sit-out among bougainvillea.",
+    "description": "<p>Set around the garden courtyard, our deluxe rooms have hand-painted floral walls, lime-plaster finishes and a private sit-out. Ideal for couples and short city breaks.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Courtyard Twin Room",
+    "slug": "courtyard-twin-room",
+    "category": "rooms",
+    "location": "Garden wing",
+    "price": 880000,
+    "price_note": "per night, with breakfast",
+    "image": "theme:images/room-twin.svg",
+    "gallery": [
+     "theme:images/courtyard.svg"
+    ],
+    "attributes": {
+     "guests": 2,
+     "bed": "Twin beds",
+     "size": 300,
+     "view": "Courtyard view",
+     "breakfast": true,
+     "bathroom": "Walk-in shower",
+     "amenities": [
+      "Air conditioning",
+      "Free high-speed Wi-Fi",
+      "43\" smart TV",
+      "Tea and coffee tray",
+      "In-room safe",
+      "Organic bath amenities",
+      "Daily housekeeping"
+     ],
+     "policies": [
+      "Check-in from 2 pm, check-out by 11 am",
+      "Children under 6 stay free using existing beds",
+      "Extra bed ₹2,500 per night including breakfast",
+      "Free cancellation up to 7 days before arrival"
+     ]
+    },
+    "short_description": "Two single beds and a view of the fountain courtyard — perfect for friends travelling together.",
+    "description": "<p>Overlooking the central courtyard and its lotus fountain, with two comfortable single beds and a writing desk.</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "Heritage Suite",
+    "slug": "heritage-suite",
+    "category": "suites",
+    "location": "Lake wing",
+    "price": 2100000,
+    "price_note": "per night, with breakfast",
+    "image": "theme:images/suite-heritage.svg",
+    "gallery": [
+     "theme:images/suite-living.svg",
+     "theme:images/room-lake-view.svg"
+    ],
+    "attributes": {
+     "guests": 3,
+     "bed": "King bed + sofa bed",
+     "size": 620,
+     "view": "Lake view",
+     "breakfast": true,
+     "bathroom": "Bathtub and rain shower",
+     "amenities": [
+      "Air conditioning",
+      "Free high-speed Wi-Fi",
+      "43\" smart TV",
+      "Tea and coffee tray",
+      "In-room safe",
+      "Organic bath amenities",
+      "Daily housekeeping",
+      "Separate sitting room",
+      "Mini bar",
+      "Bathrobes and slippers",
+      "Evening turn-down with sweets"
+     ],
+     "policies": [
+      "Check-in from 2 pm, check-out by 11 am",
+      "Children under 6 stay free using existing beds",
+      "Extra bed ₹2,500 per night including breakfast",
+      "Free cancellation up to 7 days before arrival"
+     ]
+    },
+    "short_description": "A suite of two rooms with antique furniture, a separate sitting room and wide views of the lake.",
+    "description": "<p>Once the private chambers of the haveli’s owners, the Heritage Suites combine original frescoes and antique furniture with a modern bathroom and a sitting room that opens to the lake.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Maharaja Lake Suite",
+    "slug": "maharaja-lake-suite",
+    "category": "suites",
+    "location": "Palace wing",
+    "price": 3800000,
+    "price_note": "per night, with breakfast",
+    "image": "theme:images/suite-royal.svg",
+    "gallery": [
+     "theme:images/suite-living.svg",
+     "theme:images/rooftop-dining.svg",
+     "theme:images/lake-cruise.svg"
+    ],
+    "attributes": {
+     "guests": 4,
+     "bed": "Two king beds",
+     "size": 1100,
+     "view": "Lake view",
+     "breakfast": true,
+     "bathroom": "Marble bathtub, rain shower, steam room",
+     "amenities": [
+      "Air conditioning",
+      "Free high-speed Wi-Fi",
+      "43\" smart TV",
+      "Tea and coffee tray",
+      "In-room safe",
+      "Organic bath amenities",
+      "Daily housekeeping",
+      "Private terrace with lake views",
+      "Butler service",
+      "Complimentary sunset boat ride",
+      "Airport transfers"
+     ],
+     "policies": [
+      "Check-in from 2 pm, check-out by 11 am",
+      "Children under 6 stay free using existing beds",
+      "Extra bed ₹2,500 per night including breakfast",
+      "Free cancellation up to 7 days before arrival"
+     ]
+    },
+    "short_description": "Our grandest suite: a private terrace over the lake, a butler and a sunset boat ride included.",
+    "description": "<p>The Maharaja Suite occupies the top floor of the palace wing, with two bedrooms, a living room with a silver-leaf ceiling and a private terrace for dinners under the stars.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "Signature"
+   },
+   {
+    "title": "Private Pool Villa",
+    "slug": "private-pool-villa",
+    "category": "villas",
+    "location": "Garden villas",
+    "price": 2900000,
+    "price_note": "per night, with breakfast",
+    "image": "theme:images/villa-pool.svg",
+    "gallery": [
+     "theme:images/pool-infinity.svg",
+     "theme:images/spa.svg"
+    ],
+    "attributes": {
+     "guests": 3,
+     "bed": "King bed",
+     "size": 900,
+     "view": "Pool view",
+     "breakfast": true,
+     "bathroom": "Outdoor shower and bathtub",
+     "amenities": [
+      "Air conditioning",
+      "Free high-speed Wi-Fi",
+      "43\" smart TV",
+      "Tea and coffee tray",
+      "In-room safe",
+      "Organic bath amenities",
+      "Daily housekeeping",
+      "Private plunge pool",
+      "Garden with day beds",
+      "Espresso machine"
+     ],
+     "policies": [
+      "Check-in from 2 pm, check-out by 11 am",
+      "Children under 6 stay free using existing beds",
+      "Extra bed ₹2,500 per night including breakfast",
+      "Free cancellation up to 7 days before arrival"
+     ]
+    },
+    "short_description": "A secluded villa in the garden with its own plunge pool, outdoor shower and day beds.",
+    "description": "<p>Six villas sit among mango trees at the edge of our gardens, each with a private plunge pool and a walled garden.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Family Suite",
+    "slug": "family-suite",
+    "category": "suites",
+    "location": "Garden wing",
+    "price": 1850000,
+    "price_note": "per night, with breakfast",
+    "image": "theme:images/room-twin.svg",
+    "gallery": [
+     "theme:images/room-deluxe.svg",
+     "theme:images/courtyard.svg"
+    ],
+    "attributes": {
+     "guests": 4,
+     "bed": "King bed + sofa bed",
+     "size": 700,
+     "view": "Garden view",
+     "breakfast": true,
+     "bathroom": "Two bathrooms",
+     "amenities": [
+      "Air conditioning",
+      "Free high-speed Wi-Fi",
+      "43\" smart TV",
+      "Tea and coffee tray",
+      "In-room safe",
+      "Organic bath amenities",
+      "Daily housekeeping",
+      "Interconnected rooms",
+      "Board games and children’s books"
+     ],
+     "policies": [
+      "Check-in from 2 pm, check-out by 11 am",
+      "Children under 6 stay free using existing beds",
+      "Extra bed ₹2,500 per night including breakfast",
+      "Free cancellation up to 7 days before arrival"
+     ]
+    },
+    "short_description": "Two connected rooms for families, opening onto the garden lawn.",
+    "description": "<p>Room for everyone: a king room and a twin room connected by a shared lobby, with two bathrooms.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Jharokha Room",
+    "slug": "jharokha-room",
+    "category": "rooms",
+    "location": "Lake wing",
+    "price": 1100000,
+    "price_note": "per night, with breakfast",
+    "image": "theme:images/room-lake-view.svg",
+    "gallery": [],
+    "attributes": {
+     "guests": 2,
+     "bed": "Queen bed",
+     "size": 280,
+     "view": "Lake view",
+     "breakfast": true,
+     "amenities": [
+      "Air conditioning",
+      "Free high-speed Wi-Fi",
+      "43\" smart TV",
+      "Tea and coffee tray",
+      "In-room safe",
+      "Organic bath amenities",
+      "Daily housekeeping"
+     ],
+     "policies": [
+      "Check-in from 2 pm, check-out by 11 am",
+      "Children under 6 stay free using existing beds",
+      "Extra bed ₹2,500 per night including breakfast",
+      "Free cancellation up to 7 days before arrival"
+     ]
+    },
+    "short_description": "A cosy room with a lake-facing jharokha window.",
+    "description": "<p>Fully booked for the season — ask us about the Lake View Room instead.</p>",
+    "featured": false,
+    "status": "closed"
+   }
+  ]
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "Heritage hotel · Udaipur",
+      "heading": "A palace of quiet on Lake Pichola",
+      "subheading": "Thirty-two rooms, suites and pool villas in a restored 1884 haveli, a boat ride from the City Palace.",
+      "image": "",
+      "background_image": "theme:images/hero-lake-palace.svg",
+      "primary_button": {
+       "text": "See rooms & rates",
+       "url": "page:listings"
+      },
+      "secondary_button": {
+       "text": "Contact us",
+       "url": "page:contact"
+      },
+      "highlights": [
+       {
+        "icon": "bi-patch-check",
+        "text": "Best rate when you book direct"
+       },
+       {
+        "icon": "bi-cup-hot",
+        "text": "Breakfast included"
+       },
+       {
+        "icon": "bi-airplane",
+        "text": "Airport transfers on request"
+       }
+      ]
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Welcome",
+      "heading": "A 19th-century haveli on the shore of Lake Pichola",
+      "description": "<p>Built in 1884 as the lakeside home of a family of royal jewellers, the haveli has been lovingly restored by their descendants. Its arched corridors, frescoed walls and courtyards now welcome travellers from around the world.</p><p>We have 32 rooms, suites and villas, a spa, a rooftop restaurant and three acres of gardens — all a short boat ride from the City Palace.</p>",
+      "image": "theme:images/about-gate.svg",
+      "image_2": "",
+      "experience_number": "1884",
+      "experience_label": "Our story begins",
+      "points": [
+       {
+        "text": "Restored heritage haveli"
+       },
+       {
+        "text": "Lakeside infinity pool"
+       },
+       {
+        "text": "Ayurvedic spa"
+       },
+       {
+        "text": "Airport transfers on request"
+       }
+      ],
+      "button": {
+       "text": "Our story",
+       "url": "page:about"
+      }
+     }
+    },
+    {
+     "type": "listings",
+     "data": {
+      "eyebrow": "Stay",
+      "heading": "Rooms, suites & villas",
+      "description": "Every room is different — chosen and furnished by the family.",
+      "source": "featured",
+      "category": "",
+      "limit": 6,
+      "button": {
+       "text": "All rooms & rates",
+       "url": "page:listings"
+      }
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "Experiences",
+      "heading": "Slow days by the lake",
+      "description": "Our team will plan every day of your stay — or leave you entirely in peace.",
+      "columns": "3",
+      "items": [
+       {
+        "icon": "bi-flower3",
+        "image": "theme:images/spa.svg",
+        "title": "Ayurvedic spa",
+        "description": "Traditional therapies in four treatment rooms set around a quiet courtyard.",
+        "link": {
+         "text": "Discover",
+         "url": "page:experiences"
+        }
+       },
+       {
+        "icon": "bi-cup-hot",
+        "image": "theme:images/rooftop-dining.svg",
+        "title": "Rooftop dining",
+        "description": "Rajasthani thalis and candle-lit dinners with the palace lit up across the water.",
+        "link": {
+         "text": "Discover",
+         "url": "page:experiences"
+        }
+       },
+       {
+        "icon": "bi-water",
+        "image": "theme:images/lake-cruise.svg",
+        "title": "Sunset lake cruise",
+        "description": "A private boat to the island palaces, with tea and snacks on board.",
+        "link": {
+         "text": "Discover",
+         "url": "page:experiences"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "140",
+        "suffix": "",
+        "label": "Years of history",
+        "icon": ""
+       },
+       {
+        "number": "32",
+        "suffix": "",
+        "label": "Rooms & suites",
+        "icon": ""
+       },
+       {
+        "number": "9.4",
+        "suffix": "",
+        "label": "Guest score",
+        "icon": ""
+       },
+       {
+        "number": "3",
+        "suffix": "",
+        "label": "Acres of gardens",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "gallery",
+     "data": {
+      "eyebrow": "Gallery",
+      "heading": "A look around",
+      "description": "",
+      "columns": "4",
+      "images": [
+       {
+        "image": "theme:images/courtyard.svg",
+        "caption": "The fountain courtyard"
+       },
+       {
+        "image": "theme:images/pool-infinity.svg",
+        "caption": "Infinity pool"
+       },
+       {
+        "image": "theme:images/rooftop-dining.svg",
+        "caption": "Rooftop dining"
+       },
+       {
+        "image": "theme:images/yoga-terrace.svg",
+        "caption": "Yoga terrace"
+       }
+      ]
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Guest letters",
+      "heading": "Kind words from our guests",
+      "description": "",
+      "items": [
+       {
+        "quote": "The most beautiful view we have ever woken up to. The staff remembered every little thing about us by the second day.",
+        "name": "Anita & Vikram Rao",
+        "role": "Stayed in the Lake View Room",
+        "photo": "theme:images/guest-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "A true heritage experience without giving up any comfort. The sunset cruise and the rooftop dinner were magical.",
+        "name": "James Carter",
+        "role": "Stayed in the Heritage Suite",
+        "photo": "theme:images/guest-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "We hosted our daughter’s wedding here. Three days, 220 guests and not a single worry. Thank you to the whole team.",
+        "name": "Meenakshi Agarwal",
+        "role": "Wedding host",
+        "photo": "theme:images/guest-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "Awards & recognition",
+      "items": [
+       {
+        "image": "theme:images/award-1.svg",
+        "name": "Heritage Hotel Award 2025",
+        "url": ""
+       },
+       {
+        "image": "theme:images/award-2.svg",
+        "name": "Guest score 9.4",
+        "url": ""
+       },
+       {
+        "image": "theme:images/award-3.svg",
+        "name": "Best Spa in Rajasthan",
+        "url": ""
+       },
+       {
+        "image": "theme:images/award-4.svg",
+        "name": "Green Leaf certified",
+        "url": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Your room by the lake is waiting",
+      "description": "Book directly with us for the best rate, a welcome drink and late check-out when available.",
+      "background_image": "theme:images/hero-lake-palace.svg",
+      "button": {
+       "text": "See rooms & rates",
+       "url": "page:listings"
+      },
+      "secondary_button": {
+       "text": "Call reservations",
+       "url": "tel:+912942430500"
+      }
+     }
+    }
+   ]
+  },
+  "about": {
+   "seo_title": "Our story",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Our story",
+      "subheading": "Five generations, one haveli, and a lake that changes colour every hour.",
+      "background_image": "theme:images/banner-arches.svg"
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Welcome",
+      "heading": "A 19th-century haveli on the shore of Lake Pichola",
+      "description": "<p>Built in 1884 as the lakeside home of a family of royal jewellers, the haveli has been lovingly restored by their descendants. Its arched corridors, frescoed walls and courtyards now welcome travellers from around the world.</p><p>We have 32 rooms, suites and villas, a spa, a rooftop restaurant and three acres of gardens — all a short boat ride from the City Palace.</p>",
+      "image": "theme:images/about-gate.svg",
+      "image_2": "",
+      "experience_number": "1884",
+      "experience_label": "Our story begins",
+      "points": [
+       {
+        "text": "Restored heritage haveli"
+       },
+       {
+        "text": "Lakeside infinity pool"
+       },
+       {
+        "text": "Ayurvedic spa"
+       },
+       {
+        "text": "Airport transfers on request"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "features",
+     "data": {
+      "eyebrow": "Why stay with us",
+      "heading": "The little things we care about",
+      "description": "",
+      "image": "",
+      "items": [
+       {
+        "icon": "bi-house-heart",
+        "title": "Family-run",
+        "description": "The family lives on site and hosts every guest personally."
+       },
+       {
+        "icon": "bi-tree",
+        "title": "Sustainable",
+        "description": "Solar hot water, rainwater harvesting and no single-use plastic."
+       },
+       {
+        "icon": "bi-basket",
+        "title": "Local food",
+        "description": "Vegetables from our kitchen garden and village farms."
+       },
+       {
+        "icon": "bi-palette",
+        "title": "Living crafts",
+        "description": "Frescoes restored by local artists; textiles from Sanganer."
+       }
+      ]
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "Your hosts",
+      "heading": "The people who will look after you",
+      "description": "",
+      "members": [
+       {
+        "photo": "theme:images/staff-1.svg",
+        "name": "Raghav Singh Ranawat",
+        "role": "Owner & host",
+        "bio": "The fifth generation of the family to live in the haveli; ask him for the stories behind the frescoes.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/staff-2.svg",
+        "name": "Devika Sharma",
+        "role": "Guest relations",
+        "bio": "Plans your days in Udaipur, from hidden step-wells to the best kachori in the old city.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/staff-3.svg",
+        "name": "Govind Lal",
+        "role": "Head butler",
+        "bio": "Has welcomed guests to the haveli for over thirty years.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "Awards & recognition",
+      "items": [
+       {
+        "image": "theme:images/award-1.svg",
+        "name": "Heritage Hotel Award 2025",
+        "url": ""
+       },
+       {
+        "image": "theme:images/award-2.svg",
+        "name": "Guest score 9.4",
+        "url": ""
+       },
+       {
+        "image": "theme:images/award-3.svg",
+        "name": "Best Spa in Rajasthan",
+        "url": ""
+       },
+       {
+        "image": "theme:images/award-4.svg",
+        "name": "Green Leaf certified",
+        "url": ""
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "experiences": {
+   "seo_title": "Experiences",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Experiences",
+      "subheading": "Spa, dining, sunset cruises and sunrise yoga.",
+      "background_image": "theme:images/banner-arches.svg"
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "Experiences",
+      "heading": "Something for every kind of day",
+      "description": "Our team will plan every day of your stay — or leave you entirely in peace.",
+      "columns": "3",
+      "items": [
+       {
+        "icon": "bi-flower3",
+        "image": "theme:images/spa.svg",
+        "title": "Ayurvedic spa",
+        "description": "Traditional therapies in four treatment rooms set around a quiet courtyard.",
+        "link": {
+         "text": "Discover",
+         "url": "page:experiences"
+        }
+       },
+       {
+        "icon": "bi-cup-hot",
+        "image": "theme:images/rooftop-dining.svg",
+        "title": "Rooftop dining",
+        "description": "Rajasthani thalis and candle-lit dinners with the palace lit up across the water.",
+        "link": {
+         "text": "Discover",
+         "url": "page:experiences"
+        }
+       },
+       {
+        "icon": "bi-water",
+        "image": "theme:images/lake-cruise.svg",
+        "title": "Sunset lake cruise",
+        "description": "A private boat to the island palaces, with tea and snacks on board.",
+        "link": {
+         "text": "Discover",
+         "url": "page:experiences"
+        }
+       },
+       {
+        "icon": "bi-sun",
+        "image": "theme:images/yoga-terrace.svg",
+        "title": "Sunrise yoga",
+        "description": "Daily guided yoga on the lake terrace, complimentary for guests.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-water",
+        "image": "theme:images/pool-infinity.svg",
+        "title": "Infinity pool",
+        "description": "A heated pool that seems to spill into the lake. Open 7 am to 8 pm.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-heart",
+        "image": "theme:images/wedding-lawn.svg",
+        "title": "Weddings & celebrations",
+        "description": "Lakeside lawns and courtyards for 50 to 400 guests.",
+        "link": {
+         "text": "Plan an event",
+         "url": "page:weddings"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "gallery",
+     "data": {
+      "eyebrow": "Gallery",
+      "heading": "Moments from the haveli",
+      "description": "",
+      "columns": "4",
+      "images": [
+       {
+        "image": "theme:images/courtyard.svg",
+        "caption": "The fountain courtyard"
+       },
+       {
+        "image": "theme:images/pool-infinity.svg",
+        "caption": "Infinity pool"
+       },
+       {
+        "image": "theme:images/rooftop-dining.svg",
+        "caption": "Rooftop dining"
+       },
+       {
+        "image": "theme:images/yoga-terrace.svg",
+        "caption": "Yoga terrace"
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Your room by the lake is waiting",
+      "description": "Book directly with us for the best rate, a welcome drink and late check-out when available.",
+      "background_image": "theme:images/hero-lake-palace.svg",
+      "button": {
+       "text": "See rooms & rates",
+       "url": "page:listings"
+      },
+      "secondary_button": {
+       "text": "Call reservations",
+       "url": "tel:+912942430500"
+      }
+     }
+    }
+   ]
+  },
+  "weddings": {
+   "seo_title": "Weddings & events",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Weddings & events",
+      "subheading": "Celebrations by the lake for 50 to 400 guests.",
+      "background_image": "theme:images/banner-arches.svg"
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "Celebrations",
+      "heading": "Say “I do” by the lake",
+      "description": "<p>From an intimate engagement dinner in the courtyard to a three-day wedding with the whole haveli to yourselves, our events team takes care of décor, catering, music and guest stays.</p>",
+      "image": "theme:images/wedding-lawn.svg",
+      "image_2": "",
+      "experience_number": "400",
+      "experience_label": "Guests on the lawn",
+      "points": [
+       {
+        "text": "Lakeside lawn"
+       },
+       {
+        "text": "Fountain courtyard"
+       },
+       {
+        "text": "Rooftop terrace"
+       },
+       {
+        "text": "In-house décor team"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "booking_form",
+     "data": {
+      "eyebrow": "Celebrate with us",
+      "heading": "Plan your wedding or event",
+      "description": "Tell us about your celebration and our events team will send you venue options and packages.",
+      "form_type": "enquiry",
+      "form_heading": "Event enquiry",
+      "select1_label": "Event type",
+      "select1_options": "Wedding\nEngagement or sangeet\nBirthday or anniversary\nCorporate offsite",
+      "select2_label": "Guests",
+      "select2_options": "Up to 50\n50–150\n150–300\n300–400",
+      "date_label": "Preferred date",
+      "message_label": "Tell us more (optional)",
+      "email_required": true,
+      "button_text": "Send enquiry",
+      "success_message": "Thank you! Our events team will be in touch within one working day.",
+      "image": "theme:images/wedding-lawn.svg",
+      "points": [
+       {
+        "icon": "bi-people",
+        "title": "Up to 400 guests",
+        "text": "Lakeside lawn, courtyard and rooftop venues"
+       },
+       {
+        "icon": "bi-door-open",
+        "title": "Exclusive use",
+        "text": "Book all 32 rooms for your guests"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "contact": {
+   "seo_title": "Contact",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Contact & directions",
+      "subheading": "We are a 30-minute drive from Udaipur airport.",
+      "background_image": "theme:images/banner-arches.svg"
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Reservations",
+      "heading": "We would love to host you",
+      "description": "Write to us or call our reservations team. We usually reply within two hours.",
+      "form_heading": "Send us a message",
+      "show_form": true,
+      "show_details": true,
+      "map_url": "https://maps.google.com/?q=Lake+Pichola+Udaipur"
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "Good to know",
+      "heading": "Before you arrive",
+      "description": "",
+      "items": [
+       {
+        "question": "What are the check-in and check-out times?",
+        "answer": "Check-in is from 2 pm and check-out by 11 am. Early check-in and late check-out are free when rooms are available."
+       },
+       {
+        "question": "Do you arrange airport transfers?",
+        "answer": "Yes. A car from Udaipur airport costs ₹1,800 each way; from the railway station ₹900."
+       },
+       {
+        "question": "Is the hotel suitable for children?",
+        "answer": "Yes — children under 6 stay free, and our Family Suite has two connected rooms."
+       },
+       {
+        "question": "Can I pay a deposit online?",
+        "answer": "Yes. After we confirm availability, we send a secure payment link for a 30% deposit."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": "",
+      "background_image": "theme:images/banner-arches.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>We use the details you give us — name, contact details, travel dates and preferences — only to answer your enquiry and manage your stay. As required by law, we record identity documents of guests at check-in. We never sell your information.</p>"
+     }
+    }
+   ]
+  },
+  "booking-policy": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Booking & Cancellation Policy",
+      "subheading": "",
+      "background_image": "theme:images/banner-arches.svg"
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<ul><li>A 30% deposit confirms your booking; the balance is paid at check-out.</li><li>Free cancellation up to 7 days before arrival.</li><li>Cancellations within 7 days, or no-shows, are charged one night.</li><li>For 15 October to 15 January, cancellations within 21 days are charged 50% of the stay.</li></ul><p>Rates are per room per night, include breakfast and exclude GST unless stated.</p>"
+     }
+    }
+   ]
+  }
+ }
+}
