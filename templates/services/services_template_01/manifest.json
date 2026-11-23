@@ -1,0 +1,65 @@
+{
+  "id": "services_template_01",
+  "name": "Ledgerline Advisors",
+  "category": "services",
+  "version": "1.0.0",
+  "description": "A clear, trustworthy design for professional services — chartered accountants, tax consultants, legal and business advisors, agencies: deep navy with emerald accents on white, Poppins headings and friendly flat illustrations. Includes a service catalogue with fees, turnaround and documents needed, a call-back request on every service page, packages and pricing, a free-consultation booking form, process, partners and client logos.",
+  "libraries": ["bootstrap", "bootstrap-icons"],
+  "features": ["contact"],
+  "optional_features": ["payments"],
+  "theme": {
+    "defaults": {
+      "primary": "#0F2742", "secondary": "#12A26C", "bg": "#FFFFFF", "text": "#1B2B3A",
+      "heading_font": "poppins", "body_font": "open-sans", "radius": "14px",
+      "button_style": "rounded", "header_style": "topbar", "footer_style": "dark"
+    },
+    "header_styles": { "topbar": "With contact bar", "minimal": "Minimal, no bar" },
+    "footer_styles": { "dark": "Navy", "light": "Light" }
+  },
+  "listings": {
+    "path": "services",
+    "singular": "Service",
+    "plural": "Services",
+    "icon": "bi-briefcase",
+    "category_label": "For",
+    "location_label": "Ideal for",
+    "location_filter": false,
+    "price_label": "Fees from",
+    "price_format": "inr",
+    "price_notes": ["one-time", "per month", "per year", "per return", "onwards"],
+    "closed_label": "Not available",
+    "attributes": [
+      { "key": "turnaround", "label": "Turnaround", "type": "text", "card": true, "icon": "bi-clock", "help": "e.g. 3–5 working days" },
+      { "key": "mode", "label": "How we work", "type": "select", "options": ["Online", "In-office", "Online or in-office"], "card": true, "icon": "bi-laptop" },
+      { "key": "frequency", "label": "Billing", "type": "select", "options": ["One-time", "Monthly", "Quarterly", "Yearly"], "filter": true, "icon": "bi-arrow-repeat" },
+      { "key": "included", "label": "What’s included", "type": "list", "icon": "bi-check-circle" },
+      { "key": "documents", "label": "Documents you’ll need", "type": "list", "icon": "bi-file-earmark-text" }
+    ],
+    "enquiry": {
+      "heading": "Get a free consultation",
+      "button": "Request a call back",
+      "select_label": "You are",
+      "select_options": ["An individual", "A startup", "A small business or shop", "A company or LLP"],
+      "message_label": "What do you need help with?",
+      "success": "Thank you! One of our chartered accountants will call you within one working day."
+    }
+  },
+  "section_types": ["hero", "page_banner", "about", "services", "features", "stats", "testimonials", "gallery", "team", "faq", "cta", "contact", "logos", "rich_text", "process", "pricing", "booking_form", "listings", "listing_categories"],
+  "page_types": {
+    "home": { "default_sections": ["hero", "logos", "listing_categories", "listings", "features", "process", "stats", "testimonials", "booking_form", "cta"] },
+    "about": { "default_sections": ["page_banner", "about", "stats", "team", "logos"] },
+    "pricing": { "default_sections": ["page_banner", "pricing", "faq", "cta"] },
+    "contact": { "default_sections": ["page_banner", "contact", "booking_form"] },
+    "legal": { "default_sections": ["page_banner", "rich_text"] },
+    "generic": { "default_sections": ["page_banner", "rich_text", "cta"] }
+  },
+  "default_pages": [
+    { "title": "Home", "slug": "", "type": "home", "is_home": true },
+    { "title": "About Us", "slug": "about", "type": "about" },
+    { "title": "Pricing", "slug": "pricing", "type": "pricing" },
+    { "title": "Contact", "slug": "contact", "type": "contact" },
+    { "title": "Privacy Policy", "slug": "privacy-policy", "type": "legal", "in_menu": false, "in_footer": true },
+    { "title": "Terms of Engagement", "slug": "terms", "type": "legal", "in_menu": false, "in_footer": true }
+  ],
+  "demo_content": "demo.json"
+}

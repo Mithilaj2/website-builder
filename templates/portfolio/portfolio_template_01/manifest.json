@@ -1,0 +1,219 @@
+{
+  "id": "portfolio_template_01",
+  "name": "Studio Kiln",
+  "category": "portfolio",
+  "version": "1.0.0",
+  "description": "A bold, editorial design for design studios, agencies, photographers and freelancers: warm grey paper, black type, electric blue and acid lime, oversized Space Grotesk headlines and a scrolling ticker of disciplines. Includes a project portfolio with case-study pages (gallery, client, year, what we did, outcomes), filters by discipline and industry, a project-brief form, numbered services, clients and team.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#2B3BFF",
+      "secondary": "#D4FF3A",
+      "bg": "#EDEBE6",
+      "text": "#111111",
+      "heading_font": "space-grotesk",
+      "body_font": "inter",
+      "radius": "0px",
+      "button_style": "pill",
+      "header_style": "simple",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "simple": "Simple"
+    },
+    "footer_styles": {
+      "dark": "Black",
+      "light": "Paper"
+    }
+  },
+  "listings": {
+    "path": "work",
+    "singular": "Project",
+    "plural": "Projects",
+    "menu_label": "Work",
+    "icon": "bi-grid-1x2",
+    "category_label": "Discipline",
+    "location_label": "Client",
+    "location_filter": false,
+    "price_label": "Budget",
+    "price_format": "none",
+    "closed_label": "Archived",
+    "attributes": [
+      {
+        "key": "year",
+        "label": "Year",
+        "type": "text",
+        "card": true,
+        "icon": "bi-calendar3"
+      },
+      {
+        "key": "industry",
+        "label": "Industry",
+        "type": "select",
+        "options": [
+          "Food & drink",
+          "Technology",
+          "Beauty & fashion",
+          "Culture & events",
+          "Education",
+          "Hospitality",
+          "Publishing"
+        ],
+        "filter": true,
+        "card": true,
+        "icon": "bi-briefcase"
+      },
+      {
+        "key": "duration",
+        "label": "Timeline",
+        "type": "text",
+        "icon": "bi-hourglass-split",
+        "help": "e.g. 10 weeks"
+      },
+      {
+        "key": "team",
+        "label": "Team",
+        "type": "text",
+        "icon": "bi-people",
+        "help": "e.g. 2 designers, 1 developer"
+      },
+      {
+        "key": "services",
+        "label": "What we did",
+        "type": "list",
+        "icon": "bi-check2"
+      },
+      {
+        "key": "results",
+        "label": "Outcomes",
+        "type": "list",
+        "icon": "bi-graph-up-arrow"
+      }
+    ],
+    "enquiry": {
+      "heading": "Start a project like this",
+      "button": "Send your brief",
+      "date_label": "Ideal start date",
+      "select_label": "Budget",
+      "select_options": [
+        "Under ₹2 lakh",
+        "₹2–5 lakh",
+        "₹5–15 lakh",
+        "₹15 lakh or more",
+        "Not sure yet"
+      ],
+      "message_label": "Tell us about your project",
+      "success": "Thanks for the brief! We read every one and will reply within two working days."
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "listings",
+    "listing_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "listings",
+        "about",
+        "services",
+        "logos",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "team",
+        "process"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "listing_categories",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "Studio",
+      "slug": "studio",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ],
+  "demo_content": "demo.json"
+}

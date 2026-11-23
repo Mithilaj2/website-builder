@@ -8,14 +8,14 @@ $dateKey = $en['date_label'] !== '' ? (stripos($en['date_label'], 'date') === fa
 ?>
 <section class="wblist wblist-detail">
   <div class="wblist-wrap">
-    <nav class="wblist-crumbs" aria-label="Breadcrumb"><a href="<?= $view->e($view->url('')) ?>">Home</a><span>/</span><a href="<?= $view->e($view->listingsUrl()) ?>"><?= $view->e($cfg['plural']) ?></a><?php if ($item['category_slug']): ?><span>/</span><a href="<?= $view->e($view->listingsUrl(['c' => $item['category_slug']])) ?>"><?= $view->e($item['category_name']) ?></a><?php endif; ?></nav>
+    <nav class="wblist-crumbs" aria-label="Breadcrumb"><a href="<?= $view->e($view->url('')) ?>">Home</a><span>/</span><a href="<?= $view->e($view->listingsUrl()) ?>"><?= $view->e($cfg['menu_label']) ?></a><?php if ($item['category_slug']): ?><span>/</span><a href="<?= $view->e($view->listingsUrl(['c' => $item['category_slug']])) ?>"><?= $view->e($item['category_name']) ?></a><?php endif; ?></nav>
     <div class="wblist-head">
       <div>
         <?php if ($item['is_closed']): ?><span class="wblist-flag is-dark is-static"><?= $view->e($cfg['closed_label']) ?></span><?php elseif (($item['badge'] ?? '') !== ''): ?><span class="wblist-flag is-static"><?= $view->e($item['badge']) ?></span><?php endif; ?>
         <h1 class="wblist-title"><?= $view->e($item['title']) ?></h1>
-        <?php if (($item['location'] ?? '') !== ''): ?><p class="wblist-loc"><i class="bi bi-geo-alt" aria-hidden="true"></i><?= $view->e($item['location']) ?></p><?php endif; ?>
+        <?php if (($item['location'] ?? '') !== ''): ?><p class="wblist-loc"><?php if ($cfg['location_filter']): ?><i class="bi bi-geo-alt" aria-hidden="true"></i><?php else: ?><span class="wblist-loc-label"><?= $view->e($cfg['location_label']) ?>:</span> <?php endif; ?><?= $view->e($item['location']) ?></p><?php endif; ?>
       </div>
-      <div class="wblist-head-price"><small><?= $view->e($cfg['price_label']) ?></small><strong><?= $view->e($item['price_text'] !== '' ? $item['price_text'] : 'On request') ?></strong><?php if (($item['price_note'] ?? '') !== '' && $item['price_text'] !== ''): ?><span><?= $view->e($item['price_note']) ?></span><?php endif; ?></div>
+      <?php if ($cfg['price_format'] !== 'none'): ?><div class="wblist-head-price"><small><?= $view->e($cfg['price_label']) ?></small><strong><?= $view->e($item['price_text'] !== '' ? $item['price_text'] : 'On request') ?></strong><?php if (($item['price_note'] ?? '') !== '' && $item['price_text'] !== ''): ?><span><?= $view->e($item['price_note']) ?></span><?php endif; ?></div><?php endif; ?>
     </div>
     <?php if ($images): ?>
       <div class="wblist-gallery<?= count($images) > 4 ? ' has-many' : (count($images) > 1 ? ' has-' . count($images) : '') ?>" data-wblist-gallery>

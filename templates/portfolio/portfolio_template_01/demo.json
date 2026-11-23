@@ -1,0 +1,893 @@
+{
+ "settings": {
+  "site": {
+   "name": "Studio Kiln",
+   "tagline": "Independent design studio, Bengaluru",
+   "phone": "+91 80 4718 2299",
+   "email": "hello@studiokiln.example",
+   "address": "3rd floor, 42 Church Street\nBengaluru 560001",
+   "hours": "Mon–Fri, 10 am – 7 pm",
+   "footer_about": "Have a project in mind? Write to us.",
+   "footer_text": "All rights reserved.",
+   "header_button": {
+    "text": "Let’s talk",
+    "url": "page:contact"
+   },
+   "social": {
+    "instagram": "https://www.instagram.com/",
+    "linkedin": "https://www.linkedin.com/"
+   }
+  },
+  "seo": {
+   "description": "Studio Kiln is an independent design studio in Bengaluru: brand identity, packaging, websites, apps and illustration for startups, family businesses and cultural organisations.",
+   "keywords": "branding agency Bengaluru, packaging design India, design studio Bangalore, UI UX studio"
+  }
+ },
+ "listings": {
+  "categories": [
+   {
+    "name": "Branding",
+    "slug": "branding",
+    "description": "Identities, naming support and brand systems.",
+    "image": "theme:images/work-kaapi.svg"
+   },
+   {
+    "name": "Web & app",
+    "slug": "web-app",
+    "description": "Websites, products and design systems.",
+    "image": "theme:images/work-paisa-app.svg"
+   },
+   {
+    "name": "Packaging",
+    "slug": "packaging",
+    "description": "Packs, labels and shelf presence.",
+    "image": "theme:images/work-soma.svg"
+   },
+   {
+    "name": "Illustration",
+    "slug": "illustration",
+    "description": "Posters, covers and editorial work.",
+    "image": "theme:images/work-sound-fest.svg"
+   }
+  ],
+  "items": [
+   {
+    "title": "Kaapi Co. — a coffee brand from the hills",
+    "slug": "kaapi-co",
+    "category": "branding",
+    "location": "Kaapi Co.",
+    "price": null,
+    "image": "theme:images/work-kaapi.svg",
+    "gallery": [
+     "theme:images/detail-palette.svg",
+     "theme:images/detail-type.svg"
+    ],
+    "attributes": {
+     "year": "2026",
+     "industry": "Food & drink",
+     "duration": "12 weeks",
+     "team": "2 designers, 1 strategist",
+     "services": [
+      "Brand strategy",
+      "Naming support",
+      "Logo and identity",
+      "Packaging system",
+      "Café signage"
+     ],
+     "results": [
+      "Launched in 14 cafés in Bengaluru",
+      "Online sales up 3× in the first quarter",
+      "Shortlisted for a national design award"
+     ]
+    },
+    "short_description": "A warm, confident identity for a family estate in Chikmagalur moving from bulk beans to branded retail.",
+    "description": "<p>Kaapi Co. had grown great coffee for three generations but sold almost all of it in bulk. We built a brand that carries the estate’s story onto shelves and into cafés: a hand-drawn bean mark, a palette taken from the soil and the roast, and a packaging system that scales from 250 g bags to wholesale sacks.</p><h3>The approach</h3><p>Two workshops on the estate, a week of café visits and a lot of tasting. The result is a brand that feels made by people, not a factory.</p>",
+    "featured": true,
+    "status": "active",
+    "badge": "New"
+   },
+   {
+    "title": "Paisa — a savings app for first jobbers",
+    "slug": "paisa-app",
+    "category": "web-app",
+    "location": "Paisa Technologies",
+    "price": null,
+    "image": "theme:images/work-paisa-app.svg",
+    "gallery": [
+     "theme:images/detail-ui.svg",
+     "theme:images/detail-type.svg"
+    ],
+    "attributes": {
+     "year": "2025",
+     "industry": "Technology",
+     "duration": "16 weeks",
+     "team": "3 designers, 4 developers",
+     "services": [
+      "User research",
+      "Product design",
+      "Design system",
+      "Motion"
+     ],
+     "results": [
+      "4.8 rating on the Play Store",
+      "1 lakh downloads in six months",
+      "32% of users set up a monthly goal in week one"
+     ]
+    },
+    "short_description": "Product design for a savings app that makes goals and spending simple for people in their first job.",
+    "description": "<p>Paisa wanted saving to feel like progress, not punishment. We interviewed forty young professionals, then designed a calm, high-contrast app with goals at its centre and a design system the in-house team now maintains.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "SOMA — skincare packaging",
+    "slug": "soma-skincare",
+    "category": "packaging",
+    "location": "SOMA Botanicals",
+    "price": null,
+    "image": "theme:images/work-soma.svg",
+    "gallery": [
+     "theme:images/detail-palette.svg"
+    ],
+    "attributes": {
+     "year": "2025",
+     "industry": "Beauty & fashion",
+     "duration": "8 weeks",
+     "services": [
+      "Packaging design",
+      "Label system",
+      "Product photography art direction"
+     ],
+     "results": [
+      "Stocked in 120 stores across India"
+     ]
+    },
+    "short_description": "Quiet, tactile packaging for a clean-skincare brand: recycled paper labels, clay tones and one bold wordmark.",
+    "description": "<p>The range needed to stand out on crowded shelves without shouting. We used soft clay tones, generous space and a single typographic system across eleven products.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Sound of the Hills festival",
+    "slug": "sound-of-the-hills",
+    "category": "illustration",
+    "location": "Hillside Collective",
+    "price": null,
+    "image": "theme:images/work-sound-fest.svg",
+    "gallery": [
+     "theme:images/detail-type.svg"
+    ],
+    "attributes": {
+     "year": "2026",
+     "industry": "Culture & events",
+     "duration": "6 weeks",
+     "services": [
+      "Campaign identity",
+      "Poster series",
+      "Social media kit",
+      "Stage graphics"
+     ],
+     "results": [
+      "Sold out in 9 days",
+      "2.4 million social impressions"
+     ]
+    },
+    "short_description": "A loud, joyful poster system for a three-day music festival in the Nandi Hills.",
+    "description": "<p>Three stages, three shapes, three colours. The system let the festival team create more than 200 assets in-house from one simple kit.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "BuildSchool website",
+    "slug": "buildschool-website",
+    "category": "web-app",
+    "location": "BuildSchool",
+    "price": null,
+    "image": "theme:images/work-buildschool.svg",
+    "gallery": [
+     "theme:images/detail-ui.svg"
+    ],
+    "attributes": {
+     "year": "2025",
+     "industry": "Education",
+     "duration": "10 weeks",
+     "team": "2 designers, 2 developers",
+     "services": [
+      "UX and content design",
+      "Website design",
+      "Webflow build"
+     ],
+     "results": [
+      "Course sign-ups up 58%",
+      "Page load time under 1.5 s"
+     ]
+    },
+    "short_description": "A clear, friendly website for a coding bootcamp, built to turn curious visitors into students.",
+    "description": "<p>We rewrote every page with the team, simplified course choice to three paths and built the site so the marketing team can launch new cohorts without developers.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Bylane Brewing cans",
+    "slug": "bylane-brewing",
+    "category": "packaging",
+    "location": "Bylane Brewing",
+    "price": null,
+    "image": "theme:images/work-bylane.svg",
+    "gallery": [
+     "theme:images/detail-palette.svg"
+    ],
+    "attributes": {
+     "year": "2024",
+     "industry": "Food & drink",
+     "duration": "7 weeks",
+     "services": [
+      "Can design",
+      "Brand refresh",
+      "Taproom menus"
+     ],
+     "results": [
+      "Four core beers launched in cans",
+      "Winner, regional packaging award"
+     ]
+    },
+    "short_description": "A bright, collectable can range for a craft brewery’s move from taps to shelves.",
+    "description": "<p>Each beer gets its own colour and symbol, held together by a single bold layout.</p>",
+    "featured": true,
+    "status": "active"
+   },
+   {
+    "title": "Tamarind restaurant identity",
+    "slug": "tamarind-identity",
+    "category": "branding",
+    "location": "Tamarind Kitchen & Bar",
+    "price": null,
+    "image": "theme:images/work-tamarind.svg",
+    "gallery": [
+     "theme:images/detail-type.svg"
+    ],
+    "attributes": {
+     "year": "2024",
+     "industry": "Hospitality",
+     "duration": "9 weeks",
+     "services": [
+      "Identity",
+      "Menus",
+      "Signage",
+      "Uniforms"
+     ],
+     "results": [
+      "Opened to a six-week waiting list"
+     ]
+    },
+    "short_description": "An identity, menus and signage for a modern South Indian restaurant in Indiranagar.",
+    "description": "<p>A lowercase wordmark with a slight lean, a tamarind-orange palette and menus printed on recycled stock.</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "Wayfinding for a design campus",
+    "slug": "campus-wayfinding",
+    "category": "branding",
+    "location": "Institute of Making",
+    "price": null,
+    "image": "theme:images/work-wayfinding.svg",
+    "gallery": [],
+    "attributes": {
+     "year": "2024",
+     "industry": "Education",
+     "duration": "14 weeks",
+     "services": [
+      "Wayfinding strategy",
+      "Sign family",
+      "Production supervision"
+     ]
+    },
+    "short_description": "A clear, colour-coded sign system for a five-building campus.",
+    "description": "<p>Letters for buildings, colours for floors, arrows everyone understands.</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "Book covers for Ink & Leaf",
+    "slug": "ink-and-leaf-covers",
+    "category": "illustration",
+    "location": "Ink & Leaf Publishing",
+    "price": null,
+    "image": "theme:images/work-books.svg",
+    "gallery": [],
+    "attributes": {
+     "year": "2023",
+     "industry": "Publishing",
+     "services": [
+      "Cover design",
+      "Series system"
+     ]
+    },
+    "short_description": "A series of covers for new Indian fiction.",
+    "description": "<p>Simple shapes that hint at each story.</p>",
+    "featured": false,
+    "status": "active"
+   },
+   {
+    "title": "The New Normal — magazine cover",
+    "slug": "new-normal-cover",
+    "category": "illustration",
+    "location": "City Weekly",
+    "price": null,
+    "image": "theme:images/work-editorial.svg",
+    "gallery": [],
+    "attributes": {
+     "year": "2022",
+     "industry": "Publishing",
+     "services": [
+      "Editorial illustration"
+     ]
+    },
+    "short_description": "A cover illustration for a special issue on life after the pandemic.",
+    "description": "<p>Commissioned with a 48-hour deadline.</p>",
+    "featured": false,
+    "status": "closed"
+   }
+  ]
+ },
+ "pages": {
+  "": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "hero",
+     "data": {
+      "eyebrow": "Taking on new projects from January 2027",
+      "heading": "We design brands people remember.",
+      "subheading": "Studio Kiln is an independent studio in Bengaluru making identities, packaging, websites and apps for ambitious companies and cultural organisations.",
+      "image": "",
+      "background_image": "",
+      "primary_button": {
+       "text": "See our work",
+       "url": "page:listings"
+      },
+      "secondary_button": {
+       "text": "Start a project",
+       "url": "page:contact"
+      },
+      "highlights": [
+       {
+        "icon": "bi-asterisk",
+        "text": "Brand identity"
+       },
+       {
+        "icon": "bi-asterisk",
+        "text": "Packaging"
+       },
+       {
+        "icon": "bi-asterisk",
+        "text": "Websites & apps"
+       },
+       {
+        "icon": "bi-asterisk",
+        "text": "Illustration"
+       }
+      ]
+     }
+    },
+    {
+     "type": "listings",
+     "data": {
+      "eyebrow": "Selected work",
+      "heading": "Recent projects",
+      "description": "",
+      "source": "featured",
+      "category": "",
+      "limit": 6,
+      "button": {
+       "text": "All projects",
+       "url": "page:listings"
+      }
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "The studio",
+      "heading": "An independent design studio in Bengaluru",
+      "description": "<p>We are a team of eight designers, writers and developers. Since 2017 we have helped founders, cultural organisations and family businesses look like who they really are.</p><p>We keep the team small on purpose: the people you meet are the people who do the work.</p>",
+      "image": "theme:images/studio.svg",
+      "image_2": "",
+      "experience_number": "9",
+      "experience_label": "years, 140 projects",
+      "points": [
+       {
+        "text": "Branding"
+       },
+       {
+        "text": "Web & app"
+       },
+       {
+        "text": "Packaging"
+       },
+       {
+        "text": "Illustration"
+       }
+      ],
+      "button": {
+       "text": "About the studio",
+       "url": "page:studio"
+      }
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "What we do",
+      "heading": "Four things, done properly",
+      "description": "",
+      "columns": "2",
+      "items": [
+       {
+        "icon": "bi-fingerprint",
+        "image": "",
+        "title": "Brand identity",
+        "description": "Strategy, naming support, logos, typography, colour and the guidelines that keep it all together.",
+        "link": {
+         "text": "Branding projects",
+         "url": "page:listings"
+        }
+       },
+       {
+        "icon": "bi-phone",
+        "image": "",
+        "title": "Websites & apps",
+        "description": "Research, UX, interface design and builds in Webflow or with your developers.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-box-seam",
+        "image": "",
+        "title": "Packaging",
+        "description": "From one product to a full range, including printer liaison and press checks.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-brush",
+        "image": "",
+        "title": "Illustration & campaigns",
+        "description": "Posters, editorial illustration, social kits and campaign systems.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "logos",
+     "data": {
+      "heading": "Some of the people we have worked with",
+      "items": [
+       {
+        "image": "theme:images/client-logo-1.svg",
+        "name": "Kaapi Co.",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-2.svg",
+        "name": "Paisa",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-3.svg",
+        "name": "SOMA",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-4.svg",
+        "name": "Bylane",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-5.svg",
+        "name": "BuildSchool",
+        "url": ""
+       },
+       {
+        "image": "theme:images/client-logo-6.svg",
+        "name": "Tamarind",
+        "url": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "testimonials",
+     "data": {
+      "eyebrow": "Kind words",
+      "heading": "Clients on working with us",
+      "description": "",
+      "items": [
+       {
+        "quote": "They understood our estate and our family better after two days than agencies had in two years.",
+        "name": "Meghna Hegde",
+        "role": "Founder, Kaapi Co.",
+        "photo": "theme:images/client-2.svg",
+        "rating": 5
+       },
+       {
+        "quote": "Fast, thoughtful and annoyingly good at simplifying. Our app finally feels like us.",
+        "name": "Arjun Nair",
+        "role": "CEO, Paisa",
+        "photo": "theme:images/client-1.svg",
+        "rating": 5
+       },
+       {
+        "quote": "The festival kit paid for itself in a week — our team made everything from it.",
+        "name": "Zoya Ahmed",
+        "role": "Director, Hillside Collective",
+        "photo": "theme:images/client-3.svg",
+        "rating": 5
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Got a project? Let’s talk.",
+      "description": "Tell us what you are making. We reply to every brief within two working days.",
+      "background_image": "",
+      "button": {
+       "text": "Start a project",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "See all work",
+       "url": "page:listings"
+      }
+     }
+    }
+   ]
+  },
+  "studio": {
+   "seo_title": "About the studio",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Small studio, big care.",
+      "subheading": "Eight people who love their craft and care about your business.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "about",
+     "data": {
+      "eyebrow": "The studio",
+      "heading": "An independent design studio in Bengaluru",
+      "description": "<p>We are a team of eight designers, writers and developers. Since 2017 we have helped founders, cultural organisations and family businesses look like who they really are.</p><p>We keep the team small on purpose: the people you meet are the people who do the work.</p>",
+      "image": "theme:images/studio.svg",
+      "image_2": "",
+      "experience_number": "9",
+      "experience_label": "years, 140 projects",
+      "points": [
+       {
+        "text": "Branding"
+       },
+       {
+        "text": "Web & app"
+       },
+       {
+        "text": "Packaging"
+       },
+       {
+        "text": "Illustration"
+       }
+      ],
+      "button": {
+       "text": "",
+       "url": ""
+      }
+     }
+    },
+    {
+     "type": "stats",
+     "data": {
+      "heading": "",
+      "items": [
+       {
+        "number": "140",
+        "suffix": "+",
+        "label": "Projects since 2017",
+        "icon": ""
+       },
+       {
+        "number": "8",
+        "suffix": "",
+        "label": "People in the studio",
+        "icon": ""
+       },
+       {
+        "number": "12",
+        "suffix": "",
+        "label": "Design awards",
+        "icon": ""
+       },
+       {
+        "number": "70",
+        "suffix": "%",
+        "label": "Clients who come back",
+        "icon": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "team",
+     "data": {
+      "eyebrow": "People",
+      "heading": "The studio",
+      "description": "",
+      "members": [
+       {
+        "photo": "theme:images/team-1.svg",
+        "name": "Nikhil Rao",
+        "role": "Founder, creative director",
+        "bio": "Fifteen years in branding, previously at a London agency.",
+        "linkedin": "https://www.linkedin.com/"
+       },
+       {
+        "photo": "theme:images/team-2.svg",
+        "name": "Ananya Pillai",
+        "role": "Design director",
+        "bio": "Leads identity and packaging projects.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/team-3.svg",
+        "name": "Sara Fernandes",
+        "role": "Product designer",
+        "bio": "Designs apps and websites people enjoy using.",
+        "linkedin": ""
+       },
+       {
+        "photo": "theme:images/team-4.svg",
+        "name": "Vikram Shetty",
+        "role": "Studio manager",
+        "bio": "Keeps projects on time and printers honest.",
+        "linkedin": ""
+       }
+      ]
+     }
+    },
+    {
+     "type": "process",
+     "data": {
+      "eyebrow": "How we work",
+      "heading": "Small team, clear steps",
+      "description": "",
+      "steps": [
+       {
+        "icon": "bi-chat",
+        "title": "Listen",
+        "description": "Workshops and research with your team and your customers."
+       },
+       {
+        "icon": "bi-pencil",
+        "title": "Explore",
+        "description": "Two or three honest directions, not twenty."
+       },
+       {
+        "icon": "bi-bricks",
+        "title": "Build",
+        "description": "We design every piece you need and test it in the real world."
+       },
+       {
+        "icon": "bi-rocket",
+        "title": "Launch",
+        "description": "Files, guidelines and support while you roll it out."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "services": {
+   "seo_title": "Services",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Services",
+      "subheading": "Identity, packaging, digital and illustration.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "services",
+     "data": {
+      "eyebrow": "What we do",
+      "heading": "Four things, done properly",
+      "description": "",
+      "columns": "2",
+      "items": [
+       {
+        "icon": "bi-fingerprint",
+        "image": "",
+        "title": "Brand identity",
+        "description": "Strategy, naming support, logos, typography, colour and the guidelines that keep it all together.",
+        "link": {
+         "text": "Branding projects",
+         "url": "page:listings"
+        }
+       },
+       {
+        "icon": "bi-phone",
+        "image": "",
+        "title": "Websites & apps",
+        "description": "Research, UX, interface design and builds in Webflow or with your developers.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-box-seam",
+        "image": "",
+        "title": "Packaging",
+        "description": "From one product to a full range, including printer liaison and press checks.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       },
+       {
+        "icon": "bi-brush",
+        "image": "",
+        "title": "Illustration & campaigns",
+        "description": "Posters, editorial illustration, social kits and campaign systems.",
+        "link": {
+         "text": "",
+         "url": ""
+        }
+       }
+      ]
+     }
+    },
+    {
+     "type": "listing_categories",
+     "data": {
+      "eyebrow": "Browse by discipline",
+      "heading": "Work by discipline",
+      "description": "",
+      "limit": 6,
+      "show_counts": true
+     }
+    },
+    {
+     "type": "process",
+     "data": {
+      "eyebrow": "How we work",
+      "heading": "Small team, clear steps",
+      "description": "",
+      "steps": [
+       {
+        "icon": "bi-chat",
+        "title": "Listen",
+        "description": "Workshops and research with your team and your customers."
+       },
+       {
+        "icon": "bi-pencil",
+        "title": "Explore",
+        "description": "Two or three honest directions, not twenty."
+       },
+       {
+        "icon": "bi-bricks",
+        "title": "Build",
+        "description": "We design every piece you need and test it in the real world."
+       },
+       {
+        "icon": "bi-rocket",
+        "title": "Launch",
+        "description": "Files, guidelines and support while you roll it out."
+       }
+      ]
+     }
+    },
+    {
+     "type": "faq",
+     "data": {
+      "eyebrow": "FAQ",
+      "heading": "Common questions",
+      "description": "",
+      "items": [
+       {
+        "question": "How much does a brand identity cost?",
+        "answer": "Most identity projects are between ₹4 and ₹15 lakh, depending on scope. We send a fixed quote after a first call."
+       },
+       {
+        "question": "How long does a project take?",
+        "answer": "Usually 8 to 16 weeks from kick-off to launch files."
+       },
+       {
+        "question": "Do you work with startups?",
+        "answer": "Yes — about half our clients are early-stage companies. We offer a lighter “launch kit” for pre-seed teams."
+       },
+       {
+        "question": "Can you work with our developers?",
+        "answer": "Yes. We hand over design systems in Figma and work alongside in-house or partner developers."
+       }
+      ]
+     }
+    },
+    {
+     "type": "cta",
+     "data": {
+      "heading": "Got a project? Let’s talk.",
+      "description": "Tell us what you are making. We reply to every brief within two working days.",
+      "background_image": "",
+      "button": {
+       "text": "Start a project",
+       "url": "page:contact"
+      },
+      "secondary_button": {
+       "text": "See all work",
+       "url": "page:listings"
+      }
+     }
+    }
+   ]
+  },
+  "contact": {
+   "seo_title": "Contact",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Let’s make something.",
+      "subheading": "Send us a brief, a question or just say hello.",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "contact",
+     "data": {
+      "eyebrow": "Contact",
+      "heading": "Tell us about your project",
+      "description": "Share what you are making, your timeline and budget. We reply within two working days.",
+      "form_heading": "Send a brief",
+      "show_form": true,
+      "show_details": true,
+      "map_url": ""
+     }
+    }
+   ]
+  },
+  "privacy-policy": {
+   "seo_title": "",
+   "sections": [
+    {
+     "type": "page_banner",
+     "data": {
+      "heading": "Privacy Policy",
+      "subheading": "",
+      "background_image": ""
+     }
+    },
+    {
+     "type": "rich_text",
+     "data": {
+      "heading": "",
+      "width": "narrow",
+      "content": "<p>We use the details you send us only to reply to your enquiry and, if we work together, to run the project. We never sell or share them with third parties for marketing.</p><p>Write to us at any time to have your details deleted.</p>"
+     }
+    }
+   ]
+  }
+ }
+}

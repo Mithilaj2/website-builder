@@ -14,7 +14,7 @@ use SiteRuntime\ValidationError;
  */
 final class ListingService
 {
-    public const PATHS = ['properties', 'packages', 'tours', 'rooms', 'projects', 'portfolio', 'listings', 'destinations', 'vehicles'];
+    public const PATHS = ['properties', 'packages', 'tours', 'rooms', 'projects', 'portfolio', 'listings', 'destinations', 'vehicles', 'services', 'work'];
     public const TYPES = ['number', 'text', 'select', 'toggle', 'list'];
 
     private ?array $config;
@@ -74,12 +74,13 @@ final class ListingService
         return [
             'path' => $path,
             'singular' => (string) ($m['singular'] ?? 'Listing'), 'plural' => (string) ($m['plural'] ?? 'Listings'),
+            'menu_label' => (string) ($m['menu_label'] ?? ($m['plural'] ?? 'Listings')),
             'icon' => preg_match('/^bi-[a-z0-9-]+$/', (string) ($m['icon'] ?? '')) ? $m['icon'] : 'bi-collection',
             'category_label' => (string) ($m['category_label'] ?? 'Category'),
             'location_label' => (string) ($m['location_label'] ?? 'Location'),
             'location_filter' => (bool) ($m['location_filter'] ?? true),
             'price_label' => (string) ($m['price_label'] ?? 'Price'),
-            'price_format' => in_array($m['price_format'] ?? '', ['inr', 'lakh'], true) ? $m['price_format'] : 'inr',
+            'price_format' => in_array($m['price_format'] ?? '', ['inr', 'lakh', 'none'], true) ? $m['price_format'] : 'inr',
             'price_notes' => array_values(array_map('strval', (array) ($m['price_notes'] ?? []))),
             'closed_label' => (string) ($m['closed_label'] ?? 'Closed'),
             'attributes' => $attrs,
@@ -218,7 +219,7 @@ final class ListingService
         }
         $r['facts'] = $facts;
         $r['lists'] = $lists;
-        $r['price_text'] = $r['price'] !== null && $r['price'] !== '' ? self::price((int) $r['price'], $cfg['price_format']) : '';
+        $r['price_text'] = $cfg['price_format'] !== 'none' && $r['price'] !== null && $r['price'] !== '' ? self::price((int) $r['price'], $cfg['price_format']) : '';
         $r['is_closed'] = ($r['status'] ?? '') === 'closed';
         return $r;
     }
@@ -289,7 +290,7 @@ final class ListingService
         if ($title === '' || mb_strlen($title) > 150) {
             $errors['title'] = 'Enter a title (up to 150 characters).';
         }
-        $priceIn = trim(str_replace([',', '₹', ' '], '', (string) ($in['price'] ?? '')));
+        $priceIn = $cfg['price_format'] === 'none' ? '' : trim(str_replace([',', '₹', ' '], '', (string) ($in['price'] ?? '')));
         $price = null;
         if ($priceIn !== '') {
             if (!preg_match('/^\d{1,12}(\.\d{1,2})?$/', $priceIn)) {

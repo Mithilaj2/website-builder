@@ -70,6 +70,7 @@
 .wblist-head-price small { display: block; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--l-muted); }
 .wblist-head-price strong { font-family: var(--wb-heading-font); font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.2rem); color: var(--wb-primary); }
 .wblist-head-price span { display: block; color: var(--l-muted); font-size: .9rem; }
+.wblist-loc-label { flex: 0 0 auto; color: var(--l-muted); }
 .wblist-gallery { display: grid; gap: .6rem; border-radius: var(--l-r); overflow: hidden; margin-bottom: 2rem; grid-template-columns: 1fr; }
 .wblist-gallery.has-many { grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 220px 220px; }
 .wblist-gallery.has-many .wblist-gallery-item:first-child { grid-row: span 2; }
