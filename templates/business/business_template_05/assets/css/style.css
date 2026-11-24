@@ -286,7 +286,7 @@ body.icw { background: var(--wb-bg); color: var(--icw-ink); font-family: var(--w
 .icw-hero-editorial .icw-hero-title { font-size: calc(clamp(2.6rem, 1.2rem + 5.4vw, 5.6rem) * var(--icw-hero-scale)); max-width: 1050px; line-height: 1.02; margin-bottom: 2.5rem; }
 .icw-hero-editorial .icw-eyebrow-hero { color: var(--icw-hl); }
 .icw-hero-editorial .icw-eyebrow-hero::before { content: ""; width: 40px; height: 2px; background: currentColor; }
-.icw-hero-editorial-row { border-top: 1px solid var(--icw-line-strong); padding-top: 2.5rem; }
+.icw-hero-editorial-row { border-top: 1px solid var(--icw-line-strong); margin-top: 0; padding-top: .5rem; }
 .icw-hero-editorial .icw-actions { margin-top: 1.75rem; }
 .icw-hero-editorial .icw-hero-frame { border-radius: var(--icw-radius); }
 .icw-hero-editorial .icw-hero-frame img { aspect-ratio: 16 / 10; }

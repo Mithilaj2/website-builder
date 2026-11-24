@@ -1,0 +1,69 @@
+{
+  "id": "ecommerce_template_03",
+  "name": "Voltbay Dark",
+  "prefix": "vlt",
+  "niche": "electronics",
+  "seed": 3,
+  "mood": "dark",
+  "direction": "Dark tech store: floating pill navigation, centred hero over a product panorama, electric blue and orange, tinted cards, round category icons, a blue sale band.",
+  "description": "A dark, high-contrast design for electronics, gadget and accessory stores: floating navigation with cart, a centred hero, round category icons, product cards with add-to-cart buttons and a sale band.",
+  "theme": {
+    "primary": "#2563EB",
+    "secondary": "#F97316",
+    "bg": "#0B0F17",
+    "text": "#E5E9F0",
+    "heading_font": "space-grotesk",
+    "body_font": "inter",
+    "radius": "14px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "stack",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "product-card": "plain",
+    "product_categories": "circles",
+    "about": "grid",
+    "stats": "band",
+    "testimonials": "featured",
+    "cta": "band",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "features",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "var(--wb-secondary)",
+    "link": "color-mix(in srgb, var(--wb-primary) 60%, #fff)",
+    "icon": "tint",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)",
+    "track": "-.02em"
+  },
+  "extra_css": ".vlt .vlt-icon { color: var(--wb-secondary); }",
+  "demo": {
+    "featured_heading": "Top picks",
+    "home": [
+      "hero",
+      "product_categories",
+      "products",
+      "stats",
+      "products_new",
+      "features",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "ecommerce",
+  "version": "1.0.0"
+}

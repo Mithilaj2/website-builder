@@ -1,0 +1,742 @@
+{
+  "settings": {
+    "site": {
+      "name": "Tiny Tales Toys",
+      "tagline": "Wooden and educational toys",
+      "phone": "+91 484 255 9900",
+      "email": "play@tinytales.example",
+      "address": "Panampilly Nagar\nKochi, Kerala 682036",
+      "hours": "Mon–Sat, 10 am – 7 pm",
+      "footer_about": "Safe, non-toxic wooden and educational toys designed to spark imagination.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Tiny Tales Toys: wooden and educational toys. Safe, non-toxic wooden and educational toys designed to spark imagination.",
+      "keywords": "wooden and educational toys, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Tiny Tales Toys",
+      "gstin": "",
+      "store_state": "Kerala",
+      "invoice_address": "Panampilly Nagar, Kochi, Kerala 682036",
+      "prices_include_tax": true,
+      "order_prefix": "TT",
+      "invoice_prefix": "TT/",
+      "shipping_flat": 7900,
+      "free_shipping_above": 99900,
+      "shipping_note": "Gift-wrapped on request; delivered in 3–6 working days.",
+      "cod_enabled": true,
+      "cod_fee": 3900,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "Easy returns within 10 days on unopened toys.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Wooden Toys",
+        "slug": "wooden",
+        "description": "Blocks, puzzles and stacking toys.",
+        "image": "theme:images/cat-wooden.svg"
+      },
+      {
+        "name": "Plush",
+        "slug": "plush",
+        "description": "Soft, cuddly friends.",
+        "image": "theme:images/cat-plush.svg"
+      },
+      {
+        "name": "Music",
+        "slug": "music",
+        "description": "Xylophones, drums and shakers.",
+        "image": "theme:images/cat-music.svg"
+      },
+      {
+        "name": "Vehicles & STEM",
+        "slug": "stem",
+        "description": "Cars, rockets and building kits.",
+        "image": "theme:images/cat-stem.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "ABC Stacking Blocks",
+        "slug": "abc-stacking-blocks",
+        "category": "wooden",
+        "price": 89900,
+        "image": "theme:images/product-abc-stacking-blocks.svg",
+        "gallery": [
+          "theme:images/product-abc-stacking-blocks-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 40,
+        "featured": true,
+        "short_description": "Twenty-six alphabet blocks in bright, child-safe colours.",
+        "description": "<p>Twenty-six alphabet blocks in bright, child-safe colours.</p><h3>Details</h3><ul><li>Non-toxic vegetable dyes</li><li>Smooth, rounded edges</li><li>Ages 1+</li></ul>",
+        "sku": "TT-WOO-001",
+        "compare_price": 109900,
+        "badge": "Bestseller"
+      },
+      {
+        "name": "Pastel Block Set",
+        "slug": "pastel-block-set",
+        "category": "wooden",
+        "price": 99900,
+        "image": "theme:images/product-pastel-block-set.svg",
+        "gallery": [
+          "theme:images/product-pastel-block-set-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 25,
+        "featured": false,
+        "short_description": "Soft pastel blocks for quiet play.",
+        "description": "<p>Soft pastel blocks for quiet play.</p><h3>Details</h3><ul><li>Non-toxic vegetable dyes</li><li>Smooth, rounded edges</li><li>Ages 1+</li></ul>",
+        "sku": "TT-WOO-002"
+      },
+      {
+        "name": "Rainbow Number Blocks",
+        "slug": "rainbow-number-blocks",
+        "category": "wooden",
+        "price": 79900,
+        "image": "theme:images/product-rainbow-number-blocks.svg",
+        "gallery": [
+          "theme:images/product-rainbow-number-blocks-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 3,
+        "featured": false,
+        "short_description": "Counting blocks for early maths.",
+        "description": "<p>Counting blocks for early maths.</p><h3>Details</h3><ul><li>Non-toxic vegetable dyes</li><li>Smooth, rounded edges</li><li>Ages 1+</li></ul>",
+        "sku": "TT-WOO-003"
+      },
+      {
+        "name": "Cuddly Bear — Honey",
+        "slug": "cuddly-bear-honey",
+        "category": "plush",
+        "price": 119900,
+        "image": "theme:images/product-cuddly-bear-honey.svg",
+        "gallery": [
+          "theme:images/product-cuddly-bear-honey-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 30,
+        "featured": true,
+        "short_description": "A soft honey-coloured bear with a bow tie.",
+        "description": "<p>A soft honey-coloured bear with a bow tie.</p><h3>Details</h3><ul><li>Hypoallergenic filling</li><li>Machine washable</li><li>Ages 0+</li></ul>",
+        "sku": "TT-PLU-004",
+        "compare_price": 139900,
+        "option_name": "Size",
+        "variants": [
+          {
+            "label": "Small (25 cm)",
+            "price": 119900,
+            "stock": 15,
+            "sku": "TT-PLU-004-1"
+          },
+          {
+            "label": "Large (40 cm)",
+            "price": 179900,
+            "stock": 15,
+            "sku": "TT-PLU-004-2"
+          }
+        ]
+      },
+      {
+        "name": "Cuddly Bear — Cocoa",
+        "slug": "cuddly-bear-cocoa",
+        "category": "plush",
+        "price": 119900,
+        "image": "theme:images/product-cuddly-bear-cocoa.svg",
+        "gallery": [
+          "theme:images/product-cuddly-bear-cocoa-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 18,
+        "featured": false,
+        "short_description": "A cocoa-brown bear with a blue bow.",
+        "description": "<p>A cocoa-brown bear with a blue bow.</p><h3>Details</h3><ul><li>Hypoallergenic filling</li><li>Machine washable</li><li>Ages 0+</li></ul>",
+        "sku": "TT-PLU-005"
+      },
+      {
+        "name": "Cuddly Bear — Snow",
+        "slug": "cuddly-bear-snow",
+        "category": "plush",
+        "price": 129900,
+        "image": "theme:images/product-cuddly-bear-snow.svg",
+        "gallery": [
+          "theme:images/product-cuddly-bear-snow-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 0,
+        "featured": false,
+        "short_description": "A snow-white bear with a red bow.",
+        "description": "<p>A snow-white bear with a red bow.</p><h3>Details</h3><ul><li>Hypoallergenic filling</li><li>Machine washable</li><li>Ages 0+</li></ul>",
+        "sku": "TT-PLU-006"
+      },
+      {
+        "name": "Rainbow Xylophone",
+        "slug": "rainbow-xylophone",
+        "category": "music",
+        "price": 109900,
+        "image": "theme:images/product-rainbow-xylophone.svg",
+        "gallery": [
+          "theme:images/product-rainbow-xylophone-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 22,
+        "featured": true,
+        "short_description": "Eight tuned notes with two wooden mallets.",
+        "description": "<p>Eight tuned notes with two wooden mallets.</p><h3>Details</h3><ul><li>Tuned notes</li><li>Child-safe finishes</li><li>Ages 2+</li></ul>",
+        "sku": "TT-MUS-007",
+        "badge": "New"
+      },
+      {
+        "name": "Junior Xylophone",
+        "slug": "junior-xylophone",
+        "category": "music",
+        "price": 89900,
+        "image": "theme:images/product-junior-xylophone.svg",
+        "gallery": [
+          "theme:images/product-junior-xylophone-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 15,
+        "featured": false,
+        "short_description": "A smaller xylophone for toddlers.",
+        "description": "<p>A smaller xylophone for toddlers.</p><h3>Details</h3><ul><li>Tuned notes</li><li>Child-safe finishes</li><li>Ages 2+</li></ul>",
+        "sku": "TT-MUS-008"
+      },
+      {
+        "name": "Wooden Race Car",
+        "slug": "wooden-race-car",
+        "category": "stem",
+        "price": 69900,
+        "image": "theme:images/product-wooden-race-car.svg",
+        "gallery": [
+          "theme:images/product-wooden-race-car-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 35,
+        "featured": true,
+        "short_description": "A chunky wooden car with rolling wheels.",
+        "description": "<p>A chunky wooden car with rolling wheels.</p><h3>Details</h3><ul><li>Includes activity guide</li><li>No small parts for under-3s</li><li>Ages 3+</li></ul>",
+        "sku": "TT-STE-009",
+        "compare_price": 84900
+      },
+      {
+        "name": "Blue Roadster",
+        "slug": "blue-roadster",
+        "category": "stem",
+        "price": 69900,
+        "image": "theme:images/product-blue-roadster.svg",
+        "gallery": [
+          "theme:images/product-blue-roadster-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 20,
+        "featured": false,
+        "short_description": "A classic blue roadster for little drivers.",
+        "description": "<p>A classic blue roadster for little drivers.</p><h3>Details</h3><ul><li>Includes activity guide</li><li>No small parts for under-3s</li><li>Ages 3+</li></ul>",
+        "sku": "TT-STE-010"
+      },
+      {
+        "name": "Space Rocket Kit",
+        "slug": "space-rocket-kit",
+        "category": "stem",
+        "price": 149900,
+        "image": "theme:images/product-space-rocket-kit.svg",
+        "gallery": [
+          "theme:images/product-space-rocket-kit-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 12,
+        "featured": true,
+        "short_description": "Build-and-paint wooden rocket with a space activity book.",
+        "description": "<p>Build-and-paint wooden rocket with a space activity book.</p><h3>Details</h3><ul><li>Includes activity guide</li><li>No small parts for under-3s</li><li>Ages 3+</li></ul>",
+        "sku": "TT-STE-011"
+      },
+      {
+        "name": "Moon Rocket Kit",
+        "slug": "moon-rocket-kit",
+        "category": "stem",
+        "price": 149900,
+        "image": "theme:images/product-moon-rocket-kit.svg",
+        "gallery": [
+          "theme:images/product-moon-rocket-kit-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9503",
+        "stock": 8,
+        "featured": false,
+        "short_description": "A purple rocket kit with glow-in-the-dark stars.",
+        "description": "<p>A purple rocket kit with glow-in-the-dark stars.</p><h3>Details</h3><ul><li>Includes activity guide</li><li>No small parts for under-3s</li><li>Ages 3+</li></ul>",
+        "sku": "TT-STE-012"
+      }
+    ],
+    "coupons": [
+      {
+        "code": "PLAY10",
+        "description": "10% off orders above ₹999 (up to ₹250)",
+        "type": "percent",
+        "value": 10,
+        "min_order": 99900,
+        "max_discount": 25000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free delivery above ₹699",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 69900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Safe · Non-toxic · Made in India",
+            "heading": "Toys that grow with curious minds.",
+            "subheading": "Wooden blocks, plush friends, music toys and STEM kits — made with child-safe paints and designed with educators.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "Non-toxic paints"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Gift wrap available"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "Free delivery above ₹999"
+              }
+            ]
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Most-loved toys",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-shield-check",
+                "title": "Child-safe",
+                "description": "Non-toxic paints and smooth edges."
+              },
+              {
+                "icon": "bi-mortarboard",
+                "title": "Designed with educators",
+                "description": "Toys that teach through play."
+              },
+              {
+                "icon": "bi-gift",
+                "title": "Gift wrapping",
+                "description": "Free gift wrap and a handwritten note."
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Sustainable wood",
+                "description": "Responsibly sourced wood."
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Made for play, made to last",
+            "description": "<p>Tiny Tales was started by two parents tired of plastic toys that broke in a week. We work with wood-turners in Channapatna and educators to design toys that last and teach.</p><p>Every toy is tested for safety and finished with lacquer and vegetable dyes.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2016",
+            "experience_label": "Making toys since",
+            "points": [
+              {
+                "text": "Child-safe paints"
+              },
+              {
+                "text": "Designed with educators"
+              },
+              {
+                "text": "Made in India"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "My daughter plays with the ABC blocks every single day. Beautifully made.",
+                "name": "Neha J.",
+                "role": "Verified buyer · Kochi",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The rocket kit kept my 6-year-old busy all weekend — and he learned about planets!",
+                "name": "Arun P.",
+                "role": "Verified buyer · Chennai",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Lovely gift wrapping and a handwritten note. Perfect birthday gift.",
+                "name": "Sara T.",
+                "role": "Verified buyer · Bengaluru",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Gift a little wonder",
+            "description": "Use PLAY10 for 10% off orders above ₹999.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "Safe, non-toxic wooden and educational toys designed to spark imagination.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Made for play, made to last",
+            "description": "<p>Tiny Tales was started by two parents tired of plastic toys that broke in a week. We work with wood-turners in Channapatna and educators to design toys that last and teach.</p><p>Every toy is tested for safety and finished with lacquer and vegetable dyes.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2016",
+            "experience_label": "Making toys since",
+            "points": [
+              {
+                "text": "Child-safe paints"
+              },
+              {
+                "text": "Designed with educators"
+              },
+              {
+                "text": "Made in India"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "50",
+                "suffix": "K+",
+                "label": "Happy children",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "+",
+                "label": "Toys designed",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "Non-toxic",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Parent rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Tiny Tales Toys",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-wooden.svg",
+                "caption": "Wooden Toys"
+              },
+              {
+                "image": "theme:images/cat-plush.svg",
+                "caption": "Plush"
+              },
+              {
+                "image": "theme:images/cat-music.svg",
+                "caption": "Music"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Are your toys safe for babies?",
+                "answer": "Each toy lists a recommended age; all use non-toxic finishes."
+              },
+              {
+                "question": "Do you gift wrap?",
+                "answer": "Yes, free gift wrap and a handwritten note on request."
+              },
+              {
+                "question": "Can I return a toy?",
+                "answer": "Unopened toys can be returned within 10 days."
+              },
+              {
+                "question": "How do I clean wooden toys?",
+                "answer": "Wipe with a damp cloth; avoid soaking."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking and cash on delivery."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Gift-wrapped on request; delivered in 3–6 working days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Gift a little wonder",
+            "description": "Use PLAY10 for 10% off orders above ₹999.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our Kochi studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Gift-wrapped on request; delivered in 3–6 working days.</p><ul><li>Delivery is free on orders above ₹999; otherwise a flat ₹79 applies.</li><li>Cash on delivery is available for a ₹39 handling fee.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>Easy returns within 10 days on unopened toys.</p><p>To start a return, email play@tinytales.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Tiny Tales Toys collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

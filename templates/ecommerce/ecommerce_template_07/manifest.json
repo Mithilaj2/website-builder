@@ -1,0 +1,148 @@
+{
+  "id": "ecommerce_template_07",
+  "name": "Tiny Tales",
+  "category": "ecommerce",
+  "version": "1.0.0",
+  "description": "A bright, playful design for toy, kids and gift stores: floating navigation with cart, a centred hero, round category icons, product cards with add-to-cart buttons and contact cards above the footer.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact",
+    "ecommerce"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#2F7CEB",
+      "secondary": "#FFC93C",
+      "bg": "#FFFDF7",
+      "text": "#1C2340",
+      "heading_font": "poppins",
+      "body_font": "dm-sans",
+      "radius": "22px",
+      "button_style": "pill",
+      "header_style": "announce",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "announce": "With announcement bar",
+      "minimal": "No announcement bar"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "products",
+    "product_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "product_categories",
+        "products",
+        "features",
+        "about",
+        "products",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "gallery"
+      ]
+    },
+    "help": {
+      "default_sections": [
+        "page_banner",
+        "faq",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "Our Story",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Help & FAQ",
+      "slug": "help",
+      "type": "help"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Shipping & Returns",
+      "slug": "shipping-returns",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

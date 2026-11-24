@@ -1,0 +1,148 @@
+{
+  "id": "ecommerce_template_06",
+  "name": "Aurum Maison",
+  "category": "ecommerce",
+  "version": "1.0.0",
+  "description": "A refined, luxurious design for jewellery, watches and premium accessories: centred masthead, an editorial hero, image category tiles, product cards with hover quick-add and a centred footer.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact",
+    "ecommerce"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#1F2937",
+      "secondary": "#C9A227",
+      "bg": "#FBF9F4",
+      "text": "#1F2937",
+      "heading_font": "cormorant-garamond",
+      "body_font": "jost",
+      "radius": "0px",
+      "button_style": "sharp",
+      "header_style": "announce",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "announce": "With announcement bar",
+      "minimal": "No announcement bar"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "products",
+    "product_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "product_categories",
+        "products",
+        "about",
+        "stats",
+        "products",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "gallery"
+      ]
+    },
+    "help": {
+      "default_sections": [
+        "page_banner",
+        "faq",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "Our Story",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Help & FAQ",
+      "slug": "help",
+      "type": "help"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Shipping & Returns",
+      "slug": "shipping-returns",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

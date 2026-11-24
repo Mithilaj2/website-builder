@@ -1,0 +1,809 @@
+{
+  "settings": {
+    "site": {
+      "name": "Kesar Threads",
+      "tagline": "Handblock-printed ethnic wear from Jaipur",
+      "phone": "+91 141 401 7788",
+      "email": "hello@kesarthreads.example",
+      "address": "22 Johari Bazaar Road\nJaipur, Rajasthan 302003",
+      "hours": "Mon–Sat, 10 am – 7 pm",
+      "footer_about": "Handblock-printed kurtas, sarees and accessories made with artisan families in Sanganer and Bagru.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Kesar Threads: handblock-printed ethnic wear from jaipur. Handblock-printed kurtas, sarees and accessories made with artisan families in Sanganer and Bagru.",
+      "keywords": "handblock-printed ethnic wear from jaipur, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Kesar Threads",
+      "gstin": "",
+      "store_state": "Rajasthan",
+      "invoice_address": "22 Johari Bazaar Road, Jaipur, Rajasthan 302003",
+      "prices_include_tax": true,
+      "order_prefix": "KT",
+      "invoice_prefix": "KT/",
+      "shipping_flat": 9900,
+      "free_shipping_above": 149900,
+      "shipping_note": "Ships in 2–3 days; delivered in 3–7 working days.",
+      "cod_enabled": true,
+      "cod_fee": 4900,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "Easy returns within 10 days on unworn items with tags.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Kurtas",
+        "slug": "kurtas",
+        "description": "Cotton kurtas in handblock prints for every day and every celebration.",
+        "image": "theme:images/cat-kurtas.svg"
+      },
+      {
+        "name": "Sarees",
+        "slug": "sarees",
+        "description": "Soft mulmul and cotton sarees with printed borders.",
+        "image": "theme:images/cat-sarees.svg"
+      },
+      {
+        "name": "Bags",
+        "slug": "bags",
+        "description": "Printed totes and slings, lined and built to last.",
+        "image": "theme:images/cat-bags.svg"
+      },
+      {
+        "name": "Footwear",
+        "slug": "footwear",
+        "description": "Handcrafted juttis with soft cushioned soles.",
+        "image": "theme:images/cat-footwear.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "Indigo Daabu Kurta",
+        "slug": "indigo-daabu-kurta",
+        "category": "kurtas",
+        "price": 189000,
+        "image": "theme:images/product-indigo-daabu-kurta.svg",
+        "gallery": [
+          "theme:images/product-indigo-daabu-kurta-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "6204",
+        "stock": 24,
+        "featured": true,
+        "short_description": "A straight-cut kurta in indigo daabu mud-resist print with wooden buttons.",
+        "description": "<p>A straight-cut kurta in indigo daabu mud-resist print with wooden buttons.</p><h3>Details</h3><ul><li>100% cotton, handblock printed</li><li>Gentle hand wash in cold water</li><li>Made in Jaipur, Rajasthan</li></ul>",
+        "sku": "KT-KUR-001",
+        "compare_price": 229000,
+        "badge": "Bestseller",
+        "option_name": "Size",
+        "variants": [
+          {
+            "label": "S",
+            "price": 189000,
+            "stock": 6,
+            "sku": "KT-KUR-001-1"
+          },
+          {
+            "label": "M",
+            "price": 189000,
+            "stock": 6,
+            "sku": "KT-KUR-001-2"
+          },
+          {
+            "label": "L",
+            "price": 189000,
+            "stock": 6,
+            "sku": "KT-KUR-001-3"
+          },
+          {
+            "label": "XL",
+            "price": 199000,
+            "stock": 6,
+            "sku": "KT-KUR-001-4"
+          }
+        ]
+      },
+      {
+        "name": "Saffron Bagru Kurta",
+        "slug": "saffron-bagru-kurta",
+        "category": "kurtas",
+        "price": 169000,
+        "image": "theme:images/product-saffron-bagru-kurta.svg",
+        "gallery": [
+          "theme:images/product-saffron-bagru-kurta-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "6204",
+        "stock": 18,
+        "featured": true,
+        "short_description": "Bright saffron kurta with traditional Bagru motifs and a mandarin collar.",
+        "description": "<p>Bright saffron kurta with traditional Bagru motifs and a mandarin collar.</p><h3>Details</h3><ul><li>100% cotton, handblock printed</li><li>Gentle hand wash in cold water</li><li>Made in Jaipur, Rajasthan</li></ul>",
+        "sku": "KT-KUR-002",
+        "option_name": "Size",
+        "variants": [
+          {
+            "label": "S",
+            "price": 169000,
+            "stock": 4,
+            "sku": "KT-KUR-002-1"
+          },
+          {
+            "label": "M",
+            "price": 169000,
+            "stock": 4,
+            "sku": "KT-KUR-002-2"
+          },
+          {
+            "label": "L",
+            "price": 169000,
+            "stock": 4,
+            "sku": "KT-KUR-002-3"
+          },
+          {
+            "label": "XL",
+            "price": 179000,
+            "stock": 4,
+            "sku": "KT-KUR-002-4"
+          }
+        ]
+      },
+      {
+        "name": "Rose Butti Kurta",
+        "slug": "rose-butti-kurta",
+        "category": "kurtas",
+        "price": 159000,
+        "image": "theme:images/product-rose-butti-kurta.svg",
+        "gallery": [
+          "theme:images/product-rose-butti-kurta-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "6204",
+        "stock": 3,
+        "featured": false,
+        "short_description": "Soft pink kurta with tiny hand-printed buttis and a scalloped hem.",
+        "description": "<p>Soft pink kurta with tiny hand-printed buttis and a scalloped hem.</p><h3>Details</h3><ul><li>100% cotton, handblock printed</li><li>Gentle hand wash in cold water</li><li>Made in Jaipur, Rajasthan</li></ul>",
+        "sku": "KT-KUR-003"
+      },
+      {
+        "name": "Sage Leaf Kurta",
+        "slug": "sage-leaf-kurta",
+        "category": "kurtas",
+        "price": 175000,
+        "image": "theme:images/product-sage-leaf-kurta.svg",
+        "gallery": [
+          "theme:images/product-sage-leaf-kurta-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "6204",
+        "stock": 0,
+        "featured": false,
+        "short_description": "Sage green kurta with a hand-printed leaf trail and side pockets.",
+        "description": "<p>Sage green kurta with a hand-printed leaf trail and side pockets.</p><h3>Details</h3><ul><li>100% cotton, handblock printed</li><li>Gentle hand wash in cold water</li><li>Made in Jaipur, Rajasthan</li></ul>",
+        "sku": "KT-KUR-004"
+      },
+      {
+        "name": "Mulmul Saree — Marigold",
+        "slug": "mulmul-saree-marigold",
+        "category": "sarees",
+        "price": 329000,
+        "image": "theme:images/product-mulmul-saree-marigold.svg",
+        "gallery": [
+          "theme:images/product-mulmul-saree-marigold-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "5208",
+        "stock": 9,
+        "featured": true,
+        "short_description": "Feather-light mulmul saree with marigold flowers and a printed border.",
+        "description": "<p>Feather-light mulmul saree with marigold flowers and a printed border.</p><h3>Details</h3><ul><li>Mulmul cotton, 5.5 m with blouse piece</li><li>Dry clean or gentle hand wash</li><li>Printed in Bagru, Rajasthan</li></ul>",
+        "sku": "KT-SAR-005",
+        "compare_price": 389000,
+        "badge": "New"
+      },
+      {
+        "name": "Mulmul Saree — Indigo",
+        "slug": "mulmul-saree-indigo",
+        "category": "sarees",
+        "price": 349000,
+        "image": "theme:images/product-mulmul-saree-indigo.svg",
+        "gallery": [
+          "theme:images/product-mulmul-saree-indigo-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "5208",
+        "stock": 7,
+        "featured": false,
+        "short_description": "Classic indigo saree with a white kalamkari-style border.",
+        "description": "<p>Classic indigo saree with a white kalamkari-style border.</p><h3>Details</h3><ul><li>Mulmul cotton, 5.5 m with blouse piece</li><li>Dry clean or gentle hand wash</li><li>Printed in Bagru, Rajasthan</li></ul>",
+        "sku": "KT-SAR-006"
+      },
+      {
+        "name": "Cotton Saree — Leheriya",
+        "slug": "cotton-saree-leheriya",
+        "category": "sarees",
+        "price": 279000,
+        "image": "theme:images/product-cotton-saree-leheriya.svg",
+        "gallery": [
+          "theme:images/product-cotton-saree-leheriya-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "5208",
+        "stock": 12,
+        "featured": false,
+        "short_description": "Wave-patterned leheriya saree in soft cotton.",
+        "description": "<p>Wave-patterned leheriya saree in soft cotton.</p><h3>Details</h3><ul><li>Mulmul cotton, 5.5 m with blouse piece</li><li>Dry clean or gentle hand wash</li><li>Printed in Bagru, Rajasthan</li></ul>",
+        "sku": "KT-SAR-007",
+        "badge": "Festive"
+      },
+      {
+        "name": "Block-print Tote",
+        "slug": "block-print-tote",
+        "category": "bags",
+        "price": 99000,
+        "image": "theme:images/product-block-print-tote.svg",
+        "gallery": [
+          "theme:images/product-block-print-tote-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "4202",
+        "stock": 30,
+        "featured": true,
+        "short_description": "A roomy lined tote in a classic Sanganeri print.",
+        "description": "<p>A roomy lined tote in a classic Sanganeri print.</p><h3>Details</h3><ul><li>Canvas with cotton lining</li><li>Inner zip pocket</li><li>Spot clean only</li></ul>",
+        "sku": "KT-BAG-008",
+        "compare_price": 129000
+      },
+      {
+        "name": "Indigo Sling Bag",
+        "slug": "indigo-sling-bag",
+        "category": "bags",
+        "price": 119000,
+        "image": "theme:images/product-indigo-sling-bag.svg",
+        "gallery": [
+          "theme:images/product-indigo-sling-bag-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "4202",
+        "stock": 14,
+        "featured": false,
+        "short_description": "A compact sling with an adjustable strap and zip pocket.",
+        "description": "<p>A compact sling with an adjustable strap and zip pocket.</p><h3>Details</h3><ul><li>Canvas with cotton lining</li><li>Inner zip pocket</li><li>Spot clean only</li></ul>",
+        "sku": "KT-BAG-009"
+      },
+      {
+        "name": "Mirror-work Clutch",
+        "slug": "mirror-work-clutch",
+        "category": "bags",
+        "price": 149000,
+        "image": "theme:images/product-mirror-work-clutch.svg",
+        "gallery": [
+          "theme:images/product-mirror-work-clutch-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "4202",
+        "stock": 6,
+        "featured": false,
+        "short_description": "Festive clutch with hand-stitched mirror work.",
+        "description": "<p>Festive clutch with hand-stitched mirror work.</p><h3>Details</h3><ul><li>Canvas with cotton lining</li><li>Inner zip pocket</li><li>Spot clean only</li></ul>",
+        "sku": "KT-BAG-010"
+      },
+      {
+        "name": "Gold Embroidered Jutti",
+        "slug": "gold-embroidered-jutti",
+        "category": "footwear",
+        "price": 169000,
+        "image": "theme:images/product-gold-embroidered-jutti.svg",
+        "gallery": [
+          "theme:images/product-gold-embroidered-jutti-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6403",
+        "stock": 10,
+        "featured": true,
+        "short_description": "Hand-embroidered juttis with a padded, comfortable sole.",
+        "description": "<p>Hand-embroidered juttis with a padded, comfortable sole.</p><h3>Details</h3><ul><li>Genuine leather upper</li><li>Cushioned insole</li><li>Handmade in Jaipur</li></ul>",
+        "sku": "KT-FOO-011",
+        "option_name": "Size",
+        "variants": [
+          {
+            "label": "UK 5",
+            "price": 169000,
+            "stock": 2,
+            "sku": "KT-FOO-011-1"
+          },
+          {
+            "label": "UK 6",
+            "price": 169000,
+            "stock": 2,
+            "sku": "KT-FOO-011-2"
+          },
+          {
+            "label": "UK 7",
+            "price": 169000,
+            "stock": 2,
+            "sku": "KT-FOO-011-3"
+          },
+          {
+            "label": "UK 8",
+            "price": 169000,
+            "stock": 2,
+            "sku": "KT-FOO-011-4"
+          }
+        ]
+      },
+      {
+        "name": "Classic Tan Jutti",
+        "slug": "classic-tan-jutti",
+        "category": "footwear",
+        "price": 139000,
+        "image": "theme:images/product-classic-tan-jutti.svg",
+        "gallery": [
+          "theme:images/product-classic-tan-jutti-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6403",
+        "stock": 16,
+        "featured": false,
+        "short_description": "Everyday tan leather juttis that soften with wear.",
+        "description": "<p>Everyday tan leather juttis that soften with wear.</p><h3>Details</h3><ul><li>Genuine leather upper</li><li>Cushioned insole</li><li>Handmade in Jaipur</li></ul>",
+        "sku": "KT-FOO-012"
+      }
+    ],
+    "coupons": [
+      {
+        "code": "FIRST10",
+        "description": "10% off your first order (up to ₹300)",
+        "type": "percent",
+        "value": 10,
+        "min_order": 149900,
+        "max_discount": 30000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free delivery on any order above ₹799",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 79900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "New: the festive edit",
+            "heading": "Heritage prints, made for today.",
+            "subheading": "Handblock-printed kurtas, cotton sarees and handcrafted accessories — made in small batches by Jaipur artisans.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "Free delivery above ₹1,499"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Easy 10-day returns"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "Cash on delivery"
+              }
+            ]
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Bestsellers",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Printed by hand, one block at a time",
+            "description": "<p>Kesar Threads began in 2014 with a single printing table in Sanganer. Today we work with 40 artisan families who carve the blocks, mix natural dyes and print every metre of fabric by hand.</p><p>We design pieces that feel easy to wear every day and special enough for celebrations — and we pay our makers fairly for their craft.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2014",
+            "experience_label": "Printing by hand since",
+            "points": [
+              {
+                "text": "Natural and AZO-free dyes"
+              },
+              {
+                "text": "40 artisan families"
+              },
+              {
+                "text": "Small-batch production"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-brush",
+                "title": "Printed by hand",
+                "description": "Every piece is block-printed by artisan families."
+              },
+              {
+                "icon": "bi-truck",
+                "title": "Free delivery over ₹1,499",
+                "description": "Shipped in 2–3 days across India."
+              },
+              {
+                "icon": "bi-cash-coin",
+                "title": "Cash on delivery",
+                "description": "Or pay securely with UPI and cards."
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "title": "10-day returns",
+                "description": "Easy returns on unworn items."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "The indigo kurta is beautifully printed and the cotton is so soft. Already ordered a second one.",
+                "name": "Meghna S.",
+                "role": "Verified buyer · Pune",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "My mother loved the mulmul saree — light, elegant and the colours are gorgeous.",
+                "name": "Arjun K.",
+                "role": "Verified buyer · Delhi",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Quick delivery and the jutti fit perfectly. Very comfortable for a full day.",
+                "name": "Priya N.",
+                "role": "Verified buyer · Bengaluru",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Get 10% off your first order",
+            "description": "Use FIRST10 at checkout on orders above ₹1,499.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "Handblock-printed kurtas, sarees and accessories made with artisan families in Sanganer and Bagru.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Printed by hand, one block at a time",
+            "description": "<p>Kesar Threads began in 2014 with a single printing table in Sanganer. Today we work with 40 artisan families who carve the blocks, mix natural dyes and print every metre of fabric by hand.</p><p>We design pieces that feel easy to wear every day and special enough for celebrations — and we pay our makers fairly for their craft.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2014",
+            "experience_label": "Printing by hand since",
+            "points": [
+              {
+                "text": "Natural and AZO-free dyes"
+              },
+              {
+                "text": "40 artisan families"
+              },
+              {
+                "text": "Small-batch production"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "40",
+                "suffix": "",
+                "label": "Artisan families",
+                "icon": ""
+              },
+              {
+                "number": "85",
+                "suffix": "K+",
+                "label": "Happy customers",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Years of printing",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "Natural dyes",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Kesar Threads",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-kurtas.svg",
+                "caption": "Kurtas"
+              },
+              {
+                "image": "theme:images/cat-sarees.svg",
+                "caption": "Sarees"
+              },
+              {
+                "image": "theme:images/cat-bags.svg",
+                "caption": "Bags"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "How do I choose my size?",
+                "answer": "Each kurta page has a size chart; if you are between sizes, choose the larger one."
+              },
+              {
+                "question": "Will the colours run?",
+                "answer": "We use fixed natural dyes; wash separately in cold water for the first few washes."
+              },
+              {
+                "question": "Can I return or exchange?",
+                "answer": "Yes, within 10 days for unworn items with tags. Exchanges are free."
+              },
+              {
+                "question": "Do you ship outside India?",
+                "answer": "Not yet — we deliver across India only."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking and cash on delivery."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Ships in 2–3 days; delivered in 3–7 working days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Get 10% off your first order",
+            "description": "Use FIRST10 at checkout on orders above ₹1,499.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our Jaipur studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Ships in 2–3 days; delivered in 3–7 working days.</p><ul><li>Delivery is free on orders above ₹1,499; otherwise a flat ₹99 applies.</li><li>Cash on delivery is available for a ₹49 handling fee.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>Easy returns within 10 days on unworn items with tags.</p><p>To start a return, email hello@kesarthreads.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Kesar Threads collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

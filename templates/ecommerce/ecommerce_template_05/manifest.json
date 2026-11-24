@@ -1,0 +1,148 @@
+{
+  "id": "ecommerce_template_05",
+  "name": "Dew & Petal",
+  "category": "ecommerce",
+  "version": "1.0.0",
+  "description": "A soft, luxurious design for beauty, skincare and wellness brands: floating navigation with cart, a split hero, round category icons, product cards with hover quick-add and a berry promotion band.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact",
+    "ecommerce"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#B23A6F",
+      "secondary": "#E9A23B",
+      "bg": "#FFF8F6",
+      "text": "#2E1A22",
+      "heading_font": "dm-serif-display",
+      "body_font": "dm-sans",
+      "radius": "26px",
+      "button_style": "pill",
+      "header_style": "announce",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "announce": "With announcement bar",
+      "minimal": "No announcement bar"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "products",
+    "product_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "products",
+        "product_categories",
+        "about",
+        "products",
+        "features",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "gallery"
+      ]
+    },
+    "help": {
+      "default_sections": [
+        "page_banner",
+        "faq",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "Our Story",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Help & FAQ",
+      "slug": "help",
+      "type": "help"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Shipping & Returns",
+      "slug": "shipping-returns",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

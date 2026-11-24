@@ -134,6 +134,11 @@ background (set `bg`/`text` in `theme` accordingly).
   highlight only when the site sets one, so templates of other categories are unaffected.
 - Menu links never wrap on desktop; between 992 and 1400px they tighten and the emergency link shows only
   its number. Keep page titles short (one or two words) so seven menu items fit.
+- Shop chrome (announcement bar, shop icons, Shop menu, trust strip) renders only when the site's shop is
+  enabled, so other categories built from the same library are unaffected. Choose the product card with the
+  `product-card` variant (`overlay` or `plain`) and the category display with `product_categories`
+  (`tiles` or `circles`). Prefer non-`bar` headers for shops: the announcement bar already sits on top.
+- Demo shops never include payment keys or other secrets; prices are in paise.
 - Booking-form dropdown labels must not contain the word "date": the runtime validates any field whose
   label contains "date" as a calendar date, so such a dropdown could never be submitted. The education
   demo builder refuses to build if one does.
@@ -144,6 +149,7 @@ background (set `bg`/`text` in `theme` accordingly).
 |---|---|---|
 | Business | `images/business_images.py` | logistics, IT, agro exports, engineering, HR, solar, construction, legal, agency |
 | Hospital | `images/hospital_images.py` (18 clinical tiles, nine heroes, doctor portraits in white coats) | multi-speciality, dental, eye, children’s, diagnostics, physiotherapy, Ayurveda, maternity, cardiac |
+| E-commerce | `images/ecommerce_images.py` (about 40 product drawings: two images per product, category groups, shelf scenes, promo banners, customers) | fashion, electronics, grocery, beauty, jewellery, toys, coffee, sports, books |
 | Education | `images/education_images.py` (19 reusable tiles: classroom, lab, library, sports, music, stage, campus…) | preschool, coaching, engineering college, international school, coding bootcamp, performing arts, business school, language centre, boarding school |
 
 ## Adding a category

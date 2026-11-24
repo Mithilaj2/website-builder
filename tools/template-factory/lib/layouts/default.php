@@ -7,6 +7,7 @@
 </head>
 <body class="{{p}} {{p}}-mood-{{mood}} <?= $view->bodyClass() ?>">
 <a class="{{p}}-skip" href="#main">Skip to content</a>
+<?= $view->partial('announce') ?>
 <?= $view->partial('header') ?>
 <main id="main">
 <?= $content ?>

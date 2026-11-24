@@ -344,7 +344,7 @@ body.cse { background: var(--wb-bg); color: var(--cse-ink); font-family: var(--w
 .cse-hero-editorial .cse-hero-title { font-size: calc(clamp(2.6rem, 1.2rem + 5.4vw, 5.6rem) * var(--cse-hero-scale)); max-width: 1050px; line-height: 1.02; margin-bottom: 2.5rem; }
 .cse-hero-editorial .cse-eyebrow-hero { color: var(--cse-hl); }
 .cse-hero-editorial .cse-eyebrow-hero::before { content: ""; width: 40px; height: 2px; background: currentColor; }
-.cse-hero-editorial-row { border-top: 1px solid var(--cse-line-strong); padding-top: 2.5rem; }
+.cse-hero-editorial-row { border-top: 1px solid var(--cse-line-strong); margin-top: 0; padding-top: .5rem; }
 .cse-hero-editorial .cse-actions { margin-top: 1.75rem; }
 .cse-hero-editorial .cse-hero-frame { border-radius: var(--cse-radius); }
 .cse-hero-editorial .cse-hero-frame img { aspect-ratio: 16 / 10; }

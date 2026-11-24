@@ -1,0 +1,809 @@
+{
+  "settings": {
+    "site": {
+      "name": "Green Basket Organics",
+      "tagline": "Certified organic pantry staples",
+      "phone": "+91 20 6789 2200",
+      "email": "hello@greenbasket.example",
+      "address": "Survey 41, Baner–Pashan Link Road\nPune, Maharashtra 411021",
+      "hours": "Daily, 8 am – 8 pm",
+      "footer_about": "Organic grains, cold-pressed oils, raw honey and spices sourced directly from certified farms.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Green Basket Organics: certified organic pantry staples. Organic grains, cold-pressed oils, raw honey and spices sourced directly from certified farms.",
+      "keywords": "certified organic pantry staples, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Green Basket Organics",
+      "gstin": "",
+      "store_state": "Maharashtra",
+      "invoice_address": "Survey 41, Baner–Pashan Link Road, Pune, Maharashtra 411021",
+      "prices_include_tax": true,
+      "order_prefix": "GB",
+      "invoice_prefix": "GB/",
+      "shipping_flat": 4900,
+      "free_shipping_above": 99900,
+      "shipping_note": "Packed fresh; delivered in 1–3 days in Pune and Mumbai, 3–6 days elsewhere.",
+      "cod_enabled": true,
+      "cod_fee": 2900,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "Damaged or incorrect items replaced within 48 hours of delivery.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Grains & Flours",
+        "slug": "grains",
+        "description": "Millets, rice and stone-ground flours.",
+        "image": "theme:images/cat-grains.svg"
+      },
+      {
+        "name": "Oils & Ghee",
+        "slug": "oils",
+        "description": "Cold-pressed oils and A2 cow ghee.",
+        "image": "theme:images/cat-oils.svg"
+      },
+      {
+        "name": "Honey & Sweeteners",
+        "slug": "honey",
+        "description": "Raw honey, jaggery and natural sweeteners.",
+        "image": "theme:images/cat-honey.svg"
+      },
+      {
+        "name": "Spices",
+        "slug": "spices",
+        "description": "Single-origin turmeric, chilli and masalas.",
+        "image": "theme:images/cat-spices.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "Stone-ground Whole Wheat Atta",
+        "slug": "stone-ground-whole-wheat-atta",
+        "category": "grains",
+        "price": 34900,
+        "image": "theme:images/product-stone-ground-whole-wheat-atta.svg",
+        "gallery": [
+          "theme:images/product-stone-ground-whole-wheat-atta-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "1101",
+        "stock": 60,
+        "featured": true,
+        "short_description": "5 kg of chakki-fresh atta from organic Sharbati wheat.",
+        "description": "<p>5 kg of chakki-fresh atta from organic Sharbati wheat.</p><h3>Details</h3><ul><li>Certified organic</li><li>Stone-ground in small batches</li><li>Store in a cool, dry place</li></ul>",
+        "sku": "GB-GRA-001",
+        "compare_price": 39900,
+        "badge": "Bestseller"
+      },
+      {
+        "name": "Foxtail Millet",
+        "slug": "foxtail-millet",
+        "category": "grains",
+        "price": 18900,
+        "image": "theme:images/product-foxtail-millet.svg",
+        "gallery": [
+          "theme:images/product-foxtail-millet-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "1101",
+        "stock": 40,
+        "featured": false,
+        "short_description": "1 kg of organic foxtail millet — a light, high-fibre rice substitute.",
+        "description": "<p>1 kg of organic foxtail millet — a light, high-fibre rice substitute.</p><h3>Details</h3><ul><li>Certified organic</li><li>Stone-ground in small batches</li><li>Store in a cool, dry place</li></ul>",
+        "sku": "GB-GRA-002"
+      },
+      {
+        "name": "Indrayani Rice",
+        "slug": "indrayani-rice",
+        "category": "grains",
+        "price": 24900,
+        "image": "theme:images/product-indrayani-rice.svg",
+        "gallery": [
+          "theme:images/product-indrayani-rice-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "1101",
+        "stock": 35,
+        "featured": false,
+        "short_description": "Fragrant short-grain rice from the Maval hills.",
+        "description": "<p>Fragrant short-grain rice from the Maval hills.</p><h3>Details</h3><ul><li>Certified organic</li><li>Stone-ground in small batches</li><li>Store in a cool, dry place</li></ul>",
+        "sku": "GB-GRA-003"
+      },
+      {
+        "name": "Cold-pressed Groundnut Oil",
+        "slug": "cold-pressed-groundnut-oil",
+        "category": "oils",
+        "price": 39900,
+        "image": "theme:images/product-cold-pressed-groundnut-oil.svg",
+        "gallery": [
+          "theme:images/product-cold-pressed-groundnut-oil-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "1515",
+        "stock": 30,
+        "featured": true,
+        "short_description": "1 L of wood-pressed groundnut oil with natural aroma.",
+        "description": "<p>1 L of wood-pressed groundnut oil with natural aroma.</p><h3>Details</h3><ul><li>Wood-pressed (ghani)</li><li>No chemicals or heat</li><li>Glass bottle</li></ul>",
+        "sku": "GB-OIL-004",
+        "compare_price": 44900,
+        "option_name": "Size",
+        "variants": [
+          {
+            "label": "1 L",
+            "price": 39900,
+            "stock": 15,
+            "sku": "GB-OIL-004-1"
+          },
+          {
+            "label": "5 L",
+            "price": 189900,
+            "stock": 15,
+            "sku": "GB-OIL-004-2"
+          }
+        ]
+      },
+      {
+        "name": "Cold-pressed Coconut Oil",
+        "slug": "cold-pressed-coconut-oil",
+        "category": "oils",
+        "price": 44900,
+        "image": "theme:images/product-cold-pressed-coconut-oil.svg",
+        "gallery": [
+          "theme:images/product-cold-pressed-coconut-oil-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "1515",
+        "stock": 22,
+        "featured": false,
+        "short_description": "Kerala coconut oil for cooking, skin and hair.",
+        "description": "<p>Kerala coconut oil for cooking, skin and hair.</p><h3>Details</h3><ul><li>Wood-pressed (ghani)</li><li>No chemicals or heat</li><li>Glass bottle</li></ul>",
+        "sku": "GB-OIL-005"
+      },
+      {
+        "name": "A2 Cow Ghee",
+        "slug": "a2-cow-ghee",
+        "category": "oils",
+        "price": 119900,
+        "image": "theme:images/product-a2-cow-ghee.svg",
+        "gallery": [
+          "theme:images/product-a2-cow-ghee-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "1515",
+        "stock": 15,
+        "featured": true,
+        "short_description": "Bilona-churned ghee from grass-fed Gir cows.",
+        "description": "<p>Bilona-churned ghee from grass-fed Gir cows.</p><h3>Details</h3><ul><li>Wood-pressed (ghani)</li><li>No chemicals or heat</li><li>Glass bottle</li></ul>",
+        "sku": "GB-OIL-006",
+        "compare_price": 134900,
+        "badge": "Small batch"
+      },
+      {
+        "name": "Raw Forest Honey",
+        "slug": "raw-forest-honey",
+        "category": "honey",
+        "price": 54900,
+        "image": "theme:images/product-raw-forest-honey.svg",
+        "gallery": [
+          "theme:images/product-raw-forest-honey-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "0409",
+        "stock": 25,
+        "featured": true,
+        "short_description": "Unheated multiflora honey from the Western Ghats.",
+        "description": "<p>Unheated multiflora honey from the Western Ghats.</p><h3>Details</h3><ul><li>Raw and unprocessed</li><li>Lab-tested purity</li><li>Glass jar</li></ul>",
+        "sku": "GB-HON-007"
+      },
+      {
+        "name": "Organic Jaggery Powder",
+        "slug": "organic-jaggery-powder",
+        "category": "honey",
+        "price": 19900,
+        "image": "theme:images/product-organic-jaggery-powder.svg",
+        "gallery": [
+          "theme:images/product-organic-jaggery-powder-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "0409",
+        "stock": 45,
+        "featured": false,
+        "short_description": "Chemical-free jaggery powder from Kolhapur.",
+        "description": "<p>Chemical-free jaggery powder from Kolhapur.</p><h3>Details</h3><ul><li>Raw and unprocessed</li><li>Lab-tested purity</li><li>Glass jar</li></ul>",
+        "sku": "GB-HON-008"
+      },
+      {
+        "name": "Lakadong Turmeric",
+        "slug": "lakadong-turmeric",
+        "category": "spices",
+        "price": 24900,
+        "image": "theme:images/product-lakadong-turmeric.svg",
+        "gallery": [
+          "theme:images/product-lakadong-turmeric-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0910",
+        "stock": 50,
+        "featured": true,
+        "short_description": "High-curcumin turmeric from Meghalaya.",
+        "description": "<p>High-curcumin turmeric from Meghalaya.</p><h3>Details</h3><ul><li>Sun-dried and stone-ground</li><li>No colours or fillers</li><li>Resealable pouch</li></ul>",
+        "sku": "GB-SPI-009",
+        "compare_price": 29900,
+        "badge": "New"
+      },
+      {
+        "name": "Kashmiri Chilli Powder",
+        "slug": "kashmiri-chilli-powder",
+        "category": "spices",
+        "price": 22900,
+        "image": "theme:images/product-kashmiri-chilli-powder.svg",
+        "gallery": [
+          "theme:images/product-kashmiri-chilli-powder-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0910",
+        "stock": 3,
+        "featured": false,
+        "short_description": "Deep red, mildly hot Kashmiri chilli.",
+        "description": "<p>Deep red, mildly hot Kashmiri chilli.</p><h3>Details</h3><ul><li>Sun-dried and stone-ground</li><li>No colours or fillers</li><li>Resealable pouch</li></ul>",
+        "sku": "GB-SPI-010"
+      },
+      {
+        "name": "Goda Masala",
+        "slug": "goda-masala",
+        "category": "spices",
+        "price": 17900,
+        "image": "theme:images/product-goda-masala.svg",
+        "gallery": [
+          "theme:images/product-goda-masala-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0910",
+        "stock": 0,
+        "featured": false,
+        "short_description": "Traditional Maharashtrian spice blend.",
+        "description": "<p>Traditional Maharashtrian spice blend.</p><h3>Details</h3><ul><li>Sun-dried and stone-ground</li><li>No colours or fillers</li><li>Resealable pouch</li></ul>",
+        "sku": "GB-SPI-011"
+      },
+      {
+        "name": "Himalayan Pink Salt",
+        "slug": "himalayan-pink-salt",
+        "category": "spices",
+        "price": 14900,
+        "image": "theme:images/product-himalayan-pink-salt.svg",
+        "gallery": [
+          "theme:images/product-himalayan-pink-salt-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0910",
+        "stock": 70,
+        "featured": false,
+        "short_description": "Unrefined rock salt, finely ground.",
+        "description": "<p>Unrefined rock salt, finely ground.</p><h3>Details</h3><ul><li>Sun-dried and stone-ground</li><li>No colours or fillers</li><li>Resealable pouch</li></ul>",
+        "sku": "GB-SPI-012"
+      }
+    ],
+    "coupons": [
+      {
+        "code": "FRESH10",
+        "description": "10% off orders above ₹999 (up to ₹200)",
+        "type": "percent",
+        "value": 10,
+        "min_order": 99900,
+        "max_discount": 20000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free delivery above ₹599",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 59900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Farm-direct, certified organic",
+            "heading": "Real food, straight from the farm.",
+            "subheading": "Stone-ground atta, cold-pressed oils, raw forest honey and single-origin spices — tested for purity and delivered fresh.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "Certified organic"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Lab-tested every batch"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "Free delivery above ₹999"
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-patch-check",
+                "title": "Certified organic",
+                "description": "From certified organic partner farms."
+              },
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Lab tested",
+                "description": "Every batch checked for purity."
+              },
+              {
+                "icon": "bi-truck",
+                "title": "Fresh delivery",
+                "description": "Packed to order, delivered in days."
+              },
+              {
+                "icon": "bi-recycle",
+                "title": "Less plastic",
+                "description": "Glass jars and paper pouches."
+              }
+            ]
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Pantry favourites",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "From 60 farms to your kitchen",
+            "description": "<p>Green Basket began with a weekly farmers’ market in Pune. We now source from 60 certified organic farms across Maharashtra, Karnataka and the Himalayas.</p><p>Every batch is tested for pesticides and adulteration before it is packed in our Pune facility.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2015",
+            "experience_label": "Sourcing organic since",
+            "points": [
+              {
+                "text": "Certified organic partner farms"
+              },
+              {
+                "text": "Pesticide-tested batches"
+              },
+              {
+                "text": "Plastic-light packaging"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "60",
+                "suffix": "",
+                "label": "Partner farms",
+                "icon": ""
+              },
+              {
+                "number": "1.2",
+                "suffix": "L+",
+                "label": "Families served",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "+",
+                "label": "Products",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "Batches lab-tested",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "The A2 ghee tastes exactly like my grandmother’s. We will not buy any other now.",
+                "name": "Anjali D.",
+                "role": "Verified buyer · Pune",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Honey is truly raw — it crystallised in winter, which is a good sign!",
+                "name": "Kunal P.",
+                "role": "Verified buyer · Mumbai",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Atta makes the softest rotis. Delivery always on time.",
+                "name": "Rekha M.",
+                "role": "Verified buyer · Nashik",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Soil First",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Farm Fresh",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "PureTest Labs",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Kitchen Co-op",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-5.svg",
+                "name": "GreenPack",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "First order? Save 10%",
+            "description": "Use FRESH10 on orders above ₹999.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "Organic grains, cold-pressed oils, raw honey and spices sourced directly from certified farms.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "From 60 farms to your kitchen",
+            "description": "<p>Green Basket began with a weekly farmers’ market in Pune. We now source from 60 certified organic farms across Maharashtra, Karnataka and the Himalayas.</p><p>Every batch is tested for pesticides and adulteration before it is packed in our Pune facility.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2015",
+            "experience_label": "Sourcing organic since",
+            "points": [
+              {
+                "text": "Certified organic partner farms"
+              },
+              {
+                "text": "Pesticide-tested batches"
+              },
+              {
+                "text": "Plastic-light packaging"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "60",
+                "suffix": "",
+                "label": "Partner farms",
+                "icon": ""
+              },
+              {
+                "number": "1.2",
+                "suffix": "L+",
+                "label": "Families served",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "+",
+                "label": "Products",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "Batches lab-tested",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Green Basket Organics",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-grains.svg",
+                "caption": "Grains & Flours"
+              },
+              {
+                "image": "theme:images/cat-oils.svg",
+                "caption": "Oils & Ghee"
+              },
+              {
+                "image": "theme:images/cat-honey.svg",
+                "caption": "Honey & Sweeteners"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Are all products certified organic?",
+                "answer": "Yes, from certified farms; certificates are available on request."
+              },
+              {
+                "question": "Why did my honey crystallise?",
+                "answer": "Raw honey crystallises naturally in cool weather — warm the jar gently."
+              },
+              {
+                "question": "What is your delivery area?",
+                "answer": "We deliver across India; Pune and Mumbai usually within a day."
+              },
+              {
+                "question": "Can I return food items?",
+                "answer": "Damaged or incorrect items are replaced within 48 hours."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking and cash on delivery."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Packed fresh; delivered in 1–3 days in Pune and Mumbai, 3–6 days elsewhere."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "First order? Save 10%",
+            "description": "Use FRESH10 on orders above ₹999.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our Pune studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Packed fresh; delivered in 1–3 days in Pune and Mumbai, 3–6 days elsewhere.</p><ul><li>Delivery is free on orders above ₹999; otherwise a flat ₹49 applies.</li><li>Cash on delivery is available for a ₹29 handling fee.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>Damaged or incorrect items replaced within 48 hours of delivery.</p><p>To start a return, email hello@greenbasket.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Green Basket Organics collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

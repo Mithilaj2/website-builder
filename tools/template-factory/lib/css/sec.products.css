@@ -1,0 +1,16 @@
+/* Runtime shop pages (catalogue, product, cart, checkout) follow this template's look. */
+.{{p}} .wbshop { --s-r: var(--{{p}}-radius-lg); color: var(--{{p}}-ink); }
+.{{p}} .wbshop-title, .{{p}} .wbshop h2 { font-weight: var(--{{p}}-hw); letter-spacing: var(--{{p}}-track); color: var(--{{p}}-hero-ink); }
+.{{p}} .wbshop .wbshop-btn { background: var(--{{p}}-accent); border-color: var(--{{p}}-accent); color: var(--{{p}}-on-accent); font-family: var(--{{p}}-btn-font); text-transform: var(--{{p}}-btn-case); letter-spacing: var(--{{p}}-btn-track); }
+.{{p}} .wbshop .wbshop-btn:hover { background: var(--{{p}}-accent-hover); border-color: var(--{{p}}-accent-hover); color: var(--{{p}}-on-accent-hover); filter: none; }
+.{{p}} .wbshop .wbshop-btn-dark { background: var(--{{p}}-deep); border-color: var(--{{p}}-deep); color: #fff; }
+.{{p}}-mood-dark .wbshop .wbshop-btn-dark { background: var(--wb-primary); border-color: var(--wb-primary); color: var(--wb-on-primary); }
+.{{p}} .wbshop .wbshop-btn-ghost { background: transparent; color: var(--{{p}}-ink); border-color: var(--{{p}}-line-strong); }
+.{{p}} .wbshop .wbshop-btn-ghost:hover { border-color: var(--{{p}}-ink); color: var(--{{p}}-ink); }
+.{{p}} .wbshop-box, .{{p}} .wbshop-summary { background: var(--{{p}}-card); border-color: var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); }
+.{{p}} .wbshop .wbshop-chip { border-radius: 999px; border-color: var(--{{p}}-line-strong); color: var(--{{p}}-ink); }
+.{{p}} .wbshop .wbshop-chip.is-active { background: var(--{{p}}-accent); border-color: var(--{{p}}-accent); color: var(--{{p}}-on-accent); }
+.{{p}} .wbshop .wbshop-chip.is-active small { color: inherit; opacity: .75; }
+.{{p}} .wbshop-gallery-main, .{{p}} .wbshop-thumbs img { border-radius: var(--{{p}}-radius-lg); background: var(--{{p}}-surface); }
+.{{p}} .wbshop-crumbs a:hover, .{{p}} .wbshop .wbshop-link { color: var(--{{p}}-link); }
+.{{p}}-mood-dark .wbshop-tools input, .{{p}}-mood-dark .wbshop-tools select, .{{p}}-mood-dark .wbshop-coupon input, .{{p}}-mood-dark .wbshop-fields :is(input, select, textarea) { background: var(--{{p}}-field); color: var(--{{p}}-ink); border-color: var(--{{p}}-line); }

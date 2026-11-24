@@ -288,7 +288,7 @@ body.hbc { background: var(--wb-bg); color: var(--hbc-ink); font-family: var(--w
 .hbc-hero-editorial .hbc-hero-title { font-size: calc(clamp(2.6rem, 1.2rem + 5.4vw, 5.6rem) * var(--hbc-hero-scale)); max-width: 1050px; line-height: 1.02; margin-bottom: 2.5rem; }
 .hbc-hero-editorial .hbc-eyebrow-hero { color: var(--hbc-hl); }
 .hbc-hero-editorial .hbc-eyebrow-hero::before { content: ""; width: 40px; height: 2px; background: currentColor; }
-.hbc-hero-editorial-row { border-top: 1px solid var(--hbc-line-strong); padding-top: 2.5rem; }
+.hbc-hero-editorial-row { border-top: 1px solid var(--hbc-line-strong); margin-top: 0; padding-top: .5rem; }
 .hbc-hero-editorial .hbc-actions { margin-top: 1.75rem; }
 .hbc-hero-editorial .hbc-hero-frame { border-radius: var(--hbc-radius); }
 .hbc-hero-editorial .hbc-hero-frame img { aspect-ratio: 16 / 10; }

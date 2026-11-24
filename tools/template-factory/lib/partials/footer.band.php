@@ -14,6 +14,7 @@ $address = (string) $view->site('address');
       <?php if ($address !== ''): ?><div class="{{p}}-footer-card"><span class="{{p}}-icon"><i class="bi bi-geo-alt"></i></span><span><small>Visit us</small><strong><?= $view->e(strtok($address, "\n")) ?></strong></span></div><?php endif; ?>
     </div>
     <?php endif; ?>
+    <?= $view->partial('shop-trust') ?>
     <div class="row g-4 g-lg-5">
       <div class="col-lg-5">
         <?= $view->partial('brand', ['class' => '{{p}}-brand-footer']) ?>

@@ -1,0 +1,68 @@
+{
+  "id": "ecommerce_template_04",
+  "name": "Green Basket",
+  "prefix": "gbo",
+  "niche": "grocery",
+  "seed": 4,
+  "direction": "Fresh and wholesome: dark green navigation, colour-panel hero, leaf green and mustard on cream, Fraunces headings, round category icons, tinted product cards.",
+  "description": "A fresh, wholesome design for organic food, grocery and farm-to-table stores: dark navigation with cart, a colour-panel hero, round category icons, product cards with add-to-cart and a split promotion.",
+  "theme": {
+    "primary": "#2F6B4F",
+    "secondary": "#E7C15A",
+    "bg": "#FAF8F1",
+    "text": "#1E2A22",
+    "heading_font": "fraunces",
+    "body_font": "dm-sans",
+    "radius": "18px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "panel",
+    "banner": "solid",
+    "head": "rule",
+    "card": "tint",
+    "product-card": "plain",
+    "product_categories": "circles",
+    "about": "single",
+    "stats": "cards",
+    "testimonials": "cards",
+    "cta": "split",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "boxed",
+    "footer": "band"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "-.01em",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "featured_heading": "Pantry favourites",
+    "home": [
+      "hero",
+      "features",
+      "product_categories",
+      "products",
+      "about",
+      "products_new",
+      "stats",
+      "testimonials",
+      "logos",
+      "cta"
+    ]
+  },
+  "category": "ecommerce",
+  "version": "1.0.0"
+}

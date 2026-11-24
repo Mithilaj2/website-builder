@@ -1,6 +1,7 @@
 <?php $menu = $view->menu('header'); $about = (string) $view->site('footer_about', $view->site('tagline')); ?>
 <footer class="{{p}}-footer {{p}}-footer-centered">
   <div class="container text-center">
+    <?= $view->partial('shop-trust') ?>
     <?= $view->partial('brand', ['class' => '{{p}}-brand-footer']) ?>
     <?php if ($about !== ''): ?><p class="{{p}}-footer-about mx-auto"><?= $view->e($about) ?></p><?php endif; ?>
     <ul class="{{p}}-footer-inline">

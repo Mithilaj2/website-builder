@@ -1,0 +1,64 @@
+{
+  "id": "ecommerce_template_07",
+  "name": "Tiny Tales",
+  "prefix": "ttt",
+  "niche": "toys",
+  "seed": 7,
+  "direction": "Bright and playful: floating pill navigation, centred hero over a toy panorama, sky blue and sunshine on cream, Poppins, round category icons, bold rounded cards.",
+  "description": "A bright, playful design for toy, kids and gift stores: floating navigation with cart, a centred hero, round category icons, product cards with add-to-cart buttons and contact cards above the footer.",
+  "theme": {
+    "primary": "#2F7CEB",
+    "secondary": "#FFC93C",
+    "bg": "#FFFDF7",
+    "text": "#1C2340",
+    "heading_font": "poppins",
+    "body_font": "dm-sans",
+    "radius": "22px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "stack",
+    "banner": "light",
+    "head": "pill",
+    "card": "shadow",
+    "product-card": "plain",
+    "product_categories": "circles",
+    "about": "grid",
+    "stats": "cards",
+    "testimonials": "cards",
+    "cta": "box",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "boxed",
+    "footer": "band"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "50%",
+    "mark_radius": "50%",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "featured_heading": "Most-loved toys",
+    "home": [
+      "hero",
+      "product_categories",
+      "products",
+      "features",
+      "about",
+      "products_new",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "ecommerce",
+  "version": "1.0.0"
+}

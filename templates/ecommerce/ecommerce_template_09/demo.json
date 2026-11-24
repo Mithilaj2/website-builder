@@ -1,0 +1,779 @@
+{
+  "settings": {
+    "site": {
+      "name": "Stride Sports",
+      "tagline": "Running, training and cricket gear",
+      "phone": "+91 11 4600 7788",
+      "email": "team@stridesports.example",
+      "address": "M-Block Market, Greater Kailash II\nNew Delhi 110048",
+      "hours": "Daily, 10 am – 9 pm",
+      "footer_about": "Running shoes, home-gym equipment, yoga gear and cricket kits — tested by athletes.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Stride Sports: running, training and cricket gear. Running shoes, home-gym equipment, yoga gear and cricket kits — tested by athletes.",
+      "keywords": "running, training and cricket gear, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Stride Sports",
+      "gstin": "",
+      "store_state": "Delhi",
+      "invoice_address": "M-Block Market, Greater Kailash II, New Delhi 110048",
+      "prices_include_tax": true,
+      "order_prefix": "SS",
+      "invoice_prefix": "SS/",
+      "shipping_flat": 9900,
+      "free_shipping_above": 199900,
+      "shipping_note": "Ships in 24 hours; delivered in 2–4 working days.",
+      "cod_enabled": true,
+      "cod_fee": 4900,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "Free size exchange within 15 days; returns on unused items.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Running",
+        "slug": "running",
+        "description": "Running shoes for road and trail.",
+        "image": "theme:images/cat-running.svg"
+      },
+      {
+        "name": "Training",
+        "slug": "training",
+        "description": "Dumbbells and home-gym equipment.",
+        "image": "theme:images/cat-training.svg"
+      },
+      {
+        "name": "Yoga",
+        "slug": "yoga",
+        "description": "Mats, blocks and straps.",
+        "image": "theme:images/cat-yoga.svg"
+      },
+      {
+        "name": "Cricket",
+        "slug": "cricket",
+        "description": "Bats, balls and kits.",
+        "image": "theme:images/cat-cricket.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "AeroRun Road Shoes",
+        "slug": "aerorun-road-shoes",
+        "category": "running",
+        "price": 399900,
+        "image": "theme:images/product-aerorun-road-shoes.svg",
+        "gallery": [
+          "theme:images/product-aerorun-road-shoes-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6404",
+        "stock": 30,
+        "featured": true,
+        "short_description": "Lightweight daily trainers with responsive foam.",
+        "description": "<p>Lightweight daily trainers with responsive foam.</p><h3>Details</h3><ul><li>Breathable mesh upper</li><li>Cushioned midsole</li><li>Free size exchange</li></ul>",
+        "sku": "SS-RUN-001",
+        "compare_price": 499900,
+        "badge": "Bestseller",
+        "option_name": "Size",
+        "variants": [
+          {
+            "label": "UK 7",
+            "price": 399900,
+            "stock": 7,
+            "sku": "SS-RUN-001-1"
+          },
+          {
+            "label": "UK 8",
+            "price": 399900,
+            "stock": 7,
+            "sku": "SS-RUN-001-2"
+          },
+          {
+            "label": "UK 9",
+            "price": 399900,
+            "stock": 7,
+            "sku": "SS-RUN-001-3"
+          },
+          {
+            "label": "UK 10",
+            "price": 399900,
+            "stock": 7,
+            "sku": "SS-RUN-001-4"
+          }
+        ]
+      },
+      {
+        "name": "AeroRun Women’s",
+        "slug": "aerorun-women-s",
+        "category": "running",
+        "price": 399900,
+        "image": "theme:images/product-aerorun-women-s.svg",
+        "gallery": [
+          "theme:images/product-aerorun-women-s-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6404",
+        "stock": 22,
+        "featured": true,
+        "short_description": "Women’s fit with a softer heel collar.",
+        "description": "<p>Women’s fit with a softer heel collar.</p><h3>Details</h3><ul><li>Breathable mesh upper</li><li>Cushioned midsole</li><li>Free size exchange</li></ul>",
+        "sku": "SS-RUN-002",
+        "compare_price": 499900
+      },
+      {
+        "name": "TrailGrip Shoes",
+        "slug": "trailgrip-shoes",
+        "category": "running",
+        "price": 459900,
+        "image": "theme:images/product-trailgrip-shoes.svg",
+        "gallery": [
+          "theme:images/product-trailgrip-shoes-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6404",
+        "stock": 12,
+        "featured": false,
+        "short_description": "Grippy outsole for trails and wet roads.",
+        "description": "<p>Grippy outsole for trails and wet roads.</p><h3>Details</h3><ul><li>Breathable mesh upper</li><li>Cushioned midsole</li><li>Free size exchange</li></ul>",
+        "sku": "SS-RUN-003"
+      },
+      {
+        "name": "Hex Dumbbell Pair — 5 kg",
+        "slug": "hex-dumbbell-pair-5-kg",
+        "category": "training",
+        "price": 199900,
+        "image": "theme:images/product-hex-dumbbell-pair-5-kg.svg",
+        "gallery": [
+          "theme:images/product-hex-dumbbell-pair-5-kg-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9506",
+        "stock": 25,
+        "featured": true,
+        "short_description": "Rubber-coated hex dumbbells that do not roll.",
+        "description": "<p>Rubber-coated hex dumbbells that do not roll.</p><h3>Details</h3><ul><li>Rubber-coated</li><li>Anti-roll design</li><li>1-year warranty</li></ul>",
+        "sku": "SS-TRA-004",
+        "compare_price": 239900,
+        "option_name": "Weight",
+        "variants": [
+          {
+            "label": "2.5 kg pair",
+            "price": 129900,
+            "stock": 8,
+            "sku": "SS-TRA-004-1"
+          },
+          {
+            "label": "5 kg pair",
+            "price": 199900,
+            "stock": 8,
+            "sku": "SS-TRA-004-2"
+          },
+          {
+            "label": "10 kg pair",
+            "price": 349900,
+            "stock": 8,
+            "sku": "SS-TRA-004-3"
+          }
+        ]
+      },
+      {
+        "name": "Neoprene Dumbbells",
+        "slug": "neoprene-dumbbells",
+        "category": "training",
+        "price": 89900,
+        "image": "theme:images/product-neoprene-dumbbells.svg",
+        "gallery": [
+          "theme:images/product-neoprene-dumbbells-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9506",
+        "stock": 40,
+        "featured": false,
+        "short_description": "Colour-coded neoprene dumbbells for home workouts.",
+        "description": "<p>Colour-coded neoprene dumbbells for home workouts.</p><h3>Details</h3><ul><li>Rubber-coated</li><li>Anti-roll design</li><li>1-year warranty</li></ul>",
+        "sku": "SS-TRA-005"
+      },
+      {
+        "name": "ProGrip Yoga Mat",
+        "slug": "progrip-yoga-mat",
+        "category": "yoga",
+        "price": 149900,
+        "image": "theme:images/product-progrip-yoga-mat.svg",
+        "gallery": [
+          "theme:images/product-progrip-yoga-mat-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9506",
+        "stock": 35,
+        "featured": true,
+        "short_description": "6 mm non-slip mat with alignment lines.",
+        "description": "<p>6 mm non-slip mat with alignment lines.</p><h3>Details</h3><ul><li>Non-slip surface</li><li>Free of PVC</li><li>Easy to clean</li></ul>",
+        "sku": "SS-YOG-006",
+        "compare_price": 179900,
+        "badge": "New"
+      },
+      {
+        "name": "Travel Yoga Mat",
+        "slug": "travel-yoga-mat",
+        "category": "yoga",
+        "price": 119900,
+        "image": "theme:images/product-travel-yoga-mat.svg",
+        "gallery": [
+          "theme:images/product-travel-yoga-mat-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9506",
+        "stock": 2,
+        "featured": false,
+        "short_description": "Foldable 2 mm mat for travel.",
+        "description": "<p>Foldable 2 mm mat for travel.</p><h3>Details</h3><ul><li>Non-slip surface</li><li>Free of PVC</li><li>Easy to clean</li></ul>",
+        "sku": "SS-YOG-007"
+      },
+      {
+        "name": "Cork Yoga Mat",
+        "slug": "cork-yoga-mat",
+        "category": "yoga",
+        "price": 229900,
+        "image": "theme:images/product-cork-yoga-mat.svg",
+        "gallery": [
+          "theme:images/product-cork-yoga-mat-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9506",
+        "stock": 0,
+        "featured": false,
+        "short_description": "Natural cork mat with rubber base.",
+        "description": "<p>Natural cork mat with rubber base.</p><h3>Details</h3><ul><li>Non-slip surface</li><li>Free of PVC</li><li>Easy to clean</li></ul>",
+        "sku": "SS-YOG-008"
+      },
+      {
+        "name": "English Willow Bat",
+        "slug": "english-willow-bat",
+        "category": "cricket",
+        "price": 899900,
+        "image": "theme:images/product-english-willow-bat.svg",
+        "gallery": [
+          "theme:images/product-english-willow-bat-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9506",
+        "stock": 8,
+        "featured": true,
+        "short_description": "Grade-1 English willow, knocked-in and ready to play.",
+        "description": "<p>Grade-1 English willow, knocked-in and ready to play.</p><h3>Details</h3><ul><li>Grade-1 English willow</li><li>Knocked-in and ready</li><li>Free bat cover</li></ul>",
+        "sku": "SS-CRI-009",
+        "compare_price": 1099900
+      },
+      {
+        "name": "Kashmir Willow Bat",
+        "slug": "kashmir-willow-bat",
+        "category": "cricket",
+        "price": 249900,
+        "image": "theme:images/product-kashmir-willow-bat.svg",
+        "gallery": [
+          "theme:images/product-kashmir-willow-bat-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9506",
+        "stock": 20,
+        "featured": false,
+        "short_description": "Durable Kashmir willow for practice and club matches.",
+        "description": "<p>Durable Kashmir willow for practice and club matches.</p><h3>Details</h3><ul><li>Grade-1 English willow</li><li>Knocked-in and ready</li><li>Free bat cover</li></ul>",
+        "sku": "SS-CRI-010"
+      },
+      {
+        "name": "Club Cricket Kit",
+        "slug": "club-cricket-kit",
+        "category": "cricket",
+        "price": 699900,
+        "image": "theme:images/product-club-cricket-kit.svg",
+        "gallery": [
+          "theme:images/product-club-cricket-kit-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "9506",
+        "stock": 6,
+        "featured": false,
+        "short_description": "Bat, pads, gloves and kit bag for juniors.",
+        "description": "<p>Bat, pads, gloves and kit bag for juniors.</p><h3>Details</h3><ul><li>Grade-1 English willow</li><li>Knocked-in and ready</li><li>Free bat cover</li></ul>",
+        "sku": "SS-CRI-011",
+        "badge": "Combo"
+      },
+      {
+        "name": "Junior Running Shoes",
+        "slug": "junior-running-shoes",
+        "category": "running",
+        "price": 229900,
+        "image": "theme:images/product-junior-running-shoes.svg",
+        "gallery": [
+          "theme:images/product-junior-running-shoes-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6404",
+        "stock": 18,
+        "featured": false,
+        "short_description": "Durable, cushioned shoes for growing feet.",
+        "description": "<p>Durable, cushioned shoes for growing feet.</p><h3>Details</h3><ul><li>Breathable mesh upper</li><li>Cushioned midsole</li><li>Free size exchange</li></ul>",
+        "sku": "SS-RUN-012"
+      }
+    ],
+    "coupons": [
+      {
+        "code": "STRIDE10",
+        "description": "10% off orders above ₹2,499 (up to ₹500)",
+        "type": "percent",
+        "value": 10,
+        "min_order": 249900,
+        "max_discount": 50000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free delivery above ₹999",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 99900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Monsoon run sale",
+            "heading": "Train harder. Recover smarter.",
+            "subheading": "Running shoes, dumbbells, yoga mats and cricket kits chosen by coaches — with free size exchanges and fast delivery.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "Free size exchange"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Tested by athletes"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "Delivery in 2–4 days"
+              }
+            ]
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Top gear",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "4",
+                "suffix": "L+",
+                "label": "Athletes equipped",
+                "icon": ""
+              },
+              {
+                "number": "25",
+                "suffix": "",
+                "label": "Coaches on our panel",
+                "icon": ""
+              },
+              {
+                "number": "15",
+                "suffix": " days",
+                "label": "Free exchanges",
+                "icon": ""
+              },
+              {
+                "number": "4.7",
+                "suffix": "/5",
+                "label": "Customer rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Stride",
+            "heading": "Gear chosen by people who play",
+            "description": "<p>Stride Sports was founded by a marathon runner and a club cricketer in 2012. Every product we sell is tested by our team of athletes and coaches.</p><p>From your first 5K to your hundredth match, we help you pick gear that fits — and exchange it free if it does not.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2012",
+            "experience_label": "Equipping athletes since",
+            "points": [
+              {
+                "text": "Athlete-tested gear"
+              },
+              {
+                "text": "Free size exchanges"
+              },
+              {
+                "text": "Expert advice on chat"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "AeroRun took me through my first half-marathon without a single blister.",
+                "name": "Karan B.",
+                "role": "Verified buyer · Gurugram",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The bat was knocked-in properly and pings off the middle. Great value.",
+                "name": "Aman S.",
+                "role": "Verified buyer · Chandigarh",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Exchanged my shoe size in two days at no cost. Superb service.",
+                "name": "Ritu G.",
+                "role": "Verified buyer · Noida",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Gear up for less",
+            "description": "Use STRIDE10 on orders above ₹2,499.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "Running shoes, home-gym equipment, yoga gear and cricket kits — tested by athletes.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Stride",
+            "heading": "Gear chosen by people who play",
+            "description": "<p>Stride Sports was founded by a marathon runner and a club cricketer in 2012. Every product we sell is tested by our team of athletes and coaches.</p><p>From your first 5K to your hundredth match, we help you pick gear that fits — and exchange it free if it does not.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2012",
+            "experience_label": "Equipping athletes since",
+            "points": [
+              {
+                "text": "Athlete-tested gear"
+              },
+              {
+                "text": "Free size exchanges"
+              },
+              {
+                "text": "Expert advice on chat"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "4",
+                "suffix": "L+",
+                "label": "Athletes equipped",
+                "icon": ""
+              },
+              {
+                "number": "25",
+                "suffix": "",
+                "label": "Coaches on our panel",
+                "icon": ""
+              },
+              {
+                "number": "15",
+                "suffix": " days",
+                "label": "Free exchanges",
+                "icon": ""
+              },
+              {
+                "number": "4.7",
+                "suffix": "/5",
+                "label": "Customer rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Stride Sports",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-running.svg",
+                "caption": "Running"
+              },
+              {
+                "image": "theme:images/cat-training.svg",
+                "caption": "Training"
+              },
+              {
+                "image": "theme:images/cat-yoga.svg",
+                "caption": "Yoga"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "How do I pick my running shoe size?",
+                "answer": "Measure your foot in the evening and use our size chart; exchanges are free."
+              },
+              {
+                "question": "Are bats knocked in?",
+                "answer": "Yes, English willow bats are machine knocked-in and oiled."
+              },
+              {
+                "question": "Do you ship heavy equipment?",
+                "answer": "Yes — dumbbells up to 20 kg ship free above ₹1,999."
+              },
+              {
+                "question": "Can I return used shoes?",
+                "answer": "Only unused shoes can be returned; sizes can be exchanged."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking and cash on delivery."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Ships in 24 hours; delivered in 2–4 working days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Gear up for less",
+            "description": "Use STRIDE10 on orders above ₹2,499.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our New Delhi studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Ships in 24 hours; delivered in 2–4 working days.</p><ul><li>Delivery is free on orders above ₹1,999; otherwise a flat ₹99 applies.</li><li>Cash on delivery is available for a ₹49 handling fee.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>Free size exchange within 15 days; returns on unused items.</p><p>To start a return, email team@stridesports.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Stride Sports collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}
