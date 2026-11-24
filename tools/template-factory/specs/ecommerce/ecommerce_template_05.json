@@ -1,0 +1,71 @@
+{
+  "id": "ecommerce_template_05",
+  "name": "Dew & Petal",
+  "prefix": "dwp",
+  "niche": "beauty",
+  "seed": 5,
+  "direction": "Soft and luxe: floating pill navigation, split hero, berry and marigold on blush, DM Serif headings, shadowed cards with hover quick-add, round category icons.",
+  "description": "A soft, luxurious design for beauty, skincare and wellness brands: floating navigation with cart, a split hero, round category icons, product cards with hover quick-add and a berry promotion band.",
+  "theme": {
+    "primary": "#B23A6F",
+    "secondary": "#E9A23B",
+    "bg": "#FFF8F6",
+    "text": "#2E1A22",
+    "heading_font": "dm-serif-display",
+    "body_font": "dm-sans",
+    "radius": "26px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "split",
+    "banner": "light",
+    "head": "serif",
+    "card": "shadow",
+    "product-card": "overlay",
+    "product_categories": "circles",
+    "about": "grid",
+    "stats": "inline",
+    "testimonials": "featured",
+    "cta": "band",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "color-mix(in srgb, var(--wb-primary) 80%, #000)",
+    "on_accent_hover": "#FFFFFF",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 400,
+    "hero_weight": 400,
+    "track": "0",
+    "hero_scale": 1.06,
+    "card": "#FFFFFF",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "extra_css": ".dwp .dwp-hero-split .dwp-hero-visual::before { border-radius: 50%; }",
+  "demo": {
+    "featured_heading": "Most loved",
+    "home": [
+      "hero",
+      "products",
+      "product_categories",
+      "about",
+      "products_new",
+      "features",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "ecommerce",
+  "version": "1.0.0"
+}

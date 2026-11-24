@@ -1,0 +1,148 @@
+{
+  "id": "ecommerce_template_02",
+  "name": "Kesar Atelier",
+  "category": "ecommerce",
+  "version": "1.0.0",
+  "description": "A heritage boutique design for fashion, ethnic-wear and handloom stores: centred masthead with cart, split hero, category image tiles, product cards with hover quick-add and a promotional banner.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact",
+    "ecommerce"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#7A2E3A",
+      "secondary": "#E0B04B",
+      "bg": "#FBF6EE",
+      "text": "#2A1A1C",
+      "heading_font": "playfair-display",
+      "body_font": "jost",
+      "radius": "4px",
+      "button_style": "sharp",
+      "header_style": "announce",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "announce": "With announcement bar",
+      "minimal": "No announcement bar"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "products",
+    "product_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "product_categories",
+        "products",
+        "about",
+        "products",
+        "features",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "gallery"
+      ]
+    },
+    "help": {
+      "default_sections": [
+        "page_banner",
+        "faq",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "Our Story",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Help & FAQ",
+      "slug": "help",
+      "type": "help"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Shipping & Returns",
+      "slug": "shipping-returns",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ecommerce_template_02",
+  "name": "Kesar Atelier",
+  "prefix": "kth",
+  "niche": "fashion",
+  "seed": 2,
+  "direction": "Heritage boutique: centred masthead, split hero, maroon and antique gold on cream, Playfair serif headings, hover-to-add product cards, image category tiles.",
+  "description": "A heritage boutique design for fashion, ethnic-wear and handloom stores: centred masthead with cart, split hero, category image tiles, product cards with hover quick-add and a promotional banner.",
+  "theme": {
+    "primary": "#7A2E3A",
+    "secondary": "#E0B04B",
+    "bg": "#FBF6EE",
+    "text": "#2A1A1C",
+    "heading_font": "playfair-display",
+    "body_font": "jost",
+    "radius": "4px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "split",
+    "banner": "light",
+    "head": "serif",
+    "card": "line",
+    "product-card": "overlay",
+    "product_categories": "tiles",
+    "about": "layered",
+    "stats": "inline",
+    "testimonials": "cards",
+    "cta": "box",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 60%, #000)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "0",
+    "card": "#FFFFFF",
+    "btn_case": "uppercase",
+    "btn_track": ".08em"
+  },
+  "demo": {
+    "home": [
+      "hero",
+      "product_categories",
+      "products",
+      "about",
+      "products_new",
+      "features",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "ecommerce",
+  "version": "1.0.0"
+}

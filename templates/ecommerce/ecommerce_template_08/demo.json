@@ -1,0 +1,756 @@
+{
+  "settings": {
+    "site": {
+      "name": "Estate Roast Co.",
+      "tagline": "Specialty coffee and tea from Indian estates",
+      "phone": "+91 8262 233 440",
+      "email": "brew@estateroast.example",
+      "address": "Mallandur Road\nChikmagalur, Karnataka 577101",
+      "hours": "Mon–Sat, 9 am – 6 pm",
+      "footer_about": "Single-estate coffees roasted weekly, Himalayan teas and brewing gear, shipped fresh.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Estate Roast Co.: specialty coffee and tea from indian estates. Single-estate coffees roasted weekly, Himalayan teas and brewing gear, shipped fresh.",
+      "keywords": "specialty coffee and tea from indian estates, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Estate Roast Co.",
+      "gstin": "",
+      "store_state": "Karnataka",
+      "invoice_address": "Mallandur Road, Chikmagalur, Karnataka 577101",
+      "prices_include_tax": true,
+      "order_prefix": "ER",
+      "invoice_prefix": "ER/",
+      "shipping_flat": 6900,
+      "free_shipping_above": 79900,
+      "shipping_note": "Roasted to order; shipped within 48 hours of roasting.",
+      "cod_enabled": true,
+      "cod_fee": 3900,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "Unhappy with a coffee? We replace it or refund it within 14 days.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Coffee",
+        "slug": "coffee",
+        "description": "Single-estate and blended coffees.",
+        "image": "theme:images/cat-coffee.svg"
+      },
+      {
+        "name": "Tea",
+        "slug": "tea",
+        "description": "Darjeeling, Assam and Nilgiri teas.",
+        "image": "theme:images/cat-tea.svg"
+      },
+      {
+        "name": "Brewing Gear",
+        "slug": "gear",
+        "description": "French presses, pour-overs and grinders.",
+        "image": "theme:images/cat-gear.svg"
+      },
+      {
+        "name": "Mugs & Cups",
+        "slug": "mugs",
+        "description": "Handmade ceramic mugs and cups.",
+        "image": "theme:images/cat-mugs.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "Baba Budan Estate Coffee",
+        "slug": "baba-budan-estate-coffee",
+        "category": "coffee",
+        "price": 59900,
+        "image": "theme:images/product-baba-budan-estate-coffee.svg",
+        "gallery": [
+          "theme:images/product-baba-budan-estate-coffee-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0901",
+        "stock": 40,
+        "featured": true,
+        "short_description": "A chocolatey, nutty medium roast from our family estate.",
+        "description": "<p>A chocolatey, nutty medium roast from our family estate.</p><h3>Details</h3><ul><li>Roasted weekly</li><li>Whole bean or ground to order</li><li>Best within 6 weeks of roasting</li></ul>",
+        "sku": "ER-COF-001",
+        "badge": "Bestseller",
+        "option_name": "Grind",
+        "variants": [
+          {
+            "label": "250 g — Whole bean",
+            "price": 59900,
+            "stock": 10,
+            "sku": "ER-COF-001-1"
+          },
+          {
+            "label": "250 g — French press",
+            "price": 59900,
+            "stock": 10,
+            "sku": "ER-COF-001-2"
+          },
+          {
+            "label": "250 g — Filter",
+            "price": 59900,
+            "stock": 10,
+            "sku": "ER-COF-001-3"
+          },
+          {
+            "label": "500 g — Whole bean",
+            "price": 109900,
+            "stock": 10,
+            "sku": "ER-COF-001-4"
+          }
+        ]
+      },
+      {
+        "name": "Coorg Dark Roast",
+        "slug": "coorg-dark-roast",
+        "category": "coffee",
+        "price": 54900,
+        "image": "theme:images/product-coorg-dark-roast.svg",
+        "gallery": [
+          "theme:images/product-coorg-dark-roast-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0901",
+        "stock": 35,
+        "featured": true,
+        "short_description": "Bold, smoky dark roast with low acidity.",
+        "description": "<p>Bold, smoky dark roast with low acidity.</p><h3>Details</h3><ul><li>Roasted weekly</li><li>Whole bean or ground to order</li><li>Best within 6 weeks of roasting</li></ul>",
+        "sku": "ER-COF-002"
+      },
+      {
+        "name": "Monsooned Malabar",
+        "slug": "monsooned-malabar",
+        "category": "coffee",
+        "price": 64900,
+        "image": "theme:images/product-monsooned-malabar.svg",
+        "gallery": [
+          "theme:images/product-monsooned-malabar-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0901",
+        "stock": 20,
+        "featured": false,
+        "short_description": "Earthy, mellow and full-bodied.",
+        "description": "<p>Earthy, mellow and full-bodied.</p><h3>Details</h3><ul><li>Roasted weekly</li><li>Whole bean or ground to order</li><li>Best within 6 weeks of roasting</li></ul>",
+        "sku": "ER-COF-003",
+        "compare_price": 69900
+      },
+      {
+        "name": "South Indian Filter Blend",
+        "slug": "south-indian-filter-blend",
+        "category": "coffee",
+        "price": 44900,
+        "image": "theme:images/product-south-indian-filter-blend.svg",
+        "gallery": [
+          "theme:images/product-south-indian-filter-blend-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0901",
+        "stock": 50,
+        "featured": false,
+        "short_description": "Coffee with 20% chicory for classic filter kaapi.",
+        "description": "<p>Coffee with 20% chicory for classic filter kaapi.</p><h3>Details</h3><ul><li>Roasted weekly</li><li>Whole bean or ground to order</li><li>Best within 6 weeks of roasting</li></ul>",
+        "sku": "ER-COF-004",
+        "badge": "Classic"
+      },
+      {
+        "name": "Darjeeling First Flush",
+        "slug": "darjeeling-first-flush",
+        "category": "tea",
+        "price": 79900,
+        "image": "theme:images/product-darjeeling-first-flush.svg",
+        "gallery": [
+          "theme:images/product-darjeeling-first-flush-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0902",
+        "stock": 15,
+        "featured": true,
+        "short_description": "Floral, muscatel first-flush tea from Darjeeling.",
+        "description": "<p>Floral, muscatel first-flush tea from Darjeeling.</p><h3>Details</h3><ul><li>Whole leaf</li><li>Airtight tin</li><li>Steep 3–4 minutes</li></ul>",
+        "sku": "ER-TEA-005",
+        "compare_price": 89900,
+        "badge": "New"
+      },
+      {
+        "name": "Assam Breakfast Tea",
+        "slug": "assam-breakfast-tea",
+        "category": "tea",
+        "price": 44900,
+        "image": "theme:images/product-assam-breakfast-tea.svg",
+        "gallery": [
+          "theme:images/product-assam-breakfast-tea-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0902",
+        "stock": 30,
+        "featured": false,
+        "short_description": "Strong, malty Assam for your morning chai.",
+        "description": "<p>Strong, malty Assam for your morning chai.</p><h3>Details</h3><ul><li>Whole leaf</li><li>Airtight tin</li><li>Steep 3–4 minutes</li></ul>",
+        "sku": "ER-TEA-006"
+      },
+      {
+        "name": "Nilgiri Frost Tea",
+        "slug": "nilgiri-frost-tea",
+        "category": "tea",
+        "price": 54900,
+        "image": "theme:images/product-nilgiri-frost-tea.svg",
+        "gallery": [
+          "theme:images/product-nilgiri-frost-tea-2.svg"
+        ],
+        "gst_rate": "5",
+        "hsn": "0902",
+        "stock": 2,
+        "featured": false,
+        "short_description": "Bright, brisk winter-harvest Nilgiri tea.",
+        "description": "<p>Bright, brisk winter-harvest Nilgiri tea.</p><h3>Details</h3><ul><li>Whole leaf</li><li>Airtight tin</li><li>Steep 3–4 minutes</li></ul>",
+        "sku": "ER-TEA-007"
+      },
+      {
+        "name": "Glass French Press",
+        "slug": "glass-french-press",
+        "category": "gear",
+        "price": 129900,
+        "image": "theme:images/product-glass-french-press.svg",
+        "gallery": [
+          "theme:images/product-glass-french-press-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "7013",
+        "stock": 25,
+        "featured": true,
+        "short_description": "A 600 ml borosilicate French press with steel frame.",
+        "description": "<p>A 600 ml borosilicate French press with steel frame.</p><h3>Details</h3><ul><li>Borosilicate glass</li><li>Dishwasher safe parts</li><li>1-year warranty</li></ul>",
+        "sku": "ER-GEA-008",
+        "compare_price": 159900
+      },
+      {
+        "name": "Copper French Press",
+        "slug": "copper-french-press",
+        "category": "gear",
+        "price": 179900,
+        "image": "theme:images/product-copper-french-press.svg",
+        "gallery": [
+          "theme:images/product-copper-french-press-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "7013",
+        "stock": 0,
+        "featured": false,
+        "short_description": "A copper-finish press for four cups.",
+        "description": "<p>A copper-finish press for four cups.</p><h3>Details</h3><ul><li>Borosilicate glass</li><li>Dishwasher safe parts</li><li>1-year warranty</li></ul>",
+        "sku": "ER-GEA-009"
+      },
+      {
+        "name": "Speckled Mug",
+        "slug": "speckled-mug",
+        "category": "mugs",
+        "price": 49900,
+        "image": "theme:images/product-speckled-mug.svg",
+        "gallery": [
+          "theme:images/product-speckled-mug-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6912",
+        "stock": 40,
+        "featured": false,
+        "short_description": "A handmade 350 ml stoneware mug.",
+        "description": "<p>A handmade 350 ml stoneware mug.</p><h3>Details</h3><ul><li>Stoneware</li><li>Microwave safe</li><li>Handmade</li></ul>",
+        "sku": "ER-MUG-010"
+      },
+      {
+        "name": "Terracotta Mug",
+        "slug": "terracotta-mug",
+        "category": "mugs",
+        "price": 54900,
+        "image": "theme:images/product-terracotta-mug.svg",
+        "gallery": [
+          "theme:images/product-terracotta-mug-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6912",
+        "stock": 30,
+        "featured": true,
+        "short_description": "A rustic terracotta-glazed mug.",
+        "description": "<p>A rustic terracotta-glazed mug.</p><h3>Details</h3><ul><li>Stoneware</li><li>Microwave safe</li><li>Handmade</li></ul>",
+        "sku": "ER-MUG-011"
+      },
+      {
+        "name": "Davara Tumbler Set",
+        "slug": "davara-tumbler-set",
+        "category": "mugs",
+        "price": 89900,
+        "image": "theme:images/product-davara-tumbler-set.svg",
+        "gallery": [
+          "theme:images/product-davara-tumbler-set-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "6912",
+        "stock": 18,
+        "featured": false,
+        "short_description": "Traditional steel davara-tumbler for filter coffee.",
+        "description": "<p>Traditional steel davara-tumbler for filter coffee.</p><h3>Details</h3><ul><li>Stoneware</li><li>Microwave safe</li><li>Handmade</li></ul>",
+        "sku": "ER-MUG-012"
+      }
+    ],
+    "coupons": [
+      {
+        "code": "BREW10",
+        "description": "10% off orders above ₹799 (up to ₹200)",
+        "type": "percent",
+        "value": 10,
+        "min_order": 79900,
+        "max_discount": 20000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free delivery above ₹499",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 49900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Roasted this week",
+            "heading": "Fresh coffee, from estate to cup.",
+            "subheading": "Single-estate beans from the hills of Chikmagalur and Coorg, roasted weekly and shipped within 48 hours of roasting.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "Roasted to order"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Ground for your brewer"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "Free delivery above ₹799"
+              }
+            ]
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Fresh from the roaster",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "From our family estate to your kitchen",
+            "description": "<p>Estate Roast began on our family’s coffee estate in Chikmagalur. We roast small batches every week and work directly with neighbouring estates and Himalayan tea gardens.</p><p>Every bag carries the roast date, so you always know how fresh it is.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2018",
+            "experience_label": "Roasting since",
+            "points": [
+              {
+                "text": "Direct trade with estates"
+              },
+              {
+                "text": "Roast date on every bag"
+              },
+              {
+                "text": "Compostable packaging"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Partner estates",
+                "icon": ""
+              },
+              {
+                "number": "80",
+                "suffix": "K+",
+                "label": "Bags roasted",
+                "icon": ""
+              },
+              {
+                "number": "48",
+                "suffix": " hrs",
+                "label": "Roast to dispatch",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Customer rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "Baba Budan is now our daily coffee. Freshest beans I have bought online.",
+                "name": "Rohan M.",
+                "role": "Verified buyer · Bengaluru",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The filter blend tastes exactly like home in Madurai.",
+                "name": "Lakshmi S.",
+                "role": "Verified buyer · Delhi",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Darjeeling first flush was delicate and lovely. Beautiful tin too.",
+                "name": "Ayesha K.",
+                "role": "Verified buyer · Kolkata",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Brew better, save 10%",
+            "description": "Use BREW10 on orders above ₹799.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "Single-estate coffees roasted weekly, Himalayan teas and brewing gear, shipped fresh.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "From our family estate to your kitchen",
+            "description": "<p>Estate Roast began on our family’s coffee estate in Chikmagalur. We roast small batches every week and work directly with neighbouring estates and Himalayan tea gardens.</p><p>Every bag carries the roast date, so you always know how fresh it is.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2018",
+            "experience_label": "Roasting since",
+            "points": [
+              {
+                "text": "Direct trade with estates"
+              },
+              {
+                "text": "Roast date on every bag"
+              },
+              {
+                "text": "Compostable packaging"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Partner estates",
+                "icon": ""
+              },
+              {
+                "number": "80",
+                "suffix": "K+",
+                "label": "Bags roasted",
+                "icon": ""
+              },
+              {
+                "number": "48",
+                "suffix": " hrs",
+                "label": "Roast to dispatch",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Customer rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Estate Roast Co.",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-coffee.svg",
+                "caption": "Coffee"
+              },
+              {
+                "image": "theme:images/cat-tea.svg",
+                "caption": "Tea"
+              },
+              {
+                "image": "theme:images/cat-gear.svg",
+                "caption": "Brewing Gear"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Which grind should I choose?",
+                "answer": "Choose whole bean if you have a grinder; otherwise pick your brewing method."
+              },
+              {
+                "question": "How fresh is the coffee?",
+                "answer": "We roast to order and ship within 48 hours."
+              },
+              {
+                "question": "How should I store coffee?",
+                "answer": "In an airtight container away from light; use within 6 weeks."
+              },
+              {
+                "question": "Do you offer subscriptions?",
+                "answer": "Yes — write to us and we will set up a monthly delivery."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking and cash on delivery."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Roasted to order; shipped within 48 hours of roasting."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Brew better, save 10%",
+            "description": "Use BREW10 on orders above ₹799.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our Chikmagalur studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Roasted to order; shipped within 48 hours of roasting.</p><ul><li>Delivery is free on orders above ₹799; otherwise a flat ₹69 applies.</li><li>Cash on delivery is available for a ₹39 handling fee.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>Unhappy with a coffee? We replace it or refund it within 14 days.</p><p>To start a return, email brew@estateroast.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Estate Roast Co. collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.{{p}}-product-plain { background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); padding: .75rem .75rem 1rem; transition: box-shadow .25s ease, transform .25s ease; }
+.{{p}}-product-plain:hover { box-shadow: var(--{{p}}-shadow); transform: translateY(-3px); }
+.{{p}}-product-plain .{{p}}-product-media { border-radius: var(--{{p}}-radius); }
+.{{p}}-product-plain .{{p}}-product-body { padding: .9rem .25rem 0; text-align: center; align-items: center; }
+.{{p}}-product-plain .{{p}}-price { justify-content: center; }
+.{{p}}-product-plain .{{p}}-add { margin: auto 0 0; padding-top: .9rem; width: 100%; }
+.{{p}}-product-plain .{{p}}-add .{{p}}-btn, .{{p}}-product-plain a.{{p}}-add { padding: .55rem .9rem; font-size: .85rem; }

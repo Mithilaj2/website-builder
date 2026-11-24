@@ -9,7 +9,63 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); **Hospital done** (awaiting review); next: the remaining 6 categories (E-commerce, Real Estate, Travel, Restaurant, Hotel, Portfolio, Services) |
+| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); Hospital done (PR #14, awaiting review); **E-commerce done** (awaiting review); next: the remaining 6 categories (Real Estate, Travel, Restaurant, Hotel, Portfolio, Services) |
+
+## Phase 7c, E-commerce: templates 02–10
+
+### Delivered
+- **Factory extended for shops:**
+  - Shop chrome shown only when the shop is switched on: an announcement bar (free-delivery threshold, cash on delivery and the tagline; header style "No announcement bar" hides it), search and cart icons with the item count, a **Shop** menu item with a categories dropdown, and a trust strip (delivery, secure payment, returns) at the top of every footer.
+  - New library sections: `products` (featured, new, on sale or one category; 2–4 columns) and `product_categories` with `tiles` or `circles` variants.
+  - Two product cards, `overlay` (hover quick-add) and `plain` (add-to-cart button under the card). The runtime catalogue, category, product and related-products views use the template's card, and the runtime shop pages (catalogue, product, cart, checkout) pick up the template's buttons, chips, boxes and dark-mode fields.
+  - About 40 original product drawings (kurtas, sarees, headphones, phones, jars, serums, jewellery, toys, coffee, sports gear, books, stationery…) composed into product images (two per product), category images, heroes, promo banners and about scenes.
+  - Demo stores for nine niches: four categories, twelve products with GST rates, HSN codes, MRP, badges and options, coupons, shipping, COD and return rules, and a generated **Shipping & Returns** page that states each store's own terms.
+- **Nine new E-commerce templates**, each with its own demo store:
+
+| # | Template | Prefix | Demo store | Hero / header / card / categories | Look |
+|---|---|---|---|---|---|
+| 02 | Kesar Atelier | `kth` | Ethnic wear, Jaipur | split / centred masthead / overlay / tiles | Maroon + antique gold, Playfair Display |
+| 03 | Voltbay Dark | `vlt` | Electronics, Bengaluru | centred panorama / floating pill / plain / circles | **Dark**, electric blue + orange, Space Grotesk |
+| 04 | Green Basket | `gbo` | Organic grocery, Pune | colour panel / dark bar / plain / circles | Leaf green + mustard, Fraunces |
+| 05 | Dew & Petal | `dwp` | Skincare, Mumbai | split / floating pill / overlay / circles | Berry + marigold on blush, DM Serif Display |
+| 06 | Aurum Maison | `aur` | Jewellery, Chennai (no COD) | editorial / centred masthead / overlay / tiles | Charcoal + gold, Cormorant Garamond, square corners |
+| 07 | Tiny Tales | `ttt` | Toys, Kochi | centred panorama / floating pill / plain / circles | Sky blue + sunshine, Poppins |
+| 08 | Estate Roast | `erc` | Coffee and tea, Chikmagalur | full-bleed cover / dark bar / overlay / tiles | Espresso + caramel, Merriweather |
+| 09 | Stride Pro | `stz` | Sports, New Delhi | colour panel / dark bar / plain / tiles | Ink + blaze orange, uppercase Montserrat |
+| 10 | Paper Lane | `ppl` | Books and stationery, Kolkata | editorial / centred masthead / plain / circles | Ink blue + marigold, Lora, light footer |
+
+- Every template has seven pages: Home, Our Story, Help & FAQ, Contact, Shipping & Returns and two legal pages, plus the runtime shop pages.
+- Payment keys are never part of a demo; clients enter them in their own admin. The demo imports only catalogue, coupons and shop settings.
+- No runtime changes; runtime 1.7.0.
+
+### Tests
+`tests/phase7c_ecommerce_test.php` runs **216 end-to-end checks**.
+
+- **Template files:** the same checks as the earlier categories, plus: two images per product, a complete demo shop (GST/HSN, paise prices, options, coupons, no secrets), and the chosen product-card and category variants. Prefixes are compared against all 37 existing templates.
+- **Each of the nine websites:**
+  - demo catalogue imported (12 products, 4 categories, coupons)
+  - variants, hero copy, Shop menu with categories, announcement bar (COD only where the store offers it), cart icon and trust strip
+  - categories, featured and new products in the template's cards, prices with struck MRP and badges
+  - all six inner pages, the Shipping & Returns terms and the 404 page
+  - catalogue and category pages in the template's cards, a product page with its gallery
+  - add to cart: cart line, subtotal and the header count; checkout page
+  - a contact enquiry
+- **Export:** a full export of one website, including product images and shop partials.
+
+| Server | 7c E-commerce | 7c Hospital | 7c Education | 7c Business | 7b-3 | 7b-2 | 7b-1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 216/216 | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 216/216 | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+All template PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of the home, about, help, contact, catalogue, product and cart pages of the nine websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- **Editorial hero rule cut through the headline** (letters such as "g" and "y"). The rule under the headline was pulled up by the row's gutter; it now sits below the text. Also fixed in Business 05 and 09, Education 08 and Hospital 04, which use the same hero.
+- **Active category chip was blank** on the dark template's catalogue (white text on a white chip). Active chips now use the template's accent colours.
+- **Category circles showed only the top of the picture**, so products looked tiny. The picture now fills the circle and is centred on the products.
+- **Odd fifth product** under "Bestsellers": featured rows now show four products.
+- Product and category drawings were enlarged; the cricket bat no longer runs out of its frame; phone-width announcement bars no longer show stray separators.
+- Demo "as featured in" logos and copy no longer use names of real certification bodies or events.
 
 ## Phase 7c, Hospital: templates 02–10
 
@@ -850,6 +906,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-24 (Phase 7c, E-commerce)
+E-commerce templates 02–10; factory shop chrome, product cards, product and category sections and product drawings; 216-check test; full regression on dev and Apache.
 
 ### 2026-11-23 (Phase 7c, Hospital)
 Hospital templates 02–10; factory sections for doctors, opening hours and the emergency number; 162-check test; full regression on dev and Apache.

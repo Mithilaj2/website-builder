@@ -26,14 +26,15 @@ CATEGORY_DIRS = {'business': 'business', 'real-estate': 'real-estate', 'travel':
 # Component -> CSS module; sections listed here pick "<type>.<variant>.php".
 VARIANT_SECTIONS = {'hero': 'hero', 'page_banner': 'banner', 'about': 'about', 'services': 'services', 'stats': 'stats',
                     'process': 'process', 'testimonials': 'testimonials', 'cta': 'cta', 'team': 'team', 'gallery': 'gallery', 'faq': 'faq',
-                    'courses': 'courses', 'events': 'events', 'notices': 'notices', 'doctors': 'doctors', 'opening_hours': 'opening_hours'}
-CSS_ORDER = ['header', 'hero', 'banner', 'head', 'card', 'about', 'services', 'stats', 'process', 'testimonials', 'cta', 'team', 'gallery', 'faq', 'logos', 'courses', 'events', 'notices', 'doctors', 'opening_hours', 'footer']
+                    'courses': 'courses', 'events': 'events', 'notices': 'notices', 'doctors': 'doctors', 'opening_hours': 'opening_hours', 'product_categories': 'product_categories'}
+CSS_ORDER = ['header', 'hero', 'banner', 'head', 'card', 'about', 'services', 'stats', 'process', 'testimonials', 'cta', 'team', 'gallery', 'faq', 'logos', 'courses', 'events', 'notices', 'doctors', 'opening_hours', 'product-card', 'product_categories', 'footer']
 SURFACE_CLASS = {'services': 'services', 'testimonials': 'testimonials', 'features': 'features', 'faq': 'faq', 'team': 'team', 'pricing': 'pricing', 'process': 'process', 'about': 'about', 'gallery': 'gallery', 'contact': 'contact',
                  'courses': 'courses', 'events': 'events', 'booking_form': 'booking', 'stats': 'stats', 'doctors': 'doctors', 'opening_hours': 'hours'}
 
 HEADER_STYLES = {
     'bar': {'sticky': 'Sticky, with info bar', 'minimal': 'Sticky, no info bar', 'static': 'Scrolls with the page'},
     'default': {'sticky': 'Sticky', 'static': 'Scrolls with the page'},
+    'shop': {'announce': 'With announcement bar', 'minimal': 'No announcement bar'},
 }
 FOOTER_STYLES = {'dark': 'Dark', 'light': 'Light'}
 
@@ -152,12 +153,13 @@ def build(spec_path):
     img_mod.generate(os.path.join(dest, 'assets/images'), spec['niche'], spec.get('image_primary', th['primary']), spec.get('image_secondary', th['secondary']),
                      spec.get('seed', 1), demo_mod_logos(demo))
 
-    header_styles = HEADER_STYLES['bar'] if v['header'] == 'bar' else HEADER_STYLES['default']
+    shop = 'ecommerce' in getattr(demo_mod, 'FEATURES', [])
+    header_styles = HEADER_STYLES['shop'] if shop else HEADER_STYLES['bar'] if v['header'] == 'bar' else HEADER_STYLES['default']
     manifest = {
         'id': spec['id'], 'name': spec['name'], 'category': cat, 'version': spec.get('version', '1.0.0'),
         'description': spec['description'], 'libraries': ['bootstrap', 'bootstrap-icons'],
         'features': getattr(demo_mod, 'FEATURES', ['contact']), 'optional_features': getattr(demo_mod, 'OPTIONAL_FEATURES', ['blog']),
-        'theme': {'defaults': dict(th, header_style='sticky', footer_style=spec.get('footer_style', 'dark')),
+        'theme': {'defaults': dict(th, header_style='announce' if shop else 'sticky', footer_style=spec.get('footer_style', 'dark')),
                   'header_styles': header_styles, 'footer_styles': FOOTER_STYLES},
         'section_types': section_types,
         'page_types': {k: {'default_sections': s} for k, s in demo_mod.page_types(demo).items()},

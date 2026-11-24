@@ -1,0 +1,765 @@
+{
+  "settings": {
+    "site": {
+      "name": "Voltbay",
+      "tagline": "Audio, wearables and smart accessories",
+      "phone": "+91 80 4718 3300",
+      "email": "support@voltbay.example",
+      "address": "88 Church Street\nBengaluru, Karnataka 560001",
+      "hours": "Mon–Sat, 10 am – 8 pm",
+      "footer_about": "Headphones, earbuds, smartwatches and chargers — tested in our lab and backed by an Indian warranty.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Voltbay: audio, wearables and smart accessories. Headphones, earbuds, smartwatches and chargers — tested in our lab and backed by an Indian warranty.",
+      "keywords": "audio, wearables and smart accessories, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Voltbay",
+      "gstin": "",
+      "store_state": "Karnataka",
+      "invoice_address": "88 Church Street, Bengaluru, Karnataka 560001",
+      "prices_include_tax": true,
+      "order_prefix": "VB",
+      "invoice_prefix": "VB/",
+      "shipping_flat": 7900,
+      "free_shipping_above": 99900,
+      "shipping_note": "Ships the same day before 3 pm; next-day delivery in metros.",
+      "cod_enabled": true,
+      "cod_fee": 5900,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "7-day replacement for manufacturing defects.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Audio",
+        "slug": "audio",
+        "description": "Headphones, earbuds and speakers for every budget.",
+        "image": "theme:images/cat-audio.svg"
+      },
+      {
+        "name": "Wearables",
+        "slug": "wearables",
+        "description": "Smartwatches with health tracking and long battery life.",
+        "image": "theme:images/cat-wearables.svg"
+      },
+      {
+        "name": "Phones",
+        "slug": "phones",
+        "description": "Unlocked smartphones with great cameras.",
+        "image": "theme:images/cat-phones.svg"
+      },
+      {
+        "name": "Power",
+        "slug": "power",
+        "description": "Power banks and chargers that charge fast and stay cool.",
+        "image": "theme:images/cat-power.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "Pulse ANC Headphones",
+        "slug": "pulse-anc-headphones",
+        "category": "audio",
+        "price": 599900,
+        "image": "theme:images/product-pulse-anc-headphones.svg",
+        "gallery": [
+          "theme:images/product-pulse-anc-headphones-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8518",
+        "stock": 25,
+        "featured": true,
+        "short_description": "Over-ear headphones with active noise cancellation and 40-hour battery.",
+        "description": "<p>Over-ear headphones with active noise cancellation and 40-hour battery.</p><h3>Details</h3><ul><li>Bluetooth 5.3</li><li>1-year warranty</li><li>Type-C fast charging</li></ul>",
+        "sku": "VB-AUD-001",
+        "compare_price": 899900,
+        "badge": "Bestseller",
+        "option_name": "Colour",
+        "variants": [
+          {
+            "label": "Midnight Black",
+            "price": 599900,
+            "stock": 12,
+            "sku": "VB-AUD-001-1"
+          },
+          {
+            "label": "Arctic White",
+            "price": 599900,
+            "stock": 12,
+            "sku": "VB-AUD-001-2"
+          }
+        ]
+      },
+      {
+        "name": "AirLite Earbuds",
+        "slug": "airlite-earbuds",
+        "category": "audio",
+        "price": 249900,
+        "image": "theme:images/product-airlite-earbuds.svg",
+        "gallery": [
+          "theme:images/product-airlite-earbuds-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8518",
+        "stock": 40,
+        "featured": true,
+        "short_description": "True wireless earbuds with low-latency gaming mode.",
+        "description": "<p>True wireless earbuds with low-latency gaming mode.</p><h3>Details</h3><ul><li>Bluetooth 5.3</li><li>1-year warranty</li><li>Type-C fast charging</li></ul>",
+        "sku": "VB-AUD-002",
+        "compare_price": 349900
+      },
+      {
+        "name": "Boom Mini Speaker",
+        "slug": "boom-mini-speaker",
+        "category": "audio",
+        "price": 199900,
+        "image": "theme:images/product-boom-mini-speaker.svg",
+        "gallery": [
+          "theme:images/product-boom-mini-speaker-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8518",
+        "stock": 18,
+        "featured": false,
+        "short_description": "Pocket speaker with deep bass and 12-hour battery.",
+        "description": "<p>Pocket speaker with deep bass and 12-hour battery.</p><h3>Details</h3><ul><li>Bluetooth 5.3</li><li>1-year warranty</li><li>Type-C fast charging</li></ul>",
+        "sku": "VB-AUD-003"
+      },
+      {
+        "name": "Studio Pro Headphones",
+        "slug": "studio-pro-headphones",
+        "category": "audio",
+        "price": 949900,
+        "image": "theme:images/product-studio-pro-headphones.svg",
+        "gallery": [
+          "theme:images/product-studio-pro-headphones-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8518",
+        "stock": 0,
+        "featured": false,
+        "short_description": "Hi-res wired-and-wireless headphones for creators.",
+        "description": "<p>Hi-res wired-and-wireless headphones for creators.</p><h3>Details</h3><ul><li>Bluetooth 5.3</li><li>1-year warranty</li><li>Type-C fast charging</li></ul>",
+        "sku": "VB-AUD-004"
+      },
+      {
+        "name": "FitPulse Watch 2",
+        "slug": "fitpulse-watch-2",
+        "category": "wearables",
+        "price": 399900,
+        "image": "theme:images/product-fitpulse-watch-2.svg",
+        "gallery": [
+          "theme:images/product-fitpulse-watch-2-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8517",
+        "stock": 30,
+        "featured": true,
+        "short_description": "AMOLED smartwatch with SpO2, sleep and 100 sports modes.",
+        "description": "<p>AMOLED smartwatch with SpO2, sleep and 100 sports modes.</p><h3>Details</h3><ul><li>AMOLED display</li><li>IP68 water resistance</li><li>1-year warranty</li></ul>",
+        "sku": "VB-WEA-005",
+        "compare_price": 549900,
+        "badge": "New"
+      },
+      {
+        "name": "FitPulse Watch Lite",
+        "slug": "fitpulse-watch-lite",
+        "category": "wearables",
+        "price": 229900,
+        "image": "theme:images/product-fitpulse-watch-lite.svg",
+        "gallery": [
+          "theme:images/product-fitpulse-watch-lite-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8517",
+        "stock": 22,
+        "featured": false,
+        "short_description": "Lightweight smartwatch with 10-day battery.",
+        "description": "<p>Lightweight smartwatch with 10-day battery.</p><h3>Details</h3><ul><li>AMOLED display</li><li>IP68 water resistance</li><li>1-year warranty</li></ul>",
+        "sku": "VB-WEA-006"
+      },
+      {
+        "name": "Nova 5G Phone",
+        "slug": "nova-5g-phone",
+        "category": "phones",
+        "price": 1899900,
+        "image": "theme:images/product-nova-5g-phone.svg",
+        "gallery": [
+          "theme:images/product-nova-5g-phone-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8517",
+        "stock": 12,
+        "featured": true,
+        "short_description": "6.7-inch 120 Hz display, 50 MP camera and 5,000 mAh battery.",
+        "description": "<p>6.7-inch 120 Hz display, 50 MP camera and 5,000 mAh battery.</p><h3>Details</h3><ul><li>Dual SIM 5G</li><li>Fast charging</li><li>1-year warranty</li></ul>",
+        "sku": "VB-PHO-007",
+        "compare_price": 2199900,
+        "option_name": "Storage",
+        "variants": [
+          {
+            "label": "8 GB + 128 GB",
+            "price": 1899900,
+            "stock": 6,
+            "sku": "VB-PHO-007-1"
+          },
+          {
+            "label": "8 GB + 256 GB",
+            "price": 2099900,
+            "stock": 6,
+            "sku": "VB-PHO-007-2"
+          }
+        ]
+      },
+      {
+        "name": "Nova Lite Phone",
+        "slug": "nova-lite-phone",
+        "category": "phones",
+        "price": 1199900,
+        "image": "theme:images/product-nova-lite-phone.svg",
+        "gallery": [
+          "theme:images/product-nova-lite-phone-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8517",
+        "stock": 9,
+        "featured": false,
+        "short_description": "Everyday 5G phone with a great battery.",
+        "description": "<p>Everyday 5G phone with a great battery.</p><h3>Details</h3><ul><li>Dual SIM 5G</li><li>Fast charging</li><li>1-year warranty</li></ul>",
+        "sku": "VB-PHO-008"
+      },
+      {
+        "name": "Volt 20K Power Bank",
+        "slug": "volt-20k-power-bank",
+        "category": "power",
+        "price": 179900,
+        "image": "theme:images/product-volt-20k-power-bank.svg",
+        "gallery": [
+          "theme:images/product-volt-20k-power-bank-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8507",
+        "stock": 50,
+        "featured": true,
+        "short_description": "20,000 mAh power bank with 22.5 W fast charging.",
+        "description": "<p>20,000 mAh power bank with 22.5 W fast charging.</p><h3>Details</h3><ul><li>BIS certified</li><li>Over-charge protection</li><li>6-month warranty</li></ul>",
+        "sku": "VB-POW-009",
+        "compare_price": 229900
+      },
+      {
+        "name": "Volt 10K Slim",
+        "slug": "volt-10k-slim",
+        "category": "power",
+        "price": 119900,
+        "image": "theme:images/product-volt-10k-slim.svg",
+        "gallery": [
+          "theme:images/product-volt-10k-slim-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8507",
+        "stock": 35,
+        "featured": false,
+        "short_description": "Pocket-slim 10,000 mAh power bank.",
+        "description": "<p>Pocket-slim 10,000 mAh power bank.</p><h3>Details</h3><ul><li>BIS certified</li><li>Over-charge protection</li><li>6-month warranty</li></ul>",
+        "sku": "VB-POW-010"
+      },
+      {
+        "name": "Pulse Kids Headphones",
+        "slug": "pulse-kids-headphones",
+        "category": "audio",
+        "price": 149900,
+        "image": "theme:images/product-pulse-kids-headphones.svg",
+        "gallery": [
+          "theme:images/product-pulse-kids-headphones-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8518",
+        "stock": 4,
+        "featured": false,
+        "short_description": "Volume-limited headphones for children.",
+        "description": "<p>Volume-limited headphones for children.</p><h3>Details</h3><ul><li>Bluetooth 5.3</li><li>1-year warranty</li><li>Type-C fast charging</li></ul>",
+        "sku": "VB-AUD-011",
+        "badge": "Low stock"
+      },
+      {
+        "name": "AirLite Pro Earbuds",
+        "slug": "airlite-pro-earbuds",
+        "category": "audio",
+        "price": 399900,
+        "image": "theme:images/product-airlite-pro-earbuds.svg",
+        "gallery": [
+          "theme:images/product-airlite-pro-earbuds-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "8518",
+        "stock": 15,
+        "featured": false,
+        "short_description": "ANC earbuds with wireless charging case.",
+        "description": "<p>ANC earbuds with wireless charging case.</p><h3>Details</h3><ul><li>Bluetooth 5.3</li><li>1-year warranty</li><li>Type-C fast charging</li></ul>",
+        "sku": "VB-AUD-012"
+      }
+    ],
+    "coupons": [
+      {
+        "code": "VOLT10",
+        "description": "10% off orders above ₹2,999 (up to ₹1,000)",
+        "type": "percent",
+        "value": 10,
+        "min_order": 299900,
+        "max_discount": 100000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free delivery on orders above ₹499",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 49900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Big Sound Sale — up to 30% off",
+            "heading": "Gear that keeps up with you.",
+            "subheading": "Wireless audio, smartwatches and fast chargers with 1-year warranty, GST invoices and doorstep replacement.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "1-year warranty"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Next-day delivery in metros"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "No-cost EMI"
+              }
+            ]
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Top picks",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2",
+                "suffix": "L+",
+                "label": "Orders shipped",
+                "icon": ""
+              },
+              {
+                "number": "4.6",
+                "suffix": "/5",
+                "label": "Average rating",
+                "icon": ""
+              },
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Replacement cities",
+                "icon": ""
+              },
+              {
+                "number": "48",
+                "suffix": " hrs",
+                "label": "Average support resolution",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-shield-check",
+                "title": "1-year warranty",
+                "description": "Indian warranty with doorstep replacement."
+              },
+              {
+                "icon": "bi-lightning-charge",
+                "title": "Next-day delivery",
+                "description": "In 30 metro cities."
+              },
+              {
+                "icon": "bi-credit-card",
+                "title": "No-cost EMI",
+                "description": "On orders above ₹3,000."
+              },
+              {
+                "icon": "bi-receipt",
+                "title": "GST invoice",
+                "description": "Claim input credit on every order."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "The ANC headphones are amazing for my metro commute. Battery easily lasts the week.",
+                "name": "Rahul V.",
+                "role": "Verified buyer · Mumbai",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Ordered at 1 pm, received the next morning. Proper GST invoice too.",
+                "name": "Sneha K.",
+                "role": "Verified buyer · Hyderabad",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Watch strap broke in month eight — replaced at my door in two days.",
+                "name": "Imran S.",
+                "role": "Verified buyer · Chennai",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Save 10% on your next upgrade",
+            "description": "Use VOLT10 on orders above ₹2,999.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "Headphones, earbuds, smartwatches and chargers — tested in our lab and backed by an Indian warranty.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Voltbay",
+            "heading": "Tested before it reaches your hands",
+            "description": "<p>Voltbay started in 2017 to bring honest, well-built accessories to Indian buyers. Every product we sell is tested in our Bengaluru lab for battery life, sound and durability.</p><p>We back everything with a 1-year warranty and a service team that answers in hours, not days.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2017",
+            "experience_label": "Powering gadgets since",
+            "points": [
+              {
+                "text": "Lab-tested products"
+              },
+              {
+                "text": "Indian warranty & GST invoice"
+              },
+              {
+                "text": "Doorstep replacement in 30 cities"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2",
+                "suffix": "L+",
+                "label": "Orders shipped",
+                "icon": ""
+              },
+              {
+                "number": "4.6",
+                "suffix": "/5",
+                "label": "Average rating",
+                "icon": ""
+              },
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Replacement cities",
+                "icon": ""
+              },
+              {
+                "number": "48",
+                "suffix": " hrs",
+                "label": "Average support resolution",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Voltbay",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-audio.svg",
+                "caption": "Audio"
+              },
+              {
+                "image": "theme:images/cat-wearables.svg",
+                "caption": "Wearables"
+              },
+              {
+                "image": "theme:images/cat-phones.svg",
+                "caption": "Phones"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Is there a warranty?",
+                "answer": "Yes, every product carries a 1-year Indian warranty (6 months for chargers)."
+              },
+              {
+                "question": "Do you offer EMI?",
+                "answer": "No-cost EMI is available on orders above ₹3,000 with major cards."
+              },
+              {
+                "question": "Will I get a GST invoice?",
+                "answer": "Yes, with your GSTIN if you add it at checkout."
+              },
+              {
+                "question": "How do replacements work?",
+                "answer": "Raise a request; we pick up the faulty item and deliver a replacement."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking and cash on delivery."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Ships the same day before 3 pm; next-day delivery in metros."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Save 10% on your next upgrade",
+            "description": "Use VOLT10 on orders above ₹2,999.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our Bengaluru studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Ships the same day before 3 pm; next-day delivery in metros.</p><ul><li>Delivery is free on orders above ₹999; otherwise a flat ₹79 applies.</li><li>Cash on delivery is available for a ₹59 handling fee.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>7-day replacement for manufacturing defects.</p><p>To start a return, email support@voltbay.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Voltbay collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

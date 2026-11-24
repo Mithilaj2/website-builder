@@ -1,6 +1,7 @@
 <?php $menu = $view->menu('header'); $about = (string) $view->site('footer_about', $view->site('tagline')); ?>
 <footer class="{{p}}-footer {{p}}-footer-columns">
   <div class="container">
+    <?= $view->partial('shop-trust') ?>
     <div class="row g-4 g-lg-5">
       <div class="col-lg-4">
         <?= $view->partial('brand', ['class' => '{{p}}-brand-footer']) ?>

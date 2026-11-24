@@ -1,0 +1,749 @@
+{
+  "settings": {
+    "site": {
+      "name": "Aurum & Co.",
+      "tagline": "Hallmarked gold and silver jewellery",
+      "phone": "+91 44 2434 6600",
+      "email": "hello@aurumco.example",
+      "address": "45 Usman Road, T. Nagar\nChennai, Tamil Nadu 600017",
+      "hours": "Daily, 10 am – 9 pm",
+      "footer_about": "BIS-hallmarked gold, silver and diamond jewellery with transparent pricing and lifetime exchange.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Aurum & Co.: hallmarked gold and silver jewellery. BIS-hallmarked gold, silver and diamond jewellery with transparent pricing and lifetime exchange.",
+      "keywords": "hallmarked gold and silver jewellery, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Aurum & Co.",
+      "gstin": "",
+      "store_state": "Tamil Nadu",
+      "invoice_address": "45 Usman Road, T. Nagar, Chennai, Tamil Nadu 600017",
+      "prices_include_tax": true,
+      "order_prefix": "AU",
+      "invoice_prefix": "AU/",
+      "shipping_flat": 19900,
+      "free_shipping_above": 999900,
+      "shipping_note": "Insured delivery in 3–7 days; tamper-proof packaging.",
+      "cod_enabled": false,
+      "cod_fee": 0,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "15-day returns on unworn pieces; lifetime exchange on gold.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Rings",
+        "slug": "rings",
+        "description": "Solitaires, bands and cocktail rings.",
+        "image": "theme:images/cat-rings.svg"
+      },
+      {
+        "name": "Necklaces",
+        "slug": "necklaces",
+        "description": "Chains, pendants and temple necklaces.",
+        "image": "theme:images/cat-necklaces.svg"
+      },
+      {
+        "name": "Earrings",
+        "slug": "earrings",
+        "description": "Studs, hoops and traditional jhumkas.",
+        "image": "theme:images/cat-earrings.svg"
+      },
+      {
+        "name": "Bangles",
+        "slug": "bangles",
+        "description": "Gold and silver bangles and kadas.",
+        "image": "theme:images/cat-bangles.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "Solitaire Diamond Ring",
+        "slug": "solitaire-diamond-ring",
+        "category": "rings",
+        "price": 4850000,
+        "image": "theme:images/product-solitaire-diamond-ring.svg",
+        "gallery": [
+          "theme:images/product-solitaire-diamond-ring-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 6,
+        "featured": true,
+        "short_description": "An 18K gold ring with a 0.25 ct certified solitaire.",
+        "description": "<p>An 18K gold ring with a 0.25 ct certified solitaire.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Free resizing within 30 days</li><li>Certificate included</li></ul>",
+        "sku": "AU-RIN-001",
+        "badge": "Bestseller",
+        "option_name": "Size",
+        "variants": [
+          {
+            "label": "Size 10",
+            "price": 4850000,
+            "stock": 2,
+            "sku": "AU-RIN-001-1"
+          },
+          {
+            "label": "Size 12",
+            "price": 4850000,
+            "stock": 2,
+            "sku": "AU-RIN-001-2"
+          },
+          {
+            "label": "Size 14",
+            "price": 4920000,
+            "stock": 2,
+            "sku": "AU-RIN-001-3"
+          }
+        ]
+      },
+      {
+        "name": "Ruby Cocktail Ring",
+        "slug": "ruby-cocktail-ring",
+        "category": "rings",
+        "price": 3680000,
+        "image": "theme:images/product-ruby-cocktail-ring.svg",
+        "gallery": [
+          "theme:images/product-ruby-cocktail-ring-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 4,
+        "featured": false,
+        "short_description": "22K gold ring set with a lab-certified ruby.",
+        "description": "<p>22K gold ring set with a lab-certified ruby.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Free resizing within 30 days</li><li>Certificate included</li></ul>",
+        "sku": "AU-RIN-002"
+      },
+      {
+        "name": "Everyday Gold Band",
+        "slug": "everyday-gold-band",
+        "category": "rings",
+        "price": 1490000,
+        "image": "theme:images/product-everyday-gold-band.svg",
+        "gallery": [
+          "theme:images/product-everyday-gold-band-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 15,
+        "featured": false,
+        "short_description": "A slim 22K band for stacking or everyday wear.",
+        "description": "<p>A slim 22K band for stacking or everyday wear.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Free resizing within 30 days</li><li>Certificate included</li></ul>",
+        "sku": "AU-RIN-003"
+      },
+      {
+        "name": "Lakshmi Temple Necklace",
+        "slug": "lakshmi-temple-necklace",
+        "category": "necklaces",
+        "price": 18900000,
+        "image": "theme:images/product-lakshmi-temple-necklace.svg",
+        "gallery": [
+          "theme:images/product-lakshmi-temple-necklace-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 2,
+        "featured": true,
+        "short_description": "Handcrafted temple necklace in 22K gold with kemp stones.",
+        "description": "<p>Handcrafted temple necklace in 22K gold with kemp stones.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Insured delivery</li><li>Gift box included</li></ul>",
+        "sku": "AU-NEC-004",
+        "badge": "Bridal"
+      },
+      {
+        "name": "Emerald Drop Pendant",
+        "slug": "emerald-drop-pendant",
+        "category": "necklaces",
+        "price": 4250000,
+        "image": "theme:images/product-emerald-drop-pendant.svg",
+        "gallery": [
+          "theme:images/product-emerald-drop-pendant-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 8,
+        "featured": true,
+        "short_description": "18K gold pendant with an emerald drop on a fine chain.",
+        "description": "<p>18K gold pendant with an emerald drop on a fine chain.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Insured delivery</li><li>Gift box included</li></ul>",
+        "sku": "AU-NEC-005"
+      },
+      {
+        "name": "Silver Coin Necklace",
+        "slug": "silver-coin-necklace",
+        "category": "necklaces",
+        "price": 490000,
+        "image": "theme:images/product-silver-coin-necklace.svg",
+        "gallery": [
+          "theme:images/product-silver-coin-necklace-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 20,
+        "featured": false,
+        "short_description": "Oxidised sterling silver necklace with coin motifs.",
+        "description": "<p>Oxidised sterling silver necklace with coin motifs.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Insured delivery</li><li>Gift box included</li></ul>",
+        "sku": "AU-NEC-006",
+        "compare_price": 590000
+      },
+      {
+        "name": "Gold Jhumkas",
+        "slug": "gold-jhumkas",
+        "category": "earrings",
+        "price": 3290000,
+        "image": "theme:images/product-gold-jhumkas.svg",
+        "gallery": [
+          "theme:images/product-gold-jhumkas-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 7,
+        "featured": true,
+        "short_description": "Traditional 22K gold jhumkas with pearl drops.",
+        "description": "<p>Traditional 22K gold jhumkas with pearl drops.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Screw-back closure</li><li>Gift box included</li></ul>",
+        "sku": "AU-EAR-007",
+        "badge": "New"
+      },
+      {
+        "name": "Diamond Stud Earrings",
+        "slug": "diamond-stud-earrings",
+        "category": "earrings",
+        "price": 2750000,
+        "image": "theme:images/product-diamond-stud-earrings.svg",
+        "gallery": [
+          "theme:images/product-diamond-stud-earrings-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 10,
+        "featured": false,
+        "short_description": "18K gold studs with certified diamonds.",
+        "description": "<p>18K gold studs with certified diamonds.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Screw-back closure</li><li>Gift box included</li></ul>",
+        "sku": "AU-EAR-008"
+      },
+      {
+        "name": "Silver Jhumkas",
+        "slug": "silver-jhumkas",
+        "category": "earrings",
+        "price": 290000,
+        "image": "theme:images/product-silver-jhumkas.svg",
+        "gallery": [
+          "theme:images/product-silver-jhumkas-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 0,
+        "featured": false,
+        "short_description": "Oxidised silver jhumkas for everyday wear.",
+        "description": "<p>Oxidised silver jhumkas for everyday wear.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Screw-back closure</li><li>Gift box included</li></ul>",
+        "sku": "AU-EAR-009"
+      },
+      {
+        "name": "Kerala Gold Bangles (Pair)",
+        "slug": "kerala-gold-bangles-pair",
+        "category": "bangles",
+        "price": 9600000,
+        "image": "theme:images/product-kerala-gold-bangles-pair.svg",
+        "gallery": [
+          "theme:images/product-kerala-gold-bangles-pair-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 3,
+        "featured": true,
+        "short_description": "A pair of 22K gold bangles with Kerala-style engraving.",
+        "description": "<p>A pair of 22K gold bangles with Kerala-style engraving.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Available in 2.4–2.8 sizes</li><li>Gift box included</li></ul>",
+        "sku": "AU-BAN-010"
+      },
+      {
+        "name": "Ruby Kada",
+        "slug": "ruby-kada",
+        "category": "bangles",
+        "price": 7200000,
+        "image": "theme:images/product-ruby-kada.svg",
+        "gallery": [
+          "theme:images/product-ruby-kada-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 2,
+        "featured": false,
+        "short_description": "22K gold kada set with rubies.",
+        "description": "<p>22K gold kada set with rubies.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Available in 2.4–2.8 sizes</li><li>Gift box included</li></ul>",
+        "sku": "AU-BAN-011"
+      },
+      {
+        "name": "Silver Bangle Set",
+        "slug": "silver-bangle-set",
+        "category": "bangles",
+        "price": 390000,
+        "image": "theme:images/product-silver-bangle-set.svg",
+        "gallery": [
+          "theme:images/product-silver-bangle-set-2.svg"
+        ],
+        "gst_rate": "3",
+        "hsn": "7113",
+        "stock": 25,
+        "featured": false,
+        "short_description": "Six sterling silver bangles with filigree work.",
+        "description": "<p>Six sterling silver bangles with filigree work.</p><h3>Details</h3><ul><li>BIS hallmarked</li><li>Available in 2.4–2.8 sizes</li><li>Gift box included</li></ul>",
+        "sku": "AU-BAN-012",
+        "compare_price": 450000
+      }
+    ],
+    "coupons": [
+      {
+        "code": "SILVER10",
+        "description": "10% off silver jewellery orders above ₹2,999 (up to ₹1,000)",
+        "type": "percent",
+        "value": 10,
+        "min_order": 299900,
+        "max_discount": 100000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free insured delivery above ₹1,999",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 199900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "The wedding collection",
+            "heading": "Jewellery to be treasured for generations.",
+            "subheading": "Hallmarked gold, temple jewellery and everyday diamonds — with clear making charges, insured delivery and lifetime exchange.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "BIS hallmarked"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Insured delivery"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "Lifetime exchange"
+              }
+            ]
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Signature pieces",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our heritage",
+            "heading": "Three generations of craftsmanship",
+            "description": "<p>Aurum & Co. opened in T. Nagar in 1988. Three generations later, our karigars still hand-finish every piece, from delicate everyday chains to temple jewellery for weddings.</p><p>Every gold piece is BIS hallmarked, and we print the weight, purity and making charges on every invoice.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1988",
+            "experience_label": "Crafting jewellery since",
+            "points": [
+              {
+                "text": "BIS hallmarked gold"
+              },
+              {
+                "text": "Certified diamonds"
+              },
+              {
+                "text": "Lifetime exchange and buyback"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "38",
+                "suffix": "",
+                "label": "Years of trust",
+                "icon": ""
+              },
+              {
+                "number": "2",
+                "suffix": "L+",
+                "label": "Families served",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "Hallmarked gold",
+                "icon": ""
+              },
+              {
+                "number": "3",
+                "suffix": "",
+                "label": "Generations of karigars",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "My bridal temple necklace was even more beautiful than the photos. Thank you, Aurum.",
+                "name": "Divya S.",
+                "role": "Verified buyer · Chennai",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Clear pricing and the hallmark certificate gave us complete confidence.",
+                "name": "Vignesh R.",
+                "role": "Verified buyer · Coimbatore",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Insured delivery arrived in four days, perfectly packed.",
+                "name": "Ananya K.",
+                "role": "Verified buyer · Bengaluru",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Visit our T. Nagar showroom",
+            "description": "See the wedding collection in person, or book a video call with our stylists.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "BIS-hallmarked gold, silver and diamond jewellery with transparent pricing and lifetime exchange.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our heritage",
+            "heading": "Three generations of craftsmanship",
+            "description": "<p>Aurum & Co. opened in T. Nagar in 1988. Three generations later, our karigars still hand-finish every piece, from delicate everyday chains to temple jewellery for weddings.</p><p>Every gold piece is BIS hallmarked, and we print the weight, purity and making charges on every invoice.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "1988",
+            "experience_label": "Crafting jewellery since",
+            "points": [
+              {
+                "text": "BIS hallmarked gold"
+              },
+              {
+                "text": "Certified diamonds"
+              },
+              {
+                "text": "Lifetime exchange and buyback"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "38",
+                "suffix": "",
+                "label": "Years of trust",
+                "icon": ""
+              },
+              {
+                "number": "2",
+                "suffix": "L+",
+                "label": "Families served",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "Hallmarked gold",
+                "icon": ""
+              },
+              {
+                "number": "3",
+                "suffix": "",
+                "label": "Generations of karigars",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Aurum & Co.",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-rings.svg",
+                "caption": "Rings"
+              },
+              {
+                "image": "theme:images/cat-necklaces.svg",
+                "caption": "Necklaces"
+              },
+              {
+                "image": "theme:images/cat-earrings.svg",
+                "caption": "Earrings"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Is all your gold hallmarked?",
+                "answer": "Yes, every gold piece carries a BIS hallmark with HUID."
+              },
+              {
+                "question": "How is the price calculated?",
+                "answer": "Gold rate on the day × weight, plus making charges and GST — all shown on the invoice."
+              },
+              {
+                "question": "Can I exchange old gold?",
+                "answer": "Yes, at our store or by insured pickup in select cities."
+              },
+              {
+                "question": "Is delivery insured?",
+                "answer": "Yes, every order is fully insured until delivery."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Insured delivery in 3–7 days; tamper-proof packaging."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Visit our T. Nagar showroom",
+            "description": "See the wedding collection in person, or book a video call with our stylists.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our Chennai studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Insured delivery in 3–7 days; tamper-proof packaging.</p><ul><li>Delivery is free on orders above ₹9,999; otherwise a flat ₹199 applies.</li><li>Cash on delivery is not available for this store.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>15-day returns on unworn pieces; lifetime exchange on gold.</p><p>To start a return, email hello@aurumco.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Aurum & Co. collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

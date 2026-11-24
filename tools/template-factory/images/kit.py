@@ -1,4 +1,5 @@
 """Palette-driven SVG illustration primitives shared by the category scene generators."""
+import html
 import math
 import os
 import random
@@ -52,7 +53,7 @@ class Canvas:
         os.makedirs(out_dir, exist_ok=True)
 
     def save(self, name, w, h, body, label=''):
-        aria = f' role="img" aria-label="{label}"' if label else ''
+        aria = f' role="img" aria-label="{html.escape(label, quote=True)}"' if label else ''
         with open(os.path.join(self.out, name), 'w') as fh:
             fh.write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}"{aria}>{body}</svg>')
 

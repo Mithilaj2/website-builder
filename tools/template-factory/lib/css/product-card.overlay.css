@@ -1,0 +1,5 @@
+.{{p}}-quick { position: absolute; left: .75rem; right: .75rem; bottom: .75rem; z-index: 2; margin: 0; transform: translateY(calc(100% + 1rem)); transition: transform .3s ease; }
+.{{p}}-quick button, .{{p}}-quick.{{p}}-quick-link { width: 100%; display: flex; align-items: center; justify-content: center; gap: .5rem; border: 0; border-radius: var(--wb-btn-radius, 8px); padding: .7rem 1rem; background: var(--{{p}}-card); color: var(--{{p}}-ink); font-weight: 700; font-size: .88rem; box-shadow: var(--{{p}}-shadow-sm); text-decoration: none; cursor: pointer; }
+.{{p}}-quick button:hover, .{{p}}-quick.{{p}}-quick-link:hover { background: var(--{{p}}-accent); color: var(--{{p}}-on-accent); }
+.{{p}}-product:hover .{{p}}-quick, .{{p}}-quick:focus-within { transform: none; }
+@media (hover: none) { .{{p}}-quick { position: static; transform: none; margin-top: .6rem; } .{{p}}-quick span { font-size: .8rem; } }

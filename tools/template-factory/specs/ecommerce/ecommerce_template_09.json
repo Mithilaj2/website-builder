@@ -1,0 +1,69 @@
+{
+  "id": "ecommerce_template_09",
+  "name": "Stride Pro",
+  "prefix": "stz",
+  "niche": "sports",
+  "seed": 9,
+  "direction": "Athletic and bold: dark navigation, colour-panel hero, ink black and blaze orange, uppercase Montserrat, sharp corners, accent-topped cards, an orange sale band.",
+  "description": "An athletic, bold design for sports, fitness and outdoor stores: dark navigation with cart, a colour-panel hero, image category tiles, product cards with add-to-cart and an orange sale band.",
+  "theme": {
+    "primary": "#111827",
+    "secondary": "#F97316",
+    "bg": "#FFFFFF",
+    "text": "#111827",
+    "heading_font": "montserrat",
+    "body_font": "inter",
+    "radius": "4px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "panel",
+    "banner": "image",
+    "head": "bar",
+    "card": "top",
+    "product-card": "plain",
+    "product_categories": "tiles",
+    "about": "layered",
+    "stats": "band",
+    "testimonials": "featured",
+    "cta": "band",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 82%, #000)",
+    "icon": "accent",
+    "case": "uppercase",
+    "track": ".01em",
+    "hero_scale": 0.92,
+    "btn_case": "uppercase",
+    "btn_track": ".06em",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)"
+  },
+  "extra_css": ".stz .stz-header .nav-link { text-transform: uppercase; font-size: .82rem; letter-spacing: .08em; }",
+  "demo": {
+    "featured_heading": "Top gear",
+    "home": [
+      "hero",
+      "product_categories",
+      "products",
+      "stats",
+      "about",
+      "products_new",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "ecommerce",
+  "version": "1.0.0"
+}

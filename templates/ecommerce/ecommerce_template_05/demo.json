@@ -1,0 +1,742 @@
+{
+  "settings": {
+    "site": {
+      "name": "Dew & Petal",
+      "tagline": "Clean skincare with Indian botanicals",
+      "phone": "+91 22 4890 5511",
+      "email": "care@dewandpetal.example",
+      "address": "4th Floor, Kamala Mills, Lower Parel\nMumbai 400013",
+      "hours": "Mon–Sat, 10 am – 7 pm",
+      "footer_about": "Gentle, clinically tested skincare made with saffron, rice water, rose and turmeric.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Dew & Petal: clean skincare with indian botanicals. Gentle, clinically tested skincare made with saffron, rice water, rose and turmeric.",
+      "keywords": "clean skincare with indian botanicals, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Dew & Petal",
+      "gstin": "",
+      "store_state": "Maharashtra",
+      "invoice_address": "4th Floor, Kamala Mills, Lower Parel, Mumbai 400013",
+      "prices_include_tax": true,
+      "order_prefix": "DP",
+      "invoice_prefix": "DP/",
+      "shipping_flat": 5900,
+      "free_shipping_above": 79900,
+      "shipping_note": "Ships in 1–2 days; delivered in 2–5 working days.",
+      "cod_enabled": true,
+      "cod_fee": 3900,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "Unopened products can be returned within 7 days.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Serums",
+        "slug": "serums",
+        "description": "Targeted serums for glow, spots and hydration.",
+        "image": "theme:images/cat-serums.svg"
+      },
+      {
+        "name": "Moisturisers",
+        "slug": "moisturisers",
+        "description": "Light gels and rich creams for every skin type.",
+        "image": "theme:images/cat-moisturisers.svg"
+      },
+      {
+        "name": "Cleansers",
+        "slug": "cleansers",
+        "description": "Gentle cleansers and handmade soaps.",
+        "image": "theme:images/cat-cleansers.svg"
+      },
+      {
+        "name": "Lips",
+        "slug": "lips",
+        "description": "Tinted balms and lipsticks with natural oils.",
+        "image": "theme:images/cat-lips.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "Saffron Glow Serum",
+        "slug": "saffron-glow-serum",
+        "category": "serums",
+        "price": 89900,
+        "image": "theme:images/product-saffron-glow-serum.svg",
+        "gallery": [
+          "theme:images/product-saffron-glow-serum-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 35,
+        "featured": true,
+        "short_description": "Vitamin C and saffron serum for brighter, even-toned skin.",
+        "description": "<p>Vitamin C and saffron serum for brighter, even-toned skin.</p><h3>Details</h3><ul><li>Dermatologist tested</li><li>Fragrance-free</li><li>Patch test before use</li></ul>",
+        "sku": "DP-SER-001",
+        "compare_price": 109900,
+        "badge": "Bestseller"
+      },
+      {
+        "name": "Rice Water Hydrating Serum",
+        "slug": "rice-water-hydrating-serum",
+        "category": "serums",
+        "price": 79900,
+        "image": "theme:images/product-rice-water-hydrating-serum.svg",
+        "gallery": [
+          "theme:images/product-rice-water-hydrating-serum-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 28,
+        "featured": true,
+        "short_description": "Hyaluronic acid and fermented rice water for deep hydration.",
+        "description": "<p>Hyaluronic acid and fermented rice water for deep hydration.</p><h3>Details</h3><ul><li>Dermatologist tested</li><li>Fragrance-free</li><li>Patch test before use</li></ul>",
+        "sku": "DP-SER-002"
+      },
+      {
+        "name": "Niacinamide Spot Serum",
+        "slug": "niacinamide-spot-serum",
+        "category": "serums",
+        "price": 74900,
+        "image": "theme:images/product-niacinamide-spot-serum.svg",
+        "gallery": [
+          "theme:images/product-niacinamide-spot-serum-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 2,
+        "featured": false,
+        "short_description": "10% niacinamide to fade spots and control oil.",
+        "description": "<p>10% niacinamide to fade spots and control oil.</p><h3>Details</h3><ul><li>Dermatologist tested</li><li>Fragrance-free</li><li>Patch test before use</li></ul>",
+        "sku": "DP-SER-003"
+      },
+      {
+        "name": "Rose Gel Moisturiser",
+        "slug": "rose-gel-moisturiser",
+        "category": "moisturisers",
+        "price": 69900,
+        "image": "theme:images/product-rose-gel-moisturiser.svg",
+        "gallery": [
+          "theme:images/product-rose-gel-moisturiser-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 40,
+        "featured": true,
+        "short_description": "Oil-free gel moisturiser with rose water.",
+        "description": "<p>Oil-free gel moisturiser with rose water.</p><h3>Details</h3><ul><li>Non-comedogenic</li><li>Suitable for sensitive skin</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-MOI-004",
+        "compare_price": 79900,
+        "badge": "New",
+        "option_name": "Size",
+        "variants": [
+          {
+            "label": "50 g",
+            "price": 69900,
+            "stock": 20,
+            "sku": "DP-MOI-004-1"
+          },
+          {
+            "label": "100 g",
+            "price": 119900,
+            "stock": 20,
+            "sku": "DP-MOI-004-2"
+          }
+        ]
+      },
+      {
+        "name": "Kumkumadi Night Cream",
+        "slug": "kumkumadi-night-cream",
+        "category": "moisturisers",
+        "price": 119900,
+        "image": "theme:images/product-kumkumadi-night-cream.svg",
+        "gallery": [
+          "theme:images/product-kumkumadi-night-cream-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 18,
+        "featured": false,
+        "short_description": "Rich overnight cream with 16 Ayurvedic herbs.",
+        "description": "<p>Rich overnight cream with 16 Ayurvedic herbs.</p><h3>Details</h3><ul><li>Non-comedogenic</li><li>Suitable for sensitive skin</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-MOI-005"
+      },
+      {
+        "name": "Ceramide Barrier Cream",
+        "slug": "ceramide-barrier-cream",
+        "category": "moisturisers",
+        "price": 99900,
+        "image": "theme:images/product-ceramide-barrier-cream.svg",
+        "gallery": [
+          "theme:images/product-ceramide-barrier-cream-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 0,
+        "featured": false,
+        "short_description": "Repairs dry, sensitive skin with ceramides.",
+        "description": "<p>Repairs dry, sensitive skin with ceramides.</p><h3>Details</h3><ul><li>Non-comedogenic</li><li>Suitable for sensitive skin</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-MOI-006"
+      },
+      {
+        "name": "Turmeric Face Wash",
+        "slug": "turmeric-face-wash",
+        "category": "cleansers",
+        "price": 39900,
+        "image": "theme:images/product-turmeric-face-wash.svg",
+        "gallery": [
+          "theme:images/product-turmeric-face-wash-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3401",
+        "stock": 60,
+        "featured": true,
+        "short_description": "Gentle foaming face wash with turmeric and neem.",
+        "description": "<p>Gentle foaming face wash with turmeric and neem.</p><h3>Details</h3><ul><li>pH balanced</li><li>Sulphate-free</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-CLE-007",
+        "compare_price": 44900
+      },
+      {
+        "name": "Charcoal Clay Cleanser",
+        "slug": "charcoal-clay-cleanser",
+        "category": "cleansers",
+        "price": 44900,
+        "image": "theme:images/product-charcoal-clay-cleanser.svg",
+        "gallery": [
+          "theme:images/product-charcoal-clay-cleanser-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3401",
+        "stock": 30,
+        "featured": false,
+        "short_description": "Deep-cleansing gel for oily skin.",
+        "description": "<p>Deep-cleansing gel for oily skin.</p><h3>Details</h3><ul><li>pH balanced</li><li>Sulphate-free</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-CLE-008"
+      },
+      {
+        "name": "Rose & Oat Soap Trio",
+        "slug": "rose-oat-soap-trio",
+        "category": "cleansers",
+        "price": 54900,
+        "image": "theme:images/product-rose-oat-soap-trio.svg",
+        "gallery": [
+          "theme:images/product-rose-oat-soap-trio-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3401",
+        "stock": 25,
+        "featured": false,
+        "short_description": "Three handmade soaps with rose, oats and shea butter.",
+        "description": "<p>Three handmade soaps with rose, oats and shea butter.</p><h3>Details</h3><ul><li>pH balanced</li><li>Sulphate-free</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-CLE-009"
+      },
+      {
+        "name": "Tinted Lip Balm Duo",
+        "slug": "tinted-lip-balm-duo",
+        "category": "lips",
+        "price": 49900,
+        "image": "theme:images/product-tinted-lip-balm-duo.svg",
+        "gallery": [
+          "theme:images/product-tinted-lip-balm-duo-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 45,
+        "featured": true,
+        "short_description": "Two tinted balms with kokum butter.",
+        "description": "<p>Two tinted balms with kokum butter.</p><h3>Details</h3><ul><li>Vitamin E enriched</li><li>No lead or parabens</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-LIP-010"
+      },
+      {
+        "name": "Matte Lipstick — Brick",
+        "slug": "matte-lipstick-brick",
+        "category": "lips",
+        "price": 64900,
+        "image": "theme:images/product-matte-lipstick-brick.svg",
+        "gallery": [
+          "theme:images/product-matte-lipstick-brick-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 20,
+        "featured": false,
+        "short_description": "Long-wear matte lipstick in a warm brick red.",
+        "description": "<p>Long-wear matte lipstick in a warm brick red.</p><h3>Details</h3><ul><li>Vitamin E enriched</li><li>No lead or parabens</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-LIP-011"
+      },
+      {
+        "name": "Matte Lipstick — Mauve",
+        "slug": "matte-lipstick-mauve",
+        "category": "lips",
+        "price": 64900,
+        "image": "theme:images/product-matte-lipstick-mauve.svg",
+        "gallery": [
+          "theme:images/product-matte-lipstick-mauve-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "3304",
+        "stock": 22,
+        "featured": false,
+        "short_description": "Everyday mauve with a soft matte finish.",
+        "description": "<p>Everyday mauve with a soft matte finish.</p><h3>Details</h3><ul><li>Vitamin E enriched</li><li>No lead or parabens</li><li>Cruelty-free</li></ul>",
+        "sku": "DP-LIP-012"
+      }
+    ],
+    "coupons": [
+      {
+        "code": "GLOW15",
+        "description": "15% off orders above ₹999 (up to ₹250)",
+        "type": "percent",
+        "value": 15,
+        "min_order": 99900,
+        "max_discount": 25000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free delivery above ₹499",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 49900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Dermatologist tested · Cruelty-free",
+            "heading": "Skincare that feels like a ritual.",
+            "subheading": "Serums, creams and cleansers made with Indian botanicals and proven actives — free from parabens, sulphates and harsh fragrance.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "Cruelty-free"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Free samples with every order"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "Free delivery above ₹799"
+              }
+            ]
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Most loved",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our philosophy",
+            "heading": "Kind to skin, kind to the planet",
+            "description": "<p>Dew & Petal was started by a cosmetic chemist and a dermatologist who wanted Indian skin to get effective, gentle care. Every formula pairs time-tested botanicals with clinically proven actives.</p><p>We test with dermatologists, never on animals, and use recyclable glass and aluminium wherever we can.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2019",
+            "experience_label": "Formulating since",
+            "points": [
+              {
+                "text": "Dermatologist tested"
+              },
+              {
+                "text": "No parabens or sulphates"
+              },
+              {
+                "text": "Recyclable packaging"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-flower2",
+                "title": "Indian botanicals",
+                "description": "Saffron, rose, rice and turmeric."
+              },
+              {
+                "icon": "bi-heart",
+                "title": "Cruelty-free",
+                "description": "Never tested on animals."
+              },
+              {
+                "icon": "bi-gift",
+                "title": "Free samples",
+                "description": "Two samples with every order."
+              },
+              {
+                "icon": "bi-recycle",
+                "title": "Recyclable",
+                "description": "Glass and aluminium packaging."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "The saffron serum has made my skin noticeably brighter in a month.",
+                "name": "Tanvi R.",
+                "role": "Verified buyer · Mumbai",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Finally a gel moisturiser that does not break me out. Smells lovely too.",
+                "name": "Zoya A.",
+                "role": "Verified buyer · Lucknow",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Beautiful packaging and the free samples were a lovely surprise.",
+                "name": "Kavya M.",
+                "role": "Verified buyer · Kochi",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your first ritual, 15% off",
+            "description": "Use GLOW15 on orders above ₹999.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "Gentle, clinically tested skincare made with saffron, rice water, rose and turmeric.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our philosophy",
+            "heading": "Kind to skin, kind to the planet",
+            "description": "<p>Dew & Petal was started by a cosmetic chemist and a dermatologist who wanted Indian skin to get effective, gentle care. Every formula pairs time-tested botanicals with clinically proven actives.</p><p>We test with dermatologists, never on animals, and use recyclable glass and aluminium wherever we can.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2019",
+            "experience_label": "Formulating since",
+            "points": [
+              {
+                "text": "Dermatologist tested"
+              },
+              {
+                "text": "No parabens or sulphates"
+              },
+              {
+                "text": "Recyclable packaging"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "3",
+                "suffix": "L+",
+                "label": "Customers",
+                "icon": ""
+              },
+              {
+                "number": "4.7",
+                "suffix": "/5",
+                "label": "Average rating",
+                "icon": ""
+              },
+              {
+                "number": "0",
+                "suffix": "",
+                "label": "Parabens or sulphates",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "Cruelty-free",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Dew & Petal",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-serums.svg",
+                "caption": "Serums"
+              },
+              {
+                "image": "theme:images/cat-moisturisers.svg",
+                "caption": "Moisturisers"
+              },
+              {
+                "image": "theme:images/cat-cleansers.svg",
+                "caption": "Cleansers"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Are your products suitable for sensitive skin?",
+                "answer": "Most are; check each product page and patch test first."
+              },
+              {
+                "question": "Are they cruelty-free?",
+                "answer": "Yes, we never test on animals."
+              },
+              {
+                "question": "How long do products last once opened?",
+                "answer": "Usually 6–12 months; see the period-after-opening symbol on the pack."
+              },
+              {
+                "question": "Can I return an opened product?",
+                "answer": "For hygiene, only unopened products can be returned."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking and cash on delivery."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Ships in 1–2 days; delivered in 2–5 working days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your first ritual, 15% off",
+            "description": "Use GLOW15 on orders above ₹999.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our Mumbai studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Ships in 1–2 days; delivered in 2–5 working days.</p><ul><li>Delivery is free on orders above ₹799; otherwise a flat ₹59 applies.</li><li>Cash on delivery is available for a ₹39 handling fee.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>Unopened products can be returned within 7 days.</p><p>To start a return, email care@dewandpetal.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Dew & Petal collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

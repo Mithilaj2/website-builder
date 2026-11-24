@@ -1,0 +1,1 @@
+<div class="kth-price"><?php if (!empty($p['price_from'])): ?><small>From</small><?php endif; ?><strong><?= $view->e($view->money($p['display_price'] ?? 0)) ?></strong><?php if ((int) ($p['compare_price'] ?? 0) > (int) ($p['display_price'] ?? 0)): ?><s><?= $view->e($view->money($p['compare_price'])) ?></s><?php endif; ?></div>

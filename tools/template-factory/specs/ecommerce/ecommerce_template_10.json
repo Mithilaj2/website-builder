@@ -1,0 +1,66 @@
+{
+  "id": "ecommerce_template_10",
+  "name": "Paper Lane",
+  "prefix": "ppl",
+  "niche": "books",
+  "seed": 10,
+  "direction": "Literary and calm: centred masthead, editorial hero, ink blue and marigold on paper, Lora serif headings, hairline product cards, round category icons and a light footer.",
+  "description": "A literary, calm design for bookshops, stationery and gift stores: centred masthead with cart, an editorial hero, round category icons, product cards with add-to-cart and contact cards above a light footer.",
+  "theme": {
+    "primary": "#1D4E89",
+    "secondary": "#E07A1F",
+    "bg": "#FAF7F0",
+    "text": "#1B2333",
+    "heading_font": "lora",
+    "body_font": "inter",
+    "radius": "8px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "editorial",
+    "banner": "solid",
+    "head": "serif",
+    "card": "line",
+    "product-card": "plain",
+    "product_categories": "circles",
+    "about": "grid",
+    "stats": "inline",
+    "testimonials": "cards",
+    "cta": "split",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "band"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "light",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 75%, #000)",
+    "icon": "tint",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "-.01em",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "featured_heading": "Staff picks",
+    "home": [
+      "hero",
+      "products",
+      "product_categories",
+      "about",
+      "products_new",
+      "features",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "ecommerce",
+  "version": "1.0.0"
+}

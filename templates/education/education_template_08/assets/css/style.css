@@ -302,7 +302,7 @@ body.wsm { background: var(--wb-bg); color: var(--wsm-ink); font-family: var(--w
 .wsm-hero-editorial .wsm-hero-title { font-size: calc(clamp(2.6rem, 1.2rem + 5.4vw, 5.6rem) * var(--wsm-hero-scale)); max-width: 1050px; line-height: 1.02; margin-bottom: 2.5rem; }
 .wsm-hero-editorial .wsm-eyebrow-hero { color: var(--wsm-hl); }
 .wsm-hero-editorial .wsm-eyebrow-hero::before { content: ""; width: 40px; height: 2px; background: currentColor; }
-.wsm-hero-editorial-row { border-top: 1px solid var(--wsm-line-strong); padding-top: 2.5rem; }
+.wsm-hero-editorial-row { border-top: 1px solid var(--wsm-line-strong); margin-top: 0; padding-top: .5rem; }
 .wsm-hero-editorial .wsm-actions { margin-top: 1.75rem; }
 .wsm-hero-editorial .wsm-hero-frame { border-radius: var(--wsm-radius); }
 .wsm-hero-editorial .wsm-hero-frame img { aspect-ratio: 16 / 10; }

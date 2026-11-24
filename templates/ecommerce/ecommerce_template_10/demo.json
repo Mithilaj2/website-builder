@@ -1,0 +1,749 @@
+{
+  "settings": {
+    "site": {
+      "name": "Paper Lane",
+      "tagline": "Books, notebooks and stationery",
+      "phone": "+91 33 2464 1188",
+      "email": "hello@paperlane.example",
+      "address": "College Street\nKolkata, West Bengal 700073",
+      "hours": "Mon–Sat, 10 am – 8 pm",
+      "footer_about": "An independent bookshop and stationery studio — new releases, Indian classics and handmade notebooks.",
+      "footer_text": "All rights reserved.",
+      "header_button": {
+        "text": "",
+        "url": ""
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Paper Lane: books, notebooks and stationery. An independent bookshop and stationery studio — new releases, Indian classics and handmade notebooks.",
+      "keywords": "books, notebooks and stationery, online shop India"
+    }
+  },
+  "shop": {
+    "settings": {
+      "enabled": true,
+      "legal_name": "Paper Lane",
+      "gstin": "",
+      "store_state": "West Bengal",
+      "invoice_address": "College Street, Kolkata, West Bengal 700073",
+      "prices_include_tax": true,
+      "order_prefix": "PL",
+      "invoice_prefix": "PL/",
+      "shipping_flat": 4900,
+      "free_shipping_above": 69900,
+      "shipping_note": "Packed in recycled board; delivered in 3–6 working days.",
+      "cod_enabled": true,
+      "cod_fee": 2900,
+      "cod_max": 1000000,
+      "min_order": 0,
+      "low_stock": 5,
+      "return_policy": "Damaged books replaced; stationery returns within 7 days.",
+      "checkout_note": ""
+    },
+    "categories": [
+      {
+        "name": "Books",
+        "slug": "books",
+        "description": "Fiction, non-fiction and Indian classics.",
+        "image": "theme:images/cat-books.svg"
+      },
+      {
+        "name": "Notebooks",
+        "slug": "notebooks",
+        "description": "Handmade-paper journals and notebooks.",
+        "image": "theme:images/cat-notebooks.svg"
+      },
+      {
+        "name": "Planners",
+        "slug": "planners",
+        "description": "Undated and 2027 planners.",
+        "image": "theme:images/cat-planners.svg"
+      },
+      {
+        "name": "Pens",
+        "slug": "pens",
+        "description": "Fountain pens, gel pens and sets.",
+        "image": "theme:images/cat-pens.svg"
+      }
+    ],
+    "products": [
+      {
+        "name": "The Monsoon Letters",
+        "slug": "the-monsoon-letters",
+        "category": "books",
+        "price": 39900,
+        "image": "theme:images/product-the-monsoon-letters.svg",
+        "gallery": [
+          "theme:images/product-the-monsoon-letters-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "4901",
+        "stock": 40,
+        "featured": true,
+        "short_description": "A tender novel of letters between two cousins across a Kolkata monsoon.",
+        "description": "<p>A tender novel of letters between two cousins across a Kolkata monsoon.</p><h3>Details</h3><ul><li>Paperback</li><li>Brand new</li><li>Ships in protective packaging</li></ul>",
+        "sku": "PL-BOO-001",
+        "compare_price": 49900,
+        "badge": "Staff pick"
+      },
+      {
+        "name": "Rivers of the Delta",
+        "slug": "rivers-of-the-delta",
+        "category": "books",
+        "price": 49900,
+        "image": "theme:images/product-rivers-of-the-delta.svg",
+        "gallery": [
+          "theme:images/product-rivers-of-the-delta-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "4901",
+        "stock": 25,
+        "featured": true,
+        "short_description": "Essays on life and ecology in the Sundarbans.",
+        "description": "<p>Essays on life and ecology in the Sundarbans.</p><h3>Details</h3><ul><li>Paperback</li><li>Brand new</li><li>Ships in protective packaging</li></ul>",
+        "sku": "PL-BOO-002"
+      },
+      {
+        "name": "A Kitchen in Calcutta",
+        "slug": "a-kitchen-in-calcutta",
+        "category": "books",
+        "price": 59900,
+        "image": "theme:images/product-a-kitchen-in-calcutta.svg",
+        "gallery": [
+          "theme:images/product-a-kitchen-in-calcutta-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "4901",
+        "stock": 3,
+        "featured": false,
+        "short_description": "Recipes and memories from Bengali kitchens.",
+        "description": "<p>Recipes and memories from Bengali kitchens.</p><h3>Details</h3><ul><li>Paperback</li><li>Brand new</li><li>Ships in protective packaging</li></ul>",
+        "sku": "PL-BOO-003"
+      },
+      {
+        "name": "Poems for the Long Night",
+        "slug": "poems-for-the-long-night",
+        "category": "books",
+        "price": 29900,
+        "image": "theme:images/product-poems-for-the-long-night.svg",
+        "gallery": [
+          "theme:images/product-poems-for-the-long-night-2.svg"
+        ],
+        "gst_rate": "0",
+        "hsn": "4901",
+        "stock": 0,
+        "featured": false,
+        "short_description": "A collection of new Indian poetry.",
+        "description": "<p>A collection of new Indian poetry.</p><h3>Details</h3><ul><li>Paperback</li><li>Brand new</li><li>Ships in protective packaging</li></ul>",
+        "sku": "PL-BOO-004"
+      },
+      {
+        "name": "Handmade Paper Journal",
+        "slug": "handmade-paper-journal",
+        "category": "notebooks",
+        "price": 54900,
+        "image": "theme:images/product-handmade-paper-journal.svg",
+        "gallery": [
+          "theme:images/product-handmade-paper-journal-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "4820",
+        "stock": 30,
+        "featured": true,
+        "short_description": "A cotton-rag paper journal with a leather wrap.",
+        "description": "<p>A cotton-rag paper journal with a leather wrap.</p><h3>Details</h3><ul><li>Acid-free handmade paper</li><li>Lay-flat binding</li><li>160 pages</li></ul>",
+        "sku": "PL-NOT-005",
+        "compare_price": 64900,
+        "badge": "Bestseller"
+      },
+      {
+        "name": "Dot-grid Notebook Trio",
+        "slug": "dot-grid-notebook-trio",
+        "category": "notebooks",
+        "price": 49900,
+        "image": "theme:images/product-dot-grid-notebook-trio.svg",
+        "gallery": [
+          "theme:images/product-dot-grid-notebook-trio-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "4820",
+        "stock": 45,
+        "featured": false,
+        "short_description": "Three A5 dot-grid notebooks for bullet journaling.",
+        "description": "<p>Three A5 dot-grid notebooks for bullet journaling.</p><h3>Details</h3><ul><li>Acid-free handmade paper</li><li>Lay-flat binding</li><li>160 pages</li></ul>",
+        "sku": "PL-NOT-006"
+      },
+      {
+        "name": "Sketchbook — A4",
+        "slug": "sketchbook-a4",
+        "category": "notebooks",
+        "price": 44900,
+        "image": "theme:images/product-sketchbook-a4.svg",
+        "gallery": [
+          "theme:images/product-sketchbook-a4-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "4820",
+        "stock": 20,
+        "featured": false,
+        "short_description": "200 gsm drawing paper for sketching and ink.",
+        "description": "<p>200 gsm drawing paper for sketching and ink.</p><h3>Details</h3><ul><li>Acid-free handmade paper</li><li>Lay-flat binding</li><li>160 pages</li></ul>",
+        "sku": "PL-NOT-007"
+      },
+      {
+        "name": "2027 Weekly Planner",
+        "slug": "2027-weekly-planner",
+        "category": "planners",
+        "price": 79900,
+        "image": "theme:images/product-2027-weekly-planner.svg",
+        "gallery": [
+          "theme:images/product-2027-weekly-planner-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "4820",
+        "stock": 25,
+        "featured": true,
+        "short_description": "A5 weekly planner with monthly reflections.",
+        "description": "<p>A5 weekly planner with monthly reflections.</p><h3>Details</h3><ul><li>Monthly and weekly spreads</li><li>Ribbon bookmark</li><li>A5 size</li></ul>",
+        "sku": "PL-PLA-008",
+        "compare_price": 89900,
+        "badge": "New",
+        "option_name": "Cover",
+        "variants": [
+          {
+            "label": "Rose",
+            "price": 79900,
+            "stock": 8,
+            "sku": "PL-PLA-008-1"
+          },
+          {
+            "label": "Teal",
+            "price": 79900,
+            "stock": 8,
+            "sku": "PL-PLA-008-2"
+          },
+          {
+            "label": "Ink",
+            "price": 79900,
+            "stock": 8,
+            "sku": "PL-PLA-008-3"
+          }
+        ]
+      },
+      {
+        "name": "Undated Daily Planner",
+        "slug": "undated-daily-planner",
+        "category": "planners",
+        "price": 69900,
+        "image": "theme:images/product-undated-daily-planner.svg",
+        "gallery": [
+          "theme:images/product-undated-daily-planner-2.svg"
+        ],
+        "gst_rate": "12",
+        "hsn": "4820",
+        "stock": 15,
+        "featured": false,
+        "short_description": "Start any day with a page for every day.",
+        "description": "<p>Start any day with a page for every day.</p><h3>Details</h3><ul><li>Monthly and weekly spreads</li><li>Ribbon bookmark</li><li>A5 size</li></ul>",
+        "sku": "PL-PLA-009"
+      },
+      {
+        "name": "Fountain Pen Gift Set",
+        "slug": "fountain-pen-gift-set",
+        "category": "pens",
+        "price": 129900,
+        "image": "theme:images/product-fountain-pen-gift-set.svg",
+        "gallery": [
+          "theme:images/product-fountain-pen-gift-set-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "9608",
+        "stock": 12,
+        "featured": true,
+        "short_description": "A brass fountain pen with two ink cartridges.",
+        "description": "<p>A brass fountain pen with two ink cartridges.</p><h3>Details</h3><ul><li>Smooth ink flow</li><li>Refillable</li><li>Gift box</li></ul>",
+        "sku": "PL-PEN-010"
+      },
+      {
+        "name": "Gel Pen Set of 12",
+        "slug": "gel-pen-set-of-12",
+        "category": "pens",
+        "price": 39900,
+        "image": "theme:images/product-gel-pen-set-of-12.svg",
+        "gallery": [
+          "theme:images/product-gel-pen-set-of-12-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "9608",
+        "stock": 50,
+        "featured": false,
+        "short_description": "Smooth gel pens in twelve colours.",
+        "description": "<p>Smooth gel pens in twelve colours.</p><h3>Details</h3><ul><li>Smooth ink flow</li><li>Refillable</li><li>Gift box</li></ul>",
+        "sku": "PL-PEN-011"
+      },
+      {
+        "name": "Calligraphy Starter Kit",
+        "slug": "calligraphy-starter-kit",
+        "category": "pens",
+        "price": 89900,
+        "image": "theme:images/product-calligraphy-starter-kit.svg",
+        "gallery": [
+          "theme:images/product-calligraphy-starter-kit-2.svg"
+        ],
+        "gst_rate": "18",
+        "hsn": "9608",
+        "stock": 8,
+        "featured": false,
+        "short_description": "Nibs, holder, ink and a practice book.",
+        "description": "<p>Nibs, holder, ink and a practice book.</p><h3>Details</h3><ul><li>Smooth ink flow</li><li>Refillable</li><li>Gift box</li></ul>",
+        "sku": "PL-PEN-012"
+      }
+    ],
+    "coupons": [
+      {
+        "code": "READ10",
+        "description": "10% off orders above ₹699 (up to ₹150)",
+        "type": "percent",
+        "value": 10,
+        "min_order": 69900,
+        "max_discount": 15000
+      },
+      {
+        "code": "FREESHIP",
+        "description": "Free delivery above ₹399",
+        "type": "free_shipping",
+        "value": 0,
+        "min_order": 39900,
+        "max_discount": 0
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "This month’s picks",
+            "heading": "Stories, notebooks and the joy of paper.",
+            "subheading": "New and classic books from Indian writers, handmade notebooks and planners, and pens chosen by our team of readers.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Shop now",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Our story",
+              "url": "page:about"
+            },
+            "highlights": [
+              {
+                "icon": "bi-truck",
+                "text": "Free bookmark with every order"
+              },
+              {
+                "icon": "bi-arrow-repeat",
+                "text": "Gift wrap available"
+              },
+              {
+                "icon": "bi-cash-coin",
+                "text": "Free delivery above ₹699"
+              }
+            ]
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Customer favourites",
+            "heading": "Staff picks",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "View all products",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "product_categories",
+          "data": {
+            "eyebrow": "Browse",
+            "heading": "Shop by category",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A College Street bookshop, now online",
+            "description": "<p>Paper Lane opened on Kolkata’s College Street in 2009. We still hand-pick every book and work with paper-makers in Sanganer and Pondicherry for our notebooks.</p><p>Our readers write a note for every book they recommend, so you know why it made our shelves.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2009",
+            "experience_label": "Selling books since",
+            "points": [
+              {
+                "text": "Hand-picked by readers"
+              },
+              {
+                "text": "Handmade-paper notebooks"
+              },
+              {
+                "text": "Gift wrapping by hand"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "products",
+          "data": {
+            "eyebrow": "Just in",
+            "heading": "New arrivals",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 4,
+            "columns": "4",
+            "button": {
+              "text": "Shop new arrivals",
+              "url": "page:shop"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "",
+            "heading": "",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-book",
+                "title": "Hand-picked",
+                "description": "Every title chosen by our readers."
+              },
+              {
+                "icon": "bi-gift",
+                "title": "Gift wrapping",
+                "description": "Wrapped by hand with a note."
+              },
+              {
+                "icon": "bi-bookmark-heart",
+                "title": "Free bookmark",
+                "description": "With every order."
+              },
+              {
+                "icon": "bi-truck",
+                "title": "Free delivery over ₹699",
+                "description": "Across India."
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Reviews",
+            "heading": "Loved by customers across India",
+            "items": [
+              {
+                "quote": "Arrived beautifully wrapped with a handwritten note about why they loved the book.",
+                "name": "Ishita B.",
+                "role": "Verified buyer · Kolkata",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The handmade journal is gorgeous — the paper takes fountain pen ink perfectly.",
+                "name": "Siddharth R.",
+                "role": "Verified buyer · Pune",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Their recommendations are always spot on. My favourite bookshop.",
+                "name": "Mitali G.",
+                "role": "Verified buyer · Delhi",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Find your next favourite book",
+            "description": "Use READ10 on orders above ₹699.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our Story",
+            "subheading": "An independent bookshop and stationery studio — new releases, Indian classics and handmade notebooks.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A College Street bookshop, now online",
+            "description": "<p>Paper Lane opened on Kolkata’s College Street in 2009. We still hand-pick every book and work with paper-makers in Sanganer and Pondicherry for our notebooks.</p><p>Our readers write a note for every book they recommend, so you know why it made our shelves.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "2009",
+            "experience_label": "Selling books since",
+            "points": [
+              {
+                "text": "Hand-picked by readers"
+              },
+              {
+                "text": "Handmade-paper notebooks"
+              },
+              {
+                "text": "Gift wrapping by hand"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "17",
+                "suffix": "",
+                "label": "Years on College Street",
+                "icon": ""
+              },
+              {
+                "number": "8000",
+                "suffix": "+",
+                "label": "Titles",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": "K+",
+                "label": "Readers",
+                "icon": ""
+              },
+              {
+                "number": "4.9",
+                "suffix": "/5",
+                "label": "Customer rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Inside",
+            "heading": "A look inside Paper Lane",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/cat-books.svg",
+                "caption": "Books"
+              },
+              {
+                "image": "theme:images/cat-notebooks.svg",
+                "caption": "Notebooks"
+              },
+              {
+                "image": "theme:images/cat-planners.svg",
+                "caption": "Planners"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "help": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Help & FAQ",
+            "subheading": "Orders, delivery, payments and returns — answered.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Help",
+            "heading": "Frequently asked questions",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you sell second-hand books?",
+                "answer": "Only new books online; our College Street store has a second-hand section."
+              },
+              {
+                "question": "Can you source a book for me?",
+                "answer": "Yes — email us the title and we will find it."
+              },
+              {
+                "question": "Do you gift wrap?",
+                "answer": "Yes, by hand, with a note."
+              },
+              {
+                "question": "Can I return a book?",
+                "answer": "Damaged or wrong books are replaced free."
+              },
+              {
+                "question": "Which payment methods do you accept?",
+                "answer": "UPI, debit and credit cards, net banking and cash on delivery."
+              },
+              {
+                "question": "How long does delivery take?",
+                "answer": "Packed in recycled board; delivered in 3–6 working days."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Find your next favourite book",
+            "description": "Use READ10 on orders above ₹699.",
+            "background_image": "theme:images/promo.svg",
+            "button": {
+              "text": "Start shopping",
+              "url": "page:shop"
+            },
+            "secondary_button": {
+              "text": "Read the FAQ",
+              "url": "page:help"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Questions about an order or a product? We reply within one working day.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "We are happy to help",
+            "description": "Write to us, call, or visit our Kolkata studio.",
+            "form_heading": "Send us a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "shipping-returns": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Shipping & Returns",
+            "subheading": "How we deliver, and how returns work.",
+            "background_image": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "content": "<h2>Delivery</h2><p>Packed in recycled board; delivered in 3–6 working days.</p><ul><li>Delivery is free on orders above ₹699; otherwise a flat ₹49 applies.</li><li>Cash on delivery is available for a ₹29 handling fee.</li><li>You will receive tracking details by email and SMS once your order ships.</li></ul><h2>Returns</h2><p>Damaged books replaced; stationery returns within 7 days.</p><p>To start a return, email hello@paperlane.example with your order number. Refunds are made to the original payment method within 5–7 working days of receiving the item.</p>",
+            "width": "narrow"
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Paper Lane collects and uses your information.</p><h3>What we collect</h3><p>When you order, we collect your name, email, phone number and delivery address so we can process and deliver your order. Payments are handled by our payment partner; we never see or store your card details.</p><h3>How we use it</h3><p>Only to fulfil your orders, send order updates and answer your questions. We do not sell your information.</p><h3>Contact</h3><p>For any privacy question, contact us using the details on the contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": ""
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By placing an order on this website you agree to these terms.</p><h3>Orders and prices</h3><p>All prices are in Indian rupees and include GST. An order is confirmed once payment is received or, for cash on delivery, once you receive a confirmation email.</p><h3>Handmade products</h3><p>Our products are handmade; small variations in colour, size and finish are not defects.</p><h3>Returns</h3><p>See our Shipping & Returns page.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

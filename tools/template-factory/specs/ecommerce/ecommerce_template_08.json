@@ -1,0 +1,67 @@
+{
+  "id": "ecommerce_template_08",
+  "name": "Estate Roast",
+  "prefix": "erc",
+  "niche": "coffee",
+  "seed": 8,
+  "direction": "Warm and artisanal: dark espresso navigation, full-bleed cover hero, espresso and caramel on oat, Merriweather headings, hover-to-add cards, image category tiles.",
+  "description": "A warm, artisanal design for coffee, tea, bakery and specialty-food stores: dark navigation with cart, a full-bleed hero, image category tiles, product cards with hover quick-add and a numbers band.",
+  "theme": {
+    "primary": "#3B2A20",
+    "secondary": "#C97B2E",
+    "bg": "#F6F1EA",
+    "text": "#2A1E17",
+    "heading_font": "merriweather",
+    "body_font": "inter",
+    "radius": "6px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "cover",
+    "banner": "image",
+    "head": "rule",
+    "card": "line",
+    "product-card": "overlay",
+    "product_categories": "tiles",
+    "about": "single",
+    "stats": "band",
+    "testimonials": "cards",
+    "cta": "box",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 75%, #000)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 700,
+    "hero_weight": 700,
+    "track": "-.01em",
+    "card": "#FFFDF9",
+    "hero_scale": 0.95
+  },
+  "demo": {
+    "featured_heading": "Fresh from the roaster",
+    "home": [
+      "hero",
+      "product_categories",
+      "products",
+      "about",
+      "stats",
+      "products_new",
+      "testimonials",
+      "cta"
+    ]
+  },
+  "category": "ecommerce",
+  "version": "1.0.0"
+}
