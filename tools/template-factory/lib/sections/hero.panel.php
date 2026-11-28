@@ -12,6 +12,7 @@ $highlights = array_values(array_filter((array) ($data['highlights'] ?? []), sta
           <h1 class="{{p}}-hero-title"><?= $view->e($data['heading'] ?? '') ?></h1>
           <?php if (($data['subheading'] ?? '') !== ''): ?><p class="{{p}}-hero-text"><?= $view->text($data['subheading']) ?></p><?php endif; ?>
           <?= $view->partial('buttons', ['primary' => $data['primary_button'] ?? [], 'secondary' => $data['secondary_button'] ?? [], 'secondaryClass' => '{{p}}-btn-light']) ?>
+          <?= $view->partial('listing-search', ['sid' => (int) $section['id']]) ?>
           <?php if ($highlights): ?><ul class="{{p}}-highlights"><?php foreach ($highlights as $h): ?><li><?= $view->icon(($h['icon'] ?? '') ?: 'bi-check2-circle') ?><?= $view->e($h['text']) ?></li><?php endforeach; ?></ul><?php endif; ?>
         </div>
       </div>

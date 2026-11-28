@@ -1,0 +1,1135 @@
+{
+  "settings": {
+    "site": {
+      "name": "Hillcrest Retreats",
+      "tagline": "Weekend homes · Lonavala & Karjat",
+      "phone": "+91 2114 270 900",
+      "email": "stay@hillcrestretreats.example",
+      "address": "Hillcrest House, Old Mumbai–Pune Highway\nTungarli, Lonavala, Maharashtra 410401",
+      "hours": "Mon–Sun, 9 am – 7 pm",
+      "footer_about": "Hillcrest Retreats sells farmhouses, hill cottages and weekend villas in Lonavala, Karjat and Mulshi.",
+      "footer_text": "All rights reserved. MahaRERA Agent Reg. No. A51700000000 (demo).",
+      "header_button": {
+        "text": "Plan a visit",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "seo": {
+      "description": "Hillcrest Retreats, Lonavala: Hillcrest Retreats sells farmhouses, hill cottages and weekend villas in Lonavala, Karjat and Mulshi.",
+      "keywords": "retreats in Lonavala, real estate Lonavala, weekend homes · lonavala & karjat"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Farmhouses",
+        "slug": "farmhouses",
+        "description": "Homes on one to five acres with orchards and pools.",
+        "image": "theme:images/cat-farmhouses.svg"
+      },
+      {
+        "name": "Hill cottages",
+        "slug": "cottages",
+        "description": "Cottages with valley views in gated communities.",
+        "image": "theme:images/cat-cottages.svg"
+      },
+      {
+        "name": "Pool villas",
+        "slug": "pool-villas",
+        "description": "Weekend villas with private pools.",
+        "image": "theme:images/cat-pool-villas.svg"
+      },
+      {
+        "name": "Farm plots",
+        "slug": "farm-plots",
+        "description": "NA plots and farmland to build your own retreat.",
+        "image": "theme:images/cat-farm-plots.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Mango Orchard Farmhouse — 2 acres",
+        "slug": "mango-orchard-farmhouse",
+        "category": "farmhouses",
+        "location": "Karjat",
+        "price": 3800000000,
+        "image": "theme:images/prop-mango-orchard-farmhouse.svg",
+        "gallery": [
+          "theme:images/room-pool.svg",
+          "theme:images/room-living.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-bedroom.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "land": "2 acres",
+          "area": 3200,
+          "pool": true,
+          "possession": "Ready to move",
+          "furnishing": "Fully furnished",
+          "parking": 4,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Karjat market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Lonavala railway station — 25 min"
+          ]
+        },
+        "short_description": "A four-bedroom farmhouse in a two-acre mango orchard, with a pool, a gazebo and a caretaker’s cottage.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Karjat, Lonavala</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Orchard"
+      },
+      {
+        "title": "Valley View Cottage — 2 BHK",
+        "slug": "valley-view-cottage",
+        "category": "cottages",
+        "location": "Tungarli, Lonavala",
+        "price": 1450000000,
+        "image": "theme:images/prop-valley-view-cottage.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-garden.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "land": "4,000 sq ft",
+          "area": 1350,
+          "pool": false,
+          "possession": "Ready to move",
+          "furnishing": "Fully furnished",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Tungarli, Lonavala market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Lonavala railway station — 25 min"
+          ]
+        },
+        "short_description": "A stone cottage with a deck over the valley, in a gated community with a shared pool.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Tungarli, Lonavala, Lonavala</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Valley view"
+      },
+      {
+        "title": "Casa Monsoon — 3 BHK pool villa",
+        "slug": "casa-monsoon",
+        "category": "pool-villas",
+        "location": "Pawna Lake",
+        "price": 2650000000,
+        "image": "theme:images/prop-casa-monsoon.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-pool.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-garden.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "land": "8,000 sq ft",
+          "area": 2600,
+          "pool": true,
+          "possession": "Under construction",
+          "furnishing": "Semi-furnished",
+          "parking": 2,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Pawna Lake market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Lonavala railway station — 25 min"
+          ]
+        },
+        "short_description": "A weekend villa with an infinity pool facing Pawna lake, ready for the 2027 monsoon.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Pawna Lake, Lonavala</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Lake facing",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Riverside farmhouse — weekend rental",
+        "slug": "riverside-farmhouse-rental",
+        "category": "farmhouses",
+        "location": "Mulshi",
+        "price": 8500000,
+        "image": "theme:images/prop-riverside-farmhouse-rental.svg",
+        "gallery": [
+          "theme:images/room-pool.svg",
+          "theme:images/room-living.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-bedroom.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 5,
+          "bathrooms": 5,
+          "land": "3 acres",
+          "area": 4000,
+          "pool": true,
+          "possession": "Ready to move",
+          "furnishing": "Fully furnished",
+          "parking": 6,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Mulshi market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Lonavala railway station — 25 min"
+          ]
+        },
+        "short_description": "A staffed five-bedroom farmhouse by the river for weekend and festival stays.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Mulshi, Lonavala</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Staffed",
+        "price_note": "per night"
+      },
+      {
+        "title": "Karjat farm plot — 1 acre",
+        "slug": "karjat-farm-plot",
+        "category": "farm-plots",
+        "location": "Karjat",
+        "price": 950000000,
+        "image": "theme:images/prop-karjat-farm-plot.svg",
+        "gallery": [
+          "theme:images/room-garden.svg",
+          "theme:images/room-living.svg",
+          "theme:images/room-pool.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "land": "1 acre",
+          "pool": false,
+          "possession": "Ready to move",
+          "amenities": [
+            "Tar roads",
+            "Underground drainage",
+            "Street lights",
+            "Water connection",
+            "Parks",
+            "Compound wall"
+          ],
+          "nearby": [
+            "Karjat market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Lonavala railway station — 25 min"
+          ]
+        },
+        "short_description": "A one-acre NA plot with a stream along one side and a tar road to the gate.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Karjat, Lonavala</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "NA plot"
+      },
+      {
+        "title": "Hilltop cottage — 3 BHK",
+        "slug": "hilltop-cottage",
+        "category": "cottages",
+        "location": "Khandala",
+        "price": 2100000000,
+        "image": "theme:images/prop-hilltop-cottage.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-garden.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "land": "6,000 sq ft",
+          "area": 1900,
+          "pool": false,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "parking": 2,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Khandala market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Lonavala railway station — 25 min"
+          ]
+        },
+        "short_description": "A three-bedroom cottage near the Khandala ghat with views of the Duke’s Nose.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Khandala, Lonavala</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Pawna lake farmhouse",
+        "slug": "pawna-farmhouse",
+        "category": "farmhouses",
+        "location": "Pawna Lake",
+        "price": 2900000000,
+        "image": "theme:images/prop-pawna-farmhouse.svg",
+        "gallery": [
+          "theme:images/room-pool.svg",
+          "theme:images/room-living.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-bedroom.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "land": "1.5 acres",
+          "area": 2800,
+          "pool": true,
+          "possession": "Ready to move",
+          "furnishing": "Fully furnished",
+          "parking": 3,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Pawna Lake market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Lonavala railway station — 25 min"
+          ]
+        },
+        "short_description": "Sold in September to a family from Pune.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Pawna Lake, Lonavala</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Two hours from Mumbai and Pune",
+            "heading": "Weekends in the hills, every weekend",
+            "subheading": "Farmhouses with land, hill cottages and pool villas in Lonavala, Karjat and Mulshi — with caretakers and holiday-rental management.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Titles and NA permissions checked"
+              },
+              {
+                "icon": "bi-camera-video",
+                "text": "Caretaker and upkeep services"
+              },
+              {
+                "icon": "bi-bank",
+                "text": "Holiday-rental income options"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "What are you looking for?",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Handpicked",
+            "heading": "Retreats available",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "View all retreats",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Hillcrest",
+            "heading": "Fifteen years of weekend homes",
+            "description": "<p>Hillcrest Retreats began in 2011 selling hill cottages around Lonavala. Today we sell and manage farmhouses, cottages and villas across Lonavala, Karjat and Mulshi.</p><p>We check titles and NA permissions before we list, and our caretakers look after more than 120 retreats.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "15",
+            "experience_label": "years in the hills",
+            "points": [
+              {
+                "text": "Titles and NA checked"
+              },
+              {
+                "text": "Caretakers and upkeep"
+              },
+              {
+                "text": "Holiday-rental management"
+              }
+            ],
+            "button": {
+              "text": "About us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "360",
+                "suffix": "+",
+                "label": "Retreats sold",
+                "icon": ""
+              },
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Years in the hills",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Retreats under management",
+                "icon": ""
+              },
+              {
+                "number": "2",
+                "suffix": " hrs",
+                "label": "From Mumbai and Pune",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "We look after it while you are away",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house-heart",
+                "title": "Weekend homes",
+                "description": "Farmhouses, cottages and villas with titles and permissions checked.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-person-check",
+                "title": "Caretakers",
+                "description": "Trained caretakers and gardeners for your retreat.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-calendar-heart",
+                "title": "Holiday rentals",
+                "description": "Your retreat listed and managed for weekend guests when you are not there.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-pencil-square",
+                "title": "Build your retreat",
+                "description": "Architects and builders for your own farmhouse.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-droplet",
+                "title": "Water & power",
+                "description": "Borewells, solar and backup power arranged.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "NA & legal",
+                "description": "Non-agricultural permission, titles and registration.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just listed",
+            "heading": "New on the market",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all retreats",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Lonavala",
+            "description": "",
+            "items": [
+              {
+                "quote": "We spend every second weekend at the farmhouse. The caretaker has the house ready when we arrive.",
+                "name": "Neeraj & Ritu Khanna",
+                "role": "Farmhouse owners in Karjat",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The holiday rentals pay for the upkeep and then some.",
+                "name": "Farah Ali",
+                "role": "Owns a cottage in Lonavala",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Hillcrest checked the NA papers properly — two other sellers could not show us theirs.",
+                "name": "Mahesh Patil",
+                "role": "Bought a farm plot",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Home loans arranged with",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Sahyadri Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Konkan Home Finance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Deccan Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Western Ghats Finance",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your weekend home is closer than you think",
+            "description": "Plan a visit this weekend. We will show you two or three retreats that fit what you are looking for.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse retreats",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Hillcrest Retreats sells farmhouses, hill cottages and weekend villas in Lonavala, Karjat and Mulshi.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Hillcrest",
+            "heading": "Fifteen years of weekend homes",
+            "description": "<p>Hillcrest Retreats began in 2011 selling hill cottages around Lonavala. Today we sell and manage farmhouses, cottages and villas across Lonavala, Karjat and Mulshi.</p><p>We check titles and NA permissions before we list, and our caretakers look after more than 120 retreats.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "15",
+            "experience_label": "years in the hills",
+            "points": [
+              {
+                "text": "Titles and NA checked"
+              },
+              {
+                "text": "Caretakers and upkeep"
+              },
+              {
+                "text": "Holiday-rental management"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "360",
+                "suffix": "+",
+                "label": "Retreats sold",
+                "icon": ""
+              },
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Years in the hills",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Retreats under management",
+                "icon": ""
+              },
+              {
+                "number": "2",
+                "suffix": " hrs",
+                "label": "From Mumbai and Pune",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Hillcrest",
+            "heading": "What makes us different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-house-heart",
+                "title": "Weekend homes",
+                "description": "Farmhouses, cottages and villas with titles and permissions checked."
+              },
+              {
+                "icon": "bi-person-check",
+                "title": "Caretakers",
+                "description": "Trained caretakers and gardeners for your retreat."
+              },
+              {
+                "icon": "bi-calendar-heart",
+                "title": "Holiday rentals",
+                "description": "Your retreat listed and managed for weekend guests when you are not there."
+              },
+              {
+                "icon": "bi-pencil-square",
+                "title": "Build your retreat",
+                "description": "Architects and builders for your own farmhouse."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "MahaRERA Agent Reg. No. A51700000000 (demo).",
+            "members": [
+              {
+                "name": "Rajat Kapoor",
+                "role": "Founder",
+                "bio": "15 years selling weekend homes in the Sahyadris.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Gauri Sathe",
+                "role": "Sales — Lonavala & Khandala",
+                "bio": "Knows every hill road in the area.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Prakash More",
+                "role": "Caretaker services",
+                "bio": "Leads a team of 60 caretakers.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Tanya Rodrigues",
+                "role": "Holiday rentals",
+                "bio": "Manages bookings for 120 retreats.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "How we help you buy, sell, rent and invest.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "We look after it while you are away",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house-heart",
+                "title": "Weekend homes",
+                "description": "Farmhouses, cottages and villas with titles and permissions checked.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-person-check",
+                "title": "Caretakers",
+                "description": "Trained caretakers and gardeners for your retreat.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-calendar-heart",
+                "title": "Holiday rentals",
+                "description": "Your retreat listed and managed for weekend guests when you are not there.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-pencil-square",
+                "title": "Build your retreat",
+                "description": "Architects and builders for your own farmhouse.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-droplet",
+                "title": "Water & power",
+                "description": "Borewells, solar and backup power arranged.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "NA & legal",
+                "description": "Non-agricultural permission, titles and registration.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Simple, from first call to keys",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Tell us your dream",
+                "description": "Land, view, pool and budget — a short call is enough."
+              },
+              {
+                "icon": "bi-car-front",
+                "title": "Weekend visit",
+                "description": "Visit two or three retreats in one day with our team."
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "Checks & agreement",
+                "description": "Titles, NA permission and access road checked."
+              },
+              {
+                "icon": "bi-key",
+                "title": "Your first weekend",
+                "description": "Keys, a caretaker and, if you like, rental management."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we are often asked",
+            "description": "Can’t find your answer? Call us — we are happy to help.",
+            "items": [
+              {
+                "question": "What is NA land?",
+                "answer": "Non-agricultural (NA) permission allows a home to be built on land. We check it for every farmhouse and plot we sell."
+              },
+              {
+                "question": "Can anyone buy farmland in Maharashtra?",
+                "answer": "Agricultural land can usually only be bought by farmers; NA plots and homes can be bought by anyone. We explain what applies to each property."
+              },
+              {
+                "question": "Can my retreat earn rent?",
+                "answer": "Yes. Our holiday-rental team lists and manages it for weekend guests."
+              },
+              {
+                "question": "Who looks after it during the monsoon?",
+                "answer": "Our caretakers check every managed home weekly and after every heavy rain."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your weekend home is closer than you think",
+            "description": "Plan a visit this weekend. We will show you two or three retreats that fit what you are looking for.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse retreats",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "team": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our team",
+            "subheading": "MahaRERA Agent Reg. No. A51700000000 (demo).",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "MahaRERA Agent Reg. No. A51700000000 (demo).",
+            "members": [
+              {
+                "name": "Rajat Kapoor",
+                "role": "Founder",
+                "bio": "15 years selling weekend homes in the Sahyadris.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Gauri Sathe",
+                "role": "Sales — Lonavala & Khandala",
+                "bio": "Knows every hill road in the area.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Prakash More",
+                "role": "Caretaker services",
+                "bio": "Leads a team of 60 caretakers.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Tanya Rodrigues",
+                "role": "Holiday rentals",
+                "bio": "Manages bookings for 120 retreats.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Lonavala",
+            "description": "",
+            "items": [
+              {
+                "quote": "We spend every second weekend at the farmhouse. The caretaker has the house ready when we arrive.",
+                "name": "Neeraj & Ritu Khanna",
+                "role": "Farmhouse owners in Karjat",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The holiday rentals pay for the upkeep and then some.",
+                "name": "Farah Ali",
+                "role": "Owns a cottage in Lonavala",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Hillcrest checked the NA papers properly — two other sellers could not show us theirs.",
+                "name": "Mahesh Patil",
+                "role": "Bought a farm plot",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your weekend home is closer than you think",
+            "description": "Plan a visit this weekend. We will show you two or three retreats that fit what you are looking for.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse retreats",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Visit our Lonavala office or send us a message.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Let’s talk about what you are looking for",
+            "description": "Tell us what you need and our team will call you within one working day.",
+            "form_heading": "Request a call back",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Hillcrest Retreats collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>Hillcrest Retreats is not liable for decisions made only on the basis of information on this website.</p>"
+          }
+        }
+      ]
+    },
+    "disclaimer": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Disclaimer",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the RERA website.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "id": "realestate_template_08",
+  "name": "Greenfield Township",
+  "category": "real-estate",
+  "version": "1.0.0",
+  "description": "A green, community-minded design for townships and large developments: dark navigation, a full-bleed hero with a home search, image type tiles, cards with the price and a details button, and facilities inside the township.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#1F5F3F",
+      "secondary": "#F4C430",
+      "bg": "#FFFFFF",
+      "text": "#16241B",
+      "heading_font": "sora",
+      "body_font": "inter",
+      "radius": "8px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "listings",
+    "listing_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "listing_categories",
+        "listings",
+        "about",
+        "stats",
+        "services",
+        "listings",
+        "testimonials",
+        "logos",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "team": {
+      "default_sections": [
+        "page_banner",
+        "team",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Team",
+      "slug": "team",
+      "type": "team"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Disclaimer",
+      "slug": "disclaimer",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ],
+  "listings": {
+    "path": "properties",
+    "singular": "Home",
+    "plural": "Homes",
+    "menu_label": "Homes",
+    "icon": "bi-buildings",
+    "category_label": "Home type",
+    "location_label": "Sector",
+    "price_label": "Price",
+    "price_format": "lakh",
+    "price_notes": [
+      "onwards",
+      "per month",
+      "per night",
+      "per acre",
+      "negotiable",
+      "all inclusive"
+    ],
+    "closed_label": "Sold",
+    "attributes": [
+      {
+        "key": "listing_for",
+        "label": "Available for",
+        "type": "select",
+        "options": [
+          "Sale"
+        ],
+        "filter": true,
+        "icon": "bi-tag"
+      },
+      {
+        "key": "bedrooms",
+        "label": "Bedrooms",
+        "type": "number",
+        "suffix": "BHK",
+        "filter": true,
+        "card": true,
+        "icon": "bi-door-closed"
+      },
+      {
+        "key": "bathrooms",
+        "label": "Bathrooms",
+        "type": "number",
+        "suffix": "Baths",
+        "card": true,
+        "icon": "bi-droplet"
+      },
+      {
+        "key": "area",
+        "label": "Built-up area",
+        "type": "number",
+        "suffix": "sq ft",
+        "card": true,
+        "icon": "bi-bounding-box"
+      },
+      {
+        "key": "possession",
+        "label": "Possession",
+        "type": "select",
+        "options": [
+          "Ready to move",
+          "Under construction",
+          "New launch"
+        ],
+        "filter": true,
+        "icon": "bi-calendar-check"
+      },
+      {
+        "key": "facing",
+        "label": "Facing",
+        "type": "select",
+        "options": [
+          "East",
+          "West",
+          "North",
+          "South",
+          "North-East",
+          "North-West",
+          "South-East",
+          "South-West"
+        ],
+        "icon": "bi-compass"
+      },
+      {
+        "key": "floor",
+        "label": "Floor",
+        "type": "text",
+        "icon": "bi-layers",
+        "help": "e.g. 7th of 14"
+      },
+      {
+        "key": "parking",
+        "label": "Car parking",
+        "type": "number",
+        "icon": "bi-p-circle"
+      },
+      {
+        "key": "rera",
+        "label": "RERA number",
+        "type": "text",
+        "icon": "bi-patch-check",
+        "help": "Shown on the property page; required for projects registered under RERA."
+      },
+      {
+        "key": "amenities",
+        "label": "Amenities",
+        "type": "list",
+        "icon": "bi-stars"
+      },
+      {
+        "key": "nearby",
+        "label": "Nearby",
+        "type": "list",
+        "icon": "bi-geo"
+      }
+    ],
+    "enquiry": {
+      "heading": "Visit the township",
+      "button": "Plan my visit",
+      "date_label": "Preferred visit date",
+      "select_label": "Interested in",
+      "select_options": [
+        "Apartment",
+        "Row house",
+        "Villa",
+        "Plot"
+      ],
+      "success": "Thank you! Our relationship manager will call you to plan the visit."
+    }
+  }
+}

@@ -1,0 +1,1130 @@
+{
+  "settings": {
+    "site": {
+      "name": "Greenfield Township",
+      "tagline": "An integrated township · Nagpur",
+      "phone": "+91 712 662 4400",
+      "email": "homes@greenfieldtownship.example",
+      "address": "Experience Centre, Greenfield Township, Wardha Road\nNear MIHAN, Nagpur, Maharashtra 441108",
+      "hours": "Mon–Sun, 10 am – 7 pm",
+      "footer_about": "Greenfield is a 240-acre integrated township on Wardha Road with homes, a school, a hospital and a market inside.",
+      "footer_text": "All rights reserved. MahaRERA registered: P50500000000 (demo).",
+      "header_button": {
+        "text": "Plan a visit",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "seo": {
+      "description": "Greenfield Township, Nagpur: Greenfield is a 240-acre integrated township on Wardha Road with homes, a school, a hospital and a market inside.",
+      "keywords": "homes in Nagpur, real estate Nagpur, an integrated township · nagpur"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Apartments",
+        "slug": "apartments",
+        "description": "1, 2 and 3 BHK homes in mid-rise towers.",
+        "image": "theme:images/cat-apartments.svg"
+      },
+      {
+        "name": "Row houses",
+        "slug": "row-houses",
+        "description": "Duplex row houses facing the parks.",
+        "image": "theme:images/cat-row-houses.svg"
+      },
+      {
+        "name": "Villas",
+        "slug": "villas",
+        "description": "Independent villas on the lake front.",
+        "image": "theme:images/cat-villas.svg"
+      },
+      {
+        "name": "Plots",
+        "slug": "plots",
+        "description": "NMRDA-approved plots to build your own home.",
+        "image": "theme:images/cat-plots.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Sector 4 — 2 BHK apartment",
+        "slug": "sector4-2bhk",
+        "category": "apartments",
+        "location": "Sector 4",
+        "price": 365000000,
+        "image": "theme:images/prop-sector4-2bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": 980,
+          "possession": "Ready to move",
+          "facing": "East",
+          "floor": "1st–10th",
+          "parking": 1,
+          "rera": "P50500000001 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Sector 4 market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Nagpur railway station — 25 min"
+          ]
+        },
+        "short_description": "Ready 2 BHK homes overlooking the central park, a short walk from the school and the market.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sector 4, Nagpur</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Ready to move",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Sector 4 — 3 BHK apartment",
+        "slug": "sector4-3bhk",
+        "category": "apartments",
+        "location": "Sector 4",
+        "price": 525000000,
+        "image": "theme:images/prop-sector4-3bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1420,
+          "possession": "Ready to move",
+          "facing": "North",
+          "floor": "1st–10th",
+          "parking": 1,
+          "rera": "P50500000001 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Sector 4 market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Nagpur railway station — 25 min"
+          ]
+        },
+        "short_description": "Three-bedroom homes with two balconies and a utility, in the same green sector.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sector 4, Nagpur</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Lakeview row houses — 3 BHK",
+        "slug": "lakeview-row-house",
+        "category": "row-houses",
+        "location": "Sector 7",
+        "price": 780000000,
+        "image": "theme:images/prop-lakeview-row-house.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-garden.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1850,
+          "possession": "Under construction",
+          "facing": "East",
+          "parking": 1,
+          "rera": "P50500000002 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Sector 7 market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Nagpur railway station — 25 min"
+          ]
+        },
+        "short_description": "Duplex row houses facing the lake, with a private garden in front and a terrace above.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sector 7, Nagpur</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Handover 2027",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Lakefront villa — 4 BHK",
+        "slug": "lakefront-villa",
+        "category": "villas",
+        "location": "Sector 8",
+        "price": 1450000000,
+        "image": "theme:images/prop-lakefront-villa.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-kitchen.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "area": 3100,
+          "possession": "New launch",
+          "facing": "West",
+          "parking": 2,
+          "rera": "P50500000003 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Sector 8 market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Nagpur railway station — 25 min"
+          ]
+        },
+        "short_description": "Independent villas on the lake front with a private lawn and a home office.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sector 8, Nagpur</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "New launch",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Sector 9 plots — 1,500 sq ft",
+        "slug": "sector9-plots",
+        "category": "plots",
+        "location": "Sector 9",
+        "price": 240000000,
+        "image": "theme:images/prop-sector9-plots.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "area": 1500,
+          "possession": "Ready to move",
+          "facing": "East",
+          "rera": "P50500000004 (demo)",
+          "amenities": [
+            "Tar roads",
+            "Underground drainage",
+            "Street lights",
+            "Water connection",
+            "Clubhouse",
+            "Parks"
+          ],
+          "nearby": [
+            "Sector 9 market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Nagpur railway station — 25 min"
+          ]
+        },
+        "short_description": "NMRDA-approved plots with roads, water, power and drainage ready, so you can start building.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sector 9, Nagpur</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Build now",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Sector 2 — 1 BHK apartment",
+        "slug": "sector2-1bhk",
+        "category": "apartments",
+        "location": "Sector 2",
+        "price": 225000000,
+        "image": "theme:images/prop-sector2-1bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "area": 620,
+          "possession": "Ready to move",
+          "facing": "South",
+          "floor": "1st–8th",
+          "parking": 1,
+          "rera": "P50500000005 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Sector 2 market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Nagpur railway station — 25 min"
+          ]
+        },
+        "short_description": "Compact homes for first-time buyers, with the bus stop and the market at the gate.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sector 2, Nagpur</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "First home",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Sector 1 — row houses",
+        "slug": "sector1-row-houses",
+        "category": "row-houses",
+        "location": "Sector 1",
+        "price": 620000000,
+        "image": "theme:images/prop-sector1-row-houses.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-garden.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "area": 1600,
+          "possession": "Ready to move",
+          "facing": "North",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Sector 1 market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Nagpur railway station — 25 min"
+          ]
+        },
+        "short_description": "The first phase of row houses — all 120 homes are sold and occupied.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sector 1, Nagpur</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "240 acres near MIHAN",
+            "heading": "A whole neighbourhood, ready for you",
+            "subheading": "Apartments, row houses, villas and plots in an integrated township on Wardha Road — with a school, a hospital, a market and 60 acres of open green inside.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "School, hospital and market inside"
+              },
+              {
+                "icon": "bi-camera-video",
+                "text": "60 acres of parks and lakes"
+              },
+              {
+                "icon": "bi-bank",
+                "text": "3,200 families already living here"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "What are you looking for?",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Handpicked",
+            "heading": "Homes in the township",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "View all homes",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Greenfield",
+            "heading": "A neighbourhood planned for the long term",
+            "description": "<p>Greenfield Township was planned in 2014 as a complete neighbourhood on 240 acres along Wardha Road.</p><p>Today more than 3,200 families live here, with a school, a hospital, a market and 60 acres of parks inside the gates.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "12",
+            "experience_label": "years of Greenfield",
+            "points": [
+              {
+                "text": "School, hospital and market inside"
+              },
+              {
+                "text": "60 acres of open green"
+              },
+              {
+                "text": "Township managed by us"
+              }
+            ],
+            "button": {
+              "text": "About us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "240",
+                "suffix": " acres",
+                "label": "Township area",
+                "icon": ""
+              },
+              {
+                "number": "3200",
+                "suffix": "+",
+                "label": "Families living here",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": " acres",
+                "label": "Parks and lakes",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Years of development",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything inside the gates",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-houses",
+                "title": "Homes for every stage",
+                "description": "From 1 BHK apartments to lakefront villas, in one township.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-mortarboard",
+                "title": "School & hospital inside",
+                "description": "A CBSE school and a 100-bed hospital within the township.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Parks & lakes",
+                "description": "60 acres of open green, two lakes and 8 km of cycle tracks.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Township security",
+                "description": "Gated sectors, CCTV and a township control room.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Home loans",
+                "description": "Partner banks approve loans for every project in the township.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Township management",
+                "description": "Water, power, roads and gardens maintained by our team.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just listed",
+            "heading": "New on the market",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all homes",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Nagpur",
+            "description": "",
+            "items": [
+              {
+                "quote": "The children walk to school and we walk to the market. That is why we chose Greenfield.",
+                "name": "Sachin & Prachi Deshpande",
+                "role": "Living in Sector 4",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "We bought a plot in 2022 and built our home last year. Water and power were ready on day one.",
+                "name": "Ramesh Wankhede",
+                "role": "Built on a Sector 9 plot",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The lake and the cycle track are the best part of living here.",
+                "name": "Swati Joshi",
+                "role": "Row-house owner",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Home loans arranged with",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Vidarbha Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Orange City Finance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Central Housing Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Satpura Finance",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and see Greenfield",
+            "description": "Visit the experience centre any day of the week and tour the township with our team.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse homes",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Greenfield is a 240-acre integrated township on Wardha Road with homes, a school, a hospital and a market inside.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Greenfield",
+            "heading": "A neighbourhood planned for the long term",
+            "description": "<p>Greenfield Township was planned in 2014 as a complete neighbourhood on 240 acres along Wardha Road.</p><p>Today more than 3,200 families live here, with a school, a hospital, a market and 60 acres of parks inside the gates.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "12",
+            "experience_label": "years of Greenfield",
+            "points": [
+              {
+                "text": "School, hospital and market inside"
+              },
+              {
+                "text": "60 acres of open green"
+              },
+              {
+                "text": "Township managed by us"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "240",
+                "suffix": " acres",
+                "label": "Township area",
+                "icon": ""
+              },
+              {
+                "number": "3200",
+                "suffix": "+",
+                "label": "Families living here",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": " acres",
+                "label": "Parks and lakes",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Years of development",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Greenfield",
+            "heading": "What makes us different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-houses",
+                "title": "Homes for every stage",
+                "description": "From 1 BHK apartments to lakefront villas, in one township."
+              },
+              {
+                "icon": "bi-mortarboard",
+                "title": "School & hospital inside",
+                "description": "A CBSE school and a 100-bed hospital within the township."
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Parks & lakes",
+                "description": "60 acres of open green, two lakes and 8 km of cycle tracks."
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Township security",
+                "description": "Gated sectors, CCTV and a township control room."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "MahaRERA registered: P50500000000 (demo).",
+            "members": [
+              {
+                "name": "Vivek Agrawal",
+                "role": "Managing Director",
+                "bio": "Planned Greenfield from the first master plan.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Shilpa Bhagat",
+                "role": "Head of sales",
+                "bio": "Runs the experience centre and bookings.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Nitin Khare",
+                "role": "Township management",
+                "bio": "Utilities, security and gardens.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Pallavi Rane",
+                "role": "Customer relations",
+                "bio": "Possession and resident services.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "How we help you buy, sell, rent and invest.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything inside the gates",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-houses",
+                "title": "Homes for every stage",
+                "description": "From 1 BHK apartments to lakefront villas, in one township.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-mortarboard",
+                "title": "School & hospital inside",
+                "description": "A CBSE school and a 100-bed hospital within the township.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Parks & lakes",
+                "description": "60 acres of open green, two lakes and 8 km of cycle tracks.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Township security",
+                "description": "Gated sectors, CCTV and a township control room.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Home loans",
+                "description": "Partner banks approve loans for every project in the township.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Township management",
+                "description": "Water, power, roads and gardens maintained by our team.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Simple, from first call to keys",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-geo-alt",
+                "title": "Visit the experience centre",
+                "description": "See the master plan, sample homes and the facilities."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Choose your home",
+                "description": "Pick the type, sector and floor."
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Book & finance",
+                "description": "Booking amount and a loan sanction from partner banks."
+              },
+              {
+                "icon": "bi-key",
+                "title": "Move in",
+                "description": "Possession with utilities connected and the society running."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we are often asked",
+            "description": "Can’t find your answer? Call us — we are happy to help.",
+            "items": [
+              {
+                "question": "What is an integrated township?",
+                "answer": "A planned neighbourhood with homes, schools, healthcare, shops and parks built together, so daily needs are within walking distance."
+              },
+              {
+                "question": "How far is it from the city?",
+                "answer": "About 20 minutes from Nagpur airport and 5 minutes from MIHAN on Wardha Road."
+              },
+              {
+                "question": "Is there a maintenance charge?",
+                "answer": "Yes, a monthly township maintenance charge covers security, water, gardens and roads."
+              },
+              {
+                "question": "Can I buy a plot and build later?",
+                "answer": "Yes. Plots in Sector 9 have no deadline to start construction."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and see Greenfield",
+            "description": "Visit the experience centre any day of the week and tour the township with our team.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse homes",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "team": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our team",
+            "subheading": "MahaRERA registered: P50500000000 (demo).",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "MahaRERA registered: P50500000000 (demo).",
+            "members": [
+              {
+                "name": "Vivek Agrawal",
+                "role": "Managing Director",
+                "bio": "Planned Greenfield from the first master plan.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Shilpa Bhagat",
+                "role": "Head of sales",
+                "bio": "Runs the experience centre and bookings.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Nitin Khare",
+                "role": "Township management",
+                "bio": "Utilities, security and gardens.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Pallavi Rane",
+                "role": "Customer relations",
+                "bio": "Possession and resident services.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Nagpur",
+            "description": "",
+            "items": [
+              {
+                "quote": "The children walk to school and we walk to the market. That is why we chose Greenfield.",
+                "name": "Sachin & Prachi Deshpande",
+                "role": "Living in Sector 4",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "We bought a plot in 2022 and built our home last year. Water and power were ready on day one.",
+                "name": "Ramesh Wankhede",
+                "role": "Built on a Sector 9 plot",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The lake and the cycle track are the best part of living here.",
+                "name": "Swati Joshi",
+                "role": "Row-house owner",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Come and see Greenfield",
+            "description": "Visit the experience centre any day of the week and tour the township with our team.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse homes",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Visit our Nagpur office or send us a message.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Let’s talk about what you are looking for",
+            "description": "Tell us what you need and our team will call you within one working day.",
+            "form_heading": "Request a call back",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Greenfield Township collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>Greenfield Township is not liable for decisions made only on the basis of information on this website.</p>"
+          }
+        }
+      ]
+    },
+    "disclaimer": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Disclaimer",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the RERA website.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

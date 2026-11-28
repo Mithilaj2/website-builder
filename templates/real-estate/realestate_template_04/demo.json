@@ -1,0 +1,1149 @@
+{
+  "settings": {
+    "site": {
+      "name": "Meridian Spaces",
+      "tagline": "Offices & retail · Delhi NCR",
+      "phone": "+91 124 450 8800",
+      "email": "leasing@meridianspaces.example",
+      "address": "Level 9, Horizon Tower, Golf Course Road\nSector 54, Gurugram, Haryana 122002",
+      "hours": "Mon–Sat, 9:30 am – 7 pm",
+      "footer_about": "Meridian Spaces leases and sells offices, retail and warehouses across Delhi NCR for companies of every size.",
+      "footer_text": "All rights reserved. HARERA Agent Reg. No. HRERA-PKL-REA-0000 (demo).",
+      "header_button": {
+        "text": "Arrange a tour",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "seo": {
+      "description": "Meridian Spaces, Gurugram: Meridian Spaces leases and sells offices, retail and warehouses across Delhi NCR for companies of every size.",
+      "keywords": "spaces in Gurugram, real estate Gurugram, offices & retail · delhi ncr"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Grade-A offices",
+        "slug": "offices",
+        "description": "Bare-shell and warm-shell floors in LEED-certified towers.",
+        "image": "theme:images/cat-offices.svg"
+      },
+      {
+        "name": "Managed workspaces",
+        "slug": "managed",
+        "description": "Plug-and-play offices from 20 to 300 seats.",
+        "image": "theme:images/cat-managed.svg"
+      },
+      {
+        "name": "Retail & showrooms",
+        "slug": "retail",
+        "description": "High-street shops and mall units with frontage.",
+        "image": "theme:images/cat-retail.svg"
+      },
+      {
+        "name": "Warehouses",
+        "slug": "warehouses",
+        "description": "Grade-A warehousing on NH-48 and the KMP Expressway.",
+        "image": "theme:images/cat-warehouses.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Horizon Tower — 24,000 sq ft floor",
+        "slug": "horizon-tower-floor",
+        "category": "offices",
+        "location": "Golf Course Road",
+        "price": 312000000,
+        "image": "theme:images/prop-horizon-tower-floor.svg",
+        "gallery": [
+          "theme:images/room-office.svg",
+          "theme:images/room-cabin.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Lease",
+          "area": 24000,
+          "seats": 260,
+          "furnishing": "Warm shell",
+          "possession": "Ready to move",
+          "floor": "11th of 24",
+          "parking": 48,
+          "amenities": [
+            "24×7 access and security",
+            "Power backup",
+            "Food court",
+            "Visitor parking",
+            "High-speed lifts",
+            "Fire safety systems"
+          ],
+          "nearby": [
+            "Golf Course Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Gurugram railway station — 25 min"
+          ]
+        },
+        "short_description": "A full floor in a LEED Platinum tower with floor-to-ceiling glass, 1:1000 parking and a food court.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Golf Course Road, Gurugram</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Full floor",
+        "price_note": "per month"
+      },
+      {
+        "title": "Cyber Park — 80-seat managed office",
+        "slug": "cyber-park-80",
+        "category": "managed",
+        "location": "Cyber City",
+        "price": 96000000,
+        "image": "theme:images/prop-cyber-park-80.svg",
+        "gallery": [
+          "theme:images/room-office.svg",
+          "theme:images/room-cabin.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Lease",
+          "area": 6200,
+          "seats": 80,
+          "furnishing": "Plug and play",
+          "possession": "Ready to move",
+          "floor": "6th of 18",
+          "parking": 12,
+          "amenities": [
+            "24×7 access and security",
+            "Power backup",
+            "Food court",
+            "Visitor parking",
+            "High-speed lifts",
+            "Fire safety systems"
+          ],
+          "nearby": [
+            "Cyber City market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Gurugram railway station — 25 min"
+          ]
+        },
+        "short_description": "Furnished private office for 80 with two meeting rooms, a pantry and 24×7 access — move in within two weeks.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Cyber City, Gurugram</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Move in now",
+        "price_note": "per month"
+      },
+      {
+        "title": "Sector 18 high-street showroom",
+        "slug": "sector-18-showroom",
+        "category": "retail",
+        "location": "Sector 18, Noida",
+        "price": 68000000,
+        "image": "theme:images/prop-sector-18-showroom.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-office.svg",
+          "theme:images/room-cabin.svg"
+        ],
+        "attributes": {
+          "listing_for": "Lease",
+          "area": 2400,
+          "furnishing": "Bare shell",
+          "possession": "Ready to move",
+          "floor": "Ground + 1",
+          "parking": 4,
+          "amenities": [
+            "Visitor parking",
+            "Power backup",
+            "24×7 security",
+            "Signage rights",
+            "Loading bay"
+          ],
+          "nearby": [
+            "Sector 18, Noida market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Gurugram railway station — 25 min"
+          ]
+        },
+        "short_description": "Double-height showroom with a 40-ft frontage on the busiest retail street in Noida.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sector 18, Noida, Gurugram</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Prime frontage",
+        "price_note": "per month"
+      },
+      {
+        "title": "NH-48 logistics park — 1.2 lakh sq ft",
+        "slug": "nh48-warehouse",
+        "category": "warehouses",
+        "location": "Bilaspur, NH-48",
+        "price": 264000000,
+        "image": "theme:images/prop-nh48-warehouse.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-office.svg",
+          "theme:images/room-cabin.svg"
+        ],
+        "attributes": {
+          "listing_for": "Lease",
+          "area": 120000,
+          "furnishing": "Warm shell",
+          "possession": "Under construction",
+          "parking": 30,
+          "amenities": [
+            "24 dock levellers",
+            "12-m clear height",
+            "Fire sprinklers",
+            "Truck parking",
+            "24×7 security"
+          ],
+          "nearby": [
+            "Bilaspur, NH-48 market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Gurugram railway station — 25 min"
+          ]
+        },
+        "short_description": "Grade-A warehouse with 12-m clear height, 24 dock levellers and an FM2-grade floor.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Bilaspur, NH-48, Gurugram</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Ready Q3 2027",
+        "price_note": "per month"
+      },
+      {
+        "title": "Udyog Vihar office — for sale",
+        "slug": "udyog-vihar-office",
+        "category": "offices",
+        "location": "Udyog Vihar",
+        "price": 6400000000,
+        "image": "theme:images/prop-udyog-vihar-office.svg",
+        "gallery": [
+          "theme:images/room-office.svg",
+          "theme:images/room-cabin.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "area": 9800,
+          "seats": 110,
+          "furnishing": "Warm shell",
+          "possession": "Ready to move",
+          "floor": "3rd of 7",
+          "parking": 15,
+          "rera": "RC/REP/HARERA/GGM/0000 (demo)",
+          "amenities": [
+            "24×7 access and security",
+            "Power backup",
+            "Food court",
+            "Visitor parking",
+            "High-speed lifts",
+            "Fire safety systems"
+          ],
+          "nearby": [
+            "Udyog Vihar market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Gurugram railway station — 25 min"
+          ]
+        },
+        "short_description": "Pre-leased office floor with a 9-year lease to a technology company, yielding about 7.5% a year.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Udyog Vihar, Gurugram</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Pre-leased"
+      },
+      {
+        "title": "Sohna Road — 40-seat managed office",
+        "slug": "sohna-road-40",
+        "category": "managed",
+        "location": "Sohna Road",
+        "price": 42000000,
+        "image": "theme:images/prop-sohna-road-40.svg",
+        "gallery": [
+          "theme:images/room-office.svg",
+          "theme:images/room-cabin.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Lease",
+          "area": 3000,
+          "seats": 40,
+          "furnishing": "Plug and play",
+          "possession": "Ready to move",
+          "floor": "4th of 12",
+          "parking": 6,
+          "amenities": [
+            "24×7 access and security",
+            "Power backup",
+            "Food court",
+            "Visitor parking",
+            "High-speed lifts",
+            "Fire safety systems"
+          ],
+          "nearby": [
+            "Sohna Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Gurugram railway station — 25 min"
+          ]
+        },
+        "short_description": "A bright private office for 40 with a cabin and a meeting room, in a building with a metro feeder.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sohna Road, Gurugram</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "price_note": "per month"
+      },
+      {
+        "title": "DLF-area retail unit",
+        "slug": "golf-course-retail",
+        "category": "retail",
+        "location": "Golf Course Extension Road",
+        "price": 2650000000,
+        "image": "theme:images/prop-golf-course-retail.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-office.svg",
+          "theme:images/room-cabin.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "area": 850,
+          "furnishing": "Bare shell",
+          "possession": "New launch",
+          "floor": "Ground",
+          "parking": 2,
+          "rera": "RC/REP/HARERA/GGM/0001 (demo)",
+          "amenities": [
+            "Visitor parking",
+            "Power backup",
+            "24×7 security",
+            "Signage rights",
+            "Loading bay"
+          ],
+          "nearby": [
+            "Golf Course Extension Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Gurugram railway station — 25 min"
+          ]
+        },
+        "short_description": "Ground-floor retail unit in a new mixed-use development with 1,800 apartments around it.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Golf Course Extension Road, Gurugram</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "active",
+        "badge": "New launch",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Cyber City — 30,000 sq ft campus",
+        "slug": "cyber-city-campus",
+        "category": "offices",
+        "location": "Cyber City",
+        "price": 420000000,
+        "image": "theme:images/prop-cyber-city-campus.svg",
+        "gallery": [
+          "theme:images/room-office.svg",
+          "theme:images/room-cabin.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Lease",
+          "area": 30000,
+          "seats": 320,
+          "furnishing": "Warm shell",
+          "possession": "Ready to move",
+          "floor": "2 floors",
+          "parking": 60,
+          "amenities": [
+            "24×7 access and security",
+            "Power backup",
+            "Food court",
+            "Visitor parking",
+            "High-speed lifts",
+            "Fire safety systems"
+          ],
+          "nearby": [
+            "Cyber City market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Gurugram railway station — 25 min"
+          ]
+        },
+        "short_description": "Two connected floors — leased to a consulting firm in October.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Cyber City, Gurugram</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "closed",
+        "price_note": "per month"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Commercial real estate · Delhi NCR",
+            "heading": "Workspace that works as hard as you do",
+            "subheading": "Grade-A offices, managed workspaces, high-street retail and warehouses on Golf Course Road, Cyber City, Noida and the NH-48 corridor.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "2.4 million sq ft leased since 2009"
+              },
+              {
+                "icon": "bi-camera-video",
+                "text": "Fit-out and move-in managed for you"
+              },
+              {
+                "icon": "bi-bank",
+                "text": "Independent advice for occupiers"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "What are you looking for?",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Handpicked",
+            "heading": "Featured spaces",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "View all spaces",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Meridian",
+            "heading": "Independent advice for occupiers since 2009",
+            "description": "<p>Meridian Spaces was founded to represent the tenant, not the building. We have since helped more than 380 companies lease, buy and fit out their workplaces across Delhi NCR.</p><p>Every shortlist compares the real cost of each option — rent, maintenance, fit-out and parking.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "17",
+            "experience_label": "years in NCR",
+            "points": [
+              {
+                "text": "Occupier-only advice"
+              },
+              {
+                "text": "Costed shortlists in 48 hours"
+              },
+              {
+                "text": "Fit-out managed in-house"
+              }
+            ],
+            "button": {
+              "text": "About us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2.4",
+                "suffix": "M sq ft",
+                "label": "Leased since 2009",
+                "icon": ""
+              },
+              {
+                "number": "380",
+                "suffix": "+",
+                "label": "Companies housed",
+                "icon": ""
+              },
+              {
+                "number": "17",
+                "suffix": "",
+                "label": "Years in NCR",
+                "icon": ""
+              },
+              {
+                "number": "45",
+                "suffix": " days",
+                "label": "Average time to close",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "One partner for your workplace",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-building",
+                "title": "Office leasing",
+                "description": "Search, shortlist, negotiate and close — we represent occupiers, not landlords.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-grid-1x2",
+                "title": "Managed workspaces",
+                "description": "Plug-and-play offices with flexible terms from our partner operators.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-shop",
+                "title": "Retail leasing",
+                "description": "High-street and mall units with footfall data for every option.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-box-seam",
+                "title": "Industrial & warehousing",
+                "description": "Grade-A warehouses on the main logistics corridors.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-graph-up-arrow",
+                "title": "Investment sales",
+                "description": "Pre-leased offices and retail with verified lease terms.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Fit-out management",
+                "description": "Design, build and move-in managed to a fixed budget.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just listed",
+            "heading": "New on the market",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all spaces",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted by growing companies",
+            "description": "",
+            "items": [
+              {
+                "quote": "Meridian found us 260 seats on Golf Course Road and negotiated four months rent-free.",
+                "name": "Ankit Sharma",
+                "role": "COO, a fintech company",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Our showroom in Sector 18 opened within 60 days of the first call, fit-out included.",
+                "name": "Simran Kaur",
+                "role": "Founder, a lifestyle brand",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Clear advice on the warehouse lease terms saved us lakhs over the lock-in.",
+                "name": "Rajiv Bansal",
+                "role": "Director, a logistics company",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our financing partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Capital Trust Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Aravalli Finance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Metro Commercial Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Northstar Capital",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a move or expansion?",
+            "description": "Share your headcount and timeline. We will come back with a costed shortlist within 48 hours.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse spaces",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Meridian Spaces leases and sells offices, retail and warehouses across Delhi NCR for companies of every size.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Meridian",
+            "heading": "Independent advice for occupiers since 2009",
+            "description": "<p>Meridian Spaces was founded to represent the tenant, not the building. We have since helped more than 380 companies lease, buy and fit out their workplaces across Delhi NCR.</p><p>Every shortlist compares the real cost of each option — rent, maintenance, fit-out and parking.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "17",
+            "experience_label": "years in NCR",
+            "points": [
+              {
+                "text": "Occupier-only advice"
+              },
+              {
+                "text": "Costed shortlists in 48 hours"
+              },
+              {
+                "text": "Fit-out managed in-house"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2.4",
+                "suffix": "M sq ft",
+                "label": "Leased since 2009",
+                "icon": ""
+              },
+              {
+                "number": "380",
+                "suffix": "+",
+                "label": "Companies housed",
+                "icon": ""
+              },
+              {
+                "number": "17",
+                "suffix": "",
+                "label": "Years in NCR",
+                "icon": ""
+              },
+              {
+                "number": "45",
+                "suffix": " days",
+                "label": "Average time to close",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Meridian",
+            "heading": "What makes us different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-building",
+                "title": "Office leasing",
+                "description": "Search, shortlist, negotiate and close — we represent occupiers, not landlords."
+              },
+              {
+                "icon": "bi-grid-1x2",
+                "title": "Managed workspaces",
+                "description": "Plug-and-play offices with flexible terms from our partner operators."
+              },
+              {
+                "icon": "bi-shop",
+                "title": "Retail leasing",
+                "description": "High-street and mall units with footfall data for every option."
+              },
+              {
+                "icon": "bi-box-seam",
+                "title": "Industrial & warehousing",
+                "description": "Grade-A warehouses on the main logistics corridors."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "HARERA Agent Reg. No. HRERA-PKL-REA-0000 (demo).",
+            "members": [
+              {
+                "name": "Arjun Malhotra",
+                "role": "Managing Director",
+                "bio": "17 years in NCR commercial leasing.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Neha Kapoor",
+                "role": "Head of office leasing",
+                "bio": "Advises technology and consulting occupiers.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Sameer Gupta",
+                "role": "Retail & industrial",
+                "bio": "High-street, malls and warehousing.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Pooja Arora",
+                "role": "Fit-out projects",
+                "bio": "Has delivered 1.1 million sq ft of fit-outs.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "How we help you buy, sell, rent and invest.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "One partner for your workplace",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-building",
+                "title": "Office leasing",
+                "description": "Search, shortlist, negotiate and close — we represent occupiers, not landlords.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-grid-1x2",
+                "title": "Managed workspaces",
+                "description": "Plug-and-play offices with flexible terms from our partner operators.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-shop",
+                "title": "Retail leasing",
+                "description": "High-street and mall units with footfall data for every option.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-box-seam",
+                "title": "Industrial & warehousing",
+                "description": "Grade-A warehouses on the main logistics corridors.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-graph-up-arrow",
+                "title": "Investment sales",
+                "description": "Pre-leased offices and retail with verified lease terms.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Fit-out management",
+                "description": "Design, build and move-in managed to a fixed budget.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Simple, from first call to keys",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-clipboard-check",
+                "title": "Brief",
+                "description": "Headcount, budget, location and timeline in a 30-minute call."
+              },
+              {
+                "icon": "bi-search",
+                "title": "Shortlist & tours",
+                "description": "A shortlist with costs compared, and tours on one day."
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Negotiate the lease",
+                "description": "Rent-free period, escalation and lock-in negotiated for you."
+              },
+              {
+                "icon": "bi-box-arrow-in-right",
+                "title": "Fit-out & move-in",
+                "description": "Fit-out managed to budget; IT and furniture ready on day one."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we are often asked",
+            "description": "Can’t find your answer? Call us — we are happy to help.",
+            "items": [
+              {
+                "question": "Do you charge occupiers a fee?",
+                "answer": "Our fee is usually paid by the landlord. For buy-side mandates it is agreed in writing at the start."
+              },
+              {
+                "question": "What is warm shell?",
+                "answer": "A warm-shell space has air conditioning, false ceiling and lighting; bare shell has none of these."
+              },
+              {
+                "question": "What lock-in should I expect?",
+                "answer": "Three years is common for conventional offices; managed workspaces start from 12 months."
+              },
+              {
+                "question": "Can you manage our fit-out?",
+                "answer": "Yes, from design to move-in, to a fixed budget agreed up front."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a move or expansion?",
+            "description": "Share your headcount and timeline. We will come back with a costed shortlist within 48 hours.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse spaces",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "team": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our team",
+            "subheading": "HARERA Agent Reg. No. HRERA-PKL-REA-0000 (demo).",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "HARERA Agent Reg. No. HRERA-PKL-REA-0000 (demo).",
+            "members": [
+              {
+                "name": "Arjun Malhotra",
+                "role": "Managing Director",
+                "bio": "17 years in NCR commercial leasing.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Neha Kapoor",
+                "role": "Head of office leasing",
+                "bio": "Advises technology and consulting occupiers.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Sameer Gupta",
+                "role": "Retail & industrial",
+                "bio": "High-street, malls and warehousing.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Pooja Arora",
+                "role": "Fit-out projects",
+                "bio": "Has delivered 1.1 million sq ft of fit-outs.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted by growing companies",
+            "description": "",
+            "items": [
+              {
+                "quote": "Meridian found us 260 seats on Golf Course Road and negotiated four months rent-free.",
+                "name": "Ankit Sharma",
+                "role": "COO, a fintech company",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Our showroom in Sector 18 opened within 60 days of the first call, fit-out included.",
+                "name": "Simran Kaur",
+                "role": "Founder, a lifestyle brand",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Clear advice on the warehouse lease terms saved us lakhs over the lock-in.",
+                "name": "Rajiv Bansal",
+                "role": "Director, a logistics company",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a move or expansion?",
+            "description": "Share your headcount and timeline. We will come back with a costed shortlist within 48 hours.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse spaces",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Visit our Gurugram office or send us a message.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Let’s talk about what you are looking for",
+            "description": "Tell us what you need and our team will call you within one working day.",
+            "form_heading": "Request a call back",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Meridian Spaces collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>Meridian Spaces is not liable for decisions made only on the basis of information on this website.</p>"
+          }
+        }
+      ]
+    },
+    "disclaimer": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Disclaimer",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the RERA website.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

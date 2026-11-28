@@ -1,0 +1,60 @@
+{
+  "id": "realestate_template_03",
+  "name": "Navkar Developers",
+  "prefix": "nvk",
+  "niche": "developer",
+  "seed": 3,
+  "direction": "Confident developer: dark navigation, colour-panel hero with a project search, deep blue and saffron, Montserrat, accent-topped cards with a price footer, image type cards, a numbers band.",
+  "description": "A confident design for builders and developers: dark navigation, a colour-panel hero with a project search, project type cards, cards with the price and a details button, a construction timeline and a numbers band.",
+  "theme": {
+    "primary": "#1C3D6E",
+    "secondary": "#F2A93B",
+    "bg": "#FFFFFF",
+    "text": "#18202B",
+    "heading_font": "montserrat",
+    "body_font": "open-sans",
+    "radius": "6px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "panel",
+    "banner": "solid",
+    "head": "bar",
+    "card": "top",
+    "listing-card": "classic",
+    "listing_categories": "cards",
+    "about": "grid",
+    "services": "cards",
+    "stats": "band",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "boxed",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 80%, #000)",
+    "icon": "accent",
+    "track": "-.01em",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "featured_heading": "Current projects",
+    "header_button": "Visit a sample flat",
+    "services_heading": "From booking to possession"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

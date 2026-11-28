@@ -1,0 +1,12 @@
+.{{p}}-listing-photo { background: var(--{{p}}-card); border: 1px solid var(--{{p}}-line); border-radius: var(--{{p}}-radius-lg); overflow: hidden; transition: box-shadow .25s ease, transform .25s ease; }
+.{{p}}-listing-photo:hover { box-shadow: var(--{{p}}-shadow); transform: translateY(-3px); }
+.{{p}}-listing-photo .{{p}}-listing-img::after { content: ""; position: absolute; inset: 55% 0 0; background: linear-gradient(transparent, rgba(0, 0, 0, .62)); pointer-events: none; }
+.{{p}}-listing-photo .{{p}}-listing-price { position: absolute; left: 1rem; bottom: .8rem; z-index: 1; color: #fff; font-family: var(--wb-heading-font); font-weight: 700; font-size: 1.35rem; letter-spacing: -.01em; }
+.{{p}}-listing-photo .{{p}}-listing-price small { font-family: var(--wb-body-font); font-size: .78rem; font-weight: 500; opacity: .85; }
+.{{p}}-listing-photo .{{p}}-listing-body { padding: 1.1rem 1.2rem 1.2rem; }
+.{{p}}-listing-facts { display: flex; list-style: none; margin: auto 0 0; padding: .85rem 0 0; border-top: 1px solid var(--{{p}}-line); gap: 0; }
+.{{p}}-listing-facts li { flex: 1; display: flex; align-items: center; gap: .4rem; font-size: .86rem; font-weight: 600; min-width: 0; white-space: nowrap; }
+.{{p}}-listing-facts li + li { border-left: 1px solid var(--{{p}}-line); padding-left: .7rem; }
+.{{p}}-listing-facts i { color: var(--{{p}}-hl); }
+.{{p}}-listing-photo .{{p}}-listing-body > .{{p}}-listing-loc { margin-bottom: .7rem; }
+.{{p}}-listing-facts li span:not(.visually-hidden) { min-width: 0; overflow: hidden; text-overflow: ellipsis; }

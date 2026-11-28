@@ -1,0 +1,296 @@
+{
+  "id": "realestate_template_09",
+  "name": "Hillcrest Retreats",
+  "category": "real-estate",
+  "version": "1.0.0",
+  "description": "A rustic, relaxed design for farmhouses, hill cottages and weekend-home sellers: info bar, a colour-panel hero with a search, type cards, cards with the price on the photo, caretaker services and agent portraits.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#4A5D3A",
+      "secondary": "#C8643B",
+      "bg": "#F8F4EC",
+      "text": "#262A1F",
+      "heading_font": "fraunces",
+      "body_font": "dm-sans",
+      "radius": "12px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky, with info bar",
+      "minimal": "Sticky, no info bar",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "listings",
+    "listing_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "listing_categories",
+        "listings",
+        "about",
+        "stats",
+        "services",
+        "listings",
+        "testimonials",
+        "logos",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "team": {
+      "default_sections": [
+        "page_banner",
+        "team",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Team",
+      "slug": "team",
+      "type": "team"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Disclaimer",
+      "slug": "disclaimer",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ],
+  "listings": {
+    "path": "properties",
+    "singular": "Retreat",
+    "plural": "Retreats",
+    "menu_label": "Retreats",
+    "icon": "bi-buildings",
+    "category_label": "Retreat type",
+    "location_label": "Area",
+    "price_label": "Price",
+    "price_format": "lakh",
+    "price_notes": [
+      "onwards",
+      "per month",
+      "per night",
+      "per acre",
+      "negotiable",
+      "all inclusive"
+    ],
+    "closed_label": "Sold",
+    "attributes": [
+      {
+        "key": "listing_for",
+        "label": "Available for",
+        "type": "select",
+        "options": [
+          "Sale",
+          "Rent"
+        ],
+        "filter": true,
+        "icon": "bi-tag"
+      },
+      {
+        "key": "bedrooms",
+        "label": "Bedrooms",
+        "type": "number",
+        "suffix": "BHK",
+        "filter": true,
+        "card": true,
+        "icon": "bi-door-closed"
+      },
+      {
+        "key": "bathrooms",
+        "label": "Bathrooms",
+        "type": "number",
+        "suffix": "Baths",
+        "card": true,
+        "icon": "bi-droplet"
+      },
+      {
+        "key": "land",
+        "label": "Land",
+        "type": "text",
+        "card": true,
+        "icon": "bi-tree"
+      },
+      {
+        "key": "area",
+        "label": "Built-up area",
+        "type": "number",
+        "suffix": "sq ft",
+        "card": true,
+        "icon": "bi-bounding-box"
+      },
+      {
+        "key": "pool",
+        "label": "Private pool",
+        "type": "toggle",
+        "filter": true,
+        "icon": "bi-water"
+      },
+      {
+        "key": "possession",
+        "label": "Possession",
+        "type": "select",
+        "options": [
+          "Ready to move",
+          "Under construction",
+          "New launch"
+        ],
+        "filter": true,
+        "icon": "bi-calendar-check"
+      },
+      {
+        "key": "furnishing",
+        "label": "Furnishing",
+        "type": "select",
+        "options": [
+          "Unfurnished",
+          "Semi-furnished",
+          "Fully furnished"
+        ],
+        "filter": true,
+        "icon": "bi-lamp"
+      },
+      {
+        "key": "parking",
+        "label": "Car parking",
+        "type": "number",
+        "icon": "bi-p-circle"
+      },
+      {
+        "key": "amenities",
+        "label": "Amenities",
+        "type": "list",
+        "icon": "bi-stars"
+      },
+      {
+        "key": "nearby",
+        "label": "Nearby",
+        "type": "list",
+        "icon": "bi-geo"
+      }
+    ],
+    "enquiry": {
+      "heading": "Plan a weekend visit",
+      "button": "Request a visit",
+      "date_label": "Preferred visit date",
+      "select_label": "Looking for",
+      "select_options": [
+        "A weekend home",
+        "A farmhouse with land",
+        "A rental investment",
+        "Just exploring"
+      ],
+      "success": "Thank you! We will call you to plan the visit — weekends fill up early."
+    }
+  }
+}
