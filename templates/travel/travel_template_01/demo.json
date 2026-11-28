@@ -767,7 +767,7 @@
      "data": {
       "eyebrow": "Our story",
       "heading": "We started as travellers, and we still are",
-      "description": "<p>Horizon Trails began in 2012 when two friends from Kochi started organising weekend trips for their colleagues. Today a team of 25 trip planners sends more than 1,500 travellers on holiday every year.</p><p>We are a Ministry of Tourism–approved tour operator and a member of IATA and the Kerala Travel Mart.</p>",
+      "description": "<p>Horizon Trails began in 2012 when two friends from Kochi started organising weekend trips for their colleagues. Today a team of 25 trip planners sends more than 1,500 travellers on holiday every year.</p><p>We are a Ministry of Tourism–approved tour operator and a member of the TravelSure Network.</p>",
       "image": "theme:images/about-map.svg",
       "image_2": "",
       "experience_number": "14",
@@ -777,7 +777,7 @@
         "text": "Ministry of Tourism approved"
        },
        {
-        "text": "IATA accredited"
+        "text": "TravelSure Network member"
        },
        {
         "text": "Verified hotels & drivers"
@@ -879,7 +879,7 @@
        },
        {
         "image": "theme:images/partner-3.svg",
-        "name": "IATA",
+        "name": "TravelSure Network",
         "url": ""
        },
        {

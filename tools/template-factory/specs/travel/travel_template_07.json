@@ -1,0 +1,66 @@
+{
+  "id": "travel_template_07",
+  "name": "Royal Routes Rajasthan",
+  "prefix": "rrj",
+  "niche": "heritage",
+  "seed": 7,
+  "direction": "Regal heritage: centred masthead, editorial hero over a lake palace, indigo and marigold on sandstone, Cormorant serif headings, uppercase buttons, hairline price-on-photo cards, image tiles.",
+  "description": "A regal design for heritage and luxury tour operators: centred masthead, an editorial hero with a tour search, circuit tiles, cards with the price on the photo and chauffeur-driven services.",
+  "theme": {
+    "primary": "#2B3A67",
+    "secondary": "#E8A33D",
+    "bg": "#FBF5EA",
+    "text": "#21202B",
+    "heading_font": "cormorant-garamond",
+    "body_font": "jost",
+    "radius": "2px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "editorial",
+    "banner": "image",
+    "head": "serif",
+    "card": "line",
+    "listing-card": "photo",
+    "listing_categories": "tiles",
+    "about": "layered",
+    "services": "rows",
+    "stats": "inline",
+    "process": "line",
+    "testimonials": "featured",
+    "cta": "split",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "testimonials",
+    "process"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 70%, #000)",
+    "icon": "soft",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": ".01em",
+    "hero_scale": 1.1,
+    "card": "#FFFFFF",
+    "btn_case": "uppercase",
+    "btn_track": ".1em"
+  },
+  "demo": {
+    "featured_heading": "Signature journeys",
+    "header_button": "Design my tour",
+    "cta_button": "Design my tour",
+    "types_heading": "Choose your Rajasthan"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

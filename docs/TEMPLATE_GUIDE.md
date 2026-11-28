@@ -289,8 +289,17 @@ Styling and overrides:
 | Portfolio 01 Studio Kiln | `skl` | Black + electric blue + acid lime on warm grey paper | Space Grotesk + Inter | Oversized tight headlines, a scrolling ticker of disciplines, hairline rules, two-column project grid with a lime arrow on hover, disciplines as a typographic index, giant email address in the footer, no rounded corners |
 | Services 01 Ledgerline Advisors | `ldg` | Navy + emerald on white with blue-grey and mint bands | Poppins + Open Sans | Split hero with an illustration and a checklist, flat spot illustrations per service, fee and turnaround chips on cards, pricing packages with a highlighted middle plan, numbered step cards |
 | Travel 01 Horizon Trails | `hzt` | Deep ocean + sunset orange on sand | Jost + Plus Jakarta Sans | Generous rounding and pill buttons, centred sunset hero with a capsule trip finder, mosaic destination tiles, duration chips and "From ₹… per person" card footers |
+| Travel 02 Coral & Co. Honeymoons | `ccm` | Lagoon + coral on blush | DM Serif Display + DM Sans | Romantic and airy: centred masthead, full-bleed hero with a trip search, image destination tiles, cards with the price on the photo. |
+| Travel 03 Summit Trails | `smt` | Pine green + signal orange on white | Montserrat + Inter | Rugged outdoors: dark navigation, colour-panel hero with a trek search, region cards, accent-topped cards with a price footer. |
+| Travel 04 Yatra Seva Tours | `yst` | Maroon + saffron on ivory | Lora + Open Sans | Devotional and warm: info bar, split hero with a yatra search, circuit tiles, hairline cards. |
+| Travel 05 Wanderwise Group Tours | `wwg` | Sky blue + tangerine on white | Poppins + Inter | Cheerful and worldly: floating pill navigation, centred hero with a tour search, destination cards, cards with the price on the photo. |
+| Travel 06 Jungle Tales Safaris | `jts` | Dark page, jungle green + amber | Space Grotesk + DM Sans | Wild and nocturnal: floating pill navigation, editorial hero with a safari search, park tiles, tinted cards. |
+| Travel 07 Royal Routes Rajasthan | `rrj` | Indigo + marigold on sandstone | Cormorant Garamond + Jost | Regal heritage: centred masthead, editorial hero with a tour search, circuit tiles, cards with the price on the photo. |
+| Travel 08 Highway Nomads | `hwn` | Asphalt + safety yellow on stone | Sora + Inter | Gritty and bold: dark navigation, full-bleed hero with a ride search, region tiles, accent-topped cards, a yellow band. |
+| Travel 09 Island Hop Holidays | `ihp` | Turquoise + sunshine on sand | Jost + Plus Jakarta Sans | Sunny and breezy: floating pill navigation, split hero with a holiday search, island cards, a turquoise band. |
+| Travel 10 Campus Trails | `cpt` | Royal blue + school-bus yellow, light footer | Plus Jakarta Sans + Inter | Bright and trustworthy: info bar, colour-panel hero with a tour search, theme cards, cards with the price per student. |
 
-Business, Education, Hospital, E-commerce and Real Estate 02–10 were generated with the template factory (below); each changes the hero, header, card style, palette and heading typeface.
+Business, Education, Hospital, E-commerce, Real Estate and Travel 02–10 were generated with the template factory (below); each changes the hero, header, card style, palette and heading typeface.
 
 ## Template factory (templates 02–10)
 

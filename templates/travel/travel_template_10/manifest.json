@@ -1,0 +1,279 @@
+{
+  "id": "travel_template_10",
+  "name": "Campus Trails",
+  "category": "travel",
+  "version": "1.0.0",
+  "description": "A bright, trustworthy design for school-tour and educational travel companies: info bar, a colour-panel hero with a tour search, theme cards, cards with the price per student and a safety-first services section.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#2446A8",
+      "secondary": "#FFC52E",
+      "bg": "#FFFFFF",
+      "text": "#16203A",
+      "heading_font": "plus-jakarta-sans",
+      "body_font": "inter",
+      "radius": "16px",
+      "button_style": "pill",
+      "header_style": "sticky",
+      "footer_style": "light"
+    },
+    "header_styles": {
+      "sticky": "Sticky, with info bar",
+      "minimal": "Sticky, no info bar",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "listings",
+    "listing_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "listing_categories",
+        "listings",
+        "features",
+        "stats",
+        "listings",
+        "gallery",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "team",
+        "logos"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Cancellation Policy",
+      "slug": "cancellation-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ],
+  "listings": {
+    "path": "tours",
+    "singular": "Tour",
+    "plural": "Tours",
+    "menu_label": "School tours",
+    "icon": "bi-airplane",
+    "category_label": "Theme",
+    "location_label": "Route",
+    "location_filter": false,
+    "price_label": "Price",
+    "price_format": "inr",
+    "price_notes": [
+      "per person",
+      "per couple",
+      "per person, twin sharing",
+      "per student",
+      "onwards"
+    ],
+    "closed_label": "Sold out",
+    "attributes": [
+      {
+        "key": "duration",
+        "label": "Duration",
+        "type": "number",
+        "suffix": "Days",
+        "filter": true,
+        "card": true,
+        "icon": "bi-calendar3"
+      },
+      {
+        "key": "nights",
+        "label": "Nights",
+        "type": "number",
+        "suffix": "Nights",
+        "icon": "bi-moon-stars"
+      },
+      {
+        "key": "trip_type",
+        "label": "Trip type",
+        "type": "select",
+        "options": [
+          "Science & space",
+          "History & heritage",
+          "Nature camp",
+          "Adventure camp",
+          "International"
+        ],
+        "filter": true,
+        "card": true,
+        "icon": "bi-compass"
+      },
+      {
+        "key": "region",
+        "label": "Region",
+        "type": "select",
+        "options": [
+          "India",
+          "International"
+        ],
+        "filter": true,
+        "icon": "bi-globe2"
+      },
+      {
+        "key": "group_size",
+        "label": "Students per group",
+        "type": "text",
+        "card": true,
+        "icon": "bi-people",
+        "help": "e.g. Max 12 or Private"
+      },
+      {
+        "key": "best_time",
+        "label": "Best time to go",
+        "type": "text",
+        "icon": "bi-sun",
+        "help": "e.g. Oct – Mar"
+      },
+      {
+        "key": "start_city",
+        "label": "Starts from",
+        "type": "text",
+        "icon": "bi-geo-alt"
+      },
+      {
+        "key": "flights",
+        "label": "Flights included",
+        "type": "toggle",
+        "filter": true,
+        "icon": "bi-airplane"
+      },
+      {
+        "key": "highlights",
+        "label": "Highlights",
+        "type": "list",
+        "icon": "bi-stars"
+      },
+      {
+        "key": "inclusions",
+        "label": "What’s included",
+        "type": "list",
+        "icon": "bi-check-circle"
+      },
+      {
+        "key": "exclusions",
+        "label": "Not included",
+        "type": "list",
+        "icon": "bi-x-circle"
+      }
+    ],
+    "enquiry": {
+      "heading": "Request a school proposal",
+      "button": "Send enquiry",
+      "date_label": "Preferred travel date",
+      "select_label": "Grade",
+      "select_options": [
+        "Grades 3–5",
+        "Grades 6–8",
+        "Grades 9–10",
+        "Grades 11–12"
+      ],
+      "message_label": "Anything else? (hotel preference, special requests)",
+      "success": "Thank you! Our school coordinator will email a proposal and safety plan within two working days."
+    }
+  }
+}

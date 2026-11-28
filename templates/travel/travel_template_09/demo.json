@@ -1,0 +1,984 @@
+{
+  "settings": {
+    "site": {
+      "name": "Island Hop Holidays",
+      "tagline": "Beach & island holidays · Chennai",
+      "phone": "+91 44 4211 8800",
+      "email": "sun@islandhop.example",
+      "address": "12 Cathedral Road, Gopalapuram\nChennai, Tamil Nadu 600086",
+      "hours": "Mon–Sat, 10 am – 7 pm",
+      "footer_about": "Island Hop plans beach and island holidays — the Andamans, Lakshadweep, Goa, Sri Lanka, Mauritius and Thailand.",
+      "footer_text": "All rights reserved. Approved travel agent (demo).",
+      "header_button": {
+        "text": "Plan my holiday",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Island Hop Holidays: Island Hop plans beach and island holidays — the Andamans, Lakshadweep, Goa, Sri Lanka, Mauritius and Thailand.",
+      "keywords": "holidays, beach & island holidays · chennai, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Andaman",
+        "slug": "andaman",
+        "description": "Havelock, Neil island and coral reefs.",
+        "image": "theme:images/dest-andaman.svg"
+      },
+      {
+        "name": "Lakshadweep",
+        "slug": "lakshadweep",
+        "description": "Lagoons and coral atolls.",
+        "image": "theme:images/dest-lakshadweep.svg"
+      },
+      {
+        "name": "Goa",
+        "slug": "goa",
+        "description": "Beaches, forts and cafés.",
+        "image": "theme:images/dest-goa.svg"
+      },
+      {
+        "name": "Abroad",
+        "slug": "abroad",
+        "description": "Sri Lanka, Mauritius and Thailand.",
+        "image": "theme:images/dest-abroad.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Andaman island hopper",
+        "slug": "andaman-island-hopper",
+        "category": "andaman",
+        "location": "Port Blair → Havelock → Neil",
+        "price": 3250000,
+        "price_note": "per person",
+        "image": "theme:images/trip-andaman-island-hopper.svg",
+        "gallery": [
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Beach",
+          "region": "India",
+          "group_size": "Sea-view cottage",
+          "best_time": "Oct – May",
+          "start_city": "Chennai",
+          "flights": false,
+          "highlights": [
+            "Scuba try-dive included",
+            "Ferries booked"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Radhanagar beach, a scuba try-dive at Havelock and the natural bridge on Neil island.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Port Blair; Cellular Jail</h4><h4>Day 2: Ferry to Havelock</h4><h4>Day 3: Radhanagar beach</h4><h4>Day 4: Scuba try-dive</h4><h4>Day 5: Neil island</h4><h4>Day 6: Return to Port Blair</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Bestseller"
+      },
+      {
+        "title": "Lakshadweep lagoon escape",
+        "slug": "lakshadweep-lagoon",
+        "category": "lakshadweep",
+        "location": "Kochi → Agatti → Bangaram",
+        "price": 4850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-lakshadweep-lagoon.svg",
+        "gallery": [
+          "theme:images/scene-island.svg",
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "Couples",
+          "region": "India",
+          "group_size": "Beach hut",
+          "best_time": "Oct – Apr",
+          "start_city": "Kochi",
+          "flights": true,
+          "highlights": [
+            "Permits arranged",
+            "Flights to Agatti included"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Turquoise lagoons, kayaking and snorkelling on one of India’s most beautiful islands.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Fly to Agatti; boat to Bangaram</h4><h4>Day 2: Snorkelling</h4><h4>Day 3: Kayaking and glass-bottom boat</h4><h4>Day 4: Island day</h4><h4>Day 5: Fly to Kochi</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Permits included"
+      },
+      {
+        "title": "Goa beach & heritage",
+        "slug": "goa-beach-heritage",
+        "category": "goa",
+        "location": "North Goa → Old Goa → South Goa",
+        "price": 1850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-goa-beach-heritage.svg",
+        "gallery": [
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "Family",
+          "region": "India",
+          "group_size": "Beach resort",
+          "best_time": "Nov – Feb",
+          "start_city": "Goa",
+          "flights": false,
+          "highlights": [
+            "Beach resort stays",
+            "Spice farm lunch"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Sold out for the Christmas and New Year week — other dates are open on request.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive; North Goa beaches</h4><h4>Day 2: Forts and the Saturday night market</h4><h4>Day 3: Old Goa churches; spice farm</h4><h4>Day 4: South Goa beach day</h4><h4>Day 5: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      },
+      {
+        "title": "Sri Lanka beaches & tea",
+        "slug": "sri-lanka-beaches",
+        "category": "abroad",
+        "location": "Colombo → Kandy → Nuwara Eliya → Bentota",
+        "price": 5850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-sri-lanka-beaches.svg",
+        "gallery": [
+          "theme:images/scene-tea.svg",
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Couples",
+          "region": "International",
+          "group_size": "Boutique hotels",
+          "best_time": "Dec – Apr",
+          "start_city": "Chennai",
+          "flights": true,
+          "highlights": [
+            "Scenic hill train",
+            "Tea estate visit"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Temple of the Tooth, tea hills and a scenic train, ending on Bentota beach.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Colombo</h4><h4>Day 2: Kandy</h4><h4>Day 3: Scenic train to Nuwara Eliya</h4><h4>Day 4: Tea estates</h4><h4>Day 5: Drive to Bentota</h4><h4>Day 6: Beach day</h4><h4>Day 7: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Mauritius family holiday",
+        "slug": "mauritius-family",
+        "category": "abroad",
+        "location": "North coast → Île aux Cerfs",
+        "price": 9650000,
+        "price_note": "per person",
+        "image": "theme:images/trip-mauritius-family.svg",
+        "gallery": [
+          "theme:images/scene-island.svg",
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Family",
+          "region": "International",
+          "group_size": "Family room",
+          "best_time": "May – Dec",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Underwater sea walk",
+            "Kids stay free"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Beaches, Île aux Cerfs, the seven-coloured earth and an underwater sea walk for the kids.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive; north coast</h4><h4>Day 2: North island tour</h4><h4>Day 3: Île aux Cerfs</h4><h4>Day 4: South island and Chamarel</h4><h4>Day 5: Sea walk</h4><h4>Day 6: Free day</h4><h4>Day 7: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Thailand islands: Phuket & Krabi",
+        "slug": "phuket-krabi",
+        "category": "abroad",
+        "location": "Phuket → Phi Phi → Krabi",
+        "price": 5450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-phuket-krabi.svg",
+        "gallery": [
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Scuba & snorkelling",
+          "region": "International",
+          "group_size": "Beach resort",
+          "best_time": "Nov – Apr",
+          "start_city": "Chennai",
+          "flights": true,
+          "highlights": [
+            "Phi Phi speedboat tour",
+            "Four-island tour"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Phi Phi islands by speedboat, Krabi’s limestone cliffs and the four-island tour.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Phuket</h4><h4>Day 2: Phi Phi by speedboat</h4><h4>Day 3: Drive to Krabi</h4><h4>Day 4: Four-island tour</h4><h4>Day 5: Free day</h4><h4>Day 6: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Andaman scuba certification",
+        "slug": "andaman-scuba",
+        "category": "andaman",
+        "location": "Havelock",
+        "price": 4450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-andaman-scuba.svg",
+        "gallery": [
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Scuba & snorkelling",
+          "region": "India",
+          "group_size": "Dive resort",
+          "best_time": "Nov – Apr",
+          "start_city": "Chennai",
+          "flights": false,
+          "highlights": [
+            "Open-water certification",
+            "Small groups of four per instructor"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Earn your open-water diving certificate in five days on Havelock island, with certified instructors.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Port Blair</h4><h4>Day 2: Ferry to Havelock</h4><h4>Day 3: Theory and pool sessions</h4><h4>Day 4: Open-water dives</h4><h4>Day 5: Open-water dives and certificate</h4><h4>Day 6: Return to Port Blair</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Get certified"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Sun, sea and nothing to plan",
+            "heading": "Find your island",
+            "subheading": "Beach holidays in the Andamans, Lakshadweep, Goa, Sri Lanka, Mauritius and Thailand — with ferries, scuba dives and beach-front stays sorted.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Ferry and flight tickets sorted"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Scuba with certified instructors"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "Beach-front stays"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Pick your island",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Holidays in the sun",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All holidays",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Island",
+            "heading": "Travel with people who have been there",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-tsunami",
+                "title": "Beach holidays",
+                "description": "Stays right on the sand, chosen by our team."
+              },
+              {
+                "icon": "bi-water",
+                "title": "Scuba & snorkelling",
+                "description": "Certified instructors and try-dives for beginners."
+              },
+              {
+                "icon": "bi-ticket",
+                "title": "Ferries & permits",
+                "description": "Island ferries and permits booked in advance."
+              },
+              {
+                "icon": "bi-airplane",
+                "title": "Flights",
+                "description": "The best routes to every island."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "26000",
+                "suffix": "+",
+                "label": "Holidays planned",
+                "icon": ""
+              },
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Islands",
+                "icon": ""
+              },
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Years in the sun",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Traveller rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this season",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all holidays",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "Moments worth the journey",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-beach.svg",
+                "caption": "Palm-lined beach"
+              },
+              {
+                "image": "theme:images/scene-island.svg",
+                "caption": "Overwater villas"
+              },
+              {
+                "image": "theme:images/scene-terraces.svg",
+                "caption": "Rice terraces"
+              },
+              {
+                "image": "theme:images/scene-backwaters.svg",
+                "caption": "Houseboat on the backwaters"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "The Havelock cottage was steps from the sea. The scuba dive was the best hour of my life.",
+                "name": "Deepika Raman",
+                "role": "Andaman island hopper",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Lakshadweep was paradise — and the permit was sorted without any trouble.",
+                "name": "Arun & Kavya",
+                "role": "Lakshadweep lagoon escape",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Kids loved the sea walk in Mauritius.",
+                "name": "Sanjay Kumar",
+                "role": "Mauritius family holiday",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your island is waiting",
+            "description": "Tell us your dates — we will send three holiday options today.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan my holiday",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse holidays",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Island Hop plans beach and island holidays — the Andamans, Lakshadweep, Goa, Sri Lanka, Mauritius and Thailand.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Fifteen years of sunshine",
+            "description": "<p>Island Hop began in 2011 with Andaman holidays for Chennai families.</p><p>Today we plan beach holidays across fourteen islands in India and abroad.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "15",
+            "experience_label": "years of island holidays",
+            "points": [
+              {
+                "text": "Beach-front stays"
+              },
+              {
+                "text": "Ferries and permits sorted"
+              },
+              {
+                "text": "Certified scuba instructors"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "26000",
+                "suffix": "+",
+                "label": "Holidays planned",
+                "icon": ""
+              },
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Islands",
+                "icon": ""
+              },
+              {
+                "number": "15",
+                "suffix": "",
+                "label": "Years in the sun",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Traveller rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Approved travel agent (demo).",
+            "members": [
+              {
+                "name": "Lakshmi Sundaram",
+                "role": "Founder",
+                "bio": "Has visited every island we sell.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Joel D’Souza",
+                "role": "Scuba lead",
+                "bio": "PADI instructor (demo).",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Asha Pillai",
+                "role": "Andaman specialist",
+                "bio": "Ferries and permits.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Rahul Verma",
+                "role": "International holidays",
+                "bio": "Sri Lanka, Mauritius and Thailand.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "BlueReef Dive Centre",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Island Ferries Co.",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Sandbar Resorts",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Coral Coast Air",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-tsunami",
+                "title": "Beach holidays",
+                "description": "Stays right on the sand, chosen by our team.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-water",
+                "title": "Scuba & snorkelling",
+                "description": "Certified instructors and try-dives for beginners.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-ticket",
+                "title": "Ferries & permits",
+                "description": "Island ferries and permits booked in advance.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-airplane",
+                "title": "Flights",
+                "description": "The best routes to every island.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-people",
+                "title": "Family holidays",
+                "description": "Kid-friendly resorts and activities.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-heart",
+                "title": "Couples",
+                "description": "Romantic stays and candle-lit dinners.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Tell us your dates",
+                "description": "And who is travelling."
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Get options",
+                "description": "Two or three plans with prices."
+              },
+              {
+                "icon": "bi-check2-circle",
+                "title": "Book",
+                "description": "Pay 30% to confirm."
+              },
+              {
+                "icon": "bi-sun",
+                "title": "Relax",
+                "description": "Tickets and vouchers on WhatsApp."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "When is the best time for the Andamans?",
+                "answer": "October to May; the sea is calmest from January to April."
+              },
+              {
+                "question": "Do I need a permit for Lakshadweep?",
+                "answer": "Yes — we arrange the entry permit as part of the package."
+              },
+              {
+                "question": "Can non-swimmers try scuba?",
+                "answer": "Yes, try-dives are done with an instructor in shallow water."
+              },
+              {
+                "question": "Are flights included?",
+                "answer": "International packages include flights; domestic ones can add them on request."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your island is waiting",
+            "description": "Tell us your dates — we will send three holiday options today.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan my holiday",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse holidays",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Island Hop Holidays collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

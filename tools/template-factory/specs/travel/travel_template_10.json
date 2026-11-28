@@ -1,0 +1,65 @@
+{
+  "id": "travel_template_10",
+  "name": "Campus Trails",
+  "prefix": "cpt",
+  "niche": "school",
+  "seed": 10,
+  "direction": "Bright and trustworthy: info bar header, colour-panel hero with a tour search, royal blue and school-bus yellow, Plus Jakarta Sans, rounded classic cards, theme cards and a light footer.",
+  "description": "A bright, trustworthy design for school-tour and educational travel companies: info bar, a colour-panel hero with a tour search, theme cards, cards with the price per student and a safety-first services section.",
+  "theme": {
+    "primary": "#2446A8",
+    "secondary": "#FFC52E",
+    "bg": "#FFFFFF",
+    "text": "#16203A",
+    "heading_font": "plus-jakarta-sans",
+    "body_font": "inter",
+    "radius": "16px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "panel",
+    "banner": "solid",
+    "head": "rule",
+    "card": "shadow",
+    "listing-card": "classic",
+    "listing_categories": "cards",
+    "about": "single",
+    "services": "cards",
+    "stats": "band",
+    "process": "cards",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "boxed",
+    "footer": "band"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "light",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "50%",
+    "card": "#FFFFFF",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "featured_heading": "Popular school tours",
+    "header_button": "Request a proposal",
+    "cta_button": "Request a proposal",
+    "types_heading": "Learning themes",
+    "features_heading": "Safety and learning, together",
+    "gallery_heading": "Learning on the road",
+    "new_heading": "New this year"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

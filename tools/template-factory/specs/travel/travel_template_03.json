@@ -1,0 +1,68 @@
+{
+  "id": "travel_template_03",
+  "name": "Summit Trails",
+  "prefix": "smt",
+  "niche": "treks",
+  "seed": 3,
+  "direction": "Rugged outdoors: dark navigation, colour-panel hero with a trek search, pine green and signal orange, uppercase Montserrat, accent-topped classic cards, destination cards.",
+  "description": "A rugged, outdoorsy design for trekking and adventure companies: dark navigation, a colour-panel hero with a trek search, region cards, cards with the price and a details button, and a safety-first services section.",
+  "theme": {
+    "primary": "#1F4D3A",
+    "secondary": "#F28C28",
+    "bg": "#FFFFFF",
+    "text": "#16231C",
+    "heading_font": "montserrat",
+    "body_font": "inter",
+    "radius": "6px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "panel",
+    "banner": "image",
+    "head": "bar",
+    "card": "top",
+    "listing-card": "classic",
+    "listing_categories": "cards",
+    "about": "grid",
+    "services": "cards",
+    "stats": "band",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 85%, #000)",
+    "icon": "accent",
+    "case": "uppercase",
+    "track": ".01em",
+    "hero_scale": 0.9,
+    "btn_case": "uppercase",
+    "btn_track": ".06em",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "extra_css": ".smt .smt-header .nav-link { text-transform: uppercase; font-size: .82rem; letter-spacing: .06em; }",
+  "demo": {
+    "featured_heading": "Upcoming batches",
+    "header_button": "Find a trek",
+    "cta_button": "Talk to a trek leader",
+    "types_heading": "Choose your mountains",
+    "features_heading": "Safe, small and expert-led",
+    "gallery_heading": "From the trail"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

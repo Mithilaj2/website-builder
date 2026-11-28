@@ -1,0 +1,67 @@
+{
+  "id": "travel_template_08",
+  "name": "Highway Nomads",
+  "prefix": "hwn",
+  "niche": "roadtrips",
+  "seed": 8,
+  "direction": "Gritty and bold: dark navigation, full-bleed cover hero over a mountain road, asphalt and safety yellow, Sora, accent-topped classic cards, image region tiles and a yellow band.",
+  "description": "A gritty, bold design for motorcycle tours and road-trip operators: dark navigation, a full-bleed hero with a ride search, region tiles, cards with the price and a details button, and a yellow ride band.",
+  "theme": {
+    "primary": "#262B33",
+    "secondary": "#F5C518",
+    "bg": "#F6F5F1",
+    "text": "#1B1E23",
+    "heading_font": "sora",
+    "body_font": "inter",
+    "radius": "4px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "cover",
+    "banner": "image",
+    "head": "bar",
+    "card": "top",
+    "listing-card": "classic",
+    "listing_categories": "tiles",
+    "about": "single",
+    "services": "cards",
+    "stats": "band",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 55%, #000)",
+    "icon": "accent",
+    "case": "uppercase",
+    "track": "-.01em",
+    "hero_scale": 0.95,
+    "btn_case": "uppercase",
+    "btn_track": ".06em",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)"
+  },
+  "demo": {
+    "featured_heading": "Rides this summer",
+    "header_button": "Book a ride",
+    "cta_button": "Book my seat",
+    "types_heading": "Pick your roads",
+    "features_heading": "Ride with a crew behind you",
+    "gallery_heading": "Life on the road"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

@@ -1,0 +1,984 @@
+{
+  "settings": {
+    "site": {
+      "name": "Yatra Seva Tours",
+      "tagline": "Pilgrimage tours · Varanasi",
+      "phone": "+91 542 250 6600",
+      "email": "yatra@yatraseva.example",
+      "address": "Seva Bhavan, Godowlia Chowk\nVaranasi, Uttar Pradesh 221001",
+      "hours": "Mon–Sun, 8 am – 8 pm",
+      "footer_about": "Yatra Seva has guided families and senior citizens on pilgrimages across India for thirty years, with comfortable stays and pure vegetarian meals.",
+      "footer_text": "All rights reserved. Approved pilgrimage tour operator (demo).",
+      "header_button": {
+        "text": "Book a yatra",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Yatra Seva Tours: Yatra Seva has guided families and senior citizens on pilgrimages across India for thirty years, with comfortable stays and pure vegetarian meals.",
+      "keywords": "yatras, pilgrimage tours · varanasi, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Char Dham",
+        "slug": "char-dham",
+        "description": "Yamunotri, Gangotri, Kedarnath and Badrinath.",
+        "image": "theme:images/dest-char-dham.svg"
+      },
+      {
+        "name": "Kashi & Ayodhya",
+        "slug": "kashi-ayodhya",
+        "description": "Ganga aarti, Kashi Vishwanath and Ram Janmabhoomi.",
+        "image": "theme:images/dest-kashi-ayodhya.svg"
+      },
+      {
+        "name": "South India temples",
+        "slug": "south-india",
+        "description": "Tirupati, Rameswaram, Madurai and Kanyakumari.",
+        "image": "theme:images/dest-south-india.svg"
+      },
+      {
+        "name": "Nepal",
+        "slug": "nepal",
+        "description": "Pashupatinath and Muktinath.",
+        "image": "theme:images/dest-nepal.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Char Dham Yatra by road",
+        "slug": "char-dham-road",
+        "category": "char-dham",
+        "location": "Haridwar → Yamunotri → Gangotri → Kedarnath → Badrinath",
+        "price": 3850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-char-dham-road.svg",
+        "gallery": [
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-temple.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 12,
+          "nights": 11,
+          "trip_type": "Char Dham",
+          "region": "North India",
+          "group_size": "Max 25",
+          "best_time": "May – Jun, Sep – Oct",
+          "start_city": "Haridwar",
+          "flights": false,
+          "highlights": [
+            "Registrations and darshan help",
+            "Pony or palki bookings for Kedarnath",
+            "Doctor on call"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "All four dhams in twelve unhurried days, with registrations, darshan help and a doctor on call.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Haridwar; Ganga aarti</h4><h4>Day 2: Drive to Barkot</h4><h4>Day 3: Yamunotri</h4><h4>Day 4: Drive to Uttarkashi</h4><h4>Day 5: Gangotri</h4><h4>Day 6: Drive to Guptkashi</h4><h4>Day 7: Kedarnath</h4><h4>Day 8: Kedarnath darshan; return</h4><h4>Day 9: Drive to Badrinath</h4><h4>Day 10: Badrinath darshan; Mana village</h4><h4>Day 11: Drive to Rudraprayag</h4><h4>Day 12: Haridwar</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Most booked"
+      },
+      {
+        "title": "Char Dham by helicopter",
+        "slug": "char-dham-heli",
+        "category": "char-dham",
+        "location": "Dehradun → four dhams by helicopter",
+        "price": 19500000,
+        "price_note": "per person",
+        "image": "theme:images/trip-char-dham-heli.svg",
+        "gallery": [
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-temple.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Char Dham",
+          "region": "North India",
+          "group_size": "Max 6",
+          "best_time": "May – Jun, Sep – Oct",
+          "start_city": "Dehradun",
+          "flights": false,
+          "highlights": [
+            "VIP darshan at all four dhams",
+            "Stays close to every temple"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "The four dhams in six days by helicopter — ideal for senior citizens and those short on time.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Dehradun</h4><h4>Day 2: Yamunotri by helicopter</h4><h4>Day 3: Gangotri by helicopter</h4><h4>Day 4: Kedarnath by helicopter</h4><h4>Day 5: Badrinath by helicopter</h4><h4>Day 6: Return to Dehradun</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "VIP darshan"
+      },
+      {
+        "title": "Kashi, Prayagraj & Ayodhya",
+        "slug": "kashi-ayodhya",
+        "category": "kashi-ayodhya",
+        "location": "Varanasi → Prayagraj → Ayodhya",
+        "price": 1450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-kashi-ayodhya.svg",
+        "gallery": [
+          "theme:images/scene-temple.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "Temple tour",
+          "region": "North India",
+          "group_size": "Max 25",
+          "best_time": "Oct – Mar",
+          "start_city": "Varanasi",
+          "flights": false,
+          "highlights": [
+            "Sunrise boat ride on the Ganga",
+            "Sangam snan"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Ganga aarti on the ghats, a holy dip at the Triveni Sangam and darshan at Ram Janmabhoomi.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Varanasi; evening aarti</h4><h4>Day 2: Kashi Vishwanath and boat ride</h4><h4>Day 3: Prayagraj; Sangam snan</h4><h4>Day 4: Ayodhya darshan</h4><h4>Day 5: Departure from Ayodhya</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Year-round"
+      },
+      {
+        "title": "Twelve Jyotirlinga darshan",
+        "slug": "twelve-jyotirlinga",
+        "category": "kashi-ayodhya",
+        "location": "Somnath → Mallikarjun → … → Kedarnath",
+        "price": 9200000,
+        "price_note": "per person",
+        "image": "theme:images/trip-twelve-jyotirlinga.svg",
+        "gallery": [
+          "theme:images/scene-temple.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 18,
+          "nights": 17,
+          "trip_type": "Jyotirlinga",
+          "region": "North India",
+          "group_size": "Max 25",
+          "best_time": "Oct – Mar",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "All twelve Jyotirlingas",
+            "Flights and trains included"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "All twelve Jyotirlingas in one journey, with flights and trains between regions.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Somnath</h4><h4>Day 2: Nageshwar</h4><h4>Day 3: Trimbakeshwar</h4><h4>Day 4: Grishneshwar</h4><h4>Day 5: Bhimashankar</h4><h4>Day 6: Omkareshwar</h4><h4>Day 7: Mahakaleshwar</h4><h4>Day 8: Kashi Vishwanath</h4><h4>Day 9: Baidyanath</h4><h4>Day 10: Mallikarjuna</h4><h4>Day 11: Rameswaram</h4><h4>Day 12: Kedarnath</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "South India temple trail",
+        "slug": "south-india-temples",
+        "category": "south-india",
+        "location": "Chennai → Tirupati → Madurai → Rameswaram → Kanyakumari",
+        "price": 2850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-south-india-temples.svg",
+        "gallery": [
+          "theme:images/scene-temple.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 8,
+          "nights": 7,
+          "trip_type": "Temple tour",
+          "region": "South India",
+          "group_size": "Max 25",
+          "best_time": "Oct – Mar",
+          "start_city": "Chennai",
+          "flights": false,
+          "highlights": [
+            "Tirupati special-entry darshan",
+            "Sunrise at Kanyakumari"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Tirupati Balaji, Meenakshi Amman, Ramanathaswamy and sunrise at Kanyakumari.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Chennai</h4><h4>Day 2: Tirupati darshan</h4><h4>Day 3: Drive to Madurai</h4><h4>Day 4: Meenakshi temple</h4><h4>Day 5: Rameswaram</h4><h4>Day 6: Dhanushkodi</h4><h4>Day 7: Kanyakumari</h4><h4>Day 8: Trivandrum departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Pashupatinath & Muktinath",
+        "slug": "pashupatinath-muktinath",
+        "category": "nepal",
+        "location": "Kathmandu → Pokhara → Muktinath",
+        "price": 4650000,
+        "price_note": "per person",
+        "image": "theme:images/trip-pashupatinath-muktinath.svg",
+        "gallery": [
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-temple.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Temple tour",
+          "region": "Nepal",
+          "group_size": "Max 20",
+          "best_time": "Mar – Jun, Sep – Nov",
+          "start_city": "Gorakhpur",
+          "flights": false,
+          "highlights": [
+            "Pashupatinath evening aarti",
+            "Mountain flight to Jomsom"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Pashupatinath in Kathmandu, Phewa lake in Pokhara and the Himalayan shrine of Muktinath.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Gorakhpur to Kathmandu</h4><h4>Day 2: Pashupatinath aarti</h4><h4>Day 3: Drive to Pokhara</h4><h4>Day 4: Fly to Jomsom</h4><h4>Day 5: Muktinath darshan</h4><h4>Day 6: Fly to Pokhara</h4><h4>Day 7: Return to Gorakhpur</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Amarnath Yatra",
+        "slug": "amarnath-yatra",
+        "category": "char-dham",
+        "location": "Srinagar → Baltal → Holy cave",
+        "price": 2450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-amarnath-yatra.svg",
+        "gallery": [
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-temple.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-backwaters.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "Senior citizens",
+          "region": "North India",
+          "group_size": "Max 25",
+          "best_time": "Jul – Aug",
+          "start_city": "Srinagar",
+          "flights": false,
+          "highlights": [
+            "Holy cave darshan"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Registrations for this year’s yatra are closed — please enquire for next season.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Srinagar</h4><h4>Day 2: Baltal</h4><h4>Day 3: Holy cave darshan</h4><h4>Day 4: Return to Srinagar</h4><h4>Day 5: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Thirty years of yatras",
+            "heading": "A peaceful yatra, cared for at every step",
+            "subheading": "Char Dham, Kashi, the Jyotirlingas and the temples of the south — with darshan arrangements, pure vegetarian meals and a tour manager who travels with you.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "VIP darshan where available"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Pure vegetarian meals"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "Doctor on call for senior citizens"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Choose your yatra",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Popular yatras",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All yatras",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Yatra",
+            "heading": "Cared for at every step",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-flower1",
+                "title": "Darshan arrangements",
+                "description": "Special-entry and VIP darshan booked wherever available."
+              },
+              {
+                "icon": "bi-egg-fried",
+                "title": "Pure vegetarian meals",
+                "description": "Sattvik meals cooked by our own team on every yatra."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Care for elders",
+                "description": "Doctor on call, wheelchairs and palki or pony bookings."
+              },
+              {
+                "icon": "bi-bus-front",
+                "title": "Comfortable travel",
+                "description": "AC coaches, trains and helicopter options."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "85000",
+                "suffix": "+",
+                "label": "Yatris served",
+                "icon": ""
+              },
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Years of yatras",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": "",
+                "label": "Tour managers",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Yatri rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this season",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all yatras",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "Moments of devotion",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-temple.svg",
+                "caption": "Temple and river ghats"
+              },
+              {
+                "image": "theme:images/scene-mountains.svg",
+                "caption": "Snow peaks and pine valley"
+              },
+              {
+                "image": "theme:images/scene-lake.svg",
+                "caption": "Shikara on a mountain lake"
+              },
+              {
+                "image": "theme:images/scene-backwaters.svg",
+                "caption": "Houseboat on the backwaters"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "My parents did the Char Dham at 72 and 68. The palki bookings and the doctor gave us complete peace of mind.",
+                "name": "Suresh Agarwal",
+                "role": "Booked for his parents",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The darshan at Tirupati took twenty minutes instead of eight hours.",
+                "name": "Lakshmi Narayanan",
+                "role": "South India temple trail",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Food like home, kind staff and a tour manager who knew every temple’s story.",
+                "name": "Kamla Devi",
+                "role": "Kashi & Ayodhya",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a yatra for your family?",
+            "description": "Call us or send an enquiry. We will help you choose the right yatra and dates.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan our yatra",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse yatras",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Yatra Seva has guided families and senior citizens on pilgrimages across India for thirty years, with comfortable stays and pure vegetarian meals.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Thirty years of seva",
+            "description": "<p>Yatra Seva began in 1996 with a single bus to the Char Dham. Since then we have guided more than 85,000 yatris.</p><p>We believe a yatra should be peaceful — so we take care of everything else.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "30",
+            "experience_label": "years of yatras",
+            "points": [
+              {
+                "text": "Pure vegetarian meals"
+              },
+              {
+                "text": "Doctor on call"
+              },
+              {
+                "text": "Tour manager with every group"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "85000",
+                "suffix": "+",
+                "label": "Yatris served",
+                "icon": ""
+              },
+              {
+                "number": "30",
+                "suffix": "",
+                "label": "Years of yatras",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": "",
+                "label": "Tour managers",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Yatri rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Approved pilgrimage tour operator (demo).",
+            "members": [
+              {
+                "name": "Pandit Ramesh Tiwari",
+                "role": "Founder",
+                "bio": "Has led yatras since 1996.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Anil Mishra",
+                "role": "Head of operations",
+                "bio": "Char Dham and Himalayan yatras.",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Savitri Iyer",
+                "role": "South India",
+                "bio": "Temple trails across Tamil Nadu and Kerala.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Dr. Prakash Singh",
+                "role": "Medical advisor",
+                "bio": "Briefs every Himalayan group.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Ganga View Hotels",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Himalayan Heli Services",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Sattvik Kitchens",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Shubh Yatra Coaches",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-flower1",
+                "title": "Darshan arrangements",
+                "description": "Special-entry and VIP darshan booked wherever available.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-egg-fried",
+                "title": "Pure vegetarian meals",
+                "description": "Sattvik meals cooked by our own team on every yatra.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Care for elders",
+                "description": "Doctor on call, wheelchairs and palki or pony bookings.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bus-front",
+                "title": "Comfortable travel",
+                "description": "AC coaches, trains and helicopter options.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-person-check",
+                "title": "Tour manager",
+                "description": "A manager travels with every group, from start to end.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-journal-text",
+                "title": "Puja & rituals",
+                "description": "Pandits arranged for pujas and rituals on request.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-telephone",
+                "title": "Call or enquire",
+                "description": "Tell us the yatra, dates and who is travelling."
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "Registration",
+                "description": "We handle yatra registrations and permits."
+              },
+              {
+                "icon": "bi-bus-front",
+                "title": "Travel together",
+                "description": "A tour manager with you throughout."
+              },
+              {
+                "icon": "bi-flower2",
+                "title": "Darshan",
+                "description": "Peaceful darshan, without the queues where possible."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "Are these yatras suitable for senior citizens?",
+                "answer": "Yes. Our pace is gentle, and we arrange wheelchairs, palkis and a doctor on call."
+              },
+              {
+                "question": "Are meals vegetarian?",
+                "answer": "All meals are pure vegetarian; Jain meals are available on request."
+              },
+              {
+                "question": "Do you arrange VIP darshan?",
+                "answer": "Wherever temples offer special-entry or VIP darshan, we book it in advance."
+              },
+              {
+                "question": "What documents are needed?",
+                "answer": "A photo ID for all yatras; passports or voter IDs for Nepal; medical certificates for Amarnath."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a yatra for your family?",
+            "description": "Call us or send an enquiry. We will help you choose the right yatra and dates.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan our yatra",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse yatras",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Yatra Seva Tours collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

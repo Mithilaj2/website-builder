@@ -1,0 +1,66 @@
+{
+  "id": "travel_template_02",
+  "name": "Coral & Co. Honeymoons",
+  "prefix": "ccm",
+  "niche": "honeymoon",
+  "seed": 2,
+  "direction": "Romantic and airy: centred masthead, full-bleed cover hero over overwater villas, coral and deep lagoon on blush, DM Serif headings, price-on-photo cards, image destination tiles.",
+  "description": "A romantic, airy design for honeymoon and luxury travel planners: centred masthead, a full-bleed hero with a trip search, image destination tiles, cards with the price on the photo and a featured couple story.",
+  "theme": {
+    "primary": "#0F5C6E",
+    "secondary": "#F26B5B",
+    "bg": "#FFF9F6",
+    "text": "#1C2A30",
+    "heading_font": "dm-serif-display",
+    "body_font": "dm-sans",
+    "radius": "22px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "cover",
+    "banner": "image",
+    "head": "serif",
+    "card": "shadow",
+    "listing-card": "photo",
+    "listing_categories": "tiles",
+    "about": "layered",
+    "services": "cards",
+    "stats": "inline",
+    "process": "line",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "testimonials",
+    "services"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 80%, #000)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 400,
+    "hero_weight": 400,
+    "track": "0",
+    "hero_scale": 1.08,
+    "card": "#FFFFFF",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "featured_heading": "Most-loved honeymoons",
+    "header_button": "Plan our honeymoon",
+    "cta_button": "Plan our honeymoon",
+    "types_heading": "Where will you begin?"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

@@ -1,0 +1,18 @@
+<?php $steps = (array) ($data['steps'] ?? []); ?>
+<section <?= $view->attrs($section, 'smt-process smt-process-timeline') ?>>
+  <div class="container">
+    <?= $view->partial('section-head', ['data' => $data]) ?>
+    <ol class="smt-steps" style="--smt-n:<?= max(1, min(5, count($steps))) ?>">
+      <?php foreach ($steps as $i => $s): ?>
+        <li class="smt-step">
+          <span class="smt-step-num"><?= str_pad((string) ($i + 1), 2, '0', STR_PAD_LEFT) ?></span>
+          <div class="smt-step-body">
+            <?php if (($s['icon'] ?? '') !== ''): ?><span class="smt-step-icon"><?= $view->icon($s['icon']) ?></span><?php endif; ?>
+            <h3 class="smt-feature-title"><?= $view->e($s['title'] ?? '') ?></h3>
+            <?php if (($s['description'] ?? '') !== ''): ?><p><?= $view->text($s['description']) ?></p><?php endif; ?>
+          </div>
+        </li>
+      <?php endforeach; ?>
+    </ol>
+  </div>
+</section>

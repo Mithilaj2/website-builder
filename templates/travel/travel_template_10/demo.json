@@ -1,0 +1,987 @@
+{
+  "settings": {
+    "site": {
+      "name": "Campus Trails",
+      "tagline": "Educational tours for schools · Pune",
+      "phone": "+91 20 2553 7700",
+      "email": "schools@campustrails.example",
+      "address": "Office 7, Prabhat Road, Erandwane\nPune, Maharashtra 411004",
+      "hours": "Mon–Sat, 9 am – 6 pm",
+      "footer_about": "Campus Trails runs safe, curriculum-linked educational tours and nature camps for schools across India.",
+      "footer_text": "All rights reserved. Registered student tour operator; police-verified escorts (demo).",
+      "header_button": {
+        "text": "Request a proposal",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Campus Trails: Campus Trails runs safe, curriculum-linked educational tours and nature camps for schools across India.",
+      "keywords": "tours, educational tours for schools · pune, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Science & space",
+        "slug": "science",
+        "description": "Space centres, science cities and observatories.",
+        "image": "theme:images/dest-science.svg"
+      },
+      {
+        "name": "History & heritage",
+        "slug": "history",
+        "description": "Forts, museums and UNESCO sites.",
+        "image": "theme:images/dest-history.svg"
+      },
+      {
+        "name": "Nature camps",
+        "slug": "nature",
+        "description": "Forest camps, treks and wildlife.",
+        "image": "theme:images/dest-nature.svg"
+      },
+      {
+        "name": "International",
+        "slug": "international",
+        "description": "Space camps and STEM tours abroad.",
+        "image": "theme:images/dest-international.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Hampi history trail",
+        "slug": "hampi-history",
+        "category": "history",
+        "location": "Pune → Hampi → Badami",
+        "price": 1280000,
+        "price_note": "per person",
+        "image": "theme:images/trip-hampi-history.svg",
+        "gallery": [
+          "theme:images/scene-temple.svg",
+          "theme:images/scene-museum.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 4,
+          "nights": 3,
+          "trip_type": "History & heritage",
+          "region": "India",
+          "group_size": "40–120",
+          "best_time": "Oct – Feb",
+          "start_city": "Pune",
+          "flights": false,
+          "highlights": [
+            "Historian guide",
+            "Heritage quiz"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "The ruins of the Vijayanagara empire and the cave temples of Badami, with a historian guide.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Overnight bus to Hampi</h4><h4>Day 2: Royal enclosure and Vittala temple</h4><h4>Day 3: Badami caves</h4><h4>Day 4: Return</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Bestseller"
+      },
+      {
+        "title": "Science city & space centre tour",
+        "slug": "science-space-tour",
+        "category": "science",
+        "location": "Pune → Ahmedabad → Sriharikota (view gallery)",
+        "price": 1650000,
+        "price_note": "per person",
+        "image": "theme:images/trip-science-space-tour.svg",
+        "gallery": [
+          "theme:images/scene-museum.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-city.svg"
+        ],
+        "attributes": {
+          "duration": 4,
+          "nights": 3,
+          "trip_type": "Science & space",
+          "region": "India",
+          "group_size": "40–120",
+          "best_time": "Nov – Feb",
+          "start_city": "Pune",
+          "flights": false,
+          "highlights": [
+            "Robotics workshop",
+            "Worksheets for every stop"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "A science city, a planetarium show and a space-centre visit, with worksheets for every stop.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Train to Ahmedabad; science city</h4><h4>Day 2: Planetarium and robotics workshop</h4><h4>Day 3: Space applications exhibition</h4><h4>Day 4: Return</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Grades 6–10"
+      },
+      {
+        "title": "Western Ghats nature camp",
+        "slug": "western-ghats-camp",
+        "category": "nature",
+        "location": "Pune → Bhandardara",
+        "price": 690000,
+        "price_note": "per person",
+        "image": "theme:images/trip-western-ghats-camp.svg",
+        "gallery": [
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-museum.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-city.svg"
+        ],
+        "attributes": {
+          "duration": 3,
+          "nights": 2,
+          "trip_type": "Nature camp",
+          "region": "India",
+          "group_size": "30–150",
+          "best_time": "Oct – Mar",
+          "start_city": "Pune",
+          "flights": false,
+          "highlights": [
+            "Stargazing session",
+            "Lake clean-up drive"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Tents by the lake, a night trek, birdwatching and stargazing in the Western Ghats.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive; camp set-up and team games</h4><h4>Day 2: Trek, birdwatching and stargazing</h4><h4>Day 3: Lake clean-up; return</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Jim Corbett wildlife camp",
+        "slug": "corbett-wildlife-camp",
+        "category": "nature",
+        "location": "Delhi → Corbett",
+        "price": 1850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-corbett-wildlife-camp.svg",
+        "gallery": [
+          "theme:images/scene-safari.svg",
+          "theme:images/scene-museum.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "Nature camp",
+          "region": "India",
+          "group_size": "30–80",
+          "best_time": "Nov – Mar",
+          "start_city": "Delhi",
+          "flights": false,
+          "highlights": [
+            "Canter safaris",
+            "Forest officer talk"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Canter safaris, nature walks with naturalists and a talk by a forest officer.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Delhi to Corbett</h4><h4>Day 2: Canter safari and nature walk</h4><h4>Day 3: River walk; forest officer talk</h4><h4>Day 4: Canter safari</h4><h4>Day 5: Return</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Rajasthan forts & museums",
+        "slug": "rajasthan-forts",
+        "category": "history",
+        "location": "Jaipur → Jodhpur",
+        "price": 1950000,
+        "price_note": "per person",
+        "image": "theme:images/trip-rajasthan-forts.svg",
+        "gallery": [
+          "theme:images/scene-palace.svg",
+          "theme:images/scene-museum.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "History & heritage",
+          "region": "India",
+          "group_size": "40–120",
+          "best_time": "Nov – Feb",
+          "start_city": "Pune",
+          "flights": false,
+          "highlights": [
+            "Jantar Mantar astronomy session",
+            "Craft workshop"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Amber and Mehrangarh forts, Jantar Mantar and a block-printing workshop.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Fly to Jaipur</h4><h4>Day 2: Amber fort and Jantar Mantar</h4><h4>Day 3: Block printing workshop</h4><h4>Day 4: Drive to Jodhpur; Mehrangarh</h4><h4>Day 5: Fly back</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "International space camp",
+        "slug": "international-space-camp",
+        "category": "international",
+        "location": "Orlando, USA",
+        "price": 28500000,
+        "price_note": "per person",
+        "image": "theme:images/trip-international-space-camp.svg",
+        "gallery": [
+          "theme:images/scene-city.svg",
+          "theme:images/scene-museum.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 9,
+          "nights": 8,
+          "trip_type": "International",
+          "region": "International",
+          "group_size": "15–30",
+          "best_time": "May – Jun",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Mission simulations",
+            "Two teachers travel free"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "A week of astronaut training, rocket building and mission simulations, plus a theme-park day.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Fly to Orlando</h4><h4>Day 2: Space camp</h4><h4>Day 3: Space camp</h4><h4>Day 4: Space camp</h4><h4>Day 5: Space camp</h4><h4>Day 6: Space camp graduation</h4><h4>Day 7: Theme park</h4><h4>Day 8: Science museum</h4><h4>Day 9: Fly home</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Summer"
+      },
+      {
+        "title": "Andaman marine biology camp",
+        "slug": "andaman-marine-camp",
+        "category": "nature",
+        "location": "Port Blair → Havelock",
+        "price": 3250000,
+        "price_note": "per person",
+        "image": "theme:images/trip-andaman-marine-camp.svg",
+        "gallery": [
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-museum.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Nature camp",
+          "region": "India",
+          "group_size": "20–60",
+          "best_time": "Dec – Feb",
+          "start_city": "Chennai",
+          "flights": false,
+          "highlights": [
+            "Reef walk"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "This winter’s camp is fully booked by schools — enquire for next year.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Port Blair</h4><h4>Day 2: Havelock</h4><h4>Day 3: Reef walk</h4><h4>Day 4: Snorkelling</h4><h4>Day 5: Mangroves</h4><h4>Day 6: Return</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Learning beyond the classroom",
+            "heading": "School trips that teachers love too",
+            "subheading": "Curriculum-linked educational tours, science trips and nature camps — with trained escorts, a doctor on call and 24×7 updates for parents.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "1 escort for every 10 students"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Doctor on call"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "Live updates for parents"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Learning themes",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Popular school tours",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All tours",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Campus",
+            "heading": "Safety and learning, together",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-shield-check",
+                "title": "Safety first",
+                "description": "Police-verified escorts, 1 for every 10 students, and a doctor on call."
+              },
+              {
+                "icon": "bi-journal-bookmark",
+                "title": "Curriculum-linked",
+                "description": "Worksheets and activities mapped to the syllabus."
+              },
+              {
+                "icon": "bi-phone",
+                "title": "Parent updates",
+                "description": "Live photo updates and a daily message for parents."
+              },
+              {
+                "icon": "bi-bus-front",
+                "title": "Safe transport",
+                "description": "Approved coaches and trains, girls and boys stay separately."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "180000",
+                "suffix": "+",
+                "label": "Students travelled",
+                "icon": ""
+              },
+              {
+                "number": "650",
+                "suffix": "+",
+                "label": "Partner schools",
+                "icon": ""
+              },
+              {
+                "number": "17",
+                "suffix": "",
+                "label": "Years of school tours",
+                "icon": ""
+              },
+              {
+                "number": "1:10",
+                "suffix": "",
+                "label": "Escort-to-student ratio",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this year",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all tours",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "Learning on the road",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-museum.svg",
+                "caption": "Museum visit with a school bus"
+              },
+              {
+                "image": "theme:images/scene-camp.svg",
+                "caption": "Camping under the stars"
+              },
+              {
+                "image": "theme:images/scene-mountains.svg",
+                "caption": "Snow peaks and pine valley"
+              },
+              {
+                "image": "theme:images/scene-city.svg",
+                "caption": "City skyline at dusk"
+              },
+              {
+                "image": "theme:images/scene-safari.svg",
+                "caption": "Jungle safari"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "The Hampi trip turned history into something my students could touch. Superbly organised.",
+                "name": "Mrs. Anita Kulkarni",
+                "role": "History teacher, Pune",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Parents loved the daily photo updates. Not a single complaint.",
+                "name": "Mr. Rakesh Jain",
+                "role": "Principal, Nashik",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Our students still talk about the night trek and the stars.",
+                "name": "Ms. Farah Sheikh",
+                "role": "Science coordinator, Mumbai",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning this year’s school trip?",
+            "description": "Send us your grades and dates — we will prepare a proposal and safety plan for your school.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Request a proposal",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse tours",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Campus Trails runs safe, curriculum-linked educational tours and nature camps for schools across India.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Seventeen years of learning journeys",
+            "description": "<p>Campus Trails was founded in 2009 by a teacher who wanted school trips to teach as much as the classroom.</p><p>Today we take more than 15,000 students on safe, curriculum-linked tours every year.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "17",
+            "experience_label": "years of school tours",
+            "points": [
+              {
+                "text": "1 escort for every 10 students"
+              },
+              {
+                "text": "Doctor on call"
+              },
+              {
+                "text": "Worksheets for every tour"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "180000",
+                "suffix": "+",
+                "label": "Students travelled",
+                "icon": ""
+              },
+              {
+                "number": "650",
+                "suffix": "+",
+                "label": "Partner schools",
+                "icon": ""
+              },
+              {
+                "number": "17",
+                "suffix": "",
+                "label": "Years of school tours",
+                "icon": ""
+              },
+              {
+                "number": "1:10",
+                "suffix": "",
+                "label": "Escort-to-student ratio",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Registered student tour operator; police-verified escorts (demo).",
+            "members": [
+              {
+                "name": "Sunil Gokhale",
+                "role": "Founder",
+                "bio": "Former teacher; 17 years of school tours.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Dr. Neha Patwardhan",
+                "role": "Medical lead",
+                "bio": "Briefs every group before travel.",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Amol Deshmukh",
+                "role": "Operations",
+                "bio": "Transport, stays and escorts.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Rina Mathew",
+                "role": "School relations",
+                "bio": "Works with 650 schools.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "EduRail Travels",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "SafeKids Insurance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Starfield Planetarium",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Green Camp India",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-shield-check",
+                "title": "Safety first",
+                "description": "Police-verified escorts, 1 for every 10 students, and a doctor on call.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-journal-bookmark",
+                "title": "Curriculum-linked",
+                "description": "Worksheets and activities mapped to the syllabus.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-phone",
+                "title": "Parent updates",
+                "description": "Live photo updates and a daily message for parents.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bus-front",
+                "title": "Safe transport",
+                "description": "Approved coaches and trains, girls and boys stay separately.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-egg-fried",
+                "title": "Hygienic meals",
+                "description": "Fresh vegetarian meals, with Jain and allergy options.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-award",
+                "title": "Teacher support",
+                "description": "Plans, permissions and consent forms prepared for schools.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-envelope",
+                "title": "Send a request",
+                "description": "Grade, number of students and dates."
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Get a proposal",
+                "description": "Itinerary, safety plan and cost per student."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Parent meeting",
+                "description": "We present the trip to parents with the school."
+              },
+              {
+                "icon": "bi-bus-front",
+                "title": "Travel",
+                "description": "Escorts, a doctor on call and live updates."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "How do you keep students safe?",
+                "answer": "Police-verified escorts at a ratio of 1:10, a doctor on call, separate rooms for girls and boys, and a 24×7 emergency line."
+              },
+              {
+                "question": "Do teachers travel free?",
+                "answer": "Yes, one teacher travels free for every 15 students."
+              },
+              {
+                "question": "Are the tours linked to the curriculum?",
+                "answer": "Yes — each tour comes with worksheets and activities mapped to CBSE, ICSE and state boards."
+              },
+              {
+                "question": "How do parents get updates?",
+                "answer": "A daily message with photos on a private group, plus a hotline for parents."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning this year’s school trip?",
+            "description": "Send us your grades and dates — we will prepare a proposal and safety plan for your school.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Request a proposal",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse tours",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Campus Trails collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

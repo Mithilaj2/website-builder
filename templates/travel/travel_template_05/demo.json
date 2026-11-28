@@ -1,0 +1,988 @@
+{
+  "settings": {
+    "site": {
+      "name": "Wanderwise Group Tours",
+      "tagline": "International group tours · Ahmedabad",
+      "phone": "+91 79 2640 8800",
+      "email": "tours@wanderwise.example",
+      "address": "3rd Floor, Shivalik Plaza, Ashram Road\nAhmedabad, Gujarat 380009",
+      "hours": "Mon–Sat, 10 am – 7 pm",
+      "footer_about": "Wanderwise runs escorted group tours to Europe, Asia and beyond, with Indian meals and a tour manager from India.",
+      "footer_text": "All rights reserved. Ministry of Tourism–approved tour operator (demo).",
+      "header_button": {
+        "text": "Reserve seats",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Wanderwise Group Tours: Wanderwise runs escorted group tours to Europe, Asia and beyond, with Indian meals and a tour manager from India.",
+      "keywords": "tours, international group tours · ahmedabad, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Europe",
+        "slug": "europe",
+        "description": "Classic capitals, the Alps and the Mediterranean.",
+        "image": "theme:images/dest-europe.svg"
+      },
+      {
+        "name": "East Asia",
+        "slug": "east-asia",
+        "description": "Japan, Korea and Singapore.",
+        "image": "theme:images/dest-east-asia.svg"
+      },
+      {
+        "name": "Middle East",
+        "slug": "middle-east",
+        "description": "Dubai, Abu Dhabi and Oman.",
+        "image": "theme:images/dest-middle-east.svg"
+      },
+      {
+        "name": "Island holidays",
+        "slug": "islands",
+        "description": "Bali, Mauritius and the Maldives.",
+        "image": "theme:images/dest-islands.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Best of Europe in 15 days",
+        "slug": "best-of-europe",
+        "category": "europe",
+        "location": "London → Paris → Swiss Alps → Venice → Rome",
+        "price": 28900000,
+        "price_note": "per person",
+        "image": "theme:images/trip-best-of-europe.svg",
+        "gallery": [
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-city.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-island.svg"
+        ],
+        "attributes": {
+          "duration": 15,
+          "nights": 14,
+          "trip_type": "Family",
+          "region": "Europe",
+          "group_size": "Max 40",
+          "best_time": "Apr – Sep",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Indian tour manager",
+            "Indian dinners every night",
+            "Schengen visa assistance"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Seven countries, the Eiffel tower, Mt Titlis and a gondola in Venice — with Indian dinners every night.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in London</h4><h4>Day 2: London sightseeing</h4><h4>Day 3: Eurostar to Paris</h4><h4>Day 4: Paris and the river cruise</h4><h4>Day 5: Disneyland or Versailles</h4><h4>Day 6: Drive to Brussels and Amsterdam</h4><h4>Day 7: Amsterdam canals</h4><h4>Day 8: Cologne; drive to Switzerland</h4><h4>Day 9: Mt Titlis</h4><h4>Day 10: Lucerne</h4><h4>Day 11: Drive to Venice</h4><h4>Day 12: Venice gondola ride</h4><h4>Day 13: Florence and Pisa</h4><h4>Day 14: Rome and the Vatican</h4><h4>Day 15: Fly home</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Bestseller"
+      },
+      {
+        "title": "Japan cherry blossom tour",
+        "slug": "japan-cherry-blossom",
+        "category": "east-asia",
+        "location": "Tokyo → Mt Fuji → Kyoto → Osaka",
+        "price": 24500000,
+        "price_note": "per person",
+        "image": "theme:images/trip-japan-cherry-blossom.svg",
+        "gallery": [
+          "theme:images/scene-city.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-island.svg"
+        ],
+        "attributes": {
+          "duration": 9,
+          "nights": 8,
+          "trip_type": "Family",
+          "region": "Asia",
+          "group_size": "Max 30",
+          "best_time": "Late Mar – Apr",
+          "start_city": "Delhi",
+          "flights": true,
+          "highlights": [
+            "Bullet train ride",
+            "Cherry blossom season"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Cherry blossoms in Tokyo and Kyoto, a bullet-train ride and a night by Mt Fuji.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Tokyo</h4><h4>Day 2: Tokyo city tour</h4><h4>Day 3: Mt Fuji and Lake Kawaguchi</h4><h4>Day 4: Bullet train to Kyoto</h4><h4>Day 5: Kyoto temples</h4><h4>Day 6: Nara deer park</h4><h4>Day 7: Osaka and Universal Studios</h4><h4>Day 8: Free day</h4><h4>Day 9: Fly home</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Spring only"
+      },
+      {
+        "title": "Dubai & Abu Dhabi family fun",
+        "slug": "dubai-abu-dhabi",
+        "category": "middle-east",
+        "location": "Dubai → Abu Dhabi",
+        "price": 7800000,
+        "price_note": "per person",
+        "image": "theme:images/trip-dubai-abu-dhabi.svg",
+        "gallery": [
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-city.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Family",
+          "region": "Middle East",
+          "group_size": "Max 40",
+          "best_time": "Oct – Apr",
+          "start_city": "Ahmedabad",
+          "flights": true,
+          "highlights": [
+            "Desert safari",
+            "Theme park day"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Desert safari, a dhow-cruise dinner, theme parks and the Grand Mosque.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Dubai; dhow cruise</h4><h4>Day 2: City tour and observation deck</h4><h4>Day 3: Desert safari with BBQ</h4><h4>Day 4: Abu Dhabi and the Grand Mosque</h4><h4>Day 5: Theme park day</h4><h4>Day 6: Fly home</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Singapore & Malaysia",
+        "slug": "singapore-malaysia",
+        "category": "east-asia",
+        "location": "Singapore → Genting → Kuala Lumpur",
+        "price": 8900000,
+        "price_note": "per person",
+        "image": "theme:images/trip-singapore-malaysia.svg",
+        "gallery": [
+          "theme:images/scene-city.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-island.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Family",
+          "region": "Asia",
+          "group_size": "Max 40",
+          "best_time": "Year-round",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Night safari",
+            "Sentosa island day"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Gardens by the Bay, Sentosa, Genting Highlands and the twin towers.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Singapore; night safari</h4><h4>Day 2: City tour and Gardens by the Bay</h4><h4>Day 3: Sentosa island</h4><h4>Day 4: Drive to Genting Highlands</h4><h4>Day 5: Kuala Lumpur city tour</h4><h4>Day 6: Batu caves</h4><h4>Day 7: Fly home</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Women-only Europe tour",
+        "slug": "women-only-europe",
+        "category": "europe",
+        "location": "Paris → Swiss Alps → Venice",
+        "price": 21500000,
+        "price_note": "per person",
+        "image": "theme:images/trip-women-only-europe.svg",
+        "gallery": [
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-city.svg",
+          "theme:images/scene-island.svg"
+        ],
+        "attributes": {
+          "duration": 10,
+          "nights": 9,
+          "trip_type": "Women only",
+          "region": "Europe",
+          "group_size": "Max 25",
+          "best_time": "May – Sep",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Woman tour manager",
+            "Shopping time built in"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "A relaxed Europe tour for women travellers, led by a woman tour manager.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Paris</h4><h4>Day 2: Paris sightseeing</h4><h4>Day 3: Montmartre and a cabaret</h4><h4>Day 4: Train to Switzerland</h4><h4>Day 5: Jungfraujoch</h4><h4>Day 6: Lucerne</h4><h4>Day 7: Drive to Venice</h4><h4>Day 8: Venice</h4><h4>Day 9: Milan shopping</h4><h4>Day 10: Fly home</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Women only"
+      },
+      {
+        "title": "Bali group getaway",
+        "slug": "bali-group",
+        "category": "islands",
+        "location": "Kuta → Ubud → Nusa Penida",
+        "price": 5800000,
+        "price_note": "per person",
+        "image": "theme:images/trip-bali-group.svg",
+        "gallery": [
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-city.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Students",
+          "region": "Asia",
+          "group_size": "Max 30",
+          "best_time": "Apr – Oct",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Nusa Penida island trip",
+            "Water sports"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Beaches, rice terraces and a day trip to Nusa Penida with a fun group.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Bali</h4><h4>Day 2: Ubud and the terraces</h4><h4>Day 3: Nusa Penida day trip</h4><h4>Day 4: Water sports in Nusa Dua</h4><h4>Day 5: Free day</h4><h4>Day 6: Fly home</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Scandinavia & Northern Lights",
+        "slug": "scandinavia-northern-lights",
+        "category": "europe",
+        "location": "Oslo → Tromsø → Stockholm",
+        "price": 36500000,
+        "price_note": "per person",
+        "image": "theme:images/trip-scandinavia-northern-lights.svg",
+        "gallery": [
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-city.svg",
+          "theme:images/scene-island.svg"
+        ],
+        "attributes": {
+          "duration": 10,
+          "nights": 9,
+          "trip_type": "Seniors",
+          "region": "Europe",
+          "group_size": "Max 25",
+          "best_time": "Jan – Mar",
+          "start_city": "Delhi",
+          "flights": true,
+          "highlights": [
+            "Northern Lights chase"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "All departures this winter are full — register for next season.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Oslo</h4><h4>Day 2: Fly to Tromsø</h4><h4>Day 3: Northern Lights chase</h4><h4>Day 4: Husky ride</h4><h4>Day 5: Fjord cruise</h4><h4>Day 6: Fly to Stockholm</h4><h4>Day 7: Stockholm</h4><h4>Day 8: Old town</h4><h4>Day 9: Free day</h4><h4>Day 10: Fly home</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Escorted group tours from India",
+            "heading": "See the world, with friends you haven’t met yet",
+            "subheading": "Europe, Japan, Dubai, Singapore and more — with Indian meals, a tour manager from India and visa help included.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Indian tour manager on every tour"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Indian meals included"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "Visa assistance included"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Pick a part of the world",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Departures filling fast",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All tours",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Wanderwise",
+            "heading": "Travel with people who have been there",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-people",
+                "title": "Escorted group tours",
+                "description": "Fixed departures with a tour manager from India."
+              },
+              {
+                "icon": "bi-egg-fried",
+                "title": "Indian meals",
+                "description": "Indian breakfasts and dinners on every tour, Jain on request."
+              },
+              {
+                "icon": "bi-passport",
+                "title": "Visa assistance",
+                "description": "Documents, appointments and follow-up for every country."
+              },
+              {
+                "icon": "bi-gender-female",
+                "title": "Women-only tours",
+                "description": "Led by women tour managers."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "140000",
+                "suffix": "+",
+                "label": "Travellers",
+                "icon": ""
+              },
+              {
+                "number": "22",
+                "suffix": "",
+                "label": "Years of group tours",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": "+",
+                "label": "Countries",
+                "icon": ""
+              },
+              {
+                "number": "98",
+                "suffix": "%",
+                "label": "Visa success rate",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this season",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all tours",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "Moments worth the journey",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-oldtown.svg",
+                "caption": "Old town square"
+              },
+              {
+                "image": "theme:images/scene-city.svg",
+                "caption": "City skyline at dusk"
+              },
+              {
+                "image": "theme:images/scene-lake.svg",
+                "caption": "Shikara on a mountain lake"
+              },
+              {
+                "image": "theme:images/scene-island.svg",
+                "caption": "Overwater villas"
+              },
+              {
+                "image": "theme:images/scene-desert.svg",
+                "caption": "Desert fort and dunes"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "Our first trip abroad with my parents — the tour manager treated them like family.",
+                "name": "Nirali Shah",
+                "role": "Best of Europe",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The visa team made the Schengen process so easy.",
+                "name": "Mitesh Patel",
+                "role": "Japan cherry blossom tour",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "I went alone and came back with twenty friends.",
+                "name": "Hema Krishnan",
+                "role": "Women-only Europe",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "New departures every month",
+            "description": "Reserve your seats early — the best departures fill up three months ahead.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Reserve seats",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse tours",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Wanderwise runs escorted group tours to Europe, Asia and beyond, with Indian meals and a tour manager from India.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Twenty-two years of group tours",
+            "description": "<p>Wanderwise began in 2004 with a single Europe departure of 32 travellers from Ahmedabad.</p><p>Today we take more than 10,000 Indians abroad every year, with a tour manager from India on every tour.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "22",
+            "experience_label": "years of group tours",
+            "points": [
+              {
+                "text": "Indian tour managers"
+              },
+              {
+                "text": "Indian meals included"
+              },
+              {
+                "text": "Visa help included"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "140000",
+                "suffix": "+",
+                "label": "Travellers",
+                "icon": ""
+              },
+              {
+                "number": "22",
+                "suffix": "",
+                "label": "Years of group tours",
+                "icon": ""
+              },
+              {
+                "number": "60",
+                "suffix": "+",
+                "label": "Countries",
+                "icon": ""
+              },
+              {
+                "number": "98",
+                "suffix": "%",
+                "label": "Visa success rate",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Ministry of Tourism–approved tour operator (demo).",
+            "members": [
+              {
+                "name": "Rajesh Desai",
+                "role": "Founder",
+                "bio": "Has led 300 group departures himself.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Shruti Joshi",
+                "role": "Head of tours",
+                "bio": "Europe and Scandinavia.",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Faisal Qureshi",
+                "role": "Visa desk",
+                "bio": "98% visa success rate.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Priya Nair",
+                "role": "Women-only tours",
+                "bio": "Lead tour manager.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Globe Star Airways",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Continental Coaches",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "EuroStay Hotels",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "SafeTrip Insurance",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-people",
+                "title": "Escorted group tours",
+                "description": "Fixed departures with a tour manager from India.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-egg-fried",
+                "title": "Indian meals",
+                "description": "Indian breakfasts and dinners on every tour, Jain on request.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-passport",
+                "title": "Visa assistance",
+                "description": "Documents, appointments and follow-up for every country.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-gender-female",
+                "title": "Women-only tours",
+                "description": "Led by women tour managers.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-briefcase",
+                "title": "Corporate & MICE",
+                "description": "Incentive trips and conferences abroad.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-currency-exchange",
+                "title": "Forex & insurance",
+                "description": "Foreign exchange and travel insurance at good rates.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar3",
+                "title": "Pick a departure",
+                "description": "Choose a tour and a date that suits you."
+              },
+              {
+                "icon": "bi-passport",
+                "title": "Visa & documents",
+                "description": "We guide you through every form."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Pre-departure meet",
+                "description": "Meet your group and tour manager before you fly."
+              },
+              {
+                "icon": "bi-airplane",
+                "title": "Travel together",
+                "description": "Everything taken care of, from airport to airport."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "Who are the other travellers?",
+                "answer": "Mostly families, couples and seniors from across India; women-only and student tours are also available."
+              },
+              {
+                "question": "Is the food Indian?",
+                "answer": "Indian breakfasts and dinners are included on every tour; lunches are a mix."
+              },
+              {
+                "question": "Do you help with visas?",
+                "answer": "Yes, our visa team prepares your documents and books appointments."
+              },
+              {
+                "question": "Can I extend my tour?",
+                "answer": "Yes, stay on after the group leaves; we will book the extra nights and your return flight."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "New departures every month",
+            "description": "Reserve your seats early — the best departures fill up three months ahead.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Reserve seats",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse tours",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Wanderwise Group Tours collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

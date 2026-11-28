@@ -1,0 +1,983 @@
+{
+  "settings": {
+    "site": {
+      "name": "Jungle Tales Safaris",
+      "tagline": "Wildlife safaris · Central India",
+      "phone": "+91 755 266 3300",
+      "email": "safari@jungletales.example",
+      "address": "Forest View, Shyamla Hills\nBhopal, Madhya Pradesh 462013",
+      "hours": "Mon–Sat, 9:30 am – 6:30 pm",
+      "footer_about": "Jungle Tales plans wildlife safaris in India’s tiger reserves and national parks, with expert naturalists and handpicked lodges.",
+      "footer_text": "All rights reserved. Registered tour operator; naturalists trained by the state forest department (demo).",
+      "header_button": {
+        "text": "Plan a safari",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Jungle Tales Safaris: Jungle Tales plans wildlife safaris in India’s tiger reserves and national parks, with expert naturalists and handpicked lodges.",
+      "keywords": "safaris, wildlife safaris · central india, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Kanha & Bandhavgarh",
+        "slug": "kanha-bandhavgarh",
+        "description": "Sal forests, meadows and the best tiger sightings.",
+        "image": "theme:images/dest-kanha-bandhavgarh.svg"
+      },
+      {
+        "name": "Ranthambore",
+        "slug": "ranthambore",
+        "description": "Tigers among fort ruins and lakes.",
+        "image": "theme:images/dest-ranthambore.svg"
+      },
+      {
+        "name": "Corbett",
+        "slug": "corbett",
+        "description": "India’s oldest national park in the Himalayan foothills.",
+        "image": "theme:images/dest-corbett.svg"
+      },
+      {
+        "name": "Kaziranga",
+        "slug": "kaziranga",
+        "description": "One-horned rhinos, elephants and wild buffalo.",
+        "image": "theme:images/dest-kaziranga.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Kanha tiger safari",
+        "slug": "kanha-tiger",
+        "category": "kanha-bandhavgarh",
+        "location": "Jabalpur → Kanha",
+        "price": 3450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-kanha-tiger.svg",
+        "gallery": [
+          "theme:images/scene-safari.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-waterfall.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 4,
+          "nights": 3,
+          "trip_type": "Tiger safari",
+          "region": "Central India",
+          "group_size": "Private jeep",
+          "best_time": "Oct – Jun",
+          "start_city": "Jabalpur",
+          "flights": false,
+          "highlights": [
+            "Four core-zone safaris",
+            "Naturalist on every drive"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Four jeep safaris in Kanha’s core zones, with a naturalist and a lodge at the Mukki gate.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Jabalpur to Kanha</h4><h4>Day 2: Morning and evening safaris</h4><h4>Day 3: Morning safari; village walk</h4><h4>Day 4: Morning safari; drive to Jabalpur</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Bestseller"
+      },
+      {
+        "title": "Bandhavgarh & Kanha combo",
+        "slug": "bandhavgarh-kanha",
+        "category": "kanha-bandhavgarh",
+        "location": "Jabalpur → Bandhavgarh → Kanha",
+        "price": 6200000,
+        "price_note": "per person",
+        "image": "theme:images/trip-bandhavgarh-kanha.svg",
+        "gallery": [
+          "theme:images/scene-safari.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-waterfall.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Tiger safari",
+          "region": "Central India",
+          "group_size": "Private jeep",
+          "best_time": "Oct – Jun",
+          "start_city": "Jabalpur",
+          "flights": false,
+          "highlights": [
+            "Eight safaris in two parks",
+            "Fort ruins in Bandhavgarh"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Two of India’s best tiger parks in one trip, with eight safaris in total.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Jabalpur to Bandhavgarh</h4><h4>Day 2: Safaris</h4><h4>Day 3: Safaris</h4><h4>Day 4: Drive to Kanha</h4><h4>Day 5: Safaris</h4><h4>Day 6: Safaris</h4><h4>Day 7: Drive to Jabalpur</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Ranthambore weekend",
+        "slug": "ranthambore-weekend",
+        "category": "ranthambore",
+        "location": "Sawai Madhopur → Ranthambore",
+        "price": 1950000,
+        "price_note": "per person",
+        "image": "theme:images/trip-ranthambore-weekend.svg",
+        "gallery": [
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-safari.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-waterfall.svg"
+        ],
+        "attributes": {
+          "duration": 3,
+          "nights": 2,
+          "trip_type": "Family",
+          "region": "North India",
+          "group_size": "Shared canter",
+          "best_time": "Oct – Jun",
+          "start_city": "Jaipur",
+          "flights": false,
+          "highlights": [
+            "Three safaris",
+            "Ranthambore fort"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "A quick weekend of three safaris among lakes and fort ruins, with a heritage lodge stay.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Jaipur to Ranthambore; evening safari</h4><h4>Day 2: Morning safari; fort visit; evening safari</h4><h4>Day 3: Morning safari; drive to Jaipur</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Weekend"
+      },
+      {
+        "title": "Corbett jungle lodge",
+        "slug": "corbett-lodge",
+        "category": "corbett",
+        "location": "Delhi → Corbett (Dhikala)",
+        "price": 2450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-corbett-lodge.svg",
+        "gallery": [
+          "theme:images/scene-waterfall.svg",
+          "theme:images/scene-safari.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 4,
+          "nights": 3,
+          "trip_type": "Birding",
+          "region": "North India",
+          "group_size": "Private jeep",
+          "best_time": "Nov – Jun",
+          "start_city": "Delhi",
+          "flights": false,
+          "highlights": [
+            "Night inside the forest",
+            "Grasslands of Dhikala"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Two nights inside the Dhikala zone with elephants, tigers and 500 species of birds.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Delhi to Corbett</h4><h4>Day 2: Dhikala forest lodge</h4><h4>Day 3: Morning safari; birding walk</h4><h4>Day 4: Drive to Delhi</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Kaziranga rhinos & tea gardens",
+        "slug": "kaziranga-rhinos",
+        "category": "kaziranga",
+        "location": "Guwahati → Kaziranga",
+        "price": 2950000,
+        "price_note": "per person",
+        "image": "theme:images/trip-kaziranga-rhinos.svg",
+        "gallery": [
+          "theme:images/scene-tea.svg",
+          "theme:images/scene-safari.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-waterfall.svg"
+        ],
+        "attributes": {
+          "duration": 4,
+          "nights": 3,
+          "trip_type": "Family",
+          "region": "North-east",
+          "group_size": "Private jeep",
+          "best_time": "Nov – Apr",
+          "start_city": "Guwahati",
+          "flights": false,
+          "highlights": [
+            "One-horned rhinos",
+            "Tea estate stay"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Elephant-back and jeep safaris among one-horned rhinos, and a night at a tea estate bungalow.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Guwahati to Kaziranga</h4><h4>Day 2: Elephant and jeep safaris</h4><h4>Day 3: Western range; tea garden walk</h4><h4>Day 4: Drive to Guwahati</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Wildlife photography expedition",
+        "slug": "photography-expedition",
+        "category": "kanha-bandhavgarh",
+        "location": "Bandhavgarh",
+        "price": 7800000,
+        "price_note": "per person",
+        "image": "theme:images/trip-photography-expedition.svg",
+        "gallery": [
+          "theme:images/scene-safari.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-waterfall.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Photography",
+          "region": "Central India",
+          "group_size": "Max 3 per jeep",
+          "best_time": "Mar – Jun",
+          "start_city": "Jabalpur",
+          "flights": false,
+          "highlights": [
+            "Ten safaris",
+            "Pro photographer mentor"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Ten safaris with a professional wildlife photographer and only three guests per jeep.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Bandhavgarh</h4><h4>Day 2: Safaris</h4><h4>Day 3: Safaris</h4><h4>Day 4: Safaris</h4><h4>Day 5: Safaris and image review</h4><h4>Day 6: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Photographers"
+      },
+      {
+        "title": "Satpura canoe & walking safari",
+        "slug": "satpura-walking",
+        "category": "kanha-bandhavgarh",
+        "location": "Bhopal → Satpura",
+        "price": 3200000,
+        "price_note": "per person",
+        "image": "theme:images/trip-satpura-walking.svg",
+        "gallery": [
+          "theme:images/scene-waterfall.svg",
+          "theme:images/scene-safari.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg"
+        ],
+        "attributes": {
+          "duration": 4,
+          "nights": 3,
+          "trip_type": "Birding",
+          "region": "Central India",
+          "group_size": "Private",
+          "best_time": "Oct – Jun",
+          "start_city": "Bhopal",
+          "flights": false,
+          "highlights": [
+            "Canoe safari"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Fully booked until June — new dates from October.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Bhopal to Satpura</h4><h4>Day 2: Canoe and walking safari</h4><h4>Day 3: Jeep safari</h4><h4>Day 4: Bhopal</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Tiger reserves & national parks",
+            "heading": "Into the wild, with people who know it",
+            "subheading": "Safaris in Kanha, Bandhavgarh, Ranthambore, Corbett and Kaziranga — with zone-wise permits, expert naturalists and lodges at the park gate.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Permits booked the day they open"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Naturalist on every drive"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "Lodges at the park gate"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Choose your forest",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Safaris this season",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All safaris",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Jungle",
+            "heading": "Safaris done right",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-ticket-perforated",
+                "title": "Safari permits",
+                "description": "Zone-wise permits booked the day the forest department opens bookings."
+              },
+              {
+                "icon": "bi-binoculars",
+                "title": "Expert naturalists",
+                "description": "Naturalists who read tracks, calls and the forest."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Handpicked lodges",
+                "description": "Eco-lodges and jungle camps at the park gates."
+              },
+              {
+                "icon": "bi-camera",
+                "title": "Photography tours",
+                "description": "Small groups with a professional mentor."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "22000",
+                "suffix": "+",
+                "label": "Safari guests",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "National parks",
+                "icon": ""
+              },
+              {
+                "number": "18",
+                "suffix": "",
+                "label": "Years in the wild",
+                "icon": ""
+              },
+              {
+                "number": "86",
+                "suffix": "%",
+                "label": "Tiger sighting rate in season",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this season",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all safaris",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "Moments worth the journey",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-safari.svg",
+                "caption": "Jungle safari"
+              },
+              {
+                "image": "theme:images/scene-camp.svg",
+                "caption": "Camping under the stars"
+              },
+              {
+                "image": "theme:images/scene-waterfall.svg",
+                "caption": "Waterfall in the forest"
+              },
+              {
+                "image": "theme:images/scene-mountains.svg",
+                "caption": "Snow peaks and pine valley"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "Three tigers in four safaris — our naturalist knew exactly where to wait.",
+                "name": "Abhishek Jain",
+                "role": "Kanha tiger safari",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The kids learnt more about the forest in three days than in a year of books.",
+                "name": "Sunita Rao",
+                "role": "Ranthambore family weekend",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Superb mentor and only three in the jeep. My best wildlife images yet.",
+                "name": "Kiran Desai",
+                "role": "Photography expedition",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "This season’s permits are opening",
+            "description": "Tell us your dates now and we will book the best zones as soon as permits open.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan my safari",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse safaris",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Jungle Tales plans wildlife safaris in India’s tiger reserves and national parks, with expert naturalists and handpicked lodges.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Eighteen years in the forest",
+            "description": "<p>Jungle Tales started in 2008 when a group of naturalists began taking friends into Kanha. Today we run safaris in twelve national parks.</p><p>We believe a good safari is about the whole forest, not only the tiger.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "18",
+            "experience_label": "years in the wild",
+            "points": [
+              {
+                "text": "Expert naturalists"
+              },
+              {
+                "text": "Lodges at the park gate"
+              },
+              {
+                "text": "Responsible wildlife travel"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "22000",
+                "suffix": "+",
+                "label": "Safari guests",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "National parks",
+                "icon": ""
+              },
+              {
+                "number": "18",
+                "suffix": "",
+                "label": "Years in the wild",
+                "icon": ""
+              },
+              {
+                "number": "86",
+                "suffix": "%",
+                "label": "Tiger sighting rate in season",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Registered tour operator; naturalists trained by the state forest department (demo).",
+            "members": [
+              {
+                "name": "Vivek Tiwari",
+                "role": "Founder & naturalist",
+                "bio": "18 years tracking tigers in Kanha.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Meera Dhurve",
+                "role": "Senior naturalist",
+                "bio": "Birds and butterflies of Central India.",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Rohan Sinha",
+                "role": "Photography lead",
+                "bio": "Wildlife photographer and mentor.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Ayesha Khan",
+                "role": "Guest relations",
+                "bio": "Permits, lodges and every detail.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Sal Forest Lodges",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Wild Lens Cameras",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Green Jeep Co.",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Tiger Trust Fund",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-ticket-perforated",
+                "title": "Safari permits",
+                "description": "Zone-wise permits booked the day the forest department opens bookings.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-binoculars",
+                "title": "Expert naturalists",
+                "description": "Naturalists who read tracks, calls and the forest.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-house",
+                "title": "Handpicked lodges",
+                "description": "Eco-lodges and jungle camps at the park gates.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-camera",
+                "title": "Photography tours",
+                "description": "Small groups with a professional mentor.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-people",
+                "title": "School & group safaris",
+                "description": "Nature camps for schools and companies.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Responsible travel",
+                "description": "We follow park rules and support local communities.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Tell us your dates",
+                "description": "Best parks and zones for your season."
+              },
+              {
+                "icon": "bi-ticket-perforated",
+                "title": "Permits booked",
+                "description": "Safari permits secured as soon as they open."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Stay at the gate",
+                "description": "Lodges minutes from the park entrance."
+              },
+              {
+                "icon": "bi-binoculars",
+                "title": "Into the jungle",
+                "description": "Morning and evening drives with a naturalist."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "When is the best time for tigers?",
+                "answer": "March to June, when animals come to waterholes; parks are open from October and close for the monsoon."
+              },
+              {
+                "question": "How early should permits be booked?",
+                "answer": "Core-zone permits open about 120 days ahead and sell out fast — book early."
+              },
+              {
+                "question": "Are children allowed?",
+                "answer": "Yes, children of all ages can join; under-fives often travel free in the jeep."
+              },
+              {
+                "question": "What should we wear?",
+                "answer": "Earth colours, layers in winter, and a hat; avoid bright colours and perfumes."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "This season’s permits are opening",
+            "description": "Tell us your dates now and we will book the best zones as soon as permits open.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan my safari",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse safaris",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Jungle Tales Safaris collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}
