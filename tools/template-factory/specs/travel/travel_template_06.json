@@ -1,0 +1,65 @@
+{
+  "id": "travel_template_06",
+  "name": "Jungle Tales Safaris",
+  "prefix": "jts",
+  "niche": "safari",
+  "seed": 6,
+  "mood": "dark",
+  "direction": "Wild and nocturnal: dark page, floating pill navigation, editorial hero with a safari search, jungle green and tiger amber, Space Grotesk, tinted classic cards, image park tiles.",
+  "description": "A wild, dark design for wildlife safari operators and nature lodges: floating navigation, an editorial hero with a safari search, park tiles, cards with the price and a details button, and naturalist services.",
+  "theme": {
+    "primary": "#3E8E5C",
+    "secondary": "#F2A541",
+    "bg": "#0F1512",
+    "text": "#E7EDE8",
+    "heading_font": "space-grotesk",
+    "body_font": "dm-sans",
+    "radius": "12px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "editorial",
+    "banner": "light",
+    "head": "rule",
+    "card": "tint",
+    "listing-card": "classic",
+    "listing_categories": "tiles",
+    "about": "grid",
+    "services": "cards",
+    "stats": "cards",
+    "process": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "on_accent_hover": "var(--wb-on-primary)",
+    "hl": "var(--wb-secondary)",
+    "link": "var(--wb-secondary)",
+    "icon": "tint",
+    "track": "-.02em",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)"
+  },
+  "demo": {
+    "featured_heading": "Safaris this season",
+    "header_button": "Plan a safari",
+    "cta_button": "Plan my safari",
+    "types_heading": "Choose your forest",
+    "features_heading": "Safaris done right"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

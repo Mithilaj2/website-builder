@@ -1,0 +1,995 @@
+{
+  "settings": {
+    "site": {
+      "name": "Coral & Co. Honeymoons",
+      "tagline": "Honeymoons & romantic escapes · Mumbai",
+      "phone": "+91 22 4890 3300",
+      "email": "hello@coralandco.example",
+      "address": "501, Sea Breeze Chambers, Linking Road\nBandra West, Mumbai, Maharashtra 400050",
+      "hours": "Mon–Sat, 10 am – 7 pm; WhatsApp till 10 pm",
+      "footer_about": "Coral & Co. plans honeymoons and anniversary trips in India and abroad, with private stays and thoughtful surprises.",
+      "footer_text": "All rights reserved. Ministry of Tourism–approved travel agent (demo).",
+      "header_button": {
+        "text": "Plan our honeymoon",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Coral & Co. Honeymoons: Coral & Co. plans honeymoons and anniversary trips in India and abroad, with private stays and thoughtful surprises.",
+      "keywords": "honeymoons, honeymoons & romantic escapes · mumbai, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Maldives",
+        "slug": "maldives",
+        "description": "Overwater villas and house reefs.",
+        "image": "theme:images/dest-maldives.svg"
+      },
+      {
+        "name": "Bali",
+        "slug": "bali",
+        "description": "Rice terraces, cliff-top villas and spa days.",
+        "image": "theme:images/dest-bali.svg"
+      },
+      {
+        "name": "Kerala",
+        "slug": "kerala",
+        "description": "Houseboats, tea hills and private pool villas.",
+        "image": "theme:images/dest-kerala.svg"
+      },
+      {
+        "name": "Switzerland",
+        "slug": "switzerland",
+        "description": "Alpine lakes, scenic trains and chalets.",
+        "image": "theme:images/dest-switzerland.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Maldives overwater villa escape",
+        "slug": "maldives-overwater",
+        "category": "maldives",
+        "location": "Malé → South Ari Atoll",
+        "price": 24500000,
+        "price_note": "per couple",
+        "image": "theme:images/trip-maldives-overwater.svg",
+        "gallery": [
+          "theme:images/scene-island.svg",
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "Island",
+          "region": "International",
+          "group_size": "Overwater villa",
+          "best_time": "Nov – Apr",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Overwater villa with a private deck",
+            "All meals and selected drinks",
+            "Seaplane transfers"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Four nights in an overwater villa with all meals, a sunset dolphin cruise and a floating breakfast.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Malé; seaplane to the resort</h4><h4>Day 2: Snorkel the house reef</h4><h4>Day 3: Sunset dolphin cruise</h4><h4>Day 4: Spa for two and a private beach dinner</h4><h4>Day 5: Seaplane back to Malé</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Bestseller"
+      },
+      {
+        "title": "Bali cliffs and rice terraces",
+        "slug": "bali-cliffs-terraces",
+        "category": "bali",
+        "location": "Ubud → Uluwatu",
+        "price": 11800000,
+        "price_note": "per couple",
+        "image": "theme:images/trip-bali-cliffs-terraces.svg",
+        "gallery": [
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Island",
+          "region": "International",
+          "group_size": "Private pool villa",
+          "best_time": "Apr – Oct",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Private pool villas in Ubud and Uluwatu",
+            "Floating breakfast",
+            "Kecak fire dance at sunset"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Three nights in a jungle pool villa in Ubud and three on the cliffs of Uluwatu, with a Balinese spa day.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Bali; transfer to Ubud</h4><h4>Day 2: Tegallalang terraces and a swing</h4><h4>Day 3: Waterfall morning and spa day</h4><h4>Day 4: Drive to Uluwatu</h4><h4>Day 5: Beach clubs and the Kecak dance</h4><h4>Day 6: Free day at your villa</h4><h4>Day 7: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Couples’ favourite"
+      },
+      {
+        "title": "Kerala houseboat honeymoon",
+        "slug": "kerala-houseboat-honeymoon",
+        "category": "kerala",
+        "location": "Kochi → Munnar → Alleppey",
+        "price": 6800000,
+        "price_note": "per couple",
+        "image": "theme:images/trip-kerala-houseboat-honeymoon.svg",
+        "gallery": [
+          "theme:images/scene-backwaters.svg",
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Mountains",
+          "region": "India",
+          "group_size": "Deluxe rooms",
+          "best_time": "Sep – Mar",
+          "start_city": "Kochi",
+          "flights": false,
+          "highlights": [
+            "Private houseboat with a flower-decorated bedroom",
+            "Candle-lit dinner in Munnar",
+            "Ayurvedic couple massage"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Tea-hill views in Munnar, a candle-lit dinner and a private houseboat night on the backwaters.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Kochi; Fort Kochi walk</h4><h4>Day 2: Drive to Munnar</h4><h4>Day 3: Tea gardens and Eravikulam</h4><h4>Day 4: Drive to Alleppey; board your houseboat</h4><h4>Day 5: Beach resort in Marari</h4><h4>Day 6: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Swiss Alps by scenic train",
+        "slug": "swiss-alps-train",
+        "category": "switzerland",
+        "location": "Zurich → Lucerne → Interlaken → Zermatt",
+        "price": 31200000,
+        "price_note": "per couple",
+        "image": "theme:images/trip-swiss-alps-train.svg",
+        "gallery": [
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg"
+        ],
+        "attributes": {
+          "duration": 8,
+          "nights": 7,
+          "trip_type": "Mountains",
+          "region": "International",
+          "group_size": "Superior rooms",
+          "best_time": "May – Sep",
+          "start_city": "Mumbai",
+          "flights": true,
+          "highlights": [
+            "Swiss Travel Pass, first class",
+            "Jungfraujoch excursion",
+            "Chalet stay in Zermatt"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Lake Lucerne, Jungfraujoch and the Matterhorn, travelling between them on first-class panoramic trains.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Zurich; train to Lucerne</h4><h4>Day 2: Lake cruise and Mt Titlis</h4><h4>Day 3: Train to Interlaken</h4><h4>Day 4: Jungfraujoch, top of Europe</h4><h4>Day 5: Panoramic train to Zermatt</h4><h4>Day 6: Matterhorn glacier paradise</h4><h4>Day 7: Train to Zurich</h4><h4>Day 8: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Summer special"
+      },
+      {
+        "title": "Maldives & Sri Lanka twin-centre",
+        "slug": "maldives-sri-lanka",
+        "category": "maldives",
+        "location": "Colombo → Bentota → Maldives",
+        "price": 19800000,
+        "price_note": "per couple",
+        "image": "theme:images/trip-maldives-sri-lanka.svg",
+        "gallery": [
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 8,
+          "nights": 7,
+          "trip_type": "Beach",
+          "region": "International",
+          "group_size": "Beach villa",
+          "best_time": "Dec – Apr",
+          "start_city": "Chennai",
+          "flights": true,
+          "highlights": [
+            "Two countries in one trip",
+            "Beach villa with all meals in the Maldives"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Tea country and beaches in Sri Lanka, then four nights on a Maldives island.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Colombo</h4><h4>Day 2: Drive to Bentota</h4><h4>Day 3: River safari and beach day</h4><h4>Day 4: Fly to Malé; speedboat to the resort</h4><h4>Day 5: Island days</h4><h4>Day 6: Island days</h4><h4>Day 7: Snorkel trip</h4><h4>Day 8: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Bali luxury spa retreat",
+        "slug": "bali-spa-retreat",
+        "category": "bali",
+        "location": "Seminyak → Ubud",
+        "price": 16500000,
+        "price_note": "per couple",
+        "image": "theme:images/trip-bali-spa-retreat.svg",
+        "gallery": [
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Luxury",
+          "region": "International",
+          "group_size": "Pool villa",
+          "best_time": "Apr – Oct",
+          "start_city": "Delhi",
+          "flights": true,
+          "highlights": [
+            "Daily spa treatment",
+            "Private chef dinner at the villa"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "A slow, luxurious week of spa rituals, cooking classes and sunset dinners.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive; transfer to Seminyak</h4><h4>Day 2: Spa ritual and beach sunset</h4><h4>Day 3: Cooking class in Ubud</h4><h4>Day 4: Sacred Monkey Forest and art villages</h4><h4>Day 5: Free day</h4><h4>Day 6: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Andaman island honeymoon",
+        "slug": "andaman-honeymoon",
+        "category": "kerala",
+        "location": "Port Blair → Havelock",
+        "price": 7200000,
+        "price_note": "per couple",
+        "image": "theme:images/trip-andaman-honeymoon.svg",
+        "gallery": [
+          "theme:images/scene-beach.svg",
+          "theme:images/scene-island.svg",
+          "theme:images/scene-terraces.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "Beach",
+          "region": "India",
+          "group_size": "Sea-view cottage",
+          "best_time": "Oct – May",
+          "start_city": "Chennai",
+          "flights": true,
+          "highlights": [
+            "Sea-view cottage"
+          ],
+          "inclusions": [
+            "Return flights in economy class",
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Sold out for the season — new dates from October.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Port Blair</h4><h4>Day 2: Ferry to Havelock</h4><h4>Day 3: Radhanagar beach</h4><h4>Day 4: Scuba try-dive</h4><h4>Day 5: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Honeymoons, planned with love",
+            "heading": "The trip you’ll talk about for years",
+            "subheading": "Private villas, candle-lit dinners and slow mornings — honeymoons in the Maldives, Bali, Kerala and the Alps, planned around the two of you.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Private transfers everywhere"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Surprise welcome in every stay"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "24×7 WhatsApp concierge"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Where will you begin?",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Most-loved honeymoons",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All honeymoons",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Coral",
+            "heading": "Travel with people who have been there",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-heart",
+                "title": "Honeymoon planning",
+                "description": "Itineraries built around your dates, budget and the kind of couple you are."
+              },
+              {
+                "icon": "bi-gift",
+                "title": "Surprises & upgrades",
+                "description": "Flower beds, cakes and room upgrades arranged in advance."
+              },
+              {
+                "icon": "bi-passport",
+                "title": "Visas & insurance",
+                "description": "Visa paperwork and travel insurance handled for you."
+              },
+              {
+                "icon": "bi-airplane",
+                "title": "Flights",
+                "description": "The best routes and fares for your dates."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "3800",
+                "suffix": "+",
+                "label": "Honeymoons planned",
+                "icon": ""
+              },
+              {
+                "number": "26",
+                "suffix": "",
+                "label": "Destinations",
+                "icon": ""
+              },
+              {
+                "number": "13",
+                "suffix": "",
+                "label": "Years of romance",
+                "icon": ""
+              },
+              {
+                "number": "4.9",
+                "suffix": "/5",
+                "label": "Couple rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this season",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all honeymoons",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "Moments worth the journey",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-beach.svg",
+                "caption": "Palm-lined beach"
+              },
+              {
+                "image": "theme:images/scene-island.svg",
+                "caption": "Overwater villas"
+              },
+              {
+                "image": "theme:images/scene-terraces.svg",
+                "caption": "Rice terraces"
+              },
+              {
+                "image": "theme:images/scene-lake.svg",
+                "caption": "Shikara on a mountain lake"
+              },
+              {
+                "image": "theme:images/scene-backwaters.svg",
+                "caption": "Houseboat on the backwaters"
+              },
+              {
+                "image": "theme:images/scene-oldtown.svg",
+                "caption": "Old town square"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "Every detail was taken care of — the flower bed in the Maldives made my wife cry happy tears.",
+                "name": "Karan & Ishita",
+                "role": "Maldives honeymoon",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Bali was a dream. The villa in Ubud was even better than the photos.",
+                "name": "Neha & Arjun",
+                "role": "Bali honeymoon",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "They planned our tenth anniversary in Switzerland with a surprise dinner on the lake.",
+                "name": "Rohit & Pooja",
+                "role": "Swiss Alps anniversary",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning your honeymoon?",
+            "description": "Tell us your dates and dream destination. We will send two itineraries within 24 hours.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan our honeymoon",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse honeymoons",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Coral & Co. plans honeymoons and anniversary trips in India and abroad, with private stays and thoughtful surprises.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Thirteen years of honeymoons",
+            "description": "<p>Coral & Co. began in 2013 when our founder planned her own honeymoon — and her friends asked her to plan theirs.</p><p>Today we plan more than 400 honeymoons a year, each one built around the couple.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "13",
+            "experience_label": "years of honeymoons",
+            "points": [
+              {
+                "text": "Every villa personally checked"
+              },
+              {
+                "text": "Surprises included"
+              },
+              {
+                "text": "Planner on WhatsApp 24×7"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "3800",
+                "suffix": "+",
+                "label": "Honeymoons planned",
+                "icon": ""
+              },
+              {
+                "number": "26",
+                "suffix": "",
+                "label": "Destinations",
+                "icon": ""
+              },
+              {
+                "number": "13",
+                "suffix": "",
+                "label": "Years of romance",
+                "icon": ""
+              },
+              {
+                "number": "4.9",
+                "suffix": "/5",
+                "label": "Couple rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Ministry of Tourism–approved travel agent (demo).",
+            "members": [
+              {
+                "name": "Tanvi Kapoor",
+                "role": "Founder",
+                "bio": "Has planned 1,200 honeymoons and still checks every villa herself.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Aditya Rao",
+                "role": "Maldives & Sri Lanka",
+                "bio": "Knows every island resort by name.",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Sara Mehta",
+                "role": "Bali & South-East Asia",
+                "bio": "Lived in Ubud for three years.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Vikram Joshi",
+                "role": "Europe",
+                "bio": "Swiss trains and Alpine chalets.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Azure Isles Resorts",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "SkyBridge Airways",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Lotus Spa Villas",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Alpine Rail Tours",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-heart",
+                "title": "Honeymoon planning",
+                "description": "Itineraries built around your dates, budget and the kind of couple you are.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-gift",
+                "title": "Surprises & upgrades",
+                "description": "Flower beds, cakes and room upgrades arranged in advance.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-passport",
+                "title": "Visas & insurance",
+                "description": "Visa paperwork and travel insurance handled for you.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-airplane",
+                "title": "Flights",
+                "description": "The best routes and fares for your dates.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-camera",
+                "title": "Photo shoots",
+                "description": "Professional couple shoots in Bali, the Maldives and Kerala.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "24×7 concierge",
+                "description": "A planner on WhatsApp throughout your trip.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-heart",
+                "title": "Tell us about you",
+                "description": "Dates, budget and the trip you dream of."
+              },
+              {
+                "icon": "bi-map",
+                "title": "Choose your plan",
+                "description": "Two or three itineraries with real hotel photos."
+              },
+              {
+                "icon": "bi-credit-card",
+                "title": "Book with 25%",
+                "description": "Pay the rest 30 days before you fly."
+              },
+              {
+                "icon": "bi-suitcase",
+                "title": "Fly away",
+                "description": "Documents, transfers and surprises all ready."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "How early should we book?",
+                "answer": "Three to four months before the wedding is ideal for the Maldives and Bali; Kerala can be booked a month ahead."
+              },
+              {
+                "question": "Can you add our own ideas?",
+                "answer": "Of course. Every honeymoon is customised — add a day, swap a hotel or plan a proposal."
+              },
+              {
+                "question": "Do you help with visas?",
+                "answer": "Yes, we prepare the paperwork for every destination that needs a visa."
+              },
+              {
+                "question": "What if our dates change?",
+                "answer": "Free date changes up to 45 days before travel, subject to hotel and airline rules."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning your honeymoon?",
+            "description": "Tell us your dates and dream destination. We will send two itineraries within 24 hours.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan our honeymoon",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse honeymoons",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Coral & Co. Honeymoons collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

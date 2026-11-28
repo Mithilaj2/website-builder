@@ -1,0 +1,988 @@
+{
+  "settings": {
+    "site": {
+      "name": "Summit Trails",
+      "tagline": "Himalayan treks & adventures · Dehradun",
+      "phone": "+91 135 271 4400",
+      "email": "treks@summittrails.example",
+      "address": "Summit House, Rajpur Road\nDehradun, Uttarakhand 248001",
+      "hours": "Mon–Sat, 9 am – 6 pm",
+      "footer_about": "Summit Trails runs small-group treks and adventure trips across the Indian Himalayas, led by certified mountain guides.",
+      "footer_text": "All rights reserved. Registered with the state tourism board; certified trek leaders (demo).",
+      "header_button": {
+        "text": "Find a trek",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Summit Trails: Summit Trails runs small-group treks and adventure trips across the Indian Himalayas, led by certified mountain guides.",
+      "keywords": "treks, himalayan treks & adventures · dehradun, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Uttarakhand",
+        "slug": "uttarakhand",
+        "description": "Meadows, glaciers and the Garhwal peaks.",
+        "image": "theme:images/dest-uttarakhand.svg"
+      },
+      {
+        "name": "Himachal",
+        "slug": "himachal",
+        "description": "Pine valleys, high passes and starry camps.",
+        "image": "theme:images/dest-himachal.svg"
+      },
+      {
+        "name": "Ladakh",
+        "slug": "ladakh",
+        "description": "Frozen rivers, monasteries and high deserts.",
+        "image": "theme:images/dest-ladakh.svg"
+      },
+      {
+        "name": "Sikkim",
+        "slug": "sikkim",
+        "description": "Rhododendron forests and Kanchenjunga views.",
+        "image": "theme:images/dest-sikkim.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Kedarkantha winter trek",
+        "slug": "kedarkantha",
+        "category": "uttarakhand",
+        "location": "Dehradun → Sankri → Kedarkantha",
+        "price": 1150000,
+        "price_note": "per person",
+        "image": "theme:images/trip-kedarkantha.svg",
+        "gallery": [
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-monastery.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Easy",
+          "region": "Uttarakhand",
+          "group_size": "Max 12",
+          "best_time": "Dec – Apr",
+          "start_city": "Dehradun",
+          "flights": false,
+          "highlights": [
+            "Summit at 12,500 ft",
+            "Camping by a frozen lake",
+            "Snow trails through pine forests"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "The classic first snow trek: pine forests, a frozen lake camp and a summit at 12,500 ft.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Dehradun to Sankri</h4><h4>Day 2: Trek to Juda ka Talab</h4><h4>Day 3: Kedarkantha base</h4><h4>Day 4: Summit and descend to Hargaon</h4><h4>Day 5: Trek back to Sankri</h4><h4>Day 6: Drive to Dehradun</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Bestseller"
+      },
+      {
+        "title": "Valley of Flowers & Hemkund",
+        "slug": "valley-of-flowers",
+        "category": "uttarakhand",
+        "location": "Rishikesh → Govindghat → Ghangaria",
+        "price": 1390000,
+        "price_note": "per person",
+        "image": "theme:images/trip-valley-of-flowers.svg",
+        "gallery": [
+          "theme:images/scene-waterfall.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 6,
+          "nights": 5,
+          "trip_type": "Moderate",
+          "region": "Uttarakhand",
+          "group_size": "Max 12",
+          "best_time": "Jul – Sep",
+          "start_city": "Rishikesh",
+          "flights": false,
+          "highlights": [
+            "Over 300 species of wildflowers",
+            "Glacial lake at 14,100 ft"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "A UNESCO valley carpeted in wildflowers during the monsoon, and the glacial lake of Hemkund.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Rishikesh to Joshimath</h4><h4>Day 2: Trek to Ghangaria</h4><h4>Day 3: Valley of Flowers</h4><h4>Day 4: Hemkund Sahib</h4><h4>Day 5: Trek down; drive to Joshimath</h4><h4>Day 6: Drive to Rishikesh</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Monsoon only"
+      },
+      {
+        "title": "Hampta Pass crossover",
+        "slug": "hampta-pass",
+        "category": "himachal",
+        "location": "Manali → Hampta Pass → Chandratal",
+        "price": 1280000,
+        "price_note": "per person",
+        "image": "theme:images/trip-hampta-pass.svg",
+        "gallery": [
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-monastery.svg"
+        ],
+        "attributes": {
+          "duration": 5,
+          "nights": 4,
+          "trip_type": "Moderate",
+          "region": "Himachal",
+          "group_size": "Max 12",
+          "best_time": "Jun – Sep",
+          "start_city": "Manali",
+          "flights": false,
+          "highlights": [
+            "Two landscapes in five days",
+            "Chandratal lake camp"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Cross from green Kullu to the stark Spiti valley, ending at the moon lake of Chandratal.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Manali to Jobra; trek to Chika</h4><h4>Day 2: Trek to Balu ka Ghera</h4><h4>Day 3: Cross Hampta Pass</h4><h4>Day 4: Shea Goru to Chatru; drive to Chandratal</h4><h4>Day 5: Drive back to Manali</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Chadar frozen river trek",
+        "slug": "chadar-trek",
+        "category": "ladakh",
+        "location": "Leh → Zanskar river",
+        "price": 3250000,
+        "price_note": "per person",
+        "image": "theme:images/trip-chadar-trek.svg",
+        "gallery": [
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 9,
+          "nights": 8,
+          "trip_type": "Difficult",
+          "region": "Ladakh",
+          "group_size": "Max 10",
+          "best_time": "Jan – Feb",
+          "start_city": "Leh",
+          "flights": false,
+          "highlights": [
+            "Frozen Nerak waterfall",
+            "Cave camps along the river"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Walk on the frozen Zanskar river between towering canyon walls — a once-in-a-lifetime winter trek.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Leh</h4><h4>Day 2: Acclimatise in Leh</h4><h4>Day 3: Medical check and permits</h4><h4>Day 4: Drive to Shingra Koma; walk on the Chadar</h4><h4>Day 5: Trek to Tibb cave</h4><h4>Day 6: Trek to Nerak waterfall</h4><h4>Day 7: Return to Tibb</h4><h4>Day 8: Return to Shingra Koma; drive to Leh</h4><h4>Day 9: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Winter expedition"
+      },
+      {
+        "title": "Goechala trek",
+        "slug": "goechala",
+        "category": "sikkim",
+        "location": "Yuksom → Dzongri → Goechala",
+        "price": 2150000,
+        "price_note": "per person",
+        "image": "theme:images/trip-goechala.svg",
+        "gallery": [
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-monastery.svg"
+        ],
+        "attributes": {
+          "duration": 10,
+          "nights": 9,
+          "trip_type": "Difficult",
+          "region": "Sikkim",
+          "group_size": "Max 12",
+          "best_time": "Apr – May, Oct – Nov",
+          "start_city": "Bagdogra",
+          "flights": false,
+          "highlights": [
+            "Close-up of Kanchenjunga",
+            "Rhododendron forests in spring"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Sunrise on Kanchenjunga from Goechala, through rhododendron forests and the Samiti lake.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Bagdogra to Yuksom</h4><h4>Day 2: Trek to Sachen</h4><h4>Day 3: Trek to Tshoka</h4><h4>Day 4: Trek to Dzongri</h4><h4>Day 5: Acclimatisation day</h4><h4>Day 6: Trek to Thansing</h4><h4>Day 7: Trek to Lamuney</h4><h4>Day 8: Goechala view point; back to Kokchurang</h4><h4>Day 9: Trek to Yuksom</h4><h4>Day 10: Drive to Bagdogra</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Markha valley trek",
+        "slug": "markha-valley",
+        "category": "ladakh",
+        "location": "Leh → Chilling → Markha → Hemis",
+        "price": 2490000,
+        "price_note": "per person",
+        "image": "theme:images/trip-markha-valley.svg",
+        "gallery": [
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 8,
+          "nights": 7,
+          "trip_type": "Moderate",
+          "region": "Ladakh",
+          "group_size": "Max 12",
+          "best_time": "Jun – Sep",
+          "start_city": "Leh",
+          "flights": false,
+          "highlights": [
+            "Homestays in Ladakhi villages",
+            "Kongmaru La at 17,060 ft"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Villages, monasteries and river crossings in the Hemis National Park.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Leh</h4><h4>Day 2: Acclimatise</h4><h4>Day 3: Drive to Chilling; trek to Skiu</h4><h4>Day 4: Trek to Markha</h4><h4>Day 5: Trek to Hankar</h4><h4>Day 6: Cross Kongmaru La</h4><h4>Day 7: Trek to Shang Sumdo; drive to Leh</h4><h4>Day 8: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Roopkund trek",
+        "slug": "roopkund",
+        "category": "uttarakhand",
+        "location": "Kathgodam → Lohajung → Roopkund",
+        "price": 1650000,
+        "price_note": "per person",
+        "image": "theme:images/trip-roopkund.svg",
+        "gallery": [
+          "theme:images/scene-mountains.svg",
+          "theme:images/scene-camp.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-monastery.svg"
+        ],
+        "attributes": {
+          "duration": 8,
+          "nights": 7,
+          "trip_type": "Difficult",
+          "region": "Uttarakhand",
+          "group_size": "Max 12",
+          "best_time": "May – Jun",
+          "start_city": "Kathgodam",
+          "flights": false,
+          "highlights": [
+            "Mystery lake at 16,000 ft"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "All batches for this season are full — join the waiting list for next year.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Kathgodam to Lohajung</h4><h4>Day 2: Didna</h4><h4>Day 3: Ali Bugyal</h4><h4>Day 4: Patar Nachauni</h4><h4>Day 5: Bhagwabasa</h4><h4>Day 6: Roopkund and back</h4><h4>Day 7: Lohajung</h4><h4>Day 8: Kathgodam</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Small groups · certified trek leaders",
+            "heading": "Walk into the high Himalaya",
+            "subheading": "Fixed-departure treks from easy meadows to high passes, with expert leaders, safe gear and a ratio of one leader to eight trekkers.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Certified leaders and first aid"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Batches of 12 or fewer"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "Gear on rent at base camp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Choose your mountains",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Upcoming batches",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All treks",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Summit",
+            "heading": "Safe, small and expert-led",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-person-badge",
+                "title": "Certified leaders",
+                "description": "Mountaineering-trained leaders with wilderness first-aid certification."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Small batches",
+                "description": "Never more than 12 trekkers, with one leader to every eight."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Safety first",
+                "description": "Oxygen, oximeters and evacuation plans on every high-altitude trek."
+              },
+              {
+                "icon": "bi-backpack",
+                "title": "Gear on rent",
+                "description": "Jackets, shoes and poles available at base camp."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "28000",
+                "suffix": "+",
+                "label": "Trekkers led",
+                "icon": ""
+              },
+              {
+                "number": "45",
+                "suffix": "",
+                "label": "Himalayan routes",
+                "icon": ""
+              },
+              {
+                "number": "16",
+                "suffix": "",
+                "label": "Years in the mountains",
+                "icon": ""
+              },
+              {
+                "number": "1:8",
+                "suffix": "",
+                "label": "Leader-to-trekker ratio",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this season",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all treks",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "From the trail",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-mountains.svg",
+                "caption": "Snow peaks and pine valley"
+              },
+              {
+                "image": "theme:images/scene-camp.svg",
+                "caption": "Camping under the stars"
+              },
+              {
+                "image": "theme:images/scene-lake.svg",
+                "caption": "Shikara on a mountain lake"
+              },
+              {
+                "image": "theme:images/scene-monastery.svg",
+                "caption": "Mountain monastery"
+              },
+              {
+                "image": "theme:images/scene-waterfall.svg",
+                "caption": "Waterfall in the forest"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "Kedarkantha was my first trek. The leaders made sure everyone reached the summit at their own pace.",
+                "name": "Ananya Sharma",
+                "role": "Kedarkantha, December",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The Chadar trek was the hardest and most beautiful thing I have done. Superb safety planning.",
+                "name": "Rahul Negi",
+                "role": "Chadar, January",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Small group, great food, zero litter left behind. Booking my third trek with them.",
+                "name": "Divya Menon",
+                "role": "Hampta Pass, August",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your first summit is closer than you think",
+            "description": "Join a batch this season — we will send a fitness plan as soon as you book.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to a trek leader",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse treks",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Summit Trails runs small-group treks and adventure trips across the Indian Himalayas, led by certified mountain guides.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Sixteen years on the trail",
+            "description": "<p>Summit Trails started in 2010 with one route and a borrowed tent. Today we lead more than 3,000 trekkers a year on 45 routes.</p><p>Our leaders grew up in these mountains, and they bring everyone home safely.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "16",
+            "experience_label": "years on the trail",
+            "points": [
+              {
+                "text": "Local, certified leaders"
+              },
+              {
+                "text": "Batches of 12 or fewer"
+              },
+              {
+                "text": "Leave-no-trace treks"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "28000",
+                "suffix": "+",
+                "label": "Trekkers led",
+                "icon": ""
+              },
+              {
+                "number": "45",
+                "suffix": "",
+                "label": "Himalayan routes",
+                "icon": ""
+              },
+              {
+                "number": "16",
+                "suffix": "",
+                "label": "Years in the mountains",
+                "icon": ""
+              },
+              {
+                "number": "1:8",
+                "suffix": "",
+                "label": "Leader-to-trekker ratio",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Registered with the state tourism board; certified trek leaders (demo).",
+            "members": [
+              {
+                "name": "Manish Rawat",
+                "role": "Founder & lead guide",
+                "bio": "20 years in the Garhwal Himalaya; basic and advanced mountaineering courses.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Pema Lhamo",
+                "role": "Ladakh & Sikkim",
+                "bio": "Leads the Chadar and Goechala treks.",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Arjun Bisht",
+                "role": "Safety officer",
+                "bio": "Wilderness first responder and rescue trainer.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Kavya Iyer",
+                "role": "Trekker support",
+                "bio": "Fitness plans and pre-trek briefings.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Peak Gear Co.",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Himal Outfitters",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Trailhead Insurance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "High Camp Foods",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-person-badge",
+                "title": "Certified leaders",
+                "description": "Mountaineering-trained leaders with wilderness first-aid certification.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-people",
+                "title": "Small batches",
+                "description": "Never more than 12 trekkers, with one leader to every eight.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Safety first",
+                "description": "Oxygen, oximeters and evacuation plans on every high-altitude trek.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-backpack",
+                "title": "Gear on rent",
+                "description": "Jackets, shoes and poles available at base camp.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Leave no trace",
+                "description": "We carry all waste back down and run clean-up treks every season.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-calendar-check",
+                "title": "Fixed departures",
+                "description": "Weekly batches from December to November.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-search",
+                "title": "Pick a trek",
+                "description": "Choose by difficulty, region and season."
+              },
+              {
+                "icon": "bi-activity",
+                "title": "Get trek-fit",
+                "description": "A fitness plan from our team six weeks before."
+              },
+              {
+                "icon": "bi-backpack",
+                "title": "Pack right",
+                "description": "A checklist and gear on rent at base camp."
+              },
+              {
+                "icon": "bi-flag",
+                "title": "Summit",
+                "description": "Walk with a leader who has done it a hundred times."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "I have never trekked. Where should I start?",
+                "answer": "Kedarkantha or Valley of Flowers are perfect first treks; we will share a six-week fitness plan."
+              },
+              {
+                "question": "What is included in the fee?",
+                "answer": "Stays, all meals on the trek, permits, leaders, cooks, tents and safety equipment."
+              },
+              {
+                "question": "What if the weather turns?",
+                "answer": "Our leaders decide on the spot; safety always comes before the summit. Unused days are not refunded but you can join another batch at 50%."
+              },
+              {
+                "question": "Can I rent gear?",
+                "answer": "Yes — jackets, trekking shoes, poles and backpacks at base camp."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Your first summit is closer than you think",
+            "description": "Join a batch this season — we will send a fitness plan as soon as you book.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to a trek leader",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse treks",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Summit Trails collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

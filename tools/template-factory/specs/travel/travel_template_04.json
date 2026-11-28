@@ -1,0 +1,65 @@
+{
+  "id": "travel_template_04",
+  "name": "Yatra Seva Tours",
+  "prefix": "yst",
+  "niche": "pilgrimage",
+  "seed": 4,
+  "direction": "Devotional and warm: info bar header, split hero over a temple at dawn, saffron and maroon on ivory, Lora serif headings, hairline classic cards, image circuit tiles.",
+  "description": "A warm, devotional design for pilgrimage and senior-friendly tour operators: info bar with phone, a split hero with a yatra search, circuit tiles, cards with the price and a details button, and care services.",
+  "theme": {
+    "primary": "#7A1F2B",
+    "secondary": "#F29F05",
+    "bg": "#FFFBF2",
+    "text": "#2B1B14",
+    "heading_font": "lora",
+    "body_font": "open-sans",
+    "radius": "10px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "split",
+    "banner": "solid",
+    "head": "serif",
+    "card": "line",
+    "listing-card": "classic",
+    "listing_categories": "tiles",
+    "about": "layered",
+    "services": "rows",
+    "stats": "cards",
+    "process": "cards",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "boxed",
+    "footer": "band"
+  },
+  "surface": [
+    "testimonials",
+    "process"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "0",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "featured_heading": "Popular yatras",
+    "header_button": "Book a yatra",
+    "cta_button": "Plan our yatra",
+    "types_heading": "Choose your yatra",
+    "features_heading": "Cared for at every step",
+    "gallery_heading": "Moments of devotion"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

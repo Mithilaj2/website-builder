@@ -1,0 +1,60 @@
+{
+  "id": "travel_template_05",
+  "name": "Wanderwise Group Tours",
+  "prefix": "wwg",
+  "niche": "groups",
+  "seed": 5,
+  "direction": "Cheerful and worldly: floating pill navigation, centred hero over an old-town square, sky blue and tangerine, Poppins, shadowed price-on-photo cards, destination cards.",
+  "description": "A cheerful, worldly design for group-tour operators: floating navigation, a centred hero with a tour search, destination cards, cards with the price on the photo, and visa and meal services.",
+  "theme": {
+    "primary": "#1E6FD9",
+    "secondary": "#FF8A3D",
+    "bg": "#FFFFFF",
+    "text": "#14213D",
+    "heading_font": "poppins",
+    "body_font": "inter",
+    "radius": "18px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "stack",
+    "banner": "light",
+    "head": "pill",
+    "card": "shadow",
+    "listing-card": "photo",
+    "listing_categories": "cards",
+    "about": "grid",
+    "services": "cards",
+    "stats": "inline",
+    "process": "cards",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "50%",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "featured_heading": "Departures filling fast",
+    "header_button": "Reserve seats",
+    "cta_button": "Reserve seats",
+    "types_heading": "Pick a part of the world"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

@@ -1,0 +1,987 @@
+{
+  "settings": {
+    "site": {
+      "name": "Highway Nomads",
+      "tagline": "Road trips & motorcycle tours · Chandigarh",
+      "phone": "+91 172 270 5500",
+      "email": "ride@highwaynomads.example",
+      "address": "SCO 42, Sector 26\nChandigarh 160019",
+      "hours": "Mon–Sat, 10 am – 7 pm",
+      "footer_about": "Highway Nomads runs motorcycle tours and self-drive road trips to Ladakh, Spiti, the North-east and Bhutan.",
+      "footer_text": "All rights reserved. Registered adventure tour operator (demo).",
+      "header_button": {
+        "text": "Book a ride",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Highway Nomads: Highway Nomads runs motorcycle tours and self-drive road trips to Ladakh, Spiti, the North-east and Bhutan.",
+      "keywords": "rides, road trips & motorcycle tours · chandigarh, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Ladakh",
+        "slug": "ladakh",
+        "description": "Khardung La, Pangong and Nubra.",
+        "image": "theme:images/dest-ladakh.svg"
+      },
+      {
+        "name": "Spiti",
+        "slug": "spiti",
+        "description": "Kunzum La, Chandratal and cliffside villages.",
+        "image": "theme:images/dest-spiti.svg"
+      },
+      {
+        "name": "North-east",
+        "slug": "north-east",
+        "description": "Meghalaya, Arunachal and Sikkim.",
+        "image": "theme:images/dest-north-east.svg"
+      },
+      {
+        "name": "Bhutan",
+        "slug": "bhutan",
+        "description": "Dzongs, passes and Paro valley.",
+        "image": "theme:images/dest-bhutan.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Manali–Leh–Srinagar ride",
+        "slug": "manali-leh-srinagar",
+        "category": "ladakh",
+        "location": "Manali → Leh → Nubra → Pangong → Srinagar",
+        "price": 5450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-manali-leh-srinagar.svg",
+        "gallery": [
+          "theme:images/scene-road.svg",
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-camp.svg"
+        ],
+        "attributes": {
+          "duration": 12,
+          "nights": 11,
+          "trip_type": "Motorcycle tour",
+          "region": "Ladakh",
+          "group_size": "Max 15 bikes",
+          "best_time": "Jun – Sep",
+          "start_city": "Manali",
+          "flights": false,
+          "highlights": [
+            "Khardung La and Chang La",
+            "Pangong lake camp"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "The great Himalayan crossing over five high passes, with a backup vehicle and a mechanic.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Manali</h4><h4>Day 2: Ride to Jispa</h4><h4>Day 3: Ride to Sarchu</h4><h4>Day 4: Ride to Leh over Baralacha La</h4><h4>Day 5: Rest in Leh</h4><h4>Day 6: Khardung La to Nubra</h4><h4>Day 7: Nubra to Pangong</h4><h4>Day 8: Pangong to Leh</h4><h4>Day 9: Leh to Kargil</h4><h4>Day 10: Kargil to Sonmarg</h4><h4>Day 11: Srinagar</h4><h4>Day 12: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Bestseller"
+      },
+      {
+        "title": "Spiti valley circuit",
+        "slug": "spiti-circuit",
+        "category": "spiti",
+        "location": "Shimla → Kaza → Chandratal → Manali",
+        "price": 3850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-spiti-circuit.svg",
+        "gallery": [
+          "theme:images/scene-road.svg",
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-camp.svg"
+        ],
+        "attributes": {
+          "duration": 9,
+          "nights": 8,
+          "trip_type": "Motorcycle tour",
+          "region": "Spiti",
+          "group_size": "Max 15 bikes",
+          "best_time": "Jun – Oct",
+          "start_city": "Shimla",
+          "flights": false,
+          "highlights": [
+            "Key monastery",
+            "Chandratal camp"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Cliff roads, ancient monasteries and the moon lake of Chandratal.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Shimla</h4><h4>Day 2: Ride to Sangla</h4><h4>Day 3: Chitkul and Kalpa</h4><h4>Day 4: Ride to Tabo</h4><h4>Day 5: Ride to Kaza</h4><h4>Day 6: Key, Kibber and Langza</h4><h4>Day 7: Kunzum La to Chandratal</h4><h4>Day 8: Ride to Manali</h4><h4>Day 9: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Leh–Ladakh SUV road trip",
+        "slug": "ladakh-suv",
+        "category": "ladakh",
+        "location": "Leh → Nubra → Pangong → Tso Moriri",
+        "price": 4200000,
+        "price_note": "per person",
+        "image": "theme:images/trip-ladakh-suv.svg",
+        "gallery": [
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-road.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-camp.svg"
+        ],
+        "attributes": {
+          "duration": 8,
+          "nights": 7,
+          "trip_type": "SUV road trip",
+          "region": "Ladakh",
+          "group_size": "Private SUV",
+          "best_time": "May – Sep",
+          "start_city": "Leh",
+          "flights": false,
+          "highlights": [
+            "Three high lakes",
+            "Private SUV"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "All of Ladakh’s highlights in a private SUV with a local driver — no riding needed.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Leh</h4><h4>Day 2: Acclimatise</h4><h4>Day 3: Monasteries of Leh</h4><h4>Day 4: Nubra over Khardung La</h4><h4>Day 5: Pangong</h4><h4>Day 6: Tso Moriri</h4><h4>Day 7: Return to Leh</h4><h4>Day 8: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "No riding needed"
+      },
+      {
+        "title": "Meghalaya & Kaziranga road trip",
+        "slug": "meghalaya-road-trip",
+        "category": "north-east",
+        "location": "Guwahati → Shillong → Cherrapunji → Kaziranga",
+        "price": 3650000,
+        "price_note": "per person",
+        "image": "theme:images/trip-meghalaya-road-trip.svg",
+        "gallery": [
+          "theme:images/scene-waterfall.svg",
+          "theme:images/scene-road.svg",
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 8,
+          "nights": 7,
+          "trip_type": "SUV road trip",
+          "region": "North-east",
+          "group_size": "Private SUV",
+          "best_time": "Oct – May",
+          "start_city": "Guwahati",
+          "flights": false,
+          "highlights": [
+            "Living-root bridges",
+            "Crystal-clear Dawki river"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Living-root bridges, waterfalls, the cleanest village in Asia and Kaziranga’s rhinos.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Guwahati to Shillong</h4><h4>Day 2: Cherrapunji waterfalls</h4><h4>Day 3: Double-decker root bridge trek</h4><h4>Day 4: Mawlynnong and Dawki</h4><h4>Day 5: Shillong</h4><h4>Day 6: Drive to Kaziranga</h4><h4>Day 7: Safaris</h4><h4>Day 8: Guwahati</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Bhutan motorcycle tour",
+        "slug": "bhutan-motorcycle",
+        "category": "bhutan",
+        "location": "Phuentsholing → Thimphu → Punakha → Paro",
+        "price": 6450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-bhutan-motorcycle.svg",
+        "gallery": [
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-road.svg",
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-camp.svg"
+        ],
+        "attributes": {
+          "duration": 9,
+          "nights": 8,
+          "trip_type": "Motorcycle tour",
+          "region": "Bhutan",
+          "group_size": "Max 12 bikes",
+          "best_time": "Mar – May, Sep – Nov",
+          "start_city": "Bagdogra",
+          "flights": false,
+          "highlights": [
+            "Tiger’s Nest hike",
+            "Dochula pass"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Ride the Land of the Thunder Dragon — dzongs, high passes and the Tiger’s Nest hike.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Bagdogra to Phuentsholing</h4><h4>Day 2: Ride to Thimphu</h4><h4>Day 3: Thimphu</h4><h4>Day 4: Dochula pass to Punakha</h4><h4>Day 5: Punakha dzong</h4><h4>Day 6: Ride to Paro</h4><h4>Day 7: Tiger’s Nest hike</h4><h4>Day 8: Ride to Phuentsholing</h4><h4>Day 9: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Women riders: Spiti",
+        "slug": "women-riders-spiti",
+        "category": "spiti",
+        "location": "Manali → Kaza → Manali",
+        "price": 3450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-women-riders-spiti.svg",
+        "gallery": [
+          "theme:images/scene-road.svg",
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-camp.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Women riders",
+          "region": "Spiti",
+          "group_size": "Max 12 bikes",
+          "best_time": "Jul – Sep",
+          "start_city": "Manali",
+          "flights": false,
+          "highlights": [
+            "Woman ride captain",
+            "Riding workshop before the trip"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "A Spiti ride for women, led by a woman ride captain.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Manali</h4><h4>Day 2: Ride to Chandratal</h4><h4>Day 3: Ride to Kaza</h4><h4>Day 4: Villages of Spiti</h4><h4>Day 5: Ride to Chandratal</h4><h4>Day 6: Ride to Manali</h4><h4>Day 7: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Women only"
+      },
+      {
+        "title": "Zanskar expedition",
+        "slug": "zanskar-expedition",
+        "category": "ladakh",
+        "location": "Kargil → Padum → Shinku La",
+        "price": 7200000,
+        "price_note": "per person",
+        "image": "theme:images/trip-zanskar-expedition.svg",
+        "gallery": [
+          "theme:images/scene-monastery.svg",
+          "theme:images/scene-road.svg",
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-camp.svg"
+        ],
+        "attributes": {
+          "duration": 11,
+          "nights": 10,
+          "trip_type": "Motorcycle tour",
+          "region": "Ladakh",
+          "group_size": "Max 10 bikes",
+          "best_time": "Jul – Aug",
+          "start_city": "Leh",
+          "flights": false,
+          "highlights": [
+            "Remote Zanskar valley"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "This year’s expedition is full — join the waiting list.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Leh</h4><h4>Day 2: Kargil</h4><h4>Day 3: Rangdum</h4><h4>Day 4: Padum</h4><h4>Day 5: Phugtal</h4><h4>Day 6: Padum</h4><h4>Day 7: Shinku La</h4><h4>Day 8: Darcha</h4><h4>Day 9: Jispa</h4><h4>Day 10: Manali</h4><h4>Day 11: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Ladakh · Spiti · North-east · Bhutan",
+            "heading": "The road is the destination",
+            "subheading": "Guided motorcycle tours and self-drive road trips over the world’s highest passes — with a backup vehicle, a mechanic and a ride captain.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Backup vehicle and mechanic"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Royal-style touring bikes on rent"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "Oxygen and first aid on every ride"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Pick your roads",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Rides this summer",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All rides",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Highway",
+            "heading": "Ride with a crew behind you",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-bicycle",
+                "title": "Bikes on rent",
+                "description": "Well-maintained touring motorcycles, serviced before every ride."
+              },
+              {
+                "icon": "bi-truck",
+                "title": "Backup vehicle",
+                "description": "Luggage, spares and a seat for when you need a break."
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Mechanic on tour",
+                "description": "A mechanic rides with every group."
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Safety kit",
+                "description": "Oxygen, oximeters and first aid on every ride."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "9600",
+                "suffix": "+",
+                "label": "Riders",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Rides a year",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Years on the road",
+                "icon": ""
+              },
+              {
+                "number": "18,380",
+                "suffix": " ft",
+                "label": "Highest pass ridden",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this season",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all rides",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "Life on the road",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-road.svg",
+                "caption": "Motorbike on a mountain road"
+              },
+              {
+                "image": "theme:images/scene-monastery.svg",
+                "caption": "Mountain monastery"
+              },
+              {
+                "image": "theme:images/scene-lake.svg",
+                "caption": "Shikara on a mountain lake"
+              },
+              {
+                "image": "theme:images/scene-camp.svg",
+                "caption": "Camping under the stars"
+              },
+              {
+                "image": "theme:images/scene-waterfall.svg",
+                "caption": "Waterfall in the forest"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "Twelve days, five passes and not a single worry — the backup team was brilliant.",
+                "name": "Gurpreet Singh",
+                "role": "Manali–Leh–Srinagar",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "I rode Spiti with twelve amazing women. Life changing.",
+                "name": "Nidhi Verma",
+                "role": "Women riders: Spiti",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The SUV trip was perfect for my parents; they saw everything without riding.",
+                "name": "Akash Mehta",
+                "role": "Leh–Ladakh SUV road trip",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "The passes open in June",
+            "description": "Book your seat now — Ladakh departures fill up by March.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Book my seat",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse rides",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Highway Nomads runs motorcycle tours and self-drive road trips to Ladakh, Spiti, the North-east and Bhutan.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Twelve years on the highest roads",
+            "description": "<p>Highway Nomads started in 2014 when four friends rode to Ladakh and came back with a plan.</p><p>Today we run 120 rides a year, with a backup vehicle, a mechanic and a captain on every one.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "12",
+            "experience_label": "years on the road",
+            "points": [
+              {
+                "text": "Backup vehicle and mechanic"
+              },
+              {
+                "text": "Safety kit on every ride"
+              },
+              {
+                "text": "Women-only rides"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "9600",
+                "suffix": "+",
+                "label": "Riders",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Rides a year",
+                "icon": ""
+              },
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Years on the road",
+                "icon": ""
+              },
+              {
+                "number": "18,380",
+                "suffix": " ft",
+                "label": "Highest pass ridden",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Registered adventure tour operator (demo).",
+            "members": [
+              {
+                "name": "Harpreet Gill",
+                "role": "Founder & ride captain",
+                "bio": "Has ridden to Ladakh 60 times.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Tsering Dorje",
+                "role": "Ladakh lead",
+                "bio": "Grew up in Leh.",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Simran Kaur",
+                "role": "Women riders lead",
+                "bio": "Leads the women-only rides.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Bablu Thakur",
+                "role": "Chief mechanic",
+                "bio": "Can fix anything at 18,000 ft.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Torque Touring Bikes",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "RideSafe Gear",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Mountain Fuel Stops",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Highline Insurance",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-bicycle",
+                "title": "Bikes on rent",
+                "description": "Well-maintained touring motorcycles, serviced before every ride.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-truck",
+                "title": "Backup vehicle",
+                "description": "Luggage, spares and a seat for when you need a break.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Mechanic on tour",
+                "description": "A mechanic rides with every group.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-heart-pulse",
+                "title": "Safety kit",
+                "description": "Oxygen, oximeters and first aid on every ride.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-car-front",
+                "title": "Self-drive SUVs",
+                "description": "SUVs with local drivers for families.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-gender-female",
+                "title": "Women riders",
+                "description": "Women-only rides with women ride captains.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-signpost",
+                "title": "Pick a route",
+                "description": "Choose by region, days and riding style."
+              },
+              {
+                "icon": "bi-bicycle",
+                "title": "Choose a bike",
+                "description": "Bring your own or rent ours."
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Briefing",
+                "description": "Route, safety and riding briefing the night before."
+              },
+              {
+                "icon": "bi-flag",
+                "title": "Ride",
+                "description": "Ride with a captain, a backup vehicle and a mechanic."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "Do I need to be an experienced rider?",
+                "answer": "You should be comfortable riding 200 km a day; we hold a short riding check before high-altitude rides."
+              },
+              {
+                "question": "Can I bring my own bike?",
+                "answer": "Yes — we will transport it to the start point if needed."
+              },
+              {
+                "question": "What about altitude sickness?",
+                "answer": "Our routes include acclimatisation days, and we carry oxygen and oximeters."
+              },
+              {
+                "question": "Can a pillion join?",
+                "answer": "Yes, pillions get a discount; they can also travel in the backup vehicle."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "The passes open in June",
+            "description": "Book your seat now — Ladakh departures fill up by March.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Book my seat",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse rides",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Highway Nomads collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

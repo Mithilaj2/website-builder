@@ -1,0 +1,64 @@
+{
+  "id": "travel_template_09",
+  "name": "Island Hop Holidays",
+  "prefix": "ihp",
+  "niche": "islands",
+  "seed": 9,
+  "direction": "Sunny and breezy: floating pill navigation, split hero over a palm-lined beach, turquoise and sunshine on sand, Jost, soft price-on-photo cards, destination cards and a turquoise band.",
+  "description": "A sunny, breezy design for beach and island holiday planners: floating navigation, a split hero with a holiday search, island cards, cards with the price on the photo and a turquoise call-to-action band.",
+  "theme": {
+    "primary": "#0E8FA8",
+    "secondary": "#FFC845",
+    "bg": "#FFFCF5",
+    "text": "#0F2A33",
+    "heading_font": "jost",
+    "body_font": "plus-jakarta-sans",
+    "radius": "24px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "split",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "listing-card": "photo",
+    "listing_categories": "cards",
+    "about": "grid",
+    "services": "cards",
+    "stats": "cards",
+    "process": "cards",
+    "testimonials": "cards",
+    "cta": "band",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "band"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "card": "#FFFFFF",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "featured_heading": "Holidays in the sun",
+    "header_button": "Plan my holiday",
+    "cta_button": "Plan my holiday",
+    "types_heading": "Pick your island"
+  },
+  "category": "travel",
+  "version": "1.0.0"
+}

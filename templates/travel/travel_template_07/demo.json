@@ -1,0 +1,983 @@
+{
+  "settings": {
+    "site": {
+      "name": "Royal Routes Rajasthan",
+      "tagline": "Heritage tours of Rajasthan · Jaipur",
+      "phone": "+91 141 237 9900",
+      "email": "travel@royalroutes.example",
+      "address": "Haveli No. 14, near Hawa Mahal\nJaipur, Rajasthan 302002",
+      "hours": "Mon–Sun, 9 am – 8 pm",
+      "footer_about": "Royal Routes designs private tours of Rajasthan’s palaces, forts and deserts, with heritage hotels and chauffeur-driven cars.",
+      "footer_text": "All rights reserved. Approved by the state tourism department (demo).",
+      "header_button": {
+        "text": "Design my tour",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Royal Routes Rajasthan: Royal Routes designs private tours of Rajasthan’s palaces, forts and deserts, with heritage hotels and chauffeur-driven cars.",
+      "keywords": "tours, heritage tours of rajasthan · jaipur, tour packages"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Classic Rajasthan",
+        "slug": "classic",
+        "description": "Jaipur, Jodhpur, Udaipur and the forts in between.",
+        "image": "theme:images/dest-classic.svg"
+      },
+      {
+        "name": "Thar desert",
+        "slug": "desert",
+        "description": "Jaisalmer, dunes and luxury desert camps.",
+        "image": "theme:images/dest-desert.svg"
+      },
+      {
+        "name": "Golden Triangle",
+        "slug": "golden-triangle",
+        "description": "Delhi, Agra and Jaipur.",
+        "image": "theme:images/dest-golden-triangle.svg"
+      },
+      {
+        "name": "Lakes & palaces",
+        "slug": "lakes",
+        "description": "Udaipur, Mount Abu and Pushkar.",
+        "image": "theme:images/dest-lakes.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Grand Rajasthan tour",
+        "slug": "grand-rajasthan",
+        "category": "classic",
+        "location": "Jaipur → Jodhpur → Jaisalmer → Udaipur",
+        "price": 6850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-grand-rajasthan.svg",
+        "gallery": [
+          "theme:images/scene-palace.svg",
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 10,
+          "nights": 9,
+          "trip_type": "Heritage",
+          "region": "Rajasthan",
+          "group_size": "Heritage hotels",
+          "best_time": "Oct – Mar",
+          "start_city": "Jaipur",
+          "flights": false,
+          "highlights": [
+            "Heritage hotels throughout",
+            "Desert camp night"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Ten days through the forts, palaces and desert of Rajasthan, with heritage hotels throughout.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Jaipur</h4><h4>Day 2: Amber fort and the City Palace</h4><h4>Day 3: Drive to Jodhpur</h4><h4>Day 4: Mehrangarh fort</h4><h4>Day 5: Drive to Jaisalmer</h4><h4>Day 6: Golden fort and dunes</h4><h4>Day 7: Drive to Udaipur via Ranakpur</h4><h4>Day 8: Lake Pichola cruise</h4><h4>Day 9: City Palace and Saheliyon ki Bari</h4><h4>Day 10: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Bestseller"
+      },
+      {
+        "title": "Jaisalmer desert camp",
+        "slug": "jaisalmer-desert",
+        "category": "desert",
+        "location": "Jodhpur → Jaisalmer → Sam dunes",
+        "price": 2450000,
+        "price_note": "per person",
+        "image": "theme:images/trip-jaisalmer-desert.svg",
+        "gallery": [
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-palace.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 4,
+          "nights": 3,
+          "trip_type": "Desert",
+          "region": "Rajasthan",
+          "group_size": "Luxury tent",
+          "best_time": "Oct – Mar",
+          "start_city": "Jodhpur",
+          "flights": false,
+          "highlights": [
+            "Luxury desert camp",
+            "Folk music by the fire"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "A golden fort, camel rides at sunset and a night under the stars in a luxury tent.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Jodhpur to Jaisalmer</h4><h4>Day 2: Golden fort and havelis</h4><h4>Day 3: Sam dunes; camel ride; camp night</h4><h4>Day 4: Return to Jodhpur</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Under the stars"
+      },
+      {
+        "title": "Golden Triangle with Ranthambore",
+        "slug": "golden-triangle-ranthambore",
+        "category": "golden-triangle",
+        "location": "Delhi → Agra → Ranthambore → Jaipur",
+        "price": 4200000,
+        "price_note": "per person",
+        "image": "theme:images/trip-golden-triangle-ranthambore.svg",
+        "gallery": [
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-palace.svg",
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Family",
+          "region": "Golden Triangle",
+          "group_size": "Boutique hotels",
+          "best_time": "Oct – Apr",
+          "start_city": "Delhi",
+          "flights": false,
+          "highlights": [
+            "Taj Mahal at sunrise",
+            "Tiger safari"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "The Taj Mahal at sunrise, a tiger safari and the pink city of Jaipur.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Delhi</h4><h4>Day 2: Old and New Delhi</h4><h4>Day 3: Drive to Agra; Taj at sunset</h4><h4>Day 4: Taj at sunrise; drive to Ranthambore</h4><h4>Day 5: Safaris</h4><h4>Day 6: Drive to Jaipur</h4><h4>Day 7: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Udaipur lake palace weekend",
+        "slug": "udaipur-weekend",
+        "category": "lakes",
+        "location": "Udaipur",
+        "price": 3150000,
+        "price_note": "per person",
+        "image": "theme:images/trip-udaipur-weekend.svg",
+        "gallery": [
+          "theme:images/scene-lake.svg",
+          "theme:images/scene-palace.svg",
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-oldtown.svg"
+        ],
+        "attributes": {
+          "duration": 3,
+          "nights": 2,
+          "trip_type": "Luxury",
+          "region": "Rajasthan",
+          "group_size": "Palace hotel",
+          "best_time": "Sep – Mar",
+          "start_city": "Udaipur",
+          "flights": false,
+          "highlights": [
+            "Lakeside palace hotel",
+            "Private sunset boat"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Two nights in a lakeside palace hotel, a sunset boat ride and dinner on a rooftop.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive; sunset boat on Lake Pichola</h4><h4>Day 2: City Palace and Jagdish temple; rooftop dinner</h4><h4>Day 3: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Royal palaces luxury tour",
+        "slug": "royal-palaces",
+        "category": "classic",
+        "location": "Jaipur → Jodhpur → Udaipur",
+        "price": 14500000,
+        "price_note": "per person",
+        "image": "theme:images/trip-royal-palaces.svg",
+        "gallery": [
+          "theme:images/scene-palace.svg",
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 8,
+          "nights": 7,
+          "trip_type": "Luxury",
+          "region": "Rajasthan",
+          "group_size": "Palace hotels",
+          "best_time": "Oct – Mar",
+          "start_city": "Jaipur",
+          "flights": false,
+          "highlights": [
+            "Three palace hotels",
+            "Vintage-car ride"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Stay in three of Rajasthan’s grandest palace hotels, with private guides and a vintage-car ride.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Jaipur</h4><h4>Day 2: Amber fort by jeep</h4><h4>Day 3: Fly to Jodhpur</h4><h4>Day 4: Mehrangarh and the blue city</h4><h4>Day 5: Drive to Udaipur</h4><h4>Day 6: Palace day</h4><h4>Day 7: Lake cruise and spa</h4><h4>Day 8: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "Rajasthan photography tour",
+        "slug": "rajasthan-photography",
+        "category": "desert",
+        "location": "Jodhpur → Jaisalmer → Pushkar",
+        "price": 5200000,
+        "price_note": "per person",
+        "image": "theme:images/trip-rajasthan-photography.svg",
+        "gallery": [
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-palace.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 7,
+          "nights": 6,
+          "trip_type": "Photography",
+          "region": "Rajasthan",
+          "group_size": "Boutique hotels",
+          "best_time": "Nov – Feb",
+          "start_city": "Jodhpur",
+          "flights": false,
+          "highlights": [
+            "Photographer guide",
+            "Golden-hour shoots"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "Blue lanes of Jodhpur, the golden light of Jaisalmer and the colours of Pushkar, with a photographer guide.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Arrive in Jodhpur</h4><h4>Day 2: Blue city walk</h4><h4>Day 3: Drive to Jaisalmer</h4><h4>Day 4: Dunes at sunrise</h4><h4>Day 5: Drive to Pushkar</h4><h4>Day 6: Ghats and markets</h4><h4>Day 7: Departure</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Small group"
+      },
+      {
+        "title": "Pushkar camel fair special",
+        "slug": "pushkar-fair",
+        "category": "lakes",
+        "location": "Jaipur → Pushkar",
+        "price": 3850000,
+        "price_note": "per person",
+        "image": "theme:images/trip-pushkar-fair.svg",
+        "gallery": [
+          "theme:images/scene-desert.svg",
+          "theme:images/scene-palace.svg",
+          "theme:images/scene-oldtown.svg",
+          "theme:images/scene-lake.svg"
+        ],
+        "attributes": {
+          "duration": 4,
+          "nights": 3,
+          "trip_type": "Photography",
+          "region": "Rajasthan",
+          "group_size": "Swiss tent",
+          "best_time": "November",
+          "start_city": "Jaipur",
+          "flights": false,
+          "highlights": [
+            "Camel fair"
+          ],
+          "inclusions": [
+            "Stays as listed, on twin-sharing basis",
+            "Daily breakfast and dinner",
+            "Transfers and sightseeing by private vehicle",
+            "Tour manager or local guide",
+            "24×7 on-trip support"
+          ],
+          "exclusions": [
+            "Flights or trains to the start city",
+            "Personal expenses and tips",
+            "Entry tickets not listed",
+            "Travel insurance",
+            "5% GST"
+          ]
+        },
+        "short_description": "This year’s camel-fair camps are fully booked.",
+        "description": "<h3>Day-by-day itinerary</h3><h4>Day 1: Jaipur to Pushkar</h4><h4>Day 2: Camel fair</h4><h4>Day 3: Ghats and temples</h4><h4>Day 4: Return to Jaipur</h4><p>Every itinerary can be customised — add days, change hotels or travel on your own dates.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Private tours of Rajasthan",
+            "heading": "Live like royalty, if only for a week",
+            "subheading": "Palaces, forts, havelis and desert camps — private tours with a chauffeur, heritage hotels and local guides in every city.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Private car and chauffeur"
+              },
+              {
+                "icon": "bi-people",
+                "text": "Heritage and palace hotels"
+              },
+              {
+                "icon": "bi-headset",
+                "text": "Local guides in every city"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Choose your Rajasthan",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Popular",
+            "heading": "Signature journeys",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "All tours",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Royal",
+            "heading": "Travel with people who have been there",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-car-front",
+                "title": "Private car & chauffeur",
+                "description": "Air-conditioned cars with experienced chauffeurs who know every route."
+              },
+              {
+                "icon": "bi-building",
+                "title": "Heritage hotels",
+                "description": "Havelis, forts and palace hotels, chosen for character."
+              },
+              {
+                "icon": "bi-person-badge",
+                "title": "Local guides",
+                "description": "Licensed guides in every city."
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Craft experiences",
+                "description": "Block printing, pottery and cooking classes."
+              }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "48000",
+                "suffix": "+",
+                "label": "Guests hosted",
+                "icon": ""
+              },
+              {
+                "number": "25",
+                "suffix": "",
+                "label": "Years in Rajasthan",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Heritage hotels",
+                "icon": ""
+              },
+              {
+                "number": "4.9",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just added",
+            "heading": "New this season",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all tours",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "From our travellers",
+            "heading": "Moments worth the journey",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/scene-palace.svg",
+                "caption": "Lake palace"
+              },
+              {
+                "image": "theme:images/scene-desert.svg",
+                "caption": "Desert fort and dunes"
+              },
+              {
+                "image": "theme:images/scene-oldtown.svg",
+                "caption": "Old town square"
+              },
+              {
+                "image": "theme:images/scene-lake.svg",
+                "caption": "Shikara on a mountain lake"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Traveller reviews",
+            "heading": "Stories from the road",
+            "description": "",
+            "items": [
+              {
+                "quote": "Our chauffeur became our friend. The havelis were full of character.",
+                "name": "Emma & David Clarke",
+                "role": "Grand Rajasthan tour",
+                "photo": "theme:images/traveller-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The desert camp under the stars was the highlight of our India trip.",
+                "name": "Ritu Malhotra",
+                "role": "Jaisalmer desert camp",
+                "photo": "theme:images/traveller-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Perfect family trip — the kids loved the tiger safari and the Taj.",
+                "name": "Sandeep Arora",
+                "role": "Golden Triangle",
+                "photo": "theme:images/traveller-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Design your Rajasthan tour",
+            "description": "Tell us your dates and style; your tour designer will send a plan within a day.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Design my tour",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse tours",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Royal Routes designs private tours of Rajasthan’s palaces, forts and deserts, with heritage hotels and chauffeur-driven cars.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A quarter-century of royal routes",
+            "description": "<p>Royal Routes began in 2001 in a Jaipur haveli, with two cars and a love for Rajasthan’s history.</p><p>Today we host 2,500 guests a year on private tours, with heritage hotels chosen for their character.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "25",
+            "experience_label": "years in Rajasthan",
+            "points": [
+              {
+                "text": "Private tours only"
+              },
+              {
+                "text": "Heritage hotels"
+              },
+              {
+                "text": "Chauffeurs who are storytellers"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "48000",
+                "suffix": "+",
+                "label": "Guests hosted",
+                "icon": ""
+              },
+              {
+                "number": "25",
+                "suffix": "",
+                "label": "Years in Rajasthan",
+                "icon": ""
+              },
+              {
+                "number": "120",
+                "suffix": "",
+                "label": "Heritage hotels",
+                "icon": ""
+              },
+              {
+                "number": "4.9",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people behind your trip",
+            "description": "Approved by the state tourism department (demo).",
+            "members": [
+              {
+                "name": "Maharaj Singh Rathore",
+                "role": "Founder",
+                "bio": "From a Jodhpur family of historians.",
+                "photo": "theme:images/guide-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Anjali Shekhawat",
+                "role": "Tour designer",
+                "bio": "Palace hotels and weddings.",
+                "photo": "theme:images/guide-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Imran Khan",
+                "role": "Head chauffeur",
+                "bio": "25 years on Rajasthan’s roads.",
+                "photo": "theme:images/guide-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Lisa Fernandes",
+                "role": "Overseas guests",
+                "bio": "Looks after guests from Europe and the US.",
+                "photo": "theme:images/guide-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Our partners",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Haveli Hotels Group",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Thar Camps",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Palace Stays",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Rajputana Motors",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "From the first idea to the trip home.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything for a stress-free trip",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-car-front",
+                "title": "Private car & chauffeur",
+                "description": "Air-conditioned cars with experienced chauffeurs who know every route.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-building",
+                "title": "Heritage hotels",
+                "description": "Havelis, forts and palace hotels, chosen for character.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-person-badge",
+                "title": "Local guides",
+                "description": "Licensed guides in every city.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Craft experiences",
+                "description": "Block printing, pottery and cooking classes.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-stars",
+                "title": "Desert camps",
+                "description": "Luxury tents, camel rides and folk evenings.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-heart",
+                "title": "Destination weddings",
+                "description": "Palace weddings planned end to end.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Four easy steps",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Share your wishes",
+                "description": "Dates, pace and the kind of hotels you like."
+              },
+              {
+                "icon": "bi-map",
+                "title": "Your tour, designed",
+                "description": "A day-by-day plan within a day."
+              },
+              {
+                "icon": "bi-check2-circle",
+                "title": "Confirm",
+                "description": "Pay 20% to confirm; the rest on arrival."
+              },
+              {
+                "icon": "bi-car-front",
+                "title": "Your chauffeur arrives",
+                "description": "Met at the airport and looked after throughout."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Before you book",
+            "description": "",
+            "items": [
+              {
+                "question": "When is the best time to visit Rajasthan?",
+                "answer": "October to March, when days are pleasant; summer is hot but quieter and cheaper."
+              },
+              {
+                "question": "Are the tours private?",
+                "answer": "Yes — a private car and chauffeur for your group only, except the photography tour."
+              },
+              {
+                "question": "Can I change the hotels?",
+                "answer": "Yes, choose from havelis, palaces or boutique hotels; we adjust the quote."
+              },
+              {
+                "question": "Do you arrange weddings?",
+                "answer": "Yes, from intimate fort weddings to large palace celebrations."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Design your Rajasthan tour",
+            "description": "Tell us your dates and style; your tour designer will send a plan within a day.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Design my tour",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse tours",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Tell us where, when and who is travelling.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Where shall we take you?",
+            "description": "Send us a message and a planner will reply within one working day.",
+            "form_heading": "Send an enquiry",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Royal Routes Rajasthan collects and uses the personal information you share through this website.</p><h3>Information we collect</h3><p>Your name, phone number, email address, travel dates and preferences when you send an enquiry or book a trip. For bookings we also collect traveller names and, where needed, passport details.</p><h3>How we use it</h3><p>Only to plan and book your trip, and to share it with hotels, airlines and transport partners who need it to provide your services. We never sell your data.</p><h3>Your choices</h3><p>Write to us to correct or delete your information at any time.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Bookings</h3><p>A booking is confirmed when we receive the advance payment and send a confirmation. Prices are subject to availability and may change until confirmation.</p><h3>Payments</h3><p>A 25% advance confirms the booking; the balance is due 21 days before departure.</p><h3>Changes</h3><p>Hotel or route changes after confirmation may cost extra. We are not responsible for delays caused by weather, strikes or other events beyond our control.</p>"
+          }
+        }
+      ]
+    },
+    "cancellation-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Cancellation Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<ul><li>30 days or more before departure: full refund minus ₹2,500 per person.</li><li>15–29 days before departure: 50% of the package price is refunded.</li><li>Less than 15 days before departure: no refund.</li></ul><p>Flight tickets, visas and non-refundable hotel bookings are refunded according to the supplier’s rules.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

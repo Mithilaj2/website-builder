@@ -9,7 +9,69 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); Hospital done (PR #14, awaiting review); E-commerce done (PR #15, awaiting review); **Real Estate done** (awaiting review); next: the remaining 5 categories (Travel, Restaurant, Hotel, Portfolio, Services) |
+| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); Hospital done (PR #14, awaiting review); E-commerce done (PR #15, awaiting review); Real Estate done (PR #16, awaiting review); **Travel done** (awaiting review); next: the remaining 4 categories (Restaurant, Hotel, Portfolio, Services) |
+
+## Phase 7c, Travel: templates 02–10
+
+### Delivered
+- **Factory listings parts reused for packages.** When a template's listings have no location filter and no buy/rent choice:
+  - the hero search shows a place search, the destination, the first filterable choice (trip type, difficulty, circuit…) and per-person budgets up to ₹2 lakh
+  - the search label reads "Search" rather than "Route".
+
+  Real Estate templates were rebuilt with the same search partial; their output is unchanged.
+- **Original artwork.** Eighteen original travel scenes: beach, snow peaks, backwaters, desert fort, mountain lake, temple ghats, city skyline, overwater villas, jungle safari, monastery, mountain road, waterfall, lake palace, rice terraces, camp, tea gardens, old town and a school museum trip. They are composed into package images, destination images, galleries, heroes and banners.
+- **Demo businesses for nine niches.** Each has its own trip types and regions, enquiry form (a dropdown and a date), day-by-day itineraries, highlights, inclusions and exclusions.
+- **Nine new Travel templates:**
+
+| # | Template | Prefix | Demo business | Hero / header / card / categories | Look |
+|---|---|---|---|---|---|
+| 02 | Coral & Co. Honeymoons | `ccm` | Honeymoons, Mumbai | full-bleed cover / centred masthead / photo / tiles | Lagoon + coral on blush, DM Serif Display |
+| 03 | Summit Trails | `smt` | Himalayan treks, Dehradun | colour panel / dark bar / classic / cards | Pine + signal orange, uppercase Montserrat |
+| 04 | Yatra Seva Tours | `yst` | Pilgrimages, Varanasi | split / info bar / classic / tiles | Maroon + saffron, Lora |
+| 05 | Wanderwise Group Tours | `wwg` | International group tours, Ahmedabad | centred panorama / floating pill / photo / cards | Sky blue + tangerine, Poppins |
+| 06 | Jungle Tales Safaris | `jts` | Wildlife safaris, Bhopal | editorial / floating pill / classic / tiles | **Dark**, jungle green + amber, Space Grotesk |
+| 07 | Royal Routes Rajasthan | `rrj` | Heritage tours, Jaipur | editorial / centred masthead / photo / tiles | Indigo + marigold, Cormorant Garamond |
+| 08 | Highway Nomads | `hwn` | Motorcycle tours and road trips, Chandigarh | full-bleed cover / dark bar / classic / tiles | Asphalt + safety yellow, Sora |
+| 09 | Island Hop Holidays | `ihp` | Beach and island holidays, Chennai | split / floating pill / photo / cards | Turquoise + sunshine, Jost |
+| 10 | Campus Trails | `cpt` | School educational tours, Pune | colour panel / info bar / classic / cards | Royal blue + school-bus yellow, Plus Jakarta Sans, light footer |
+
+- **Pages.** Every template has seven pages (Home, About with the team and partners, Services, Contact, Privacy, Terms and Cancellation), plus the package search and package pages. Each demo has 4 destinations and 7 packages (6 featured, 1 sold out).
+- **No real organisation names.** All businesses, people and partners are invented. Travel 01's demo listed a real airline association as a partner; it is now an invented "TravelSure Network".
+- No runtime changes; runtime 1.7.0.
+
+### Tests
+`tests/phase7c_travel_test.php` runs **225 end-to-end checks**.
+
+- **Template files:** the same checks as Real Estate, plus:
+  - no location filter
+  - every toggle and list value has the right type
+  - an image for every package and every gallery scene
+
+  Prefixes are compared against all 55 existing templates.
+- **Each of the nine websites:**
+  - demo packages imported
+  - variants, hero copy, the packages menu with destinations, and the hero search: place, destination, trip type, budget, no buy/rent tabs
+  - 4 destinations, plus 6 featured and 3 new packages in the template's cards
+  - all six inner pages and the 404 page
+  - the package search page
+  - destination, trip-type, duration and price filters
+  - the sold-out package marked
+  - a package page with gallery, itinerary, highlights, inclusions and exclusions
+  - an enquiry stored against the package
+  - a contact enquiry
+- **Export:** a full export of one website.
+
+| Server | 7c Travel | 7c Real Estate | 7c E-commerce | 7c Hospital | 7c Education | 7c Business | 7b-3 | 7b-2 | 7b-1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 225/225 | 213/213 | 216/216 | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 225/225 | 213/213 | 216/216 | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+All template PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of the home, about, services, contact, package search and package pages of the nine websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- **Missing gallery images:** some package galleries pointed to scenes that were not generated. Every scene a package uses is now generated, and the test checks every image reference.
+- **Empty "similar trips":** some package pages had no "similar trips" because their destination had only one open package. The demo data now gives the first package of each site a sibling.
+- **Route dropdown in the hero search:** the search offered a dropdown of full routes for packages. Package searches now use a free-text place search.
 
 ## Phase 7c, Real Estate: templates 02–10
 
@@ -961,6 +1023,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-28 (Phase 7c, Travel)
+Travel templates 02–10; package search, eighteen travel scenes and nine demo businesses; Travel 01 partner name replaced; 225-check test; full regression on dev and Apache.
 
 ### 2026-11-28 (Phase 7c, Real Estate)
 Real Estate templates 02–10; factory listings search, menu, sections, listing cards and building drawings; 213-check test; full regression on dev and Apache.
