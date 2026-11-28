@@ -1,0 +1,912 @@
+{
+  "settings": {
+    "site": {
+      "name": "Butter & Bloom",
+      "tagline": "Patisserie & tea room · Bandra",
+      "phone": "+91 22 2640 5511",
+      "email": "bonjour@butterandbloom.example",
+      "address": "Pali Mala Road, Pali Hill\nBandra West, Mumbai 400050",
+      "hours": "Every day, 9 am – 10 pm",
+      "footer_about": "A French-style patisserie and tea room in Bandra: viennoiserie, entremets, celebration cakes and afternoon tea.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 11517044000987 (demo).",
+      "header_button": {
+        "text": "Order a cake",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Butter & Bloom, Mumbai: A French-style patisserie and tea room in Bandra: viennoiserie, entremets, celebration cakes and afternoon tea. Book a table online.",
+      "keywords": "patisserie & tea room · bandra, restaurant in Mumbai, book a table Mumbai"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Patisserie · tea room · cakes",
+            "heading": "Life is short. Eat the pastry.",
+            "subheading": "Croissants laminated for three days, entremets built layer by layer and celebration cakes made to order — with afternoon tea in our garden room.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book afternoon tea",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "Eggless options for every cake"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "Afternoon tea every day"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Custom cakes with 48 hours’ notice"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A little Paris on Pali Hill",
+            "description": "<p>Butter & Bloom opened in 2016 in a cottage on Pali Hill, after our founder came home from culinary school in Paris.</p><p>Every croissant is laminated by hand over three days, and every cake can be made eggless.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "10",
+            "experience_label": "years of baking",
+            "points": [
+              {
+                "text": "Hand-laminated pastry"
+              },
+              {
+                "text": "Eggless options always"
+              },
+              {
+                "text": "Garden tea room"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "Fresh from the oven",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Butter croissant",
+                "description": "Three-day laminated dough, French butter.",
+                "price": "₹220",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-croissant.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Opera",
+                "description": "Coffee, almond and chocolate layers.",
+                "price": "₹380",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cake.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Strawberry cheesecake",
+                "description": "Baked, with fresh strawberries.",
+                "price": "₹360",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cheesecake.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Classic afternoon tea for two",
+                "description": "Finger sandwiches, scones, pastries and a pot of tea.",
+                "price": "₹1,600",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Daily 3–6 pm",
+                "image": "theme:images/dish-cake.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Rose & cardamom latte",
+                "description": "Our signature.",
+                "price": "₹260",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Signature",
+                "image": "theme:images/dish-coffee.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Hot chocolate",
+                "description": "70% dark.",
+                "price": "₹280",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-coffee.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-layers",
+                "title": "Laminated by hand",
+                "description": "Three days for every croissant."
+              },
+              {
+                "icon": "bi-egg",
+                "title": "Eggless options",
+                "description": "Every cake can be made eggless."
+              },
+              {
+                "icon": "bi-cake2",
+                "title": "Custom cakes",
+                "description": "Designed with you for every celebration."
+              },
+              {
+                "icon": "bi-flower2",
+                "title": "Garden tea room",
+                "description": "Afternoon tea among the bougainvillea."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Butter & Bloom",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-cafe.svg",
+                "caption": "The counter"
+              },
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-kitchen.svg",
+                "caption": "Our kitchen"
+              },
+              {
+                "image": "theme:images/room-private.svg",
+                "caption": "Private dining"
+              },
+              {
+                "image": "theme:images/dish-croissant.svg",
+                "caption": "A croissant"
+              },
+              {
+                "image": "theme:images/dish-cake.svg",
+                "caption": "A slice of chocolate cake"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "Our wedding cake was a work of art, and it tasted even better.",
+                "name": "Zara & Kabir",
+                "role": "Wedding cake",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The almond croissant is the best in Mumbai. I have tried them all.",
+                "name": "Rhea D’Costa",
+                "role": "Google review",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Afternoon tea in the garden room is the loveliest way to spend a Sunday.",
+                "name": "Farida Lokhandwala",
+                "role": "Regular guest",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book afternoon tea or a table",
+            "description": "Book afternoon tea a day ahead; tables in the garden room fill up at weekends.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8",
+            "select2_label": "Time",
+            "select2_options": "10:00 am\n12:00 pm\n3:00 pm\n4:00 pm\n5:00 pm\n7:00 pm",
+            "date_label": "Date",
+            "message_label": "Occasion, eggless or allergies",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Merci! We will confirm your booking on WhatsApp shortly.",
+            "image": "theme:images/room-cafe.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Patisserie",
+                "text": "9 am – 10 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 22 2640 5511"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Order a celebration cake",
+            "description": "Tell us about your celebration and we will design a cake for it — eggless if you like.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912226405511"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Viennoiserie, entremets and afternoon tea.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "Pastries, cakes & tea",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Viennoiserie",
+                "name": "Butter croissant",
+                "description": "Three-day laminated dough, French butter.",
+                "price": "₹220",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-croissant.svg"
+              },
+              {
+                "course": "Viennoiserie",
+                "name": "Pain au chocolat",
+                "description": "Two bars of dark chocolate.",
+                "price": "₹240",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-croissant.svg"
+              },
+              {
+                "course": "Viennoiserie",
+                "name": "Almond croissant",
+                "description": "Twice-baked with frangipane.",
+                "price": "₹260",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-croissant.svg"
+              },
+              {
+                "course": "Entremets",
+                "name": "Opera",
+                "description": "Coffee, almond and chocolate layers.",
+                "price": "₹380",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cake.svg"
+              },
+              {
+                "course": "Entremets",
+                "name": "Strawberry cheesecake",
+                "description": "Baked, with fresh strawberries.",
+                "price": "₹360",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cheesecake.svg"
+              },
+              {
+                "course": "Entremets",
+                "name": "Hazelnut praline dome",
+                "description": "Eggless.",
+                "price": "₹390",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Eggless",
+                "image": "theme:images/dish-cake.svg"
+              },
+              {
+                "course": "Afternoon tea",
+                "name": "Classic afternoon tea for two",
+                "description": "Finger sandwiches, scones, pastries and a pot of tea.",
+                "price": "₹1,600",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Daily 3–6 pm",
+                "image": "theme:images/dish-cake.svg"
+              },
+              {
+                "course": "Afternoon tea",
+                "name": "Scones with jam & cream",
+                "description": "Two warm scones.",
+                "price": "₹320",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-bread.svg"
+              },
+              {
+                "course": "Drinks",
+                "name": "Darjeeling first flush",
+                "description": "By the pot.",
+                "price": "₹280",
+                "diet": "vegan",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-coffee.svg"
+              },
+              {
+                "course": "Drinks",
+                "name": "Rose & cardamom latte",
+                "description": "Our signature.",
+                "price": "₹260",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Signature",
+                "image": "theme:images/dish-coffee.svg"
+              },
+              {
+                "course": "Drinks",
+                "name": "Hot chocolate",
+                "description": "70% dark.",
+                "price": "₹280",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-coffee.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Order a celebration cake",
+            "description": "Tell us about your celebration and we will design a cake for it — eggless if you like.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912226405511"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "A French-style patisserie and tea room in Bandra: viennoiserie, entremets, celebration cakes and afternoon tea.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A little Paris on Pali Hill",
+            "description": "<p>Butter & Bloom opened in 2016 in a cottage on Pali Hill, after our founder came home from culinary school in Paris.</p><p>Every croissant is laminated by hand over three days, and every cake can be made eggless.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "10",
+            "experience_label": "years of baking",
+            "points": [
+              {
+                "text": "Hand-laminated pastry"
+              },
+              {
+                "text": "Eggless options always"
+              },
+              {
+                "text": "Garden tea room"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "600",
+                "suffix": "+",
+                "label": "Croissants a day",
+                "icon": ""
+              },
+              {
+                "number": "4000",
+                "suffix": "+",
+                "label": "Celebration cakes a year",
+                "icon": ""
+              },
+              {
+                "number": "10",
+                "suffix": "",
+                "label": "Years in Bandra",
+                "icon": ""
+              },
+              {
+                "number": "4.9",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "Anaïs Mehta",
+                "role": "Founder & pastry chef",
+                "bio": "Trained in Paris and Lyon.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Rohan Pinto",
+                "role": "Head baker",
+                "bio": "Laminates 600 croissants a day.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Shirin Batliwala",
+                "role": "Cake designer",
+                "bio": "Sketches every custom cake.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Sweet Mumbai",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "The Pastry Post",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Bandra Bites",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Sugar & Spice Weekly",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-cake",
+                "image": "theme:images/room-cafe.svg",
+                "title": "Celebration cakes",
+                "description": "Birthday, anniversary and wedding cakes designed with you.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-gift",
+                "image": "theme:images/room-dining.svg",
+                "title": "Hampers",
+                "description": "Festive and corporate hampers.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-cup-hot",
+                "image": "theme:images/room-kitchen.svg",
+                "title": "Private tea parties",
+                "description": "The garden room for up to 25 guests.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-06",
+                "time": "11 am – 1 pm",
+                "title": "Croissant masterclass",
+                "location": "Pastry kitchen",
+                "description": "Laminate, shape and bake your own croissants. ₹3,500 per person.",
+                "image": "theme:images/room-cafe.svg",
+                "link": {
+                  "text": "Book a seat",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2026-12-20",
+                "time": "3 – 6 pm",
+                "title": "Christmas afternoon tea",
+                "location": "Garden room",
+                "description": "Festive scones, mince pies and bûche de Noël.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Book tea",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-02-13",
+                "time": "4 – 7 pm",
+                "title": "Valentine’s macaron workshop",
+                "location": "Pastry kitchen",
+                "description": "Make macarons together — for couples.",
+                "image": "theme:images/room-kitchen.svg",
+                "link": {
+                  "text": "Book a seat",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Order a celebration cake",
+            "description": "Tell us about your celebration and we will design a cake for it — eggless if you like.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912226405511"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Book afternoon tea a day ahead; tables in the garden room fill up at weekends.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book afternoon tea or a table",
+            "description": "Book afternoon tea a day ahead; tables in the garden room fill up at weekends.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8",
+            "select2_label": "Time",
+            "select2_options": "10:00 am\n12:00 pm\n3:00 pm\n4:00 pm\n5:00 pm\n7:00 pm",
+            "date_label": "Date",
+            "message_label": "Occasion, eggless or allergies",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Merci! We will confirm your booking on WhatsApp shortly.",
+            "image": "theme:images/room-cafe.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Patisserie",
+                "text": "9 am – 10 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 22 2640 5511"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 9 am – 10 pm",
+            "rows": [
+              {
+                "label": "Patisserie",
+                "hours": "9 am – 10 pm"
+              },
+              {
+                "label": "Afternoon tea",
+                "hours": "3 – 6 pm"
+              },
+              {
+                "label": "Cake orders",
+                "hours": "48 hours’ notice"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 22 2640 5511",
+            "note": "Croissants sell out by noon at weekends."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "How early should I order a cake?",
+                "answer": "48 hours for most cakes; a week for tiered and wedding cakes."
+              },
+              {
+                "question": "Do you make eggless cakes?",
+                "answer": "Yes — every cake on our menu can be made eggless."
+              },
+              {
+                "question": "Do you deliver?",
+                "answer": "Yes, across Mumbai for cakes; pastries within 5 km."
+              },
+              {
+                "question": "Can we book the tea room?",
+                "answer": "Yes, for private parties of up to 25 guests."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 9 am – 10 pm",
+            "rows": [
+              {
+                "label": "Patisserie",
+                "hours": "9 am – 10 pm"
+              },
+              {
+                "label": "Afternoon tea",
+                "hours": "3 – 6 pm"
+              },
+              {
+                "label": "Cake orders",
+                "hours": "48 hours’ notice"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 22 2640 5511",
+            "note": "Croissants sell out by noon at weekends."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

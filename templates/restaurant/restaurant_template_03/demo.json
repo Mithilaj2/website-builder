@@ -1,0 +1,932 @@
+{
+  "settings": {
+    "site": {
+      "name": "Annapoorna Tiffin Rooms",
+      "tagline": "Pure vegetarian tiffin & meals · Mylapore",
+      "phone": "+91 44 2498 6611",
+      "email": "namaste@annapoorna-tiffin.example",
+      "address": "24, North Mada Street\nMylapore, Chennai 600004",
+      "hours": "Every day, 6:30 am – 10 pm",
+      "footer_about": "A pure vegetarian tiffin house in Mylapore serving dosa, idli, filter coffee and banana-leaf meals since 1972.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 12420001000789 (demo).",
+      "header_button": {
+        "text": "Book a table",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Annapoorna Tiffin Rooms, Chennai: A pure vegetarian tiffin house in Mylapore serving dosa, idli, filter coffee and banana-leaf meals since 1972. Book a table online.",
+      "keywords": "pure vegetarian tiffin & meals · mylapore, restaurant in Chennai, book a table Chennai"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Pure vegetarian since 1972",
+            "heading": "Crisp dosas, soft idlis, strong filter coffee",
+            "subheading": "Three generations of recipes from our Mylapore kitchen — tiffin from 6:30 am and full banana-leaf meals at lunch.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Reserve a table",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "Open from 6:30 am every day"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "100% vegetarian kitchen"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Banana-leaf meals at lunch"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Fifty-four years on North Mada Street",
+            "description": "<p>Annapoorna opened in 1972 as a six-table tiffin room next to the Kapaleeshwarar temple.</p><p>Three generations later, the batter is still ground every morning and the filter coffee is still poured from a height.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "54",
+            "experience_label": "years of tiffin",
+            "points": [
+              {
+                "text": "Pure vegetarian kitchen"
+              },
+              {
+                "text": "Batter ground every morning"
+              },
+              {
+                "text": "Recipes unchanged since 1972"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "Tiffin favourites",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Ghee roast dosa",
+                "description": "Paper-thin and crisp, with sambar and three chutneys.",
+                "price": "₹160",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-dosa.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Mini idli in sambar",
+                "description": "Fourteen button idlis soaked in ghee sambar.",
+                "price": "₹120",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-idli.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Banana-leaf meals",
+                "description": "Rice, sambar, rasam, kootu, poriyal, curd, payasam and more — unlimited.",
+                "price": "₹280",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Lunch only",
+                "image": "theme:images/dish-thali.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Adai avial",
+                "description": "Lentil crêpe with a coconut vegetable stew.",
+                "price": "₹180",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Weekend special",
+                "image": "theme:images/dish-dosa.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Filter coffee",
+                "description": "Peaberry and chicory, in a davara-tumbler.",
+                "price": "₹50",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Since 1972",
+                "image": "theme:images/dish-filter_coffee.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Rava kesari",
+                "description": "Semolina, saffron and ghee.",
+                "price": "₹90",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-flower1",
+                "title": "100% vegetarian",
+                "description": "A pure vegetarian kitchen since 1972; Jain food on request."
+              },
+              {
+                "icon": "bi-fire",
+                "title": "Stone-ground batter",
+                "description": "Dosa and idli batter ground fresh every morning."
+              },
+              {
+                "icon": "bi-cup-hot",
+                "title": "Filter coffee",
+                "description": "Peaberry and chicory, roasted and ground in-house."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Family recipes",
+                "description": "Three generations of the same recipes."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Annapoorna Tiffin Rooms",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-kitchen.svg",
+                "caption": "Our kitchen"
+              },
+              {
+                "image": "theme:images/room-private.svg",
+                "caption": "Private dining"
+              },
+              {
+                "image": "theme:images/dish-dosa.svg",
+                "caption": "A dosa with chutneys"
+              },
+              {
+                "image": "theme:images/dish-idli.svg",
+                "caption": "Idli with sambar"
+              },
+              {
+                "image": "theme:images/dish-thali.svg",
+                "caption": "A thali"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "The ghee roast is exactly as I remember it from college — and the coffee is still the best on the street.",
+                "name": "R. Venkatesh",
+                "role": "Regular since 1985",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The banana-leaf meal is a feast. Go hungry.",
+                "name": "Priya Natarajan",
+                "role": "Google review",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "They catered my daughter’s seemantham for 200 guests. Everyone asked for the caterer.",
+                "name": "Lakshmi Iyer",
+                "role": "Catering client",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table or a family meal",
+            "description": "Tables for tiffin are first come, first served; book ahead for lunch meals and groups.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "2\n3\n4\n5–8\n9–15",
+            "select2_label": "Time",
+            "select2_options": "12:00 pm\n12:30 pm\n1:00 pm\n1:30 pm\n7:30 pm\n8:30 pm",
+            "date_label": "Date",
+            "message_label": "Special requests (Jain, no onion-garlic, high chair)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will call you to confirm your table.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Tiffin",
+                "text": "6:30 – 11:30 am · 4 – 10 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 44 2498 6611"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a function?",
+            "description": "We cater weddings, poojas and family functions with traditional banana-leaf menus.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914424986611"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Tiffin all day and banana-leaf meals at lunch.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "Tiffin, meals & sweets",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Tiffin",
+                "name": "Ghee roast dosa",
+                "description": "Paper-thin and crisp, with sambar and three chutneys.",
+                "price": "₹160",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-dosa.svg"
+              },
+              {
+                "course": "Tiffin",
+                "name": "Mini idli in sambar",
+                "description": "Fourteen button idlis soaked in ghee sambar.",
+                "price": "₹120",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-idli.svg"
+              },
+              {
+                "course": "Tiffin",
+                "name": "Rava kichadi",
+                "description": "Semolina with vegetables, cashews and ghee.",
+                "price": "₹110",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Tiffin",
+                "name": "Medu vada",
+                "description": "Crisp lentil doughnuts with coconut chutney.",
+                "price": "₹90",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-idli.svg"
+              },
+              {
+                "course": "Meals",
+                "name": "Banana-leaf meals",
+                "description": "Rice, sambar, rasam, kootu, poriyal, curd, payasam and more — unlimited.",
+                "price": "₹280",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Lunch only",
+                "image": "theme:images/dish-thali.svg"
+              },
+              {
+                "course": "Meals",
+                "name": "Bisi bele bath",
+                "description": "Spiced rice and lentils with boondi.",
+                "price": "₹170",
+                "diet": "veg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-biryani.svg"
+              },
+              {
+                "course": "Meals",
+                "name": "Curd rice",
+                "description": "With pomegranate and mango pickle.",
+                "price": "₹120",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-biryani.svg"
+              },
+              {
+                "course": "Specials",
+                "name": "Adai avial",
+                "description": "Lentil crêpe with a coconut vegetable stew.",
+                "price": "₹180",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Weekend special",
+                "image": "theme:images/dish-dosa.svg"
+              },
+              {
+                "course": "Specials",
+                "name": "Paniyaram",
+                "description": "Crisp dumplings with tomato chutney.",
+                "price": "₹130",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-idli.svg"
+              },
+              {
+                "course": "Specials",
+                "name": "Podi onion uttapam",
+                "description": "Thick pancake with onions and gunpowder.",
+                "price": "₹150",
+                "diet": "veg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-dosa.svg"
+              },
+              {
+                "course": "Sweets & coffee",
+                "name": "Filter coffee",
+                "description": "Peaberry and chicory, in a davara-tumbler.",
+                "price": "₹50",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Since 1972",
+                "image": "theme:images/dish-filter_coffee.svg"
+              },
+              {
+                "course": "Sweets & coffee",
+                "name": "Sakkarai pongal",
+                "description": "Jaggery rice with ghee and cardamom.",
+                "price": "₹110",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Sweets & coffee",
+                "name": "Rava kesari",
+                "description": "Semolina, saffron and ghee.",
+                "price": "₹90",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a function?",
+            "description": "We cater weddings, poojas and family functions with traditional banana-leaf menus.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914424986611"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "A pure vegetarian tiffin house in Mylapore serving dosa, idli, filter coffee and banana-leaf meals since 1972.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Fifty-four years on North Mada Street",
+            "description": "<p>Annapoorna opened in 1972 as a six-table tiffin room next to the Kapaleeshwarar temple.</p><p>Three generations later, the batter is still ground every morning and the filter coffee is still poured from a height.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "54",
+            "experience_label": "years of tiffin",
+            "points": [
+              {
+                "text": "Pure vegetarian kitchen"
+              },
+              {
+                "text": "Batter ground every morning"
+              },
+              {
+                "text": "Recipes unchanged since 1972"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "54",
+                "suffix": "",
+                "label": "Years in Mylapore",
+                "icon": ""
+              },
+              {
+                "number": "3000",
+                "suffix": "+",
+                "label": "Dosas a day",
+                "icon": ""
+              },
+              {
+                "number": "3",
+                "suffix": "",
+                "label": "Generations",
+                "icon": ""
+              },
+              {
+                "number": "4.7",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "S. Ramakrishnan",
+                "role": "Owner, third generation",
+                "bio": "Grew up in the kitchen his grandfather started.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Kamala Ramakrishnan",
+                "role": "Head of kitchen",
+                "bio": "Keeps every family recipe unchanged.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Murugan",
+                "role": "Dosa master",
+                "bio": "Has made dosas here for 30 years.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Madras Food Diaries",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Temple Town Times",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Tiffin Trail",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Southern Plate",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-flower2",
+                "image": "theme:images/room-dining.svg",
+                "title": "Function catering",
+                "description": "Traditional menus for weddings and poojas, served on banana leaf.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-box-seam",
+                "image": "theme:images/room-kitchen.svg",
+                "title": "Tiffin boxes",
+                "description": "Breakfast and lunch boxes for offices.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-house",
+                "image": "theme:images/room-private.svg",
+                "title": "Family dining hall",
+                "description": "Our first-floor hall seats 40 for family meals.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-16",
+                "time": "6:30 am onwards",
+                "title": "Margazhi special breakfast",
+                "location": "Ground floor",
+                "description": "Ven pongal and sakkarai pongal every morning of Margazhi.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Visit us",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-01-14",
+                "time": "12 – 3:30 pm",
+                "title": "Pongal festival meal",
+                "location": "All floors",
+                "description": "A festive banana-leaf meal with 21 items.",
+                "image": "theme:images/room-kitchen.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-01-26",
+                "time": "7 – 10 pm",
+                "title": "Dosa festival",
+                "location": "Ground floor",
+                "description": "Twenty-four kinds of dosa for one night only.",
+                "image": "theme:images/room-private.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a function?",
+            "description": "We cater weddings, poojas and family functions with traditional banana-leaf menus.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914424986611"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Tables for tiffin are first come, first served; book ahead for lunch meals and groups.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table or a family meal",
+            "description": "Tables for tiffin are first come, first served; book ahead for lunch meals and groups.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "2\n3\n4\n5–8\n9–15",
+            "select2_label": "Time",
+            "select2_options": "12:00 pm\n12:30 pm\n1:00 pm\n1:30 pm\n7:30 pm\n8:30 pm",
+            "date_label": "Date",
+            "message_label": "Special requests (Jain, no onion-garlic, high chair)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will call you to confirm your table.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Tiffin",
+                "text": "6:30 – 11:30 am · 4 – 10 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 44 2498 6611"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Tiffin from 6:30 am",
+            "description": "Every day, 6:30 am – 10 pm",
+            "rows": [
+              {
+                "label": "Tiffin",
+                "hours": "6:30 – 11:30 am · 4 – 10 pm"
+              },
+              {
+                "label": "Lunch meals",
+                "hours": "12 – 3:30 pm"
+              },
+              {
+                "label": "Filter coffee",
+                "hours": "All day"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 44 2498 6611",
+            "note": "Open every day, including festivals."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "Is everything vegetarian?",
+                "answer": "Yes, our kitchen is pure vegetarian. We can prepare Jain and no onion-garlic food on request."
+              },
+              {
+                "question": "When are meals served?",
+                "answer": "Banana-leaf meals are served from 12 to 3:30 pm."
+              },
+              {
+                "question": "Do you cater functions?",
+                "answer": "Yes — weddings, poojas and family functions from 50 to 1,500 guests."
+              },
+              {
+                "question": "Is parking available?",
+                "answer": "Two-wheeler parking in front; cars can park on the temple tank road."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Tiffin from 6:30 am",
+            "description": "Every day, 6:30 am – 10 pm",
+            "rows": [
+              {
+                "label": "Tiffin",
+                "hours": "6:30 – 11:30 am · 4 – 10 pm"
+              },
+              {
+                "label": "Lunch meals",
+                "hours": "12 – 3:30 pm"
+              },
+              {
+                "label": "Filter coffee",
+                "hours": "All day"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 44 2498 6611",
+            "note": "Open every day, including festivals."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

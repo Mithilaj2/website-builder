@@ -1,0 +1,67 @@
+{
+  "id": "restaurant_template_09",
+  "name": "Skyline Social",
+  "prefix": "sks",
+  "niche": "rooftop",
+  "seed": 9,
+  "mood": "dark",
+  "direction": "Nightlife rooftop: dark page, floating pill navigation, full-bleed cover hero, neon magenta and amber on midnight, Sora, tinted dish cards and a magenta band.",
+  "description": "A nightlife, dark design for rooftop bars, lounges, grills and gastropubs: floating navigation, a full-bleed hero, dish and cocktail cards, table booking for live-music nights and party packages.",
+  "theme": {
+    "primary": "#E0457B",
+    "secondary": "#F2B134",
+    "bg": "#0E0F16",
+    "text": "#ECEAF2",
+    "heading_font": "sora",
+    "body_font": "inter",
+    "radius": "14px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "cover",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "menu": "cards",
+    "about": "grid",
+    "services": "cards",
+    "stats": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "strip",
+    "opening_hours": "panel",
+    "events": "cards",
+    "footer": "centered",
+    "process": "line"
+  },
+  "surface": [
+    "menu",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "var(--wb-secondary)",
+    "link": "var(--wb-secondary)",
+    "icon": "tint",
+    "track": "-.02em",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "menu_heading": "Grill & glass",
+    "full_menu_heading": "Bites, grill & cocktails",
+    "hero_bg": true,
+    "header_button": "Book a table",
+    "hours_heading": "Open till 1 am",
+    "menu_sub": "Charcoal grill, bar bites and craft cocktails."
+  },
+  "category": "restaurant",
+  "version": "1.0.0"
+}

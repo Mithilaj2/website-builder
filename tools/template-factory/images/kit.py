@@ -114,7 +114,7 @@ def badge(cx, cy, r, fill, text, tc='#fff', fs=None):
 
 def text(x, y, s, size, fill, weight=700, anchor='start', op=None):
     o = f' opacity="{op}"' if op is not None else ''
-    return f'<text x="{x}" y="{y}" text-anchor="{anchor}" {F} font-size="{size}" font-weight="{weight}" fill="{fill}"{o}>{s}</text>'
+    return f'<text x="{x}" y="{y}" text-anchor="{anchor}" {F} font-size="{size}" font-weight="{weight}" fill="{fill}"{o}>{html.escape(str(s), quote=False)}</text>'
 
 
 def tree(x, base, s=1, c1='#6F8F6A', c2='#4E6E4C', trunk='#9A6B4A', kind='round'):

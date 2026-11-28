@@ -1,0 +1,922 @@
+{
+  "settings": {
+    "site": {
+      "name": "Lotus Wok",
+      "tagline": "Pan-Asian kitchen & bar · Jubilee Hills",
+      "phone": "+91 40 4455 2266",
+      "email": "hello@lotuswok.example",
+      "address": "Road No. 36, Jubilee Hills\nHyderabad, Telangana 500033",
+      "hours": "Every day, 12 – 4 pm and 7 – 11:30 pm",
+      "footer_about": "A pan-Asian kitchen and bar in Jubilee Hills: dim sum, sushi, ramen and wok dishes, with a weekend dim-sum brunch.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 13618033000112 (demo).",
+      "header_button": {
+        "text": "Book a table",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Lotus Wok, Hyderabad: A pan-Asian kitchen and bar in Jubilee Hills: dim sum, sushi, ramen and wok dishes, with a weekend dim-sum brunch. Book a table online.",
+      "keywords": "pan-asian kitchen & bar · jubilee hills, restaurant in Hyderabad, book a table Hyderabad"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Dim sum · sushi · wok",
+            "heading": "Asia, one small plate at a time",
+            "subheading": "Hand-pleated dim sum, sushi from our counter and wok-tossed noodles — with a dim-sum brunch every Saturday and Sunday.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Reserve a table",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "Dim sum hand-pleated daily"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "Weekend dim-sum brunch"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Vegetarian sushi menu"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "From one wok to forty kinds of dim sum",
+            "description": "<p>Lotus Wok opened in 2015 with a single wok station and a menu of twelve dishes.</p><p>Today our dim-sum kitchen pleats nearly 3,000 dumplings a day.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "11",
+            "experience_label": "years of wok",
+            "points": [
+              {
+                "text": "Dim sum pleated by hand"
+              },
+              {
+                "text": "Vegetarian sushi menu"
+              },
+              {
+                "text": "Weekend dim-sum brunch"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "Chef’s picks",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Crystal vegetable dumplings",
+                "description": "Water chestnut, carrot, chives.",
+                "price": "₹420",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-dimsum.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Prawn har gow",
+                "description": "Translucent wrappers, whole prawns.",
+                "price": "₹520",
+                "diet": "nonveg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-dimsum.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Avocado cream cheese roll",
+                "description": "Eight pieces.",
+                "price": "₹480",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-sushi.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Tonkotsu-style ramen",
+                "description": "Chicken broth, chashu, egg.",
+                "price": "₹590",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "Chef’s special",
+                "image": "theme:images/dish-ramen.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Kung pao chicken",
+                "description": "Peanuts, dried chillies.",
+                "price": "₹540",
+                "diet": "nonveg",
+                "spice": "3",
+                "tag": "",
+                "image": "theme:images/dish-noodles.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Mango sticky rice",
+                "description": "Coconut cream.",
+                "price": "₹340",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-hand-index",
+                "title": "Hand-pleated",
+                "description": "Every dumpling pleated by hand in our dim-sum kitchen."
+              },
+              {
+                "icon": "bi-fire",
+                "title": "Wok hei",
+                "description": "Noodles and stir-fries tossed over a roaring wok burner."
+              },
+              {
+                "icon": "bi-flower1",
+                "title": "Vegetarian sushi",
+                "description": "A full vegetarian sushi menu."
+              },
+              {
+                "icon": "bi-cup-straw",
+                "title": "Asian bar",
+                "description": "Cocktails with yuzu, lemongrass and lychee."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Lotus Wok",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-bar.svg",
+                "caption": "The bar"
+              },
+              {
+                "image": "theme:images/room-kitchen.svg",
+                "caption": "Our kitchen"
+              },
+              {
+                "image": "theme:images/room-private.svg",
+                "caption": "Private dining"
+              },
+              {
+                "image": "theme:images/dish-dimsum.svg",
+                "caption": "A basket of dim sum"
+              },
+              {
+                "image": "theme:images/dish-sushi.svg",
+                "caption": "Sushi rolls"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "The crystal dumplings are the best in Hyderabad.",
+                "name": "Sana Mirza",
+                "role": "Google review",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Weekend dim-sum brunch with the family is our favourite outing.",
+                "name": "Vikram Reddy",
+                "role": "Regular guest",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Great vegetarian sushi — finally!",
+                "name": "Aishwarya Rao",
+                "role": "Guest review",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table",
+            "description": "Book for lunch, dinner or the weekend dim-sum brunch.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8\n9–12",
+            "select2_label": "Time",
+            "select2_options": "12:30 pm\n1:30 pm\n2:30 pm\n7:30 pm\n8:30 pm\n9:30 pm",
+            "date_label": "Date",
+            "message_label": "Special requests (optional)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will confirm your table by SMS within 30 minutes.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Lunch",
+                "text": "12 – 4 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 40 4455 2266"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a party?",
+            "description": "Book the private room or order dim-sum and sushi platters for your home party.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914044552266"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Dim sum, sushi, ramen and wok dishes.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "Dim sum, sushi & wok",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Dim sum",
+                "name": "Crystal vegetable dumplings",
+                "description": "Water chestnut, carrot, chives.",
+                "price": "₹420",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-dimsum.svg"
+              },
+              {
+                "course": "Dim sum",
+                "name": "Chicken siu mai",
+                "description": "Open dumplings with shiitake.",
+                "price": "₹460",
+                "diet": "nonveg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-dimsum.svg"
+              },
+              {
+                "course": "Dim sum",
+                "name": "Prawn har gow",
+                "description": "Translucent wrappers, whole prawns.",
+                "price": "₹520",
+                "diet": "nonveg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-dimsum.svg"
+              },
+              {
+                "course": "Sushi",
+                "name": "Avocado cream cheese roll",
+                "description": "Eight pieces.",
+                "price": "₹480",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-sushi.svg"
+              },
+              {
+                "course": "Sushi",
+                "name": "Spicy tuna roll",
+                "description": "Sriracha mayo, tobiko.",
+                "price": "₹620",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-sushi.svg"
+              },
+              {
+                "course": "Sushi",
+                "name": "Tempura vegetable roll",
+                "description": "Crispy and fresh.",
+                "price": "₹460",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-sushi.svg"
+              },
+              {
+                "course": "Bowls & wok",
+                "name": "Tonkotsu-style ramen",
+                "description": "Chicken broth, chashu, egg.",
+                "price": "₹590",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "Chef’s special",
+                "image": "theme:images/dish-ramen.svg"
+              },
+              {
+                "course": "Bowls & wok",
+                "name": "Hakka noodles",
+                "description": "Wok-tossed vegetables.",
+                "price": "₹380",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-noodles.svg"
+              },
+              {
+                "course": "Bowls & wok",
+                "name": "Thai red curry",
+                "description": "With jasmine rice.",
+                "price": "₹480",
+                "diet": "veg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Bowls & wok",
+                "name": "Kung pao chicken",
+                "description": "Peanuts, dried chillies.",
+                "price": "₹540",
+                "diet": "nonveg",
+                "spice": "3",
+                "tag": "",
+                "image": "theme:images/dish-noodles.svg"
+              },
+              {
+                "course": "Desserts",
+                "name": "Matcha cheesecake",
+                "description": "With black sesame.",
+                "price": "₹380",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cheesecake.svg"
+              },
+              {
+                "course": "Desserts",
+                "name": "Mango sticky rice",
+                "description": "Coconut cream.",
+                "price": "₹340",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a party?",
+            "description": "Book the private room or order dim-sum and sushi platters for your home party.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914044552266"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "A pan-Asian kitchen and bar in Jubilee Hills: dim sum, sushi, ramen and wok dishes, with a weekend dim-sum brunch.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "From one wok to forty kinds of dim sum",
+            "description": "<p>Lotus Wok opened in 2015 with a single wok station and a menu of twelve dishes.</p><p>Today our dim-sum kitchen pleats nearly 3,000 dumplings a day.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "11",
+            "experience_label": "years of wok",
+            "points": [
+              {
+                "text": "Dim sum pleated by hand"
+              },
+              {
+                "text": "Vegetarian sushi menu"
+              },
+              {
+                "text": "Weekend dim-sum brunch"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2800",
+                "suffix": "+",
+                "label": "Dumplings a day",
+                "icon": ""
+              },
+              {
+                "number": "11",
+                "suffix": "",
+                "label": "Years in Jubilee Hills",
+                "icon": ""
+              },
+              {
+                "number": "40",
+                "suffix": "+",
+                "label": "Dim sum varieties",
+                "icon": ""
+              },
+              {
+                "number": "4.6",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "Chef Wong Li",
+                "role": "Head chef",
+                "bio": "Twenty years of dim sum in Hong Kong and Kolkata.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Arvind Rao",
+                "role": "Sushi chef",
+                "bio": "Runs the sushi counter.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Meera Shetty",
+                "role": "Bar manager",
+                "bio": "Creates our Asian cocktails.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Hyderabad Eats",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Wok Talk",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "The Spice Route Mag",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "City Table",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-door-closed",
+                "image": "theme:images/room-dining.svg",
+                "title": "Private dining",
+                "description": "A room for 20 with a set menu.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-briefcase",
+                "image": "theme:images/room-bar.svg",
+                "title": "Corporate lunches",
+                "description": "Set lunches for teams.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-truck",
+                "image": "theme:images/room-kitchen.svg",
+                "title": "Party platters",
+                "description": "Dim sum and sushi platters for home parties.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-19",
+                "time": "12 – 4 pm",
+                "title": "Festive dim-sum brunch",
+                "location": "Whole restaurant",
+                "description": "A special winter brunch with 30 kinds of dim sum.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Book brunch",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-01-29",
+                "time": "7 pm onwards",
+                "title": "Lunar New Year dinner",
+                "location": "Dining room",
+                "description": "A lucky eight-course menu with a lion dance.",
+                "image": "theme:images/room-bar.svg",
+                "link": {
+                  "text": "Reserve",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-02-14",
+                "time": "7:30 pm",
+                "title": "Valentine’s omakase",
+                "location": "Sushi counter",
+                "description": "Ten courses at the sushi counter for couples.",
+                "image": "theme:images/room-kitchen.svg",
+                "link": {
+                  "text": "Reserve",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a party?",
+            "description": "Book the private room or order dim-sum and sushi platters for your home party.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+914044552266"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Book for lunch, dinner or the weekend dim-sum brunch.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table",
+            "description": "Book for lunch, dinner or the weekend dim-sum brunch.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8\n9–12",
+            "select2_label": "Time",
+            "select2_options": "12:30 pm\n1:30 pm\n2:30 pm\n7:30 pm\n8:30 pm\n9:30 pm",
+            "date_label": "Date",
+            "message_label": "Special requests (optional)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will confirm your table by SMS within 30 minutes.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Lunch",
+                "text": "12 – 4 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 40 4455 2266"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 12 – 4 pm and 7 – 11:30 pm",
+            "rows": [
+              {
+                "label": "Lunch",
+                "hours": "12 – 4 pm"
+              },
+              {
+                "label": "Dinner",
+                "hours": "7 – 11:30 pm"
+              },
+              {
+                "label": "Dim-sum brunch",
+                "hours": "Sat – Sun, 12 – 4 pm"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 40 4455 2266",
+            "note": "The bar stays open until midnight on weekends."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "Is there a vegetarian menu?",
+                "answer": "Yes, more than half of our dishes, including sushi, are vegetarian."
+              },
+              {
+                "question": "What is the dim-sum brunch?",
+                "answer": "Unlimited dim sum, small plates and dessert every Saturday and Sunday from 12 to 4 pm."
+              },
+              {
+                "question": "Do you deliver?",
+                "answer": "Yes, within 7 km."
+              },
+              {
+                "question": "Is there parking?",
+                "answer": "Valet parking is available."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 12 – 4 pm and 7 – 11:30 pm",
+            "rows": [
+              {
+                "label": "Lunch",
+                "hours": "12 – 4 pm"
+              },
+              {
+                "label": "Dinner",
+                "hours": "7 – 11:30 pm"
+              },
+              {
+                "label": "Dim-sum brunch",
+                "hours": "Sat – Sun, 12 – 4 pm"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 40 4455 2266",
+            "note": "The bar stays open until midnight on weekends."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,942 @@
+{
+  "settings": {
+    "site": {
+      "name": "Morning Ritual Café",
+      "tagline": "All-day café & bakery · Indiranagar",
+      "phone": "+91 80 4123 7788",
+      "email": "hello@morningritual.example",
+      "address": "1012, 12th Main Road, HAL 2nd Stage\nIndiranagar, Bengaluru 560038",
+      "hours": "Every day, 8 am – 10:30 pm",
+      "footer_about": "An all-day café in Indiranagar serving single-estate coffee, brunch plates and bakes from our own oven.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 11219334000456 (demo).",
+      "header_button": {
+        "text": "Book a table",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Morning Ritual Café, Bengaluru: An all-day café in Indiranagar serving single-estate coffee, brunch plates and bakes from our own oven. Book a table online.",
+      "keywords": "all-day café & bakery · indiranagar, restaurant in Bengaluru, book a table Bengaluru"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Coffee · brunch · bakes",
+            "heading": "Slow mornings start here",
+            "subheading": "Single-estate pour-overs, sourdough toasts and pastries out of the oven every hour — in a sunlit room with plenty of plug points.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Reserve a table",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "Open every day from 8 am"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "Coffee from Chikmagalur estates"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Pet-friendly garden seating"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A neighbourhood café, since 2018",
+            "description": "<p>Morning Ritual opened in a corner bungalow in Indiranagar with one espresso machine and a small oven.</p><p>Today we roast beans from three Chikmagalur estates and bake everything in-house — but the garden is still the best seat.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "8",
+            "experience_label": "years of good mornings",
+            "points": [
+              {
+                "text": "Single-estate coffee"
+              },
+              {
+                "text": "Everything baked in-house"
+              },
+              {
+                "text": "Pet-friendly garden"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "Our favourites",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Single-estate pour-over",
+                "description": "Ask for today’s estate; brewed by hand.",
+                "price": "₹260",
+                "diet": "vegan",
+                "spice": "0",
+                "tag": "Barista’s pick",
+                "image": "theme:images/dish-coffee.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Avocado sourdough toast",
+                "description": "Smashed avocado, chilli oil, feta and a poached egg.",
+                "price": "₹420",
+                "diet": "egg",
+                "spice": "1",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-bread.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Buttermilk waffles",
+                "description": "Berry compote, mascarpone and maple.",
+                "price": "₹380",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-waffle.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Harvest bowl",
+                "description": "Millet, roast vegetables, hummus and seeds.",
+                "price": "₹390",
+                "diet": "vegan",
+                "spice": "0",
+                "tag": "Vegan",
+                "image": "theme:images/dish-salad.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Smash burger",
+                "description": "Double patty, cheddar, pickles and house sauce.",
+                "price": "₹490",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-burger.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Butter croissant",
+                "description": "Laminated for three days, baked every hour.",
+                "price": "₹180",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "From our oven",
+                "image": "theme:images/dish-croissant.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-cup-hot",
+                "title": "Single-estate coffee",
+                "description": "Beans from three Chikmagalur estates, roasted every week."
+              },
+              {
+                "icon": "bi-basket",
+                "title": "Baked in-house",
+                "description": "Croissants, loaves and cakes from our own oven."
+              },
+              {
+                "icon": "bi-wifi",
+                "title": "Work-friendly",
+                "description": "Fast Wi-Fi and plug points at every table."
+              },
+              {
+                "icon": "bi-heart",
+                "title": "Pet-friendly",
+                "description": "Dogs are welcome in the garden."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Morning Ritual Café",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-cafe.svg",
+                "caption": "The counter"
+              },
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-kitchen.svg",
+                "caption": "Our kitchen"
+              },
+              {
+                "image": "theme:images/room-terrace.svg",
+                "caption": "The terrace"
+              },
+              {
+                "image": "theme:images/dish-coffee.svg",
+                "caption": "A cup of coffee"
+              },
+              {
+                "image": "theme:images/dish-bread.svg",
+                "caption": "A loaf of bread"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "The best flat white in Indiranagar, and the croissants are as good as any in Paris.",
+                "name": "Shreya Rao",
+                "role": "Google review",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "My Saturday ritual: pour-over, waffles and a book in the garden.",
+                "name": "Arjun Menon",
+                "role": "Regular since 2019",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "They made a birthday cake for my daughter at two days’ notice.",
+                "name": "Neha Pillai",
+                "role": "Celebration order",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Reserve a table",
+            "description": "Walk-ins are always welcome; book for groups of four or more, or for weekend brunch.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8",
+            "select2_label": "Time",
+            "select2_options": "8:00 am\n9:30 am\n11:00 am\n12:30 pm\n4:00 pm\n7:00 pm",
+            "date_label": "Date",
+            "message_label": "Anything we should know? (birthday, pets, high chair)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will confirm your table on WhatsApp shortly.",
+            "image": "theme:images/room-cafe.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Monday – Friday",
+                "text": "8 am – 10:30 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 80 4123 7788"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a birthday or team brunch?",
+            "description": "Our garden seats 30 and we bake celebration cakes to order.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918041237788"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Coffee, brunch plates and bakes — all made in-house.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "Coffee, brunch & bakes",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Coffee",
+                "name": "Single-estate pour-over",
+                "description": "Ask for today’s estate; brewed by hand.",
+                "price": "₹260",
+                "diet": "vegan",
+                "spice": "0",
+                "tag": "Barista’s pick",
+                "image": "theme:images/dish-coffee.svg"
+              },
+              {
+                "course": "Coffee",
+                "name": "Flat white",
+                "description": "Double ristretto, silky milk.",
+                "price": "₹220",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-coffee.svg"
+              },
+              {
+                "course": "Coffee",
+                "name": "Cold brew tonic",
+                "description": "18-hour cold brew over tonic and orange.",
+                "price": "₹240",
+                "diet": "vegan",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cocktail.svg"
+              },
+              {
+                "course": "Coffee",
+                "name": "Kokum cold coffee",
+                "description": "Our house cold coffee with a kokum twist.",
+                "price": "₹250",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "New",
+                "image": "theme:images/dish-lassi.svg"
+              },
+              {
+                "course": "Brunch",
+                "name": "Avocado sourdough toast",
+                "description": "Smashed avocado, chilli oil, feta and a poached egg.",
+                "price": "₹420",
+                "diet": "egg",
+                "spice": "1",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-bread.svg"
+              },
+              {
+                "course": "Brunch",
+                "name": "Buttermilk waffles",
+                "description": "Berry compote, mascarpone and maple.",
+                "price": "₹380",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-waffle.svg"
+              },
+              {
+                "course": "Brunch",
+                "name": "Masala scrambled eggs",
+                "description": "Akuri-style eggs on brioche with green chutney.",
+                "price": "₹340",
+                "diet": "egg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-bread.svg"
+              },
+              {
+                "course": "Brunch",
+                "name": "Harvest bowl",
+                "description": "Millet, roast vegetables, hummus and seeds.",
+                "price": "₹390",
+                "diet": "vegan",
+                "spice": "0",
+                "tag": "Vegan",
+                "image": "theme:images/dish-salad.svg"
+              },
+              {
+                "course": "Mains",
+                "name": "Pesto pasta",
+                "description": "Basil pesto, burst tomatoes and parmesan.",
+                "price": "₹440",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-pasta.svg"
+              },
+              {
+                "course": "Mains",
+                "name": "Smash burger",
+                "description": "Double patty, cheddar, pickles and house sauce.",
+                "price": "₹490",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-burger.svg"
+              },
+              {
+                "course": "Mains",
+                "name": "Thai green curry bowl",
+                "description": "Vegetables in green curry with jasmine rice.",
+                "price": "₹420",
+                "diet": "vegan",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Bakes",
+                "name": "Butter croissant",
+                "description": "Laminated for three days, baked every hour.",
+                "price": "₹180",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "From our oven",
+                "image": "theme:images/dish-croissant.svg"
+              },
+              {
+                "course": "Bakes",
+                "name": "Basque cheesecake",
+                "description": "Burnt top, creamy centre.",
+                "price": "₹320",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cheesecake.svg"
+              },
+              {
+                "course": "Bakes",
+                "name": "Dark chocolate cake",
+                "description": "70% chocolate with sea salt.",
+                "price": "₹290",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cake.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a birthday or team brunch?",
+            "description": "Our garden seats 30 and we bake celebration cakes to order.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918041237788"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "An all-day café in Indiranagar serving single-estate coffee, brunch plates and bakes from our own oven.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A neighbourhood café, since 2018",
+            "description": "<p>Morning Ritual opened in a corner bungalow in Indiranagar with one espresso machine and a small oven.</p><p>Today we roast beans from three Chikmagalur estates and bake everything in-house — but the garden is still the best seat.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "8",
+            "experience_label": "years of good mornings",
+            "points": [
+              {
+                "text": "Single-estate coffee"
+              },
+              {
+                "text": "Everything baked in-house"
+              },
+              {
+                "text": "Pet-friendly garden"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1200",
+                "suffix": "+",
+                "label": "Cups a day",
+                "icon": ""
+              },
+              {
+                "number": "8",
+                "suffix": "",
+                "label": "Years of mornings",
+                "icon": ""
+              },
+              {
+                "number": "3",
+                "suffix": "",
+                "label": "Coffee estates",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Google rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "Ira Kamath",
+                "role": "Founder & head barista",
+                "bio": "Started the café after ten years in coffee trading.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Joel Fernandes",
+                "role": "Head baker",
+                "bio": "Laminates every croissant by hand.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Meghna Sinha",
+                "role": "Kitchen lead",
+                "bio": "Builds our brunch menu every season.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Bean Journal",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "City Brunch Club",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Weekend Plate",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Urban Crumbs",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-cake2",
+                "image": "theme:images/room-cafe.svg",
+                "title": "Celebration cakes",
+                "description": "Custom cakes with two days’ notice.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-people",
+                "image": "theme:images/room-dining.svg",
+                "title": "Private brunches",
+                "description": "The garden for up to 30 guests on weekday mornings.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-box-seam",
+                "image": "theme:images/room-kitchen.svg",
+                "title": "Office coffee",
+                "description": "Beans, brewers and pastries delivered to your office.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-13",
+                "time": "10 am – 12 pm",
+                "title": "Latte art workshop",
+                "location": "Coffee bar",
+                "description": "Learn to pour hearts and rosettas with our head barista. ₹1,200 per person, coffee included.",
+                "image": "theme:images/room-cafe.svg",
+                "link": {
+                  "text": "Reserve a spot",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2026-12-20",
+                "time": "9 am – 1 pm",
+                "title": "Christmas bake sale",
+                "location": "Garden",
+                "description": "Stollen, plum cake and cookies, with proceeds to a local shelter.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Visit us",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-01-10",
+                "time": "8 am – 11 am",
+                "title": "Sunday run & brunch",
+                "location": "Starts at the café",
+                "description": "A 5 km run around Indiranagar, then brunch at the café.",
+                "image": "theme:images/room-kitchen.svg",
+                "link": {
+                  "text": "Sign up",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a birthday or team brunch?",
+            "description": "Our garden seats 30 and we bake celebration cakes to order.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918041237788"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Walk-ins are always welcome; book for groups of four or more, or for weekend brunch.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Reserve a table",
+            "description": "Walk-ins are always welcome; book for groups of four or more, or for weekend brunch.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8",
+            "select2_label": "Time",
+            "select2_options": "8:00 am\n9:30 am\n11:00 am\n12:30 pm\n4:00 pm\n7:00 pm",
+            "date_label": "Date",
+            "message_label": "Anything we should know? (birthday, pets, high chair)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will confirm your table on WhatsApp shortly.",
+            "image": "theme:images/room-cafe.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Monday – Friday",
+                "text": "8 am – 10:30 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 80 4123 7788"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 8 am – 10:30 pm",
+            "rows": [
+              {
+                "label": "Monday – Friday",
+                "hours": "8 am – 10:30 pm"
+              },
+              {
+                "label": "Saturday – Sunday",
+                "hours": "8 am – 11 pm"
+              },
+              {
+                "label": "Weekend brunch",
+                "hours": "9 am – 3 pm"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 80 4123 7788",
+            "note": "The kitchen closes 30 minutes before closing time."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you take reservations?",
+                "answer": "Yes, for groups of four or more and for weekend brunch. Walk-ins are always welcome."
+              },
+              {
+                "question": "Do you have vegan options?",
+                "answer": "Yes — vegan dishes are marked on the menu, and we have oat and almond milk."
+              },
+              {
+                "question": "Can I work from the café?",
+                "answer": "Of course. We ask laptop users to share tables at weekend lunchtime."
+              },
+              {
+                "question": "Do you take cake orders?",
+                "answer": "Yes, with two days’ notice. Call or message us."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 8 am – 10:30 pm",
+            "rows": [
+              {
+                "label": "Monday – Friday",
+                "hours": "8 am – 10:30 pm"
+              },
+              {
+                "label": "Saturday – Sunday",
+                "hours": "8 am – 11 pm"
+              },
+              {
+                "label": "Weekend brunch",
+                "hours": "9 am – 3 pm"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 80 4123 7788",
+            "note": "The kitchen closes 30 minutes before closing time."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

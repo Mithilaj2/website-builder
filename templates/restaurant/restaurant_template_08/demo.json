@@ -1,0 +1,912 @@
+{
+  "settings": {
+    "site": {
+      "name": "Konkan Catch",
+      "tagline": "Coastal seafood kitchen · Mangaluru",
+      "phone": "+91 824 242 3344",
+      "email": "tables@konkancatch.example",
+      "address": "Lighthouse Hill Road, Hampankatta\nMangaluru, Karnataka 575001",
+      "hours": "Every day, 11:30 am – 3:30 pm and 7 – 11 pm",
+      "footer_about": "A coastal seafood restaurant in Mangaluru cooking the day’s catch in Mangalorean, Goan and Malvani styles.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 11218055000234 (demo).",
+      "header_button": {
+        "text": "Book a table",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Konkan Catch, Mangaluru: A coastal seafood restaurant in Mangaluru cooking the day’s catch in Mangalorean, Goan and Malvani styles. Book a table online.",
+      "keywords": "coastal seafood kitchen · mangaluru, restaurant in Mangaluru, book a table Mangaluru"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Today’s catch, coastal recipes",
+            "heading": "From the boat to your banana leaf",
+            "subheading": "Kane rava fry, prawn ghee roast and fish thalis cooked with coconut, kokum and our own masalas — the catch changes every morning.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Reserve a table",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "Fresh catch every morning"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "Masalas ground in-house"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Thalis at lunch, every day"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Grandmother’s recipes, today’s catch",
+            "description": "<p>Konkan Catch opened in 2010 with eight tables and a menu written on a blackboard each morning.</p><p>We still buy fish at the harbour at dawn and grind every masala ourselves.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "16",
+            "experience_label": "years by the coast",
+            "points": [
+              {
+                "text": "Harbour-fresh fish"
+              },
+              {
+                "text": "Masalas ground in-house"
+              },
+              {
+                "text": "A full vegetarian menu"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "Fresh off the boat",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Prawn ghee roast",
+                "description": "Byadgi chilli, ghee and tamarind.",
+                "price": "₹520",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Signature",
+                "image": "theme:images/dish-prawns.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Kane rava fry",
+                "description": "Ladyfish in semolina crust.",
+                "price": "₹460",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-fish.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Fish curry rice",
+                "description": "Today’s fish in kokum curry.",
+                "price": "₹380",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Fish thali",
+                "description": "Fried fish, curry, sukka, rice, solkadhi.",
+                "price": "₹480",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Lunch",
+                "image": "theme:images/dish-thali.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Prawn biryani",
+                "description": "Coastal-style, with coconut.",
+                "price": "₹520",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-biryani.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Gadbad ice cream",
+                "description": "Mangalore’s famous sundae.",
+                "price": "₹220",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Must try",
+                "image": "theme:images/dish-icecream.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-water",
+                "title": "Fresh catch",
+                "description": "Bought at the harbour every morning at 6."
+              },
+              {
+                "icon": "bi-fire",
+                "title": "Masalas ground in-house",
+                "description": "Byadgi chillies, coconut and kokum."
+              },
+              {
+                "icon": "bi-flower1",
+                "title": "Vegetarian coast",
+                "description": "A full vegetarian coastal menu."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Family recipes",
+                "description": "From our grandmother’s kitchen in Udupi."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Konkan Catch",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-kitchen.svg",
+                "caption": "Our kitchen"
+              },
+              {
+                "image": "theme:images/room-terrace.svg",
+                "caption": "The terrace"
+              },
+              {
+                "image": "theme:images/room-private.svg",
+                "caption": "Private dining"
+              },
+              {
+                "image": "theme:images/dish-prawns.svg",
+                "caption": "A bowl of prawns"
+              },
+              {
+                "image": "theme:images/dish-fish.svg",
+                "caption": "A whole grilled fish"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "The prawn ghee roast is exactly how my mother made it.",
+                "name": "Sharan Shetty",
+                "role": "Google review",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Fish thali for lunch, gadbad for dessert — perfect Mangalore day.",
+                "name": "Rina Joseph",
+                "role": "Visiting from Bengaluru",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "They hosted our family reunion of 60 and the food was outstanding.",
+                "name": "Ashok Kamath",
+                "role": "Private event",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table",
+            "description": "Book for lunch or dinner; ask about the day’s catch when you call.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8\n9–15",
+            "select2_label": "Time",
+            "select2_options": "12:00 pm\n1:00 pm\n2:00 pm\n7:30 pm\n8:30 pm\n9:30 pm",
+            "date_label": "Date",
+            "message_label": "Special requests (optional)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will call you to confirm your table.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Lunch",
+                "text": "11:30 am – 3:30 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 824 242 3344"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Celebrate on the terrace",
+            "description": "Book the terrace or our family hall for birthdays, reunions and anniversaries.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918242423344"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Today’s catch, cooked the coastal way.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "Starters, curries, thalis & sweets",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Starters",
+                "name": "Prawn ghee roast",
+                "description": "Byadgi chilli, ghee and tamarind.",
+                "price": "₹520",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Signature",
+                "image": "theme:images/dish-prawns.svg"
+              },
+              {
+                "course": "Starters",
+                "name": "Kane rava fry",
+                "description": "Ladyfish in semolina crust.",
+                "price": "₹460",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-fish.svg"
+              },
+              {
+                "course": "Starters",
+                "name": "Mushroom sukka",
+                "description": "Dry coconut masala.",
+                "price": "₹320",
+                "diet": "veg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Curries",
+                "name": "Kori gassi",
+                "description": "Chicken in coconut and red chilli curry, with neer dosa.",
+                "price": "₹420",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Curries",
+                "name": "Fish curry rice",
+                "description": "Today’s fish in kokum curry.",
+                "price": "₹380",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Curries",
+                "name": "Prawn malvani",
+                "description": "Coconut and kokum.",
+                "price": "₹540",
+                "diet": "nonveg",
+                "spice": "3",
+                "tag": "",
+                "image": "theme:images/dish-prawns.svg"
+              },
+              {
+                "course": "Thalis",
+                "name": "Fish thali",
+                "description": "Fried fish, curry, sukka, rice, solkadhi.",
+                "price": "₹480",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Lunch",
+                "image": "theme:images/dish-thali.svg"
+              },
+              {
+                "course": "Thalis",
+                "name": "Veg coastal thali",
+                "description": "Five vegetables, dal, rice and solkadhi.",
+                "price": "₹320",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-thali.svg"
+              },
+              {
+                "course": "Rice & sweets",
+                "name": "Prawn biryani",
+                "description": "Coastal-style, with coconut.",
+                "price": "₹520",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-biryani.svg"
+              },
+              {
+                "course": "Rice & sweets",
+                "name": "Neer dosa",
+                "description": "Three soft rice crêpes.",
+                "price": "₹90",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-dosa.svg"
+              },
+              {
+                "course": "Rice & sweets",
+                "name": "Gadbad ice cream",
+                "description": "Mangalore’s famous sundae.",
+                "price": "₹220",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Must try",
+                "image": "theme:images/dish-icecream.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Celebrate on the terrace",
+            "description": "Book the terrace or our family hall for birthdays, reunions and anniversaries.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918242423344"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "A coastal seafood restaurant in Mangaluru cooking the day’s catch in Mangalorean, Goan and Malvani styles.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Grandmother’s recipes, today’s catch",
+            "description": "<p>Konkan Catch opened in 2010 with eight tables and a menu written on a blackboard each morning.</p><p>We still buy fish at the harbour at dawn and grind every masala ourselves.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "16",
+            "experience_label": "years by the coast",
+            "points": [
+              {
+                "text": "Harbour-fresh fish"
+              },
+              {
+                "text": "Masalas ground in-house"
+              },
+              {
+                "text": "A full vegetarian menu"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "16",
+                "suffix": "",
+                "label": "Years by the coast",
+                "icon": ""
+              },
+              {
+                "number": "300",
+                "suffix": " kg",
+                "label": "Seafood a day",
+                "icon": ""
+              },
+              {
+                "number": "22",
+                "suffix": "",
+                "label": "Kinds of fish in season",
+                "icon": ""
+              },
+              {
+                "number": "4.7",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "Rekha Shetty",
+                "role": "Founder & head cook",
+                "bio": "Cooks from her grandmother’s Udupi recipes.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Prashanth Poojary",
+                "role": "Fish buyer",
+                "bio": "At the harbour every morning at six.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Joel Lobo",
+                "role": "Head chef",
+                "bio": "Twenty years of coastal kitchens.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Coastal Food Guide",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Karavali Times",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Harbour Notes",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Spice Coast Eats",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house",
+                "image": "theme:images/room-dining.svg",
+                "title": "Family hall",
+                "description": "A first-floor hall for up to 60 guests.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-truck",
+                "image": "theme:images/room-kitchen.svg",
+                "title": "Coastal catering",
+                "description": "Mangalorean menus for weddings and functions.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-basket",
+                "image": "theme:images/room-terrace.svg",
+                "title": "Masalas to take home",
+                "description": "Our ghee roast and gassi masalas in jars.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-12",
+                "time": "7 pm onwards",
+                "title": "Monsoon catch festival",
+                "location": "Terrace",
+                "description": "Twelve kinds of seafood, cooked six ways.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-01-09",
+                "time": "12 – 3 pm",
+                "title": "Tulu Nadu Sunday lunch",
+                "location": "Dining room",
+                "description": "A traditional Tuluva meal on banana leaf.",
+                "image": "theme:images/room-kitchen.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-02-20",
+                "time": "7:30 pm",
+                "title": "Crab night",
+                "location": "Terrace",
+                "description": "Mud crab in butter garlic, ghee roast and masala.",
+                "image": "theme:images/room-terrace.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Celebrate on the terrace",
+            "description": "Book the terrace or our family hall for birthdays, reunions and anniversaries.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+918242423344"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Book for lunch or dinner; ask about the day’s catch when you call.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table",
+            "description": "Book for lunch or dinner; ask about the day’s catch when you call.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8\n9–15",
+            "select2_label": "Time",
+            "select2_options": "12:00 pm\n1:00 pm\n2:00 pm\n7:30 pm\n8:30 pm\n9:30 pm",
+            "date_label": "Date",
+            "message_label": "Special requests (optional)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will call you to confirm your table.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Lunch",
+                "text": "11:30 am – 3:30 pm"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 824 242 3344"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 11:30 am – 3:30 pm and 7 – 11 pm",
+            "rows": [
+              {
+                "label": "Lunch",
+                "hours": "11:30 am – 3:30 pm"
+              },
+              {
+                "label": "Dinner",
+                "hours": "7 – 11 pm"
+              },
+              {
+                "label": "Fish market prices",
+                "hours": "Updated at 11 am daily"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 824 242 3344",
+            "note": "Some fish sell out by evening — call ahead for pomfret and kingfish."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "Is the fish fresh?",
+                "answer": "We buy at the harbour every morning; ask your server what came in today."
+              },
+              {
+                "question": "Do you have vegetarian food?",
+                "answer": "Yes — a full vegetarian coastal menu and thali."
+              },
+              {
+                "question": "Can I order the fish of my choice?",
+                "answer": "Choose from the display and how you would like it cooked — fry, tawa or curry."
+              },
+              {
+                "question": "Do you cater?",
+                "answer": "Yes, coastal menus for weddings and family functions."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 11:30 am – 3:30 pm and 7 – 11 pm",
+            "rows": [
+              {
+                "label": "Lunch",
+                "hours": "11:30 am – 3:30 pm"
+              },
+              {
+                "label": "Dinner",
+                "hours": "7 – 11 pm"
+              },
+              {
+                "label": "Fish market prices",
+                "hours": "Updated at 11 am daily"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 824 242 3344",
+            "note": "Some fish sell out by evening — call ahead for pomfret and kingfish."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

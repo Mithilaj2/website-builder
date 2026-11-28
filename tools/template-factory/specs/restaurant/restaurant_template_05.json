@@ -1,0 +1,70 @@
+{
+  "id": "restaurant_template_05",
+  "name": "Ember & Oak",
+  "prefix": "eao",
+  "niche": "finedining",
+  "seed": 5,
+  "mood": "dark",
+  "direction": "Moody fine dining: dark page, centred masthead, editorial hero, ember orange and brass on charcoal, Cormorant serif headings, a menu board with leaders, hairline cards.",
+  "description": "A moody, refined dark design for fine-dining, tasting-menu and chef-led restaurants: centred masthead, an editorial hero, a menu board with tasting menus, a reservation form, guest-chef events and a private dining room.",
+  "theme": {
+    "primary": "#D9773A",
+    "secondary": "#C9A46A",
+    "bg": "#121010",
+    "text": "#EDE6DE",
+    "heading_font": "cormorant-garamond",
+    "body_font": "jost",
+    "radius": "2px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "editorial",
+    "banner": "light",
+    "head": "serif",
+    "card": "line",
+    "menu": "board",
+    "about": "layered",
+    "services": "rows",
+    "stats": "inline",
+    "testimonials": "featured",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "strip",
+    "opening_hours": "panel",
+    "events": "list",
+    "footer": "centered",
+    "process": "cards"
+  },
+  "surface": [
+    "menu",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "var(--wb-secondary)",
+    "link": "var(--wb-secondary)",
+    "icon": "soft",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": ".01em",
+    "hero_scale": 1.12,
+    "btn_case": "uppercase",
+    "btn_track": ".12em"
+  },
+  "demo": {
+    "menu_heading": "From the hearth",
+    "full_menu_heading": "Tasting menus",
+    "book_label": "Reserve your evening",
+    "header_button": "Reserve",
+    "hours_heading": "Dinner, Wednesday to Sunday",
+    "menu_sub": "Seasonal tasting menus, cooked over fire."
+  },
+  "category": "restaurant",
+  "version": "1.0.0"
+}

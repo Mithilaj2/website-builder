@@ -1,0 +1,62 @@
+{
+  "id": "restaurant_template_08",
+  "name": "Konkan Catch",
+  "prefix": "kkc",
+  "niche": "seafood",
+  "seed": 8,
+  "direction": "Coastal and lively: dark navigation, colour-panel hero, ocean blue and chilli red on sand, Montserrat headings, a menu board with leaders, accent-topped cards and an hours band.",
+  "description": "A lively, coastal design for seafood, Goan, Mangalorean and Malvani restaurants: dark navigation, a colour-panel hero, a menu board with dotted price leaders, a booking form and catch-of-the-season events.",
+  "theme": {
+    "primary": "#155E8A",
+    "secondary": "#D9472B",
+    "bg": "#FFFCF5",
+    "text": "#14232E",
+    "heading_font": "montserrat",
+    "body_font": "open-sans",
+    "radius": "8px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "panel",
+    "banner": "solid",
+    "head": "bar",
+    "card": "top",
+    "menu": "board",
+    "about": "grid",
+    "services": "cards",
+    "stats": "band",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "boxed",
+    "opening_hours": "band",
+    "events": "list",
+    "footer": "columns",
+    "process": "cards"
+  },
+  "surface": [
+    "menu",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "accent",
+    "track": "-.01em",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "menu_heading": "Fresh off the boat",
+    "full_menu_heading": "Starters, curries, thalis & sweets",
+    "header_button": "Book a table",
+    "menu_sub": "Today’s catch, cooked the coastal way."
+  },
+  "category": "restaurant",
+  "version": "1.0.0"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "restaurant_template_10",
+  "name": "Pind Da Dhaba",
+  "prefix": "pdd",
+  "niche": "dhaba",
+  "seed": 10,
+  "direction": "Earthy Punjabi: info bar header, editorial hero, mustard and brick on khaki, Poppins, a menu board with dotted leaders, accent-topped cards, an hours panel and a light footer.",
+  "description": "An earthy, welcoming design for dhabas, North Indian and family restaurants: info bar, an editorial hero, a menu board with price leaders, a family-table booking form, festival events and catering.",
+  "theme": {
+    "primary": "#9C3D1F",
+    "secondary": "#E3A72F",
+    "bg": "#FBF5E9",
+    "text": "#2A1E14",
+    "heading_font": "poppins",
+    "body_font": "dm-sans",
+    "radius": "10px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "editorial",
+    "banner": "solid",
+    "head": "rule",
+    "card": "top",
+    "menu": "board",
+    "about": "single",
+    "services": "rows",
+    "stats": "band",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "boxed",
+    "opening_hours": "panel",
+    "events": "list",
+    "footer": "band",
+    "process": "timeline"
+  },
+  "surface": [
+    "menu",
+    "testimonials"
+  ],
+  "footer_style": "light",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "accent",
+    "heading_weight": 700,
+    "hero_weight": 700,
+    "track": "-.01em",
+    "card": "#FFFFFF",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "menu_heading": "Dhaba favourites",
+    "full_menu_heading": "From the tandoor & the kadhai",
+    "book_label": "Book a family table",
+    "header_button": "Book a table",
+    "menu_sub": "Kulchas, curries and lassi since 1988."
+  },
+  "category": "restaurant",
+  "version": "1.0.0"
+}

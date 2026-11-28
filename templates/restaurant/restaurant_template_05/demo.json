@@ -1,0 +1,902 @@
+{
+  "settings": {
+    "site": {
+      "name": "Ember & Oak",
+      "tagline": "Modern Indian tasting menus · Mehrauli",
+      "phone": "+91 11 4060 9900",
+      "email": "reservations@emberandoak.example",
+      "address": "Kalka Das Marg, near Qutub Minar\nMehrauli, New Delhi 110030",
+      "hours": "Wed–Sun, dinner only, 7 – 11 pm",
+      "footer_about": "A modern Indian tasting-menu restaurant in Mehrauli, cooking over fire with produce from small farms.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 13319011000654 (demo).",
+      "header_button": {
+        "text": "Reserve",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Ember & Oak, New Delhi: A modern Indian tasting-menu restaurant in Mehrauli, cooking over fire with produce from small farms. Book a table online.",
+      "keywords": "modern indian tasting menus · mehrauli, restaurant in New Delhi, book a table New Delhi"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Modern Indian, cooked over fire",
+            "heading": "Twelve courses. One fire. Your evening.",
+            "subheading": "A seasonal tasting menu built around a wood fire, heritage grains and produce from fourteen small farms — with views of the Qutub at sunset.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Reserve your evening",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "Tasting menus Wednesday to Sunday"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "Wine and zero-proof pairings"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Views of the Qutub Minar"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A restaurant built around a fire",
+            "description": "<p>Ember & Oak opened in 2019 in a restored stone house in Mehrauli, with an oak-fired hearth at its centre.</p><p>Our menus change four times a year with the farms we work with.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "7",
+            "experience_label": "years of fire",
+            "points": [
+              {
+                "text": "Oak-fired hearth"
+              },
+              {
+                "text": "Fourteen small farms"
+              },
+              {
+                "text": "Menus change with the seasons"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "From the hearth",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Smoked beetroot tartlet",
+                "description": "Goat cheese, curry leaf.",
+                "price": "Tasting",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-salad.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Ember-roasted lamb",
+                "description": "Lamb shoulder, black garlic, roomali.",
+                "price": "Tasting",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "Signature",
+                "image": "theme:images/dish-steak.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Whole river fish",
+                "description": "Banana leaf, green masala.",
+                "price": "Tasting",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-fish.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Charred jackfruit",
+                "description": "Raw jackfruit, smoked yoghurt, millet.",
+                "price": "Tasting",
+                "diet": "vegan",
+                "spice": "1",
+                "tag": "Vegetarian menu",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Twelve-course tasting",
+                "description": "The full journey, about three hours.",
+                "price": "₹6,500",
+                "diet": "",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-steak.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Jaggery & smoke",
+                "description": "Jaggery ice cream, smoked milk, sesame.",
+                "price": "Tasting",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-fire",
+                "title": "Cooked over fire",
+                "description": "An oak-fired hearth at the heart of the kitchen."
+              },
+              {
+                "icon": "bi-flower3",
+                "title": "Fourteen farms",
+                "description": "Produce from small farms within 300 km."
+              },
+              {
+                "icon": "bi-cup-straw",
+                "title": "Pairings",
+                "description": "Wine and zero-proof pairings for every course."
+              },
+              {
+                "icon": "bi-eye",
+                "title": "Chef’s counter",
+                "description": "Six seats facing the fire."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Ember & Oak",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-bar.svg",
+                "caption": "The bar"
+              },
+              {
+                "image": "theme:images/room-kitchen.svg",
+                "caption": "Our kitchen"
+              },
+              {
+                "image": "theme:images/room-private.svg",
+                "caption": "Private dining"
+              },
+              {
+                "image": "theme:images/dish-salad.svg",
+                "caption": "A salad bowl"
+              },
+              {
+                "image": "theme:images/dish-steak.svg",
+                "caption": "A grilled steak"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "The most memorable meal I have eaten in Delhi — every course told a story.",
+                "name": "Aditi Mehra",
+                "role": "Guest review",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The chef’s counter is theatre. Book it.",
+                "name": "James Whitfield",
+                "role": "Visiting from London",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "An astonishing vegetarian menu, from the first bite to the last.",
+                "name": "Sanjana Kapur",
+                "role": "Food writer",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Reserve your evening",
+            "description": "Tables are released 30 days ahead. Please tell us about allergies when you book.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–6",
+            "select2_label": "Time",
+            "select2_options": "7:00 pm\n7:30 pm\n8:30 pm\n9:00 pm",
+            "date_label": "Date",
+            "message_label": "Allergies, dietary needs or the occasion",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you. Our reservations team will confirm your table by email within a day.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Monday – Tuesday",
+                "text": "Closed"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 11 4060 9900"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "The private dining room",
+            "description": "Host fourteen guests with a menu written for your evening.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911140609900"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Seasonal tasting menus, cooked over fire.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "Tasting menus",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Snacks",
+                "name": "Smoked beetroot tartlet",
+                "description": "Goat cheese, curry leaf.",
+                "price": "Tasting",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-salad.svg"
+              },
+              {
+                "course": "Snacks",
+                "name": "Kebab of the season",
+                "description": "Charred over oak embers.",
+                "price": "Tasting",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-kebab.svg"
+              },
+              {
+                "course": "From the fire",
+                "name": "Ember-roasted lamb",
+                "description": "Lamb shoulder, black garlic, roomali.",
+                "price": "Tasting",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "Signature",
+                "image": "theme:images/dish-steak.svg"
+              },
+              {
+                "course": "From the fire",
+                "name": "Whole river fish",
+                "description": "Banana leaf, green masala.",
+                "price": "Tasting",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-fish.svg"
+              },
+              {
+                "course": "From the fire",
+                "name": "Charred jackfruit",
+                "description": "Raw jackfruit, smoked yoghurt, millet.",
+                "price": "Tasting",
+                "diet": "vegan",
+                "spice": "1",
+                "tag": "Vegetarian menu",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Menus",
+                "name": "Twelve-course tasting",
+                "description": "The full journey, about three hours.",
+                "price": "₹6,500",
+                "diet": "",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-steak.svg"
+              },
+              {
+                "course": "Menus",
+                "name": "Eight-course vegetarian",
+                "description": "A seasonal vegetarian menu.",
+                "price": "₹5,500",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-salad.svg"
+              },
+              {
+                "course": "Menus",
+                "name": "Wine pairing",
+                "description": "Seven wines from India and abroad.",
+                "price": "₹4,200",
+                "diet": "",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cocktail.svg"
+              },
+              {
+                "course": "Sweet",
+                "name": "Jaggery & smoke",
+                "description": "Jaggery ice cream, smoked milk, sesame.",
+                "price": "Tasting",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              },
+              {
+                "course": "Sweet",
+                "name": "Chocolate & chai",
+                "description": "Single-origin chocolate, masala chai.",
+                "price": "Tasting",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cake.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "The private dining room",
+            "description": "Host fourteen guests with a menu written for your evening.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911140609900"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "A modern Indian tasting-menu restaurant in Mehrauli, cooking over fire with produce from small farms.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A restaurant built around a fire",
+            "description": "<p>Ember & Oak opened in 2019 in a restored stone house in Mehrauli, with an oak-fired hearth at its centre.</p><p>Our menus change four times a year with the farms we work with.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "7",
+            "experience_label": "years of fire",
+            "points": [
+              {
+                "text": "Oak-fired hearth"
+              },
+              {
+                "text": "Fourteen small farms"
+              },
+              {
+                "text": "Menus change with the seasons"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "12",
+                "suffix": "",
+                "label": "Courses",
+                "icon": ""
+              },
+              {
+                "number": "14",
+                "suffix": "",
+                "label": "Partner farms",
+                "icon": ""
+              },
+              {
+                "number": "6",
+                "suffix": "",
+                "label": "Chef’s counter seats",
+                "icon": ""
+              },
+              {
+                "number": "4",
+                "suffix": "",
+                "label": "Menus a year",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "Chef Kabir Sethi",
+                "role": "Chef-owner",
+                "bio": "Cooked in Copenhagen and Mumbai before opening Ember & Oak.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Naina Varma",
+                "role": "Sommelier",
+                "bio": "Builds our Indian and natural wine pairings.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Tenzin Norbu",
+                "role": "Pastry chef",
+                "bio": "Turns jaggery, millets and chai into desserts.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Capital Gourmet",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "The Tasting Table",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Fine Plate India",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Hearth & Home",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-door-closed",
+                "image": "theme:images/room-dining.svg",
+                "title": "Private dining room",
+                "description": "A room for 14 with its own menu and sommelier.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-gift",
+                "image": "theme:images/room-bar.svg",
+                "title": "Gift vouchers",
+                "description": "Tasting-menu vouchers for two, valid for a year.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-easel",
+                "image": "theme:images/room-kitchen.svg",
+                "title": "Chef’s table",
+                "description": "The six-seat counter facing the hearth.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-11",
+                "time": "7:30 pm",
+                "title": "Winter menu launch",
+                "location": "Dining room",
+                "description": "The first night of our winter tasting menu, with the farmers who grew it.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Reserve",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2026-12-31",
+                "time": "8 pm – 1 am",
+                "title": "New Year’s Eve tasting",
+                "location": "Whole restaurant",
+                "description": "Fifteen courses and a midnight toast. ₹14,000 per guest.",
+                "image": "theme:images/room-bar.svg",
+                "link": {
+                  "text": "Reserve",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-02-07",
+                "time": "7 pm",
+                "title": "Guest chef series: coastal fire",
+                "location": "Chef’s counter",
+                "description": "A guest chef from Kerala cooks with us for one night.",
+                "image": "theme:images/room-kitchen.svg",
+                "link": {
+                  "text": "Reserve",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "The private dining room",
+            "description": "Host fourteen guests with a menu written for your evening.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911140609900"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Tables are released 30 days ahead. Please tell us about allergies when you book.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Reserve your evening",
+            "description": "Tables are released 30 days ahead. Please tell us about allergies when you book.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–6",
+            "select2_label": "Time",
+            "select2_options": "7:00 pm\n7:30 pm\n8:30 pm\n9:00 pm",
+            "date_label": "Date",
+            "message_label": "Allergies, dietary needs or the occasion",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you. Our reservations team will confirm your table by email within a day.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Monday – Tuesday",
+                "text": "Closed"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 11 4060 9900"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Dinner, Wednesday to Sunday",
+            "description": "Wed–Sun, dinner only, 7 – 11 pm",
+            "rows": [
+              {
+                "label": "Monday – Tuesday",
+                "hours": "Closed"
+              },
+              {
+                "label": "Wednesday – Sunday",
+                "hours": "Dinner, 7 – 11 pm"
+              },
+              {
+                "label": "Bar",
+                "hours": "6 pm – 12 am"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 11 4060 9900",
+            "note": "Please arrive by 7:30 pm for the twelve-course menu."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "How long is the tasting menu?",
+                "answer": "About three hours for twelve courses."
+              },
+              {
+                "question": "Can you cater for allergies?",
+                "answer": "Yes, with 48 hours’ notice; tell us when you book."
+              },
+              {
+                "question": "Is there a dress code?",
+                "answer": "Smart casual."
+              },
+              {
+                "question": "Do you take children?",
+                "answer": "Guests aged 12 and above are welcome for the tasting menu."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Dinner, Wednesday to Sunday",
+            "description": "Wed–Sun, dinner only, 7 – 11 pm",
+            "rows": [
+              {
+                "label": "Monday – Tuesday",
+                "hours": "Closed"
+              },
+              {
+                "label": "Wednesday – Sunday",
+                "hours": "Dinner, 7 – 11 pm"
+              },
+              {
+                "label": "Bar",
+                "hours": "6 pm – 12 am"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 11 4060 9900",
+            "note": "Please arrive by 7:30 pm for the twelve-course menu."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

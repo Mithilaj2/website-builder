@@ -1,0 +1,9 @@
+.{{p}}-dishes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.8rem 3.5rem; }
+.{{p}}-dish { display: flex; gap: 1rem; align-items: flex-start; }
+.{{p}}-dish-img { flex: 0 0 84px; width: 84px; height: 84px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 4px var(--{{p}}-card), 0 6px 18px rgba(0, 0, 0, .12); }
+.{{p}}-dish-body { flex: 1; min-width: 0; }
+.{{p}}-dish-line { display: flex; align-items: baseline; gap: .5rem; }
+.{{p}}-dish-line .{{p}}-dish-name { min-width: 0; }
+.{{p}}-dish-dots { flex: 1; border-bottom: 2px dotted var(--{{p}}-line-strong); transform: translateY(-4px); min-width: 1.5rem; }
+.{{p}}-menu-board .{{p}}-dish-price { font-family: var(--wb-heading-font); font-weight: 700; color: var(--{{p}}-hl); white-space: nowrap; }
+@media (max-width: 767.98px) { .{{p}}-dishes { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; } .{{p}}-dish-img { flex-basis: 68px; width: 68px; height: 68px; } }

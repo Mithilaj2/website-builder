@@ -1,0 +1,65 @@
+{
+  "id": "restaurant_template_06",
+  "name": "Lotus Wok",
+  "prefix": "ltw",
+  "niche": "asian",
+  "seed": 6,
+  "direction": "Sleek pan-Asian: floating pill navigation, centred hero over a dim-sum spread, lacquer red and jade on rice white, Space Grotesk, tinted dish cards and an hours band.",
+  "description": "A sleek, modern design for pan-Asian, Chinese, Japanese and sushi restaurants: floating navigation, a centred hero, dish cards with photos, a booking form, festival events and private dining.",
+  "theme": {
+    "primary": "#B4232A",
+    "secondary": "#2C8C7A",
+    "bg": "#FBFAF7",
+    "text": "#1C1B1F",
+    "heading_font": "space-grotesk",
+    "body_font": "inter",
+    "radius": "14px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "stack",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "menu": "cards",
+    "about": "grid",
+    "services": "cards",
+    "stats": "cards",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "opening_hours": "band",
+    "events": "cards",
+    "footer": "centered",
+    "process": "line"
+  },
+  "surface": [
+    "menu",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "50%",
+    "track": "-.02em",
+    "card": "#FFFFFF",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)"
+  },
+  "demo": {
+    "menu_heading": "Chef’s picks",
+    "full_menu_heading": "Dim sum, sushi & wok",
+    "header_button": "Book a table",
+    "menu_sub": "Dim sum, sushi, ramen and wok dishes."
+  },
+  "category": "restaurant",
+  "version": "1.0.0"
+}

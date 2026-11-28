@@ -9,7 +9,70 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); Hospital done (PR #14, awaiting review); E-commerce done (PR #15, awaiting review); Real Estate done (PR #16, awaiting review); **Travel done** (awaiting review); next: the remaining 4 categories (Restaurant, Hotel, Portfolio, Services) |
+| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); Hospital done (PR #14, awaiting review); E-commerce done (PR #15, awaiting review); Real Estate done (PR #16, awaiting review); Travel done (PR #17, awaiting review); **Restaurant done** (awaiting review); next: the remaining 3 categories (Hotel, Portfolio, Services) |
+
+## Phase 7c, Restaurant: templates 02–10
+
+### Delivered
+- **Factory food menu.** A new `menu` section in two looks, chosen per template:
+  - `board`: a two-column menu board with dotted price leaders and round dish photos
+  - `cards`: dish cards with photos and price pills
+
+  Both group dishes by course, show tabs (keyboard-accessible, added by a small script in the library JS) or a full list, and show veg / non-veg / egg / vegan marks, spice levels, labels, a key and a note.
+- **Existing library sections reused.** The booking form, opening hours (panel / band) and events (cards / list) needed no new code. The opening-hours highlight now makes a phone number a tap-to-call link.
+- **Original artwork.** Thirty-three top-down dish drawings (dosa, idli, thali, biryani, kebabs, pizza, pasta, sushi, ramen, dim sum, seafood, steak, pastries, coffee, cocktails…) composed into dish photos, a table-spread hero and banner. Six room scenes (dining room, bar, kitchen, café counter, rooftop terrace, private dining) plus chef and guest portraits.
+- **Demo restaurants for nine niches.** Each has its own menu (16–17 dishes in four courses), table-booking form (guests and time slots), opening hours, events, hosting options, FAQ and press mentions.
+- **Nine new Restaurant templates:**
+
+| # | Template | Prefix | Demo restaurant | Hero / header / menu | Look |
+|---|---|---|---|---|---|
+| 02 | Morning Ritual Café | `mrc` | All-day café & bakery, Bengaluru | split / floating pill / cards | Terracotta + sage, Fraunces |
+| 03 | Annapoorna Tiffin Rooms | `atr` | Pure vegetarian tiffin, Chennai | colour panel / info bar / board | Banana-leaf green + turmeric, Lora |
+| 04 | Fornello Pizzeria | `fnl` | Wood-fired pizzeria, Pune | full-bleed cover / dark bar / cards | Tomato red + basil, Playfair Display |
+| 05 | Ember & Oak | `eao` | Tasting-menu fine dining, New Delhi | editorial / centred masthead / board | **Dark**, ember + brass, Cormorant Garamond |
+| 06 | Lotus Wok | `ltw` | Pan-Asian kitchen & bar, Hyderabad | centred spread / floating pill / cards | Lacquer red + jade, Space Grotesk |
+| 07 | Butter & Bloom | `bnb` | Patisserie & tea room, Mumbai | split / centred masthead / cards | Rose + pistachio, DM Serif Display |
+| 08 | Konkan Catch | `kkc` | Coastal seafood, Mangaluru | colour panel / dark bar / board | Ocean blue + chilli, Montserrat |
+| 09 | Skyline Social | `sks` | Rooftop bar & grill, Gurugram | full-bleed cover / floating pill / cards | **Dark**, magenta + amber, Sora |
+| 10 | Pind Da Dhaba | `pdd` | Punjabi dhaba, Amritsar | editorial / info bar / board | Brick + mustard, Poppins, light footer |
+
+- Every template has eight pages: Home, Menu, About (chefs and press), Events (hosting options and upcoming events), Reservations (booking form, opening hours, FAQ), Contact, Privacy and Terms.
+- All businesses, people and press names are invented; FSSAI numbers are marked "(demo)".
+- No runtime changes; runtime 1.7.0.
+
+### Tests
+`tests/phase7c_restaurant_test.php` runs **189 end-to-end checks**.
+
+- **Template files:** the same checks as the earlier categories, plus:
+  - every dish has a valid diet mark, spice level, price and photo
+  - six signature dishes on the home page
+  - the chosen menu, opening-hours and events views
+  - the menu-tabs script
+
+  Prefixes are compared against all 64 existing templates.
+- **Each of the nine websites:**
+  - variants, hero copy and buttons
+  - the signature menu (listed, with marks and prices)
+  - the home booking form (guests, time, date)
+  - the full menu with one tab per course, diet marks and spice ratings
+  - events in date order
+  - reservations with opening hours and a tap-to-call number
+  - about, contact and legal pages, and the 404 page
+  - a table booking stored with guests, time and date, with the restaurant's own thank-you message
+  - a contact enquiry
+- **Export:** a full export of one website.
+
+| Server | 7c Restaurant | 7c Travel | 7c Real Estate | 7c E-commerce | 7c Hospital | 7c Education | 7c Business | 7b-3 | 7b-2 | 7b-1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 189/189 | 225/225 | 213/213 | 216/216 | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 189/189 | 225/225 | 213/213 | 216/216 | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+All template PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of the home, menu, about, events, reservations and contact pages of the nine websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- **Invalid logo images:** demo logo names containing "&" produced invalid SVG files. Text in every generated drawing is now escaped.
+- **Dark date-picker icon:** on dark templates, form date pickers showed a dark icon on a dark field. Dark templates now tell the browser to use its dark form controls.
+- **Phone number not tappable:** the opening-hours phone number was plain text; it is now a tap-to-call link.
 
 ## Phase 7c, Travel: templates 02–10
 
@@ -1023,6 +1086,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-28 (Phase 7c, Restaurant)
+Restaurant templates 02–10; menu board and dish-card menus, dish and room drawings, nine demo restaurants; 189-check test; full regression on dev and Apache.
 
 ### 2026-11-28 (Phase 7c, Travel)
 Travel templates 02–10; package search, eighteen travel scenes and nine demo businesses; Travel 01 partner name replaced; 225-check test; full regression on dev and Apache.

@@ -1,0 +1,922 @@
+{
+  "settings": {
+    "site": {
+      "name": "Fornello Pizzeria",
+      "tagline": "Wood-fired pizza & pasta · Koregaon Park",
+      "phone": "+91 20 2615 4400",
+      "email": "ciao@fornello.example",
+      "address": "Lane 6, North Main Road\nKoregaon Park, Pune 411001",
+      "hours": "Tue–Sun, 12 – 3:30 pm and 7 – 11:30 pm; Monday closed",
+      "footer_about": "A wood-fired pizzeria in Koregaon Park with 48-hour sourdough, house-made pasta and natural wines.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 11518022000321 (demo).",
+      "header_button": {
+        "text": "Book a table",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Fornello Pizzeria, Pune: A wood-fired pizzeria in Koregaon Park with 48-hour sourdough, house-made pasta and natural wines. Book a table online.",
+      "keywords": "wood-fired pizza & pasta · koregaon park, restaurant in Pune, book a table Pune"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Wood-fired since 2017",
+            "heading": "Pizza the slow way",
+            "subheading": "Sourdough rested for 48 hours, fired at 450°C in a brick oven from Naples, topped with cheeses from Indian dairies.",
+            "image": "theme:images/hero.svg",
+            "background_image": "theme:images/hero.svg",
+            "primary_button": {
+              "text": "Reserve a table",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "48-hour sourdough"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "Brick oven from Naples"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Kids eat free on Sundays"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A brick oven, a sourdough starter and a dream",
+            "description": "<p>Fornello began in 2017 when chef Marco came home from Naples with a sourdough starter and a plan for a brick oven.</p><p>Our dough still rests for 48 hours and every pizza is fired with mango wood.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "9",
+            "experience_label": "years of pizza",
+            "points": [
+              {
+                "text": "Neapolitan brick oven"
+              },
+              {
+                "text": "48-hour sourdough"
+              },
+              {
+                "text": "House-made pasta"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "From the oven",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Burrata & heirloom tomatoes",
+                "description": "Basil oil, sourdough crisps.",
+                "price": "₹590",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-salad.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Margherita",
+                "description": "San Marzano tomatoes, fior di latte, basil.",
+                "price": "₹520",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-pizza.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Diavola",
+                "description": "Spicy salami, chilli honey, mozzarella.",
+                "price": "₹690",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-pizza.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Funghi bianca",
+                "description": "Wild mushrooms, truffle oil, garlic cream.",
+                "price": "₹650",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Chef’s special",
+                "image": "theme:images/dish-pizza.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Cacio e pepe",
+                "description": "Tonnarelli, pecorino and cracked pepper.",
+                "price": "₹560",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-pasta.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Tiramisu",
+                "description": "Mascarpone, espresso, cocoa.",
+                "price": "₹390",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "House favourite",
+                "image": "theme:images/dish-cake.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-fire",
+                "title": "Brick oven",
+                "description": "Built by oven makers from Naples, fired with mango wood."
+              },
+              {
+                "icon": "bi-hourglass-split",
+                "title": "48-hour dough",
+                "description": "Sourdough rested for two days for a light, blistered crust."
+              },
+              {
+                "icon": "bi-egg-fried",
+                "title": "House-made pasta",
+                "description": "Rolled every morning in our kitchen."
+              },
+              {
+                "icon": "bi-cup-straw",
+                "title": "Natural wines",
+                "description": "A short list of natural and Indian wines."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Fornello Pizzeria",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-kitchen.svg",
+                "caption": "Our kitchen"
+              },
+              {
+                "image": "theme:images/room-terrace.svg",
+                "caption": "The terrace"
+              },
+              {
+                "image": "theme:images/room-private.svg",
+                "caption": "Private dining"
+              },
+              {
+                "image": "theme:images/dish-salad.svg",
+                "caption": "A salad bowl"
+              },
+              {
+                "image": "theme:images/dish-pizza.svg",
+                "caption": "A pizza"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "The closest thing to Naples I have had in India — that crust!",
+                "name": "Rahul Kapoor",
+                "role": "Google review",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Sunday pizza with the kids is our family tradition now.",
+                "name": "Anjali Deshpande",
+                "role": "Regular guest",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The truffle funghi bianca is worth crossing the city for.",
+                "name": "Kunal Joshi",
+                "role": "Food blogger",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table",
+            "description": "Book for lunch or dinner; for tables of more than eight, please call us.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8",
+            "select2_label": "Time",
+            "select2_options": "12:30 pm\n1:30 pm\n7:00 pm\n8:00 pm\n9:00 pm\n10:00 pm",
+            "date_label": "Date",
+            "message_label": "Occasion or special requests (optional)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Grazie! We will confirm your table within 30 minutes.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Monday",
+                "text": "Closed"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 20 2615 4400"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Throw a pizza party",
+            "description": "Book the terrace for birthdays and team nights — or bring our wood-fired oven to your event.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912026154400"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Wood-fired pizza and house-made pasta.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "Antipasti, pizza, pasta & dolci",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Antipasti",
+                "name": "Burrata & heirloom tomatoes",
+                "description": "Basil oil, sourdough crisps.",
+                "price": "₹590",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-salad.svg"
+              },
+              {
+                "course": "Antipasti",
+                "name": "Garlic knots",
+                "description": "With marinara and parmesan.",
+                "price": "₹290",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-bread.svg"
+              },
+              {
+                "course": "Antipasti",
+                "name": "Calamari fritti",
+                "description": "Lemon aioli and chilli.",
+                "price": "₹520",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-prawns.svg"
+              },
+              {
+                "course": "Pizza",
+                "name": "Margherita",
+                "description": "San Marzano tomatoes, fior di latte, basil.",
+                "price": "₹520",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-pizza.svg"
+              },
+              {
+                "course": "Pizza",
+                "name": "Diavola",
+                "description": "Spicy salami, chilli honey, mozzarella.",
+                "price": "₹690",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-pizza.svg"
+              },
+              {
+                "course": "Pizza",
+                "name": "Funghi bianca",
+                "description": "Wild mushrooms, truffle oil, garlic cream.",
+                "price": "₹650",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Chef’s special",
+                "image": "theme:images/dish-pizza.svg"
+              },
+              {
+                "course": "Pizza",
+                "name": "Paneer tikka pizza",
+                "description": "Tandoori paneer, onions, mint drizzle.",
+                "price": "₹620",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-pizza.svg"
+              },
+              {
+                "course": "Pasta",
+                "name": "Cacio e pepe",
+                "description": "Tonnarelli, pecorino and cracked pepper.",
+                "price": "₹560",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-pasta.svg"
+              },
+              {
+                "course": "Pasta",
+                "name": "Prawn aglio olio",
+                "description": "Garlic, chilli and parsley.",
+                "price": "₹720",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-pasta.svg"
+              },
+              {
+                "course": "Pasta",
+                "name": "Lasagne verde",
+                "description": "Spinach pasta, ragù of mushrooms.",
+                "price": "₹640",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-pasta.svg"
+              },
+              {
+                "course": "Dolci",
+                "name": "Tiramisu",
+                "description": "Mascarpone, espresso, cocoa.",
+                "price": "₹390",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "House favourite",
+                "image": "theme:images/dish-cake.svg"
+              },
+              {
+                "course": "Dolci",
+                "name": "Nutella calzone",
+                "description": "With vanilla gelato.",
+                "price": "₹420",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Throw a pizza party",
+            "description": "Book the terrace for birthdays and team nights — or bring our wood-fired oven to your event.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912026154400"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "A wood-fired pizzeria in Koregaon Park with 48-hour sourdough, house-made pasta and natural wines.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "A brick oven, a sourdough starter and a dream",
+            "description": "<p>Fornello began in 2017 when chef Marco came home from Naples with a sourdough starter and a plan for a brick oven.</p><p>Our dough still rests for 48 hours and every pizza is fired with mango wood.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "9",
+            "experience_label": "years of pizza",
+            "points": [
+              {
+                "text": "Neapolitan brick oven"
+              },
+              {
+                "text": "48-hour sourdough"
+              },
+              {
+                "text": "House-made pasta"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "140000",
+                "suffix": "+",
+                "label": "Pizzas fired",
+                "icon": ""
+              },
+              {
+                "number": "450",
+                "suffix": "°C",
+                "label": "Oven temperature",
+                "icon": ""
+              },
+              {
+                "number": "48",
+                "suffix": " hrs",
+                "label": "Dough rest",
+                "icon": ""
+              },
+              {
+                "number": "4.8",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "Marco D’Souza",
+                "role": "Chef & founder",
+                "bio": "Trained in Naples; came home to open Fornello.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Ritika Bhosale",
+                "role": "Pasta chef",
+                "bio": "Rolls every sheet of pasta by hand.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Sameer Khan",
+                "role": "Pizzaiolo",
+                "bio": "Fires 400 pizzas on a Saturday night.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Pune Plates",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Crust Weekly",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "The Dough Report",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Deccan Diner",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-people",
+                "image": "theme:images/room-dining.svg",
+                "title": "Pizza parties",
+                "description": "Private terrace parties for up to 40 guests.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-mortarboard",
+                "image": "theme:images/room-kitchen.svg",
+                "title": "Pizza-making classes",
+                "description": "Hands-on classes for adults and kids.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-truck",
+                "image": "theme:images/room-terrace.svg",
+                "title": "Oven on wheels",
+                "description": "Our mobile wood-fired oven for weddings and events.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-14",
+                "time": "4 – 6 pm",
+                "title": "Kids’ pizza class",
+                "location": "Terrace",
+                "description": "Little chefs stretch, top and bake their own pizza. ₹900 per child.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Book a spot",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2026-12-24",
+                "time": "7 pm onwards",
+                "title": "Christmas Eve feast",
+                "location": "Whole restaurant",
+                "description": "A five-course Italian Christmas menu. ₹2,800 per guest.",
+                "image": "theme:images/room-kitchen.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-01-18",
+                "time": "8 – 10 pm",
+                "title": "Natural wine evening",
+                "location": "Bar",
+                "description": "Six natural wines paired with small plates.",
+                "image": "theme:images/room-terrace.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Throw a pizza party",
+            "description": "Book the terrace for birthdays and team nights — or bring our wood-fired oven to your event.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+912026154400"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Book for lunch or dinner; for tables of more than eight, please call us.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table",
+            "description": "Book for lunch or dinner; for tables of more than eight, please call us.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "1\n2\n3\n4\n5–8",
+            "select2_label": "Time",
+            "select2_options": "12:30 pm\n1:30 pm\n7:00 pm\n8:00 pm\n9:00 pm\n10:00 pm",
+            "date_label": "Date",
+            "message_label": "Occasion or special requests (optional)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Grazie! We will confirm your table within 30 minutes.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Monday",
+                "text": "Closed"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 20 2615 4400"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Tue–Sun, 12 – 3:30 pm and 7 – 11:30 pm; Monday closed",
+            "rows": [
+              {
+                "label": "Monday",
+                "hours": "Closed"
+              },
+              {
+                "label": "Tuesday – Friday",
+                "hours": "12 – 3:30 pm · 7 – 11:30 pm"
+              },
+              {
+                "label": "Saturday – Sunday",
+                "hours": "12 – 4 pm · 7 pm – 12 am"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 20 2615 4400",
+            "note": "Last pizza order 30 minutes before closing."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you have gluten-free options?",
+                "answer": "We offer a gluten-free base on request (prepared in a shared kitchen)."
+              },
+              {
+                "question": "Can I bring my own wine?",
+                "answer": "Yes, with a corkage charge of ₹800 per bottle."
+              },
+              {
+                "question": "Do you deliver?",
+                "answer": "We deliver within 6 km — order on our website or by phone."
+              },
+              {
+                "question": "Are children welcome?",
+                "answer": "Very! Kids eat free on Sundays and we have colouring sheets."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Tue–Sun, 12 – 3:30 pm and 7 – 11:30 pm; Monday closed",
+            "rows": [
+              {
+                "label": "Monday",
+                "hours": "Closed"
+              },
+              {
+                "label": "Tuesday – Friday",
+                "hours": "12 – 3:30 pm · 7 – 11:30 pm"
+              },
+              {
+                "label": "Saturday – Sunday",
+                "hours": "12 – 4 pm · 7 pm – 12 am"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 20 2615 4400",
+            "note": "Last pizza order 30 minutes before closing."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

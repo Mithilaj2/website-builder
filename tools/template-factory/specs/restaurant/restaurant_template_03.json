@@ -1,0 +1,64 @@
+{
+  "id": "restaurant_template_03",
+  "name": "Annapoorna Tiffin Rooms",
+  "prefix": "atr",
+  "niche": "tiffin",
+  "seed": 3,
+  "direction": "Traditional and cheerful: info bar header, colour-panel hero, banana-leaf green and turmeric on cream, Lora headings, a classic menu board with dotted price leaders, hours panel.",
+  "description": "A traditional, cheerful design for South Indian, vegetarian and family restaurants: info bar, a colour-panel hero, a classic menu board with dotted price leaders and diet marks, a booking form and a festival calendar.",
+  "theme": {
+    "primary": "#2F6B3A",
+    "secondary": "#E6A817",
+    "bg": "#FFFBF0",
+    "text": "#23281F",
+    "heading_font": "lora",
+    "body_font": "open-sans",
+    "radius": "12px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "panel",
+    "banner": "solid",
+    "head": "serif",
+    "card": "line",
+    "menu": "board",
+    "about": "single",
+    "services": "rows",
+    "stats": "cards",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "boxed",
+    "opening_hours": "panel",
+    "events": "list",
+    "footer": "band",
+    "process": "line"
+  },
+  "surface": [
+    "menu",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "menu_heading": "Tiffin favourites",
+    "full_menu_heading": "Tiffin, meals & sweets",
+    "header_button": "Book a table",
+    "hours_heading": "Tiffin from 6:30 am",
+    "menu_sub": "Tiffin all day and banana-leaf meals at lunch."
+  },
+  "category": "restaurant",
+  "version": "1.0.0"
+}
