@@ -1,0 +1,14 @@
+<header class="kkc-header kkc-header-dark" data-kkc-header>
+  <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+    <div class="container">
+      <?= $view->partial('brand', ['class' => 'navbar-brand']) ?>
+      <?= $view->partial('shop-icons', ['class' => 'ms-auto ms-lg-3 order-lg-last']) ?>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#kkcNav" aria-controls="kkcNav" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+      <div class="collapse navbar-collapse" id="kkcNav">
+        <?= $view->partial('nav-links', ['class' => 'ms-auto']) ?>
+        <?php if ($view->site('emergency_phone') !== ''): ?><?= $view->partial('emergency', ['class' => 'is-compact d-none d-xl-inline-flex ms-3']) ?><?php elseif ($view->site('phone') !== ''): ?><a class="kkc-header-phone d-none d-xl-inline-flex" href="tel:<?= $view->e(preg_replace('/[^0-9+]/', '', (string) $view->site('phone'))) ?>"><i class="bi bi-telephone"></i><span><small>Call us</small><?= $view->e($view->site('phone')) ?></span></a><?php endif; ?>
+        <?= $view->partial('header-cta') ?>
+      </div>
+    </div>
+  </nav>
+</header>

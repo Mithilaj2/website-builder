@@ -1,0 +1,66 @@
+{
+  "id": "restaurant_template_04",
+  "name": "Fornello Pizzeria",
+  "prefix": "fnl",
+  "niche": "pizzeria",
+  "seed": 4,
+  "direction": "Rustic Italian: dark navigation, full-bleed cover hero, tomato red and basil on flour white, Playfair headings, dish cards with price pills, a red band and an hours band.",
+  "description": "A rustic, warm design for pizzerias, trattorias and Italian kitchens: dark navigation, a full-bleed hero, dish cards with photos, a booking form, pizza-class events and a red call-to-action band.",
+  "theme": {
+    "primary": "#B3261E",
+    "secondary": "#4E7D3A",
+    "bg": "#FFFDF8",
+    "text": "#231A16",
+    "heading_font": "playfair-display",
+    "body_font": "jost",
+    "radius": "6px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "cover",
+    "banner": "image",
+    "head": "rule",
+    "card": "top",
+    "menu": "cards",
+    "about": "layered",
+    "services": "cards",
+    "stats": "band",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "strip",
+    "opening_hours": "band",
+    "events": "cards",
+    "footer": "columns",
+    "process": "timeline"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "var(--wb-primary)",
+    "icon": "accent",
+    "heading_weight": 700,
+    "hero_weight": 700,
+    "track": "-.01em",
+    "hero_scale": 1.05,
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "menu_heading": "From the oven",
+    "full_menu_heading": "Antipasti, pizza, pasta & dolci",
+    "hero_bg": true,
+    "header_button": "Book a table",
+    "menu_sub": "Wood-fired pizza and house-made pasta."
+  },
+  "category": "restaurant",
+  "version": "1.0.0"
+}

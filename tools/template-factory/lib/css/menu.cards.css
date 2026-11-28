@@ -1,0 +1,8 @@
+.{{p}}-dish-card { height: 100%; padding: 0; overflow: hidden; display: flex; flex-direction: column; transition: transform .25s ease, box-shadow .25s ease; }
+.{{p}}-dish-card:hover { transform: translateY(-3px); box-shadow: var(--{{p}}-shadow); }
+.{{p}}-dish-photo { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--{{p}}-surface); }
+.{{p}}-dish-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.{{p}}-dish-card:hover .{{p}}-dish-photo img { transform: scale(1.05); }
+.{{p}}-menu-cards .{{p}}-dish-price { position: absolute; right: .8rem; bottom: .8rem; padding: .35rem .8rem; border-radius: 999px; background: var(--{{p}}-accent); color: var(--{{p}}-on-accent); font-weight: 700; font-size: .92rem; }
+.{{p}}-menu-cards .{{p}}-dish-price.is-inline { position: static; align-self: flex-start; margin-top: .4rem; }
+.{{p}}-dish-card .{{p}}-dish-body { padding: 1.1rem 1.2rem 1.25rem; display: flex; flex-direction: column; flex: 1; }

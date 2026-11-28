@@ -1,0 +1,922 @@
+{
+  "settings": {
+    "site": {
+      "name": "Pind Da Dhaba",
+      "tagline": "Punjabi dhaba & family restaurant · Amritsar",
+      "phone": "+91 183 250 4400",
+      "email": "sat-sri-akal@pinddadhaba.example",
+      "address": "GT Road, near Golden Gate\nAmritsar, Punjab 143001",
+      "hours": "Every day, 7 am – 11:30 pm",
+      "footer_about": "A Punjabi dhaba on the GT Road serving amritsari kulcha, dal makhani, butter chicken and lassi since 1988.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 12118077000876 (demo).",
+      "header_button": {
+        "text": "Book a table",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Pind Da Dhaba, Amritsar: A Punjabi dhaba on the GT Road serving amritsari kulcha, dal makhani, butter chicken and lassi since 1988. Book a table online.",
+      "keywords": "punjabi dhaba & family restaurant · amritsar, restaurant in Amritsar, book a table Amritsar"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "On the GT Road since 1988",
+            "heading": "Punjab da swaad, dil se",
+            "subheading": "Amritsari kulchas from the clay tandoor, dal makhani simmered overnight and lassi in tall steel glasses — the way it has been since 1988.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "Book a family table",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "Open from 7 am for kulcha"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "Family seating for 200"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Pure ghee, always"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "One tandoor, thirty-eight years",
+            "description": "<p>Sardar Kulwant Singh lit the first tandoor on the GT Road in 1988, serving kulchas to truckers and pilgrims.</p><p>Today his son runs the dhaba — the kulchas, the ghee and the welcome are unchanged.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "38",
+            "experience_label": "years on the GT Road",
+            "points": [
+              {
+                "text": "Clay tandoor since 1988"
+              },
+              {
+                "text": "Pure desi ghee"
+              },
+              {
+                "text": "Family seating for 200"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "Dhaba favourites",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Amritsari kulcha",
+                "description": "Stuffed, from the clay tandoor, with chole and butter.",
+                "price": "₹180",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Famous",
+                "image": "theme:images/dish-naan.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Tandoori chicken",
+                "description": "Half or full, with mint chutney.",
+                "price": "₹380 / ₹680",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-tandoori.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Paneer tikka",
+                "description": "Hung-curd marinade.",
+                "price": "₹340",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-paneer.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Dal makhani",
+                "description": "Simmered overnight with butter.",
+                "price": "₹290",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Since 1988",
+                "image": "theme:images/dish-dal.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Butter chicken",
+                "description": "Tandoori chicken in makhani gravy.",
+                "price": "₹440",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Malai lassi",
+                "description": "Sweet, in a steel glass, with malai on top.",
+                "price": "₹120",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Must try",
+                "image": "theme:images/dish-lassi.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-fire",
+                "title": "Clay tandoor",
+                "description": "Kulchas and breads baked in a clay tandoor since 1988."
+              },
+              {
+                "icon": "bi-droplet",
+                "title": "Pure ghee",
+                "description": "Cooked in pure desi ghee, always."
+              },
+              {
+                "icon": "bi-people",
+                "title": "Family seating",
+                "description": "Seats for 200, with charpai seating in the courtyard."
+              },
+              {
+                "icon": "bi-car-front",
+                "title": "Highway stop",
+                "description": "Easy parking for cars and buses on the GT Road."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Pind Da Dhaba",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-kitchen.svg",
+                "caption": "Our kitchen"
+              },
+              {
+                "image": "theme:images/room-terrace.svg",
+                "caption": "The terrace"
+              },
+              {
+                "image": "theme:images/room-private.svg",
+                "caption": "Private dining"
+              },
+              {
+                "image": "theme:images/dish-naan.svg",
+                "caption": "Naan bread"
+              },
+              {
+                "image": "theme:images/dish-tandoori.svg",
+                "caption": "Tandoori chicken"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "Best kulcha in Amritsar. We stop here every time we visit the Golden Temple.",
+                "name": "Harjeet Kaur",
+                "role": "Google review",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Dal makhani like my grandmother’s. And the lassi! Wah.",
+                "name": "Rohit Bansal",
+                "role": "Visiting from Delhi",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Our whole family of 25 sat together on the courtyard charpais. Unforgettable.",
+                "name": "Gurpreet Sandhu",
+                "role": "Family dinner",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a family table",
+            "description": "Walk in any time; book ahead for large families and weekend dinners.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "2\n3\n4\n5–8\n9–15\n16–30",
+            "select2_label": "Time",
+            "select2_options": "8:00 am\n1:00 pm\n2:00 pm\n8:00 pm\n9:00 pm\n10:00 pm",
+            "date_label": "Date",
+            "message_label": "Special requests (birthday, high chair, Jain)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you ji! We will call you to confirm your table.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Breakfast",
+                "text": "7 – 11 am"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 183 250 4400"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Celebrating with family?",
+            "description": "Book the family hall or let us cater your function with a Punjabi feast.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911832504400"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Kulchas, curries and lassi since 1988.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "From the tandoor & the kadhai",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Breakfast",
+                "name": "Amritsari kulcha",
+                "description": "Stuffed, from the clay tandoor, with chole and butter.",
+                "price": "₹180",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Famous",
+                "image": "theme:images/dish-naan.svg"
+              },
+              {
+                "course": "Breakfast",
+                "name": "Aloo paratha",
+                "description": "With white butter and curd.",
+                "price": "₹140",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-naan.svg"
+              },
+              {
+                "course": "Breakfast",
+                "name": "Chole bhature",
+                "description": "Two bhaturas, pindi chole.",
+                "price": "₹190",
+                "diet": "veg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Tandoor",
+                "name": "Tandoori chicken",
+                "description": "Half or full, with mint chutney.",
+                "price": "₹380 / ₹680",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-tandoori.svg"
+              },
+              {
+                "course": "Tandoor",
+                "name": "Paneer tikka",
+                "description": "Hung-curd marinade.",
+                "price": "₹340",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-paneer.svg"
+              },
+              {
+                "course": "Tandoor",
+                "name": "Amritsari fish",
+                "description": "Gram-flour batter, ajwain.",
+                "price": "₹420",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-fish.svg"
+              },
+              {
+                "course": "Curries",
+                "name": "Dal makhani",
+                "description": "Simmered overnight with butter.",
+                "price": "₹290",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Since 1988",
+                "image": "theme:images/dish-dal.svg"
+              },
+              {
+                "course": "Curries",
+                "name": "Butter chicken",
+                "description": "Tandoori chicken in makhani gravy.",
+                "price": "₹440",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Curries",
+                "name": "Sarson da saag",
+                "description": "With makki di roti (winter).",
+                "price": "₹280",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "Winter special",
+                "image": "theme:images/dish-curry.svg"
+              },
+              {
+                "course": "Drinks & sweets",
+                "name": "Malai lassi",
+                "description": "Sweet, in a steel glass, with malai on top.",
+                "price": "₹120",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "Must try",
+                "image": "theme:images/dish-lassi.svg"
+              },
+              {
+                "course": "Drinks & sweets",
+                "name": "Phirni",
+                "description": "Set in clay pots.",
+                "price": "₹110",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              },
+              {
+                "course": "Drinks & sweets",
+                "name": "Gajar halwa",
+                "description": "Winter only.",
+                "price": "₹150",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-curry.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Celebrating with family?",
+            "description": "Book the family hall or let us cater your function with a Punjabi feast.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911832504400"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "A Punjabi dhaba on the GT Road serving amritsari kulcha, dal makhani, butter chicken and lassi since 1988.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "One tandoor, thirty-eight years",
+            "description": "<p>Sardar Kulwant Singh lit the first tandoor on the GT Road in 1988, serving kulchas to truckers and pilgrims.</p><p>Today his son runs the dhaba — the kulchas, the ghee and the welcome are unchanged.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "38",
+            "experience_label": "years on the GT Road",
+            "points": [
+              {
+                "text": "Clay tandoor since 1988"
+              },
+              {
+                "text": "Pure desi ghee"
+              },
+              {
+                "text": "Family seating for 200"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "38",
+                "suffix": "",
+                "label": "Years on the GT Road",
+                "icon": ""
+              },
+              {
+                "number": "2500",
+                "suffix": "+",
+                "label": "Kulchas a day",
+                "icon": ""
+              },
+              {
+                "number": "200",
+                "suffix": "",
+                "label": "Seats",
+                "icon": ""
+              },
+              {
+                "number": "4.6",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "Sardar Kulwant Singh",
+                "role": "Founder",
+                "bio": "Started the dhaba with one tandoor in 1988.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Manpreet Singh",
+                "role": "Owner, second generation",
+                "bio": "Runs the dhaba and the catering.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Balwinder",
+                "role": "Tandoor master",
+                "bio": "Has baked kulchas here for 30 years.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Punjab Food Trail",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Highway Eats",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Amritsar Diaries",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Desi Plate",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house",
+                "image": "theme:images/room-dining.svg",
+                "title": "Family hall",
+                "description": "A hall for up to 80 guests.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-truck",
+                "image": "theme:images/room-kitchen.svg",
+                "title": "Punjabi catering",
+                "description": "Weddings, akhand paths and functions.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-bus-front",
+                "image": "theme:images/room-terrace.svg",
+                "title": "Tour groups",
+                "description": "Set meals for tour buses with prior booking.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-15",
+                "time": "All day",
+                "title": "Sarson da saag season opens",
+                "location": "All of the dhaba",
+                "description": "Saag and makki di roti until February.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Visit us",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-01-13",
+                "time": "7 pm onwards",
+                "title": "Lohri night",
+                "location": "Courtyard",
+                "description": "Bonfire, bhangra and a festive thali.",
+                "image": "theme:images/room-kitchen.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-03-04",
+                "time": "12 – 4 pm",
+                "title": "Holi lunch",
+                "location": "Courtyard",
+                "description": "Thandai, gujiya and a festive lunch.",
+                "image": "theme:images/room-terrace.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Celebrating with family?",
+            "description": "Book the family hall or let us cater your function with a Punjabi feast.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911832504400"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Walk in any time; book ahead for large families and weekend dinners.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a family table",
+            "description": "Walk in any time; book ahead for large families and weekend dinners.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "2\n3\n4\n5–8\n9–15\n16–30",
+            "select2_label": "Time",
+            "select2_options": "8:00 am\n1:00 pm\n2:00 pm\n8:00 pm\n9:00 pm\n10:00 pm",
+            "date_label": "Date",
+            "message_label": "Special requests (birthday, high chair, Jain)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you ji! We will call you to confirm your table.",
+            "image": "theme:images/room-dining.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Breakfast",
+                "text": "7 – 11 am"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 183 250 4400"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 7 am – 11:30 pm",
+            "rows": [
+              {
+                "label": "Breakfast",
+                "hours": "7 – 11 am"
+              },
+              {
+                "label": "Lunch & dinner",
+                "hours": "11 am – 11:30 pm"
+              },
+              {
+                "label": "Tandoor",
+                "hours": "All day"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 183 250 4400",
+            "note": "Open every day of the year, including Gurpurab and Diwali."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "Do you serve breakfast?",
+                "answer": "Yes, from 7 am — kulcha, paratha and chole bhature."
+              },
+              {
+                "question": "Is there parking?",
+                "answer": "Plenty — cars and tourist buses on the GT Road."
+              },
+              {
+                "question": "Do you cater?",
+                "answer": "Yes, Punjabi menus for weddings, akhand paths and functions."
+              },
+              {
+                "question": "Do you have a vegetarian kitchen?",
+                "answer": "Vegetarian food is cooked in a separate section with separate tandoors."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Come hungry",
+            "description": "Every day, 7 am – 11:30 pm",
+            "rows": [
+              {
+                "label": "Breakfast",
+                "hours": "7 – 11 am"
+              },
+              {
+                "label": "Lunch & dinner",
+                "hours": "11 am – 11:30 pm"
+              },
+              {
+                "label": "Tandoor",
+                "hours": "All day"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 183 250 4400",
+            "note": "Open every day of the year, including Gurpurab and Diwali."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

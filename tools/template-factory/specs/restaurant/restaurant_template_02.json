@@ -1,0 +1,67 @@
+{
+  "id": "restaurant_template_02",
+  "name": "Morning Ritual Café",
+  "prefix": "mrc",
+  "niche": "cafe",
+  "seed": 2,
+  "direction": "Sunny café: floating pill navigation, split hero over a brunch spread, terracotta and sage on oat, Fraunces headings, dish cards with price pills, a light opening-hours band.",
+  "description": "A sunny, relaxed design for cafés, bakeries and brunch spots: floating navigation, a split hero, dish cards with photos and price pills, a table-booking form, opening hours and café events.",
+  "theme": {
+    "primary": "#C2643B",
+    "secondary": "#7F9B6E",
+    "bg": "#FBF6EE",
+    "text": "#2B211B",
+    "heading_font": "fraunces",
+    "body_font": "dm-sans",
+    "radius": "20px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "split",
+    "banner": "image",
+    "head": "serif",
+    "card": "shadow",
+    "menu": "cards",
+    "about": "layered",
+    "services": "cards",
+    "stats": "inline",
+    "testimonials": "cards",
+    "cta": "band",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "opening_hours": "band",
+    "events": "cards",
+    "footer": "centered",
+    "process": "cards"
+  },
+  "surface": [
+    "testimonials",
+    "menu"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "color-mix(in srgb, var(--wb-primary) 80%, #000)",
+    "on_accent_hover": "#FFFFFF",
+    "hl": "var(--wb-primary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "-.01em",
+    "card": "#FFFFFF",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)"
+  },
+  "demo": {
+    "menu_heading": "Our favourites",
+    "full_menu_heading": "Coffee, brunch & bakes",
+    "header_button": "Book a table",
+    "menu_sub": "Coffee, brunch plates and bakes — all made in-house."
+  },
+  "category": "restaurant",
+  "version": "1.0.0"
+}

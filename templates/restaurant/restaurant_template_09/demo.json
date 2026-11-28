@@ -1,0 +1,922 @@
+{
+  "settings": {
+    "site": {
+      "name": "Skyline Social",
+      "tagline": "Rooftop bar & grill · Cyber Hub",
+      "phone": "+91 124 422 7700",
+      "email": "party@skylinesocial.example",
+      "address": "Rooftop, Tower B, Cyber Hub\nDLF Phase 2, Gurugram 122002",
+      "hours": "Every day, 12 pm – 1 am",
+      "footer_about": "A rooftop bar and grill above Cyber Hub with sunset views, a charcoal grill, craft cocktails and live music.",
+      "footer_text": "All rights reserved. FSSAI Lic. No. 10820066000543 (demo).",
+      "header_button": {
+        "text": "Book a table",
+        "url": "page:reservations"
+      },
+      "social": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      }
+    },
+    "seo": {
+      "description": "Skyline Social, Gurugram: A rooftop bar and grill above Cyber Hub with sunset views, a charcoal grill, craft cocktails and live music. Book a table online.",
+      "keywords": "rooftop bar & grill · cyber hub, restaurant in Gurugram, book a table Gurugram"
+    }
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Rooftop · grill · cocktails",
+            "heading": "Sunsets, smoke and good company",
+            "subheading": "Charcoal-grilled plates, craft cocktails and live sets every weekend — twenty floors above Cyber Hub.",
+            "image": "theme:images/hero.svg",
+            "background_image": "theme:images/hero.svg",
+            "primary_button": {
+              "text": "Reserve a table",
+              "url": "page:reservations"
+            },
+            "secondary_button": {
+              "text": "See the menu",
+              "url": "page:menu"
+            },
+            "highlights": [
+              {
+                "icon": "bi-clock",
+                "text": "Live music Thursday to Sunday"
+              },
+              {
+                "icon": "bi-star-fill",
+                "text": "Happy hours 4 – 8 pm"
+              },
+              {
+                "icon": "bi-geo-alt",
+                "text": "Open till 1 am"
+              }
+            ]
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Twenty floors above the city",
+            "description": "<p>Skyline Social opened on the roof of Tower B in 2020, with a charcoal grill and a view of the sunset.</p><p>Today it is where Cyber Hub comes to unwind, with live music four nights a week.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "6",
+            "experience_label": "years on the roof",
+            "points": [
+              {
+                "text": "Sunset views"
+              },
+              {
+                "text": "Charcoal grill"
+              },
+              {
+                "text": "Live music four nights a week"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Signature dishes",
+            "heading": "Grill & glass",
+            "description": "A taste of the menu — see the full menu for everything we cook.",
+            "layout": "list",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Signatures",
+                "name": "Chicken wings",
+                "description": "Smoky chipotle glaze.",
+                "price": "₹480",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-kebab.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Grill platter",
+                "description": "Chicken, lamb, prawns and paneer.",
+                "price": "₹1,450",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "For two",
+                "image": "theme:images/dish-kebab.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Smash burger",
+                "description": "Double patty, cheddar, onions.",
+                "price": "₹560",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-burger.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Tenderloin steak",
+                "description": "Pepper sauce, fries.",
+                "price": "₹980",
+                "diet": "nonveg",
+                "spice": "0",
+                "tag": "Chef’s special",
+                "image": "theme:images/dish-steak.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Sunset spritz",
+                "description": "Aperitivo, orange, prosecco-style bubbles.",
+                "price": "₹650",
+                "diet": "",
+                "spice": "0",
+                "tag": "Signature",
+                "image": "theme:images/dish-cocktail.svg"
+              },
+              {
+                "course": "Signatures",
+                "name": "Kokum mule",
+                "description": "Zero-proof.",
+                "price": "₹380",
+                "diet": "vegan",
+                "spice": "0",
+                "tag": "Zero-proof",
+                "image": "theme:images/dish-cocktail.svg"
+              }
+            ],
+            "note": "",
+            "button": {
+              "text": "See the full menu",
+              "url": "page:menu"
+            }
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why guests return",
+            "heading": "More than a meal",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-sunset",
+                "title": "Sunset views",
+                "description": "Twenty floors up, facing west."
+              },
+              {
+                "icon": "bi-fire",
+                "title": "Charcoal grill",
+                "description": "Everything grilled over charcoal."
+              },
+              {
+                "icon": "bi-music-note-beamed",
+                "title": "Live music",
+                "description": "Bands and DJs Thursday to Sunday."
+              },
+              {
+                "icon": "bi-cup-straw",
+                "title": "Craft cocktails",
+                "description": "House infusions and zero-proof drinks."
+              }
+            ]
+          }
+        },
+        {
+          "type": "gallery",
+          "data": {
+            "eyebrow": "Take a look",
+            "heading": "Inside Skyline Social",
+            "description": "",
+            "columns": "3",
+            "images": [
+              {
+                "image": "theme:images/room-terrace.svg",
+                "caption": "The terrace"
+              },
+              {
+                "image": "theme:images/room-bar.svg",
+                "caption": "The bar"
+              },
+              {
+                "image": "theme:images/room-dining.svg",
+                "caption": "The dining room"
+              },
+              {
+                "image": "theme:images/room-private.svg",
+                "caption": "Private dining"
+              },
+              {
+                "image": "theme:images/dish-kebab.svg",
+                "caption": "Kebab skewers"
+              },
+              {
+                "image": "theme:images/dish-burger.svg",
+                "caption": "A burger"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Guest book",
+            "heading": "What our guests say",
+            "description": "",
+            "items": [
+              {
+                "quote": "The best sunset in Gurugram, with a cocktail in hand.",
+                "name": "Nikhil Arora",
+                "role": "Google review",
+                "photo": "theme:images/guest-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "We hosted our office party here — great music, better food.",
+                "name": "Priyanka Sood",
+                "role": "Corporate party",
+                "photo": "theme:images/guest-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The grill platter is huge and properly smoky.",
+                "name": "Ravi Malhotra",
+                "role": "Guest review",
+                "photo": "theme:images/guest-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table on the roof",
+            "description": "Book for sunset or live-music nights; a cover charge applies after 9 pm on weekends.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "2\n3\n4\n5–8\n9–15\n16–30",
+            "select2_label": "Time",
+            "select2_options": "5:00 pm\n6:30 pm\n8:00 pm\n9:30 pm\n11:00 pm",
+            "date_label": "Date",
+            "message_label": "Occasion or seating preference (optional)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will confirm your table on WhatsApp within 30 minutes.",
+            "image": "theme:images/room-terrace.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Sunday – Thursday",
+                "text": "12 pm – 12:30 am"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 124 422 7700"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Host your party on the roof",
+            "description": "Birthdays, office parties and launches — the private deck seats 40, the whole roof 180.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911244227700"
+            }
+          }
+        }
+      ]
+    },
+    "menu": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our menu",
+            "subheading": "Charcoal grill, bar bites and craft cocktails.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "menu",
+          "data": {
+            "eyebrow": "Our menu",
+            "heading": "Bites, grill & cocktails",
+            "description": "",
+            "layout": "tabs",
+            "show_images": true,
+            "items": [
+              {
+                "course": "Bar bites",
+                "name": "Loaded nachos",
+                "description": "Cheese sauce, jalapeños, salsa.",
+                "price": "₹420",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-tacos.svg"
+              },
+              {
+                "course": "Bar bites",
+                "name": "Chicken wings",
+                "description": "Smoky chipotle glaze.",
+                "price": "₹480",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "Bestseller",
+                "image": "theme:images/dish-kebab.svg"
+              },
+              {
+                "course": "Bar bites",
+                "name": "Peri peri fries",
+                "description": "With garlic mayo.",
+                "price": "₹290",
+                "diet": "vegan",
+                "spice": "2",
+                "tag": "",
+                "image": "theme:images/dish-naan.svg"
+              },
+              {
+                "course": "From the grill",
+                "name": "Grill platter",
+                "description": "Chicken, lamb, prawns and paneer.",
+                "price": "₹1,450",
+                "diet": "nonveg",
+                "spice": "2",
+                "tag": "For two",
+                "image": "theme:images/dish-kebab.svg"
+              },
+              {
+                "course": "From the grill",
+                "name": "Smash burger",
+                "description": "Double patty, cheddar, onions.",
+                "price": "₹560",
+                "diet": "nonveg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-burger.svg"
+              },
+              {
+                "course": "From the grill",
+                "name": "Grilled paneer steak",
+                "description": "Chimichurri and mash.",
+                "price": "₹480",
+                "diet": "veg",
+                "spice": "1",
+                "tag": "",
+                "image": "theme:images/dish-steak.svg"
+              },
+              {
+                "course": "From the grill",
+                "name": "Tenderloin steak",
+                "description": "Pepper sauce, fries.",
+                "price": "₹980",
+                "diet": "nonveg",
+                "spice": "0",
+                "tag": "Chef’s special",
+                "image": "theme:images/dish-steak.svg"
+              },
+              {
+                "course": "Cocktails",
+                "name": "Sunset spritz",
+                "description": "Aperitivo, orange, prosecco-style bubbles.",
+                "price": "₹650",
+                "diet": "",
+                "spice": "0",
+                "tag": "Signature",
+                "image": "theme:images/dish-cocktail.svg"
+              },
+              {
+                "course": "Cocktails",
+                "name": "Smoked old fashioned",
+                "description": "Smoked tableside.",
+                "price": "₹720",
+                "diet": "",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-cocktail.svg"
+              },
+              {
+                "course": "Cocktails",
+                "name": "Kokum mule",
+                "description": "Zero-proof.",
+                "price": "₹380",
+                "diet": "vegan",
+                "spice": "0",
+                "tag": "Zero-proof",
+                "image": "theme:images/dish-cocktail.svg"
+              },
+              {
+                "course": "Desserts",
+                "name": "Brownie sundae",
+                "description": "Warm brownie, vanilla ice cream.",
+                "price": "₹380",
+                "diet": "egg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-icecream.svg"
+              },
+              {
+                "course": "Desserts",
+                "name": "Churros",
+                "description": "Chocolate dip.",
+                "price": "₹340",
+                "diet": "veg",
+                "spice": "0",
+                "tag": "",
+                "image": "theme:images/dish-waffle.svg"
+              }
+            ],
+            "note": "Prices include taxes. Please tell us about any allergies before you order.",
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Host your party on the roof",
+            "description": "Birthdays, office parties and launches — the private deck seats 40, the whole roof 180.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911244227700"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "A rooftop bar and grill above Cyber Hub with sunset views, a charcoal grill, craft cocktails and live music.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "Our story",
+            "heading": "Twenty floors above the city",
+            "description": "<p>Skyline Social opened on the roof of Tower B in 2020, with a charcoal grill and a view of the sunset.</p><p>Today it is where Cyber Hub comes to unwind, with live music four nights a week.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "6",
+            "experience_label": "years on the roof",
+            "points": [
+              {
+                "text": "Sunset views"
+              },
+              {
+                "text": "Charcoal grill"
+              },
+              {
+                "text": "Live music four nights a week"
+              }
+            ],
+            "button": {
+              "text": "Our story",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "20",
+                "suffix": "",
+                "label": "Floors up",
+                "icon": ""
+              },
+              {
+                "number": "180",
+                "suffix": "",
+                "label": "Guests on the roof",
+                "icon": ""
+              },
+              {
+                "number": "4",
+                "suffix": "",
+                "label": "Live nights a week",
+                "icon": ""
+              },
+              {
+                "number": "4.5",
+                "suffix": "/5",
+                "label": "Guest rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "The kitchen",
+            "heading": "The people behind the food",
+            "description": "",
+            "members": [
+              {
+                "name": "Varun Khanna",
+                "role": "Founder",
+                "bio": "Opened Skyline Social in 2020.",
+                "photo": "theme:images/chef-1.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Chef Aman Grewal",
+                "role": "Grill chef",
+                "bio": "Runs the charcoal grill.",
+                "photo": "theme:images/chef-2.svg",
+                "linkedin": ""
+              },
+              {
+                "name": "Leah Thomas",
+                "role": "Head mixologist",
+                "bio": "Builds our house infusions.",
+                "photo": "theme:images/chef-3.svg",
+                "linkedin": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "As featured in",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "NCR Nightlife",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Grill & Glass",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "The Weekend Guide",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "City Socials",
+                "url": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "events": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Events & private dining",
+            "subheading": "Celebrations, gatherings and evenings to remember.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "Celebrate with us",
+            "heading": "Ways to host with us",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-people",
+                "image": "theme:images/room-terrace.svg",
+                "title": "Private deck",
+                "description": "A deck for up to 40 guests with its own bar.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-building",
+                "image": "theme:images/room-bar.svg",
+                "title": "Full buyouts",
+                "description": "The whole roof for up to 180 guests.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              },
+              {
+                "icon": "bi-briefcase",
+                "image": "theme:images/room-dining.svg",
+                "title": "Corporate evenings",
+                "description": "Packages for team parties and launches.",
+                "link": {
+                  "text": "Enquire",
+                  "url": "page:contact"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "events",
+          "data": {
+            "eyebrow": "What’s on",
+            "heading": "Upcoming events",
+            "description": "",
+            "hide_past": true,
+            "items": [
+              {
+                "date": "2026-12-05",
+                "time": "8 pm onwards",
+                "title": "Retro Bollywood night",
+                "location": "Main deck",
+                "description": "A live band plays the hits of the 70s and 80s.",
+                "image": "theme:images/room-terrace.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2026-12-31",
+                "time": "8 pm – 1 am",
+                "title": "New Year’s Eve on the roof",
+                "location": "Whole roof",
+                "description": "DJ, unlimited grill buffet and a midnight countdown. ₹5,500 per guest.",
+                "image": "theme:images/room-bar.svg",
+                "link": {
+                  "text": "Get passes",
+                  "url": "page:reservations"
+                }
+              },
+              {
+                "date": "2027-01-23",
+                "time": "7 pm",
+                "title": "Acoustic sunset sessions",
+                "location": "Main deck",
+                "description": "Singer-songwriters at sunset.",
+                "image": "theme:images/room-dining.svg",
+                "link": {
+                  "text": "Book a table",
+                  "url": "page:reservations"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Host your party on the roof",
+            "description": "Birthdays, office parties and launches — the private deck seats 40, the whole roof 180.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Plan an event",
+              "url": "page:events"
+            },
+            "secondary_button": {
+              "text": "Call us",
+              "url": "tel:+911244227700"
+            }
+          }
+        }
+      ]
+    },
+    "reservations": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Reservations",
+            "subheading": "Book for sunset or live-music nights; a cover charge applies after 9 pm on weekends.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "booking_form",
+          "data": {
+            "eyebrow": "Reservations",
+            "heading": "Book a table on the roof",
+            "description": "Book for sunset or live-music nights; a cover charge applies after 9 pm on weekends.",
+            "form_type": "booking",
+            "form_heading": "Table booking",
+            "select1_label": "Guests",
+            "select1_options": "2\n3\n4\n5–8\n9–15\n16–30",
+            "select2_label": "Time",
+            "select2_options": "5:00 pm\n6:30 pm\n8:00 pm\n9:30 pm\n11:00 pm",
+            "date_label": "Date",
+            "message_label": "Occasion or seating preference (optional)",
+            "email_required": false,
+            "button_text": "Request booking",
+            "success_message": "Thank you! We will confirm your table on WhatsApp within 30 minutes.",
+            "image": "theme:images/room-terrace.svg",
+            "points": [
+              {
+                "icon": "bi-clock",
+                "title": "Sunday – Thursday",
+                "text": "12 pm – 12:30 am"
+              },
+              {
+                "icon": "bi-telephone",
+                "title": "Large groups",
+                "text": "Call +91 124 422 7700"
+              },
+              {
+                "icon": "bi-whatsapp",
+                "title": "Quick confirmation",
+                "text": "We confirm every booking by phone or WhatsApp"
+              }
+            ]
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Open till 1 am",
+            "description": "Every day, 12 pm – 1 am",
+            "rows": [
+              {
+                "label": "Sunday – Thursday",
+                "hours": "12 pm – 12:30 am"
+              },
+              {
+                "label": "Friday – Saturday",
+                "hours": "12 pm – 1 am"
+              },
+              {
+                "label": "Happy hours",
+                "hours": "Daily, 4 – 8 pm"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 124 422 7700",
+            "note": "Entry for guests aged 25 and above after 8 pm, as per excise rules."
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "Good to know",
+            "heading": "Before you visit",
+            "description": "",
+            "items": [
+              {
+                "question": "Is there an age limit?",
+                "answer": "Guests must be 25 or older after 8 pm, as per excise rules."
+              },
+              {
+                "question": "Is there a cover charge?",
+                "answer": "On Friday and Saturday after 9 pm; it is fully redeemable against food and drinks."
+              },
+              {
+                "question": "Do you host private parties?",
+                "answer": "Yes — the whole roof for up to 180 guests, or a private deck for 40."
+              },
+              {
+                "question": "What if it rains?",
+                "answer": "Half the roof is covered, and we have an indoor lounge."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "We would love to hear from you.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Visit, call or write to us",
+            "description": "For bookings please use the reservations page or call us. For events, catering and feedback, send us a message.",
+            "form_heading": "Send a message",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        },
+        {
+          "type": "opening_hours",
+          "data": {
+            "eyebrow": "Opening hours",
+            "heading": "Open till 1 am",
+            "description": "Every day, 12 pm – 1 am",
+            "rows": [
+              {
+                "label": "Sunday – Thursday",
+                "hours": "12 pm – 12:30 am"
+              },
+              {
+                "label": "Friday – Saturday",
+                "hours": "12 pm – 1 am"
+              },
+              {
+                "label": "Happy hours",
+                "hours": "Daily, 4 – 8 pm"
+              }
+            ],
+            "highlight_label": "Call us",
+            "highlight_value": "+91 124 422 7700",
+            "note": "Entry for guests aged 25 and above after 8 pm, as per excise rules."
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>We use the details you share through this website — your name, phone number, email and booking details — only to manage your reservation or reply to your message. We do not sell or share them with anyone except where needed to fulfil your request.</p><p>Write to us to have your details corrected or deleted.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<h3>Reservations</h3><p>Tables are held for 15 minutes after the booking time. Bookings for 8 or more guests may require a deposit, adjusted against the bill.</p><h3>Prices</h3><p>Menu prices are in Indian rupees and exclude GST. Service charge is not added to the bill; tips are at your discretion.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

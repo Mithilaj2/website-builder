@@ -1,0 +1,174 @@
+{
+  "id": "restaurant_template_03",
+  "name": "Annapoorna Tiffin Rooms",
+  "category": "restaurant",
+  "version": "1.0.0",
+  "description": "A traditional, cheerful design for South Indian, vegetarian and family restaurants: info bar, a colour-panel hero, a classic menu board with dotted price leaders and diet marks, a booking form and a festival calendar.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#2F6B3A",
+      "secondary": "#E6A817",
+      "bg": "#FFFBF0",
+      "text": "#23281F",
+      "heading_font": "lora",
+      "body_font": "open-sans",
+      "radius": "12px",
+      "button_style": "solid",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky, with info bar",
+      "minimal": "Sticky, no info bar",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "menu",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "booking_form",
+    "opening_hours",
+    "events"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "about",
+        "menu",
+        "features",
+        "gallery",
+        "testimonials",
+        "booking_form",
+        "cta"
+      ]
+    },
+    "menu": {
+      "default_sections": [
+        "page_banner",
+        "menu",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "team",
+        "logos"
+      ]
+    },
+    "events": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "events",
+        "cta"
+      ]
+    },
+    "reservations": {
+      "default_sections": [
+        "page_banner",
+        "booking_form",
+        "opening_hours",
+        "faq"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact",
+        "opening_hours"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "Menu",
+      "slug": "menu",
+      "type": "menu"
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Events",
+      "slug": "events",
+      "type": "events"
+    },
+    {
+      "title": "Reservations",
+      "slug": "reservations",
+      "type": "reservations"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ]
+}
