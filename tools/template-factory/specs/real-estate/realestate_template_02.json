@@ -1,0 +1,66 @@
+{
+  "id": "realestate_template_02",
+  "name": "Coastline Villas",
+  "prefix": "cvl",
+  "niche": "villas",
+  "seed": 2,
+  "direction": "Coastal luxury: centred masthead, full-bleed cover hero with a villa search, teal and sand on shell white, Cormorant serif headings, price-on-photo cards, image type tiles.",
+  "description": "A coastal, luxurious design for villa developers, holiday-home sellers and luxury brokers: centred masthead, a full-bleed hero with a property search, image type tiles, cards with the price on the photo and agent portraits.",
+  "theme": {
+    "primary": "#0F5E66",
+    "secondary": "#D9A55B",
+    "bg": "#FBF8F3",
+    "text": "#1B2A2C",
+    "heading_font": "cormorant-garamond",
+    "body_font": "jost",
+    "radius": "2px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "cover",
+    "banner": "image",
+    "head": "serif",
+    "card": "line",
+    "listing-card": "photo",
+    "listing_categories": "tiles",
+    "about": "layered",
+    "services": "rows",
+    "stats": "inline",
+    "process": "line",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "testimonials",
+    "process"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 70%, #000)",
+    "icon": "soft",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": ".01em",
+    "hero_scale": 1.12,
+    "card": "#FFFFFF",
+    "btn_case": "uppercase",
+    "btn_track": ".1em",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "featured_heading": "Featured villas",
+    "header_button": "Plan a visit"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

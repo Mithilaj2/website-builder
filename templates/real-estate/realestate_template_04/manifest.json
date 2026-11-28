@@ -1,0 +1,286 @@
+{
+  "id": "realestate_template_04",
+  "name": "Meridian Spaces",
+  "category": "real-estate",
+  "version": "1.0.0",
+  "description": "A sharp, corporate dark design for commercial brokers, office leasing and coworking: floating navigation, an editorial hero with a space search, image type tiles, cards with rent and a details button, and a timeline.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#3B82F6",
+      "secondary": "#C6F432",
+      "bg": "#0E1116",
+      "text": "#E6E9EE",
+      "heading_font": "space-grotesk",
+      "body_font": "inter",
+      "radius": "10px",
+      "button_style": "pill",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "listings",
+    "listing_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "listing_categories",
+        "listings",
+        "about",
+        "stats",
+        "services",
+        "listings",
+        "testimonials",
+        "logos",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "team": {
+      "default_sections": [
+        "page_banner",
+        "team",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Team",
+      "slug": "team",
+      "type": "team"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Disclaimer",
+      "slug": "disclaimer",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ],
+  "listings": {
+    "path": "listings",
+    "singular": "Space",
+    "plural": "Spaces",
+    "menu_label": "Spaces",
+    "icon": "bi-buildings",
+    "category_label": "Space type",
+    "location_label": "Micro-market",
+    "price_label": "Price",
+    "price_format": "lakh",
+    "price_notes": [
+      "onwards",
+      "per month",
+      "per night",
+      "per acre",
+      "negotiable",
+      "all inclusive"
+    ],
+    "closed_label": "Leased",
+    "attributes": [
+      {
+        "key": "listing_for",
+        "label": "Available for",
+        "type": "select",
+        "options": [
+          "Lease",
+          "Sale"
+        ],
+        "filter": true,
+        "icon": "bi-tag"
+      },
+      {
+        "key": "area",
+        "label": "Built-up area",
+        "type": "number",
+        "suffix": "sq ft",
+        "card": true,
+        "icon": "bi-bounding-box"
+      },
+      {
+        "key": "seats",
+        "label": "Workstations",
+        "type": "number",
+        "suffix": "seats",
+        "card": true,
+        "icon": "bi-people"
+      },
+      {
+        "key": "furnishing",
+        "label": "Fit-out",
+        "type": "select",
+        "options": [
+          "Bare shell",
+          "Warm shell",
+          "Plug and play"
+        ],
+        "filter": true,
+        "icon": "bi-tools"
+      },
+      {
+        "key": "possession",
+        "label": "Possession",
+        "type": "select",
+        "options": [
+          "Ready to move",
+          "Under construction",
+          "New launch"
+        ],
+        "filter": true,
+        "icon": "bi-calendar-check"
+      },
+      {
+        "key": "floor",
+        "label": "Floor",
+        "type": "text",
+        "icon": "bi-layers",
+        "help": "e.g. 7th of 14"
+      },
+      {
+        "key": "parking",
+        "label": "Car parking",
+        "type": "number",
+        "icon": "bi-p-circle"
+      },
+      {
+        "key": "rera",
+        "label": "RERA number",
+        "type": "text",
+        "icon": "bi-patch-check",
+        "help": "Shown on the property page; required for projects registered under RERA."
+      },
+      {
+        "key": "amenities",
+        "label": "Amenities",
+        "type": "list",
+        "icon": "bi-stars"
+      },
+      {
+        "key": "nearby",
+        "label": "Nearby",
+        "type": "list",
+        "icon": "bi-geo"
+      }
+    ],
+    "enquiry": {
+      "heading": "Arrange a site tour",
+      "button": "Request a tour",
+      "date_label": "Preferred tour date",
+      "select_label": "Team size",
+      "select_options": [
+        "Under 20 people",
+        "20–100 people",
+        "100–500 people",
+        "500+ people"
+      ],
+      "success": "Thank you! A leasing manager will call you within one working day."
+    }
+  }
+}

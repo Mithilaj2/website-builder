@@ -1,0 +1,1148 @@
+{
+  "settings": {
+    "site": {
+      "name": "Backwater Residences",
+      "tagline": "Premium homes · Kochi",
+      "phone": "+91 484 266 1100",
+      "email": "homes@backwaterresidences.example",
+      "address": "Marine Drive Business Centre, Shanmugham Road\nErnakulam, Kochi, Kerala 682031",
+      "hours": "Mon–Sat, 9:30 am – 6 pm (IST); video calls on request",
+      "footer_about": "Backwater Residences builds waterfront apartments and villas in Kochi, with dedicated services for buyers living abroad.",
+      "footer_text": "All rights reserved. Projects registered with K-RERA, Kerala (demo numbers).",
+      "header_button": {
+        "text": "Book a video tour",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "seo": {
+      "description": "Backwater Residences, Kochi: Backwater Residences builds waterfront apartments and villas in Kochi, with dedicated services for buyers living abroad.",
+      "keywords": "residences in Kochi, real estate Kochi, premium homes · kochi"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Waterfront apartments",
+        "slug": "waterfront",
+        "description": "Apartments facing Vembanad lake and the harbour.",
+        "image": "theme:images/cat-waterfront.svg"
+      },
+      {
+        "name": "Sky residences",
+        "slug": "sky-residences",
+        "description": "Duplexes and penthouses on the top floors.",
+        "image": "theme:images/cat-sky-residences.svg"
+      },
+      {
+        "name": "Villas",
+        "slug": "villas",
+        "description": "Gated villa communities in Kakkanad and Aluva.",
+        "image": "theme:images/cat-villas.svg"
+      },
+      {
+        "name": "Ready to rent",
+        "slug": "ready-to-rent",
+        "description": "Furnished homes already earning rent.",
+        "image": "theme:images/cat-ready-to-rent.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Marina Bay — 3 BHK lake view",
+        "slug": "marina-bay-3bhk",
+        "category": "waterfront",
+        "location": "Marine Drive",
+        "price": 1850000000,
+        "image": "theme:images/prop-marina-bay-3bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1980,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "West",
+          "floor": "15th of 28",
+          "parking": 2,
+          "rera": "K-RERA/PRJ/ERN/000/2024 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Marine Drive market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kochi railway station — 25 min"
+          ]
+        },
+        "short_description": "A west-facing 3 BHK with a 20-ft deck over the backwaters and sunsets over the harbour.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Marine Drive, Kochi</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Lake view"
+      },
+      {
+        "title": "Marina Bay — 4 BHK sky duplex",
+        "slug": "marina-bay-duplex",
+        "category": "sky-residences",
+        "location": "Marine Drive",
+        "price": 4500000000,
+        "image": "theme:images/prop-marina-bay-duplex.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-pool.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 4,
+          "bathrooms": 5,
+          "area": 4200,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "West",
+          "floor": "27th–28th",
+          "parking": 3,
+          "rera": "K-RERA/PRJ/ERN/000/2024 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Marine Drive market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kochi railway station — 25 min"
+          ]
+        },
+        "short_description": "Two top floors with a private pool deck and a 270-degree view of the city and the sea.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Marine Drive, Kochi</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Only one left"
+      },
+      {
+        "title": "Palm Grove — 4 BHK villa",
+        "slug": "palm-grove-villa",
+        "category": "villas",
+        "location": "Kakkanad",
+        "price": 3200000000,
+        "image": "theme:images/prop-palm-grove-villa.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-pool.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-kitchen.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "area": 3400,
+          "possession": "Under construction",
+          "furnishing": "Unfurnished",
+          "facing": "East",
+          "parking": 2,
+          "rera": "K-RERA/PRJ/ERN/001/2025 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Kakkanad market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kochi railway station — 25 min"
+          ]
+        },
+        "short_description": "Contemporary villas with a courtyard and a private garden, ten minutes from Infopark.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Kakkanad, Kochi</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Handover 2027",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Harbour Lights — 2 BHK",
+        "slug": "harbour-lights-2bhk",
+        "category": "waterfront",
+        "location": "Willingdon Island",
+        "price": 980000000,
+        "image": "theme:images/prop-harbour-lights-2bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": 1240,
+          "possession": "New launch",
+          "furnishing": "Unfurnished",
+          "facing": "North",
+          "floor": "3rd–20th",
+          "parking": 1,
+          "rera": "K-RERA/PRJ/ERN/002/2026 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Willingdon Island market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kochi railway station — 25 min"
+          ]
+        },
+        "short_description": "New launch: compact waterfront homes with a marina walk, a pool and a co-working lounge.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Willingdon Island, Kochi</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "New launch",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Furnished 3 BHK, Panampilly Nagar",
+        "slug": "panampilly-3bhk-rent",
+        "category": "ready-to-rent",
+        "location": "Panampilly Nagar",
+        "price": 6500000,
+        "image": "theme:images/prop-panampilly-3bhk-rent.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-kitchen.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1850,
+          "possession": "Ready to move",
+          "furnishing": "Fully furnished",
+          "facing": "East",
+          "floor": "2nd of 6",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Panampilly Nagar market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kochi railway station — 25 min"
+          ]
+        },
+        "short_description": "A furnished home in a quiet residential street, managed by us for its owner in Dubai.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Panampilly Nagar, Kochi</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Managed",
+        "price_note": "per month"
+      },
+      {
+        "title": "Palm Grove — 3 BHK villa",
+        "slug": "palm-grove-3bhk",
+        "category": "villas",
+        "location": "Kakkanad",
+        "price": 2450000000,
+        "image": "theme:images/prop-palm-grove-3bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-pool.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-kitchen.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 2650,
+          "possession": "Under construction",
+          "furnishing": "Unfurnished",
+          "facing": "North",
+          "parking": 2,
+          "rera": "K-RERA/PRJ/ERN/001/2025 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Kakkanad market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kochi railway station — 25 min"
+          ]
+        },
+        "short_description": "Three-bedroom villas with a garden, in the same gated community as the 4 BHK villas.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Kakkanad, Kochi</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Backwater Bay — 3 BHK",
+        "slug": "backwater-bay-3bhk",
+        "category": "waterfront",
+        "location": "Vyttila",
+        "price": 1280000000,
+        "image": "theme:images/prop-backwater-bay-3bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1720,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "East",
+          "floor": "All floors",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Vyttila market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kochi railway station — 25 min"
+          ]
+        },
+        "short_description": "Our 2022 project — every home is now sold.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Vyttila, Kochi</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Waterfront homes for Keralites everywhere",
+            "heading": "Come home to the backwaters",
+            "subheading": "Premium 2, 3 and 4 BHK apartments and villas on the Kochi waterfront — with an NRI desk that handles everything from video tours to rental management.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Video tours across time zones"
+              },
+              {
+                "icon": "bi-camera-video",
+                "text": "NRE/NRO payment guidance"
+              },
+              {
+                "icon": "bi-bank",
+                "text": "Rental and upkeep while you are away"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "What are you looking for?",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Handpicked",
+            "heading": "Featured residences",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "View all residences",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Backwater",
+            "heading": "Homes for Keralites, wherever they live",
+            "description": "<p>Backwater Residences has built waterfront homes in Kochi since 2007. More than a third of our owners live outside India.</p><p>Our NRI desk makes buying, owning and renting out a home from abroad simple.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "19",
+            "experience_label": "years in Kochi",
+            "points": [
+              {
+                "text": "Dedicated NRI desk"
+              },
+              {
+                "text": "Video tours in your time zone"
+              },
+              {
+                "text": "Rental management in-house"
+              }
+            ],
+            "button": {
+              "text": "About us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2900",
+                "suffix": "+",
+                "label": "Homes delivered",
+                "icon": ""
+              },
+              {
+                "number": "38",
+                "suffix": "%",
+                "label": "Buyers living abroad",
+                "icon": ""
+              },
+              {
+                "number": "19",
+                "suffix": "",
+                "label": "Years in Kochi",
+                "icon": ""
+              },
+              {
+                "number": "24",
+                "suffix": "",
+                "label": "Countries our owners live in",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Owning from abroad, made simple",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-camera-video",
+                "title": "Video tours",
+                "description": "Live walk-throughs on WhatsApp or Zoom at a time that suits your time zone.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "NRI desk",
+                "description": "Payments from NRE/NRO accounts, power of attorney and repatriation guidance.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-house-gear",
+                "title": "Rental management",
+                "description": "Tenants found, rent collected and the home maintained while you are away.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Interiors",
+                "description": "Turnkey interiors so your home is ready when you land.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "NRI home loans",
+                "description": "Loans from partner banks for buyers living abroad.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Legal & registration",
+                "description": "Registration in person or through your power of attorney.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just listed",
+            "heading": "New on the market",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all residences",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Kochi",
+            "description": "",
+            "items": [
+              {
+                "quote": "We bought our flat from Abu Dhabi on video calls. The handover on our holiday took one afternoon.",
+                "name": "Joseph & Anu Mathew",
+                "role": "Bought at Marina Bay",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Our villa is rented out and the monthly statement arrives without us asking.",
+                "name": "Sanjay Pillai",
+                "role": "Villa owner, living in London",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "They explained every NRI rule patiently, twice.",
+                "name": "Fathima Rasheed",
+                "role": "Bought a 2 BHK, living in Doha",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Home loans arranged with",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Periyar Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Malabar Home Finance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Gulf Remit Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Spice Coast Finance",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a home back in Kochi?",
+            "description": "Book a video tour at a time that suits you. Our NRI desk is happy to answer every question.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse residences",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Backwater Residences builds waterfront apartments and villas in Kochi, with dedicated services for buyers living abroad.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Backwater",
+            "heading": "Homes for Keralites, wherever they live",
+            "description": "<p>Backwater Residences has built waterfront homes in Kochi since 2007. More than a third of our owners live outside India.</p><p>Our NRI desk makes buying, owning and renting out a home from abroad simple.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "19",
+            "experience_label": "years in Kochi",
+            "points": [
+              {
+                "text": "Dedicated NRI desk"
+              },
+              {
+                "text": "Video tours in your time zone"
+              },
+              {
+                "text": "Rental management in-house"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "2900",
+                "suffix": "+",
+                "label": "Homes delivered",
+                "icon": ""
+              },
+              {
+                "number": "38",
+                "suffix": "%",
+                "label": "Buyers living abroad",
+                "icon": ""
+              },
+              {
+                "number": "19",
+                "suffix": "",
+                "label": "Years in Kochi",
+                "icon": ""
+              },
+              {
+                "number": "24",
+                "suffix": "",
+                "label": "Countries our owners live in",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Backwater",
+            "heading": "What makes us different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-camera-video",
+                "title": "Video tours",
+                "description": "Live walk-throughs on WhatsApp or Zoom at a time that suits your time zone."
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "NRI desk",
+                "description": "Payments from NRE/NRO accounts, power of attorney and repatriation guidance."
+              },
+              {
+                "icon": "bi-house-gear",
+                "title": "Rental management",
+                "description": "Tenants found, rent collected and the home maintained while you are away."
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Interiors",
+                "description": "Turnkey interiors so your home is ready when you land."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "Projects registered with K-RERA, Kerala (demo numbers).",
+            "members": [
+              {
+                "name": "Thomas Kurian",
+                "role": "Managing Director",
+                "bio": "19 years building homes in Kochi.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Reshma Nair",
+                "role": "Head, NRI desk",
+                "bio": "Has helped 1,100 buyers living abroad.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "George Varghese",
+                "role": "Projects",
+                "bio": "Construction and handovers across all sites.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Lekha Menon",
+                "role": "Rental management",
+                "bio": "Looks after 300 owners’ homes.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "How we help you buy, sell, rent and invest.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Owning from abroad, made simple",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-camera-video",
+                "title": "Video tours",
+                "description": "Live walk-throughs on WhatsApp or Zoom at a time that suits your time zone.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-globe2",
+                "title": "NRI desk",
+                "description": "Payments from NRE/NRO accounts, power of attorney and repatriation guidance.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-house-gear",
+                "title": "Rental management",
+                "description": "Tenants found, rent collected and the home maintained while you are away.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Interiors",
+                "description": "Turnkey interiors so your home is ready when you land.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "NRI home loans",
+                "description": "Loans from partner banks for buyers living abroad.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-shield-check",
+                "title": "Legal & registration",
+                "description": "Registration in person or through your power of attorney.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Simple, from first call to keys",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-camera-video",
+                "title": "Video tour",
+                "description": "See the home and the site live, from wherever you are."
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Book & agree",
+                "description": "Book online; the agreement is couriered to you."
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Pay & register",
+                "description": "Pay from your NRE/NRO account; register in person or by POA."
+              },
+              {
+                "icon": "bi-key",
+                "title": "Handover",
+                "description": "Keys on your next visit — or we let the home for you."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we are often asked",
+            "description": "Can’t find your answer? Call us — we are happy to help.",
+            "items": [
+              {
+                "question": "Can I buy without travelling to India?",
+                "answer": "Yes. You can complete the purchase through a power of attorney; we guide you through it."
+              },
+              {
+                "question": "How do I pay as an NRI?",
+                "answer": "Payments are made from your NRE or NRO account; we share the bank details and the paperwork you will need."
+              },
+              {
+                "question": "Will you rent out my home?",
+                "answer": "Our rental team finds tenants, collects rent and maintains the home for a monthly fee."
+              },
+              {
+                "question": "Are the projects RERA registered?",
+                "answer": "Yes, with K-RERA; the number is on each property page."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a home back in Kochi?",
+            "description": "Book a video tour at a time that suits you. Our NRI desk is happy to answer every question.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse residences",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "team": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our team",
+            "subheading": "Projects registered with K-RERA, Kerala (demo numbers).",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "Projects registered with K-RERA, Kerala (demo numbers).",
+            "members": [
+              {
+                "name": "Thomas Kurian",
+                "role": "Managing Director",
+                "bio": "19 years building homes in Kochi.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Reshma Nair",
+                "role": "Head, NRI desk",
+                "bio": "Has helped 1,100 buyers living abroad.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "George Varghese",
+                "role": "Projects",
+                "bio": "Construction and handovers across all sites.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Lekha Menon",
+                "role": "Rental management",
+                "bio": "Looks after 300 owners’ homes.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Kochi",
+            "description": "",
+            "items": [
+              {
+                "quote": "We bought our flat from Abu Dhabi on video calls. The handover on our holiday took one afternoon.",
+                "name": "Joseph & Anu Mathew",
+                "role": "Bought at Marina Bay",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Our villa is rented out and the monthly statement arrives without us asking.",
+                "name": "Sanjay Pillai",
+                "role": "Villa owner, living in London",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "They explained every NRI rule patiently, twice.",
+                "name": "Fathima Rasheed",
+                "role": "Bought a 2 BHK, living in Doha",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Planning a home back in Kochi?",
+            "description": "Book a video tour at a time that suits you. Our NRI desk is happy to answer every question.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse residences",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Visit our Kochi office or send us a message.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Let’s talk about what you are looking for",
+            "description": "Tell us what you need and our team will call you within one working day.",
+            "form_heading": "Request a call back",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Backwater Residences collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>Backwater Residences is not liable for decisions made only on the basis of information on this website.</p>"
+          }
+        }
+      ]
+    },
+    "disclaimer": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Disclaimer",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the RERA website.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

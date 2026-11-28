@@ -1,0 +1,60 @@
+{
+  "id": "realestate_template_06",
+  "name": "HomeHive Rentals",
+  "prefix": "hhv",
+  "niche": "rentals",
+  "seed": 6,
+  "direction": "Friendly and modern: floating pill navigation, centred hero over a neighbourhood panorama with a rental search, honey yellow and indigo, Plus Jakarta Sans, tinted chips cards, image tiles.",
+  "description": "A friendly, modern design for rental agencies and property managers: floating navigation, a centred hero with a rental search, image type tiles, cards with rent and a details button, and owner services.",
+  "theme": {
+    "primary": "#3730A3",
+    "secondary": "#F7B731",
+    "bg": "#FFFDF8",
+    "text": "#1E1B3A",
+    "heading_font": "plus-jakarta-sans",
+    "body_font": "inter",
+    "radius": "20px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "stack",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "listing-card": "classic",
+    "listing_categories": "tiles",
+    "about": "grid",
+    "services": "cards",
+    "stats": "inline",
+    "process": "cards",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "round",
+    "gallery": "masonry",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "tint",
+    "icon_radius": "50%",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "featured_heading": "Homes available to rent",
+    "header_button": "List your home",
+    "services_heading": "For tenants and owners",
+    "types_heading": "Find your kind of home"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

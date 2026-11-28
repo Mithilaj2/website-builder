@@ -9,7 +9,62 @@
 | 4 Generated site CMS | ✅ Complete | PR #4 | See below. Blog and listing modules arrive with the templates that need them (Phase 7); payment keys screen with Phase 5 |
 | 5 Payment integration | ✅ Built (PR #5) · ⏳ sandbox verification | All 5 gateways built and tested against a local gateway emulator. Each gateway is marked **Verified** only after a real sandbox payment on cPanel (checklist below) |
 | 6 Export & deployment | ✅ Complete, awaiting review | See below. Final check on a real second cPanel account to be run by Channel Softech |
-| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); Hospital done (PR #14, awaiting review); **E-commerce done** (awaiting review); next: the remaining 6 categories (Real Estate, Travel, Restaurant, Hotel, Portfolio, Services) |
+| 7 Template library | 🔄 In progress | 7a and 7b done: template 01 for all 10 categories. 7c (templates 02–10, one category per PR): Business done (PR #12, merged); Education done (PR #13, awaiting review); Hospital done (PR #14, awaiting review); E-commerce done (PR #15, awaiting review); **Real Estate done** (awaiting review); next: the remaining 5 categories (Travel, Restaurant, Hotel, Portfolio, Services) |
+
+## Phase 7c, Real Estate: templates 02–10
+
+### Delivered
+- **Factory extended for listings** (properties now; travel packages and hotel rooms next):
+  - A search panel that every hero variant shows only when the template has listings: buy/rent (or lease/sale) tabs, location, type and budget. Budgets suit the business: lakh/crore ranges for sales, monthly ranges for rentals.
+  - A menu item for the listings with a dropdown of categories and "For sale / For rent" links.
+  - New library sections: `listings` (featured, newest, one category or lowest price) and `listing_categories` with `tiles` or `cards` variants.
+  - Two listing cards, `photo` (price on the photo, fact strip) and `classic` (fact chips, price and a round details button). The runtime listing search page, the "similar" row and the home sections all use the template's card; the listing pages pick up the template's colours, buttons and dark-mode fields.
+  - Thirteen original building drawings (towers, penthouse, villa, bungalow, row houses, office, shops, warehouse, heritage building, farmhouse, cottage, open plot, plotted layout) and eleven interiors and site views for listing galleries.
+  - Nine demo businesses, each with its own listings set-up: attributes, filters, enquiry form (with a dropdown and a preferred date) and "sold/let out/leased" label.
+- **Nine new Real Estate templates**, each with its own demo business:
+
+| # | Template | Prefix | Demo business | Hero / header / card / categories | Look |
+|---|---|---|---|---|---|
+| 02 | Coastline Villas | `cvl` | Pool villas, Goa | full-bleed cover / centred masthead / photo / tiles | Teal + sand, Cormorant Garamond |
+| 03 | Navkar Developers | `nvk` | Developer, Ahmedabad (projects) | colour panel / dark bar / classic / cards | Deep blue + saffron, Montserrat |
+| 04 | Meridian Spaces | `mrs` | Offices, retail and warehouses, Gurugram (lease/sale) | editorial / floating pill / classic / tiles | **Dark**, blue + lime, Space Grotesk |
+| 05 | Bhoomi Layouts | `bhl` | Approved plots and farmland, Mysuru | split / info bar / photo / cards | Earth brown + leaf green, Poppins |
+| 06 | HomeHive Rentals | `hhv` | Rentals and property management, Bengaluru | centred panorama / floating pill / classic / tiles | Indigo + honey, Plus Jakarta Sans |
+| 07 | Backwater Residences | `bwr` | Waterfront homes for NRIs, Kochi | split / centred masthead / photo / cards | Lagoon blue + coral, DM Serif Display |
+| 08 | Greenfield Township | `gft` | Integrated township, Nagpur | full-bleed cover / dark bar / classic / tiles | Forest green + sunflower, Sora |
+| 09 | Hillcrest Retreats | `hcr` | Farmhouses and weekend homes, Lonavala | colour panel / info bar / photo / cards | Moss + terracotta, Fraunces |
+| 10 | Heritage Homes Realty | `hhr` | Resale and heritage homes, Kolkata | editorial / centred masthead / classic / tiles | Oxblood + brass, Playfair Display, light footer |
+
+- Every template has eight pages: Home, About, Services (process and FAQ), Team, Contact and three legal pages (privacy, terms, disclaimer), plus the listing search and listing pages. Each demo has 4 categories and 7–8 listings (6 featured, 1 sold, let or leased) with galleries, specifications, amenities and nearby places.
+- All businesses, people, banks and RERA numbers are invented; RERA numbers are marked "(demo)".
+- No runtime changes; runtime 1.7.0.
+
+### Tests
+`tests/phase7c_realestate_test.php` runs **213 end-to-end checks**.
+
+- **Template files:** the same checks as the earlier categories, plus: a valid listings module, every demo attribute value matching its attribute (select options, whole numbers), an exterior and a gallery for every listing, and the chosen card and category views. Prefixes are compared against all 46 existing templates.
+- **Each of the nine websites:**
+  - demo listings imported
+  - variants, hero copy, the listings menu with categories, the hero search (with tabs only where there is a choice)
+  - categories, 6 featured and 3 new listings in the template's cards
+  - all seven inner pages and the 404 page
+  - the listing search page in the template's cards; category and buy/rent (or lease/sale) filters; the closed listing marked
+  - a listing page with its gallery, specifications and enquiry form; an enquiry with the dropdown answer and date stored against the listing
+  - a contact enquiry
+- **Export:** a full export of one website, including listing images and partials.
+
+| Server | 7c Real Estate | 7c E-commerce | 7c Hospital | 7c Education | 7c Business | 7b-3 | 7b-2 | 7b-1 | Shop | 7a | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Phase 5 | Phase 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PHP dev server | 213/213 | 216/216 | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+| Apache (cPanel-style subfolder) | 213/213 | 216/216 | 162/162 | 153/153 | 126/126 | 37/37 | 54/54 | 69/69 | 102/102 | 68/68 | 80/80 | 99/99 | 79/79 | 105/105 | 68/68 | 53/53 |
+
+All template PHP passes the PHP 8.1 syntax check. Desktop and phone screenshots of the home, about, services, team, contact, listing search and listing pages of the nine websites show no horizontal scrolling and no script errors.
+
+### Fixed during this phase
+- **Long registration numbers overflowed on phones** on listing pages (e.g. a GujRERA number). Specification values now wrap.
+- **Listing description repeated the summary** on listing pages; the description now starts with the highlights.
+- **Long fact values were cut off** on photo cards (e.g. "Town planning approved"); values are shorter and truncate cleanly.
+- **Rental search offered lakh/crore budgets**; rental sites now offer monthly budgets and still show sale prices as lakh/crore.
 
 ## Phase 7c, E-commerce: templates 02–10
 
@@ -906,6 +961,9 @@ Every generated website now has its own admin panel at **`/admin`** (for example
 - Apache turned HTTP 419 (CSRF) into 500. Fixed: CSRF failures now return 403 with a clear message.
 
 ## Log
+
+### 2026-11-28 (Phase 7c, Real Estate)
+Real Estate templates 02–10; factory listings search, menu, sections, listing cards and building drawings; 213-check test; full regression on dev and Apache.
 
 ### 2026-11-24 (Phase 7c, E-commerce)
 E-commerce templates 02–10; factory shop chrome, product cards, product and category sections and product drawings; 216-check test; full regression on dev and Apache.

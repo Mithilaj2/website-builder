@@ -138,6 +138,11 @@ background (set `bg`/`text` in `theme` accordingly).
   enabled, so other categories built from the same library are unaffected. Choose the product card with the
   `product-card` variant (`overlay` or `plain`) and the category display with `product_categories`
   (`tiles` or `circles`). Prefer non-`bar` headers for shops: the announcement bar already sits on top.
+- Listings (properties, packages, rooms): a demo module that defines `listings_config(spec)` adds a `listings` block to the
+  manifest. The hero search, the listings menu item and the listing sections render only when the template has
+  listings. Choose the card with the `listing-card` variant (`photo` or `classic`) and the category display with
+  `listing_categories` (`tiles` or `cards`). Every demo attribute value must match its attribute (select options,
+  whole numbers); the enquiry dropdown label must not contain "date".
 - Demo shops never include payment keys or other secrets; prices are in paise.
 - Booking-form dropdown labels must not contain the word "date": the runtime validates any field whose
   label contains "date" as a calendar date, so such a dropdown could never be submitted. The education
@@ -149,6 +154,7 @@ background (set `bg`/`text` in `theme` accordingly).
 |---|---|---|
 | Business | `images/business_images.py` | logistics, IT, agro exports, engineering, HR, solar, construction, legal, agency |
 | Hospital | `images/hospital_images.py` (18 clinical tiles, nine heroes, doctor portraits in white coats) | multi-speciality, dental, eye, children’s, diagnostics, physiotherapy, Ayurveda, maternity, cardiac |
+| Real Estate | `images/real_estate_images.py` (13 buildings — towers to plots — composed into exteriors, heroes and category images; 11 interiors and site views for galleries; agent portraits) | villas, developer, commercial, plots, rentals, NRI homes, township, farmhouses, resale & heritage |
 | E-commerce | `images/ecommerce_images.py` (about 40 product drawings: two images per product, category groups, shelf scenes, promo banners, customers) | fashion, electronics, grocery, beauty, jewellery, toys, coffee, sports, books |
 | Education | `images/education_images.py` (19 reusable tiles: classroom, lab, library, sports, music, stage, campus…) | preschool, coaching, engineering college, international school, coding bootcamp, performing arts, business school, language centre, boarding school |
 

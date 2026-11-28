@@ -1,0 +1,59 @@
+{
+  "id": "realestate_template_05",
+  "name": "Bhoomi Layouts",
+  "prefix": "bhl",
+  "niche": "plots",
+  "seed": 5,
+  "direction": "Earthy and trustworthy: info bar header, split hero with a plot search, earth brown and leaf green on cream, Poppins, shadowed cards with the price on the photo, image type cards.",
+  "description": "An earthy, trustworthy design for plotted developments, land and farmland sellers: info bar with phone and hours, a split hero with a plot search, plot type cards, cards with the price on the photo and a step-by-step process.",
+  "theme": {
+    "primary": "#7A4B2A",
+    "secondary": "#5E9E3E",
+    "bg": "#FBF7EF",
+    "text": "#2A2118",
+    "heading_font": "poppins",
+    "body_font": "dm-sans",
+    "radius": "14px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "split",
+    "banner": "solid",
+    "head": "rule",
+    "card": "shadow",
+    "listing-card": "photo",
+    "listing_categories": "cards",
+    "about": "single",
+    "services": "cards",
+    "stats": "cards",
+    "process": "cards",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "center",
+    "logos": "boxed",
+    "footer": "band"
+  },
+  "surface": [
+    "process",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-secondary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "featured_heading": "Plots available now",
+    "header_button": "Book a site visit",
+    "types_heading": "Choose your land"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

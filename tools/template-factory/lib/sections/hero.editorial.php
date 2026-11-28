@@ -10,6 +10,7 @@ $highlights = array_values(array_filter((array) ($data['highlights'] ?? []), sta
       <div class="col-lg-5">
         <?php if (($data['subheading'] ?? '') !== ''): ?><p class="{{p}}-hero-text"><?= $view->text($data['subheading']) ?></p><?php endif; ?>
         <?= $view->partial('buttons', ['primary' => $data['primary_button'] ?? [], 'secondary' => $data['secondary_button'] ?? []]) ?>
+        <?= $view->partial('listing-search', ['sid' => (int) $section['id']]) ?>
         <?php if ($highlights): ?><ol class="{{p}}-hero-index"><?php foreach ($highlights as $h): ?><li><?= $view->e($h['text']) ?></li><?php endforeach; ?></ol><?php endif; ?>
       </div>
       <div class="col-lg-7">

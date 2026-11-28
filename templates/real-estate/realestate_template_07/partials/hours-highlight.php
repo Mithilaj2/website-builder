@@ -1,0 +1,7 @@
+<?php if ($label !== '' || $value !== ''): ?>
+<div class="bwr-hours-highlight">
+  <span class="bwr-pulse" aria-hidden="true"></span>
+  <span class="bwr-hours-hl-text"><small><?= $view->e($label) ?></small><strong><?= $view->e($value) ?></strong></span>
+  <?php if ($emergency !== ''): ?><a class="btn bwr-btn bwr-btn-emergency" href="tel:<?= $view->e(preg_replace('/[^0-9+]/', '', $emergency)) ?>"><i class="bi bi-telephone"></i><?= $view->e($emergency) ?></a><?php endif; ?>
+</div>
+<?php endif; ?>

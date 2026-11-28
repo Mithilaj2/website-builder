@@ -1,0 +1,61 @@
+{
+  "id": "realestate_template_08",
+  "name": "Greenfield Township",
+  "prefix": "gft",
+  "niche": "township",
+  "seed": 8,
+  "direction": "Green and civic: dark navigation, full-bleed cover hero with a home search, forest green and sunflower on white, Sora, accent-topped classic cards, image type tiles and a timeline.",
+  "description": "A green, community-minded design for townships and large developments: dark navigation, a full-bleed hero with a home search, image type tiles, cards with the price and a details button, and facilities inside the township.",
+  "theme": {
+    "primary": "#1F5F3F",
+    "secondary": "#F4C430",
+    "bg": "#FFFFFF",
+    "text": "#16241B",
+    "heading_font": "sora",
+    "body_font": "inter",
+    "radius": "8px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "dark",
+    "hero": "cover",
+    "banner": "image",
+    "head": "rule",
+    "card": "top",
+    "listing-card": "classic",
+    "listing_categories": "tiles",
+    "about": "single",
+    "services": "cards",
+    "stats": "band",
+    "process": "timeline",
+    "testimonials": "cards",
+    "cta": "box",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "columns"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-primary)",
+    "icon": "solid",
+    "track": "-.01em",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)",
+    "hero_scale": 0.96
+  },
+  "demo": {
+    "featured_heading": "Homes in the township",
+    "header_button": "Plan a visit",
+    "services_heading": "Everything inside the gates"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

@@ -1,0 +1,293 @@
+{
+  "id": "realestate_template_05",
+  "name": "Bhoomi Layouts",
+  "category": "real-estate",
+  "version": "1.0.0",
+  "description": "An earthy, trustworthy design for plotted developments, land and farmland sellers: info bar with phone and hours, a split hero with a plot search, plot type cards, cards with the price on the photo and a step-by-step process.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#7A4B2A",
+      "secondary": "#5E9E3E",
+      "bg": "#FBF7EF",
+      "text": "#2A2118",
+      "heading_font": "poppins",
+      "body_font": "dm-sans",
+      "radius": "14px",
+      "button_style": "pill",
+      "header_style": "sticky",
+      "footer_style": "dark"
+    },
+    "header_styles": {
+      "sticky": "Sticky, with info bar",
+      "minimal": "Sticky, no info bar",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "listings",
+    "listing_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "listing_categories",
+        "listings",
+        "about",
+        "stats",
+        "services",
+        "listings",
+        "testimonials",
+        "logos",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "team": {
+      "default_sections": [
+        "page_banner",
+        "team",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Team",
+      "slug": "team",
+      "type": "team"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Disclaimer",
+      "slug": "disclaimer",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ],
+  "listings": {
+    "path": "properties",
+    "singular": "Plot",
+    "plural": "Plots",
+    "menu_label": "Plots",
+    "icon": "bi-buildings",
+    "category_label": "Plot type",
+    "location_label": "Area",
+    "price_label": "Price",
+    "price_format": "lakh",
+    "price_notes": [
+      "onwards",
+      "per month",
+      "per night",
+      "per acre",
+      "negotiable",
+      "all inclusive"
+    ],
+    "closed_label": "Sold",
+    "attributes": [
+      {
+        "key": "area",
+        "label": "Plot area",
+        "type": "number",
+        "suffix": "sq ft",
+        "card": true,
+        "icon": "bi-bounding-box"
+      },
+      {
+        "key": "facing",
+        "label": "Facing",
+        "type": "select",
+        "options": [
+          "East",
+          "West",
+          "North",
+          "South",
+          "North-East",
+          "North-West",
+          "South-East",
+          "South-West"
+        ],
+        "card": true,
+        "icon": "bi-compass"
+      },
+      {
+        "key": "approval",
+        "label": "Approval",
+        "type": "select",
+        "options": [
+          "DTCP approved",
+          "TP approved",
+          "RERA registered",
+          "Agricultural"
+        ],
+        "filter": true,
+        "card": true,
+        "icon": "bi-patch-check"
+      },
+      {
+        "key": "dimensions",
+        "label": "Dimensions",
+        "type": "text",
+        "icon": "bi-rulers"
+      },
+      {
+        "key": "road",
+        "label": "Road width",
+        "type": "text",
+        "icon": "bi-signpost"
+      },
+      {
+        "key": "corner",
+        "label": "Corner plot",
+        "type": "toggle",
+        "filter": true,
+        "icon": "bi-bounding-box-circles"
+      },
+      {
+        "key": "possession",
+        "label": "Possession",
+        "type": "select",
+        "options": [
+          "Ready to move",
+          "Under construction",
+          "New launch"
+        ],
+        "filter": true,
+        "icon": "bi-calendar-check"
+      },
+      {
+        "key": "rera",
+        "label": "RERA number",
+        "type": "text",
+        "icon": "bi-patch-check",
+        "help": "Shown on the property page; required for projects registered under RERA."
+      },
+      {
+        "key": "amenities",
+        "label": "Amenities",
+        "type": "list",
+        "icon": "bi-stars"
+      },
+      {
+        "key": "nearby",
+        "label": "Nearby",
+        "type": "list",
+        "icon": "bi-geo"
+      }
+    ],
+    "enquiry": {
+      "heading": "Book a free site visit",
+      "button": "Book my visit",
+      "date_label": "Preferred visit date",
+      "select_label": "Plot size",
+      "select_options": [
+        "Up to 1,200 sq ft",
+        "1,200–2,400 sq ft",
+        "Above 2,400 sq ft",
+        "Farmland"
+      ],
+      "success": "Thank you! We will call you to confirm your visit; pick-up from Mysuru city is free."
+    }
+  }
+}

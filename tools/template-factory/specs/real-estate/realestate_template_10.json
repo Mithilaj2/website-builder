@@ -1,0 +1,64 @@
+{
+  "id": "realestate_template_10",
+  "name": "Heritage Homes Realty",
+  "prefix": "hhr",
+  "niche": "resale",
+  "seed": 10,
+  "direction": "Old-world and refined: centred masthead, editorial hero with a property search, oxblood and brass on parchment, Playfair headings, hairline classic cards, image type tiles and a light footer.",
+  "description": "A refined, old-world design for resale specialists and heritage brokers: centred masthead, an editorial hero with a property search, image type tiles, cards with the price and a details button, and a light footer.",
+  "theme": {
+    "primary": "#6B1F2A",
+    "secondary": "#B08D57",
+    "bg": "#FAF6EE",
+    "text": "#241A18",
+    "heading_font": "playfair-display",
+    "body_font": "lora",
+    "radius": "4px",
+    "button_style": "sharp"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "editorial",
+    "banner": "light",
+    "head": "serif",
+    "card": "line",
+    "listing-card": "classic",
+    "listing_categories": "tiles",
+    "about": "layered",
+    "services": "rows",
+    "stats": "inline",
+    "process": "line",
+    "testimonials": "featured",
+    "cta": "split",
+    "team": "round",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "band"
+  },
+  "surface": [
+    "testimonials",
+    "process"
+  ],
+  "footer_style": "light",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 70%, #000)",
+    "icon": "soft",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "0",
+    "card": "#FFFFFF",
+    "btn_case": "uppercase",
+    "btn_track": ".08em"
+  },
+  "demo": {
+    "featured_heading": "Featured properties",
+    "header_button": "Free valuation",
+    "services_heading": "Buying, selling and renting in Kolkata"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

@@ -1,0 +1,1149 @@
+{
+  "settings": {
+    "site": {
+      "name": "Navkar Developers",
+      "tagline": "Homes by Navkar · Ahmedabad",
+      "phone": "+91 79 4006 3300",
+      "email": "sales@navkardevelopers.example",
+      "address": "Navkar House, Sindhu Bhavan Road\nBodakdev, Ahmedabad, Gujarat 380054",
+      "hours": "Mon–Sun, 10 am – 7 pm (sample flats open daily)",
+      "footer_about": "Navkar Developers has built over 6,000 homes across Ahmedabad and Gandhinagar since 1998.",
+      "footer_text": "All rights reserved. All projects registered with GujRERA (demo numbers).",
+      "header_button": {
+        "text": "Visit a sample flat",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "seo": {
+      "description": "Navkar Developers, Ahmedabad: Navkar Developers has built over 6,000 homes across Ahmedabad and Gandhinagar since 1998.",
+      "keywords": "projects in Ahmedabad, real estate Ahmedabad, homes by navkar · ahmedabad"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Apartments",
+        "slug": "apartments",
+        "description": "2 and 3 BHK homes in gated towers with clubhouses.",
+        "image": "theme:images/cat-apartments.svg"
+      },
+      {
+        "name": "Luxury residences",
+        "slug": "luxury",
+        "description": "4 BHK residences and penthouses with private decks.",
+        "image": "theme:images/cat-luxury.svg"
+      },
+      {
+        "name": "Row houses",
+        "slug": "row-houses",
+        "description": "Independent duplex row houses in gated societies.",
+        "image": "theme:images/cat-row-houses.svg"
+      },
+      {
+        "name": "Commercial",
+        "slug": "commercial",
+        "description": "Showrooms and offices in our mixed-use projects.",
+        "image": "theme:images/cat-commercial.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Navkar Skyline — 3 BHK",
+        "slug": "navkar-skyline-3bhk",
+        "category": "apartments",
+        "location": "Shela",
+        "price": 890000000,
+        "image": "theme:images/prop-navkar-skyline-3bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1810,
+          "possession": "Under construction",
+          "furnishing": "Unfurnished",
+          "facing": "East",
+          "floor": "4th–22nd",
+          "parking": 1,
+          "rera": "PR/GJ/AHMEDABAD/AUDA/RAA00001 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Shela market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Ahmedabad railway station — 25 min"
+          ]
+        },
+        "short_description": "Spacious 3 BHK homes in twin 22-storey towers with a 40,000 sq ft clubhouse, near the Sardar Patel Ring Road.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Shela, Ahmedabad</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Possession Dec 2027",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Navkar Greens — 2 BHK",
+        "slug": "navkar-greens-2bhk",
+        "category": "apartments",
+        "location": "Gota",
+        "price": 545000000,
+        "image": "theme:images/prop-navkar-greens-2bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": 1220,
+          "possession": "Ready to move",
+          "furnishing": "Unfurnished",
+          "facing": "North",
+          "floor": "2nd–14th",
+          "parking": 1,
+          "rera": "PR/GJ/AHMEDABAD/AUDA/RAA00002 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Gota market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Ahmedabad railway station — 25 min"
+          ]
+        },
+        "short_description": "Ready-to-move 2 BHK homes with a landscaped central garden and a school within the campus.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Gota, Ahmedabad</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Ready to move",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Navkar Elysium — 4 BHK residence",
+        "slug": "navkar-elysium",
+        "category": "luxury",
+        "location": "Sindhu Bhavan Road",
+        "price": 3150000000,
+        "image": "theme:images/prop-navkar-elysium.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-kitchen.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 4,
+          "bathrooms": 5,
+          "area": 3950,
+          "possession": "Under construction",
+          "furnishing": "Semi-furnished",
+          "facing": "North-East",
+          "floor": "8th–26th",
+          "parking": 3,
+          "rera": "PR/GJ/AHMEDABAD/AUDA/RAA00003 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Sindhu Bhavan Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Ahmedabad railway station — 25 min"
+          ]
+        },
+        "short_description": "One residence per floor, private lift lobbies and a 600 sq ft deck overlooking the city.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sindhu Bhavan Road, Ahmedabad</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "One per floor",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Navkar Villas — 4 BHK row house",
+        "slug": "navkar-villas",
+        "category": "row-houses",
+        "location": "South Bopal",
+        "price": 1650000000,
+        "image": "theme:images/prop-navkar-villas.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "area": 2900,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "East",
+          "parking": 2,
+          "rera": "PR/GJ/AHMEDABAD/AUDA/RAA00004 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "South Bopal market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Ahmedabad railway station — 25 min"
+          ]
+        },
+        "short_description": "Duplex row houses with a private terrace and garden in a gated society of 84 homes.",
+        "description": "<h3>Highlights</h3><ul><li>Located in South Bopal, Ahmedabad</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Last 6 homes"
+      },
+      {
+        "title": "Navkar Square — showrooms",
+        "slug": "navkar-square",
+        "category": "commercial",
+        "location": "Science City Road",
+        "price": 1250000000,
+        "image": "theme:images/prop-navkar-square.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "area": 980,
+          "possession": "New launch",
+          "furnishing": "Unfurnished",
+          "facing": "West",
+          "parking": 2,
+          "rera": "PR/GJ/AHMEDABAD/AUDA/RAA00005 (demo)",
+          "amenities": [
+            "Visitor parking",
+            "Power backup",
+            "24×7 security",
+            "Signage rights",
+            "Loading bay"
+          ],
+          "nearby": [
+            "Science City Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Ahmedabad railway station — 25 min"
+          ]
+        },
+        "short_description": "Double-height ground-floor showrooms on Science City Road with ample visitor parking.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Science City Road, Ahmedabad</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "New launch",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Navkar Aangan — 2 BHK, Gandhinagar",
+        "slug": "navkar-aangan",
+        "category": "apartments",
+        "location": "Kudasan, Gandhinagar",
+        "price": 460000000,
+        "image": "theme:images/prop-navkar-aangan.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": 1150,
+          "possession": "New launch",
+          "furnishing": "Unfurnished",
+          "facing": "East",
+          "floor": "1st–12th",
+          "parking": 1,
+          "rera": "PR/GJ/GANDHINAGAR/GUDA/RAA00006 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Kudasan, Gandhinagar market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Ahmedabad railway station — 25 min"
+          ]
+        },
+        "short_description": "Value homes near GIFT City with a jogging track, gym and a temple in the campus.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Kudasan, Gandhinagar, Ahmedabad</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "New launch",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Navkar Heights — 3 BHK",
+        "slug": "navkar-heights",
+        "category": "apartments",
+        "location": "Vastrapur",
+        "price": 980000000,
+        "image": "theme:images/prop-navkar-heights.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1750,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "North",
+          "floor": "All floors",
+          "parking": 2,
+          "rera": "PR/GJ/AHMEDABAD/AUDA/RAA00007 (demo)",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Vastrapur market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Ahmedabad railway station — 25 min"
+          ]
+        },
+        "short_description": "Our 2023 project near Vastrapur Lake — every home has now been sold.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Vastrapur, Ahmedabad</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "GujRERA-registered projects",
+            "heading": "Homes built to last, by Navkar",
+            "subheading": "Ready and under-construction 2, 3 and 4 BHK homes in Shela, Gota, South Bopal and Gandhinagar — with sample flats open every day.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "28 years, 64 projects delivered"
+              },
+              {
+                "icon": "bi-camera-video",
+                "text": "Possession on time, every time since 2012"
+              },
+              {
+                "icon": "bi-bank",
+                "text": "Home-loan approvals from partner banks"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "What are you looking for?",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Handpicked",
+            "heading": "Current projects",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "View all projects",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Navkar",
+            "heading": "Building Ahmedabad’s homes since 1998",
+            "description": "<p>Navkar Developers began with a 24-flat building in Navrangpura. Twenty-eight years later we have delivered 64 projects and more than 6,000 homes.</p><p>We publish our construction progress every month and have delivered every project on time since 2012.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "28",
+            "experience_label": "years of building",
+            "points": [
+              {
+                "text": "GujRERA-registered projects"
+              },
+              {
+                "text": "Monthly construction updates"
+              },
+              {
+                "text": "Five-year structural warranty"
+              }
+            ],
+            "button": {
+              "text": "About us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "64",
+                "suffix": "",
+                "label": "Projects delivered",
+                "icon": ""
+              },
+              {
+                "number": "6200",
+                "suffix": "+",
+                "label": "Families moved in",
+                "icon": ""
+              },
+              {
+                "number": "28",
+                "suffix": "",
+                "label": "Years in Ahmedabad",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "On-time possession since 2012",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "From booking to possession",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-buildings",
+                "title": "Residential projects",
+                "description": "Apartments, residences and row houses, each registered with GujRERA before launch.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-shop",
+                "title": "Commercial spaces",
+                "description": "Showrooms and offices in our mixed-use developments.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Home-loan desk",
+                "description": "On-site loan officers from partner banks at every project.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Interior packages",
+                "description": "Optional modular kitchen and wardrobe packages at fixed prices.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "After-sales care",
+                "description": "A five-year structural warranty and a service desk at every society.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-people",
+                "title": "Channel partners",
+                "description": "Transparent commissions for registered brokers.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just listed",
+            "heading": "New on the market",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all projects",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Ahmedabad",
+            "description": "",
+            "items": [
+              {
+                "quote": "Possession came two months early and the society was complete, with the clubhouse running.",
+                "name": "Hetal & Nirav Shah",
+                "role": "Moved into Navkar Greens",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The sample flat was exactly what we got. No surprises in the finishing.",
+                "name": "Kavita Patel",
+                "role": "Bought at Navkar Skyline",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Our row house has a terrace garden the children love. The after-sales team fixes things the same week.",
+                "name": "Amit Desai",
+                "role": "Owner at Navkar Villas",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Home loans arranged with",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Sabarmati Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Narmada Home Loans",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Western Finance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Unity Housing Bank",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Visit a sample flat this weekend",
+            "description": "Sample flats are open every day from 10 am. Book a visit and we will reserve a time for you.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse projects",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Navkar Developers has built over 6,000 homes across Ahmedabad and Gandhinagar since 1998.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Navkar",
+            "heading": "Building Ahmedabad’s homes since 1998",
+            "description": "<p>Navkar Developers began with a 24-flat building in Navrangpura. Twenty-eight years later we have delivered 64 projects and more than 6,000 homes.</p><p>We publish our construction progress every month and have delivered every project on time since 2012.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "28",
+            "experience_label": "years of building",
+            "points": [
+              {
+                "text": "GujRERA-registered projects"
+              },
+              {
+                "text": "Monthly construction updates"
+              },
+              {
+                "text": "Five-year structural warranty"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "64",
+                "suffix": "",
+                "label": "Projects delivered",
+                "icon": ""
+              },
+              {
+                "number": "6200",
+                "suffix": "+",
+                "label": "Families moved in",
+                "icon": ""
+              },
+              {
+                "number": "28",
+                "suffix": "",
+                "label": "Years in Ahmedabad",
+                "icon": ""
+              },
+              {
+                "number": "100",
+                "suffix": "%",
+                "label": "On-time possession since 2012",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Navkar",
+            "heading": "What makes us different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-buildings",
+                "title": "Residential projects",
+                "description": "Apartments, residences and row houses, each registered with GujRERA before launch."
+              },
+              {
+                "icon": "bi-shop",
+                "title": "Commercial spaces",
+                "description": "Showrooms and offices in our mixed-use developments."
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Home-loan desk",
+                "description": "On-site loan officers from partner banks at every project."
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Interior packages",
+                "description": "Optional modular kitchen and wardrobe packages at fixed prices."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "All projects registered with GujRERA (demo numbers).",
+            "members": [
+              {
+                "name": "Bharat Mehta",
+                "role": "Chairman",
+                "bio": "Founded Navkar in 1998; 64 projects delivered.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Riya Mehta",
+                "role": "Director, Projects",
+                "bio": "Leads design and construction across all sites.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Jignesh Parikh",
+                "role": "Head of sales",
+                "bio": "Runs the sample flats and the loan desk.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Nisha Trivedi",
+                "role": "Customer care",
+                "bio": "Handles possession and after-sales service.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "How we help you buy, sell, rent and invest.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "From booking to possession",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-buildings",
+                "title": "Residential projects",
+                "description": "Apartments, residences and row houses, each registered with GujRERA before launch.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-shop",
+                "title": "Commercial spaces",
+                "description": "Showrooms and offices in our mixed-use developments.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Home-loan desk",
+                "description": "On-site loan officers from partner banks at every project.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-palette",
+                "title": "Interior packages",
+                "description": "Optional modular kitchen and wardrobe packages at fixed prices.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "After-sales care",
+                "description": "A five-year structural warranty and a service desk at every society.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-people",
+                "title": "Channel partners",
+                "description": "Transparent commissions for registered brokers.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Simple, from first call to keys",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-calendar-check",
+                "title": "Visit the sample flat",
+                "description": "Walk through a finished home and the site."
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Book your home",
+                "description": "Choose the floor and pay the booking amount."
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Loan & agreement",
+                "description": "Our loan desk helps with sanction; we register the agreement."
+              },
+              {
+                "icon": "bi-key",
+                "title": "Possession",
+                "description": "Inspection walk-through and keys on the promised date."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we are often asked",
+            "description": "Can’t find your answer? Call us — we are happy to help.",
+            "items": [
+              {
+                "question": "Are all your projects RERA registered?",
+                "answer": "Yes. Every project is registered with GujRERA before we accept bookings; the number is on each project page."
+              },
+              {
+                "question": "What is the payment plan?",
+                "answer": "Under-construction homes follow a construction-linked plan; ready homes need 20% on booking and the rest on registration."
+              },
+              {
+                "question": "Can I customise my home?",
+                "answer": "Minor layout changes are possible before the slab stage; ask the site engineer."
+              },
+              {
+                "question": "Which banks fund your projects?",
+                "answer": "All projects are approved by our partner banks for home loans."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Visit a sample flat this weekend",
+            "description": "Sample flats are open every day from 10 am. Book a visit and we will reserve a time for you.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse projects",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "team": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our team",
+            "subheading": "All projects registered with GujRERA (demo numbers).",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "All projects registered with GujRERA (demo numbers).",
+            "members": [
+              {
+                "name": "Bharat Mehta",
+                "role": "Chairman",
+                "bio": "Founded Navkar in 1998; 64 projects delivered.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Riya Mehta",
+                "role": "Director, Projects",
+                "bio": "Leads design and construction across all sites.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Jignesh Parikh",
+                "role": "Head of sales",
+                "bio": "Runs the sample flats and the loan desk.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Nisha Trivedi",
+                "role": "Customer care",
+                "bio": "Handles possession and after-sales service.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Ahmedabad",
+            "description": "",
+            "items": [
+              {
+                "quote": "Possession came two months early and the society was complete, with the clubhouse running.",
+                "name": "Hetal & Nirav Shah",
+                "role": "Moved into Navkar Greens",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The sample flat was exactly what we got. No surprises in the finishing.",
+                "name": "Kavita Patel",
+                "role": "Bought at Navkar Skyline",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Our row house has a terrace garden the children love. The after-sales team fixes things the same week.",
+                "name": "Amit Desai",
+                "role": "Owner at Navkar Villas",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Visit a sample flat this weekend",
+            "description": "Sample flats are open every day from 10 am. Book a visit and we will reserve a time for you.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse projects",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Visit our Ahmedabad office or send us a message.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Let’s talk about what you are looking for",
+            "description": "Tell us what you need and our team will call you within one working day.",
+            "form_heading": "Request a call back",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Navkar Developers collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>Navkar Developers is not liable for decisions made only on the basis of information on this website.</p>"
+          }
+        }
+      ]
+    },
+    "disclaimer": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Disclaimer",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the RERA website.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

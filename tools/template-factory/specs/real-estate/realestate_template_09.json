@@ -1,0 +1,61 @@
+{
+  "id": "realestate_template_09",
+  "name": "Hillcrest Retreats",
+  "prefix": "hcr",
+  "niche": "farmhouses",
+  "seed": 9,
+  "direction": "Rustic and relaxed: info bar header, colour-panel hero with a retreat search, moss and terracotta on linen, Fraunces headings, hover cards with the price on the photo, image type cards.",
+  "description": "A rustic, relaxed design for farmhouses, hill cottages and weekend-home sellers: info bar, a colour-panel hero with a search, type cards, cards with the price on the photo, caretaker services and agent portraits.",
+  "theme": {
+    "primary": "#4A5D3A",
+    "secondary": "#C8643B",
+    "bg": "#F8F4EC",
+    "text": "#262A1F",
+    "heading_font": "fraunces",
+    "body_font": "dm-sans",
+    "radius": "12px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "bar",
+    "hero": "panel",
+    "banner": "solid",
+    "head": "serif",
+    "card": "shadow",
+    "listing-card": "photo",
+    "listing_categories": "cards",
+    "about": "layered",
+    "services": "rows",
+    "stats": "inline",
+    "process": "line",
+    "testimonials": "cards",
+    "cta": "split",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "boxed",
+    "footer": "band"
+  },
+  "surface": [
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "hl": "var(--wb-secondary)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 600,
+    "hero_weight": 600,
+    "track": "-.01em",
+    "card": "#FFFFFF"
+  },
+  "demo": {
+    "featured_heading": "Retreats available",
+    "header_button": "Plan a visit",
+    "services_heading": "We look after it while you are away"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

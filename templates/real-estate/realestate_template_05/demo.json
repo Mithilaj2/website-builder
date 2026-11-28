@@ -1,0 +1,1115 @@
+{
+  "settings": {
+    "site": {
+      "name": "Bhoomi Layouts",
+      "tagline": "Approved plots · Mysuru",
+      "phone": "+91 821 241 6600",
+      "email": "plots@bhoomilayouts.example",
+      "address": "2nd Floor, Chamundi Arcade, Hunsur Road\nMysuru, Karnataka 570017",
+      "hours": "Mon–Sun, 9 am – 6 pm (site visits on weekends)",
+      "footer_about": "Bhoomi Layouts develops approved residential plots and farmland around Mysuru, with roads, water and power in place.",
+      "footer_text": "All rights reserved. Layouts registered with K-RERA (demo numbers).",
+      "header_button": {
+        "text": "Book a site visit",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "seo": {
+      "description": "Bhoomi Layouts, Mysuru: Bhoomi Layouts develops approved residential plots and farmland around Mysuru, with roads, water and power in place.",
+      "keywords": "plots in Mysuru, real estate Mysuru, approved plots · mysuru"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Residential plots",
+        "slug": "residential",
+        "description": "DTCP-approved plots in gated layouts.",
+        "image": "theme:images/cat-residential.svg"
+      },
+      {
+        "name": "Villa plots",
+        "slug": "villa-plots",
+        "description": "Larger plots in premium layouts with clubhouses.",
+        "image": "theme:images/cat-villa-plots.svg"
+      },
+      {
+        "name": "Farmland",
+        "slug": "farmland",
+        "description": "Managed farmland with fencing, water and a caretaker.",
+        "image": "theme:images/cat-farmland.svg"
+      },
+      {
+        "name": "Commercial plots",
+        "slug": "commercial",
+        "description": "Road-facing plots for shops and offices.",
+        "image": "theme:images/cat-commercial.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Bhoomi Meadows — 30×40 plot",
+        "slug": "meadows-30x40",
+        "category": "residential",
+        "location": "Bogadi",
+        "price": 324000000,
+        "image": "theme:images/prop-meadows-30x40.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "area": 1200,
+          "facing": "East",
+          "approval": "DTCP approved",
+          "dimensions": "30 × 40 ft",
+          "road": "30 ft",
+          "corner": false,
+          "possession": "Ready to move",
+          "rera": "PRM/KA/RERA/1255/000/PR/000001 (demo)",
+          "amenities": [
+            "Tar roads",
+            "Underground drainage",
+            "Street lights",
+            "Water connection",
+            "Parks",
+            "Compound wall"
+          ],
+          "nearby": [
+            "Bogadi market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Mysuru railway station — 25 min"
+          ]
+        },
+        "short_description": "East-facing 30×40 plot in a gated layout with tar roads, street lights and underground drainage.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Bogadi, Mysuru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "E-khata ready"
+      },
+      {
+        "title": "Bhoomi Meadows — corner 40×60 plot",
+        "slug": "meadows-40x60-corner",
+        "category": "residential",
+        "location": "Bogadi",
+        "price": 720000000,
+        "image": "theme:images/prop-meadows-40x60-corner.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "area": 2400,
+          "facing": "North-East",
+          "approval": "DTCP approved",
+          "dimensions": "40 × 60 ft",
+          "road": "40 ft",
+          "corner": true,
+          "possession": "Ready to move",
+          "rera": "PRM/KA/RERA/1255/000/PR/000001 (demo)",
+          "amenities": [
+            "Tar roads",
+            "Underground drainage",
+            "Street lights",
+            "Water connection",
+            "Parks",
+            "Compound wall"
+          ],
+          "nearby": [
+            "Bogadi market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Mysuru railway station — 25 min"
+          ]
+        },
+        "short_description": "A north-east corner plot on the 40-ft main road of the layout, opposite the park.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Bogadi, Mysuru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Corner plot"
+      },
+      {
+        "title": "Chamundi Enclave — villa plot",
+        "slug": "chamundi-enclave",
+        "category": "villa-plots",
+        "location": "Nanjangud Road",
+        "price": 960000000,
+        "image": "theme:images/prop-chamundi-enclave.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "area": 3200,
+          "facing": "East",
+          "approval": "RERA registered",
+          "dimensions": "40 × 80 ft",
+          "road": "40 ft",
+          "corner": false,
+          "possession": "Under construction",
+          "rera": "PRM/KA/RERA/1255/000/PR/000002 (demo)",
+          "amenities": [
+            "Tar roads",
+            "Underground drainage",
+            "Street lights",
+            "Water connection",
+            "Clubhouse",
+            "Parks"
+          ],
+          "nearby": [
+            "Nanjangud Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Mysuru railway station — 25 min"
+          ]
+        },
+        "short_description": "Large villa plots with a clubhouse, a pool and views of Chamundi Hills; roads complete by June 2027.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Nanjangud Road, Mysuru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Phase 2",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Kabini farmland — 1 acre",
+        "slug": "kabini-farmland",
+        "category": "farmland",
+        "location": "Near H.D. Kote",
+        "price": 280000000,
+        "image": "theme:images/prop-kabini-farmland.svg",
+        "gallery": [
+          "theme:images/room-garden.svg",
+          "theme:images/room-road.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "area": 43560,
+          "facing": "South",
+          "approval": "Agricultural",
+          "dimensions": "1 acre",
+          "road": "20 ft",
+          "corner": false,
+          "possession": "Ready to move",
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Near H.D. Kote market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Mysuru railway station — 25 min"
+          ]
+        },
+        "short_description": "One acre of managed farmland with a borewell, drip irrigation, fencing and a resident caretaker.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Near H.D. Kote, Mysuru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Managed farm",
+        "price_note": "per acre"
+      },
+      {
+        "title": "Hunsur Road commercial plot",
+        "slug": "hunsur-road-commercial",
+        "category": "commercial",
+        "location": "Hunsur Road",
+        "price": 1550000000,
+        "image": "theme:images/prop-hunsur-road-commercial.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "area": 3000,
+          "facing": "West",
+          "approval": "TP approved",
+          "dimensions": "50 × 60 ft",
+          "road": "80 ft",
+          "corner": true,
+          "possession": "Ready to move",
+          "amenities": [
+            "Visitor parking",
+            "Power backup",
+            "24×7 security",
+            "Signage rights",
+            "Loading bay"
+          ],
+          "nearby": [
+            "Hunsur Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Mysuru railway station — 25 min"
+          ]
+        },
+        "short_description": "Road-facing commercial plot on the Hunsur Road, suitable for a showroom or a clinic.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Hunsur Road, Mysuru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "80-ft road"
+      },
+      {
+        "title": "Bhoomi Orchards — 30×50 plot",
+        "slug": "orchards-30x50",
+        "category": "residential",
+        "location": "Srirangapatna Road",
+        "price": 315000000,
+        "image": "theme:images/prop-orchards-30x50.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "area": 1500,
+          "facing": "North",
+          "approval": "DTCP approved",
+          "dimensions": "30 × 50 ft",
+          "road": "30 ft",
+          "corner": false,
+          "possession": "New launch",
+          "rera": "PRM/KA/RERA/1255/000/PR/000003 (demo)",
+          "amenities": [
+            "Tar roads",
+            "Underground drainage",
+            "Street lights",
+            "Water connection",
+            "Parks",
+            "Compound wall"
+          ],
+          "nearby": [
+            "Srirangapatna Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Mysuru railway station — 25 min"
+          ]
+        },
+        "short_description": "New launch: plots among mango trees, 15 minutes from Srirangapatna, with an early-booking price.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Srirangapatna Road, Mysuru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "New launch",
+        "price_note": "onwards"
+      },
+      {
+        "title": "Vijayanagar 4th Stage — 40×60",
+        "slug": "vijayanagar-40x60",
+        "category": "residential",
+        "location": "Vijayanagar",
+        "price": 840000000,
+        "image": "theme:images/prop-vijayanagar-40x60.svg",
+        "gallery": [
+          "theme:images/room-road.svg",
+          "theme:images/room-garden.svg",
+          "theme:images/room-clubhouse.svg"
+        ],
+        "attributes": {
+          "area": 2400,
+          "facing": "East",
+          "approval": "TP approved",
+          "dimensions": "40 × 60 ft",
+          "road": "40 ft",
+          "corner": false,
+          "possession": "Ready to move",
+          "amenities": [
+            "Tar roads",
+            "Underground drainage",
+            "Street lights",
+            "Water connection",
+            "Parks",
+            "Compound wall"
+          ],
+          "nearby": [
+            "Vijayanagar market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Mysuru railway station — 25 min"
+          ]
+        },
+        "short_description": "A resale plot in an established neighbourhood — sold in August.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Vijayanagar, Mysuru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "DTCP-approved plots around Mysuru",
+            "heading": "Build your home on land you can trust",
+            "subheading": "Approved residential plots with tar roads, underground drainage and power — and managed farmland for weekend homes.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Clear titles, e-khata ready"
+              },
+              {
+                "icon": "bi-camera-video",
+                "text": "Free site visits with pick-up"
+              },
+              {
+                "icon": "bi-bank",
+                "text": "Bank loans on approved plots"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Choose your land",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Handpicked",
+            "heading": "Plots available now",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "View all plots",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Bhoomi",
+            "heading": "Two decades of approved layouts",
+            "description": "<p>Bhoomi Layouts started in 2005 with a 60-plot layout in Bogadi. We have since developed 21 layouts and sold more than 3,400 plots.</p><p>We build roads, drainage and power before we sell a single plot — and we have never had a title dispute.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "21",
+            "experience_label": "years of layouts",
+            "points": [
+              {
+                "text": "Infrastructure built before sale"
+              },
+              {
+                "text": "Clear titles, e-khata ready"
+              },
+              {
+                "text": "Free site visits with pick-up"
+              }
+            ],
+            "button": {
+              "text": "About us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "3400",
+                "suffix": "+",
+                "label": "Plots sold",
+                "icon": ""
+              },
+              {
+                "number": "21",
+                "suffix": "",
+                "label": "Layouts developed",
+                "icon": ""
+              },
+              {
+                "number": "21",
+                "suffix": "",
+                "label": "Years in Mysuru",
+                "icon": ""
+              },
+              {
+                "number": "0",
+                "suffix": "",
+                "label": "Title disputes",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything you need, under one roof",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-map",
+                "title": "Approved layouts",
+                "description": "Plots with DTCP or town-planning approval and RERA registration where required.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-signpost-split",
+                "title": "Infrastructure first",
+                "description": "Roads, drainage, water and power are built before we sell.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Managed farmland",
+                "description": "Fencing, irrigation and a caretaker for your weekend farm.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-house",
+                "title": "Build on your plot",
+                "description": "Architects and builders we trust, at agreed rates.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Plot loans",
+                "description": "Loans on approved plots from our partner banks.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "Titles & e-khata",
+                "description": "Title search, conversion and e-khata done for you.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just listed",
+            "heading": "New on the market",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all plots",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Mysuru",
+            "description": "",
+            "items": [
+              {
+                "quote": "We visited six layouts. Bhoomi was the only one with roads and drainage already done.",
+                "name": "Suresh & Anitha Gowda",
+                "role": "Bought a plot at Bhoomi Meadows",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The managed farm is exactly what we wanted for weekends — the caretaker sends us photos every week.",
+                "name": "Lakshmi Rao",
+                "role": "Owns farmland near Kabini",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Clear documents, a fair price and the e-khata in my name within a month.",
+                "name": "Prakash Hegde",
+                "role": "Bought a corner plot",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Home loans arranged with",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Kaveri Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Mysore Gramin Finance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Southern Housing Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Sandal Finance",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "See the plots for yourself",
+            "description": "Free site visits every Saturday and Sunday, with pick-up from Mysuru city.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse plots",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Bhoomi Layouts develops approved residential plots and farmland around Mysuru, with roads, water and power in place.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About Bhoomi",
+            "heading": "Two decades of approved layouts",
+            "description": "<p>Bhoomi Layouts started in 2005 with a 60-plot layout in Bogadi. We have since developed 21 layouts and sold more than 3,400 plots.</p><p>We build roads, drainage and power before we sell a single plot — and we have never had a title dispute.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "21",
+            "experience_label": "years of layouts",
+            "points": [
+              {
+                "text": "Infrastructure built before sale"
+              },
+              {
+                "text": "Clear titles, e-khata ready"
+              },
+              {
+                "text": "Free site visits with pick-up"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "3400",
+                "suffix": "+",
+                "label": "Plots sold",
+                "icon": ""
+              },
+              {
+                "number": "21",
+                "suffix": "",
+                "label": "Layouts developed",
+                "icon": ""
+              },
+              {
+                "number": "21",
+                "suffix": "",
+                "label": "Years in Mysuru",
+                "icon": ""
+              },
+              {
+                "number": "0",
+                "suffix": "",
+                "label": "Title disputes",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Bhoomi",
+            "heading": "What makes us different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-map",
+                "title": "Approved layouts",
+                "description": "Plots with DTCP or town-planning approval and RERA registration where required."
+              },
+              {
+                "icon": "bi-signpost-split",
+                "title": "Infrastructure first",
+                "description": "Roads, drainage, water and power are built before we sell."
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Managed farmland",
+                "description": "Fencing, irrigation and a caretaker for your weekend farm."
+              },
+              {
+                "icon": "bi-house",
+                "title": "Build on your plot",
+                "description": "Architects and builders we trust, at agreed rates."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "Layouts registered with K-RERA (demo numbers).",
+            "members": [
+              {
+                "name": "Manjunath Swamy",
+                "role": "Founder",
+                "bio": "21 years developing layouts around Mysuru.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Deepa Kulkarni",
+                "role": "Head of sales",
+                "bio": "Runs site visits and plot bookings.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Ravi Shankar",
+                "role": "Projects",
+                "bio": "Roads, drainage and power across every layout.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Shruthi Bhat",
+                "role": "Legal & documentation",
+                "bio": "Titles, conversions and e-khata.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "How we help you buy, sell, rent and invest.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Everything you need, under one roof",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-map",
+                "title": "Approved layouts",
+                "description": "Plots with DTCP or town-planning approval and RERA registration where required.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-signpost-split",
+                "title": "Infrastructure first",
+                "description": "Roads, drainage, water and power are built before we sell.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tree",
+                "title": "Managed farmland",
+                "description": "Fencing, irrigation and a caretaker for your weekend farm.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-house",
+                "title": "Build on your plot",
+                "description": "Architects and builders we trust, at agreed rates.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Plot loans",
+                "description": "Loans on approved plots from our partner banks.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "Titles & e-khata",
+                "description": "Title search, conversion and e-khata done for you.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Simple, from first call to keys",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-car-front",
+                "title": "Free site visit",
+                "description": "We pick you up in Mysuru and show you the layout."
+              },
+              {
+                "icon": "bi-pin-map",
+                "title": "Choose your plot",
+                "description": "Pick the size, facing and position on the layout plan."
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Documents & loan",
+                "description": "Titles shared up front; loan sanction if you need one."
+              },
+              {
+                "icon": "bi-pen",
+                "title": "Registration",
+                "description": "Sale deed registered and e-khata transferred in your name."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we are often asked",
+            "description": "Can’t find your answer? Call us — we are happy to help.",
+            "items": [
+              {
+                "question": "What does DTCP approved mean?",
+                "answer": "The layout plan is approved by the Directorate of Town and Country Planning, so roads, parks and civic sites meet the rules and banks can lend on the plots."
+              },
+              {
+                "question": "Can I get a loan for a plot?",
+                "answer": "Yes, on approved plots. Our partner banks lend up to 75% of the value."
+              },
+              {
+                "question": "When can I start building?",
+                "answer": "As soon as the sale deed is registered and the e-khata is in your name."
+              },
+              {
+                "question": "Do you help with construction?",
+                "answer": "We can introduce architects and builders who have built in our layouts."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "See the plots for yourself",
+            "description": "Free site visits every Saturday and Sunday, with pick-up from Mysuru city.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse plots",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "team": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our team",
+            "subheading": "Layouts registered with K-RERA (demo numbers).",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "Layouts registered with K-RERA (demo numbers).",
+            "members": [
+              {
+                "name": "Manjunath Swamy",
+                "role": "Founder",
+                "bio": "21 years developing layouts around Mysuru.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Deepa Kulkarni",
+                "role": "Head of sales",
+                "bio": "Runs site visits and plot bookings.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Ravi Shankar",
+                "role": "Projects",
+                "bio": "Roads, drainage and power across every layout.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Shruthi Bhat",
+                "role": "Legal & documentation",
+                "bio": "Titles, conversions and e-khata.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Mysuru",
+            "description": "",
+            "items": [
+              {
+                "quote": "We visited six layouts. Bhoomi was the only one with roads and drainage already done.",
+                "name": "Suresh & Anitha Gowda",
+                "role": "Bought a plot at Bhoomi Meadows",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The managed farm is exactly what we wanted for weekends — the caretaker sends us photos every week.",
+                "name": "Lakshmi Rao",
+                "role": "Owns farmland near Kabini",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Clear documents, a fair price and the e-khata in my name within a month.",
+                "name": "Prakash Hegde",
+                "role": "Bought a corner plot",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "See the plots for yourself",
+            "description": "Free site visits every Saturday and Sunday, with pick-up from Mysuru city.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse plots",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Visit our Mysuru office or send us a message.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Let’s talk about what you are looking for",
+            "description": "Tell us what you need and our team will call you within one working day.",
+            "form_heading": "Request a call back",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Bhoomi Layouts collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>Bhoomi Layouts is not liable for decisions made only on the basis of information on this website.</p>"
+          }
+        }
+      ]
+    },
+    "disclaimer": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Disclaimer",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the RERA website.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

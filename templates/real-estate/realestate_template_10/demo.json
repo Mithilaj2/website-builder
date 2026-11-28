@@ -1,0 +1,1144 @@
+{
+  "settings": {
+    "site": {
+      "name": "Heritage Homes Realty",
+      "tagline": "Resale & heritage homes · Kolkata",
+      "phone": "+91 33 4060 7700",
+      "email": "homes@heritagehomesrealty.example",
+      "address": "14/2 Park Street, 2nd Floor\nKolkata, West Bengal 700016",
+      "hours": "Mon–Sat, 10 am – 7 pm",
+      "footer_about": "Heritage Homes Realty has helped Kolkata families buy and sell resale flats, houses and heritage homes since 1992.",
+      "footer_text": "All rights reserved. WBRERA Agent Reg. No. WBRERA/A/KOL/2024/000000 (demo).",
+      "header_button": {
+        "text": "Free valuation",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "seo": {
+      "description": "Heritage Homes Realty, Kolkata: Heritage Homes Realty has helped Kolkata families buy and sell resale flats, houses and heritage homes since 1992.",
+      "keywords": "properties in Kolkata, real estate Kolkata, resale & heritage homes · kolkata"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Resale flats",
+        "slug": "flats",
+        "description": "Ready flats in established neighbourhoods.",
+        "image": "theme:images/cat-flats.svg"
+      },
+      {
+        "name": "Heritage homes",
+        "slug": "heritage",
+        "description": "Restored mansions and old-Kolkata houses.",
+        "image": "theme:images/cat-heritage.svg"
+      },
+      {
+        "name": "Independent houses",
+        "slug": "houses",
+        "description": "Houses with gardens in Salt Lake and Alipore.",
+        "image": "theme:images/cat-houses.svg"
+      },
+      {
+        "name": "For rent",
+        "slug": "rentals",
+        "description": "Flats and floors for families and companies.",
+        "image": "theme:images/cat-rentals.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "Ballygunge Place — 3 BHK flat",
+        "slug": "ballygunge-3bhk",
+        "category": "flats",
+        "location": "Ballygunge",
+        "price": 2150000000,
+        "image": "theme:images/prop-ballygunge-3bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1850,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "South",
+          "floor": "4th of 8",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Ballygunge market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kolkata railway station — 25 min"
+          ]
+        },
+        "short_description": "A south-facing 3 BHK with high ceilings and a long balcony, in a well-kept building off Ballygunge Place.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Ballygunge, Kolkata</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "South facing"
+      },
+      {
+        "title": "Alipore heritage mansion",
+        "slug": "alipore-mansion",
+        "category": "heritage",
+        "location": "Alipore",
+        "price": 28500000000,
+        "image": "theme:images/prop-alipore-mansion.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 7,
+          "bathrooms": 7,
+          "area": 11500,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "East",
+          "floor": "Ground + 2",
+          "parking": 6,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Alipore market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kolkata railway station — 25 min"
+          ]
+        },
+        "short_description": "A restored 1920s mansion on 1.2 bighas with a portico, a marble staircase and a garden with old trees.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Alipore, Kolkata</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Heritage"
+      },
+      {
+        "title": "Salt Lake — independent house",
+        "slug": "salt-lake-house",
+        "category": "houses",
+        "location": "Salt Lake Sector II",
+        "price": 4200000000,
+        "image": "theme:images/prop-salt-lake-house.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "area": 3200,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "North",
+          "floor": "Ground + 2",
+          "parking": 2,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Salt Lake Sector II market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kolkata railway station — 25 min"
+          ]
+        },
+        "short_description": "A four-bedroom house with a garden and a roof terrace on a quiet block near the central park.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Salt Lake Sector II, Kolkata</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active"
+      },
+      {
+        "title": "New Town — 2 BHK flat",
+        "slug": "new-town-2bhk",
+        "category": "flats",
+        "location": "New Town",
+        "price": 680000000,
+        "image": "theme:images/prop-new-town-2bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": 1080,
+          "possession": "Ready to move",
+          "furnishing": "Unfurnished",
+          "facing": "East",
+          "floor": "9th of 16",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "New Town market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kolkata railway station — 25 min"
+          ]
+        },
+        "short_description": "A resale 2 BHK in a gated complex with a pool, close to the IT hub and the metro.",
+        "description": "<h3>Highlights</h3><ul><li>Located in New Town, Kolkata</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Near metro"
+      },
+      {
+        "title": "Lake Gardens — 3 BHK for rent",
+        "slug": "lake-gardens-rent",
+        "category": "rentals",
+        "location": "Lake Gardens",
+        "price": 4500000,
+        "image": "theme:images/prop-lake-gardens-rent.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "area": 1500,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "East",
+          "floor": "1st of 3",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Lake Gardens market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kolkata railway station — 25 min"
+          ]
+        },
+        "short_description": "The first floor of a family house near Rabindra Sarobar, with a separate entrance.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Lake Gardens, Kolkata</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "price_note": "per month"
+      },
+      {
+        "title": "Park Street — heritage apartment",
+        "slug": "park-street-heritage",
+        "category": "heritage",
+        "location": "Park Street",
+        "price": 3400000000,
+        "image": "theme:images/prop-park-street-heritage.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 2600,
+          "possession": "Ready to move",
+          "furnishing": "Semi-furnished",
+          "facing": "West",
+          "floor": "2nd of 4",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Park Street market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kolkata railway station — 25 min"
+          ]
+        },
+        "short_description": "An apartment in a colonial building with arched windows, teak floors and 14-ft ceilings.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Park Street, Kolkata</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Colonial"
+      },
+      {
+        "title": "Gariahat — 2 BHK flat",
+        "slug": "gariahat-2bhk",
+        "category": "flats",
+        "location": "Gariahat",
+        "price": 950000000,
+        "image": "theme:images/prop-gariahat-2bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": 1100,
+          "possession": "Ready to move",
+          "furnishing": "Unfurnished",
+          "facing": "South",
+          "floor": "3rd of 6",
+          "parking": 0,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Gariahat market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Kolkata railway station — 25 min"
+          ]
+        },
+        "short_description": "Sold in October to a young couple.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Gariahat, Kolkata</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "closed"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Kolkata’s resale specialists since 1992",
+            "heading": "Homes with history, and room for yours",
+            "subheading": "Resale flats, independent houses and restored heritage homes in Ballygunge, Alipore, Salt Lake and New Town — valued honestly, sold carefully.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "34 years in Kolkata"
+              },
+              {
+                "icon": "bi-camera-video",
+                "text": "Free valuations for sellers"
+              },
+              {
+                "icon": "bi-bank",
+                "text": "Mutation and registration handled"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "What are you looking for?",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Handpicked",
+            "heading": "Featured properties",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "View all properties",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "Kolkata’s homes, in good hands since 1992",
+            "description": "<p>Heritage Homes Realty opened on Park Street in 1992. Three decades later, we have helped more than 5,400 families buy, sell and rent.</p><p>We specialise in resale and heritage homes, where careful document checks matter most.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "34",
+            "experience_label": "years in Kolkata",
+            "points": [
+              {
+                "text": "Documents checked before viewings"
+              },
+              {
+                "text": "Free valuations for sellers"
+              },
+              {
+                "text": "Mutation and registration handled"
+              }
+            ],
+            "button": {
+              "text": "About us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "5400",
+                "suffix": "+",
+                "label": "Homes bought and sold",
+                "icon": ""
+              },
+              {
+                "number": "34",
+                "suffix": "",
+                "label": "Years in Kolkata",
+                "icon": ""
+              },
+              {
+                "number": "140",
+                "suffix": "+",
+                "label": "Heritage homes sold",
+                "icon": ""
+              },
+              {
+                "number": "21",
+                "suffix": " days",
+                "label": "Average time to a buyer",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Buying, selling and renting in Kolkata",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house-door",
+                "title": "Buy a resale home",
+                "description": "Verified flats and houses, with documents checked before we show them.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-currency-rupee",
+                "title": "Sell your property",
+                "description": "Free valuation, professional photos and serious buyers only.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank2",
+                "title": "Heritage homes",
+                "description": "Specialist advice on heritage-listed and older properties.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-key",
+                "title": "Rentals",
+                "description": "Flats and floors for families and companies.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Mutation & registration",
+                "description": "Mutation with KMC or NKDA and registration handled for you.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Home loans",
+                "description": "Loans for resale homes from our partner banks.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just listed",
+            "heading": "New on the market",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all properties",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Kolkata",
+            "description": "",
+            "items": [
+              {
+                "quote": "They valued our flat fairly and found a buyer in three weeks, without any fuss.",
+                "name": "Sudipta & Mita Banerjee",
+                "role": "Sold a flat in Ballygunge",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Buying an old house felt daunting. They checked every document back to 1956.",
+                "name": "Arnab Sen",
+                "role": "Bought a house in Alipore",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Honest advice, even when it meant waiting a little longer for the right home.",
+                "name": "Rina Ghosh",
+                "role": "Bought in Salt Lake",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Home loans arranged with",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Hooghly Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Bengal Home Finance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Eastern Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Howrah Finance",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Buying or selling in Kolkata?",
+            "description": "Talk to us for an honest view of what your home is worth — or what your budget can buy.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse properties",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "Heritage Homes Realty has helped Kolkata families buy and sell resale flats, houses and heritage homes since 1992.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About us",
+            "heading": "Kolkata’s homes, in good hands since 1992",
+            "description": "<p>Heritage Homes Realty opened on Park Street in 1992. Three decades later, we have helped more than 5,400 families buy, sell and rent.</p><p>We specialise in resale and heritage homes, where careful document checks matter most.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "34",
+            "experience_label": "years in Kolkata",
+            "points": [
+              {
+                "text": "Documents checked before viewings"
+              },
+              {
+                "text": "Free valuations for sellers"
+              },
+              {
+                "text": "Mutation and registration handled"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "5400",
+                "suffix": "+",
+                "label": "Homes bought and sold",
+                "icon": ""
+              },
+              {
+                "number": "34",
+                "suffix": "",
+                "label": "Years in Kolkata",
+                "icon": ""
+              },
+              {
+                "number": "140",
+                "suffix": "+",
+                "label": "Heritage homes sold",
+                "icon": ""
+              },
+              {
+                "number": "21",
+                "suffix": " days",
+                "label": "Average time to a buyer",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why Heritage",
+            "heading": "What makes us different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-house-door",
+                "title": "Buy a resale home",
+                "description": "Verified flats and houses, with documents checked before we show them."
+              },
+              {
+                "icon": "bi-currency-rupee",
+                "title": "Sell your property",
+                "description": "Free valuation, professional photos and serious buyers only."
+              },
+              {
+                "icon": "bi-bank2",
+                "title": "Heritage homes",
+                "description": "Specialist advice on heritage-listed and older properties."
+              },
+              {
+                "icon": "bi-key",
+                "title": "Rentals",
+                "description": "Flats and floors for families and companies."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "WBRERA Agent Reg. No. WBRERA/A/KOL/2024/000000 (demo).",
+            "members": [
+              {
+                "name": "Amitabha Roy",
+                "role": "Founder",
+                "bio": "Started the firm on Park Street in 1992.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Sohini Roy",
+                "role": "Director",
+                "bio": "Heritage homes and south Kolkata.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Debasish Mitra",
+                "role": "Senior advisor",
+                "bio": "Salt Lake and New Town.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Ritika Dutta",
+                "role": "Documentation",
+                "bio": "Mutation, registration and loans.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "How we help you buy, sell, rent and invest.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "Buying, selling and renting in Kolkata",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house-door",
+                "title": "Buy a resale home",
+                "description": "Verified flats and houses, with documents checked before we show them.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-currency-rupee",
+                "title": "Sell your property",
+                "description": "Free valuation, professional photos and serious buyers only.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank2",
+                "title": "Heritage homes",
+                "description": "Specialist advice on heritage-listed and older properties.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-key",
+                "title": "Rentals",
+                "description": "Flats and floors for families and companies.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Mutation & registration",
+                "description": "Mutation with KMC or NKDA and registration handled for you.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-bank",
+                "title": "Home loans",
+                "description": "Loans for resale homes from our partner banks.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Simple, from first call to keys",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-chat-dots",
+                "title": "Tell us what you need",
+                "description": "Neighbourhood, size and budget — or what you want to sell."
+              },
+              {
+                "icon": "bi-eye",
+                "title": "Viewings",
+                "description": "Shortlisted homes shown on one or two days."
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "Documents & price",
+                "description": "Title chain, tax and society dues checked; price negotiated."
+              },
+              {
+                "icon": "bi-pen",
+                "title": "Registration & mutation",
+                "description": "Deed registered and mutation completed in your name."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we are often asked",
+            "description": "Can’t find your answer? Call us — we are happy to help.",
+            "items": [
+              {
+                "question": "How do you value my property?",
+                "answer": "We compare recent sales in the same building and neighbourhood, and visit the property before giving a price range."
+              },
+              {
+                "question": "What documents should a seller have?",
+                "answer": "The title deed, mutation certificate, latest tax receipts and, for flats, a society no-dues letter."
+              },
+              {
+                "question": "Are heritage homes harder to buy?",
+                "answer": "Some need permission for changes. We explain the rules for each building before you decide."
+              },
+              {
+                "question": "What do you charge?",
+                "answer": "Our fee is agreed in writing before we start, usually a percentage of the sale price."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Buying or selling in Kolkata?",
+            "description": "Talk to us for an honest view of what your home is worth — or what your budget can buy.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse properties",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "team": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our team",
+            "subheading": "WBRERA Agent Reg. No. WBRERA/A/KOL/2024/000000 (demo).",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "WBRERA Agent Reg. No. WBRERA/A/KOL/2024/000000 (demo).",
+            "members": [
+              {
+                "name": "Amitabha Roy",
+                "role": "Founder",
+                "bio": "Started the firm on Park Street in 1992.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Sohini Roy",
+                "role": "Director",
+                "bio": "Heritage homes and south Kolkata.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Debasish Mitra",
+                "role": "Senior advisor",
+                "bio": "Salt Lake and New Town.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Ritika Dutta",
+                "role": "Documentation",
+                "bio": "Mutation, registration and loans.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Kolkata",
+            "description": "",
+            "items": [
+              {
+                "quote": "They valued our flat fairly and found a buyer in three weeks, without any fuss.",
+                "name": "Sudipta & Mita Banerjee",
+                "role": "Sold a flat in Ballygunge",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Buying an old house felt daunting. They checked every document back to 1956.",
+                "name": "Arnab Sen",
+                "role": "Bought a house in Alipore",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "Honest advice, even when it meant waiting a little longer for the right home.",
+                "name": "Rina Ghosh",
+                "role": "Bought in Salt Lake",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Buying or selling in Kolkata?",
+            "description": "Talk to us for an honest view of what your home is worth — or what your budget can buy.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse properties",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Visit our Kolkata office or send us a message.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Let’s talk about what you are looking for",
+            "description": "Tell us what you need and our team will call you within one working day.",
+            "form_heading": "Request a call back",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how Heritage Homes Realty collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>Heritage Homes Realty is not liable for decisions made only on the basis of information on this website.</p>"
+          }
+        }
+      ]
+    },
+    "disclaimer": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Disclaimer",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the RERA website.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

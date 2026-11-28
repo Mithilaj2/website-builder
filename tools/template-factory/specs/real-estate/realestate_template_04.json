@@ -1,0 +1,64 @@
+{
+  "id": "realestate_template_04",
+  "name": "Meridian Spaces",
+  "prefix": "mrs",
+  "niche": "commercial",
+  "seed": 4,
+  "mood": "dark",
+  "direction": "Corporate dark: floating pill navigation, editorial hero with a space search, graphite and electric lime, Space Grotesk, tinted cards with a price footer, image type tiles.",
+  "description": "A sharp, corporate dark design for commercial brokers, office leasing and coworking: floating navigation, an editorial hero with a space search, image type tiles, cards with rent and a details button, and a timeline.",
+  "theme": {
+    "primary": "#3B82F6",
+    "secondary": "#C6F432",
+    "bg": "#0E1116",
+    "text": "#E6E9EE",
+    "heading_font": "space-grotesk",
+    "body_font": "inter",
+    "radius": "10px",
+    "button_style": "pill"
+  },
+  "variants": {
+    "header": "pill",
+    "hero": "editorial",
+    "banner": "light",
+    "head": "pill",
+    "card": "tint",
+    "listing-card": "classic",
+    "listing_categories": "tiles",
+    "about": "grid",
+    "services": "cards",
+    "stats": "cards",
+    "process": "cards",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "grid",
+    "faq": "split",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "services",
+    "testimonials"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "secondary",
+    "accent_hover": "var(--wb-primary)",
+    "on_accent_hover": "var(--wb-on-primary)",
+    "hl": "var(--wb-secondary)",
+    "link": "var(--wb-secondary)",
+    "icon": "tint",
+    "track": "-.02em",
+    "band": "var(--wb-secondary)",
+    "on_band": "var(--wb-on-secondary)"
+  },
+  "demo": {
+    "featured_heading": "Featured spaces",
+    "header_button": "Arrange a tour",
+    "services_heading": "One partner for your workplace",
+    "testimonials_heading": "Trusted by growing companies"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

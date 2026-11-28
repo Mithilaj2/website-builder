@@ -1,0 +1,1149 @@
+{
+  "settings": {
+    "site": {
+      "name": "HomeHive Rentals",
+      "tagline": "Rentals & property management · Bengaluru",
+      "phone": "+91 80 4719 2200",
+      "email": "rent@homehive.example",
+      "address": "3rd Floor, 80 Feet Road, Koramangala 4th Block\nBengaluru, Karnataka 560034",
+      "hours": "Mon–Sun, 9 am – 8 pm",
+      "footer_about": "HomeHive rents verified homes to families and professionals, and manages 1,100 homes for owners across Bengaluru.",
+      "footer_text": "All rights reserved. K-RERA Agent Reg. No. PRM/KA/RERA/1251/309/AG/000000 (demo).",
+      "header_button": {
+        "text": "List your home",
+        "url": "page:contact"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "linkedin": "https://www.linkedin.com/"
+      }
+    },
+    "seo": {
+      "description": "HomeHive Rentals, Bengaluru: HomeHive rents verified homes to families and professionals, and manages 1,100 homes for owners across Bengaluru.",
+      "keywords": "homes in Bengaluru, real estate Bengaluru, rentals & property management · bengaluru"
+    }
+  },
+  "listings": {
+    "categories": [
+      {
+        "name": "Apartments",
+        "slug": "apartments",
+        "description": "1 to 3 BHK flats in gated communities.",
+        "image": "theme:images/cat-apartments.svg"
+      },
+      {
+        "name": "Independent houses",
+        "slug": "houses",
+        "description": "Houses and floors with terraces in quiet layouts.",
+        "image": "theme:images/cat-houses.svg"
+      },
+      {
+        "name": "Studios",
+        "slug": "studios",
+        "description": "Furnished studios for professionals.",
+        "image": "theme:images/cat-studios.svg"
+      },
+      {
+        "name": "Homes for sale",
+        "slug": "for-sale",
+        "description": "Owner-managed homes now on sale.",
+        "image": "theme:images/cat-for-sale.svg"
+      }
+    ],
+    "items": [
+      {
+        "title": "2 BHK in a gated community, HSR Layout",
+        "slug": "hsr-2bhk",
+        "category": "apartments",
+        "location": "HSR Layout",
+        "price": 3800000,
+        "image": "theme:images/prop-hsr-2bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": 1150,
+          "furnishing": "Semi-furnished",
+          "tenants": "Family",
+          "deposit": "3 months",
+          "floor": "5th of 12",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "HSR Layout market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Bengaluru railway station — 25 min"
+          ]
+        },
+        "short_description": "Bright two-bedroom flat with a balcony facing the garden, a pool and gym in the society, near the 27th Main.",
+        "description": "<h3>Highlights</h3><ul><li>Located in HSR Layout, Bengaluru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Available now",
+        "price_note": "per month"
+      },
+      {
+        "title": "Furnished 3 BHK, Whitefield",
+        "slug": "whitefield-3bhk",
+        "category": "apartments",
+        "location": "Whitefield",
+        "price": 5200000,
+        "image": "theme:images/prop-whitefield-3bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1680,
+          "furnishing": "Fully furnished",
+          "tenants": "Company lease",
+          "deposit": "3 months",
+          "floor": "9th of 20",
+          "parking": 2,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Whitefield market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Bengaluru railway station — 25 min"
+          ]
+        },
+        "short_description": "Fully furnished with appliances, ten minutes from ITPL; ideal for a family or a company lease.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Whitefield, Bengaluru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Fully furnished",
+        "price_note": "per month"
+      },
+      {
+        "title": "Independent house with terrace, Indiranagar",
+        "slug": "indiranagar-house",
+        "category": "houses",
+        "location": "Indiranagar",
+        "price": 9500000,
+        "image": "theme:images/prop-indiranagar-house.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 2400,
+          "furnishing": "Semi-furnished",
+          "tenants": "Family",
+          "deposit": "6 months",
+          "floor": "Ground + 1",
+          "parking": 2,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Indiranagar market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Bengaluru railway station — 25 min"
+          ]
+        },
+        "short_description": "A three-bedroom house with a terrace garden on a tree-lined road off 12th Main.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Indiranagar, Bengaluru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "price_note": "per month"
+      },
+      {
+        "title": "Studio near Koramangala Forum",
+        "slug": "koramangala-studio",
+        "category": "studios",
+        "location": "Koramangala",
+        "price": 2200000,
+        "image": "theme:images/prop-koramangala-studio.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "area": 480,
+          "furnishing": "Fully furnished",
+          "tenants": "Anyone",
+          "deposit": "2 months",
+          "floor": "3rd of 4",
+          "parking": 0,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Koramangala market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Bengaluru railway station — 25 min"
+          ]
+        },
+        "short_description": "A furnished studio with a kitchenette and Wi-Fi, walking distance from the Forum and offices.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Koramangala, Bengaluru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Wi-Fi included",
+        "price_note": "per month"
+      },
+      {
+        "title": "1 BHK, Electronic City Phase 1",
+        "slug": "ecity-1bhk",
+        "category": "apartments",
+        "location": "Electronic City",
+        "price": 1600000,
+        "image": "theme:images/prop-ecity-1bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "area": 640,
+          "furnishing": "Semi-furnished",
+          "tenants": "Bachelors",
+          "deposit": "2 months",
+          "floor": "2nd of 10",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Electronic City market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Bengaluru railway station — 25 min"
+          ]
+        },
+        "short_description": "Compact 1 BHK close to Infosys gate and the elevated tollway, with power backup and security.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Electronic City, Bengaluru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "price_note": "per month"
+      },
+      {
+        "title": "3 BHK for sale, Sarjapur Road",
+        "slug": "sarjapur-3bhk-sale",
+        "category": "for-sale",
+        "location": "Sarjapur Road",
+        "price": 1650000000,
+        "image": "theme:images/prop-sarjapur-3bhk-sale.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Sale",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": 1720,
+          "furnishing": "Semi-furnished",
+          "floor": "14th of 18",
+          "parking": 2,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Sarjapur Road market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Bengaluru railway station — 25 min"
+          ]
+        },
+        "short_description": "An owner-managed 3 BHK on a high floor with an open view; currently rented, so it can be bought as an investment.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Sarjapur Road, Bengaluru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": true,
+        "status": "active",
+        "badge": "Investor pick"
+      },
+      {
+        "title": "2 BHK, Bellandur lake view",
+        "slug": "bellandur-2bhk",
+        "category": "apartments",
+        "location": "Bellandur",
+        "price": 4100000,
+        "image": "theme:images/prop-bellandur-2bhk.svg",
+        "gallery": [
+          "theme:images/room-living.svg",
+          "theme:images/room-kitchen.svg",
+          "theme:images/room-bedroom.svg",
+          "theme:images/room-balcony.svg",
+          "theme:images/room-bath.svg"
+        ],
+        "attributes": {
+          "listing_for": "Rent",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": 1240,
+          "furnishing": "Semi-furnished",
+          "tenants": "Family",
+          "deposit": "3 months",
+          "floor": "11th of 15",
+          "parking": 1,
+          "amenities": [
+            "Swimming pool",
+            "Clubhouse & gym",
+            "24×7 security with CCTV",
+            "Power backup",
+            "Children's play area",
+            "Covered car parking",
+            "Rainwater harvesting",
+            "Landscaped garden"
+          ],
+          "nearby": [
+            "Bellandur market — 5 min",
+            "School — 8 min",
+            "Hospital — 10 min",
+            "Bengaluru railway station — 25 min"
+          ]
+        },
+        "short_description": "Let to a family in November.",
+        "description": "<h3>Highlights</h3><ul><li>Located in Bellandur, Bengaluru</li><li>Documents verified by our team</li><li>Viewings on weekdays and weekends</li></ul><p>Registration, stamp duty and society charges are extra where applicable. Speak to our team for the full cost sheet.</p>",
+        "featured": false,
+        "status": "closed",
+        "price_note": "per month"
+      }
+    ]
+  },
+  "pages": {
+    "": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "hero",
+          "data": {
+            "eyebrow": "Verified rentals · zero brokerage for tenants",
+            "heading": "Rent a home you’ll love coming back to",
+            "subheading": "Verified, well-kept flats and independent houses in Koramangala, HSR Layout, Whitefield and Indiranagar — with repairs handled by us.",
+            "image": "theme:images/hero.svg",
+            "background_image": "",
+            "primary_button": {
+              "text": "",
+              "url": ""
+            },
+            "secondary_button": {
+              "text": "",
+              "url": ""
+            },
+            "highlights": [
+              {
+                "icon": "bi-patch-check",
+                "text": "Every home inspected before listing"
+              },
+              {
+                "icon": "bi-camera-video",
+                "text": "Online rent agreement in a day"
+              },
+              {
+                "icon": "bi-bank",
+                "text": "Repairs within 48 hours"
+              }
+            ]
+          }
+        },
+        {
+          "type": "listing_categories",
+          "data": {
+            "eyebrow": "Explore",
+            "heading": "Find your kind of home",
+            "description": "",
+            "limit": 4,
+            "show_counts": true
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Handpicked",
+            "heading": "Homes available to rent",
+            "description": "",
+            "source": "featured",
+            "category": "",
+            "limit": 6,
+            "button": {
+              "text": "View all homes",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About HomeHive",
+            "heading": "Renting in Bengaluru, without the stress",
+            "description": "<p>HomeHive started in 2016 with 12 flats in Koramangala. Today we manage more than 1,100 homes for owners across the city.</p><p>Tenants get verified homes and quick repairs; owners get reliable rent and a home that is looked after.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "10",
+            "experience_label": "years in Bengaluru",
+            "points": [
+              {
+                "text": "Zero brokerage for tenants"
+              },
+              {
+                "text": "Repairs within 48 hours"
+              },
+              {
+                "text": "Monthly owner statements"
+              }
+            ],
+            "button": {
+              "text": "About us",
+              "url": "page:about"
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1100",
+                "suffix": "+",
+                "label": "Homes managed",
+                "icon": ""
+              },
+              {
+                "number": "4800",
+                "suffix": "+",
+                "label": "Tenants housed",
+                "icon": ""
+              },
+              {
+                "number": "48",
+                "suffix": " hrs",
+                "label": "Average repair time",
+                "icon": ""
+              },
+              {
+                "number": "4.7",
+                "suffix": "/5",
+                "label": "Tenant rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "For tenants and owners",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house-check",
+                "title": "Verified rentals",
+                "description": "Every home inspected, photographed and documented before it is listed.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-person-badge",
+                "title": "Tenant screening",
+                "description": "ID, employment and reference checks for owners.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Online agreements",
+                "description": "Stamped rent agreements and police verification in a day.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Repairs & upkeep",
+                "description": "Plumbers, electricians and painters on call, with repairs within 48 hours.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-wallet2",
+                "title": "Rent collection",
+                "description": "Monthly rent collected and paid out with a statement.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-box-arrow-right",
+                "title": "Move-out & deposit",
+                "description": "Joint inspection and a fair, documented deposit refund.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "listings",
+          "data": {
+            "eyebrow": "Just listed",
+            "heading": "New on the market",
+            "description": "",
+            "source": "new",
+            "category": "",
+            "limit": 3,
+            "button": {
+              "text": "See all homes",
+              "url": "page:listings"
+            }
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Bengaluru",
+            "description": "",
+            "items": [
+              {
+                "quote": "We moved from Delhi without seeing the flat in person — the video tour and agreement were done in two days.",
+                "name": "Aditi & Karan Verma",
+                "role": "Renting in Whitefield",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "HomeHive manages my two flats while I am in the US. Rent arrives on the 5th, every month.",
+                "name": "Srinivas Rao",
+                "role": "Owner, HSR Layout",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The geyser broke on a Sunday and was replaced on Monday morning.",
+                "name": "Meera Iyer",
+                "role": "Tenant, Koramangala",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "logos",
+          "data": {
+            "heading": "Home loans arranged with",
+            "items": [
+              {
+                "image": "theme:images/logo-1.svg",
+                "name": "Garden City Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-2.svg",
+                "name": "Bengaluru Housing Finance",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-3.svg",
+                "name": "Unity Bank",
+                "url": ""
+              },
+              {
+                "image": "theme:images/logo-4.svg",
+                "name": "Lalbagh Finance",
+                "url": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Own a home in Bengaluru?",
+            "description": "Let HomeHive find a tenant and look after it. Most homes are let within 21 days.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse homes",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "about": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "About us",
+            "subheading": "HomeHive rents verified homes to families and professionals, and manages 1,100 homes for owners across Bengaluru.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "about",
+          "data": {
+            "eyebrow": "About HomeHive",
+            "heading": "Renting in Bengaluru, without the stress",
+            "description": "<p>HomeHive started in 2016 with 12 flats in Koramangala. Today we manage more than 1,100 homes for owners across the city.</p><p>Tenants get verified homes and quick repairs; owners get reliable rent and a home that is looked after.</p>",
+            "image": "theme:images/about-1.svg",
+            "image_2": "theme:images/about-2.svg",
+            "experience_number": "10",
+            "experience_label": "years in Bengaluru",
+            "points": [
+              {
+                "text": "Zero brokerage for tenants"
+              },
+              {
+                "text": "Repairs within 48 hours"
+              },
+              {
+                "text": "Monthly owner statements"
+              }
+            ],
+            "button": {
+              "text": "",
+              "url": ""
+            }
+          }
+        },
+        {
+          "type": "stats",
+          "data": {
+            "heading": "",
+            "items": [
+              {
+                "number": "1100",
+                "suffix": "+",
+                "label": "Homes managed",
+                "icon": ""
+              },
+              {
+                "number": "4800",
+                "suffix": "+",
+                "label": "Tenants housed",
+                "icon": ""
+              },
+              {
+                "number": "48",
+                "suffix": " hrs",
+                "label": "Average repair time",
+                "icon": ""
+              },
+              {
+                "number": "4.7",
+                "suffix": "/5",
+                "label": "Tenant rating",
+                "icon": ""
+              }
+            ]
+          }
+        },
+        {
+          "type": "features",
+          "data": {
+            "eyebrow": "Why HomeHive",
+            "heading": "What makes us different",
+            "description": "",
+            "image": "",
+            "items": [
+              {
+                "icon": "bi-house-check",
+                "title": "Verified rentals",
+                "description": "Every home inspected, photographed and documented before it is listed."
+              },
+              {
+                "icon": "bi-person-badge",
+                "title": "Tenant screening",
+                "description": "ID, employment and reference checks for owners."
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Online agreements",
+                "description": "Stamped rent agreements and police verification in a day."
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Repairs & upkeep",
+                "description": "Plumbers, electricians and painters on call, with repairs within 48 hours."
+              }
+            ]
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "K-RERA Agent Reg. No. PRM/KA/RERA/1251/309/AG/000000 (demo).",
+            "members": [
+              {
+                "name": "Rahul Menon",
+                "role": "Co-founder",
+                "bio": "Started HomeHive in 2016 after a bad rental experience of his own.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Divya Krishnan",
+                "role": "Co-founder, Operations",
+                "bio": "Runs the maintenance and inspection teams.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Imran Sheikh",
+                "role": "Leasing manager — East",
+                "bio": "Whitefield, Marathahalli and Bellandur.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Ananya Reddy",
+                "role": "Owner relations",
+                "bio": "Looks after 400 owners living abroad.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "services": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Services",
+            "subheading": "How we help you buy, sell, rent and invest.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "services",
+          "data": {
+            "eyebrow": "What we do",
+            "heading": "For tenants and owners",
+            "description": "",
+            "columns": "3",
+            "items": [
+              {
+                "icon": "bi-house-check",
+                "title": "Verified rentals",
+                "description": "Every home inspected, photographed and documented before it is listed.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-person-badge",
+                "title": "Tenant screening",
+                "description": "ID, employment and reference checks for owners.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-file-earmark-text",
+                "title": "Online agreements",
+                "description": "Stamped rent agreements and police verification in a day.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-tools",
+                "title": "Repairs & upkeep",
+                "description": "Plumbers, electricians and painters on call, with repairs within 48 hours.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-wallet2",
+                "title": "Rent collection",
+                "description": "Monthly rent collected and paid out with a statement.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              },
+              {
+                "icon": "bi-box-arrow-right",
+                "title": "Move-out & deposit",
+                "description": "Joint inspection and a fair, documented deposit refund.",
+                "image": "",
+                "link": {
+                  "text": "",
+                  "url": ""
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "process",
+          "data": {
+            "eyebrow": "How it works",
+            "heading": "Simple, from first call to keys",
+            "description": "",
+            "steps": [
+              {
+                "icon": "bi-search",
+                "title": "Find a home",
+                "description": "Filter verified homes by locality, size and budget."
+              },
+              {
+                "icon": "bi-eye",
+                "title": "View it",
+                "description": "A HomeHive manager shows you the home — weekdays or weekends."
+              },
+              {
+                "icon": "bi-file-earmark-check",
+                "title": "Sign online",
+                "description": "Agreement, deposit and police verification online."
+              },
+              {
+                "icon": "bi-truck",
+                "title": "Move in",
+                "description": "Deep-cleaned home and a move-in inspection report."
+              }
+            ]
+          }
+        },
+        {
+          "type": "faq",
+          "data": {
+            "eyebrow": "FAQ",
+            "heading": "Questions we are often asked",
+            "description": "Can’t find your answer? Call us — we are happy to help.",
+            "items": [
+              {
+                "question": "Do tenants pay brokerage?",
+                "answer": "No. Tenants pay no brokerage; owners pay a management fee."
+              },
+              {
+                "question": "How much is the security deposit?",
+                "answer": "Usually two to three months’ rent for flats, more for independent houses; it is shown on each listing."
+              },
+              {
+                "question": "Who handles repairs?",
+                "answer": "Our maintenance team. Raise a request in the app or by phone and we fix it within 48 hours."
+              },
+              {
+                "question": "Can companies lease homes for employees?",
+                "answer": "Yes, we offer company leases with monthly invoices."
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Own a home in Bengaluru?",
+            "description": "Let HomeHive find a tenant and look after it. Most homes are let within 21 days.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse homes",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "team": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Our team",
+            "subheading": "K-RERA Agent Reg. No. PRM/KA/RERA/1251/309/AG/000000 (demo).",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "team",
+          "data": {
+            "eyebrow": "Our team",
+            "heading": "The people who will help you",
+            "description": "K-RERA Agent Reg. No. PRM/KA/RERA/1251/309/AG/000000 (demo).",
+            "members": [
+              {
+                "name": "Rahul Menon",
+                "role": "Co-founder",
+                "bio": "Started HomeHive in 2016 after a bad rental experience of his own.",
+                "photo": "theme:images/agent-1.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Divya Krishnan",
+                "role": "Co-founder, Operations",
+                "bio": "Runs the maintenance and inspection teams.",
+                "photo": "theme:images/agent-2.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Imran Sheikh",
+                "role": "Leasing manager — East",
+                "bio": "Whitefield, Marathahalli and Bellandur.",
+                "photo": "theme:images/agent-3.svg",
+                "linkedin": "https://www.linkedin.com/"
+              },
+              {
+                "name": "Ananya Reddy",
+                "role": "Owner relations",
+                "bio": "Looks after 400 owners living abroad.",
+                "photo": "theme:images/agent-4.svg",
+                "linkedin": "https://www.linkedin.com/"
+              }
+            ]
+          }
+        },
+        {
+          "type": "testimonials",
+          "data": {
+            "eyebrow": "Client stories",
+            "heading": "Trusted across Bengaluru",
+            "description": "",
+            "items": [
+              {
+                "quote": "We moved from Delhi without seeing the flat in person — the video tour and agreement were done in two days.",
+                "name": "Aditi & Karan Verma",
+                "role": "Renting in Whitefield",
+                "photo": "theme:images/customer-1.svg",
+                "rating": 5
+              },
+              {
+                "quote": "HomeHive manages my two flats while I am in the US. Rent arrives on the 5th, every month.",
+                "name": "Srinivas Rao",
+                "role": "Owner, HSR Layout",
+                "photo": "theme:images/customer-2.svg",
+                "rating": 5
+              },
+              {
+                "quote": "The geyser broke on a Sunday and was replaced on Monday morning.",
+                "name": "Meera Iyer",
+                "role": "Tenant, Koramangala",
+                "photo": "theme:images/customer-3.svg",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "type": "cta",
+          "data": {
+            "heading": "Own a home in Bengaluru?",
+            "description": "Let HomeHive find a tenant and look after it. Most homes are let within 21 days.",
+            "background_image": "theme:images/cta.svg",
+            "button": {
+              "text": "Talk to us",
+              "url": "page:contact"
+            },
+            "secondary_button": {
+              "text": "Browse homes",
+              "url": "page:listings"
+            }
+          }
+        }
+      ]
+    },
+    "contact": {
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Contact",
+            "subheading": "Visit our Bengaluru office or send us a message.",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "contact",
+          "data": {
+            "eyebrow": "Get in touch",
+            "heading": "Let’s talk about what you are looking for",
+            "description": "Tell us what you need and our team will call you within one working day.",
+            "form_heading": "Request a call back",
+            "show_form": true,
+            "show_details": true,
+            "map_url": ""
+          }
+        }
+      ]
+    },
+    "privacy-policy": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Privacy Policy",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>This policy explains how HomeHive Rentals collects, uses and protects the personal information you share through this website.</p><h3>Information we collect</h3><p>When you send an enquiry or request a site visit we collect your name, phone number, email address and the details you provide, such as the property you are interested in.</p><h3>How we use it</h3><p>We use your details only to respond to your enquiry, arrange visits and share relevant properties. We do not sell your information. We may share it with the builder or owner of a property you ask about, only to arrange a visit.</p><h3>Your choices</h3><p>You can ask us to correct or delete your information at any time by writing to the email address on our contact page.</p>"
+          }
+        }
+      ]
+    },
+    "terms-and-conditions": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Terms and Conditions",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>By using this website you agree to these terms.</p><h3>Listings</h3><p>Property details, prices and availability are provided by owners and builders and may change without notice. Please verify all details before making a decision.</p><h3>Fees</h3><p>Where a brokerage fee applies, it is agreed in writing before any site visit.</p><h3>Liability</h3><p>HomeHive Rentals is not liable for decisions made only on the basis of information on this website.</p>"
+          }
+        }
+      ]
+    },
+    "disclaimer": {
+      "seo_title": "",
+      "sections": [
+        {
+          "type": "page_banner",
+          "data": {
+            "heading": "Disclaimer",
+            "subheading": "",
+            "background_image": "theme:images/banner.svg"
+          }
+        },
+        {
+          "type": "rich_text",
+          "data": {
+            "heading": "",
+            "width": "narrow",
+            "content": "<p>The images on this website are illustrations and may not represent the actual property.</p><p>Prices exclude stamp duty, registration charges, GST and other statutory charges unless stated. RERA registration numbers are shown where applicable; buyers should verify them on the RERA website.</p>"
+          }
+        }
+      ]
+    }
+  }
+}

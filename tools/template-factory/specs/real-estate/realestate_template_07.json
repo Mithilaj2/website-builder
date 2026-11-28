@@ -1,0 +1,66 @@
+{
+  "id": "realestate_template_07",
+  "name": "Backwater Residences",
+  "prefix": "bwr",
+  "niche": "nri",
+  "seed": 7,
+  "direction": "Calm waterfront premium: centred masthead, split hero with a search, lagoon blue and coral on mist, DM Serif headings, hairline cards with the price on the photo, image type cards.",
+  "description": "A calm, premium waterfront design for apartment developers and NRI-focused brokers: centred masthead, a split hero with a property search, type cards, cards with the price on the photo and an NRI services section.",
+  "theme": {
+    "primary": "#155E75",
+    "secondary": "#F07E62",
+    "bg": "#F6FAFB",
+    "text": "#14262E",
+    "heading_font": "dm-serif-display",
+    "body_font": "dm-sans",
+    "radius": "16px",
+    "button_style": "solid"
+  },
+  "variants": {
+    "header": "center",
+    "hero": "split",
+    "banner": "image",
+    "head": "serif",
+    "card": "line",
+    "listing-card": "photo",
+    "listing_categories": "cards",
+    "about": "layered",
+    "services": "rows",
+    "stats": "inline",
+    "process": "line",
+    "testimonials": "featured",
+    "cta": "band",
+    "team": "cards",
+    "gallery": "masonry",
+    "faq": "center",
+    "logos": "strip",
+    "footer": "centered"
+  },
+  "surface": [
+    "testimonials",
+    "process"
+  ],
+  "footer_style": "dark",
+  "tokens": {
+    "accent": "primary",
+    "accent_hover": "var(--wb-secondary)",
+    "on_accent_hover": "var(--wb-on-secondary)",
+    "hl": "color-mix(in srgb, var(--wb-secondary) 75%, #000)",
+    "icon": "soft",
+    "icon_radius": "50%",
+    "heading_weight": 400,
+    "hero_weight": 400,
+    "track": "0",
+    "hero_scale": 1.05,
+    "card": "#FFFFFF",
+    "band": "var(--wb-primary)",
+    "on_band": "var(--wb-on-primary)"
+  },
+  "demo": {
+    "featured_heading": "Featured residences",
+    "header_button": "Book a video tour",
+    "services_heading": "Owning from abroad, made simple"
+  },
+  "category": "real-estate",
+  "version": "1.0.0"
+}

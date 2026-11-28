@@ -1,0 +1,304 @@
+{
+  "id": "realestate_template_10",
+  "name": "Heritage Homes Realty",
+  "category": "real-estate",
+  "version": "1.0.0",
+  "description": "A refined, old-world design for resale specialists and heritage brokers: centred masthead, an editorial hero with a property search, image type tiles, cards with the price and a details button, and a light footer.",
+  "libraries": [
+    "bootstrap",
+    "bootstrap-icons"
+  ],
+  "features": [
+    "contact"
+  ],
+  "optional_features": [
+    "payments"
+  ],
+  "theme": {
+    "defaults": {
+      "primary": "#6B1F2A",
+      "secondary": "#B08D57",
+      "bg": "#FAF6EE",
+      "text": "#241A18",
+      "heading_font": "playfair-display",
+      "body_font": "lora",
+      "radius": "4px",
+      "button_style": "sharp",
+      "header_style": "sticky",
+      "footer_style": "light"
+    },
+    "header_styles": {
+      "sticky": "Sticky",
+      "static": "Scrolls with the page"
+    },
+    "footer_styles": {
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "section_types": [
+    "hero",
+    "page_banner",
+    "about",
+    "services",
+    "features",
+    "stats",
+    "testimonials",
+    "gallery",
+    "team",
+    "faq",
+    "cta",
+    "contact",
+    "logos",
+    "rich_text",
+    "process",
+    "listings",
+    "listing_categories"
+  ],
+  "page_types": {
+    "home": {
+      "default_sections": [
+        "hero",
+        "listing_categories",
+        "listings",
+        "about",
+        "stats",
+        "services",
+        "listings",
+        "testimonials",
+        "logos",
+        "cta"
+      ]
+    },
+    "about": {
+      "default_sections": [
+        "page_banner",
+        "about",
+        "stats",
+        "features",
+        "team"
+      ]
+    },
+    "services": {
+      "default_sections": [
+        "page_banner",
+        "services",
+        "process",
+        "faq",
+        "cta"
+      ]
+    },
+    "team": {
+      "default_sections": [
+        "page_banner",
+        "team",
+        "testimonials",
+        "cta"
+      ]
+    },
+    "contact": {
+      "default_sections": [
+        "page_banner",
+        "contact"
+      ]
+    },
+    "legal": {
+      "default_sections": [
+        "page_banner",
+        "rich_text"
+      ]
+    },
+    "generic": {
+      "default_sections": [
+        "page_banner",
+        "rich_text",
+        "cta"
+      ]
+    }
+  },
+  "default_pages": [
+    {
+      "title": "Home",
+      "slug": "",
+      "type": "home",
+      "is_home": true
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "type": "about"
+    },
+    {
+      "title": "Services",
+      "slug": "services",
+      "type": "services"
+    },
+    {
+      "title": "Team",
+      "slug": "team",
+      "type": "team"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "type": "contact"
+    },
+    {
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Terms and Conditions",
+      "slug": "terms-and-conditions",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    },
+    {
+      "title": "Disclaimer",
+      "slug": "disclaimer",
+      "type": "legal",
+      "in_menu": false,
+      "in_footer": true
+    }
+  ],
+  "listings": {
+    "path": "properties",
+    "singular": "Property",
+    "plural": "Properties",
+    "menu_label": "Properties",
+    "icon": "bi-buildings",
+    "category_label": "Property type",
+    "location_label": "Neighbourhood",
+    "price_label": "Price",
+    "price_format": "lakh",
+    "price_notes": [
+      "onwards",
+      "per month",
+      "per night",
+      "per acre",
+      "negotiable",
+      "all inclusive"
+    ],
+    "closed_label": "Sold",
+    "attributes": [
+      {
+        "key": "listing_for",
+        "label": "Available for",
+        "type": "select",
+        "options": [
+          "Sale",
+          "Rent"
+        ],
+        "filter": true,
+        "icon": "bi-tag"
+      },
+      {
+        "key": "bedrooms",
+        "label": "Bedrooms",
+        "type": "number",
+        "suffix": "BHK",
+        "filter": true,
+        "card": true,
+        "icon": "bi-door-closed"
+      },
+      {
+        "key": "bathrooms",
+        "label": "Bathrooms",
+        "type": "number",
+        "suffix": "Baths",
+        "card": true,
+        "icon": "bi-droplet"
+      },
+      {
+        "key": "area",
+        "label": "Built-up area",
+        "type": "number",
+        "suffix": "sq ft",
+        "card": true,
+        "icon": "bi-bounding-box"
+      },
+      {
+        "key": "possession",
+        "label": "Possession",
+        "type": "select",
+        "options": [
+          "Ready to move",
+          "Under construction",
+          "New launch"
+        ],
+        "filter": true,
+        "icon": "bi-calendar-check"
+      },
+      {
+        "key": "furnishing",
+        "label": "Furnishing",
+        "type": "select",
+        "options": [
+          "Unfurnished",
+          "Semi-furnished",
+          "Fully furnished"
+        ],
+        "filter": true,
+        "icon": "bi-lamp"
+      },
+      {
+        "key": "facing",
+        "label": "Facing",
+        "type": "select",
+        "options": [
+          "East",
+          "West",
+          "North",
+          "South",
+          "North-East",
+          "North-West",
+          "South-East",
+          "South-West"
+        ],
+        "icon": "bi-compass"
+      },
+      {
+        "key": "floor",
+        "label": "Floor",
+        "type": "text",
+        "icon": "bi-layers",
+        "help": "e.g. 7th of 14"
+      },
+      {
+        "key": "parking",
+        "label": "Car parking",
+        "type": "number",
+        "icon": "bi-p-circle"
+      },
+      {
+        "key": "amenities",
+        "label": "Amenities",
+        "type": "list",
+        "icon": "bi-stars"
+      },
+      {
+        "key": "nearby",
+        "label": "Nearby",
+        "type": "list",
+        "icon": "bi-geo"
+      }
+    ],
+    "enquiry": {
+      "heading": "Arrange a viewing",
+      "button": "Request a viewing",
+      "date_label": "Preferred viewing date",
+      "select_label": "I want to",
+      "select_options": [
+        "Buy",
+        "Rent",
+        "Sell my property",
+        "Get a valuation"
+      ],
+      "success": "Thank you! One of our advisors will call you within one working day."
+    }
+  }
+}
